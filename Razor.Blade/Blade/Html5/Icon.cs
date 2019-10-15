@@ -10,6 +10,14 @@ namespace Connect.Razor.Blade.Html5
         internal const string RelShortcut = "shortcut icon";
         internal const string RelApple = "apple-touch-icon";
 
+        /// <summary>
+        /// Generate an icon 
+        /// </summary>
+        /// <param name="path">path to the icon</param>
+        /// <param name="rel">relationship term like 'icon' or 'shortcut icon'</param>
+        /// <param name="size">size parameter</param>
+        /// <param name="type">mime type</param>
+        /// <returns></returns>
         public Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
         {
             // override empty attributes

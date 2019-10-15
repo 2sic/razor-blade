@@ -2,12 +2,15 @@
 
 namespace Connect.Razor.Blade.Html5
 {
+    /// <summary>
+    /// Special tag for generating JsonLd markup
+    /// </summary>
     public class ScriptJsonLd : Script
     {
         /// <summary>
-        /// Create a JsonLd Script-Tag
+        /// Create a JsonLd Script-Tag 
         /// </summary>
-        /// <param name="content"></param>
+        /// <param name="content">the contents in the tag</param>
         public ScriptJsonLd(string content)
         {
             Type("application/ld+json");
@@ -17,7 +20,7 @@ namespace Connect.Razor.Blade.Html5
         /// <summary>
         /// Create a JsonLd Script tag and automatically json-serialize the object inside it
         /// </summary>
-        /// <param name="content"></param>
+        /// <param name="content">an object which will be json serialized</param>
         public ScriptJsonLd(object content)
             : this(Html.ToJsonOrErrorMessage(content)) {}
     }

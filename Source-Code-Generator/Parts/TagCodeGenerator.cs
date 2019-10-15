@@ -28,7 +28,7 @@ namespace SourceCodeGenerator.Parts
 
         public string Comment => $@"
   /// <summary>
-  /// Generate a standard {TagName} tag
+  /// Generate a standard HTML5 &lt;{TagName}&gt; tag
   /// </summary>
 ";
 
@@ -40,11 +40,20 @@ namespace SourceCodeGenerator.Parts
 }}";
 
         public string Constructor => $@"
-  public {ClassName}({ConstructorParameters}) : {BaseCall}
+  /// <summary>
+  /// Generate an &lt;{TagName}&gt; tag with optional contents
+  /// </summary>
+  {(Standalone ? "" : @"/// <param name=""content"">content which will be inside the tag</param>")}
+  public {ClassName
+    }({ConstructorParameters}) : {BaseCall}
   {{
   }}";
 
         public string ConstructorWithParams => $@"
+  /// <summary>
+  /// Generate an &lt;{TagName}&gt; tag with optional contents
+  /// </summary>
+  /// <param name=""content"">list of objects (strings, tags) which will be inside the tag</param>
   public {ClassName}(params object[] content) : base(""{TagName}""{TagOptionsWithExplicitNull}, content)
   {{
   }}";

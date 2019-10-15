@@ -49,7 +49,13 @@ namespace SourceCodeGenerator.Parts
         }
 
         private string Method(TagCodeGenerator tag, string valueType) => 
-            $"{Method(tag.ClassName)}({valueType} value) => this.Attr(\"{Key}\", value{GetSeparator()});";
+            $@"
+  /// <summary>
+  /// Set the {Key} attribute on the &lt;{tag.TagName}&gt; tag
+  /// </summary>
+  /// <param name=""value"">what should be {Key} attribute</param>
+  /// <returns>a {tag.ClassName} object to enable fluid command chaining</returns>
+  {Method(tag.ClassName)}({valueType} value) => this.Attr(""{Key}"", value{GetSeparator()});";
 
         private string MethodString(TagCodeGenerator tag) => Method(tag, DefaultType);
 
@@ -60,13 +66,25 @@ namespace SourceCodeGenerator.Parts
 
         private string CodeForBooleanAttribute(TagCodeGenerator tag) =>
             IsBooleanAttribute()
-                ? $"{Method(tag.ClassName)}() => this.Attr(\"{Key}\");"
+                ? $@"
+  /// <summary>
+  /// Activate the {Key} attribute on the &lt;{tag.TagName}&gt; tag
+  /// </summary>
+  /// <returns>a {tag.ClassName} object to enable fluid command chaining</returns>
+  {Method(tag.ClassName)}() => this.Attr(""{Key}"");"
                 : null;
 
         private string CodeForSrcSetAttribute(TagCodeGenerator tag) =>
             Key != "srcset"
                 ? null
-                : $"{Method(tag.ClassName)}(int multiplier, string name) => {Name}(name + \" \" + multiplier + (multiplier > 8 ? \"w\" : \"x\"));";
+                : $@"
+  /// <summary>
+  /// Add another name/number pair to the {Key} attribute on the &lt;{tag.TagName}&gt; tag
+  /// </summary>
+  /// <param name=""name"">image name</param>
+  /// <param name=""multiplier"">what the images is for - numbers below 8 are used for resolution densities, larger numbers for pixel widths</param>  
+  /// <returns>a {tag.ClassName} object to enable fluid command chaining</returns>
+  {Method(tag.ClassName)}(string name, int multiplier) => {Name}(name + "" "" + multiplier + (multiplier > 8 ? ""w"" : ""x""));";
 
 
         /// <summary>

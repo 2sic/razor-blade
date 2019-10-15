@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 15.10.2019 10:17
+// Created 16.10.2019 00:54
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -19,15 +19,23 @@ namespace Connect.Razor.Blade.Html5
 {
 
   /// <summary>
-  /// Generate a standard br tag
+  /// Generate a standard HTML5 &lt;br&gt; tag
   /// </summary>
 public partial class Br : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;br&gt; tag with optional contents
+  /// </summary>
+  
   public Br() : base("br", new TagOptions { Close = false })
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;br&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Br(params object[] content) : base("br", new TagOptions { Close = false }, content)
   {
   }
@@ -35,15 +43,23 @@ public partial class Br : Tag
 }
 
   /// <summary>
-  /// Generate a standard dd tag
+  /// Generate a standard HTML5 &lt;dd&gt; tag
   /// </summary>
 public partial class Dd : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;dd&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public Dd(object content = null) : base("dd", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;dd&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Dd(params object[] content) : base("dd", null, content)
   {
   }
@@ -51,15 +67,23 @@ public partial class Dd : Tag
 }
 
   /// <summary>
-  /// Generate a standard dl tag
+  /// Generate a standard HTML5 &lt;dl&gt; tag
   /// </summary>
 public partial class Dl : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;dl&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public Dl(object content = null) : base("dl", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;dl&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Dl(params object[] content) : base("dl", null, content)
   {
   }
@@ -67,15 +91,23 @@ public partial class Dl : Tag
 }
 
   /// <summary>
-  /// Generate a standard dt tag
+  /// Generate a standard HTML5 &lt;dt&gt; tag
   /// </summary>
 public partial class Dt : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;dt&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public Dt(object content = null) : base("dt", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;dt&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Dt(params object[] content) : base("dt", null, content)
   {
   }
@@ -83,15 +115,23 @@ public partial class Dt : Tag
 }
 
   /// <summary>
-  /// Generate a standard h1 tag
+  /// Generate a standard HTML5 &lt;h1&gt; tag
   /// </summary>
 public partial class H1 : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;h1&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public H1(object content = null) : base("h1", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;h1&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public H1(params object[] content) : base("h1", null, content)
   {
   }
@@ -99,15 +139,23 @@ public partial class H1 : Tag
 }
 
   /// <summary>
-  /// Generate a standard h2 tag
+  /// Generate a standard HTML5 &lt;h2&gt; tag
   /// </summary>
 public partial class H2 : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;h2&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public H2(object content = null) : base("h2", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;h2&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public H2(params object[] content) : base("h2", null, content)
   {
   }
@@ -115,15 +163,23 @@ public partial class H2 : Tag
 }
 
   /// <summary>
-  /// Generate a standard h3 tag
+  /// Generate a standard HTML5 &lt;h3&gt; tag
   /// </summary>
 public partial class H3 : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;h3&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public H3(object content = null) : base("h3", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;h3&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public H3(params object[] content) : base("h3", null, content)
   {
   }
@@ -131,15 +187,23 @@ public partial class H3 : Tag
 }
 
   /// <summary>
-  /// Generate a standard h4 tag
+  /// Generate a standard HTML5 &lt;h4&gt; tag
   /// </summary>
 public partial class H4 : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;h4&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public H4(object content = null) : base("h4", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;h4&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public H4(params object[] content) : base("h4", null, content)
   {
   }
@@ -147,15 +211,23 @@ public partial class H4 : Tag
 }
 
   /// <summary>
-  /// Generate a standard h5 tag
+  /// Generate a standard HTML5 &lt;h5&gt; tag
   /// </summary>
 public partial class H5 : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;h5&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public H5(object content = null) : base("h5", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;h5&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public H5(params object[] content) : base("h5", null, content)
   {
   }
@@ -163,15 +235,23 @@ public partial class H5 : Tag
 }
 
   /// <summary>
-  /// Generate a standard h6 tag
+  /// Generate a standard HTML5 &lt;h6&gt; tag
   /// </summary>
 public partial class H6 : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;h6&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public H6(object content = null) : base("h6", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;h6&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public H6(params object[] content) : base("h6", null, content)
   {
   }
@@ -179,15 +259,23 @@ public partial class H6 : Tag
 }
 
   /// <summary>
-  /// Generate a standard hr tag
+  /// Generate a standard HTML5 &lt;hr&gt; tag
   /// </summary>
 public partial class Hr : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;hr&gt; tag with optional contents
+  /// </summary>
+  
   public Hr() : base("hr", new TagOptions { Close = false })
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;hr&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Hr(params object[] content) : base("hr", new TagOptions { Close = false }, content)
   {
   }
@@ -195,15 +283,23 @@ public partial class Hr : Tag
 }
 
   /// <summary>
-  /// Generate a standard li tag
+  /// Generate a standard HTML5 &lt;li&gt; tag
   /// </summary>
 public partial class Li : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;li&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public Li(object content = null) : base("li", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;li&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Li(params object[] content) : base("li", null, content)
   {
   }
@@ -211,15 +307,23 @@ public partial class Li : Tag
 }
 
   /// <summary>
-  /// Generate a standard ol tag
+  /// Generate a standard HTML5 &lt;ol&gt; tag
   /// </summary>
 public partial class Ol : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;ol&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public Ol(object content = null) : base("ol", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;ol&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Ol(params object[] content) : base("ol", null, content)
   {
   }
@@ -227,15 +331,23 @@ public partial class Ol : Tag
 }
 
   /// <summary>
-  /// Generate a standard p tag
+  /// Generate a standard HTML5 &lt;p&gt; tag
   /// </summary>
 public partial class P : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;p&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public P(object content = null) : base("p", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;p&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public P(params object[] content) : base("p", null, content)
   {
   }
@@ -243,15 +355,23 @@ public partial class P : Tag
 }
 
   /// <summary>
-  /// Generate a standard ul tag
+  /// Generate a standard HTML5 &lt;ul&gt; tag
   /// </summary>
 public partial class Ul : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;ul&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">content which will be inside the tag</param>
   public Ul(object content = null) : base("ul", content)
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;ul&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Ul(params object[] content) : base("ul", null, content)
   {
   }
@@ -259,15 +379,23 @@ public partial class Ul : Tag
 }
 
   /// <summary>
-  /// Generate a standard wbr tag
+  /// Generate a standard HTML5 &lt;wbr&gt; tag
   /// </summary>
 public partial class Wbr : Tag
 {
 
+  /// <summary>
+  /// Generate an &lt;wbr&gt; tag with optional contents
+  /// </summary>
+  
   public Wbr() : base("wbr", new TagOptions { Close = false })
   {
   }
 
+  /// <summary>
+  /// Generate an &lt;wbr&gt; tag with optional contents
+  /// </summary>
+  /// <param name="content">list of objects (strings, tags) which will be inside the tag</param>
   public Wbr(params object[] content) : base("wbr", new TagOptions { Close = false }, content)
   {
   }

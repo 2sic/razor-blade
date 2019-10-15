@@ -35,22 +35,22 @@ namespace Razor_Blades_Tests.HtmlTagsTests
         public void ImgSrcSetX()
         {
             Is("<img src='xyz.jpg' srcset='xyz.jpg?w=400 2x'>", 
-                new Img("xyz.jpg").Srcset(2, "xyz.jpg?w=400"));
+                new Img("xyz.jpg").Srcset("xyz.jpg?w=400", 2));
 
             Is("<img src='xyz.jpg' srcset='xyz.jpg?w=400 2x,xyz.jpg?w=600 3x'>", 
                 new Img("xyz.jpg")
-                    .Srcset(2, "xyz.jpg?w=400")
-                    .Srcset(3, "xyz.jpg?w=600"));
+                    .Srcset( "xyz.jpg?w=400", 2)
+                    .Srcset( "xyz.jpg?w=600", 3));
 
             Is("<img src='xyz.jpg' srcset='xyz.jpg?w=400 2x,xyz.jpg?w=600 3x,xyz-large.jpg 4x'>",
                 new Img("xyz.jpg")
-                    .Srcset(2, "xyz.jpg?w=400")
-                    .Srcset(3, "xyz.jpg?w=600")
-                    .Srcset(4, "xyz-large.jpg"));
+                    .Srcset("xyz.jpg?w=400", 2)
+                    .Srcset( "xyz.jpg?w=600", 3)
+                    .Srcset( "xyz-large.jpg", 4));
 
             Is("<img src='xyz' height='8' width='7' srcset='xyz.jpg?w=400 2x'>", 
                 new Img("xyz", 7, 8)
-                    .Srcset(2, "xyz.jpg?w=400"));
+                    .Srcset( "xyz.jpg?w=400", 2));
         }
 
         [TestMethod]
@@ -58,22 +58,22 @@ namespace Razor_Blades_Tests.HtmlTagsTests
         {
             Is("<img src='xyz.jpg' srcset='xyz.jpg?w=400 100w'>",
                 new Img("xyz.jpg")
-                    .Srcset(100, "xyz.jpg?w=400"));
+                    .Srcset( "xyz.jpg?w=400", 100));
 
             Is("<img src='xyz.jpg' srcset='xyz.jpg?w=400 100w,xyz.jpg?w=600 200w'>",
                 new Img("xyz.jpg")
-                    .Srcset(100, "xyz.jpg?w=400")
-                    .Srcset(200, "xyz.jpg?w=600"));
+                    .Srcset( "xyz.jpg?w=400", 100)
+                    .Srcset( "xyz.jpg?w=600", 200));
 
             Is("<img src='xyz.jpg' srcset='xyz.jpg?w=400 100w,xyz.jpg?w=600 300w,xyz-large.jpg 1000w'>",
                 new Img("xyz.jpg")
-                    .Srcset(100, "xyz.jpg?w=400")
-                    .Srcset(300, "xyz.jpg?w=600")
-                    .Srcset(1000, "xyz-large.jpg"));
+                    .Srcset( "xyz.jpg?w=400", 100)
+                    .Srcset( "xyz.jpg?w=600", 300)
+                    .Srcset( "xyz-large.jpg", 1000));
 
             Is("<img src='xyz' height='8' width='7' srcset='xyz.jpg?w=400 100w'>",
                 new Img("xyz", 7, 8)
-                    .Srcset(100, "xyz.jpg?w=400"));
+                    .Srcset( "xyz.jpg?w=400", 100));
         }
 
 
