@@ -1,5 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tag = Connect.Razor.Blade.HtmlTags.Tag;
+﻿using Connect.Razor.Html;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.TagTests
 {

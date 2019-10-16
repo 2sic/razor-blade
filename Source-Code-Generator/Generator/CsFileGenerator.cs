@@ -10,7 +10,7 @@ namespace SourceCodeGenerator.Generator
         /// <summary>
         /// Target path to store generated code in
         /// </summary>
-        public const string GeneratedTargetPath = @"C:\Projects\razor-blades\Razor.Blade\Blade\Html5\";
+        public const string GeneratedTargetPath = @"C:\Projects\razor-blades\Razor.Blade\Html5\";
 
         /// <summary>
         /// Target file for generated code

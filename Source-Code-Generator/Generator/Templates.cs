@@ -6,7 +6,8 @@ namespace SourceCodeGenerator.Generator
     {
         public static string Wrapper =
             @"using System;
-using Connect.Razor.Blade.HtmlTags;
+using Connect.Razor.Blade;
+using Connect.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -22,7 +23,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Blade.Html5
+namespace Connect.Razor.Html5
 {
 {Contents}
 }
@@ -31,8 +32,9 @@ namespace Connect.Razor.Blade.Html5
 
 
     public static string QuickAccessWrapper = @"
-using Connect.Razor.Blade.Html5;
-
+using Connect.Razor.Blade;
+using Connect.Razor.Html5;
+using Connect.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -50,7 +52,10 @@ using Connect.Razor.Blade.Html5;
 // ReSharper disable UnusedMember.Global
 namespace Connect.Razor.Blade
 {
-
+    /// <summary>
+    /// Helper to quickly generate all HTML5 tags with a Tag.Img(...) syntax
+    /// This is usually nicer that new Img(...) and easier for use in Razor templates
+    /// </summary>
     public static partial class Tag
     {
         {Contents}

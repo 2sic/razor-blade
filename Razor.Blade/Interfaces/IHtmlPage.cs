@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Connect.Razor.Internals;
-using Tag = Connect.Razor.Blade.HtmlTags.Tag;
+using Tag = Connect.Razor.Html.Tag;
 
 namespace Connect.Razor.Interfaces
 {

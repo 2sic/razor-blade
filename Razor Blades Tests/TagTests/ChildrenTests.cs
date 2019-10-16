@@ -1,6 +1,6 @@
 ﻿using Connect.Razor.Blade;
-using Connect.Razor.Blade.Html5;
-using Connect.Razor.Blade.HtmlTags;
+using Connect.Razor.Html;
+using Connect.Razor.Html5;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 // ReSharper disable MustUseReturnValue
 

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Connect.Razor.Blade.HtmlTags;
+using Connect.Razor.Html;
 using Connect.Razor.Dnn;
 using Connect.Razor.Interfaces;
 using Connect.Razor.Internals;
@@ -65,7 +65,7 @@ namespace Connect.Razor.Blade
         /// </summary>
         /// <param name="tag"></param>
         /// <remarks>New in 2.1</remarks>
-        public static void AddToHead(HtmlTags.Tag tag) => GetPage().AddToHead(tag);
+        public static void AddToHead(Html.Tag tag) => GetPage().AddToHead(tag);
 
         /// <summary>
         /// Add a standard meta header tag.

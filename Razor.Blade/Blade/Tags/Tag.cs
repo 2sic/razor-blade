@@ -1,4 +1,4 @@
-﻿using Connect.Razor.Blade.HtmlTags;
+﻿using Connect.Razor.Html;
 
 namespace Connect.Razor.Blade
 {
@@ -13,8 +13,8 @@ namespace Connect.Razor.Blade
         /// <param name="name">tag name</param>
         /// <param name="content">optional content to place within the tag - can be a string or other tags</param>
         /// <returns>HtmlString of the tag, so you can use it directly with @Tag.Open(...) in your razor</returns>
-        public static HtmlTags.Tag Tag(string name, object content = null)
-            => new HtmlTags.Tag(name, content);
+        public static Html.Tag Tag(string name, object content = null)
+            => new Html.Tag(name, content);
 
     }
 }

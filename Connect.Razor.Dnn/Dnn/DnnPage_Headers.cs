@@ -1,10 +1,10 @@
 ﻿using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using Connect.Razor.Blade;
-using Connect.Razor.Blade.Html5;
-using Connect.Razor.Blade.HtmlTags;
+using Connect.Razor.Html;
+using Connect.Razor.Html5;
 using Connect.Razor.Internals;
-using Tag = Connect.Razor.Blade.HtmlTags.Tag;
+using Tag = Connect.Razor.Html.Tag;
 
 namespace Connect.Razor.Dnn
 {
@@ -68,7 +68,7 @@ namespace Connect.Razor.Dnn
 
             // this seems like a patch around some DNN bugs (probably specific versions)
             // I would leave it for now
-            metaTag.Content = Html.Encode(value);
+            metaTag.Content = Connect.Razor.Internals.Html.Encode(value);
         }
 
 

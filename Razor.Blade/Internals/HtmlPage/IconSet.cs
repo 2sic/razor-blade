@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Connect.Razor.Blade.Html5;
+using Connect.Razor.Html5;
 
 namespace Connect.Razor.Internals.HtmlPage
 {

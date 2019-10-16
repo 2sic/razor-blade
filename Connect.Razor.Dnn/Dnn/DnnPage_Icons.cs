@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using Connect.Razor.Blade.Html5;
 using Connect.Razor.Internals;
-using Connect.Razor.Blade.HtmlTags;
+using Connect.Razor.Html5;
 
 namespace Connect.Razor.Dnn
 {
