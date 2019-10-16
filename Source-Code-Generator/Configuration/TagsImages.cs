@@ -16,26 +16,26 @@ namespace SourceCodeGenerator.Configuration
             #region images / canvas
             new TagCodeGenerator("canvas")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("height", "int"),
-                    new AttributeCodeGen("width", "int"),
+                    new AttributeCodeGenerator("height", "int"),
+                    new AttributeCodeGenerator("width", "int"),
                 }
             },
             new TagCodeGenerator("img")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("alt"),
-                    new AttributeCodeGen("crossorigin"),
-                    new AttributeCodeGen("height", "int"),
-                    //new AttributeCodeGen("ismap"), // not added, as it seems to be a crazy edge case
-                    new AttributeCodeGen("longdesc"),
-                    new AttributeCodeGen("sizes"),
-                    new AttributeCodeGen("src"),
-                    new AttributeCodeGen("srcset"),
-                    new AttributeCodeGen("usemap"),
-                    new AttributeCodeGen("width", "int"),
+                    new AttributeCodeGenerator("alt"),
+                    new AttributeCodeGenerator("crossorigin"),
+                    new AttributeCodeGenerator("height", "int"),
+                    //new AttributeCodeGenerator("ismap"), // not added, as it seems to be a crazy edge case
+                    new AttributeCodeGenerator("longdesc"),
+                    new AttributeCodeGenerator("sizes"),
+                    new AttributeCodeGenerator("src"),
+                    new AttributeCodeGenerator("srcset"),
+                    new AttributeCodeGenerator("usemap"),
+                    new AttributeCodeGenerator("width", "int"),
                 },
                 Standalone = true
             },
@@ -48,10 +48,10 @@ namespace SourceCodeGenerator.Configuration
             //    // https://www.w3schools.com/tags/tag_svg.asp
             new TagCodeGenerator("svg")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("height", "int"),
-                    new AttributeCodeGen("width", "int"),
+                    new AttributeCodeGenerator("height", "int"),
+                    new AttributeCodeGenerator("width", "int"),
                 }
             },
 
@@ -65,9 +65,9 @@ namespace SourceCodeGenerator.Configuration
             },
             new TagCodeGenerator("map")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("name"),
+                    new AttributeCodeGenerator("name"),
                 }
             },
 

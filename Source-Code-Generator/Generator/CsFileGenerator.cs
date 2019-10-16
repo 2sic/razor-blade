@@ -35,6 +35,13 @@ namespace SourceCodeGenerator.Generator
             ReplaceFile(qaFile, quickAccess);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="fileBody"></param>
+        /// <code>
+        /// </code>
         private static void ReplaceFile(string fileName, string fileBody)
         {
             // Check if file already exists. If yes, delete it.     

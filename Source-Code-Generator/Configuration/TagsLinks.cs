@@ -15,31 +15,31 @@ namespace SourceCodeGenerator.Configuration
         {
             new TagCodeGenerator("a")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("download"),
-                    new AttributeCodeGen("href"),
-                    new AttributeCodeGen("hreflang"),
-                    new AttributeCodeGen("media"),
-                    new AttributeCodeGen("ping"),
-                    new AttributeCodeGen("rel"),
-                    new AttributeCodeGen("target"),
-                    new AttributeCodeGen("type"),
+                    new AttributeCodeGenerator("download"),
+                    new AttributeCodeGenerator("href"),
+                    new AttributeCodeGenerator("hreflang"),
+                    new AttributeCodeGenerator("media"),
+                    new AttributeCodeGenerator("ping"),
+                    new AttributeCodeGenerator("rel"),
+                    new AttributeCodeGenerator("target"),
+                    new AttributeCodeGenerator("type"),
                 }
             },
             // see https://www.w3schools.com/tags/tag_link.asp
             new TagCodeGenerator("link")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("crossorigin"),
-                    new AttributeCodeGen("href"),
-                    new AttributeCodeGen("hreflang"),
+                    new AttributeCodeGenerator("crossorigin"),
+                    new AttributeCodeGenerator("href"),
+                    new AttributeCodeGenerator("hreflang"),
 
-                    new AttributeCodeGen("media"),
-                    new AttributeCodeGen("rel"),
+                    new AttributeCodeGenerator("media"),
+                    new AttributeCodeGenerator("rel"),
                     // sizes not added, as only relevant for rel-icon
-                    new AttributeCodeGen("type"),
+                    new AttributeCodeGenerator("type"),
                 },
                 Standalone = true
             },

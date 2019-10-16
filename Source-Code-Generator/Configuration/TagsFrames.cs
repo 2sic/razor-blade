@@ -22,14 +22,14 @@ namespace SourceCodeGenerator.Configuration
 
             new TagCodeGenerator("iframe")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("height", "int"),
-                    new AttributeCodeGen("name"),
-                    new AttributeCodeGen("sandbox"),
-                    new AttributeCodeGen("src"),
-                    new AttributeCodeGen("srcdoc"),
-                    new AttributeCodeGen("width", "int"),
+                    new AttributeCodeGenerator("height", "int"),
+                    new AttributeCodeGenerator("name"),
+                    new AttributeCodeGenerator("sandbox"),
+                    new AttributeCodeGenerator("src"),
+                    new AttributeCodeGenerator("srcdoc"),
+                    new AttributeCodeGenerator("width", "int"),
                 },
                 Standalone = true
             },

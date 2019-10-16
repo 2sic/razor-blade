@@ -15,37 +15,37 @@ namespace SourceCodeGenerator.Configuration
         {
             new TagCodeGenerator("audio")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("autoplay"),
-                    new AttributeCodeGen("controls"),
-                    new AttributeCodeGen("loop"),
-                    new AttributeCodeGen("muted"),
-                    new AttributeCodeGen("preload"),
-                    new AttributeCodeGen("src"),
+                    new AttributeCodeGenerator("autoplay"),
+                    new AttributeCodeGenerator("controls"),
+                    new AttributeCodeGenerator("loop"),
+                    new AttributeCodeGenerator("muted"),
+                    new AttributeCodeGenerator("preload"),
+                    new AttributeCodeGenerator("src"),
                 },
             },
             new TagCodeGenerator("source")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("src"),
-                    new AttributeCodeGen("srcset"),
-                    new AttributeCodeGen("media"),
-                    new AttributeCodeGen("sizes"),
-                    new AttributeCodeGen("type"),
+                    new AttributeCodeGenerator("src"),
+                    new AttributeCodeGenerator("srcset"),
+                    new AttributeCodeGenerator("media"),
+                    new AttributeCodeGenerator("sizes"),
+                    new AttributeCodeGenerator("type"),
                 },
                 Standalone = true
             },
             new TagCodeGenerator("track")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("default"),
-                    new AttributeCodeGen("kind"),
-                    new AttributeCodeGen("label"),
-                    new AttributeCodeGen("src"),
-                    new AttributeCodeGen("srclang"),
+                    new AttributeCodeGenerator("default"),
+                    new AttributeCodeGenerator("kind"),
+                    new AttributeCodeGenerator("label"),
+                    new AttributeCodeGenerator("src"),
+                    new AttributeCodeGenerator("srclang"),
                 },
                 Standalone = true
             },
@@ -53,17 +53,17 @@ namespace SourceCodeGenerator.Configuration
             // https://www.w3schools.com/tags/tag_video.asp
             new TagCodeGenerator("video")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("autoplay"),
-                    new AttributeCodeGen("controls"),
-                    new AttributeCodeGen("height", "int"),
-                    new AttributeCodeGen("loop"),
-                    new AttributeCodeGen("muted"),
-                    new AttributeCodeGen("poster"),
-                    new AttributeCodeGen("preload"),
-                    new AttributeCodeGen("src"),
-                    new AttributeCodeGen("width", "int"),
+                    new AttributeCodeGenerator("autoplay"),
+                    new AttributeCodeGenerator("controls"),
+                    new AttributeCodeGenerator("height", "int"),
+                    new AttributeCodeGenerator("loop"),
+                    new AttributeCodeGenerator("muted"),
+                    new AttributeCodeGenerator("poster"),
+                    new AttributeCodeGenerator("preload"),
+                    new AttributeCodeGenerator("src"),
+                    new AttributeCodeGenerator("width", "int"),
                 },
             },
 

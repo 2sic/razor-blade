@@ -27,12 +27,12 @@ namespace SourceCodeGenerator.Configuration
         {
             new TagCodeGenerator("meta")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("charset"),
-                    new AttributeCodeGen("content"),
-                    new AttributeCodeGen("http-equiv"),
-                    new AttributeCodeGen("name"),
+                    new AttributeCodeGenerator("charset"),
+                    new AttributeCodeGenerator("content"),
+                    new AttributeCodeGenerator("http-equiv"),
+                    new AttributeCodeGenerator("name"),
 
                 },
                 Standalone = true
@@ -40,10 +40,10 @@ namespace SourceCodeGenerator.Configuration
 
             new TagCodeGenerator("base")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("href"),
-                    new AttributeCodeGen("target"),
+                    new AttributeCodeGenerator("href"),
+                    new AttributeCodeGenerator("target"),
 
                 },
                 Standalone = true

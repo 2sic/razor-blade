@@ -31,40 +31,40 @@ namespace SourceCodeGenerator.Configuration
         {
             new TagCodeGenerator("col")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("span", "int"),
+                    new AttributeCodeGenerator("span", "int"),
                 }
             },
 
             new TagCodeGenerator("colgroup")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("span", "int"),
+                    new AttributeCodeGenerator("span", "int"),
                 }
             },
 
             new TagCodeGenerator("th")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("abbr"),
-                    new AttributeCodeGen("colspan", "int"),
-                    new AttributeCodeGen("headers"),
-                    new AttributeCodeGen("rowspan", "int"),
-                    new AttributeCodeGen("scope"),
-                    new AttributeCodeGen("sorted"),
+                    new AttributeCodeGenerator("abbr"),
+                    new AttributeCodeGenerator("colspan", "int"),
+                    new AttributeCodeGenerator("headers"),
+                    new AttributeCodeGenerator("rowspan", "int"),
+                    new AttributeCodeGenerator("scope"),
+                    new AttributeCodeGenerator("sorted"),
                 }
             },
 
             new TagCodeGenerator("td")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("colspan", "int"),
-                    new AttributeCodeGen("headers"),
-                    new AttributeCodeGen("rowspan", "int"),
+                    new AttributeCodeGenerator("colspan", "int"),
+                    new AttributeCodeGenerator("headers"),
+                    new AttributeCodeGenerator("rowspan", "int"),
                 }
             },
 

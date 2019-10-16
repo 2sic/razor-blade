@@ -61,64 +61,64 @@ namespace SourceCodeGenerator.Configuration
 
             new TagCodeGenerator("bdo")
             {
-                Properties = new List<AttributeCodeGen>{ new AttributeCodeGen("dir") }
+                Properties = new List<AttributeCodeGenerator>{ new AttributeCodeGenerator("dir") }
             },
             #region citation, quotes, editing; blockquote, q, del, ins
             new TagCodeGenerator("blockquote")
             {
-                Properties = new List<AttributeCodeGen>{ new AttributeCodeGen("cite") }
+                Properties = new List<AttributeCodeGenerator>{ new AttributeCodeGenerator("cite") }
             },
 
             new TagCodeGenerator("del")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("cite"),
-                    new AttributeCodeGen("datetime", "DateTime")
+                    new AttributeCodeGenerator("cite"),
+                    new AttributeCodeGenerator("datetime", "DateTime")
                 }
             },
 
             new TagCodeGenerator("ins")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("cite"),
-                    new AttributeCodeGen("datetime", "DateTime")
+                    new AttributeCodeGenerator("cite"),
+                    new AttributeCodeGenerator("datetime", "DateTime")
                 }
             },
 
             new TagCodeGenerator("meter")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("form"),
-                    new AttributeCodeGen("high"),
-                    new AttributeCodeGen("low"),
-                    new AttributeCodeGen("max"),
-                    new AttributeCodeGen("min"),
-                    new AttributeCodeGen("optimum"),
-                    new AttributeCodeGen("value"),
+                    new AttributeCodeGenerator("form"),
+                    new AttributeCodeGenerator("high"),
+                    new AttributeCodeGenerator("low"),
+                    new AttributeCodeGenerator("max"),
+                    new AttributeCodeGenerator("min"),
+                    new AttributeCodeGenerator("optimum"),
+                    new AttributeCodeGenerator("value"),
                 }
             },
             new TagCodeGenerator("progress")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("max"),
-                    new AttributeCodeGen("value"),
+                    new AttributeCodeGenerator("max"),
+                    new AttributeCodeGenerator("value"),
                 }
             },
             new TagCodeGenerator("q")
             {
-                Properties = new List<AttributeCodeGen>{ new AttributeCodeGen("cite") }
+                Properties = new List<AttributeCodeGenerator>{ new AttributeCodeGenerator("cite") }
             },
             #endregion
 
             new TagCodeGenerator("time")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("datetime", "DateTime")
+                    new AttributeCodeGenerator("datetime", "DateTime")
                 }
             },
 

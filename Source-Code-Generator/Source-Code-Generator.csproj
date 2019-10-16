@@ -57,10 +57,13 @@
     <Compile Include="Configuration\TagsImages.cs" />
     <Compile Include="Configuration\TagsFormatting.cs" />
     <Compile Include="Configuration\TagsSimple.cs" />
+    <Compile Include="Parts\AttributeCodeGenerator_Boolean.cs" />
+    <Compile Include="Parts\AttributeCodeGenerator_SrcSet.cs" />
+    <Compile Include="Parts\AttributeCodeGenerator_ValueSeparator.cs" />
     <Compile Include="Parts\GeneratorBase.cs" />
     <Compile Include="Configuration\Configuration.cs" />
     <Compile Include="Parts\TagCodeGenerator.cs" />
-    <Compile Include="Parts\AttributeCodeGen.cs" />
+    <Compile Include="Parts\AttributeCodeGenerator.cs" />
     <Compile Include="Generator\CsFileGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

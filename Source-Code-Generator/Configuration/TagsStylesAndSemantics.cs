@@ -34,34 +34,34 @@ namespace SourceCodeGenerator.Configuration
         {
             new TagCodeGenerator("style")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("media"),
-                    new AttributeCodeGen("type"),
+                    new AttributeCodeGenerator("media"),
+                    new AttributeCodeGenerator("type"),
                 }
             },
 
             new TagCodeGenerator("details")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("open"),
+                    new AttributeCodeGenerator("open"),
                 }
             },
 
             new TagCodeGenerator("dialog")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("open"),
+                    new AttributeCodeGenerator("open"),
                 }
             },
 
             new TagCodeGenerator("data")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("open"),
+                    new AttributeCodeGenerator("open"),
                 }
             },
 

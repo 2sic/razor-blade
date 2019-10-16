@@ -6,7 +6,7 @@ namespace Connect.Razor.Blade
     {
 
         /// <summary>
-        /// Convert \n into line-breaks
+        /// Convert \n into &lt;br&gt; line-breaks
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
@@ -17,7 +17,7 @@ namespace Connect.Razor.Blade
         private static readonly Regex RelpacerBr = TagReplacer.Replacer("br");
 
         /// <summary>
-        /// Convert <br> and <br/> into line-breaks
+        /// Convert &lt;br&gt; and &lt;br/&gt; into line-breaks
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
@@ -25,7 +25,7 @@ namespace Connect.Razor.Blade
             => RelpacerBr.Replace(value, "\n");
 
         /// <summary>
-        /// Convert <br> and <br/> into line-breaks
+        /// Convert &lt;br&gt; and &lt;br/&gt; into line-breaks
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>

@@ -45,7 +45,7 @@ namespace Connect.Razor.Blade
         /// Tag serialization options, like what quotes to use
         /// If null, will use defaults
         /// </summary>
-        public TagOptions TagOptions;
+        internal TagOptions TagOptions;
 
         private TagOptions RealOptions => TagOptions.UseOrCreate(TagOptions);
 

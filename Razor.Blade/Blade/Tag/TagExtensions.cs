@@ -64,7 +64,7 @@ namespace Connect.Razor.Blade
             => tag.Attr("data-" + name, value, null);
 
         /// <summary>
-        /// Add a data-... attribute
+        /// Add a onEventName attribute for javascript events
         /// </summary>
         /// <param name="tag">the parent tag</param>
         /// <param name="name">the term behind data-, so "name" becomes "data-name"</param>

@@ -23,7 +23,7 @@ namespace Connect.Razor.Blade
         /// so no attributes, no content etc.
         /// </summary>
         /// <remarks>Must be null to be deactivated</remarks>
-        public string TagOverride;
+        internal string TagOverride;
 
     }
 }

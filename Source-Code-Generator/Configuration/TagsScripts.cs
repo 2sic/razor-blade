@@ -27,50 +27,50 @@ namespace SourceCodeGenerator.Configuration
         {
             new TagCodeGenerator("script")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("async"),
-                    new AttributeCodeGen("charset"),
-                    new AttributeCodeGen("defer"),
-                    new AttributeCodeGen("src"),
-                    new AttributeCodeGen("type"),
+                    new AttributeCodeGenerator("async"),
+                    new AttributeCodeGenerator("charset"),
+                    new AttributeCodeGenerator("defer"),
+                    new AttributeCodeGenerator("src"),
+                    new AttributeCodeGenerator("type"),
 
                 },
             },
 
             new TagCodeGenerator("embed")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("height", "int"),
-                    new AttributeCodeGen("src"),
-                    new AttributeCodeGen("type"),
-                    new AttributeCodeGen("width", "int"),
+                    new AttributeCodeGenerator("height", "int"),
+                    new AttributeCodeGenerator("src"),
+                    new AttributeCodeGenerator("type"),
+                    new AttributeCodeGenerator("width", "int"),
                 },
             },
 
             // https://www.w3schools.com/tags/tag_object.asp
             new TagCodeGenerator("object")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("data"),
-                    new AttributeCodeGen("form"),
-                    new AttributeCodeGen("height", "int"),
-                    new AttributeCodeGen("name"),
-                    new AttributeCodeGen("type"),
-                    new AttributeCodeGen("usemap"),
-                    new AttributeCodeGen("width", "int"),
+                    new AttributeCodeGenerator("data"),
+                    new AttributeCodeGenerator("form"),
+                    new AttributeCodeGenerator("height", "int"),
+                    new AttributeCodeGenerator("name"),
+                    new AttributeCodeGenerator("type"),
+                    new AttributeCodeGenerator("usemap"),
+                    new AttributeCodeGenerator("width", "int"),
                 },
             },
 
             // https://www.w3schools.com/tags/tag_param.asp
             new TagCodeGenerator("param")
             {
-                Properties = new List<AttributeCodeGen>
+                Properties = new List<AttributeCodeGenerator>
                 {
-                    new AttributeCodeGen("name"),
-                    new AttributeCodeGen("value"),
+                    new AttributeCodeGenerator("name"),
+                    new AttributeCodeGenerator("value"),
                 },
             },
         };
