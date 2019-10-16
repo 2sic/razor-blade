@@ -4,7 +4,7 @@ apiRules:
 - exclude:
     uidRegex: ^Connect\.Razor\.Dnn
 - exclude: 
-    uidRegex: ^Connect\.Razor\.Blade\.HtmlTags
+    uidRegex: ^Connect\.Razor\.Html$
 - exclude: 
     uidRegex: ^Connect\.Razor\.Interfaces
 - exclude: 

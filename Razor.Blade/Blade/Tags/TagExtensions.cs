@@ -1,9 +1,5 @@
 ﻿// ReSharper disable RedundantArgumentDefaultValue
 
-using System;
-using Connect.Razor.Html;
-using Tag = Connect.Razor.Html.Tag;
-
 namespace Connect.Razor.Blade
 {
     /// <summary>
@@ -105,35 +101,6 @@ namespace Connect.Razor.Blade
             tag.TagChildren.Add(children);
             return tag;
         }
-
-        ///// <summary>
-        ///// Add contents to this tag - at the end of the already added contents.
-        ///// If you want to replace the contents, use Wrap() instead
-        ///// </summary>
-        ///// <param name="tag">the parent tag</param>
-        ///// <param name="child"></param>
-        ///// <param name="innerAction">code which runs below the child</param>
-        ///// <returns></returns>
-        //internal static T Add<T, TC>(this T tag, TC child, Action<TC> innerAction = null) where T : Tag where TC : Tag
-        //{
-        //    tag.TagChildren.Add(child);
-        //    innerAction?.Invoke(child);
-        //    return tag;
-        //}
-
-
-        ///// <summary>
-        ///// Add contents to this tag - at the end of the already added contents.
-        ///// If you want to replace the contents, use Wrap() instead
-        ///// </summary>
-        ///// <param name="tag">the parent tag</param>
-        ///// <param name="child"></param>
-        ///// <returns></returns>
-        //internal static TC AddAndReturnChild<T, TC>(this T tag, TC child) where T : Tag where TC : Tag
-        //{
-        //    tag.TagChildren.Add(child);
-        //    return child;
-        //}
 
         /// <summary>
         /// Wrap the tag around the new content, so this replaces all the content with what you give it
