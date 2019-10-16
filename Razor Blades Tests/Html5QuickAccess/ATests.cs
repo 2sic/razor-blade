@@ -10,7 +10,7 @@ namespace Razor_Blades_Tests.Html5QuickAccess
         // ReSharper disable once InconsistentNaming
         public void TableBasic()
         {
-            Is("<table></table>", 
+            Is("<a href='...'>hello there</a>", 
                 Tag.A("hello there").Href("..."));
         }
 

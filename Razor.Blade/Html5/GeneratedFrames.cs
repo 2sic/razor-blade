@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;iframe&gt; tag with optional contents
     /// </summary>
     
-    public Iframe() : base("iframe", new TagOptions { Close = false })
+    internal Iframe() : base("iframe", new TagOptions { Close = false })
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A Iframe object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Iframe(params object[] content) : base("iframe", new TagOptions { Close = false }, content)
+    internal Iframe(params object[] content) : base("iframe", new TagOptions { Close = false }, content)
     {
     }
     

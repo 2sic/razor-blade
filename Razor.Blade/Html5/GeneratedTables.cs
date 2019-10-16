@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;caption&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Caption(object content = null) : base("caption", content)
+    internal Caption(object content = null) : base("caption", content)
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A Caption object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Caption(params object[] content) : base("caption", null, content)
+    internal Caption(params object[] content) : base("caption", null, content)
     {
     }
     
@@ -63,7 +63,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;col&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Col(object content = null) : base("col", content)
+    internal Col(object content = null) : base("col", content)
     {
     }
     
@@ -75,7 +75,7 @@ namespace Connect.Razor.Html5
     /// A Col object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Col(params object[] content) : base("col", null, content)
+    internal Col(params object[] content) : base("col", null, content)
     {
     }
     
@@ -112,7 +112,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;colgroup&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Colgroup(object content = null) : base("colgroup", content)
+    internal Colgroup(object content = null) : base("colgroup", content)
     {
     }
     
@@ -124,7 +124,7 @@ namespace Connect.Razor.Html5
     /// A Colgroup object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Colgroup(params object[] content) : base("colgroup", null, content)
+    internal Colgroup(params object[] content) : base("colgroup", null, content)
     {
     }
     
@@ -161,7 +161,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;table&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Table(object content = null) : base("table", content)
+    internal Table(object content = null) : base("table", content)
     {
     }
     
@@ -173,7 +173,7 @@ namespace Connect.Razor.Html5
     /// A Table object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Table(params object[] content) : base("table", null, content)
+    internal Table(params object[] content) : base("table", null, content)
     {
     }
     
@@ -192,7 +192,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;tbody&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Tbody(object content = null) : base("tbody", content)
+    internal Tbody(object content = null) : base("tbody", content)
     {
     }
     
@@ -204,7 +204,7 @@ namespace Connect.Razor.Html5
     /// A Tbody object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Tbody(params object[] content) : base("tbody", null, content)
+    internal Tbody(params object[] content) : base("tbody", null, content)
     {
     }
     
@@ -223,7 +223,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;td&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Td(object content = null) : base("td", content)
+    internal Td(object content = null) : base("td", content)
     {
     }
     
@@ -235,7 +235,7 @@ namespace Connect.Razor.Html5
     /// A Td object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Td(params object[] content) : base("td", null, content)
+    internal Td(params object[] content) : base("td", null, content)
     {
     }
     
@@ -301,7 +301,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;tfoot&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Tfoot(object content = null) : base("tfoot", content)
+    internal Tfoot(object content = null) : base("tfoot", content)
     {
     }
     
@@ -313,7 +313,7 @@ namespace Connect.Razor.Html5
     /// A Tfoot object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Tfoot(params object[] content) : base("tfoot", null, content)
+    internal Tfoot(params object[] content) : base("tfoot", null, content)
     {
     }
     
@@ -332,7 +332,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;th&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Th(object content = null) : base("th", content)
+    internal Th(object content = null) : base("th", content)
     {
     }
     
@@ -344,7 +344,7 @@ namespace Connect.Razor.Html5
     /// A Th object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Th(params object[] content) : base("th", null, content)
+    internal Th(params object[] content) : base("th", null, content)
     {
     }
     
@@ -443,7 +443,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;thead&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Thead(object content = null) : base("thead", content)
+    internal Thead(object content = null) : base("thead", content)
     {
     }
     
@@ -455,7 +455,7 @@ namespace Connect.Razor.Html5
     /// A Thead object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Thead(params object[] content) : base("thead", null, content)
+    internal Thead(params object[] content) : base("thead", null, content)
     {
     }
     
@@ -474,7 +474,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;tr&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Tr(object content = null) : base("tr", content)
+    internal Tr(object content = null) : base("tr", content)
     {
     }
     
@@ -486,7 +486,7 @@ namespace Connect.Razor.Html5
     /// A Tr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Tr(params object[] content) : base("tr", null, content)
+    internal Tr(params object[] content) : base("tr", null, content)
     {
     }
     

@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;area&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Area(object content = null) : base("area", content)
+    internal Area(object content = null) : base("area", content)
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A Area object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Area(params object[] content) : base("area", null, content)
+    internal Area(params object[] content) : base("area", null, content)
     {
     }
     
@@ -63,7 +63,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;canvas&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Canvas(object content = null) : base("canvas", content)
+    internal Canvas(object content = null) : base("canvas", content)
     {
     }
     
@@ -75,7 +75,7 @@ namespace Connect.Razor.Html5
     /// A Canvas object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Canvas(params object[] content) : base("canvas", null, content)
+    internal Canvas(params object[] content) : base("canvas", null, content)
     {
     }
     
@@ -130,7 +130,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;img&gt; tag with optional contents
     /// </summary>
     
-    public Img() : base("img", new TagOptions { Close = false })
+    internal Img() : base("img", new TagOptions { Close = false })
     {
     }
     
@@ -142,7 +142,7 @@ namespace Connect.Razor.Html5
     /// A Img object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Img(params object[] content) : base("img", new TagOptions { Close = false }, content)
+    internal Img(params object[] content) : base("img", new TagOptions { Close = false }, content)
     {
     }
     
@@ -283,7 +283,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;map&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Map(object content = null) : base("map", content)
+    internal Map(object content = null) : base("map", content)
     {
     }
     
@@ -295,7 +295,7 @@ namespace Connect.Razor.Html5
     /// A Map object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Map(params object[] content) : base("map", null, content)
+    internal Map(params object[] content) : base("map", null, content)
     {
     }
     
@@ -325,7 +325,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;picture&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Picture(object content = null) : base("picture", content)
+    internal Picture(object content = null) : base("picture", content)
     {
     }
     
@@ -337,7 +337,7 @@ namespace Connect.Razor.Html5
     /// A Picture object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Picture(params object[] content) : base("picture", null, content)
+    internal Picture(params object[] content) : base("picture", null, content)
     {
     }
     
@@ -356,7 +356,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;svg&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Svg(object content = null) : base("svg", content)
+    internal Svg(object content = null) : base("svg", content)
     {
     }
     
@@ -368,7 +368,7 @@ namespace Connect.Razor.Html5
     /// A Svg object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Svg(params object[] content) : base("svg", null, content)
+    internal Svg(params object[] content) : base("svg", null, content)
     {
     }
     

@@ -49,14 +49,14 @@ namespace SourceCodeGenerator.Parts
     /// Generate an &lt;{TagName}&gt; tag with optional contents
     /// </summary>
     {(Standalone ? "" : @"/// <param name=""content"">content which will be inside the tag</param>")}
-    public {ClassName
+    internal {ClassName
     }({ConstructorParameters}) : {BaseCall}
     {{
     }}";
 
         public string ConstructorWithParams => $@"
     {Comment(ContentParamName)}
-    public {ClassName}(params object[] {ContentParamName}) : base(""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
+    internal {ClassName}(params object[] {ContentParamName}) : base(""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
     {{
     }}";
 
@@ -80,8 +80,6 @@ Standalone ? "" : $@"
     )}
     /// </code>
     {QuickAccessWithParams}";
-
-        //public string QuickAccess => $"public static {ClassName} {ClassName}({ConstructorParameters}) => new {ClassName}({CallParameters(false)});";
 
         public string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
     }

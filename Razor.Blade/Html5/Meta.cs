@@ -4,7 +4,7 @@ namespace Connect.Razor.Html5
 {
     public partial class Meta
     {
-        public Meta(string name = null, string content = null): this()
+        internal Meta(string name = null, string content = null): this()
         {
             if(name != null) Name(name);
             if (content != null) Content(content);
@@ -13,7 +13,7 @@ namespace Connect.Razor.Html5
 
     public class MetaOg : Meta
     {
-        public MetaOg(string property = null, string content = null)
+        internal MetaOg(string property = null, string content = null)
         {
             if(property != null) Property(property);
             if(content != null) Content(content);

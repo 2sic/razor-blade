@@ -3,7 +3,7 @@
 // ReSharper disable once CheckNamespace
 namespace Connect.Razor.Blade
 {
-    public static partial class Tags
+    public static partial class Tag
     {
         public static Comment Comment(string content = null) => new Comment(content);
     }

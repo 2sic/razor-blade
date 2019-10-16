@@ -9,7 +9,7 @@ namespace Connect.Razor.Html5
     {
         private const string Template = "<!-- {0} -->";
 
-        public Comment(string content = null) : base(string.Format(Template, content))
+        internal Comment(string content = null) : base(string.Format(Template, content))
         { }
     }
 }

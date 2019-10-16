@@ -484,6 +484,19 @@ references:
   isSpec: "True"
   fullName: Connect.Razor.Blade.Tag.Colgroup
   nameWithType: Tag.Colgroup
+- uid: Connect.Razor.Blade.Tag.Comment(System.String)
+  name: Comment(String)
+  href: api/Connect.Razor.Blade.Tag.html#Connect_Razor_Blade_Tag_Comment_System_String_
+  commentId: M:Connect.Razor.Blade.Tag.Comment(System.String)
+  fullName: Connect.Razor.Blade.Tag.Comment(System.String)
+  nameWithType: Tag.Comment(String)
+- uid: Connect.Razor.Blade.Tag.Comment*
+  name: Comment
+  href: api/Connect.Razor.Blade.Tag.html#Connect_Razor_Blade_Tag_Comment_
+  commentId: Overload:Connect.Razor.Blade.Tag.Comment
+  isSpec: "True"
+  fullName: Connect.Razor.Blade.Tag.Comment
+  nameWithType: Tag.Comment
 - uid: Connect.Razor.Blade.Tag.Data(System.Object[])
   name: Data(Object[])
   href: api/Connect.Razor.Blade.Tag.html#Connect_Razor_Blade_Tag_Data_System_Object___
@@ -2120,19 +2133,6 @@ references:
   isSpec: "True"
   fullName: Connect.Razor.Blade.Tags.Br2Space
   nameWithType: Tags.Br2Space
-- uid: Connect.Razor.Blade.Tags.Comment(System.String)
-  name: Comment(String)
-  href: api/Connect.Razor.Blade.Tags.html#Connect_Razor_Blade_Tags_Comment_System_String_
-  commentId: M:Connect.Razor.Blade.Tags.Comment(System.String)
-  fullName: Connect.Razor.Blade.Tags.Comment(System.String)
-  nameWithType: Tags.Comment(String)
-- uid: Connect.Razor.Blade.Tags.Comment*
-  name: Comment
-  href: api/Connect.Razor.Blade.Tags.html#Connect_Razor_Blade_Tags_Comment_
-  commentId: Overload:Connect.Razor.Blade.Tags.Comment
-  isSpec: "True"
-  fullName: Connect.Razor.Blade.Tags.Comment
-  nameWithType: Tags.Comment
 - uid: Connect.Razor.Blade.Tags.Decode(System.String)
   name: Decode(String)
   href: api/Connect.Razor.Blade.Tags.html#Connect_Razor_Blade_Tags_Decode_System_String_
@@ -2314,34 +2314,6 @@ references:
   commentId: T:Connect.Razor.Html5.A
   fullName: Connect.Razor.Html5.A
   nameWithType: A
-- uid: Connect.Razor.Html5.A.#ctor(System.Object)
-  name: A(Object)
-  href: api/Connect.Razor.Html5.A.html#Connect_Razor_Html5_A__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.A.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.A.A(System.Object)
-  nameWithType: A.A(Object)
-- uid: Connect.Razor.Html5.A.#ctor(System.Object[])
-  name: A(Object[])
-  href: api/Connect.Razor.Html5.A.html#Connect_Razor_Html5_A__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.A.#ctor(System.Object[])
-  name.vb: A(Object())
-  fullName: Connect.Razor.Html5.A.A(System.Object[])
-  fullName.vb: Connect.Razor.Html5.A.A(System.Object())
-  nameWithType: A.A(Object[])
-  nameWithType.vb: A.A(Object())
-- uid: Connect.Razor.Html5.A.#ctor(System.String,System.String)
-  name: A(String, String)
-  href: api/Connect.Razor.Html5.A.html#Connect_Razor_Html5_A__ctor_System_String_System_String_
-  commentId: M:Connect.Razor.Html5.A.#ctor(System.String,System.String)
-  fullName: Connect.Razor.Html5.A.A(System.String, System.String)
-  nameWithType: A.A(String, String)
-- uid: Connect.Razor.Html5.A.#ctor*
-  name: A
-  href: api/Connect.Razor.Html5.A.html#Connect_Razor_Html5_A__ctor_
-  commentId: Overload:Connect.Razor.Html5.A.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.A.A
-  nameWithType: A.A
 - uid: Connect.Razor.Html5.A.Download(System.String)
   name: Download(String)
   href: api/Connect.Razor.Html5.A.html#Connect_Razor_Html5_A_Download_System_String_
@@ -2452,174 +2424,36 @@ references:
   commentId: T:Connect.Razor.Html5.Abbr
   fullName: Connect.Razor.Html5.Abbr
   nameWithType: Abbr
-- uid: Connect.Razor.Html5.Abbr.#ctor(System.Object)
-  name: Abbr(Object)
-  href: api/Connect.Razor.Html5.Abbr.html#Connect_Razor_Html5_Abbr__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Abbr.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Abbr.Abbr(System.Object)
-  nameWithType: Abbr.Abbr(Object)
-- uid: Connect.Razor.Html5.Abbr.#ctor(System.Object,System.String)
-  name: Abbr(Object, String)
-  href: api/Connect.Razor.Html5.Abbr.html#Connect_Razor_Html5_Abbr__ctor_System_Object_System_String_
-  commentId: M:Connect.Razor.Html5.Abbr.#ctor(System.Object,System.String)
-  fullName: Connect.Razor.Html5.Abbr.Abbr(System.Object, System.String)
-  nameWithType: Abbr.Abbr(Object, String)
-- uid: Connect.Razor.Html5.Abbr.#ctor(System.Object[])
-  name: Abbr(Object[])
-  href: api/Connect.Razor.Html5.Abbr.html#Connect_Razor_Html5_Abbr__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Abbr.#ctor(System.Object[])
-  name.vb: Abbr(Object())
-  fullName: Connect.Razor.Html5.Abbr.Abbr(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Abbr.Abbr(System.Object())
-  nameWithType: Abbr.Abbr(Object[])
-  nameWithType.vb: Abbr.Abbr(Object())
-- uid: Connect.Razor.Html5.Abbr.#ctor*
-  name: Abbr
-  href: api/Connect.Razor.Html5.Abbr.html#Connect_Razor_Html5_Abbr__ctor_
-  commentId: Overload:Connect.Razor.Html5.Abbr.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Abbr.Abbr
-  nameWithType: Abbr.Abbr
 - uid: Connect.Razor.Html5.Address
   name: Address
   href: api/Connect.Razor.Html5.Address.html
   commentId: T:Connect.Razor.Html5.Address
   fullName: Connect.Razor.Html5.Address
   nameWithType: Address
-- uid: Connect.Razor.Html5.Address.#ctor(System.Object)
-  name: Address(Object)
-  href: api/Connect.Razor.Html5.Address.html#Connect_Razor_Html5_Address__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Address.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Address.Address(System.Object)
-  nameWithType: Address.Address(Object)
-- uid: Connect.Razor.Html5.Address.#ctor(System.Object[])
-  name: Address(Object[])
-  href: api/Connect.Razor.Html5.Address.html#Connect_Razor_Html5_Address__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Address.#ctor(System.Object[])
-  name.vb: Address(Object())
-  fullName: Connect.Razor.Html5.Address.Address(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Address.Address(System.Object())
-  nameWithType: Address.Address(Object[])
-  nameWithType.vb: Address.Address(Object())
-- uid: Connect.Razor.Html5.Address.#ctor*
-  name: Address
-  href: api/Connect.Razor.Html5.Address.html#Connect_Razor_Html5_Address__ctor_
-  commentId: Overload:Connect.Razor.Html5.Address.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Address.Address
-  nameWithType: Address.Address
 - uid: Connect.Razor.Html5.Area
   name: Area
   href: api/Connect.Razor.Html5.Area.html
   commentId: T:Connect.Razor.Html5.Area
   fullName: Connect.Razor.Html5.Area
   nameWithType: Area
-- uid: Connect.Razor.Html5.Area.#ctor(System.Object)
-  name: Area(Object)
-  href: api/Connect.Razor.Html5.Area.html#Connect_Razor_Html5_Area__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Area.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Area.Area(System.Object)
-  nameWithType: Area.Area(Object)
-- uid: Connect.Razor.Html5.Area.#ctor(System.Object[])
-  name: Area(Object[])
-  href: api/Connect.Razor.Html5.Area.html#Connect_Razor_Html5_Area__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Area.#ctor(System.Object[])
-  name.vb: Area(Object())
-  fullName: Connect.Razor.Html5.Area.Area(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Area.Area(System.Object())
-  nameWithType: Area.Area(Object[])
-  nameWithType.vb: Area.Area(Object())
-- uid: Connect.Razor.Html5.Area.#ctor*
-  name: Area
-  href: api/Connect.Razor.Html5.Area.html#Connect_Razor_Html5_Area__ctor_
-  commentId: Overload:Connect.Razor.Html5.Area.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Area.Area
-  nameWithType: Area.Area
 - uid: Connect.Razor.Html5.Article
   name: Article
   href: api/Connect.Razor.Html5.Article.html
   commentId: T:Connect.Razor.Html5.Article
   fullName: Connect.Razor.Html5.Article
   nameWithType: Article
-- uid: Connect.Razor.Html5.Article.#ctor(System.Object)
-  name: Article(Object)
-  href: api/Connect.Razor.Html5.Article.html#Connect_Razor_Html5_Article__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Article.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Article.Article(System.Object)
-  nameWithType: Article.Article(Object)
-- uid: Connect.Razor.Html5.Article.#ctor(System.Object[])
-  name: Article(Object[])
-  href: api/Connect.Razor.Html5.Article.html#Connect_Razor_Html5_Article__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Article.#ctor(System.Object[])
-  name.vb: Article(Object())
-  fullName: Connect.Razor.Html5.Article.Article(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Article.Article(System.Object())
-  nameWithType: Article.Article(Object[])
-  nameWithType.vb: Article.Article(Object())
-- uid: Connect.Razor.Html5.Article.#ctor*
-  name: Article
-  href: api/Connect.Razor.Html5.Article.html#Connect_Razor_Html5_Article__ctor_
-  commentId: Overload:Connect.Razor.Html5.Article.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Article.Article
-  nameWithType: Article.Article
 - uid: Connect.Razor.Html5.Aside
   name: Aside
   href: api/Connect.Razor.Html5.Aside.html
   commentId: T:Connect.Razor.Html5.Aside
   fullName: Connect.Razor.Html5.Aside
   nameWithType: Aside
-- uid: Connect.Razor.Html5.Aside.#ctor(System.Object)
-  name: Aside(Object)
-  href: api/Connect.Razor.Html5.Aside.html#Connect_Razor_Html5_Aside__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Aside.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Aside.Aside(System.Object)
-  nameWithType: Aside.Aside(Object)
-- uid: Connect.Razor.Html5.Aside.#ctor(System.Object[])
-  name: Aside(Object[])
-  href: api/Connect.Razor.Html5.Aside.html#Connect_Razor_Html5_Aside__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Aside.#ctor(System.Object[])
-  name.vb: Aside(Object())
-  fullName: Connect.Razor.Html5.Aside.Aside(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Aside.Aside(System.Object())
-  nameWithType: Aside.Aside(Object[])
-  nameWithType.vb: Aside.Aside(Object())
-- uid: Connect.Razor.Html5.Aside.#ctor*
-  name: Aside
-  href: api/Connect.Razor.Html5.Aside.html#Connect_Razor_Html5_Aside__ctor_
-  commentId: Overload:Connect.Razor.Html5.Aside.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Aside.Aside
-  nameWithType: Aside.Aside
 - uid: Connect.Razor.Html5.Audio
   name: Audio
   href: api/Connect.Razor.Html5.Audio.html
   commentId: T:Connect.Razor.Html5.Audio
   fullName: Connect.Razor.Html5.Audio
   nameWithType: Audio
-- uid: Connect.Razor.Html5.Audio.#ctor(System.Object)
-  name: Audio(Object)
-  href: api/Connect.Razor.Html5.Audio.html#Connect_Razor_Html5_Audio__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Audio.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Audio.Audio(System.Object)
-  nameWithType: Audio.Audio(Object)
-- uid: Connect.Razor.Html5.Audio.#ctor(System.Object[])
-  name: Audio(Object[])
-  href: api/Connect.Razor.Html5.Audio.html#Connect_Razor_Html5_Audio__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Audio.#ctor(System.Object[])
-  name.vb: Audio(Object())
-  fullName: Connect.Razor.Html5.Audio.Audio(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Audio.Audio(System.Object())
-  nameWithType: Audio.Audio(Object[])
-  nameWithType.vb: Audio.Audio(Object())
-- uid: Connect.Razor.Html5.Audio.#ctor*
-  name: Audio
-  href: api/Connect.Razor.Html5.Audio.html#Connect_Razor_Html5_Audio__ctor_
-  commentId: Overload:Connect.Razor.Html5.Audio.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Audio.Audio
-  nameWithType: Audio.Audio
 - uid: Connect.Razor.Html5.Audio.Autoplay
   name: Autoplay()
   href: api/Connect.Razor.Html5.Audio.html#Connect_Razor_Html5_Audio_Autoplay
@@ -2728,56 +2562,12 @@ references:
   commentId: T:Connect.Razor.Html5.B
   fullName: Connect.Razor.Html5.B
   nameWithType: B
-- uid: Connect.Razor.Html5.B.#ctor(System.Object)
-  name: B(Object)
-  href: api/Connect.Razor.Html5.B.html#Connect_Razor_Html5_B__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.B.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.B.B(System.Object)
-  nameWithType: B.B(Object)
-- uid: Connect.Razor.Html5.B.#ctor(System.Object[])
-  name: B(Object[])
-  href: api/Connect.Razor.Html5.B.html#Connect_Razor_Html5_B__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.B.#ctor(System.Object[])
-  name.vb: B(Object())
-  fullName: Connect.Razor.Html5.B.B(System.Object[])
-  fullName.vb: Connect.Razor.Html5.B.B(System.Object())
-  nameWithType: B.B(Object[])
-  nameWithType.vb: B.B(Object())
-- uid: Connect.Razor.Html5.B.#ctor*
-  name: B
-  href: api/Connect.Razor.Html5.B.html#Connect_Razor_Html5_B__ctor_
-  commentId: Overload:Connect.Razor.Html5.B.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.B.B
-  nameWithType: B.B
 - uid: Connect.Razor.Html5.Base
   name: Base
   href: api/Connect.Razor.Html5.Base.html
   commentId: T:Connect.Razor.Html5.Base
   fullName: Connect.Razor.Html5.Base
   nameWithType: Base
-- uid: Connect.Razor.Html5.Base.#ctor
-  name: Base()
-  href: api/Connect.Razor.Html5.Base.html#Connect_Razor_Html5_Base__ctor
-  commentId: M:Connect.Razor.Html5.Base.#ctor
-  fullName: Connect.Razor.Html5.Base.Base()
-  nameWithType: Base.Base()
-- uid: Connect.Razor.Html5.Base.#ctor(System.Object[])
-  name: Base(Object[])
-  href: api/Connect.Razor.Html5.Base.html#Connect_Razor_Html5_Base__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Base.#ctor(System.Object[])
-  name.vb: Base(Object())
-  fullName: Connect.Razor.Html5.Base.Base(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Base.Base(System.Object())
-  nameWithType: Base.Base(Object[])
-  nameWithType.vb: Base.Base(Object())
-- uid: Connect.Razor.Html5.Base.#ctor*
-  name: Base
-  href: api/Connect.Razor.Html5.Base.html#Connect_Razor_Html5_Base__ctor_
-  commentId: Overload:Connect.Razor.Html5.Base.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Base.Base
-  nameWithType: Base.Base
 - uid: Connect.Razor.Html5.Base.Href(System.String)
   name: Href(String)
   href: api/Connect.Razor.Html5.Base.html#Connect_Razor_Html5_Base_Href_System_String_
@@ -2810,62 +2600,12 @@ references:
   commentId: T:Connect.Razor.Html5.Bdi
   fullName: Connect.Razor.Html5.Bdi
   nameWithType: Bdi
-- uid: Connect.Razor.Html5.Bdi.#ctor(System.Object)
-  name: Bdi(Object)
-  href: api/Connect.Razor.Html5.Bdi.html#Connect_Razor_Html5_Bdi__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Bdi.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Bdi.Bdi(System.Object)
-  nameWithType: Bdi.Bdi(Object)
-- uid: Connect.Razor.Html5.Bdi.#ctor(System.Object[])
-  name: Bdi(Object[])
-  href: api/Connect.Razor.Html5.Bdi.html#Connect_Razor_Html5_Bdi__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Bdi.#ctor(System.Object[])
-  name.vb: Bdi(Object())
-  fullName: Connect.Razor.Html5.Bdi.Bdi(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Bdi.Bdi(System.Object())
-  nameWithType: Bdi.Bdi(Object[])
-  nameWithType.vb: Bdi.Bdi(Object())
-- uid: Connect.Razor.Html5.Bdi.#ctor*
-  name: Bdi
-  href: api/Connect.Razor.Html5.Bdi.html#Connect_Razor_Html5_Bdi__ctor_
-  commentId: Overload:Connect.Razor.Html5.Bdi.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Bdi.Bdi
-  nameWithType: Bdi.Bdi
 - uid: Connect.Razor.Html5.Bdo
   name: Bdo
   href: api/Connect.Razor.Html5.Bdo.html
   commentId: T:Connect.Razor.Html5.Bdo
   fullName: Connect.Razor.Html5.Bdo
   nameWithType: Bdo
-- uid: Connect.Razor.Html5.Bdo.#ctor(System.Object)
-  name: Bdo(Object)
-  href: api/Connect.Razor.Html5.Bdo.html#Connect_Razor_Html5_Bdo__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Bdo.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Bdo.Bdo(System.Object)
-  nameWithType: Bdo.Bdo(Object)
-- uid: Connect.Razor.Html5.Bdo.#ctor(System.Object,System.String)
-  name: Bdo(Object, String)
-  href: api/Connect.Razor.Html5.Bdo.html#Connect_Razor_Html5_Bdo__ctor_System_Object_System_String_
-  commentId: M:Connect.Razor.Html5.Bdo.#ctor(System.Object,System.String)
-  fullName: Connect.Razor.Html5.Bdo.Bdo(System.Object, System.String)
-  nameWithType: Bdo.Bdo(Object, String)
-- uid: Connect.Razor.Html5.Bdo.#ctor(System.Object[])
-  name: Bdo(Object[])
-  href: api/Connect.Razor.Html5.Bdo.html#Connect_Razor_Html5_Bdo__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Bdo.#ctor(System.Object[])
-  name.vb: Bdo(Object())
-  fullName: Connect.Razor.Html5.Bdo.Bdo(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Bdo.Bdo(System.Object())
-  nameWithType: Bdo.Bdo(Object[])
-  nameWithType.vb: Bdo.Bdo(Object())
-- uid: Connect.Razor.Html5.Bdo.#ctor*
-  name: Bdo
-  href: api/Connect.Razor.Html5.Bdo.html#Connect_Razor_Html5_Bdo__ctor_
-  commentId: Overload:Connect.Razor.Html5.Bdo.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Bdo.Bdo
-  nameWithType: Bdo.Bdo
 - uid: Connect.Razor.Html5.Bdo.Dir(System.String)
   name: Dir(String)
   href: api/Connect.Razor.Html5.Bdo.html#Connect_Razor_Html5_Bdo_Dir_System_String_
@@ -2885,28 +2625,6 @@ references:
   commentId: T:Connect.Razor.Html5.Blockquote
   fullName: Connect.Razor.Html5.Blockquote
   nameWithType: Blockquote
-- uid: Connect.Razor.Html5.Blockquote.#ctor(System.Object)
-  name: Blockquote(Object)
-  href: api/Connect.Razor.Html5.Blockquote.html#Connect_Razor_Html5_Blockquote__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Blockquote.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Blockquote.Blockquote(System.Object)
-  nameWithType: Blockquote.Blockquote(Object)
-- uid: Connect.Razor.Html5.Blockquote.#ctor(System.Object[])
-  name: Blockquote(Object[])
-  href: api/Connect.Razor.Html5.Blockquote.html#Connect_Razor_Html5_Blockquote__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Blockquote.#ctor(System.Object[])
-  name.vb: Blockquote(Object())
-  fullName: Connect.Razor.Html5.Blockquote.Blockquote(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Blockquote.Blockquote(System.Object())
-  nameWithType: Blockquote.Blockquote(Object[])
-  nameWithType.vb: Blockquote.Blockquote(Object())
-- uid: Connect.Razor.Html5.Blockquote.#ctor*
-  name: Blockquote
-  href: api/Connect.Razor.Html5.Blockquote.html#Connect_Razor_Html5_Blockquote__ctor_
-  commentId: Overload:Connect.Razor.Html5.Blockquote.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Blockquote.Blockquote
-  nameWithType: Blockquote.Blockquote
 - uid: Connect.Razor.Html5.Blockquote.Cite(System.String)
   name: Cite(String)
   href: api/Connect.Razor.Html5.Blockquote.html#Connect_Razor_Html5_Blockquote_Cite_System_String_
@@ -2926,56 +2644,12 @@ references:
   commentId: T:Connect.Razor.Html5.Br
   fullName: Connect.Razor.Html5.Br
   nameWithType: Br
-- uid: Connect.Razor.Html5.Br.#ctor
-  name: Br()
-  href: api/Connect.Razor.Html5.Br.html#Connect_Razor_Html5_Br__ctor
-  commentId: M:Connect.Razor.Html5.Br.#ctor
-  fullName: Connect.Razor.Html5.Br.Br()
-  nameWithType: Br.Br()
-- uid: Connect.Razor.Html5.Br.#ctor(System.Object[])
-  name: Br(Object[])
-  href: api/Connect.Razor.Html5.Br.html#Connect_Razor_Html5_Br__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Br.#ctor(System.Object[])
-  name.vb: Br(Object())
-  fullName: Connect.Razor.Html5.Br.Br(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Br.Br(System.Object())
-  nameWithType: Br.Br(Object[])
-  nameWithType.vb: Br.Br(Object())
-- uid: Connect.Razor.Html5.Br.#ctor*
-  name: Br
-  href: api/Connect.Razor.Html5.Br.html#Connect_Razor_Html5_Br__ctor_
-  commentId: Overload:Connect.Razor.Html5.Br.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Br.Br
-  nameWithType: Br.Br
 - uid: Connect.Razor.Html5.Button
   name: Button
   href: api/Connect.Razor.Html5.Button.html
   commentId: T:Connect.Razor.Html5.Button
   fullName: Connect.Razor.Html5.Button
   nameWithType: Button
-- uid: Connect.Razor.Html5.Button.#ctor(System.Object)
-  name: Button(Object)
-  href: api/Connect.Razor.Html5.Button.html#Connect_Razor_Html5_Button__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Button.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Button.Button(System.Object)
-  nameWithType: Button.Button(Object)
-- uid: Connect.Razor.Html5.Button.#ctor(System.Object[])
-  name: Button(Object[])
-  href: api/Connect.Razor.Html5.Button.html#Connect_Razor_Html5_Button__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Button.#ctor(System.Object[])
-  name.vb: Button(Object())
-  fullName: Connect.Razor.Html5.Button.Button(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Button.Button(System.Object())
-  nameWithType: Button.Button(Object[])
-  nameWithType.vb: Button.Button(Object())
-- uid: Connect.Razor.Html5.Button.#ctor*
-  name: Button
-  href: api/Connect.Razor.Html5.Button.html#Connect_Razor_Html5_Button__ctor_
-  commentId: Overload:Connect.Razor.Html5.Button.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Button.Button
-  nameWithType: Button.Button
 - uid: Connect.Razor.Html5.Button.Autofocus
   name: Autofocus()
   href: api/Connect.Razor.Html5.Button.html#Connect_Razor_Html5_Button_Autofocus
@@ -3143,28 +2817,6 @@ references:
   commentId: T:Connect.Razor.Html5.Canvas
   fullName: Connect.Razor.Html5.Canvas
   nameWithType: Canvas
-- uid: Connect.Razor.Html5.Canvas.#ctor(System.Object)
-  name: Canvas(Object)
-  href: api/Connect.Razor.Html5.Canvas.html#Connect_Razor_Html5_Canvas__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Canvas.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Canvas.Canvas(System.Object)
-  nameWithType: Canvas.Canvas(Object)
-- uid: Connect.Razor.Html5.Canvas.#ctor(System.Object[])
-  name: Canvas(Object[])
-  href: api/Connect.Razor.Html5.Canvas.html#Connect_Razor_Html5_Canvas__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Canvas.#ctor(System.Object[])
-  name.vb: Canvas(Object())
-  fullName: Connect.Razor.Html5.Canvas.Canvas(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Canvas.Canvas(System.Object())
-  nameWithType: Canvas.Canvas(Object[])
-  nameWithType.vb: Canvas.Canvas(Object())
-- uid: Connect.Razor.Html5.Canvas.#ctor*
-  name: Canvas
-  href: api/Connect.Razor.Html5.Canvas.html#Connect_Razor_Html5_Canvas__ctor_
-  commentId: Overload:Connect.Razor.Html5.Canvas.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Canvas.Canvas
-  nameWithType: Canvas.Canvas
 - uid: Connect.Razor.Html5.Canvas.Height(System.Int32)
   name: Height(Int32)
   href: api/Connect.Razor.Html5.Canvas.html#Connect_Razor_Html5_Canvas_Height_System_Int32_
@@ -3209,112 +2861,24 @@ references:
   commentId: T:Connect.Razor.Html5.Caption
   fullName: Connect.Razor.Html5.Caption
   nameWithType: Caption
-- uid: Connect.Razor.Html5.Caption.#ctor(System.Object)
-  name: Caption(Object)
-  href: api/Connect.Razor.Html5.Caption.html#Connect_Razor_Html5_Caption__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Caption.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Caption.Caption(System.Object)
-  nameWithType: Caption.Caption(Object)
-- uid: Connect.Razor.Html5.Caption.#ctor(System.Object[])
-  name: Caption(Object[])
-  href: api/Connect.Razor.Html5.Caption.html#Connect_Razor_Html5_Caption__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Caption.#ctor(System.Object[])
-  name.vb: Caption(Object())
-  fullName: Connect.Razor.Html5.Caption.Caption(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Caption.Caption(System.Object())
-  nameWithType: Caption.Caption(Object[])
-  nameWithType.vb: Caption.Caption(Object())
-- uid: Connect.Razor.Html5.Caption.#ctor*
-  name: Caption
-  href: api/Connect.Razor.Html5.Caption.html#Connect_Razor_Html5_Caption__ctor_
-  commentId: Overload:Connect.Razor.Html5.Caption.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Caption.Caption
-  nameWithType: Caption.Caption
 - uid: Connect.Razor.Html5.Cite
   name: Cite
   href: api/Connect.Razor.Html5.Cite.html
   commentId: T:Connect.Razor.Html5.Cite
   fullName: Connect.Razor.Html5.Cite
   nameWithType: Cite
-- uid: Connect.Razor.Html5.Cite.#ctor(System.Object)
-  name: Cite(Object)
-  href: api/Connect.Razor.Html5.Cite.html#Connect_Razor_Html5_Cite__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Cite.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Cite.Cite(System.Object)
-  nameWithType: Cite.Cite(Object)
-- uid: Connect.Razor.Html5.Cite.#ctor(System.Object[])
-  name: Cite(Object[])
-  href: api/Connect.Razor.Html5.Cite.html#Connect_Razor_Html5_Cite__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Cite.#ctor(System.Object[])
-  name.vb: Cite(Object())
-  fullName: Connect.Razor.Html5.Cite.Cite(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Cite.Cite(System.Object())
-  nameWithType: Cite.Cite(Object[])
-  nameWithType.vb: Cite.Cite(Object())
-- uid: Connect.Razor.Html5.Cite.#ctor*
-  name: Cite
-  href: api/Connect.Razor.Html5.Cite.html#Connect_Razor_Html5_Cite__ctor_
-  commentId: Overload:Connect.Razor.Html5.Cite.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Cite.Cite
-  nameWithType: Cite.Cite
 - uid: Connect.Razor.Html5.Code
   name: Code
   href: api/Connect.Razor.Html5.Code.html
   commentId: T:Connect.Razor.Html5.Code
   fullName: Connect.Razor.Html5.Code
   nameWithType: Code
-- uid: Connect.Razor.Html5.Code.#ctor(System.Object)
-  name: Code(Object)
-  href: api/Connect.Razor.Html5.Code.html#Connect_Razor_Html5_Code__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Code.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Code.Code(System.Object)
-  nameWithType: Code.Code(Object)
-- uid: Connect.Razor.Html5.Code.#ctor(System.Object[])
-  name: Code(Object[])
-  href: api/Connect.Razor.Html5.Code.html#Connect_Razor_Html5_Code__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Code.#ctor(System.Object[])
-  name.vb: Code(Object())
-  fullName: Connect.Razor.Html5.Code.Code(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Code.Code(System.Object())
-  nameWithType: Code.Code(Object[])
-  nameWithType.vb: Code.Code(Object())
-- uid: Connect.Razor.Html5.Code.#ctor*
-  name: Code
-  href: api/Connect.Razor.Html5.Code.html#Connect_Razor_Html5_Code__ctor_
-  commentId: Overload:Connect.Razor.Html5.Code.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Code.Code
-  nameWithType: Code.Code
 - uid: Connect.Razor.Html5.Col
   name: Col
   href: api/Connect.Razor.Html5.Col.html
   commentId: T:Connect.Razor.Html5.Col
   fullName: Connect.Razor.Html5.Col
   nameWithType: Col
-- uid: Connect.Razor.Html5.Col.#ctor(System.Object)
-  name: Col(Object)
-  href: api/Connect.Razor.Html5.Col.html#Connect_Razor_Html5_Col__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Col.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Col.Col(System.Object)
-  nameWithType: Col.Col(Object)
-- uid: Connect.Razor.Html5.Col.#ctor(System.Object[])
-  name: Col(Object[])
-  href: api/Connect.Razor.Html5.Col.html#Connect_Razor_Html5_Col__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Col.#ctor(System.Object[])
-  name.vb: Col(Object())
-  fullName: Connect.Razor.Html5.Col.Col(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Col.Col(System.Object())
-  nameWithType: Col.Col(Object[])
-  nameWithType.vb: Col.Col(Object())
-- uid: Connect.Razor.Html5.Col.#ctor*
-  name: Col
-  href: api/Connect.Razor.Html5.Col.html#Connect_Razor_Html5_Col__ctor_
-  commentId: Overload:Connect.Razor.Html5.Col.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Col.Col
-  nameWithType: Col.Col
 - uid: Connect.Razor.Html5.Col.Span(System.Int32)
   name: Span(Int32)
   href: api/Connect.Razor.Html5.Col.html#Connect_Razor_Html5_Col_Span_System_Int32_
@@ -3340,28 +2904,6 @@ references:
   commentId: T:Connect.Razor.Html5.Colgroup
   fullName: Connect.Razor.Html5.Colgroup
   nameWithType: Colgroup
-- uid: Connect.Razor.Html5.Colgroup.#ctor(System.Object)
-  name: Colgroup(Object)
-  href: api/Connect.Razor.Html5.Colgroup.html#Connect_Razor_Html5_Colgroup__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Colgroup.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Colgroup.Colgroup(System.Object)
-  nameWithType: Colgroup.Colgroup(Object)
-- uid: Connect.Razor.Html5.Colgroup.#ctor(System.Object[])
-  name: Colgroup(Object[])
-  href: api/Connect.Razor.Html5.Colgroup.html#Connect_Razor_Html5_Colgroup__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Colgroup.#ctor(System.Object[])
-  name.vb: Colgroup(Object())
-  fullName: Connect.Razor.Html5.Colgroup.Colgroup(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Colgroup.Colgroup(System.Object())
-  nameWithType: Colgroup.Colgroup(Object[])
-  nameWithType.vb: Colgroup.Colgroup(Object())
-- uid: Connect.Razor.Html5.Colgroup.#ctor*
-  name: Colgroup
-  href: api/Connect.Razor.Html5.Colgroup.html#Connect_Razor_Html5_Colgroup__ctor_
-  commentId: Overload:Connect.Razor.Html5.Colgroup.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Colgroup.Colgroup
-  nameWithType: Colgroup.Colgroup
 - uid: Connect.Razor.Html5.Colgroup.Span(System.Int32)
   name: Span(Int32)
   href: api/Connect.Razor.Html5.Colgroup.html#Connect_Razor_Html5_Colgroup_Span_System_Int32_
@@ -3387,47 +2929,12 @@ references:
   commentId: T:Connect.Razor.Html5.Comment
   fullName: Connect.Razor.Html5.Comment
   nameWithType: Comment
-- uid: Connect.Razor.Html5.Comment.#ctor(System.String)
-  name: Comment(String)
-  href: api/Connect.Razor.Html5.Comment.html#Connect_Razor_Html5_Comment__ctor_System_String_
-  commentId: M:Connect.Razor.Html5.Comment.#ctor(System.String)
-  fullName: Connect.Razor.Html5.Comment.Comment(System.String)
-  nameWithType: Comment.Comment(String)
-- uid: Connect.Razor.Html5.Comment.#ctor*
-  name: Comment
-  href: api/Connect.Razor.Html5.Comment.html#Connect_Razor_Html5_Comment__ctor_
-  commentId: Overload:Connect.Razor.Html5.Comment.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Comment.Comment
-  nameWithType: Comment.Comment
 - uid: Connect.Razor.Html5.Data
   name: Data
   href: api/Connect.Razor.Html5.Data.html
   commentId: T:Connect.Razor.Html5.Data
   fullName: Connect.Razor.Html5.Data
   nameWithType: Data
-- uid: Connect.Razor.Html5.Data.#ctor(System.Object)
-  name: Data(Object)
-  href: api/Connect.Razor.Html5.Data.html#Connect_Razor_Html5_Data__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Data.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Data.Data(System.Object)
-  nameWithType: Data.Data(Object)
-- uid: Connect.Razor.Html5.Data.#ctor(System.Object[])
-  name: Data(Object[])
-  href: api/Connect.Razor.Html5.Data.html#Connect_Razor_Html5_Data__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Data.#ctor(System.Object[])
-  name.vb: Data(Object())
-  fullName: Connect.Razor.Html5.Data.Data(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Data.Data(System.Object())
-  nameWithType: Data.Data(Object[])
-  nameWithType.vb: Data.Data(Object())
-- uid: Connect.Razor.Html5.Data.#ctor*
-  name: Data
-  href: api/Connect.Razor.Html5.Data.html#Connect_Razor_Html5_Data__ctor_
-  commentId: Overload:Connect.Razor.Html5.Data.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Data.Data
-  nameWithType: Data.Data
 - uid: Connect.Razor.Html5.Data.Open
   name: Open()
   href: api/Connect.Razor.Html5.Data.html#Connect_Razor_Html5_Data_Open
@@ -3453,84 +2960,18 @@ references:
   commentId: T:Connect.Razor.Html5.Datalist
   fullName: Connect.Razor.Html5.Datalist
   nameWithType: Datalist
-- uid: Connect.Razor.Html5.Datalist.#ctor(System.Object)
-  name: Datalist(Object)
-  href: api/Connect.Razor.Html5.Datalist.html#Connect_Razor_Html5_Datalist__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Datalist.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Datalist.Datalist(System.Object)
-  nameWithType: Datalist.Datalist(Object)
-- uid: Connect.Razor.Html5.Datalist.#ctor(System.Object[])
-  name: Datalist(Object[])
-  href: api/Connect.Razor.Html5.Datalist.html#Connect_Razor_Html5_Datalist__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Datalist.#ctor(System.Object[])
-  name.vb: Datalist(Object())
-  fullName: Connect.Razor.Html5.Datalist.Datalist(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Datalist.Datalist(System.Object())
-  nameWithType: Datalist.Datalist(Object[])
-  nameWithType.vb: Datalist.Datalist(Object())
-- uid: Connect.Razor.Html5.Datalist.#ctor*
-  name: Datalist
-  href: api/Connect.Razor.Html5.Datalist.html#Connect_Razor_Html5_Datalist__ctor_
-  commentId: Overload:Connect.Razor.Html5.Datalist.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Datalist.Datalist
-  nameWithType: Datalist.Datalist
 - uid: Connect.Razor.Html5.Dd
   name: Dd
   href: api/Connect.Razor.Html5.Dd.html
   commentId: T:Connect.Razor.Html5.Dd
   fullName: Connect.Razor.Html5.Dd
   nameWithType: Dd
-- uid: Connect.Razor.Html5.Dd.#ctor(System.Object)
-  name: Dd(Object)
-  href: api/Connect.Razor.Html5.Dd.html#Connect_Razor_Html5_Dd__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Dd.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Dd.Dd(System.Object)
-  nameWithType: Dd.Dd(Object)
-- uid: Connect.Razor.Html5.Dd.#ctor(System.Object[])
-  name: Dd(Object[])
-  href: api/Connect.Razor.Html5.Dd.html#Connect_Razor_Html5_Dd__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Dd.#ctor(System.Object[])
-  name.vb: Dd(Object())
-  fullName: Connect.Razor.Html5.Dd.Dd(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Dd.Dd(System.Object())
-  nameWithType: Dd.Dd(Object[])
-  nameWithType.vb: Dd.Dd(Object())
-- uid: Connect.Razor.Html5.Dd.#ctor*
-  name: Dd
-  href: api/Connect.Razor.Html5.Dd.html#Connect_Razor_Html5_Dd__ctor_
-  commentId: Overload:Connect.Razor.Html5.Dd.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Dd.Dd
-  nameWithType: Dd.Dd
 - uid: Connect.Razor.Html5.Del
   name: Del
   href: api/Connect.Razor.Html5.Del.html
   commentId: T:Connect.Razor.Html5.Del
   fullName: Connect.Razor.Html5.Del
   nameWithType: Del
-- uid: Connect.Razor.Html5.Del.#ctor(System.Object)
-  name: Del(Object)
-  href: api/Connect.Razor.Html5.Del.html#Connect_Razor_Html5_Del__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Del.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Del.Del(System.Object)
-  nameWithType: Del.Del(Object)
-- uid: Connect.Razor.Html5.Del.#ctor(System.Object[])
-  name: Del(Object[])
-  href: api/Connect.Razor.Html5.Del.html#Connect_Razor_Html5_Del__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Del.#ctor(System.Object[])
-  name.vb: Del(Object())
-  fullName: Connect.Razor.Html5.Del.Del(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Del.Del(System.Object())
-  nameWithType: Del.Del(Object[])
-  nameWithType.vb: Del.Del(Object())
-- uid: Connect.Razor.Html5.Del.#ctor*
-  name: Del
-  href: api/Connect.Razor.Html5.Del.html#Connect_Razor_Html5_Del__ctor_
-  commentId: Overload:Connect.Razor.Html5.Del.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Del.Del
-  nameWithType: Del.Del
 - uid: Connect.Razor.Html5.Del.Cite(System.String)
   name: Cite(String)
   href: api/Connect.Razor.Html5.Del.html#Connect_Razor_Html5_Del_Cite_System_String_
@@ -3569,28 +3010,6 @@ references:
   commentId: T:Connect.Razor.Html5.Details
   fullName: Connect.Razor.Html5.Details
   nameWithType: Details
-- uid: Connect.Razor.Html5.Details.#ctor(System.Object)
-  name: Details(Object)
-  href: api/Connect.Razor.Html5.Details.html#Connect_Razor_Html5_Details__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Details.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Details.Details(System.Object)
-  nameWithType: Details.Details(Object)
-- uid: Connect.Razor.Html5.Details.#ctor(System.Object[])
-  name: Details(Object[])
-  href: api/Connect.Razor.Html5.Details.html#Connect_Razor_Html5_Details__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Details.#ctor(System.Object[])
-  name.vb: Details(Object())
-  fullName: Connect.Razor.Html5.Details.Details(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Details.Details(System.Object())
-  nameWithType: Details.Details(Object[])
-  nameWithType.vb: Details.Details(Object())
-- uid: Connect.Razor.Html5.Details.#ctor*
-  name: Details
-  href: api/Connect.Razor.Html5.Details.html#Connect_Razor_Html5_Details__ctor_
-  commentId: Overload:Connect.Razor.Html5.Details.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Details.Details
-  nameWithType: Details.Details
 - uid: Connect.Razor.Html5.Details.Open
   name: Open()
   href: api/Connect.Razor.Html5.Details.html#Connect_Razor_Html5_Details_Open
@@ -3616,56 +3035,12 @@ references:
   commentId: T:Connect.Razor.Html5.Dfn
   fullName: Connect.Razor.Html5.Dfn
   nameWithType: Dfn
-- uid: Connect.Razor.Html5.Dfn.#ctor(System.Object)
-  name: Dfn(Object)
-  href: api/Connect.Razor.Html5.Dfn.html#Connect_Razor_Html5_Dfn__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Dfn.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Dfn.Dfn(System.Object)
-  nameWithType: Dfn.Dfn(Object)
-- uid: Connect.Razor.Html5.Dfn.#ctor(System.Object[])
-  name: Dfn(Object[])
-  href: api/Connect.Razor.Html5.Dfn.html#Connect_Razor_Html5_Dfn__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Dfn.#ctor(System.Object[])
-  name.vb: Dfn(Object())
-  fullName: Connect.Razor.Html5.Dfn.Dfn(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Dfn.Dfn(System.Object())
-  nameWithType: Dfn.Dfn(Object[])
-  nameWithType.vb: Dfn.Dfn(Object())
-- uid: Connect.Razor.Html5.Dfn.#ctor*
-  name: Dfn
-  href: api/Connect.Razor.Html5.Dfn.html#Connect_Razor_Html5_Dfn__ctor_
-  commentId: Overload:Connect.Razor.Html5.Dfn.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Dfn.Dfn
-  nameWithType: Dfn.Dfn
 - uid: Connect.Razor.Html5.Dialog
   name: Dialog
   href: api/Connect.Razor.Html5.Dialog.html
   commentId: T:Connect.Razor.Html5.Dialog
   fullName: Connect.Razor.Html5.Dialog
   nameWithType: Dialog
-- uid: Connect.Razor.Html5.Dialog.#ctor(System.Object)
-  name: Dialog(Object)
-  href: api/Connect.Razor.Html5.Dialog.html#Connect_Razor_Html5_Dialog__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Dialog.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Dialog.Dialog(System.Object)
-  nameWithType: Dialog.Dialog(Object)
-- uid: Connect.Razor.Html5.Dialog.#ctor(System.Object[])
-  name: Dialog(Object[])
-  href: api/Connect.Razor.Html5.Dialog.html#Connect_Razor_Html5_Dialog__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Dialog.#ctor(System.Object[])
-  name.vb: Dialog(Object())
-  fullName: Connect.Razor.Html5.Dialog.Dialog(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Dialog.Dialog(System.Object())
-  nameWithType: Dialog.Dialog(Object[])
-  nameWithType.vb: Dialog.Dialog(Object())
-- uid: Connect.Razor.Html5.Dialog.#ctor*
-  name: Dialog
-  href: api/Connect.Razor.Html5.Dialog.html#Connect_Razor_Html5_Dialog__ctor_
-  commentId: Overload:Connect.Razor.Html5.Dialog.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Dialog.Dialog
-  nameWithType: Dialog.Dialog
 - uid: Connect.Razor.Html5.Dialog.Open
   name: Open()
   href: api/Connect.Razor.Html5.Dialog.html#Connect_Razor_Html5_Dialog_Open
@@ -3691,140 +3066,30 @@ references:
   commentId: T:Connect.Razor.Html5.Div
   fullName: Connect.Razor.Html5.Div
   nameWithType: Div
-- uid: Connect.Razor.Html5.Div.#ctor(System.Object)
-  name: Div(Object)
-  href: api/Connect.Razor.Html5.Div.html#Connect_Razor_Html5_Div__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Div.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Div.Div(System.Object)
-  nameWithType: Div.Div(Object)
-- uid: Connect.Razor.Html5.Div.#ctor(System.Object[])
-  name: Div(Object[])
-  href: api/Connect.Razor.Html5.Div.html#Connect_Razor_Html5_Div__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Div.#ctor(System.Object[])
-  name.vb: Div(Object())
-  fullName: Connect.Razor.Html5.Div.Div(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Div.Div(System.Object())
-  nameWithType: Div.Div(Object[])
-  nameWithType.vb: Div.Div(Object())
-- uid: Connect.Razor.Html5.Div.#ctor*
-  name: Div
-  href: api/Connect.Razor.Html5.Div.html#Connect_Razor_Html5_Div__ctor_
-  commentId: Overload:Connect.Razor.Html5.Div.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Div.Div
-  nameWithType: Div.Div
 - uid: Connect.Razor.Html5.Dl
   name: Dl
   href: api/Connect.Razor.Html5.Dl.html
   commentId: T:Connect.Razor.Html5.Dl
   fullName: Connect.Razor.Html5.Dl
   nameWithType: Dl
-- uid: Connect.Razor.Html5.Dl.#ctor(System.Object)
-  name: Dl(Object)
-  href: api/Connect.Razor.Html5.Dl.html#Connect_Razor_Html5_Dl__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Dl.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Dl.Dl(System.Object)
-  nameWithType: Dl.Dl(Object)
-- uid: Connect.Razor.Html5.Dl.#ctor(System.Object[])
-  name: Dl(Object[])
-  href: api/Connect.Razor.Html5.Dl.html#Connect_Razor_Html5_Dl__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Dl.#ctor(System.Object[])
-  name.vb: Dl(Object())
-  fullName: Connect.Razor.Html5.Dl.Dl(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Dl.Dl(System.Object())
-  nameWithType: Dl.Dl(Object[])
-  nameWithType.vb: Dl.Dl(Object())
-- uid: Connect.Razor.Html5.Dl.#ctor*
-  name: Dl
-  href: api/Connect.Razor.Html5.Dl.html#Connect_Razor_Html5_Dl__ctor_
-  commentId: Overload:Connect.Razor.Html5.Dl.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Dl.Dl
-  nameWithType: Dl.Dl
 - uid: Connect.Razor.Html5.Dt
   name: Dt
   href: api/Connect.Razor.Html5.Dt.html
   commentId: T:Connect.Razor.Html5.Dt
   fullName: Connect.Razor.Html5.Dt
   nameWithType: Dt
-- uid: Connect.Razor.Html5.Dt.#ctor(System.Object)
-  name: Dt(Object)
-  href: api/Connect.Razor.Html5.Dt.html#Connect_Razor_Html5_Dt__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Dt.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Dt.Dt(System.Object)
-  nameWithType: Dt.Dt(Object)
-- uid: Connect.Razor.Html5.Dt.#ctor(System.Object[])
-  name: Dt(Object[])
-  href: api/Connect.Razor.Html5.Dt.html#Connect_Razor_Html5_Dt__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Dt.#ctor(System.Object[])
-  name.vb: Dt(Object())
-  fullName: Connect.Razor.Html5.Dt.Dt(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Dt.Dt(System.Object())
-  nameWithType: Dt.Dt(Object[])
-  nameWithType.vb: Dt.Dt(Object())
-- uid: Connect.Razor.Html5.Dt.#ctor*
-  name: Dt
-  href: api/Connect.Razor.Html5.Dt.html#Connect_Razor_Html5_Dt__ctor_
-  commentId: Overload:Connect.Razor.Html5.Dt.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Dt.Dt
-  nameWithType: Dt.Dt
 - uid: Connect.Razor.Html5.Em
   name: Em
   href: api/Connect.Razor.Html5.Em.html
   commentId: T:Connect.Razor.Html5.Em
   fullName: Connect.Razor.Html5.Em
   nameWithType: Em
-- uid: Connect.Razor.Html5.Em.#ctor(System.Object)
-  name: Em(Object)
-  href: api/Connect.Razor.Html5.Em.html#Connect_Razor_Html5_Em__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Em.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Em.Em(System.Object)
-  nameWithType: Em.Em(Object)
-- uid: Connect.Razor.Html5.Em.#ctor(System.Object[])
-  name: Em(Object[])
-  href: api/Connect.Razor.Html5.Em.html#Connect_Razor_Html5_Em__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Em.#ctor(System.Object[])
-  name.vb: Em(Object())
-  fullName: Connect.Razor.Html5.Em.Em(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Em.Em(System.Object())
-  nameWithType: Em.Em(Object[])
-  nameWithType.vb: Em.Em(Object())
-- uid: Connect.Razor.Html5.Em.#ctor*
-  name: Em
-  href: api/Connect.Razor.Html5.Em.html#Connect_Razor_Html5_Em__ctor_
-  commentId: Overload:Connect.Razor.Html5.Em.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Em.Em
-  nameWithType: Em.Em
 - uid: Connect.Razor.Html5.Embed
   name: Embed
   href: api/Connect.Razor.Html5.Embed.html
   commentId: T:Connect.Razor.Html5.Embed
   fullName: Connect.Razor.Html5.Embed
   nameWithType: Embed
-- uid: Connect.Razor.Html5.Embed.#ctor(System.Object)
-  name: Embed(Object)
-  href: api/Connect.Razor.Html5.Embed.html#Connect_Razor_Html5_Embed__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Embed.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Embed.Embed(System.Object)
-  nameWithType: Embed.Embed(Object)
-- uid: Connect.Razor.Html5.Embed.#ctor(System.Object[])
-  name: Embed(Object[])
-  href: api/Connect.Razor.Html5.Embed.html#Connect_Razor_Html5_Embed__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Embed.#ctor(System.Object[])
-  name.vb: Embed(Object())
-  fullName: Connect.Razor.Html5.Embed.Embed(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Embed.Embed(System.Object())
-  nameWithType: Embed.Embed(Object[])
-  nameWithType.vb: Embed.Embed(Object())
-- uid: Connect.Razor.Html5.Embed.#ctor*
-  name: Embed
-  href: api/Connect.Razor.Html5.Embed.html#Connect_Razor_Html5_Embed__ctor_
-  commentId: Overload:Connect.Razor.Html5.Embed.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Embed.Embed
-  nameWithType: Embed.Embed
 - uid: Connect.Razor.Html5.Embed.Height(System.Int32)
   name: Height(Int32)
   href: api/Connect.Razor.Html5.Embed.html#Connect_Razor_Html5_Embed_Height_System_Int32_
@@ -3895,28 +3160,6 @@ references:
   commentId: T:Connect.Razor.Html5.Fieldset
   fullName: Connect.Razor.Html5.Fieldset
   nameWithType: Fieldset
-- uid: Connect.Razor.Html5.Fieldset.#ctor(System.Object)
-  name: Fieldset(Object)
-  href: api/Connect.Razor.Html5.Fieldset.html#Connect_Razor_Html5_Fieldset__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Fieldset.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Fieldset.Fieldset(System.Object)
-  nameWithType: Fieldset.Fieldset(Object)
-- uid: Connect.Razor.Html5.Fieldset.#ctor(System.Object[])
-  name: Fieldset(Object[])
-  href: api/Connect.Razor.Html5.Fieldset.html#Connect_Razor_Html5_Fieldset__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Fieldset.#ctor(System.Object[])
-  name.vb: Fieldset(Object())
-  fullName: Connect.Razor.Html5.Fieldset.Fieldset(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Fieldset.Fieldset(System.Object())
-  nameWithType: Fieldset.Fieldset(Object[])
-  nameWithType.vb: Fieldset.Fieldset(Object())
-- uid: Connect.Razor.Html5.Fieldset.#ctor*
-  name: Fieldset
-  href: api/Connect.Razor.Html5.Fieldset.html#Connect_Razor_Html5_Fieldset__ctor_
-  commentId: Overload:Connect.Razor.Html5.Fieldset.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Fieldset.Fieldset
-  nameWithType: Fieldset.Fieldset
 - uid: Connect.Razor.Html5.Fieldset.Disabled
   name: Disabled()
   href: api/Connect.Razor.Html5.Fieldset.html#Connect_Razor_Html5_Fieldset_Disabled
@@ -3968,112 +3211,24 @@ references:
   commentId: T:Connect.Razor.Html5.Figcaption
   fullName: Connect.Razor.Html5.Figcaption
   nameWithType: Figcaption
-- uid: Connect.Razor.Html5.Figcaption.#ctor(System.Object)
-  name: Figcaption(Object)
-  href: api/Connect.Razor.Html5.Figcaption.html#Connect_Razor_Html5_Figcaption__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Figcaption.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Figcaption.Figcaption(System.Object)
-  nameWithType: Figcaption.Figcaption(Object)
-- uid: Connect.Razor.Html5.Figcaption.#ctor(System.Object[])
-  name: Figcaption(Object[])
-  href: api/Connect.Razor.Html5.Figcaption.html#Connect_Razor_Html5_Figcaption__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Figcaption.#ctor(System.Object[])
-  name.vb: Figcaption(Object())
-  fullName: Connect.Razor.Html5.Figcaption.Figcaption(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Figcaption.Figcaption(System.Object())
-  nameWithType: Figcaption.Figcaption(Object[])
-  nameWithType.vb: Figcaption.Figcaption(Object())
-- uid: Connect.Razor.Html5.Figcaption.#ctor*
-  name: Figcaption
-  href: api/Connect.Razor.Html5.Figcaption.html#Connect_Razor_Html5_Figcaption__ctor_
-  commentId: Overload:Connect.Razor.Html5.Figcaption.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Figcaption.Figcaption
-  nameWithType: Figcaption.Figcaption
 - uid: Connect.Razor.Html5.Figure
   name: Figure
   href: api/Connect.Razor.Html5.Figure.html
   commentId: T:Connect.Razor.Html5.Figure
   fullName: Connect.Razor.Html5.Figure
   nameWithType: Figure
-- uid: Connect.Razor.Html5.Figure.#ctor(System.Object)
-  name: Figure(Object)
-  href: api/Connect.Razor.Html5.Figure.html#Connect_Razor_Html5_Figure__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Figure.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Figure.Figure(System.Object)
-  nameWithType: Figure.Figure(Object)
-- uid: Connect.Razor.Html5.Figure.#ctor(System.Object[])
-  name: Figure(Object[])
-  href: api/Connect.Razor.Html5.Figure.html#Connect_Razor_Html5_Figure__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Figure.#ctor(System.Object[])
-  name.vb: Figure(Object())
-  fullName: Connect.Razor.Html5.Figure.Figure(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Figure.Figure(System.Object())
-  nameWithType: Figure.Figure(Object[])
-  nameWithType.vb: Figure.Figure(Object())
-- uid: Connect.Razor.Html5.Figure.#ctor*
-  name: Figure
-  href: api/Connect.Razor.Html5.Figure.html#Connect_Razor_Html5_Figure__ctor_
-  commentId: Overload:Connect.Razor.Html5.Figure.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Figure.Figure
-  nameWithType: Figure.Figure
 - uid: Connect.Razor.Html5.Footer
   name: Footer
   href: api/Connect.Razor.Html5.Footer.html
   commentId: T:Connect.Razor.Html5.Footer
   fullName: Connect.Razor.Html5.Footer
   nameWithType: Footer
-- uid: Connect.Razor.Html5.Footer.#ctor(System.Object)
-  name: Footer(Object)
-  href: api/Connect.Razor.Html5.Footer.html#Connect_Razor_Html5_Footer__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Footer.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Footer.Footer(System.Object)
-  nameWithType: Footer.Footer(Object)
-- uid: Connect.Razor.Html5.Footer.#ctor(System.Object[])
-  name: Footer(Object[])
-  href: api/Connect.Razor.Html5.Footer.html#Connect_Razor_Html5_Footer__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Footer.#ctor(System.Object[])
-  name.vb: Footer(Object())
-  fullName: Connect.Razor.Html5.Footer.Footer(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Footer.Footer(System.Object())
-  nameWithType: Footer.Footer(Object[])
-  nameWithType.vb: Footer.Footer(Object())
-- uid: Connect.Razor.Html5.Footer.#ctor*
-  name: Footer
-  href: api/Connect.Razor.Html5.Footer.html#Connect_Razor_Html5_Footer__ctor_
-  commentId: Overload:Connect.Razor.Html5.Footer.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Footer.Footer
-  nameWithType: Footer.Footer
 - uid: Connect.Razor.Html5.Form
   name: Form
   href: api/Connect.Razor.Html5.Form.html
   commentId: T:Connect.Razor.Html5.Form
   fullName: Connect.Razor.Html5.Form
   nameWithType: Form
-- uid: Connect.Razor.Html5.Form.#ctor(System.Object)
-  name: Form(Object)
-  href: api/Connect.Razor.Html5.Form.html#Connect_Razor_Html5_Form__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Form.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Form.Form(System.Object)
-  nameWithType: Form.Form(Object)
-- uid: Connect.Razor.Html5.Form.#ctor(System.Object[])
-  name: Form(Object[])
-  href: api/Connect.Razor.Html5.Form.html#Connect_Razor_Html5_Form__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Form.#ctor(System.Object[])
-  name.vb: Form(Object())
-  fullName: Connect.Razor.Html5.Form.Form(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Form.Form(System.Object())
-  nameWithType: Form.Form(Object[])
-  nameWithType.vb: Form.Form(Object())
-- uid: Connect.Razor.Html5.Form.#ctor*
-  name: Form
-  href: api/Connect.Razor.Html5.Form.html#Connect_Razor_Html5_Form__ctor_
-  commentId: Overload:Connect.Razor.Html5.Form.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Form.Form
-  nameWithType: Form.Form
 - uid: Connect.Razor.Html5.Form.AcceptCharset(System.String)
   name: AcceptCharset(String)
   href: api/Connect.Razor.Html5.Form.html#Connect_Razor_Html5_Form_AcceptCharset_System_String_
@@ -4190,299 +3345,66 @@ references:
   commentId: T:Connect.Razor.Html5.H1
   fullName: Connect.Razor.Html5.H1
   nameWithType: H1
-- uid: Connect.Razor.Html5.H1.#ctor(System.Object)
-  name: H1(Object)
-  href: api/Connect.Razor.Html5.H1.html#Connect_Razor_Html5_H1__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.H1.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.H1.H1(System.Object)
-  nameWithType: H1.H1(Object)
-- uid: Connect.Razor.Html5.H1.#ctor(System.Object[])
-  name: H1(Object[])
-  href: api/Connect.Razor.Html5.H1.html#Connect_Razor_Html5_H1__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.H1.#ctor(System.Object[])
-  name.vb: H1(Object())
-  fullName: Connect.Razor.Html5.H1.H1(System.Object[])
-  fullName.vb: Connect.Razor.Html5.H1.H1(System.Object())
-  nameWithType: H1.H1(Object[])
-  nameWithType.vb: H1.H1(Object())
-- uid: Connect.Razor.Html5.H1.#ctor*
-  name: H1
-  href: api/Connect.Razor.Html5.H1.html#Connect_Razor_Html5_H1__ctor_
-  commentId: Overload:Connect.Razor.Html5.H1.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.H1.H1
-  nameWithType: H1.H1
 - uid: Connect.Razor.Html5.H2
   name: H2
   href: api/Connect.Razor.Html5.H2.html
   commentId: T:Connect.Razor.Html5.H2
   fullName: Connect.Razor.Html5.H2
   nameWithType: H2
-- uid: Connect.Razor.Html5.H2.#ctor(System.Object)
-  name: H2(Object)
-  href: api/Connect.Razor.Html5.H2.html#Connect_Razor_Html5_H2__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.H2.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.H2.H2(System.Object)
-  nameWithType: H2.H2(Object)
-- uid: Connect.Razor.Html5.H2.#ctor(System.Object[])
-  name: H2(Object[])
-  href: api/Connect.Razor.Html5.H2.html#Connect_Razor_Html5_H2__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.H2.#ctor(System.Object[])
-  name.vb: H2(Object())
-  fullName: Connect.Razor.Html5.H2.H2(System.Object[])
-  fullName.vb: Connect.Razor.Html5.H2.H2(System.Object())
-  nameWithType: H2.H2(Object[])
-  nameWithType.vb: H2.H2(Object())
-- uid: Connect.Razor.Html5.H2.#ctor*
-  name: H2
-  href: api/Connect.Razor.Html5.H2.html#Connect_Razor_Html5_H2__ctor_
-  commentId: Overload:Connect.Razor.Html5.H2.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.H2.H2
-  nameWithType: H2.H2
 - uid: Connect.Razor.Html5.H3
   name: H3
   href: api/Connect.Razor.Html5.H3.html
   commentId: T:Connect.Razor.Html5.H3
   fullName: Connect.Razor.Html5.H3
   nameWithType: H3
-- uid: Connect.Razor.Html5.H3.#ctor(System.Object)
-  name: H3(Object)
-  href: api/Connect.Razor.Html5.H3.html#Connect_Razor_Html5_H3__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.H3.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.H3.H3(System.Object)
-  nameWithType: H3.H3(Object)
-- uid: Connect.Razor.Html5.H3.#ctor(System.Object[])
-  name: H3(Object[])
-  href: api/Connect.Razor.Html5.H3.html#Connect_Razor_Html5_H3__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.H3.#ctor(System.Object[])
-  name.vb: H3(Object())
-  fullName: Connect.Razor.Html5.H3.H3(System.Object[])
-  fullName.vb: Connect.Razor.Html5.H3.H3(System.Object())
-  nameWithType: H3.H3(Object[])
-  nameWithType.vb: H3.H3(Object())
-- uid: Connect.Razor.Html5.H3.#ctor*
-  name: H3
-  href: api/Connect.Razor.Html5.H3.html#Connect_Razor_Html5_H3__ctor_
-  commentId: Overload:Connect.Razor.Html5.H3.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.H3.H3
-  nameWithType: H3.H3
 - uid: Connect.Razor.Html5.H4
   name: H4
   href: api/Connect.Razor.Html5.H4.html
   commentId: T:Connect.Razor.Html5.H4
   fullName: Connect.Razor.Html5.H4
   nameWithType: H4
-- uid: Connect.Razor.Html5.H4.#ctor(System.Object)
-  name: H4(Object)
-  href: api/Connect.Razor.Html5.H4.html#Connect_Razor_Html5_H4__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.H4.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.H4.H4(System.Object)
-  nameWithType: H4.H4(Object)
-- uid: Connect.Razor.Html5.H4.#ctor(System.Object[])
-  name: H4(Object[])
-  href: api/Connect.Razor.Html5.H4.html#Connect_Razor_Html5_H4__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.H4.#ctor(System.Object[])
-  name.vb: H4(Object())
-  fullName: Connect.Razor.Html5.H4.H4(System.Object[])
-  fullName.vb: Connect.Razor.Html5.H4.H4(System.Object())
-  nameWithType: H4.H4(Object[])
-  nameWithType.vb: H4.H4(Object())
-- uid: Connect.Razor.Html5.H4.#ctor*
-  name: H4
-  href: api/Connect.Razor.Html5.H4.html#Connect_Razor_Html5_H4__ctor_
-  commentId: Overload:Connect.Razor.Html5.H4.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.H4.H4
-  nameWithType: H4.H4
 - uid: Connect.Razor.Html5.H5
   name: H5
   href: api/Connect.Razor.Html5.H5.html
   commentId: T:Connect.Razor.Html5.H5
   fullName: Connect.Razor.Html5.H5
   nameWithType: H5
-- uid: Connect.Razor.Html5.H5.#ctor(System.Object)
-  name: H5(Object)
-  href: api/Connect.Razor.Html5.H5.html#Connect_Razor_Html5_H5__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.H5.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.H5.H5(System.Object)
-  nameWithType: H5.H5(Object)
-- uid: Connect.Razor.Html5.H5.#ctor(System.Object[])
-  name: H5(Object[])
-  href: api/Connect.Razor.Html5.H5.html#Connect_Razor_Html5_H5__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.H5.#ctor(System.Object[])
-  name.vb: H5(Object())
-  fullName: Connect.Razor.Html5.H5.H5(System.Object[])
-  fullName.vb: Connect.Razor.Html5.H5.H5(System.Object())
-  nameWithType: H5.H5(Object[])
-  nameWithType.vb: H5.H5(Object())
-- uid: Connect.Razor.Html5.H5.#ctor*
-  name: H5
-  href: api/Connect.Razor.Html5.H5.html#Connect_Razor_Html5_H5__ctor_
-  commentId: Overload:Connect.Razor.Html5.H5.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.H5.H5
-  nameWithType: H5.H5
 - uid: Connect.Razor.Html5.H6
   name: H6
   href: api/Connect.Razor.Html5.H6.html
   commentId: T:Connect.Razor.Html5.H6
   fullName: Connect.Razor.Html5.H6
   nameWithType: H6
-- uid: Connect.Razor.Html5.H6.#ctor(System.Object)
-  name: H6(Object)
-  href: api/Connect.Razor.Html5.H6.html#Connect_Razor_Html5_H6__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.H6.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.H6.H6(System.Object)
-  nameWithType: H6.H6(Object)
-- uid: Connect.Razor.Html5.H6.#ctor(System.Object[])
-  name: H6(Object[])
-  href: api/Connect.Razor.Html5.H6.html#Connect_Razor_Html5_H6__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.H6.#ctor(System.Object[])
-  name.vb: H6(Object())
-  fullName: Connect.Razor.Html5.H6.H6(System.Object[])
-  fullName.vb: Connect.Razor.Html5.H6.H6(System.Object())
-  nameWithType: H6.H6(Object[])
-  nameWithType.vb: H6.H6(Object())
-- uid: Connect.Razor.Html5.H6.#ctor*
-  name: H6
-  href: api/Connect.Razor.Html5.H6.html#Connect_Razor_Html5_H6__ctor_
-  commentId: Overload:Connect.Razor.Html5.H6.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.H6.H6
-  nameWithType: H6.H6
 - uid: Connect.Razor.Html5.Head
   name: Head
   href: api/Connect.Razor.Html5.Head.html
   commentId: T:Connect.Razor.Html5.Head
   fullName: Connect.Razor.Html5.Head
   nameWithType: Head
-- uid: Connect.Razor.Html5.Head.#ctor(System.Object)
-  name: Head(Object)
-  href: api/Connect.Razor.Html5.Head.html#Connect_Razor_Html5_Head__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Head.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Head.Head(System.Object)
-  nameWithType: Head.Head(Object)
-- uid: Connect.Razor.Html5.Head.#ctor(System.Object[])
-  name: Head(Object[])
-  href: api/Connect.Razor.Html5.Head.html#Connect_Razor_Html5_Head__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Head.#ctor(System.Object[])
-  name.vb: Head(Object())
-  fullName: Connect.Razor.Html5.Head.Head(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Head.Head(System.Object())
-  nameWithType: Head.Head(Object[])
-  nameWithType.vb: Head.Head(Object())
-- uid: Connect.Razor.Html5.Head.#ctor*
-  name: Head
-  href: api/Connect.Razor.Html5.Head.html#Connect_Razor_Html5_Head__ctor_
-  commentId: Overload:Connect.Razor.Html5.Head.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Head.Head
-  nameWithType: Head.Head
 - uid: Connect.Razor.Html5.Header
   name: Header
   href: api/Connect.Razor.Html5.Header.html
   commentId: T:Connect.Razor.Html5.Header
   fullName: Connect.Razor.Html5.Header
   nameWithType: Header
-- uid: Connect.Razor.Html5.Header.#ctor(System.Object)
-  name: Header(Object)
-  href: api/Connect.Razor.Html5.Header.html#Connect_Razor_Html5_Header__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Header.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Header.Header(System.Object)
-  nameWithType: Header.Header(Object)
-- uid: Connect.Razor.Html5.Header.#ctor(System.Object[])
-  name: Header(Object[])
-  href: api/Connect.Razor.Html5.Header.html#Connect_Razor_Html5_Header__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Header.#ctor(System.Object[])
-  name.vb: Header(Object())
-  fullName: Connect.Razor.Html5.Header.Header(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Header.Header(System.Object())
-  nameWithType: Header.Header(Object[])
-  nameWithType.vb: Header.Header(Object())
-- uid: Connect.Razor.Html5.Header.#ctor*
-  name: Header
-  href: api/Connect.Razor.Html5.Header.html#Connect_Razor_Html5_Header__ctor_
-  commentId: Overload:Connect.Razor.Html5.Header.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Header.Header
-  nameWithType: Header.Header
 - uid: Connect.Razor.Html5.Hr
   name: Hr
   href: api/Connect.Razor.Html5.Hr.html
   commentId: T:Connect.Razor.Html5.Hr
   fullName: Connect.Razor.Html5.Hr
   nameWithType: Hr
-- uid: Connect.Razor.Html5.Hr.#ctor
-  name: Hr()
-  href: api/Connect.Razor.Html5.Hr.html#Connect_Razor_Html5_Hr__ctor
-  commentId: M:Connect.Razor.Html5.Hr.#ctor
-  fullName: Connect.Razor.Html5.Hr.Hr()
-  nameWithType: Hr.Hr()
-- uid: Connect.Razor.Html5.Hr.#ctor(System.Object[])
-  name: Hr(Object[])
-  href: api/Connect.Razor.Html5.Hr.html#Connect_Razor_Html5_Hr__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Hr.#ctor(System.Object[])
-  name.vb: Hr(Object())
-  fullName: Connect.Razor.Html5.Hr.Hr(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Hr.Hr(System.Object())
-  nameWithType: Hr.Hr(Object[])
-  nameWithType.vb: Hr.Hr(Object())
-- uid: Connect.Razor.Html5.Hr.#ctor*
-  name: Hr
-  href: api/Connect.Razor.Html5.Hr.html#Connect_Razor_Html5_Hr__ctor_
-  commentId: Overload:Connect.Razor.Html5.Hr.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Hr.Hr
-  nameWithType: Hr.Hr
 - uid: Connect.Razor.Html5.I
   name: I
   href: api/Connect.Razor.Html5.I.html
   commentId: T:Connect.Razor.Html5.I
   fullName: Connect.Razor.Html5.I
   nameWithType: I
-- uid: Connect.Razor.Html5.I.#ctor(System.Object)
-  name: I(Object)
-  href: api/Connect.Razor.Html5.I.html#Connect_Razor_Html5_I__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.I.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.I.I(System.Object)
-  nameWithType: I.I(Object)
-- uid: Connect.Razor.Html5.I.#ctor(System.Object[])
-  name: I(Object[])
-  href: api/Connect.Razor.Html5.I.html#Connect_Razor_Html5_I__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.I.#ctor(System.Object[])
-  name.vb: I(Object())
-  fullName: Connect.Razor.Html5.I.I(System.Object[])
-  fullName.vb: Connect.Razor.Html5.I.I(System.Object())
-  nameWithType: I.I(Object[])
-  nameWithType.vb: I.I(Object())
-- uid: Connect.Razor.Html5.I.#ctor*
-  name: I
-  href: api/Connect.Razor.Html5.I.html#Connect_Razor_Html5_I__ctor_
-  commentId: Overload:Connect.Razor.Html5.I.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.I.I
-  nameWithType: I.I
 - uid: Connect.Razor.Html5.Icon
   name: Icon
   href: api/Connect.Razor.Html5.Icon.html
   commentId: T:Connect.Razor.Html5.Icon
   fullName: Connect.Razor.Html5.Icon
   nameWithType: Icon
-- uid: Connect.Razor.Html5.Icon.#ctor(System.String,System.String,System.Int32,System.String)
-  name: Icon(String, String, Int32, String)
-  href: api/Connect.Razor.Html5.Icon.html#Connect_Razor_Html5_Icon__ctor_System_String_System_String_System_Int32_System_String_
-  commentId: M:Connect.Razor.Html5.Icon.#ctor(System.String,System.String,System.Int32,System.String)
-  fullName: Connect.Razor.Html5.Icon.Icon(System.String, System.String, System.Int32, System.String)
-  nameWithType: Icon.Icon(String, String, Int32, String)
-- uid: Connect.Razor.Html5.Icon.#ctor*
-  name: Icon
-  href: api/Connect.Razor.Html5.Icon.html#Connect_Razor_Html5_Icon__ctor_
-  commentId: Overload:Connect.Razor.Html5.Icon.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Icon.Icon
-  nameWithType: Icon.Icon
 - uid: Connect.Razor.Html5.Icon.Sizes(System.String)
   name: Sizes(String)
   href: api/Connect.Razor.Html5.Icon.html#Connect_Razor_Html5_Icon_Sizes_System_String_
@@ -4502,34 +3424,6 @@ references:
   commentId: T:Connect.Razor.Html5.Iframe
   fullName: Connect.Razor.Html5.Iframe
   nameWithType: Iframe
-- uid: Connect.Razor.Html5.Iframe.#ctor
-  name: Iframe()
-  href: api/Connect.Razor.Html5.Iframe.html#Connect_Razor_Html5_Iframe__ctor
-  commentId: M:Connect.Razor.Html5.Iframe.#ctor
-  fullName: Connect.Razor.Html5.Iframe.Iframe()
-  nameWithType: Iframe.Iframe()
-- uid: Connect.Razor.Html5.Iframe.#ctor(System.Object[])
-  name: Iframe(Object[])
-  href: api/Connect.Razor.Html5.Iframe.html#Connect_Razor_Html5_Iframe__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Iframe.#ctor(System.Object[])
-  name.vb: Iframe(Object())
-  fullName: Connect.Razor.Html5.Iframe.Iframe(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Iframe.Iframe(System.Object())
-  nameWithType: Iframe.Iframe(Object[])
-  nameWithType.vb: Iframe.Iframe(Object())
-- uid: Connect.Razor.Html5.Iframe.#ctor(System.String,System.Int32,System.Int32)
-  name: Iframe(String, Int32, Int32)
-  href: api/Connect.Razor.Html5.Iframe.html#Connect_Razor_Html5_Iframe__ctor_System_String_System_Int32_System_Int32_
-  commentId: M:Connect.Razor.Html5.Iframe.#ctor(System.String,System.Int32,System.Int32)
-  fullName: Connect.Razor.Html5.Iframe.Iframe(System.String, System.Int32, System.Int32)
-  nameWithType: Iframe.Iframe(String, Int32, Int32)
-- uid: Connect.Razor.Html5.Iframe.#ctor*
-  name: Iframe
-  href: api/Connect.Razor.Html5.Iframe.html#Connect_Razor_Html5_Iframe__ctor_
-  commentId: Overload:Connect.Razor.Html5.Iframe.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Iframe.Iframe
-  nameWithType: Iframe.Iframe
 - uid: Connect.Razor.Html5.Iframe.Height(System.Int32)
   name: Height(Int32)
   href: api/Connect.Razor.Html5.Iframe.html#Connect_Razor_Html5_Iframe_Height_System_Int32_
@@ -4626,34 +3520,6 @@ references:
   commentId: T:Connect.Razor.Html5.Img
   fullName: Connect.Razor.Html5.Img
   nameWithType: Img
-- uid: Connect.Razor.Html5.Img.#ctor
-  name: Img()
-  href: api/Connect.Razor.Html5.Img.html#Connect_Razor_Html5_Img__ctor
-  commentId: M:Connect.Razor.Html5.Img.#ctor
-  fullName: Connect.Razor.Html5.Img.Img()
-  nameWithType: Img.Img()
-- uid: Connect.Razor.Html5.Img.#ctor(System.Object[])
-  name: Img(Object[])
-  href: api/Connect.Razor.Html5.Img.html#Connect_Razor_Html5_Img__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Img.#ctor(System.Object[])
-  name.vb: Img(Object())
-  fullName: Connect.Razor.Html5.Img.Img(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Img.Img(System.Object())
-  nameWithType: Img.Img(Object[])
-  nameWithType.vb: Img.Img(Object())
-- uid: Connect.Razor.Html5.Img.#ctor(System.String,System.Int32,System.Int32)
-  name: Img(String, Int32, Int32)
-  href: api/Connect.Razor.Html5.Img.html#Connect_Razor_Html5_Img__ctor_System_String_System_Int32_System_Int32_
-  commentId: M:Connect.Razor.Html5.Img.#ctor(System.String,System.Int32,System.Int32)
-  fullName: Connect.Razor.Html5.Img.Img(System.String, System.Int32, System.Int32)
-  nameWithType: Img.Img(String, Int32, Int32)
-- uid: Connect.Razor.Html5.Img.#ctor*
-  name: Img
-  href: api/Connect.Razor.Html5.Img.html#Connect_Razor_Html5_Img__ctor_
-  commentId: Overload:Connect.Razor.Html5.Img.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Img.Img
-  nameWithType: Img.Img
 - uid: Connect.Razor.Html5.Img.Alt(System.String)
   name: Alt(String)
   href: api/Connect.Razor.Html5.Img.html#Connect_Razor_Html5_Img_Alt_System_String_
@@ -4795,28 +3661,6 @@ references:
   commentId: T:Connect.Razor.Html5.Input
   fullName: Connect.Razor.Html5.Input
   nameWithType: Input
-- uid: Connect.Razor.Html5.Input.#ctor
-  name: Input()
-  href: api/Connect.Razor.Html5.Input.html#Connect_Razor_Html5_Input__ctor
-  commentId: M:Connect.Razor.Html5.Input.#ctor
-  fullName: Connect.Razor.Html5.Input.Input()
-  nameWithType: Input.Input()
-- uid: Connect.Razor.Html5.Input.#ctor(System.Object[])
-  name: Input(Object[])
-  href: api/Connect.Razor.Html5.Input.html#Connect_Razor_Html5_Input__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Input.#ctor(System.Object[])
-  name.vb: Input(Object())
-  fullName: Connect.Razor.Html5.Input.Input(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Input.Input(System.Object())
-  nameWithType: Input.Input(Object[])
-  nameWithType.vb: Input.Input(Object())
-- uid: Connect.Razor.Html5.Input.#ctor*
-  name: Input
-  href: api/Connect.Razor.Html5.Input.html#Connect_Razor_Html5_Input__ctor_
-  commentId: Overload:Connect.Razor.Html5.Input.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Input.Input
-  nameWithType: Input.Input
 - uid: Connect.Razor.Html5.Input.Accept(System.String)
   name: Accept(String)
   href: api/Connect.Razor.Html5.Input.html#Connect_Razor_Html5_Input_Accept_System_String_
@@ -5255,28 +4099,6 @@ references:
   commentId: T:Connect.Razor.Html5.Ins
   fullName: Connect.Razor.Html5.Ins
   nameWithType: Ins
-- uid: Connect.Razor.Html5.Ins.#ctor(System.Object)
-  name: Ins(Object)
-  href: api/Connect.Razor.Html5.Ins.html#Connect_Razor_Html5_Ins__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Ins.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Ins.Ins(System.Object)
-  nameWithType: Ins.Ins(Object)
-- uid: Connect.Razor.Html5.Ins.#ctor(System.Object[])
-  name: Ins(Object[])
-  href: api/Connect.Razor.Html5.Ins.html#Connect_Razor_Html5_Ins__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Ins.#ctor(System.Object[])
-  name.vb: Ins(Object())
-  fullName: Connect.Razor.Html5.Ins.Ins(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Ins.Ins(System.Object())
-  nameWithType: Ins.Ins(Object[])
-  nameWithType.vb: Ins.Ins(Object())
-- uid: Connect.Razor.Html5.Ins.#ctor*
-  name: Ins
-  href: api/Connect.Razor.Html5.Ins.html#Connect_Razor_Html5_Ins__ctor_
-  commentId: Overload:Connect.Razor.Html5.Ins.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Ins.Ins
-  nameWithType: Ins.Ins
 - uid: Connect.Razor.Html5.Ins.Cite(System.String)
   name: Cite(String)
   href: api/Connect.Razor.Html5.Ins.html#Connect_Razor_Html5_Ins_Cite_System_String_
@@ -5315,56 +4137,12 @@ references:
   commentId: T:Connect.Razor.Html5.Kbd
   fullName: Connect.Razor.Html5.Kbd
   nameWithType: Kbd
-- uid: Connect.Razor.Html5.Kbd.#ctor(System.Object)
-  name: Kbd(Object)
-  href: api/Connect.Razor.Html5.Kbd.html#Connect_Razor_Html5_Kbd__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Kbd.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Kbd.Kbd(System.Object)
-  nameWithType: Kbd.Kbd(Object)
-- uid: Connect.Razor.Html5.Kbd.#ctor(System.Object[])
-  name: Kbd(Object[])
-  href: api/Connect.Razor.Html5.Kbd.html#Connect_Razor_Html5_Kbd__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Kbd.#ctor(System.Object[])
-  name.vb: Kbd(Object())
-  fullName: Connect.Razor.Html5.Kbd.Kbd(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Kbd.Kbd(System.Object())
-  nameWithType: Kbd.Kbd(Object[])
-  nameWithType.vb: Kbd.Kbd(Object())
-- uid: Connect.Razor.Html5.Kbd.#ctor*
-  name: Kbd
-  href: api/Connect.Razor.Html5.Kbd.html#Connect_Razor_Html5_Kbd__ctor_
-  commentId: Overload:Connect.Razor.Html5.Kbd.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Kbd.Kbd
-  nameWithType: Kbd.Kbd
 - uid: Connect.Razor.Html5.Label
   name: Label
   href: api/Connect.Razor.Html5.Label.html
   commentId: T:Connect.Razor.Html5.Label
   fullName: Connect.Razor.Html5.Label
   nameWithType: Label
-- uid: Connect.Razor.Html5.Label.#ctor(System.Object)
-  name: Label(Object)
-  href: api/Connect.Razor.Html5.Label.html#Connect_Razor_Html5_Label__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Label.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Label.Label(System.Object)
-  nameWithType: Label.Label(Object)
-- uid: Connect.Razor.Html5.Label.#ctor(System.Object[])
-  name: Label(Object[])
-  href: api/Connect.Razor.Html5.Label.html#Connect_Razor_Html5_Label__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Label.#ctor(System.Object[])
-  name.vb: Label(Object())
-  fullName: Connect.Razor.Html5.Label.Label(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Label.Label(System.Object())
-  nameWithType: Label.Label(Object[])
-  nameWithType.vb: Label.Label(Object())
-- uid: Connect.Razor.Html5.Label.#ctor*
-  name: Label
-  href: api/Connect.Razor.Html5.Label.html#Connect_Razor_Html5_Label__ctor_
-  commentId: Overload:Connect.Razor.Html5.Label.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Label.Label
-  nameWithType: Label.Label
 - uid: Connect.Razor.Html5.Label.For(System.String)
   name: For(String)
   href: api/Connect.Razor.Html5.Label.html#Connect_Razor_Html5_Label_For_System_String_
@@ -5397,84 +4175,18 @@ references:
   commentId: T:Connect.Razor.Html5.Legend
   fullName: Connect.Razor.Html5.Legend
   nameWithType: Legend
-- uid: Connect.Razor.Html5.Legend.#ctor(System.Object)
-  name: Legend(Object)
-  href: api/Connect.Razor.Html5.Legend.html#Connect_Razor_Html5_Legend__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Legend.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Legend.Legend(System.Object)
-  nameWithType: Legend.Legend(Object)
-- uid: Connect.Razor.Html5.Legend.#ctor(System.Object[])
-  name: Legend(Object[])
-  href: api/Connect.Razor.Html5.Legend.html#Connect_Razor_Html5_Legend__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Legend.#ctor(System.Object[])
-  name.vb: Legend(Object())
-  fullName: Connect.Razor.Html5.Legend.Legend(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Legend.Legend(System.Object())
-  nameWithType: Legend.Legend(Object[])
-  nameWithType.vb: Legend.Legend(Object())
-- uid: Connect.Razor.Html5.Legend.#ctor*
-  name: Legend
-  href: api/Connect.Razor.Html5.Legend.html#Connect_Razor_Html5_Legend__ctor_
-  commentId: Overload:Connect.Razor.Html5.Legend.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Legend.Legend
-  nameWithType: Legend.Legend
 - uid: Connect.Razor.Html5.Li
   name: Li
   href: api/Connect.Razor.Html5.Li.html
   commentId: T:Connect.Razor.Html5.Li
   fullName: Connect.Razor.Html5.Li
   nameWithType: Li
-- uid: Connect.Razor.Html5.Li.#ctor(System.Object)
-  name: Li(Object)
-  href: api/Connect.Razor.Html5.Li.html#Connect_Razor_Html5_Li__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Li.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Li.Li(System.Object)
-  nameWithType: Li.Li(Object)
-- uid: Connect.Razor.Html5.Li.#ctor(System.Object[])
-  name: Li(Object[])
-  href: api/Connect.Razor.Html5.Li.html#Connect_Razor_Html5_Li__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Li.#ctor(System.Object[])
-  name.vb: Li(Object())
-  fullName: Connect.Razor.Html5.Li.Li(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Li.Li(System.Object())
-  nameWithType: Li.Li(Object[])
-  nameWithType.vb: Li.Li(Object())
-- uid: Connect.Razor.Html5.Li.#ctor*
-  name: Li
-  href: api/Connect.Razor.Html5.Li.html#Connect_Razor_Html5_Li__ctor_
-  commentId: Overload:Connect.Razor.Html5.Li.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Li.Li
-  nameWithType: Li.Li
 - uid: Connect.Razor.Html5.Link
   name: Link
   href: api/Connect.Razor.Html5.Link.html
   commentId: T:Connect.Razor.Html5.Link
   fullName: Connect.Razor.Html5.Link
   nameWithType: Link
-- uid: Connect.Razor.Html5.Link.#ctor
-  name: Link()
-  href: api/Connect.Razor.Html5.Link.html#Connect_Razor_Html5_Link__ctor
-  commentId: M:Connect.Razor.Html5.Link.#ctor
-  fullName: Connect.Razor.Html5.Link.Link()
-  nameWithType: Link.Link()
-- uid: Connect.Razor.Html5.Link.#ctor(System.Object[])
-  name: Link(Object[])
-  href: api/Connect.Razor.Html5.Link.html#Connect_Razor_Html5_Link__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Link.#ctor(System.Object[])
-  name.vb: Link(Object())
-  fullName: Connect.Razor.Html5.Link.Link(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Link.Link(System.Object())
-  nameWithType: Link.Link(Object[])
-  nameWithType.vb: Link.Link(Object())
-- uid: Connect.Razor.Html5.Link.#ctor*
-  name: Link
-  href: api/Connect.Razor.Html5.Link.html#Connect_Razor_Html5_Link__ctor_
-  commentId: Overload:Connect.Razor.Html5.Link.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Link.Link
-  nameWithType: Link.Link
 - uid: Connect.Razor.Html5.Link.Crossorigin(System.String)
   name: Crossorigin(String)
   href: api/Connect.Razor.Html5.Link.html#Connect_Razor_Html5_Link_Crossorigin_System_String_
@@ -5559,56 +4271,12 @@ references:
   commentId: T:Connect.Razor.Html5.Main
   fullName: Connect.Razor.Html5.Main
   nameWithType: Main
-- uid: Connect.Razor.Html5.Main.#ctor(System.Object)
-  name: Main(Object)
-  href: api/Connect.Razor.Html5.Main.html#Connect_Razor_Html5_Main__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Main.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Main.Main(System.Object)
-  nameWithType: Main.Main(Object)
-- uid: Connect.Razor.Html5.Main.#ctor(System.Object[])
-  name: Main(Object[])
-  href: api/Connect.Razor.Html5.Main.html#Connect_Razor_Html5_Main__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Main.#ctor(System.Object[])
-  name.vb: Main(Object())
-  fullName: Connect.Razor.Html5.Main.Main(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Main.Main(System.Object())
-  nameWithType: Main.Main(Object[])
-  nameWithType.vb: Main.Main(Object())
-- uid: Connect.Razor.Html5.Main.#ctor*
-  name: Main
-  href: api/Connect.Razor.Html5.Main.html#Connect_Razor_Html5_Main__ctor_
-  commentId: Overload:Connect.Razor.Html5.Main.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Main.Main
-  nameWithType: Main.Main
 - uid: Connect.Razor.Html5.Map
   name: Map
   href: api/Connect.Razor.Html5.Map.html
   commentId: T:Connect.Razor.Html5.Map
   fullName: Connect.Razor.Html5.Map
   nameWithType: Map
-- uid: Connect.Razor.Html5.Map.#ctor(System.Object)
-  name: Map(Object)
-  href: api/Connect.Razor.Html5.Map.html#Connect_Razor_Html5_Map__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Map.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Map.Map(System.Object)
-  nameWithType: Map.Map(Object)
-- uid: Connect.Razor.Html5.Map.#ctor(System.Object[])
-  name: Map(Object[])
-  href: api/Connect.Razor.Html5.Map.html#Connect_Razor_Html5_Map__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Map.#ctor(System.Object[])
-  name.vb: Map(Object())
-  fullName: Connect.Razor.Html5.Map.Map(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Map.Map(System.Object())
-  nameWithType: Map.Map(Object[])
-  nameWithType.vb: Map.Map(Object())
-- uid: Connect.Razor.Html5.Map.#ctor*
-  name: Map
-  href: api/Connect.Razor.Html5.Map.html#Connect_Razor_Html5_Map__ctor_
-  commentId: Overload:Connect.Razor.Html5.Map.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Map.Map
-  nameWithType: Map.Map
 - uid: Connect.Razor.Html5.Map.Name(System.String)
   name: Name(String)
   href: api/Connect.Razor.Html5.Map.html#Connect_Razor_Html5_Map_Name_System_String_
@@ -5628,81 +4296,18 @@ references:
   commentId: T:Connect.Razor.Html5.Mark
   fullName: Connect.Razor.Html5.Mark
   nameWithType: Mark
-- uid: Connect.Razor.Html5.Mark.#ctor(System.Object)
-  name: Mark(Object)
-  href: api/Connect.Razor.Html5.Mark.html#Connect_Razor_Html5_Mark__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Mark.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Mark.Mark(System.Object)
-  nameWithType: Mark.Mark(Object)
-- uid: Connect.Razor.Html5.Mark.#ctor(System.Object[])
-  name: Mark(Object[])
-  href: api/Connect.Razor.Html5.Mark.html#Connect_Razor_Html5_Mark__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Mark.#ctor(System.Object[])
-  name.vb: Mark(Object())
-  fullName: Connect.Razor.Html5.Mark.Mark(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Mark.Mark(System.Object())
-  nameWithType: Mark.Mark(Object[])
-  nameWithType.vb: Mark.Mark(Object())
-- uid: Connect.Razor.Html5.Mark.#ctor*
-  name: Mark
-  href: api/Connect.Razor.Html5.Mark.html#Connect_Razor_Html5_Mark__ctor_
-  commentId: Overload:Connect.Razor.Html5.Mark.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Mark.Mark
-  nameWithType: Mark.Mark
 - uid: Connect.Razor.Html5.MediaSource
   name: MediaSource
   href: api/Connect.Razor.Html5.MediaSource.html
   commentId: T:Connect.Razor.Html5.MediaSource
   fullName: Connect.Razor.Html5.MediaSource
   nameWithType: MediaSource
-- uid: Connect.Razor.Html5.MediaSource.#ctor(System.String,System.String)
-  name: MediaSource(String, String)
-  href: api/Connect.Razor.Html5.MediaSource.html#Connect_Razor_Html5_MediaSource__ctor_System_String_System_String_
-  commentId: M:Connect.Razor.Html5.MediaSource.#ctor(System.String,System.String)
-  fullName: Connect.Razor.Html5.MediaSource.MediaSource(System.String, System.String)
-  nameWithType: MediaSource.MediaSource(String, String)
-- uid: Connect.Razor.Html5.MediaSource.#ctor*
-  name: MediaSource
-  href: api/Connect.Razor.Html5.MediaSource.html#Connect_Razor_Html5_MediaSource__ctor_
-  commentId: Overload:Connect.Razor.Html5.MediaSource.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.MediaSource.MediaSource
-  nameWithType: MediaSource.MediaSource
 - uid: Connect.Razor.Html5.Meta
   name: Meta
   href: api/Connect.Razor.Html5.Meta.html
   commentId: T:Connect.Razor.Html5.Meta
   fullName: Connect.Razor.Html5.Meta
   nameWithType: Meta
-- uid: Connect.Razor.Html5.Meta.#ctor
-  name: Meta()
-  href: api/Connect.Razor.Html5.Meta.html#Connect_Razor_Html5_Meta__ctor
-  commentId: M:Connect.Razor.Html5.Meta.#ctor
-  fullName: Connect.Razor.Html5.Meta.Meta()
-  nameWithType: Meta.Meta()
-- uid: Connect.Razor.Html5.Meta.#ctor(System.Object[])
-  name: Meta(Object[])
-  href: api/Connect.Razor.Html5.Meta.html#Connect_Razor_Html5_Meta__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Meta.#ctor(System.Object[])
-  name.vb: Meta(Object())
-  fullName: Connect.Razor.Html5.Meta.Meta(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Meta.Meta(System.Object())
-  nameWithType: Meta.Meta(Object[])
-  nameWithType.vb: Meta.Meta(Object())
-- uid: Connect.Razor.Html5.Meta.#ctor(System.String,System.String)
-  name: Meta(String, String)
-  href: api/Connect.Razor.Html5.Meta.html#Connect_Razor_Html5_Meta__ctor_System_String_System_String_
-  commentId: M:Connect.Razor.Html5.Meta.#ctor(System.String,System.String)
-  fullName: Connect.Razor.Html5.Meta.Meta(System.String, System.String)
-  nameWithType: Meta.Meta(String, String)
-- uid: Connect.Razor.Html5.Meta.#ctor*
-  name: Meta
-  href: api/Connect.Razor.Html5.Meta.html#Connect_Razor_Html5_Meta__ctor_
-  commentId: Overload:Connect.Razor.Html5.Meta.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Meta.Meta
-  nameWithType: Meta.Meta
 - uid: Connect.Razor.Html5.Meta.Charset(System.String)
   name: Charset(String)
   href: api/Connect.Razor.Html5.Meta.html#Connect_Razor_Html5_Meta_Charset_System_String_
@@ -5761,19 +4366,6 @@ references:
   commentId: T:Connect.Razor.Html5.MetaOg
   fullName: Connect.Razor.Html5.MetaOg
   nameWithType: MetaOg
-- uid: Connect.Razor.Html5.MetaOg.#ctor(System.String,System.String)
-  name: MetaOg(String, String)
-  href: api/Connect.Razor.Html5.MetaOg.html#Connect_Razor_Html5_MetaOg__ctor_System_String_System_String_
-  commentId: M:Connect.Razor.Html5.MetaOg.#ctor(System.String,System.String)
-  fullName: Connect.Razor.Html5.MetaOg.MetaOg(System.String, System.String)
-  nameWithType: MetaOg.MetaOg(String, String)
-- uid: Connect.Razor.Html5.MetaOg.#ctor*
-  name: MetaOg
-  href: api/Connect.Razor.Html5.MetaOg.html#Connect_Razor_Html5_MetaOg__ctor_
-  commentId: Overload:Connect.Razor.Html5.MetaOg.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.MetaOg.MetaOg
-  nameWithType: MetaOg.MetaOg
 - uid: Connect.Razor.Html5.MetaOg.Content(System.String)
   name: Content(String)
   href: api/Connect.Razor.Html5.MetaOg.html#Connect_Razor_Html5_MetaOg_Content_System_String_
@@ -5806,28 +4398,6 @@ references:
   commentId: T:Connect.Razor.Html5.Meter
   fullName: Connect.Razor.Html5.Meter
   nameWithType: Meter
-- uid: Connect.Razor.Html5.Meter.#ctor(System.Object)
-  name: Meter(Object)
-  href: api/Connect.Razor.Html5.Meter.html#Connect_Razor_Html5_Meter__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Meter.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Meter.Meter(System.Object)
-  nameWithType: Meter.Meter(Object)
-- uid: Connect.Razor.Html5.Meter.#ctor(System.Object[])
-  name: Meter(Object[])
-  href: api/Connect.Razor.Html5.Meter.html#Connect_Razor_Html5_Meter__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Meter.#ctor(System.Object[])
-  name.vb: Meter(Object())
-  fullName: Connect.Razor.Html5.Meter.Meter(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Meter.Meter(System.Object())
-  nameWithType: Meter.Meter(Object[])
-  nameWithType.vb: Meter.Meter(Object())
-- uid: Connect.Razor.Html5.Meter.#ctor*
-  name: Meter
-  href: api/Connect.Razor.Html5.Meter.html#Connect_Razor_Html5_Meter__ctor_
-  commentId: Overload:Connect.Razor.Html5.Meter.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Meter.Meter
-  nameWithType: Meter.Meter
 - uid: Connect.Razor.Html5.Meter.Form(System.String)
   name: Form(String)
   href: api/Connect.Razor.Html5.Meter.html#Connect_Razor_Html5_Meter_Form_System_String_
@@ -5925,84 +4495,18 @@ references:
   commentId: T:Connect.Razor.Html5.Nav
   fullName: Connect.Razor.Html5.Nav
   nameWithType: Nav
-- uid: Connect.Razor.Html5.Nav.#ctor(System.Object)
-  name: Nav(Object)
-  href: api/Connect.Razor.Html5.Nav.html#Connect_Razor_Html5_Nav__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Nav.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Nav.Nav(System.Object)
-  nameWithType: Nav.Nav(Object)
-- uid: Connect.Razor.Html5.Nav.#ctor(System.Object[])
-  name: Nav(Object[])
-  href: api/Connect.Razor.Html5.Nav.html#Connect_Razor_Html5_Nav__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Nav.#ctor(System.Object[])
-  name.vb: Nav(Object())
-  fullName: Connect.Razor.Html5.Nav.Nav(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Nav.Nav(System.Object())
-  nameWithType: Nav.Nav(Object[])
-  nameWithType.vb: Nav.Nav(Object())
-- uid: Connect.Razor.Html5.Nav.#ctor*
-  name: Nav
-  href: api/Connect.Razor.Html5.Nav.html#Connect_Razor_Html5_Nav__ctor_
-  commentId: Overload:Connect.Razor.Html5.Nav.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Nav.Nav
-  nameWithType: Nav.Nav
 - uid: Connect.Razor.Html5.Noscript
   name: Noscript
   href: api/Connect.Razor.Html5.Noscript.html
   commentId: T:Connect.Razor.Html5.Noscript
   fullName: Connect.Razor.Html5.Noscript
   nameWithType: Noscript
-- uid: Connect.Razor.Html5.Noscript.#ctor(System.Object)
-  name: Noscript(Object)
-  href: api/Connect.Razor.Html5.Noscript.html#Connect_Razor_Html5_Noscript__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Noscript.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Noscript.Noscript(System.Object)
-  nameWithType: Noscript.Noscript(Object)
-- uid: Connect.Razor.Html5.Noscript.#ctor(System.Object[])
-  name: Noscript(Object[])
-  href: api/Connect.Razor.Html5.Noscript.html#Connect_Razor_Html5_Noscript__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Noscript.#ctor(System.Object[])
-  name.vb: Noscript(Object())
-  fullName: Connect.Razor.Html5.Noscript.Noscript(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Noscript.Noscript(System.Object())
-  nameWithType: Noscript.Noscript(Object[])
-  nameWithType.vb: Noscript.Noscript(Object())
-- uid: Connect.Razor.Html5.Noscript.#ctor*
-  name: Noscript
-  href: api/Connect.Razor.Html5.Noscript.html#Connect_Razor_Html5_Noscript__ctor_
-  commentId: Overload:Connect.Razor.Html5.Noscript.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Noscript.Noscript
-  nameWithType: Noscript.Noscript
 - uid: Connect.Razor.Html5.Object
   name: Object
   href: api/Connect.Razor.Html5.Object.html
   commentId: T:Connect.Razor.Html5.Object
   fullName: Connect.Razor.Html5.Object
   nameWithType: Object
-- uid: Connect.Razor.Html5.Object.#ctor(System.Object)
-  name: Object(Object)
-  href: api/Connect.Razor.Html5.Object.html#Connect_Razor_Html5_Object__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Object.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Object.Object(System.Object)
-  nameWithType: Object.Object(Object)
-- uid: Connect.Razor.Html5.Object.#ctor(System.Object[])
-  name: Object(Object[])
-  href: api/Connect.Razor.Html5.Object.html#Connect_Razor_Html5_Object__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Object.#ctor(System.Object[])
-  name.vb: Object(Object())
-  fullName: Connect.Razor.Html5.Object.Object(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Object.Object(System.Object())
-  nameWithType: Object.Object(Object[])
-  nameWithType.vb: Object.Object(Object())
-- uid: Connect.Razor.Html5.Object.#ctor*
-  name: Object
-  href: api/Connect.Razor.Html5.Object.html#Connect_Razor_Html5_Object__ctor_
-  commentId: Overload:Connect.Razor.Html5.Object.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Object.Object
-  nameWithType: Object.Object
 - uid: Connect.Razor.Html5.Object.Data(System.String)
   name: Data(String)
   href: api/Connect.Razor.Html5.Object.html#Connect_Razor_Html5_Object_Data_System_String_
@@ -6112,56 +4616,12 @@ references:
   commentId: T:Connect.Razor.Html5.Ol
   fullName: Connect.Razor.Html5.Ol
   nameWithType: Ol
-- uid: Connect.Razor.Html5.Ol.#ctor(System.Object)
-  name: Ol(Object)
-  href: api/Connect.Razor.Html5.Ol.html#Connect_Razor_Html5_Ol__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Ol.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Ol.Ol(System.Object)
-  nameWithType: Ol.Ol(Object)
-- uid: Connect.Razor.Html5.Ol.#ctor(System.Object[])
-  name: Ol(Object[])
-  href: api/Connect.Razor.Html5.Ol.html#Connect_Razor_Html5_Ol__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Ol.#ctor(System.Object[])
-  name.vb: Ol(Object())
-  fullName: Connect.Razor.Html5.Ol.Ol(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Ol.Ol(System.Object())
-  nameWithType: Ol.Ol(Object[])
-  nameWithType.vb: Ol.Ol(Object())
-- uid: Connect.Razor.Html5.Ol.#ctor*
-  name: Ol
-  href: api/Connect.Razor.Html5.Ol.html#Connect_Razor_Html5_Ol__ctor_
-  commentId: Overload:Connect.Razor.Html5.Ol.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Ol.Ol
-  nameWithType: Ol.Ol
 - uid: Connect.Razor.Html5.Optgroup
   name: Optgroup
   href: api/Connect.Razor.Html5.Optgroup.html
   commentId: T:Connect.Razor.Html5.Optgroup
   fullName: Connect.Razor.Html5.Optgroup
   nameWithType: Optgroup
-- uid: Connect.Razor.Html5.Optgroup.#ctor(System.Object)
-  name: Optgroup(Object)
-  href: api/Connect.Razor.Html5.Optgroup.html#Connect_Razor_Html5_Optgroup__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Optgroup.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Optgroup.Optgroup(System.Object)
-  nameWithType: Optgroup.Optgroup(Object)
-- uid: Connect.Razor.Html5.Optgroup.#ctor(System.Object[])
-  name: Optgroup(Object[])
-  href: api/Connect.Razor.Html5.Optgroup.html#Connect_Razor_Html5_Optgroup__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Optgroup.#ctor(System.Object[])
-  name.vb: Optgroup(Object())
-  fullName: Connect.Razor.Html5.Optgroup.Optgroup(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Optgroup.Optgroup(System.Object())
-  nameWithType: Optgroup.Optgroup(Object[])
-  nameWithType.vb: Optgroup.Optgroup(Object())
-- uid: Connect.Razor.Html5.Optgroup.#ctor*
-  name: Optgroup
-  href: api/Connect.Razor.Html5.Optgroup.html#Connect_Razor_Html5_Optgroup__ctor_
-  commentId: Overload:Connect.Razor.Html5.Optgroup.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Optgroup.Optgroup
-  nameWithType: Optgroup.Optgroup
 - uid: Connect.Razor.Html5.Optgroup.Disabled
   name: Disabled()
   href: api/Connect.Razor.Html5.Optgroup.html#Connect_Razor_Html5_Optgroup_Disabled
@@ -6200,28 +4660,6 @@ references:
   commentId: T:Connect.Razor.Html5.Option
   fullName: Connect.Razor.Html5.Option
   nameWithType: Option
-- uid: Connect.Razor.Html5.Option.#ctor(System.Object)
-  name: Option(Object)
-  href: api/Connect.Razor.Html5.Option.html#Connect_Razor_Html5_Option__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Option.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Option.Option(System.Object)
-  nameWithType: Option.Option(Object)
-- uid: Connect.Razor.Html5.Option.#ctor(System.Object[])
-  name: Option(Object[])
-  href: api/Connect.Razor.Html5.Option.html#Connect_Razor_Html5_Option__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Option.#ctor(System.Object[])
-  name.vb: Option(Object())
-  fullName: Connect.Razor.Html5.Option.Option(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Option.Option(System.Object())
-  nameWithType: Option.Option(Object[])
-  nameWithType.vb: Option.Option(Object())
-- uid: Connect.Razor.Html5.Option.#ctor*
-  name: Option
-  href: api/Connect.Razor.Html5.Option.html#Connect_Razor_Html5_Option__ctor_
-  commentId: Overload:Connect.Razor.Html5.Option.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Option.Option
-  nameWithType: Option.Option
 - uid: Connect.Razor.Html5.Option.Disabled
   name: Disabled()
   href: api/Connect.Razor.Html5.Option.html#Connect_Razor_Html5_Option_Disabled
@@ -6292,28 +4730,6 @@ references:
   commentId: T:Connect.Razor.Html5.Output
   fullName: Connect.Razor.Html5.Output
   nameWithType: Output
-- uid: Connect.Razor.Html5.Output.#ctor(System.Object)
-  name: Output(Object)
-  href: api/Connect.Razor.Html5.Output.html#Connect_Razor_Html5_Output__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Output.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Output.Output(System.Object)
-  nameWithType: Output.Output(Object)
-- uid: Connect.Razor.Html5.Output.#ctor(System.Object[])
-  name: Output(Object[])
-  href: api/Connect.Razor.Html5.Output.html#Connect_Razor_Html5_Output__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Output.#ctor(System.Object[])
-  name.vb: Output(Object())
-  fullName: Connect.Razor.Html5.Output.Output(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Output.Output(System.Object())
-  nameWithType: Output.Output(Object[])
-  nameWithType.vb: Output.Output(Object())
-- uid: Connect.Razor.Html5.Output.#ctor*
-  name: Output
-  href: api/Connect.Razor.Html5.Output.html#Connect_Razor_Html5_Output__ctor_
-  commentId: Overload:Connect.Razor.Html5.Output.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Output.Output
-  nameWithType: Output.Output
 - uid: Connect.Razor.Html5.Output.For(System.String)
   name: For(String)
   href: api/Connect.Razor.Html5.Output.html#Connect_Razor_Html5_Output_For_System_String_
@@ -6359,56 +4775,12 @@ references:
   commentId: T:Connect.Razor.Html5.P
   fullName: Connect.Razor.Html5.P
   nameWithType: P
-- uid: Connect.Razor.Html5.P.#ctor(System.Object)
-  name: P(Object)
-  href: api/Connect.Razor.Html5.P.html#Connect_Razor_Html5_P__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.P.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.P.P(System.Object)
-  nameWithType: P.P(Object)
-- uid: Connect.Razor.Html5.P.#ctor(System.Object[])
-  name: P(Object[])
-  href: api/Connect.Razor.Html5.P.html#Connect_Razor_Html5_P__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.P.#ctor(System.Object[])
-  name.vb: P(Object())
-  fullName: Connect.Razor.Html5.P.P(System.Object[])
-  fullName.vb: Connect.Razor.Html5.P.P(System.Object())
-  nameWithType: P.P(Object[])
-  nameWithType.vb: P.P(Object())
-- uid: Connect.Razor.Html5.P.#ctor*
-  name: P
-  href: api/Connect.Razor.Html5.P.html#Connect_Razor_Html5_P__ctor_
-  commentId: Overload:Connect.Razor.Html5.P.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.P.P
-  nameWithType: P.P
 - uid: Connect.Razor.Html5.Param
   name: Param
   href: api/Connect.Razor.Html5.Param.html
   commentId: T:Connect.Razor.Html5.Param
   fullName: Connect.Razor.Html5.Param
   nameWithType: Param
-- uid: Connect.Razor.Html5.Param.#ctor(System.Object)
-  name: Param(Object)
-  href: api/Connect.Razor.Html5.Param.html#Connect_Razor_Html5_Param__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Param.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Param.Param(System.Object)
-  nameWithType: Param.Param(Object)
-- uid: Connect.Razor.Html5.Param.#ctor(System.Object[])
-  name: Param(Object[])
-  href: api/Connect.Razor.Html5.Param.html#Connect_Razor_Html5_Param__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Param.#ctor(System.Object[])
-  name.vb: Param(Object())
-  fullName: Connect.Razor.Html5.Param.Param(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Param.Param(System.Object())
-  nameWithType: Param.Param(Object[])
-  nameWithType.vb: Param.Param(Object())
-- uid: Connect.Razor.Html5.Param.#ctor*
-  name: Param
-  href: api/Connect.Razor.Html5.Param.html#Connect_Razor_Html5_Param__ctor_
-  commentId: Overload:Connect.Razor.Html5.Param.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Param.Param
-  nameWithType: Param.Param
 - uid: Connect.Razor.Html5.Param.Name(System.String)
   name: Name(String)
   href: api/Connect.Razor.Html5.Param.html#Connect_Razor_Html5_Param_Name_System_String_
@@ -6441,103 +4813,24 @@ references:
   commentId: T:Connect.Razor.Html5.Picture
   fullName: Connect.Razor.Html5.Picture
   nameWithType: Picture
-- uid: Connect.Razor.Html5.Picture.#ctor(System.Object)
-  name: Picture(Object)
-  href: api/Connect.Razor.Html5.Picture.html#Connect_Razor_Html5_Picture__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Picture.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Picture.Picture(System.Object)
-  nameWithType: Picture.Picture(Object)
-- uid: Connect.Razor.Html5.Picture.#ctor(System.Object[])
-  name: Picture(Object[])
-  href: api/Connect.Razor.Html5.Picture.html#Connect_Razor_Html5_Picture__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Picture.#ctor(System.Object[])
-  name.vb: Picture(Object())
-  fullName: Connect.Razor.Html5.Picture.Picture(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Picture.Picture(System.Object())
-  nameWithType: Picture.Picture(Object[])
-  nameWithType.vb: Picture.Picture(Object())
-- uid: Connect.Razor.Html5.Picture.#ctor*
-  name: Picture
-  href: api/Connect.Razor.Html5.Picture.html#Connect_Razor_Html5_Picture__ctor_
-  commentId: Overload:Connect.Razor.Html5.Picture.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Picture.Picture
-  nameWithType: Picture.Picture
 - uid: Connect.Razor.Html5.PictureSource
   name: PictureSource
   href: api/Connect.Razor.Html5.PictureSource.html
   commentId: T:Connect.Razor.Html5.PictureSource
   fullName: Connect.Razor.Html5.PictureSource
   nameWithType: PictureSource
-- uid: Connect.Razor.Html5.PictureSource.#ctor(System.String,System.String,System.String,System.String)
-  name: PictureSource(String, String, String, String)
-  href: api/Connect.Razor.Html5.PictureSource.html#Connect_Razor_Html5_PictureSource__ctor_System_String_System_String_System_String_System_String_
-  commentId: M:Connect.Razor.Html5.PictureSource.#ctor(System.String,System.String,System.String,System.String)
-  fullName: Connect.Razor.Html5.PictureSource.PictureSource(System.String, System.String, System.String, System.String)
-  nameWithType: PictureSource.PictureSource(String, String, String, String)
-- uid: Connect.Razor.Html5.PictureSource.#ctor*
-  name: PictureSource
-  href: api/Connect.Razor.Html5.PictureSource.html#Connect_Razor_Html5_PictureSource__ctor_
-  commentId: Overload:Connect.Razor.Html5.PictureSource.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.PictureSource.PictureSource
-  nameWithType: PictureSource.PictureSource
 - uid: Connect.Razor.Html5.Pre
   name: Pre
   href: api/Connect.Razor.Html5.Pre.html
   commentId: T:Connect.Razor.Html5.Pre
   fullName: Connect.Razor.Html5.Pre
   nameWithType: Pre
-- uid: Connect.Razor.Html5.Pre.#ctor(System.Object)
-  name: Pre(Object)
-  href: api/Connect.Razor.Html5.Pre.html#Connect_Razor_Html5_Pre__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Pre.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Pre.Pre(System.Object)
-  nameWithType: Pre.Pre(Object)
-- uid: Connect.Razor.Html5.Pre.#ctor(System.Object[])
-  name: Pre(Object[])
-  href: api/Connect.Razor.Html5.Pre.html#Connect_Razor_Html5_Pre__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Pre.#ctor(System.Object[])
-  name.vb: Pre(Object())
-  fullName: Connect.Razor.Html5.Pre.Pre(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Pre.Pre(System.Object())
-  nameWithType: Pre.Pre(Object[])
-  nameWithType.vb: Pre.Pre(Object())
-- uid: Connect.Razor.Html5.Pre.#ctor*
-  name: Pre
-  href: api/Connect.Razor.Html5.Pre.html#Connect_Razor_Html5_Pre__ctor_
-  commentId: Overload:Connect.Razor.Html5.Pre.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Pre.Pre
-  nameWithType: Pre.Pre
 - uid: Connect.Razor.Html5.Progress
   name: Progress
   href: api/Connect.Razor.Html5.Progress.html
   commentId: T:Connect.Razor.Html5.Progress
   fullName: Connect.Razor.Html5.Progress
   nameWithType: Progress
-- uid: Connect.Razor.Html5.Progress.#ctor(System.Object)
-  name: Progress(Object)
-  href: api/Connect.Razor.Html5.Progress.html#Connect_Razor_Html5_Progress__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Progress.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Progress.Progress(System.Object)
-  nameWithType: Progress.Progress(Object)
-- uid: Connect.Razor.Html5.Progress.#ctor(System.Object[])
-  name: Progress(Object[])
-  href: api/Connect.Razor.Html5.Progress.html#Connect_Razor_Html5_Progress__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Progress.#ctor(System.Object[])
-  name.vb: Progress(Object())
-  fullName: Connect.Razor.Html5.Progress.Progress(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Progress.Progress(System.Object())
-  nameWithType: Progress.Progress(Object[])
-  nameWithType.vb: Progress.Progress(Object())
-- uid: Connect.Razor.Html5.Progress.#ctor*
-  name: Progress
-  href: api/Connect.Razor.Html5.Progress.html#Connect_Razor_Html5_Progress__ctor_
-  commentId: Overload:Connect.Razor.Html5.Progress.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Progress.Progress
-  nameWithType: Progress.Progress
 - uid: Connect.Razor.Html5.Progress.Max(System.String)
   name: Max(String)
   href: api/Connect.Razor.Html5.Progress.html#Connect_Razor_Html5_Progress_Max_System_String_
@@ -6570,28 +4863,6 @@ references:
   commentId: T:Connect.Razor.Html5.Q
   fullName: Connect.Razor.Html5.Q
   nameWithType: Q
-- uid: Connect.Razor.Html5.Q.#ctor(System.Object)
-  name: Q(Object)
-  href: api/Connect.Razor.Html5.Q.html#Connect_Razor_Html5_Q__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Q.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Q.Q(System.Object)
-  nameWithType: Q.Q(Object)
-- uid: Connect.Razor.Html5.Q.#ctor(System.Object[])
-  name: Q(Object[])
-  href: api/Connect.Razor.Html5.Q.html#Connect_Razor_Html5_Q__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Q.#ctor(System.Object[])
-  name.vb: Q(Object())
-  fullName: Connect.Razor.Html5.Q.Q(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Q.Q(System.Object())
-  nameWithType: Q.Q(Object[])
-  nameWithType.vb: Q.Q(Object())
-- uid: Connect.Razor.Html5.Q.#ctor*
-  name: Q
-  href: api/Connect.Razor.Html5.Q.html#Connect_Razor_Html5_Q__ctor_
-  commentId: Overload:Connect.Razor.Html5.Q.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Q.Q
-  nameWithType: Q.Q
 - uid: Connect.Razor.Html5.Q.Cite(System.String)
   name: Cite(String)
   href: api/Connect.Razor.Html5.Q.html#Connect_Razor_Html5_Q_Cite_System_String_
@@ -6611,168 +4882,36 @@ references:
   commentId: T:Connect.Razor.Html5.Rp
   fullName: Connect.Razor.Html5.Rp
   nameWithType: Rp
-- uid: Connect.Razor.Html5.Rp.#ctor(System.Object)
-  name: Rp(Object)
-  href: api/Connect.Razor.Html5.Rp.html#Connect_Razor_Html5_Rp__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Rp.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Rp.Rp(System.Object)
-  nameWithType: Rp.Rp(Object)
-- uid: Connect.Razor.Html5.Rp.#ctor(System.Object[])
-  name: Rp(Object[])
-  href: api/Connect.Razor.Html5.Rp.html#Connect_Razor_Html5_Rp__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Rp.#ctor(System.Object[])
-  name.vb: Rp(Object())
-  fullName: Connect.Razor.Html5.Rp.Rp(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Rp.Rp(System.Object())
-  nameWithType: Rp.Rp(Object[])
-  nameWithType.vb: Rp.Rp(Object())
-- uid: Connect.Razor.Html5.Rp.#ctor*
-  name: Rp
-  href: api/Connect.Razor.Html5.Rp.html#Connect_Razor_Html5_Rp__ctor_
-  commentId: Overload:Connect.Razor.Html5.Rp.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Rp.Rp
-  nameWithType: Rp.Rp
 - uid: Connect.Razor.Html5.Rt
   name: Rt
   href: api/Connect.Razor.Html5.Rt.html
   commentId: T:Connect.Razor.Html5.Rt
   fullName: Connect.Razor.Html5.Rt
   nameWithType: Rt
-- uid: Connect.Razor.Html5.Rt.#ctor(System.Object)
-  name: Rt(Object)
-  href: api/Connect.Razor.Html5.Rt.html#Connect_Razor_Html5_Rt__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Rt.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Rt.Rt(System.Object)
-  nameWithType: Rt.Rt(Object)
-- uid: Connect.Razor.Html5.Rt.#ctor(System.Object[])
-  name: Rt(Object[])
-  href: api/Connect.Razor.Html5.Rt.html#Connect_Razor_Html5_Rt__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Rt.#ctor(System.Object[])
-  name.vb: Rt(Object())
-  fullName: Connect.Razor.Html5.Rt.Rt(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Rt.Rt(System.Object())
-  nameWithType: Rt.Rt(Object[])
-  nameWithType.vb: Rt.Rt(Object())
-- uid: Connect.Razor.Html5.Rt.#ctor*
-  name: Rt
-  href: api/Connect.Razor.Html5.Rt.html#Connect_Razor_Html5_Rt__ctor_
-  commentId: Overload:Connect.Razor.Html5.Rt.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Rt.Rt
-  nameWithType: Rt.Rt
 - uid: Connect.Razor.Html5.Ruby
   name: Ruby
   href: api/Connect.Razor.Html5.Ruby.html
   commentId: T:Connect.Razor.Html5.Ruby
   fullName: Connect.Razor.Html5.Ruby
   nameWithType: Ruby
-- uid: Connect.Razor.Html5.Ruby.#ctor(System.Object)
-  name: Ruby(Object)
-  href: api/Connect.Razor.Html5.Ruby.html#Connect_Razor_Html5_Ruby__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Ruby.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Ruby.Ruby(System.Object)
-  nameWithType: Ruby.Ruby(Object)
-- uid: Connect.Razor.Html5.Ruby.#ctor(System.Object[])
-  name: Ruby(Object[])
-  href: api/Connect.Razor.Html5.Ruby.html#Connect_Razor_Html5_Ruby__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Ruby.#ctor(System.Object[])
-  name.vb: Ruby(Object())
-  fullName: Connect.Razor.Html5.Ruby.Ruby(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Ruby.Ruby(System.Object())
-  nameWithType: Ruby.Ruby(Object[])
-  nameWithType.vb: Ruby.Ruby(Object())
-- uid: Connect.Razor.Html5.Ruby.#ctor*
-  name: Ruby
-  href: api/Connect.Razor.Html5.Ruby.html#Connect_Razor_Html5_Ruby__ctor_
-  commentId: Overload:Connect.Razor.Html5.Ruby.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Ruby.Ruby
-  nameWithType: Ruby.Ruby
 - uid: Connect.Razor.Html5.S
   name: S
   href: api/Connect.Razor.Html5.S.html
   commentId: T:Connect.Razor.Html5.S
   fullName: Connect.Razor.Html5.S
   nameWithType: S
-- uid: Connect.Razor.Html5.S.#ctor(System.Object)
-  name: S(Object)
-  href: api/Connect.Razor.Html5.S.html#Connect_Razor_Html5_S__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.S.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.S.S(System.Object)
-  nameWithType: S.S(Object)
-- uid: Connect.Razor.Html5.S.#ctor(System.Object[])
-  name: S(Object[])
-  href: api/Connect.Razor.Html5.S.html#Connect_Razor_Html5_S__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.S.#ctor(System.Object[])
-  name.vb: S(Object())
-  fullName: Connect.Razor.Html5.S.S(System.Object[])
-  fullName.vb: Connect.Razor.Html5.S.S(System.Object())
-  nameWithType: S.S(Object[])
-  nameWithType.vb: S.S(Object())
-- uid: Connect.Razor.Html5.S.#ctor*
-  name: S
-  href: api/Connect.Razor.Html5.S.html#Connect_Razor_Html5_S__ctor_
-  commentId: Overload:Connect.Razor.Html5.S.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.S.S
-  nameWithType: S.S
 - uid: Connect.Razor.Html5.Samp
   name: Samp
   href: api/Connect.Razor.Html5.Samp.html
   commentId: T:Connect.Razor.Html5.Samp
   fullName: Connect.Razor.Html5.Samp
   nameWithType: Samp
-- uid: Connect.Razor.Html5.Samp.#ctor(System.Object)
-  name: Samp(Object)
-  href: api/Connect.Razor.Html5.Samp.html#Connect_Razor_Html5_Samp__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Samp.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Samp.Samp(System.Object)
-  nameWithType: Samp.Samp(Object)
-- uid: Connect.Razor.Html5.Samp.#ctor(System.Object[])
-  name: Samp(Object[])
-  href: api/Connect.Razor.Html5.Samp.html#Connect_Razor_Html5_Samp__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Samp.#ctor(System.Object[])
-  name.vb: Samp(Object())
-  fullName: Connect.Razor.Html5.Samp.Samp(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Samp.Samp(System.Object())
-  nameWithType: Samp.Samp(Object[])
-  nameWithType.vb: Samp.Samp(Object())
-- uid: Connect.Razor.Html5.Samp.#ctor*
-  name: Samp
-  href: api/Connect.Razor.Html5.Samp.html#Connect_Razor_Html5_Samp__ctor_
-  commentId: Overload:Connect.Razor.Html5.Samp.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Samp.Samp
-  nameWithType: Samp.Samp
 - uid: Connect.Razor.Html5.Script
   name: Script
   href: api/Connect.Razor.Html5.Script.html
   commentId: T:Connect.Razor.Html5.Script
   fullName: Connect.Razor.Html5.Script
   nameWithType: Script
-- uid: Connect.Razor.Html5.Script.#ctor(System.Object)
-  name: Script(Object)
-  href: api/Connect.Razor.Html5.Script.html#Connect_Razor_Html5_Script__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Script.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Script.Script(System.Object)
-  nameWithType: Script.Script(Object)
-- uid: Connect.Razor.Html5.Script.#ctor(System.Object[])
-  name: Script(Object[])
-  href: api/Connect.Razor.Html5.Script.html#Connect_Razor_Html5_Script__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Script.#ctor(System.Object[])
-  name.vb: Script(Object())
-  fullName: Connect.Razor.Html5.Script.Script(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Script.Script(System.Object())
-  nameWithType: Script.Script(Object[])
-  nameWithType.vb: Script.Script(Object())
-- uid: Connect.Razor.Html5.Script.#ctor*
-  name: Script
-  href: api/Connect.Razor.Html5.Script.html#Connect_Razor_Html5_Script__ctor_
-  commentId: Overload:Connect.Razor.Html5.Script.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Script.Script
-  nameWithType: Script.Script
 - uid: Connect.Razor.Html5.Script.Async
   name: Async()
   href: api/Connect.Razor.Html5.Script.html#Connect_Razor_Html5_Script_Async
@@ -6856,81 +4995,18 @@ references:
   commentId: T:Connect.Razor.Html5.ScriptJsonLd
   fullName: Connect.Razor.Html5.ScriptJsonLd
   nameWithType: ScriptJsonLd
-- uid: Connect.Razor.Html5.ScriptJsonLd.#ctor(System.Object)
-  name: ScriptJsonLd(Object)
-  href: api/Connect.Razor.Html5.ScriptJsonLd.html#Connect_Razor_Html5_ScriptJsonLd__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.ScriptJsonLd.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.ScriptJsonLd.ScriptJsonLd(System.Object)
-  nameWithType: ScriptJsonLd.ScriptJsonLd(Object)
-- uid: Connect.Razor.Html5.ScriptJsonLd.#ctor(System.String)
-  name: ScriptJsonLd(String)
-  href: api/Connect.Razor.Html5.ScriptJsonLd.html#Connect_Razor_Html5_ScriptJsonLd__ctor_System_String_
-  commentId: M:Connect.Razor.Html5.ScriptJsonLd.#ctor(System.String)
-  fullName: Connect.Razor.Html5.ScriptJsonLd.ScriptJsonLd(System.String)
-  nameWithType: ScriptJsonLd.ScriptJsonLd(String)
-- uid: Connect.Razor.Html5.ScriptJsonLd.#ctor*
-  name: ScriptJsonLd
-  href: api/Connect.Razor.Html5.ScriptJsonLd.html#Connect_Razor_Html5_ScriptJsonLd__ctor_
-  commentId: Overload:Connect.Razor.Html5.ScriptJsonLd.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.ScriptJsonLd.ScriptJsonLd
-  nameWithType: ScriptJsonLd.ScriptJsonLd
 - uid: Connect.Razor.Html5.Section
   name: Section
   href: api/Connect.Razor.Html5.Section.html
   commentId: T:Connect.Razor.Html5.Section
   fullName: Connect.Razor.Html5.Section
   nameWithType: Section
-- uid: Connect.Razor.Html5.Section.#ctor(System.Object)
-  name: Section(Object)
-  href: api/Connect.Razor.Html5.Section.html#Connect_Razor_Html5_Section__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Section.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Section.Section(System.Object)
-  nameWithType: Section.Section(Object)
-- uid: Connect.Razor.Html5.Section.#ctor(System.Object[])
-  name: Section(Object[])
-  href: api/Connect.Razor.Html5.Section.html#Connect_Razor_Html5_Section__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Section.#ctor(System.Object[])
-  name.vb: Section(Object())
-  fullName: Connect.Razor.Html5.Section.Section(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Section.Section(System.Object())
-  nameWithType: Section.Section(Object[])
-  nameWithType.vb: Section.Section(Object())
-- uid: Connect.Razor.Html5.Section.#ctor*
-  name: Section
-  href: api/Connect.Razor.Html5.Section.html#Connect_Razor_Html5_Section__ctor_
-  commentId: Overload:Connect.Razor.Html5.Section.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Section.Section
-  nameWithType: Section.Section
 - uid: Connect.Razor.Html5.Select
   name: Select
   href: api/Connect.Razor.Html5.Select.html
   commentId: T:Connect.Razor.Html5.Select
   fullName: Connect.Razor.Html5.Select
   nameWithType: Select
-- uid: Connect.Razor.Html5.Select.#ctor(System.Object)
-  name: Select(Object)
-  href: api/Connect.Razor.Html5.Select.html#Connect_Razor_Html5_Select__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Select.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Select.Select(System.Object)
-  nameWithType: Select.Select(Object)
-- uid: Connect.Razor.Html5.Select.#ctor(System.Object[])
-  name: Select(Object[])
-  href: api/Connect.Razor.Html5.Select.html#Connect_Razor_Html5_Select__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Select.#ctor(System.Object[])
-  name.vb: Select(Object())
-  fullName: Connect.Razor.Html5.Select.Select(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Select.Select(System.Object())
-  nameWithType: Select.Select(Object[])
-  nameWithType.vb: Select.Select(Object())
-- uid: Connect.Razor.Html5.Select.#ctor*
-  name: Select
-  href: api/Connect.Razor.Html5.Select.html#Connect_Razor_Html5_Select__ctor_
-  commentId: Overload:Connect.Razor.Html5.Select.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Select.Select
-  nameWithType: Select.Select
 - uid: Connect.Razor.Html5.Select.Autofocus
   name: Autofocus()
   href: api/Connect.Razor.Html5.Select.html#Connect_Razor_Html5_Select_Autofocus
@@ -7052,56 +5128,12 @@ references:
   commentId: T:Connect.Razor.Html5.Small
   fullName: Connect.Razor.Html5.Small
   nameWithType: Small
-- uid: Connect.Razor.Html5.Small.#ctor(System.Object)
-  name: Small(Object)
-  href: api/Connect.Razor.Html5.Small.html#Connect_Razor_Html5_Small__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Small.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Small.Small(System.Object)
-  nameWithType: Small.Small(Object)
-- uid: Connect.Razor.Html5.Small.#ctor(System.Object[])
-  name: Small(Object[])
-  href: api/Connect.Razor.Html5.Small.html#Connect_Razor_Html5_Small__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Small.#ctor(System.Object[])
-  name.vb: Small(Object())
-  fullName: Connect.Razor.Html5.Small.Small(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Small.Small(System.Object())
-  nameWithType: Small.Small(Object[])
-  nameWithType.vb: Small.Small(Object())
-- uid: Connect.Razor.Html5.Small.#ctor*
-  name: Small
-  href: api/Connect.Razor.Html5.Small.html#Connect_Razor_Html5_Small__ctor_
-  commentId: Overload:Connect.Razor.Html5.Small.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Small.Small
-  nameWithType: Small.Small
 - uid: Connect.Razor.Html5.Source
   name: Source
   href: api/Connect.Razor.Html5.Source.html
   commentId: T:Connect.Razor.Html5.Source
   fullName: Connect.Razor.Html5.Source
   nameWithType: Source
-- uid: Connect.Razor.Html5.Source.#ctor
-  name: Source()
-  href: api/Connect.Razor.Html5.Source.html#Connect_Razor_Html5_Source__ctor
-  commentId: M:Connect.Razor.Html5.Source.#ctor
-  fullName: Connect.Razor.Html5.Source.Source()
-  nameWithType: Source.Source()
-- uid: Connect.Razor.Html5.Source.#ctor(System.Object[])
-  name: Source(Object[])
-  href: api/Connect.Razor.Html5.Source.html#Connect_Razor_Html5_Source__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Source.#ctor(System.Object[])
-  name.vb: Source(Object())
-  fullName: Connect.Razor.Html5.Source.Source(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Source.Source(System.Object())
-  nameWithType: Source.Source(Object[])
-  nameWithType.vb: Source.Source(Object())
-- uid: Connect.Razor.Html5.Source.#ctor*
-  name: Source
-  href: api/Connect.Razor.Html5.Source.html#Connect_Razor_Html5_Source__ctor_
-  commentId: Overload:Connect.Razor.Html5.Source.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Source.Source
-  nameWithType: Source.Source
 - uid: Connect.Razor.Html5.Source.Media(System.String)
   name: Media(String)
   href: api/Connect.Razor.Html5.Source.html#Connect_Razor_Html5_Source_Media_System_String_
@@ -7179,84 +5211,18 @@ references:
   commentId: T:Connect.Razor.Html5.Span
   fullName: Connect.Razor.Html5.Span
   nameWithType: Span
-- uid: Connect.Razor.Html5.Span.#ctor(System.Object)
-  name: Span(Object)
-  href: api/Connect.Razor.Html5.Span.html#Connect_Razor_Html5_Span__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Span.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Span.Span(System.Object)
-  nameWithType: Span.Span(Object)
-- uid: Connect.Razor.Html5.Span.#ctor(System.Object[])
-  name: Span(Object[])
-  href: api/Connect.Razor.Html5.Span.html#Connect_Razor_Html5_Span__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Span.#ctor(System.Object[])
-  name.vb: Span(Object())
-  fullName: Connect.Razor.Html5.Span.Span(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Span.Span(System.Object())
-  nameWithType: Span.Span(Object[])
-  nameWithType.vb: Span.Span(Object())
-- uid: Connect.Razor.Html5.Span.#ctor*
-  name: Span
-  href: api/Connect.Razor.Html5.Span.html#Connect_Razor_Html5_Span__ctor_
-  commentId: Overload:Connect.Razor.Html5.Span.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Span.Span
-  nameWithType: Span.Span
 - uid: Connect.Razor.Html5.Strong
   name: Strong
   href: api/Connect.Razor.Html5.Strong.html
   commentId: T:Connect.Razor.Html5.Strong
   fullName: Connect.Razor.Html5.Strong
   nameWithType: Strong
-- uid: Connect.Razor.Html5.Strong.#ctor(System.Object)
-  name: Strong(Object)
-  href: api/Connect.Razor.Html5.Strong.html#Connect_Razor_Html5_Strong__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Strong.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Strong.Strong(System.Object)
-  nameWithType: Strong.Strong(Object)
-- uid: Connect.Razor.Html5.Strong.#ctor(System.Object[])
-  name: Strong(Object[])
-  href: api/Connect.Razor.Html5.Strong.html#Connect_Razor_Html5_Strong__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Strong.#ctor(System.Object[])
-  name.vb: Strong(Object())
-  fullName: Connect.Razor.Html5.Strong.Strong(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Strong.Strong(System.Object())
-  nameWithType: Strong.Strong(Object[])
-  nameWithType.vb: Strong.Strong(Object())
-- uid: Connect.Razor.Html5.Strong.#ctor*
-  name: Strong
-  href: api/Connect.Razor.Html5.Strong.html#Connect_Razor_Html5_Strong__ctor_
-  commentId: Overload:Connect.Razor.Html5.Strong.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Strong.Strong
-  nameWithType: Strong.Strong
 - uid: Connect.Razor.Html5.Style
   name: Style
   href: api/Connect.Razor.Html5.Style.html
   commentId: T:Connect.Razor.Html5.Style
   fullName: Connect.Razor.Html5.Style
   nameWithType: Style
-- uid: Connect.Razor.Html5.Style.#ctor(System.Object)
-  name: Style(Object)
-  href: api/Connect.Razor.Html5.Style.html#Connect_Razor_Html5_Style__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Style.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Style.Style(System.Object)
-  nameWithType: Style.Style(Object)
-- uid: Connect.Razor.Html5.Style.#ctor(System.Object[])
-  name: Style(Object[])
-  href: api/Connect.Razor.Html5.Style.html#Connect_Razor_Html5_Style__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Style.#ctor(System.Object[])
-  name.vb: Style(Object())
-  fullName: Connect.Razor.Html5.Style.Style(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Style.Style(System.Object())
-  nameWithType: Style.Style(Object[])
-  nameWithType.vb: Style.Style(Object())
-- uid: Connect.Razor.Html5.Style.#ctor*
-  name: Style
-  href: api/Connect.Razor.Html5.Style.html#Connect_Razor_Html5_Style__ctor_
-  commentId: Overload:Connect.Razor.Html5.Style.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Style.Style
-  nameWithType: Style.Style
 - uid: Connect.Razor.Html5.Style.Media(System.String)
   name: Media(String)
   href: api/Connect.Razor.Html5.Style.html#Connect_Razor_Html5_Style_Media_System_String_
@@ -7289,112 +5255,24 @@ references:
   commentId: T:Connect.Razor.Html5.Sub
   fullName: Connect.Razor.Html5.Sub
   nameWithType: Sub
-- uid: Connect.Razor.Html5.Sub.#ctor(System.Object)
-  name: Sub(Object)
-  href: api/Connect.Razor.Html5.Sub.html#Connect_Razor_Html5_Sub__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Sub.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Sub.Sub(System.Object)
-  nameWithType: Sub.Sub(Object)
-- uid: Connect.Razor.Html5.Sub.#ctor(System.Object[])
-  name: Sub(Object[])
-  href: api/Connect.Razor.Html5.Sub.html#Connect_Razor_Html5_Sub__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Sub.#ctor(System.Object[])
-  name.vb: Sub(Object())
-  fullName: Connect.Razor.Html5.Sub.Sub(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Sub.Sub(System.Object())
-  nameWithType: Sub.Sub(Object[])
-  nameWithType.vb: Sub.Sub(Object())
-- uid: Connect.Razor.Html5.Sub.#ctor*
-  name: Sub
-  href: api/Connect.Razor.Html5.Sub.html#Connect_Razor_Html5_Sub__ctor_
-  commentId: Overload:Connect.Razor.Html5.Sub.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Sub.Sub
-  nameWithType: Sub.Sub
 - uid: Connect.Razor.Html5.Summary
   name: Summary
   href: api/Connect.Razor.Html5.Summary.html
   commentId: T:Connect.Razor.Html5.Summary
   fullName: Connect.Razor.Html5.Summary
   nameWithType: Summary
-- uid: Connect.Razor.Html5.Summary.#ctor(System.Object)
-  name: Summary(Object)
-  href: api/Connect.Razor.Html5.Summary.html#Connect_Razor_Html5_Summary__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Summary.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Summary.Summary(System.Object)
-  nameWithType: Summary.Summary(Object)
-- uid: Connect.Razor.Html5.Summary.#ctor(System.Object[])
-  name: Summary(Object[])
-  href: api/Connect.Razor.Html5.Summary.html#Connect_Razor_Html5_Summary__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Summary.#ctor(System.Object[])
-  name.vb: Summary(Object())
-  fullName: Connect.Razor.Html5.Summary.Summary(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Summary.Summary(System.Object())
-  nameWithType: Summary.Summary(Object[])
-  nameWithType.vb: Summary.Summary(Object())
-- uid: Connect.Razor.Html5.Summary.#ctor*
-  name: Summary
-  href: api/Connect.Razor.Html5.Summary.html#Connect_Razor_Html5_Summary__ctor_
-  commentId: Overload:Connect.Razor.Html5.Summary.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Summary.Summary
-  nameWithType: Summary.Summary
 - uid: Connect.Razor.Html5.Sup
   name: Sup
   href: api/Connect.Razor.Html5.Sup.html
   commentId: T:Connect.Razor.Html5.Sup
   fullName: Connect.Razor.Html5.Sup
   nameWithType: Sup
-- uid: Connect.Razor.Html5.Sup.#ctor(System.Object)
-  name: Sup(Object)
-  href: api/Connect.Razor.Html5.Sup.html#Connect_Razor_Html5_Sup__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Sup.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Sup.Sup(System.Object)
-  nameWithType: Sup.Sup(Object)
-- uid: Connect.Razor.Html5.Sup.#ctor(System.Object[])
-  name: Sup(Object[])
-  href: api/Connect.Razor.Html5.Sup.html#Connect_Razor_Html5_Sup__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Sup.#ctor(System.Object[])
-  name.vb: Sup(Object())
-  fullName: Connect.Razor.Html5.Sup.Sup(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Sup.Sup(System.Object())
-  nameWithType: Sup.Sup(Object[])
-  nameWithType.vb: Sup.Sup(Object())
-- uid: Connect.Razor.Html5.Sup.#ctor*
-  name: Sup
-  href: api/Connect.Razor.Html5.Sup.html#Connect_Razor_Html5_Sup__ctor_
-  commentId: Overload:Connect.Razor.Html5.Sup.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Sup.Sup
-  nameWithType: Sup.Sup
 - uid: Connect.Razor.Html5.Svg
   name: Svg
   href: api/Connect.Razor.Html5.Svg.html
   commentId: T:Connect.Razor.Html5.Svg
   fullName: Connect.Razor.Html5.Svg
   nameWithType: Svg
-- uid: Connect.Razor.Html5.Svg.#ctor(System.Object)
-  name: Svg(Object)
-  href: api/Connect.Razor.Html5.Svg.html#Connect_Razor_Html5_Svg__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Svg.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Svg.Svg(System.Object)
-  nameWithType: Svg.Svg(Object)
-- uid: Connect.Razor.Html5.Svg.#ctor(System.Object[])
-  name: Svg(Object[])
-  href: api/Connect.Razor.Html5.Svg.html#Connect_Razor_Html5_Svg__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Svg.#ctor(System.Object[])
-  name.vb: Svg(Object())
-  fullName: Connect.Razor.Html5.Svg.Svg(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Svg.Svg(System.Object())
-  nameWithType: Svg.Svg(Object[])
-  nameWithType.vb: Svg.Svg(Object())
-- uid: Connect.Razor.Html5.Svg.#ctor*
-  name: Svg
-  href: api/Connect.Razor.Html5.Svg.html#Connect_Razor_Html5_Svg__ctor_
-  commentId: Overload:Connect.Razor.Html5.Svg.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Svg.Svg
-  nameWithType: Svg.Svg
 - uid: Connect.Razor.Html5.Svg.Height(System.Int32)
   name: Height(Int32)
   href: api/Connect.Razor.Html5.Svg.html#Connect_Razor_Html5_Svg_Height_System_Int32_
@@ -7439,84 +5317,18 @@ references:
   commentId: T:Connect.Razor.Html5.Table
   fullName: Connect.Razor.Html5.Table
   nameWithType: Table
-- uid: Connect.Razor.Html5.Table.#ctor(System.Object)
-  name: Table(Object)
-  href: api/Connect.Razor.Html5.Table.html#Connect_Razor_Html5_Table__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Table.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Table.Table(System.Object)
-  nameWithType: Table.Table(Object)
-- uid: Connect.Razor.Html5.Table.#ctor(System.Object[])
-  name: Table(Object[])
-  href: api/Connect.Razor.Html5.Table.html#Connect_Razor_Html5_Table__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Table.#ctor(System.Object[])
-  name.vb: Table(Object())
-  fullName: Connect.Razor.Html5.Table.Table(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Table.Table(System.Object())
-  nameWithType: Table.Table(Object[])
-  nameWithType.vb: Table.Table(Object())
-- uid: Connect.Razor.Html5.Table.#ctor*
-  name: Table
-  href: api/Connect.Razor.Html5.Table.html#Connect_Razor_Html5_Table__ctor_
-  commentId: Overload:Connect.Razor.Html5.Table.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Table.Table
-  nameWithType: Table.Table
 - uid: Connect.Razor.Html5.Tbody
   name: Tbody
   href: api/Connect.Razor.Html5.Tbody.html
   commentId: T:Connect.Razor.Html5.Tbody
   fullName: Connect.Razor.Html5.Tbody
   nameWithType: Tbody
-- uid: Connect.Razor.Html5.Tbody.#ctor(System.Object)
-  name: Tbody(Object)
-  href: api/Connect.Razor.Html5.Tbody.html#Connect_Razor_Html5_Tbody__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Tbody.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Tbody.Tbody(System.Object)
-  nameWithType: Tbody.Tbody(Object)
-- uid: Connect.Razor.Html5.Tbody.#ctor(System.Object[])
-  name: Tbody(Object[])
-  href: api/Connect.Razor.Html5.Tbody.html#Connect_Razor_Html5_Tbody__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Tbody.#ctor(System.Object[])
-  name.vb: Tbody(Object())
-  fullName: Connect.Razor.Html5.Tbody.Tbody(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Tbody.Tbody(System.Object())
-  nameWithType: Tbody.Tbody(Object[])
-  nameWithType.vb: Tbody.Tbody(Object())
-- uid: Connect.Razor.Html5.Tbody.#ctor*
-  name: Tbody
-  href: api/Connect.Razor.Html5.Tbody.html#Connect_Razor_Html5_Tbody__ctor_
-  commentId: Overload:Connect.Razor.Html5.Tbody.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Tbody.Tbody
-  nameWithType: Tbody.Tbody
 - uid: Connect.Razor.Html5.Td
   name: Td
   href: api/Connect.Razor.Html5.Td.html
   commentId: T:Connect.Razor.Html5.Td
   fullName: Connect.Razor.Html5.Td
   nameWithType: Td
-- uid: Connect.Razor.Html5.Td.#ctor(System.Object)
-  name: Td(Object)
-  href: api/Connect.Razor.Html5.Td.html#Connect_Razor_Html5_Td__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Td.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Td.Td(System.Object)
-  nameWithType: Td.Td(Object)
-- uid: Connect.Razor.Html5.Td.#ctor(System.Object[])
-  name: Td(Object[])
-  href: api/Connect.Razor.Html5.Td.html#Connect_Razor_Html5_Td__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Td.#ctor(System.Object[])
-  name.vb: Td(Object())
-  fullName: Connect.Razor.Html5.Td.Td(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Td.Td(System.Object())
-  nameWithType: Td.Td(Object[])
-  nameWithType.vb: Td.Td(Object())
-- uid: Connect.Razor.Html5.Td.#ctor*
-  name: Td
-  href: api/Connect.Razor.Html5.Td.html#Connect_Razor_Html5_Td__ctor_
-  commentId: Overload:Connect.Razor.Html5.Td.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Td.Td
-  nameWithType: Td.Td
 - uid: Connect.Razor.Html5.Td.Colspan(System.Int32)
   name: Colspan(Int32)
   href: api/Connect.Razor.Html5.Td.html#Connect_Razor_Html5_Td_Colspan_System_Int32_
@@ -7574,56 +5386,12 @@ references:
   commentId: T:Connect.Razor.Html5.Template
   fullName: Connect.Razor.Html5.Template
   nameWithType: Template
-- uid: Connect.Razor.Html5.Template.#ctor(System.Object)
-  name: Template(Object)
-  href: api/Connect.Razor.Html5.Template.html#Connect_Razor_Html5_Template__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Template.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Template.Template(System.Object)
-  nameWithType: Template.Template(Object)
-- uid: Connect.Razor.Html5.Template.#ctor(System.Object[])
-  name: Template(Object[])
-  href: api/Connect.Razor.Html5.Template.html#Connect_Razor_Html5_Template__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Template.#ctor(System.Object[])
-  name.vb: Template(Object())
-  fullName: Connect.Razor.Html5.Template.Template(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Template.Template(System.Object())
-  nameWithType: Template.Template(Object[])
-  nameWithType.vb: Template.Template(Object())
-- uid: Connect.Razor.Html5.Template.#ctor*
-  name: Template
-  href: api/Connect.Razor.Html5.Template.html#Connect_Razor_Html5_Template__ctor_
-  commentId: Overload:Connect.Razor.Html5.Template.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Template.Template
-  nameWithType: Template.Template
 - uid: Connect.Razor.Html5.Textarea
   name: Textarea
   href: api/Connect.Razor.Html5.Textarea.html
   commentId: T:Connect.Razor.Html5.Textarea
   fullName: Connect.Razor.Html5.Textarea
   nameWithType: Textarea
-- uid: Connect.Razor.Html5.Textarea.#ctor(System.Object)
-  name: Textarea(Object)
-  href: api/Connect.Razor.Html5.Textarea.html#Connect_Razor_Html5_Textarea__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Textarea.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Textarea.Textarea(System.Object)
-  nameWithType: Textarea.Textarea(Object)
-- uid: Connect.Razor.Html5.Textarea.#ctor(System.Object[])
-  name: Textarea(Object[])
-  href: api/Connect.Razor.Html5.Textarea.html#Connect_Razor_Html5_Textarea__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Textarea.#ctor(System.Object[])
-  name.vb: Textarea(Object())
-  fullName: Connect.Razor.Html5.Textarea.Textarea(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Textarea.Textarea(System.Object())
-  nameWithType: Textarea.Textarea(Object[])
-  nameWithType.vb: Textarea.Textarea(Object())
-- uid: Connect.Razor.Html5.Textarea.#ctor*
-  name: Textarea
-  href: api/Connect.Razor.Html5.Textarea.html#Connect_Razor_Html5_Textarea__ctor_
-  commentId: Overload:Connect.Razor.Html5.Textarea.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Textarea.Textarea
-  nameWithType: Textarea.Textarea
 - uid: Connect.Razor.Html5.Textarea.Autofocus
   name: Autofocus()
   href: api/Connect.Razor.Html5.Textarea.html#Connect_Razor_Html5_Textarea_Autofocus
@@ -7810,56 +5578,12 @@ references:
   commentId: T:Connect.Razor.Html5.Tfoot
   fullName: Connect.Razor.Html5.Tfoot
   nameWithType: Tfoot
-- uid: Connect.Razor.Html5.Tfoot.#ctor(System.Object)
-  name: Tfoot(Object)
-  href: api/Connect.Razor.Html5.Tfoot.html#Connect_Razor_Html5_Tfoot__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Tfoot.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Tfoot.Tfoot(System.Object)
-  nameWithType: Tfoot.Tfoot(Object)
-- uid: Connect.Razor.Html5.Tfoot.#ctor(System.Object[])
-  name: Tfoot(Object[])
-  href: api/Connect.Razor.Html5.Tfoot.html#Connect_Razor_Html5_Tfoot__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Tfoot.#ctor(System.Object[])
-  name.vb: Tfoot(Object())
-  fullName: Connect.Razor.Html5.Tfoot.Tfoot(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Tfoot.Tfoot(System.Object())
-  nameWithType: Tfoot.Tfoot(Object[])
-  nameWithType.vb: Tfoot.Tfoot(Object())
-- uid: Connect.Razor.Html5.Tfoot.#ctor*
-  name: Tfoot
-  href: api/Connect.Razor.Html5.Tfoot.html#Connect_Razor_Html5_Tfoot__ctor_
-  commentId: Overload:Connect.Razor.Html5.Tfoot.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Tfoot.Tfoot
-  nameWithType: Tfoot.Tfoot
 - uid: Connect.Razor.Html5.Th
   name: Th
   href: api/Connect.Razor.Html5.Th.html
   commentId: T:Connect.Razor.Html5.Th
   fullName: Connect.Razor.Html5.Th
   nameWithType: Th
-- uid: Connect.Razor.Html5.Th.#ctor(System.Object)
-  name: Th(Object)
-  href: api/Connect.Razor.Html5.Th.html#Connect_Razor_Html5_Th__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Th.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Th.Th(System.Object)
-  nameWithType: Th.Th(Object)
-- uid: Connect.Razor.Html5.Th.#ctor(System.Object[])
-  name: Th(Object[])
-  href: api/Connect.Razor.Html5.Th.html#Connect_Razor_Html5_Th__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Th.#ctor(System.Object[])
-  name.vb: Th(Object())
-  fullName: Connect.Razor.Html5.Th.Th(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Th.Th(System.Object())
-  nameWithType: Th.Th(Object[])
-  nameWithType.vb: Th.Th(Object())
-- uid: Connect.Razor.Html5.Th.#ctor*
-  name: Th
-  href: api/Connect.Razor.Html5.Th.html#Connect_Razor_Html5_Th__ctor_
-  commentId: Overload:Connect.Razor.Html5.Th.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Th.Th
-  nameWithType: Th.Th
 - uid: Connect.Razor.Html5.Th.Abbr(System.String)
   name: Abbr(String)
   href: api/Connect.Razor.Html5.Th.html#Connect_Razor_Html5_Th_Abbr_System_String_
@@ -7956,56 +5680,12 @@ references:
   commentId: T:Connect.Razor.Html5.Thead
   fullName: Connect.Razor.Html5.Thead
   nameWithType: Thead
-- uid: Connect.Razor.Html5.Thead.#ctor(System.Object)
-  name: Thead(Object)
-  href: api/Connect.Razor.Html5.Thead.html#Connect_Razor_Html5_Thead__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Thead.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Thead.Thead(System.Object)
-  nameWithType: Thead.Thead(Object)
-- uid: Connect.Razor.Html5.Thead.#ctor(System.Object[])
-  name: Thead(Object[])
-  href: api/Connect.Razor.Html5.Thead.html#Connect_Razor_Html5_Thead__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Thead.#ctor(System.Object[])
-  name.vb: Thead(Object())
-  fullName: Connect.Razor.Html5.Thead.Thead(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Thead.Thead(System.Object())
-  nameWithType: Thead.Thead(Object[])
-  nameWithType.vb: Thead.Thead(Object())
-- uid: Connect.Razor.Html5.Thead.#ctor*
-  name: Thead
-  href: api/Connect.Razor.Html5.Thead.html#Connect_Razor_Html5_Thead__ctor_
-  commentId: Overload:Connect.Razor.Html5.Thead.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Thead.Thead
-  nameWithType: Thead.Thead
 - uid: Connect.Razor.Html5.Time
   name: Time
   href: api/Connect.Razor.Html5.Time.html
   commentId: T:Connect.Razor.Html5.Time
   fullName: Connect.Razor.Html5.Time
   nameWithType: Time
-- uid: Connect.Razor.Html5.Time.#ctor(System.Object)
-  name: Time(Object)
-  href: api/Connect.Razor.Html5.Time.html#Connect_Razor_Html5_Time__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Time.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Time.Time(System.Object)
-  nameWithType: Time.Time(Object)
-- uid: Connect.Razor.Html5.Time.#ctor(System.Object[])
-  name: Time(Object[])
-  href: api/Connect.Razor.Html5.Time.html#Connect_Razor_Html5_Time__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Time.#ctor(System.Object[])
-  name.vb: Time(Object())
-  fullName: Connect.Razor.Html5.Time.Time(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Time.Time(System.Object())
-  nameWithType: Time.Time(Object[])
-  nameWithType.vb: Time.Time(Object())
-- uid: Connect.Razor.Html5.Time.#ctor*
-  name: Time
-  href: api/Connect.Razor.Html5.Time.html#Connect_Razor_Html5_Time__ctor_
-  commentId: Overload:Connect.Razor.Html5.Time.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Time.Time
-  nameWithType: Time.Time
 - uid: Connect.Razor.Html5.Time.Datetime(System.DateTime)
   name: Datetime(DateTime)
   href: api/Connect.Razor.Html5.Time.html#Connect_Razor_Html5_Time_Datetime_System_DateTime_
@@ -8031,56 +5711,12 @@ references:
   commentId: T:Connect.Razor.Html5.Tr
   fullName: Connect.Razor.Html5.Tr
   nameWithType: Tr
-- uid: Connect.Razor.Html5.Tr.#ctor(System.Object)
-  name: Tr(Object)
-  href: api/Connect.Razor.Html5.Tr.html#Connect_Razor_Html5_Tr__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Tr.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Tr.Tr(System.Object)
-  nameWithType: Tr.Tr(Object)
-- uid: Connect.Razor.Html5.Tr.#ctor(System.Object[])
-  name: Tr(Object[])
-  href: api/Connect.Razor.Html5.Tr.html#Connect_Razor_Html5_Tr__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Tr.#ctor(System.Object[])
-  name.vb: Tr(Object())
-  fullName: Connect.Razor.Html5.Tr.Tr(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Tr.Tr(System.Object())
-  nameWithType: Tr.Tr(Object[])
-  nameWithType.vb: Tr.Tr(Object())
-- uid: Connect.Razor.Html5.Tr.#ctor*
-  name: Tr
-  href: api/Connect.Razor.Html5.Tr.html#Connect_Razor_Html5_Tr__ctor_
-  commentId: Overload:Connect.Razor.Html5.Tr.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Tr.Tr
-  nameWithType: Tr.Tr
 - uid: Connect.Razor.Html5.Track
   name: Track
   href: api/Connect.Razor.Html5.Track.html
   commentId: T:Connect.Razor.Html5.Track
   fullName: Connect.Razor.Html5.Track
   nameWithType: Track
-- uid: Connect.Razor.Html5.Track.#ctor
-  name: Track()
-  href: api/Connect.Razor.Html5.Track.html#Connect_Razor_Html5_Track__ctor
-  commentId: M:Connect.Razor.Html5.Track.#ctor
-  fullName: Connect.Razor.Html5.Track.Track()
-  nameWithType: Track.Track()
-- uid: Connect.Razor.Html5.Track.#ctor(System.Object[])
-  name: Track(Object[])
-  href: api/Connect.Razor.Html5.Track.html#Connect_Razor_Html5_Track__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Track.#ctor(System.Object[])
-  name.vb: Track(Object())
-  fullName: Connect.Razor.Html5.Track.Track(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Track.Track(System.Object())
-  nameWithType: Track.Track(Object[])
-  nameWithType.vb: Track.Track(Object())
-- uid: Connect.Razor.Html5.Track.#ctor*
-  name: Track
-  href: api/Connect.Razor.Html5.Track.html#Connect_Razor_Html5_Track__ctor_
-  commentId: Overload:Connect.Razor.Html5.Track.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Track.Track
-  nameWithType: Track.Track
 - uid: Connect.Razor.Html5.Track.Default
   name: Default()
   href: api/Connect.Razor.Html5.Track.html#Connect_Razor_Html5_Track_Default
@@ -8158,112 +5794,24 @@ references:
   commentId: T:Connect.Razor.Html5.U
   fullName: Connect.Razor.Html5.U
   nameWithType: U
-- uid: Connect.Razor.Html5.U.#ctor(System.Object)
-  name: U(Object)
-  href: api/Connect.Razor.Html5.U.html#Connect_Razor_Html5_U__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.U.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.U.U(System.Object)
-  nameWithType: U.U(Object)
-- uid: Connect.Razor.Html5.U.#ctor(System.Object[])
-  name: U(Object[])
-  href: api/Connect.Razor.Html5.U.html#Connect_Razor_Html5_U__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.U.#ctor(System.Object[])
-  name.vb: U(Object())
-  fullName: Connect.Razor.Html5.U.U(System.Object[])
-  fullName.vb: Connect.Razor.Html5.U.U(System.Object())
-  nameWithType: U.U(Object[])
-  nameWithType.vb: U.U(Object())
-- uid: Connect.Razor.Html5.U.#ctor*
-  name: U
-  href: api/Connect.Razor.Html5.U.html#Connect_Razor_Html5_U__ctor_
-  commentId: Overload:Connect.Razor.Html5.U.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.U.U
-  nameWithType: U.U
 - uid: Connect.Razor.Html5.Ul
   name: Ul
   href: api/Connect.Razor.Html5.Ul.html
   commentId: T:Connect.Razor.Html5.Ul
   fullName: Connect.Razor.Html5.Ul
   nameWithType: Ul
-- uid: Connect.Razor.Html5.Ul.#ctor(System.Object)
-  name: Ul(Object)
-  href: api/Connect.Razor.Html5.Ul.html#Connect_Razor_Html5_Ul__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Ul.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Ul.Ul(System.Object)
-  nameWithType: Ul.Ul(Object)
-- uid: Connect.Razor.Html5.Ul.#ctor(System.Object[])
-  name: Ul(Object[])
-  href: api/Connect.Razor.Html5.Ul.html#Connect_Razor_Html5_Ul__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Ul.#ctor(System.Object[])
-  name.vb: Ul(Object())
-  fullName: Connect.Razor.Html5.Ul.Ul(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Ul.Ul(System.Object())
-  nameWithType: Ul.Ul(Object[])
-  nameWithType.vb: Ul.Ul(Object())
-- uid: Connect.Razor.Html5.Ul.#ctor*
-  name: Ul
-  href: api/Connect.Razor.Html5.Ul.html#Connect_Razor_Html5_Ul__ctor_
-  commentId: Overload:Connect.Razor.Html5.Ul.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Ul.Ul
-  nameWithType: Ul.Ul
 - uid: Connect.Razor.Html5.Var
   name: Var
   href: api/Connect.Razor.Html5.Var.html
   commentId: T:Connect.Razor.Html5.Var
   fullName: Connect.Razor.Html5.Var
   nameWithType: Var
-- uid: Connect.Razor.Html5.Var.#ctor(System.Object)
-  name: Var(Object)
-  href: api/Connect.Razor.Html5.Var.html#Connect_Razor_Html5_Var__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Var.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Var.Var(System.Object)
-  nameWithType: Var.Var(Object)
-- uid: Connect.Razor.Html5.Var.#ctor(System.Object[])
-  name: Var(Object[])
-  href: api/Connect.Razor.Html5.Var.html#Connect_Razor_Html5_Var__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Var.#ctor(System.Object[])
-  name.vb: Var(Object())
-  fullName: Connect.Razor.Html5.Var.Var(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Var.Var(System.Object())
-  nameWithType: Var.Var(Object[])
-  nameWithType.vb: Var.Var(Object())
-- uid: Connect.Razor.Html5.Var.#ctor*
-  name: Var
-  href: api/Connect.Razor.Html5.Var.html#Connect_Razor_Html5_Var__ctor_
-  commentId: Overload:Connect.Razor.Html5.Var.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Var.Var
-  nameWithType: Var.Var
 - uid: Connect.Razor.Html5.Video
   name: Video
   href: api/Connect.Razor.Html5.Video.html
   commentId: T:Connect.Razor.Html5.Video
   fullName: Connect.Razor.Html5.Video
   nameWithType: Video
-- uid: Connect.Razor.Html5.Video.#ctor(System.Object)
-  name: Video(Object)
-  href: api/Connect.Razor.Html5.Video.html#Connect_Razor_Html5_Video__ctor_System_Object_
-  commentId: M:Connect.Razor.Html5.Video.#ctor(System.Object)
-  fullName: Connect.Razor.Html5.Video.Video(System.Object)
-  nameWithType: Video.Video(Object)
-- uid: Connect.Razor.Html5.Video.#ctor(System.Object[])
-  name: Video(Object[])
-  href: api/Connect.Razor.Html5.Video.html#Connect_Razor_Html5_Video__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Video.#ctor(System.Object[])
-  name.vb: Video(Object())
-  fullName: Connect.Razor.Html5.Video.Video(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Video.Video(System.Object())
-  nameWithType: Video.Video(Object[])
-  nameWithType.vb: Video.Video(Object())
-- uid: Connect.Razor.Html5.Video.#ctor*
-  name: Video
-  href: api/Connect.Razor.Html5.Video.html#Connect_Razor_Html5_Video__ctor_
-  commentId: Overload:Connect.Razor.Html5.Video.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Video.Video
-  nameWithType: Video.Video
 - uid: Connect.Razor.Html5.Video.Autoplay
   name: Autoplay()
   href: api/Connect.Razor.Html5.Video.html#Connect_Razor_Html5_Video_Autoplay
@@ -8423,25 +5971,3 @@ references:
   commentId: T:Connect.Razor.Html5.Wbr
   fullName: Connect.Razor.Html5.Wbr
   nameWithType: Wbr
-- uid: Connect.Razor.Html5.Wbr.#ctor
-  name: Wbr()
-  href: api/Connect.Razor.Html5.Wbr.html#Connect_Razor_Html5_Wbr__ctor
-  commentId: M:Connect.Razor.Html5.Wbr.#ctor
-  fullName: Connect.Razor.Html5.Wbr.Wbr()
-  nameWithType: Wbr.Wbr()
-- uid: Connect.Razor.Html5.Wbr.#ctor(System.Object[])
-  name: Wbr(Object[])
-  href: api/Connect.Razor.Html5.Wbr.html#Connect_Razor_Html5_Wbr__ctor_System_Object___
-  commentId: M:Connect.Razor.Html5.Wbr.#ctor(System.Object[])
-  name.vb: Wbr(Object())
-  fullName: Connect.Razor.Html5.Wbr.Wbr(System.Object[])
-  fullName.vb: Connect.Razor.Html5.Wbr.Wbr(System.Object())
-  nameWithType: Wbr.Wbr(Object[])
-  nameWithType.vb: Wbr.Wbr(Object())
-- uid: Connect.Razor.Html5.Wbr.#ctor*
-  name: Wbr
-  href: api/Connect.Razor.Html5.Wbr.html#Connect_Razor_Html5_Wbr__ctor_
-  commentId: Overload:Connect.Razor.Html5.Wbr.#ctor
-  isSpec: "True"
-  fullName: Connect.Razor.Html5.Wbr.Wbr
-  nameWithType: Wbr.Wbr

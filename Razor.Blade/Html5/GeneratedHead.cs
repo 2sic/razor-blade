@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;base&gt; tag with optional contents
     /// </summary>
     
-    public Base() : base("base", new TagOptions { Close = false })
+    internal Base() : base("base", new TagOptions { Close = false })
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A Base object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Base(params object[] content) : base("base", new TagOptions { Close = false }, content)
+    internal Base(params object[] content) : base("base", new TagOptions { Close = false }, content)
     {
     }
     
@@ -85,7 +85,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;head&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Head(object content = null) : base("head", content)
+    internal Head(object content = null) : base("head", content)
     {
     }
     
@@ -97,7 +97,7 @@ namespace Connect.Razor.Html5
     /// A Head object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Head(params object[] content) : base("head", null, content)
+    internal Head(params object[] content) : base("head", null, content)
     {
     }
     
@@ -116,7 +116,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;meta&gt; tag with optional contents
     /// </summary>
     
-    public Meta() : base("meta", new TagOptions { Close = false })
+    internal Meta() : base("meta", new TagOptions { Close = false })
     {
     }
     
@@ -128,7 +128,7 @@ namespace Connect.Razor.Html5
     /// A Meta object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Meta(params object[] content) : base("meta", new TagOptions { Close = false }, content)
+    internal Meta(params object[] content) : base("meta", new TagOptions { Close = false }, content)
     {
     }
     

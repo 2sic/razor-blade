@@ -23,7 +23,7 @@ namespace Connect.Razor.Html5
         /// <param name="size">size parameter</param>
         /// <param name="type">mime type</param>
         /// <returns></returns>
-        public Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
+        internal Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
         {
             // override empty attributes
             TagOptions = new TagOptions(new AttributeOptions {KeepEmpty = false}) {Close = false};

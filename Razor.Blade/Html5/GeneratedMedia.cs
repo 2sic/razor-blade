@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;audio&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Audio(object content = null) : base("audio", content)
+    internal Audio(object content = null) : base("audio", content)
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A Audio object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Audio(params object[] content) : base("audio", null, content)
+    internal Audio(params object[] content) : base("audio", null, content)
     {
     }
     
@@ -157,7 +157,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;source&gt; tag with optional contents
     /// </summary>
     
-    public Source() : base("source", new TagOptions { Close = false })
+    internal Source() : base("source", new TagOptions { Close = false })
     {
     }
     
@@ -169,7 +169,7 @@ namespace Connect.Razor.Html5
     /// A Source object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Source(params object[] content) : base("source", new TagOptions { Close = false }, content)
+    internal Source(params object[] content) : base("source", new TagOptions { Close = false }, content)
     {
     }
     
@@ -252,7 +252,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;track&gt; tag with optional contents
     /// </summary>
     
-    public Track() : base("track", new TagOptions { Close = false })
+    internal Track() : base("track", new TagOptions { Close = false })
     {
     }
     
@@ -264,7 +264,7 @@ namespace Connect.Razor.Html5
     /// A Track object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Track(params object[] content) : base("track", new TagOptions { Close = false }, content)
+    internal Track(params object[] content) : base("track", new TagOptions { Close = false }, content)
     {
     }
     
@@ -345,7 +345,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;video&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Video(object content = null) : base("video", content)
+    internal Video(object content = null) : base("video", content)
     {
     }
     
@@ -357,7 +357,7 @@ namespace Connect.Razor.Html5
     /// A Video object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Video(params object[] content) : base("video", null, content)
+    internal Video(params object[] content) : base("video", null, content)
     {
     }
     

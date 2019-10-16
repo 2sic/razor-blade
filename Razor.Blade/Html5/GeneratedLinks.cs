@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;a&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public A(object content = null) : base("a", content)
+    internal A(object content = null) : base("a", content)
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A A object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public A(params object[] content) : base("a", null, content)
+    internal A(params object[] content) : base("a", null, content)
     {
     }
     
@@ -151,7 +151,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;link&gt; tag with optional contents
     /// </summary>
     
-    public Link() : base("link", new TagOptions { Close = false })
+    internal Link() : base("link", new TagOptions { Close = false })
     {
     }
     
@@ -163,7 +163,7 @@ namespace Connect.Razor.Html5
     /// A Link object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Link(params object[] content) : base("link", new TagOptions { Close = false }, content)
+    internal Link(params object[] content) : base("link", new TagOptions { Close = false }, content)
     {
     }
     
@@ -248,7 +248,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;nav&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Nav(object content = null) : base("nav", content)
+    internal Nav(object content = null) : base("nav", content)
     {
     }
     
@@ -260,7 +260,7 @@ namespace Connect.Razor.Html5
     /// A Nav object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Nav(params object[] content) : base("nav", null, content)
+    internal Nav(params object[] content) : base("nav", null, content)
     {
     }
     

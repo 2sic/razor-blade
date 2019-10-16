@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;embed&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Embed(object content = null) : base("embed", content)
+    internal Embed(object content = null) : base("embed", content)
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A Embed object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Embed(params object[] content) : base("embed", null, content)
+    internal Embed(params object[] content) : base("embed", null, content)
     {
     }
     
@@ -121,7 +121,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;noscript&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Noscript(object content = null) : base("noscript", content)
+    internal Noscript(object content = null) : base("noscript", content)
     {
     }
     
@@ -133,7 +133,7 @@ namespace Connect.Razor.Html5
     /// A Noscript object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Noscript(params object[] content) : base("noscript", null, content)
+    internal Noscript(params object[] content) : base("noscript", null, content)
     {
     }
     
@@ -152,7 +152,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;object&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Object(object content = null) : base("object", content)
+    internal Object(object content = null) : base("object", content)
     {
     }
     
@@ -164,7 +164,7 @@ namespace Connect.Razor.Html5
     /// A Object object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Object(params object[] content) : base("object", null, content)
+    internal Object(params object[] content) : base("object", null, content)
     {
     }
     
@@ -274,7 +274,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;param&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Param(object content = null) : base("param", content)
+    internal Param(object content = null) : base("param", content)
     {
     }
     
@@ -286,7 +286,7 @@ namespace Connect.Razor.Html5
     /// A Param object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Param(params object[] content) : base("param", null, content)
+    internal Param(params object[] content) : base("param", null, content)
     {
     }
     
@@ -327,7 +327,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;script&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Script(object content = null) : base("script", content)
+    internal Script(object content = null) : base("script", content)
     {
     }
     
@@ -339,7 +339,7 @@ namespace Connect.Razor.Html5
     /// A Script object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Script(params object[] content) : base("script", null, content)
+    internal Script(params object[] content) : base("script", null, content)
     {
     }
     

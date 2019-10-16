@@ -1,6 +1,4 @@
-﻿using Connect.Razor.Internals;
-
-namespace Connect.Razor.Html5
+﻿namespace Connect.Razor.Html5
 {
     /// <summary>
     /// Special tag for generating JsonLd markup
@@ -11,7 +9,7 @@ namespace Connect.Razor.Html5
         /// Create a JsonLd Script-Tag 
         /// </summary>
         /// <param name="content">the contents in the tag</param>
-        public ScriptJsonLd(string content)
+        internal ScriptJsonLd(string content)
         {
             Type("application/ld+json");
             TagContents = content;
@@ -21,7 +19,7 @@ namespace Connect.Razor.Html5
         /// Create a JsonLd Script tag and automatically json-serialize the object inside it
         /// </summary>
         /// <param name="content">an object which will be json serialized</param>
-        public ScriptJsonLd(object content)
+        internal ScriptJsonLd(object content)
             : this(Connect.Razor.Internals.Html.ToJsonOrErrorMessage(content)) {}
     }
 }

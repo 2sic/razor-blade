@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 22:10
+// Created 16.10.2019 23:09
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -32,7 +32,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;br&gt; tag with optional contents
     /// </summary>
     
-    public Br() : base("br", new TagOptions { Close = false })
+    internal Br() : base("br", new TagOptions { Close = false })
     {
     }
     
@@ -44,7 +44,7 @@ namespace Connect.Razor.Html5
     /// A Br object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Br(params object[] content) : base("br", new TagOptions { Close = false }, content)
+    internal Br(params object[] content) : base("br", new TagOptions { Close = false }, content)
     {
     }
     
@@ -63,7 +63,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;dd&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Dd(object content = null) : base("dd", content)
+    internal Dd(object content = null) : base("dd", content)
     {
     }
     
@@ -75,7 +75,7 @@ namespace Connect.Razor.Html5
     /// A Dd object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Dd(params object[] content) : base("dd", null, content)
+    internal Dd(params object[] content) : base("dd", null, content)
     {
     }
     
@@ -94,7 +94,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;dl&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Dl(object content = null) : base("dl", content)
+    internal Dl(object content = null) : base("dl", content)
     {
     }
     
@@ -106,7 +106,7 @@ namespace Connect.Razor.Html5
     /// A Dl object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Dl(params object[] content) : base("dl", null, content)
+    internal Dl(params object[] content) : base("dl", null, content)
     {
     }
     
@@ -125,7 +125,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;dt&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Dt(object content = null) : base("dt", content)
+    internal Dt(object content = null) : base("dt", content)
     {
     }
     
@@ -137,7 +137,7 @@ namespace Connect.Razor.Html5
     /// A Dt object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Dt(params object[] content) : base("dt", null, content)
+    internal Dt(params object[] content) : base("dt", null, content)
     {
     }
     
@@ -156,7 +156,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;h1&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public H1(object content = null) : base("h1", content)
+    internal H1(object content = null) : base("h1", content)
     {
     }
     
@@ -168,7 +168,7 @@ namespace Connect.Razor.Html5
     /// A H1 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public H1(params object[] content) : base("h1", null, content)
+    internal H1(params object[] content) : base("h1", null, content)
     {
     }
     
@@ -187,7 +187,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;h2&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public H2(object content = null) : base("h2", content)
+    internal H2(object content = null) : base("h2", content)
     {
     }
     
@@ -199,7 +199,7 @@ namespace Connect.Razor.Html5
     /// A H2 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public H2(params object[] content) : base("h2", null, content)
+    internal H2(params object[] content) : base("h2", null, content)
     {
     }
     
@@ -218,7 +218,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;h3&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public H3(object content = null) : base("h3", content)
+    internal H3(object content = null) : base("h3", content)
     {
     }
     
@@ -230,7 +230,7 @@ namespace Connect.Razor.Html5
     /// A H3 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public H3(params object[] content) : base("h3", null, content)
+    internal H3(params object[] content) : base("h3", null, content)
     {
     }
     
@@ -249,7 +249,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;h4&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public H4(object content = null) : base("h4", content)
+    internal H4(object content = null) : base("h4", content)
     {
     }
     
@@ -261,7 +261,7 @@ namespace Connect.Razor.Html5
     /// A H4 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public H4(params object[] content) : base("h4", null, content)
+    internal H4(params object[] content) : base("h4", null, content)
     {
     }
     
@@ -280,7 +280,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;h5&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public H5(object content = null) : base("h5", content)
+    internal H5(object content = null) : base("h5", content)
     {
     }
     
@@ -292,7 +292,7 @@ namespace Connect.Razor.Html5
     /// A H5 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public H5(params object[] content) : base("h5", null, content)
+    internal H5(params object[] content) : base("h5", null, content)
     {
     }
     
@@ -311,7 +311,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;h6&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public H6(object content = null) : base("h6", content)
+    internal H6(object content = null) : base("h6", content)
     {
     }
     
@@ -323,7 +323,7 @@ namespace Connect.Razor.Html5
     /// A H6 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public H6(params object[] content) : base("h6", null, content)
+    internal H6(params object[] content) : base("h6", null, content)
     {
     }
     
@@ -342,7 +342,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;hr&gt; tag with optional contents
     /// </summary>
     
-    public Hr() : base("hr", new TagOptions { Close = false })
+    internal Hr() : base("hr", new TagOptions { Close = false })
     {
     }
     
@@ -354,7 +354,7 @@ namespace Connect.Razor.Html5
     /// A Hr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Hr(params object[] content) : base("hr", new TagOptions { Close = false }, content)
+    internal Hr(params object[] content) : base("hr", new TagOptions { Close = false }, content)
     {
     }
     
@@ -373,7 +373,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;li&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Li(object content = null) : base("li", content)
+    internal Li(object content = null) : base("li", content)
     {
     }
     
@@ -385,7 +385,7 @@ namespace Connect.Razor.Html5
     /// A Li object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Li(params object[] content) : base("li", null, content)
+    internal Li(params object[] content) : base("li", null, content)
     {
     }
     
@@ -404,7 +404,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;ol&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Ol(object content = null) : base("ol", content)
+    internal Ol(object content = null) : base("ol", content)
     {
     }
     
@@ -416,7 +416,7 @@ namespace Connect.Razor.Html5
     /// A Ol object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Ol(params object[] content) : base("ol", null, content)
+    internal Ol(params object[] content) : base("ol", null, content)
     {
     }
     
@@ -435,7 +435,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;p&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public P(object content = null) : base("p", content)
+    internal P(object content = null) : base("p", content)
     {
     }
     
@@ -447,7 +447,7 @@ namespace Connect.Razor.Html5
     /// A P object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public P(params object[] content) : base("p", null, content)
+    internal P(params object[] content) : base("p", null, content)
     {
     }
     
@@ -466,7 +466,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;ul&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    public Ul(object content = null) : base("ul", content)
+    internal Ul(object content = null) : base("ul", content)
     {
     }
     
@@ -478,7 +478,7 @@ namespace Connect.Razor.Html5
     /// A Ul object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Ul(params object[] content) : base("ul", null, content)
+    internal Ul(params object[] content) : base("ul", null, content)
     {
     }
     
@@ -497,7 +497,7 @@ namespace Connect.Razor.Html5
     /// Generate an &lt;wbr&gt; tag with optional contents
     /// </summary>
     
-    public Wbr() : base("wbr", new TagOptions { Close = false })
+    internal Wbr() : base("wbr", new TagOptions { Close = false })
     {
     }
     
@@ -509,7 +509,7 @@ namespace Connect.Razor.Html5
     /// A Wbr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    public Wbr(params object[] content) : base("wbr", new TagOptions { Close = false }, content)
+    internal Wbr(params object[] content) : base("wbr", new TagOptions { Close = false }, content)
     {
     }
     

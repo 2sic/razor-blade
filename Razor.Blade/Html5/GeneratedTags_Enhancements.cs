@@ -4,7 +4,7 @@ namespace Connect.Razor.Html5
 {
     public partial class Abbr
     {
-        public Abbr(object content, string title) : this(content)
+        internal Abbr(object content, string title) : this(content)
         {
             this.Title(title);
         }
@@ -13,7 +13,7 @@ namespace Connect.Razor.Html5
 
     public partial class Bdo
     {
-        public Bdo(object content, string direction) : this(content)
+        internal Bdo(object content, string direction) : this(content)
         {
             Dir(direction);
         }
@@ -22,7 +22,7 @@ namespace Connect.Razor.Html5
 
     public partial class Img
     {
-        public Img(string src, int width = -1, int height = -1) : this()
+        internal Img(string src, int width = -1, int height = -1) : this()
         {
             Src(src);
             if (height > -1) Height(height);
@@ -33,7 +33,7 @@ namespace Connect.Razor.Html5
 
     public partial class A
     {
-        public A(string href, string target = null) : this()
+        internal A(string href, string target = null) : this()
         {
             Href(href);
             if (target != null) Target(target);
@@ -43,7 +43,7 @@ namespace Connect.Razor.Html5
     // ReSharper disable once InconsistentNaming
     public partial class Iframe
     {
-        public Iframe(string src, int width = -1, int height = -1) : this()
+        internal Iframe(string src, int width = -1, int height = -1) : this()
         {
             Src(src);
             if (height > -1) Height(height);
@@ -57,7 +57,7 @@ namespace Connect.Razor.Html5
     /// </summary>
     public class MediaSource : Source
     {
-        public MediaSource(string src, string type = null) : base()
+        internal MediaSource(string src, string type = null) : base()
         {
             Src(src);
             if (type != null) Type(type);
@@ -69,7 +69,7 @@ namespace Connect.Razor.Html5
         /// Generate a standard HTML5 &lt;source&gt; tag,
         /// initialized with srcset and optionally media, sizes and type
         /// </summary>
-        public PictureSource(string srcset, string media = null, string sizes = null, string type = null) : base()
+        internal PictureSource(string srcset, string media = null, string sizes = null, string type = null) : base()
         {
             Srcset(srcset);
             if (media != null) Media(media);
