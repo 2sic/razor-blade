@@ -1,0 +1,1628 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Projects/razor-blades/DocFx Generator",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "fuxnum3eyP/WQbUJ8ATUBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "+wwvzb1w1gaIV4v5slaQMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logos/razor-blade-icon-50.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logos/razor-blade-icon-50.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logos/razor-blade-icon-transparent.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logos/razor-blade-icon-transparent.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logos/razor-blade-icon-white.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logos/razor-blade-icon-white.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logos/razor-blade-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logos/razor-blade-logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "yiVmqpFjvjdkurJgu3rrWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Blade.HtmlPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Blade.HtmlPage.html",
+          "hash": "TrSRUY+MODt8fAEI/Aon5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Blade.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Blade.Tag.html",
+          "hash": "k2Bp6pia/FO8BJUSu6esxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Blade.TagExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Blade.TagExtensions.html",
+          "hash": "Pbiv8Z0mYTyMvBDJBBQOOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Blade.Tags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Blade.Tags.html",
+          "hash": "uYw5JsD+bQ6/TYtjTGno8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Blade.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Blade.Text.html",
+          "hash": "/DTy3An9/xZSXwH1x34Sew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Blade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Blade.html",
+          "hash": "3vd/DGuD+OfU84qZh/xAww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.A.html",
+          "hash": "Lx1j2eS3YGTckJYuayeS3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Abbr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Abbr.html",
+          "hash": "OEmY2DCRpBvw6OzAUQ9FaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Address.html",
+          "hash": "EbQV6Ll40LiDl0ae3w0O7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Area.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Area.html",
+          "hash": "p83uq6nJD9xofZvNm949BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Article.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Article.html",
+          "hash": "Zv5moyzBumDRv7C7KzaeUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Aside.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Aside.html",
+          "hash": "c4TPyBW8MOhWTkhCd57cNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Audio.html",
+          "hash": "+pMA/LQBStoefWc2ehiW9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.B.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.B.html",
+          "hash": "MQI4KP0N4K01L6RaKC9C4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Base.html",
+          "hash": "SYcgPCZYv+eWoKceoWbLOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Bdi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Bdi.html",
+          "hash": "7xiOArnWy0oO4C6DXV/Bgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Bdo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Bdo.html",
+          "hash": "iOOUxTqm4M0Wxbut5xIpyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Blockquote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Blockquote.html",
+          "hash": "ZgLlK1GBo1F5ANPAoJQEgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Br.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Br.html",
+          "hash": "13XjyTI7Of7zNg43amg8Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Button.html",
+          "hash": "XmsDzKgDBoeaUS1YcAcLKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Canvas.html",
+          "hash": "P2d7LQYM8gpLOnEibV2lww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Caption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Caption.html",
+          "hash": "RWuq4p3DNYd2+AyvPsd5kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Cite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Cite.html",
+          "hash": "utG5vD+8s5WeAMV1AeE2wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Code.html",
+          "hash": "rCy977tlHmDFkb8JOY6EFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Col.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Col.html",
+          "hash": "9YCn5zaM7X+c7ujLJBYuJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Colgroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Colgroup.html",
+          "hash": "q+gu+JnlsTavsbrJOwUK1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Comment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Comment.html",
+          "hash": "L9RpTde8I6kt/37X/0j+uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Data.html",
+          "hash": "00IV0Cj+4RoWrgD7epiW7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Datalist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Datalist.html",
+          "hash": "RWeoOcrSPWqAB61yWJKqwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Dd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Dd.html",
+          "hash": "+NdOkJ8GjgS28Tu/wntw2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Del.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Del.html",
+          "hash": "JkzzVE4aifqeFmlR4/Uw4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Details.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Details.html",
+          "hash": "hPpitn57QCf0kwtYLc3BIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Dfn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Dfn.html",
+          "hash": "v2sW8IyWn9FpWRgmvZ3Ulg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Dialog.html",
+          "hash": "qAXoaJa+kjsT1rVKLZkZbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Div.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Div.html",
+          "hash": "xR+xZXO7fpcqOXAfBHjixA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Dl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Dl.html",
+          "hash": "GsQxeUGronYbyTg32SpZeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Dt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Dt.html",
+          "hash": "0R52FH991/ORHy89zExRig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Em.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Em.html",
+          "hash": "ZLsBtT0L6y1I0XSjMrPbvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Embed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Embed.html",
+          "hash": "e+vTI2AzTyNRk+HR8p2rMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Fieldset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Fieldset.html",
+          "hash": "6S+dhg8NFkQowL48QnbAaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Figcaption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Figcaption.html",
+          "hash": "hsxmDQ0gZfYkJFWM3kkFbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Figure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Figure.html",
+          "hash": "VFbwnu6wbgYEqxnSv9bbwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Footer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Footer.html",
+          "hash": "SS2RBqogUm4wRflpWDQV9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Form.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Form.html",
+          "hash": "FHn+0TrfGr4x+D9sQxEgOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.H1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.H1.html",
+          "hash": "lyZGEHcSembrUMgbnqIv9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.H2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.H2.html",
+          "hash": "5MTQW6Ri/sYpC+pWBygzMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.H3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.H3.html",
+          "hash": "er8VWOoCpZL21EXMRO4bUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.H4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.H4.html",
+          "hash": "iz5XLaTGnZQDiFQlEBC3zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.H5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.H5.html",
+          "hash": "7uIkUuJKt5ICbuUxrbtTlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.H6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.H6.html",
+          "hash": "HH6erhpQOgYPXefhW866qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Head.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Head.html",
+          "hash": "ipwxUSQp1hmjvKvn6dF6/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Header.html",
+          "hash": "G9bxbRwiqaCWwSjzbH5PJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Hr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Hr.html",
+          "hash": "QMnR2YWrafPvjKwYJys0Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.I.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.I.html",
+          "hash": "0ptzyVaYxnzpCZe6r6JaRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Icon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Icon.html",
+          "hash": "SeN/gh450N0eSUqnbRE7vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Iframe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Iframe.html",
+          "hash": "XdT4B8blsWkH3vgUjQ0bAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Img.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Img.html",
+          "hash": "2prw4A0qDPYuhOlBsbjNGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Input.html",
+          "hash": "cnk/JH6L276fyhSKlA+0Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Ins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Ins.html",
+          "hash": "LELAVYkdGSx024YMHUGR5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Kbd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Kbd.html",
+          "hash": "xkl/462xy5V02LOzi4hSNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Label.html",
+          "hash": "5sBac1ADNHvabqS1rVqBWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Legend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Legend.html",
+          "hash": "16M1cEnbx+IKh4mXqVLqjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Li.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Li.html",
+          "hash": "5ER2le66+AE3FaZOE2wfjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Link.html",
+          "hash": "aeA5owO2K3jfoI7HliCMJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Main.html",
+          "hash": "9zqQAlA6nbV3kp+8sXqkXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Map.html",
+          "hash": "/hmzH2QSivVAAOMNZN06dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Mark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Mark.html",
+          "hash": "Ez2GUeazslhGu5/Rjqkjfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.MediaSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.MediaSource.html",
+          "hash": "AxS7H1VAuTd5aHCtzOt6XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Meta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Meta.html",
+          "hash": "DTEbyLpUZPBqWXgJRz6ZMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.MetaOg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.MetaOg.html",
+          "hash": "hlm47rrDYwS2EQR/yjUIKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Meter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Meter.html",
+          "hash": "Bx41R3xiImBdExTtPFCfgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Nav.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Nav.html",
+          "hash": "swq+9Az3iTxlkeTFyrTpDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Noscript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Noscript.html",
+          "hash": "9PLGkWPxWBPLYcJdtc2ZVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Object.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Object.html",
+          "hash": "6oZfGfR5ee097Hih8jYSAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Ol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Ol.html",
+          "hash": "83r1WjBJvig8Wlf7CGGcMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Optgroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Optgroup.html",
+          "hash": "Y7oe+XpNJb5VgjmT+MYM+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Option.html",
+          "hash": "SiKl0LJv/xAo0lPqBmw6Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Output.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Output.html",
+          "hash": "D/R8pTgnuyttNlEwCqpoew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.P.html",
+          "hash": "L31JR6xgyg3f0GEz6yYXZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Param.html",
+          "hash": "3N98Pp+fkvE41t/SbrlYgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Picture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Picture.html",
+          "hash": "mKq50X7B3zhqLkP8JVxYcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.PictureSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.PictureSource.html",
+          "hash": "WuShAfoD/PWQ3sHSdgPAKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Pre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Pre.html",
+          "hash": "1BUnTtfK/EOaA8hv9OEG3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Progress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Progress.html",
+          "hash": "LCTSsUxAilXGXSXaiBMXbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Q.html",
+          "hash": "A1a5gc9DezYVYJTvpSOuXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Rp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Rp.html",
+          "hash": "Tvbv6wZ6zQaf2M6hCaLmfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Rt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Rt.html",
+          "hash": "nPIxVYk7AMmb1iomytNb/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Ruby.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Ruby.html",
+          "hash": "A5BMetkaTchtlq2EecHKCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.S.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.S.html",
+          "hash": "8lNK8dioDWAwyc8MtT0USA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Samp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Samp.html",
+          "hash": "1j5S6K9HwEeivlrxizAkTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Script.html",
+          "hash": "UzKncd4OcTAVQ9JQFIjBSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.ScriptJsonLd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.ScriptJsonLd.html",
+          "hash": "A/+qdKl2vhYlUptanSxfyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Section.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Section.html",
+          "hash": "RKoPFfKZNtTFGaMwnm7VNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Select.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Select.html",
+          "hash": "xGJYCr12ssfYTJIJ2/fCow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Small.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Small.html",
+          "hash": "uofj5BnB+/6Tud0813Fs6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Source.html",
+          "hash": "FNvnZuBOwwOYqOPLqf7Qaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Span.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Span.html",
+          "hash": "0Ptkge47NI27f+kWluwYTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Strong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Strong.html",
+          "hash": "by1210DrfXxiHdSVV6TTJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Style.html",
+          "hash": "XgqDhuW8obLiMAihUpD5Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Sub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Sub.html",
+          "hash": "PZHVuDmwP1C2iXUhL7VddA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Summary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Summary.html",
+          "hash": "1TdHbhgxvlDsgQZKEgy/kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Sup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Sup.html",
+          "hash": "/IY0xCSAx5dMGGmQRPByeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Svg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Svg.html",
+          "hash": "WQw9kBRMk72PrS6fBqxMLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Table.html",
+          "hash": "ojhh9XIats5RDSvItxtPxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Tbody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Tbody.html",
+          "hash": "udtDeWVDI8JLPXSkleHtig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Td.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Td.html",
+          "hash": "0hxUiZ5mmLxRzw2lhGpLlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Template.html",
+          "hash": "OHbpFdXv1ED85c9mvrMtQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Textarea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Textarea.html",
+          "hash": "jF+SF+1PBwV+/VGH8Ii47g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Tfoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Tfoot.html",
+          "hash": "OjRD2RX+Iln9al4B4SA4ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Th.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Th.html",
+          "hash": "n3kDCums6ELejbNlxxOFUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Thead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Thead.html",
+          "hash": "m6MwV1dbi849Md/pOvNHaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Time.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Time.html",
+          "hash": "u81bC508Vk5fvpGFQapPCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Tr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Tr.html",
+          "hash": "UmtTQZ+FhrT9e7L92RQS6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Track.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Track.html",
+          "hash": "2RgBtgphDbJ8EAB4I1XmqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.U.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.U.html",
+          "hash": "G5egAvDXHYeqpa1BR/sakw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Ul.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Ul.html",
+          "hash": "zUAe3VOQ8iqgaroqCuLdBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Var.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Var.html",
+          "hash": "9XXbT1OYp6oAUmfjcH1nUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Video.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Video.html",
+          "hash": "hawNfPq0tsHUSEVFR5I98w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.Wbr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.Wbr.html",
+          "hash": "8AcTItJeo4fimiJGmYFdWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Connect.Razor.Html5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Connect.Razor.Html5.html",
+          "hash": "gwnfxWA6pWC/o25KZwP7fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "fyHplFMWZOBVWohm/2+6Ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "mMbtbyDwhraGwsoF16qv9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 122,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

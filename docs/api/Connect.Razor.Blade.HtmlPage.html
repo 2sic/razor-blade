@@ -1,0 +1,608 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HtmlPage
+   | RazorBlade 2.03 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HtmlPage
+   | RazorBlade 2.03 ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logos/razor-blade-icon-50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Connect.Razor.Blade.HtmlPage">
+  
+  
+  <h1 id="Connect_Razor_Blade_HtmlPage" data-uid="Connect.Razor.Blade.HtmlPage" class="text-break">Class HtmlPage
+  </h1>
+  <div class="markdown level0 summary"><p>Access the surrounding page and read/modify some properties, 
+and add various kinds of headers to the &lt;head&gt; of the current page.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">HtmlPage</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Connect.Razor.Blade.html">Connect.Razor.Blade</a></h6>
+  <h6><strong>Assembly</strong>: Connect.Razor.Dnn.dll</h6>
+  <h5 id="Connect_Razor_Blade_HtmlPage_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class HtmlPage</code></pre>
+  </div>
+  <h5 id="Connect_Razor_Blade_HtmlPage_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>It&apos;s important that the commands on this class are the same as in the IHtmlPage,
+to allow the API to be consistent both when using this shortcut-class as well as 
+when using the GetPage() and then doing the same commands on that. 
+This cannot be enforced with interfaces, as the static class cannot be typed</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_Description.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L38">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_Description_" data-uid="Connect.Razor.Blade.HtmlPage.Description*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_Description" data-uid="Connect.Razor.Blade.HtmlPage.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Get/Set description of this page
+Will return null if not running in a page context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Description { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_Keywords.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.Keywords%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L48">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_Keywords_" data-uid="Connect.Razor.Blade.HtmlPage.Keywords*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_Keywords" data-uid="Connect.Razor.Blade.HtmlPage.Keywords">Keywords</h4>
+  <div class="markdown level1 summary"><p>Get/Set keywords of this page
+Will return null if not running in a page context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Keywords { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_Title.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.Title%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L28">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_Title_" data-uid="Connect.Razor.Blade.HtmlPage.Title*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_Title" data-uid="Connect.Razor.Blade.HtmlPage.Title">Title</h4>
+  <div class="markdown level1 summary"><p>The current page title
+Will return null if not running in a page context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Title { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddIcon_System_String_System_String_System_String_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddIcon(System.String%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L108">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddIcon_" data-uid="Connect.Razor.Blade.HtmlPage.AddIcon*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddIcon_System_String_System_String_System_String_System_Int32_System_String_" data-uid="Connect.Razor.Blade.HtmlPage.AddIcon(System.String,System.String,System.String,System.Int32,System.String)">AddIcon(String, String, String, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Add an icon tag to the page</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddIcon(string path, string doNotRelyOnParameterOrder = &quot;0239fse[4332xhkne&quot;, string rel = &quot;&quot;, int size = 0, string type = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path to the image/icon file</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">doNotRelyOnParameterOrder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rel</span></td>
+        <td><p>the rel-text, default is &apos;icon&apos;. common terms are also &apos;shortcut icon&apos; or &apos;apple-touch-icon&apos;</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Will be used in size=&apos;#x#&apos; tag; only relevant if you want to provide multiple separate sizes</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>An optional type. If not provided, will be auto-detected from known types or remain empty</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddIconSet_System_String_System_String_System_Object_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_Int32__.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddIconSet(System.String%2CSystem.String%2CSystem.Object%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Collections.Generic.IEnumerable%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L125">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddIconSet_" data-uid="Connect.Razor.Blade.HtmlPage.AddIconSet*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddIconSet_System_String_System_String_System_Object_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Connect.Razor.Blade.HtmlPage.AddIconSet(System.String,System.String,System.Object,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Int32})">AddIconSet(String, String, Object, IEnumerable&lt;String&gt;, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add a set of icons to the page</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddIconSet(string path, string doNotRelyOnParameterOrder = &quot;0239fse[4332xhkne&quot;, object favicon = null, IEnumerable&lt;string&gt; rels = null, IEnumerable&lt;int&gt; sizes = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path to the image/icon file</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">doNotRelyOnParameterOrder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">favicon</span></td>
+        <td><p>path to favicon, default is &apos;/favicon.ico&apos; </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">rels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">sizes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddJsonLd_System_Object_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddJsonLd(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L95">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddJsonLd_" data-uid="Connect.Razor.Blade.HtmlPage.AddJsonLd*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddJsonLd_System_Object_" data-uid="Connect.Razor.Blade.HtmlPage.AddJsonLd(System.Object)">AddJsonLd(Object)</h4>
+  <div class="markdown level1 summary"><p>Add a JSON-LD header according <a href="https://developers.google.com/search/docs/guides/intro-structured-data">https://developers.google.com/search/docs/guides/intro-structured-data</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddJsonLd(object jsonObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">jsonObject</span></td>
+        <td><p>A object which will be converted to JSON. We recommend using dictionaries to build the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddJsonLd_System_String_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddJsonLd(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L89">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddJsonLd_" data-uid="Connect.Razor.Blade.HtmlPage.AddJsonLd*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddJsonLd_System_String_" data-uid="Connect.Razor.Blade.HtmlPage.AddJsonLd(System.String)">AddJsonLd(String)</h4>
+  <div class="markdown level1 summary"><p>Add a JSON-LD header according <a href="https://developers.google.com/search/docs/guides/intro-structured-data">https://developers.google.com/search/docs/guides/intro-structured-data</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddJsonLd(string jsonString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jsonString</span></td>
+        <td><p>A prepared JSON string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddMeta_System_String_System_String_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddMeta(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L76">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddMeta_" data-uid="Connect.Razor.Blade.HtmlPage.AddMeta*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddMeta_System_String_System_String_" data-uid="Connect.Razor.Blade.HtmlPage.AddMeta(System.String,System.String)">AddMeta(String, String)</h4>
+  <div class="markdown level1 summary"><p>Add a standard meta header tag.
+If you need to add more attributes, use AddHeader(...) instead</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddMeta(string name, string content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">content</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddOpenGraph_System_String_System_String_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddOpenGraph(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L83">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddOpenGraph_" data-uid="Connect.Razor.Blade.HtmlPage.AddOpenGraph*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddOpenGraph_System_String_System_String_" data-uid="Connect.Razor.Blade.HtmlPage.AddOpenGraph(System.String,System.String)">AddOpenGraph(String, String)</h4>
+  <div class="markdown level1 summary"><p>Add an open-graph header according to <a href="http://ogp.me/">http://ogp.me/</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddOpenGraph(string property, string content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">property</span></td>
+        <td><p>Open Graph property name, like og:title or og:image:type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>value of this property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddToHead_Connect_Razor_Html_Tag_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddToHead(Connect.Razor.Html.Tag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L68">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddToHead_" data-uid="Connect.Razor.Blade.HtmlPage.AddToHead*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddToHead_Connect_Razor_Html_Tag_" data-uid="Connect.Razor.Blade.HtmlPage.AddToHead(Connect.Razor.Html.Tag)">AddToHead(Tag)</h4>
+  <div class="markdown level1 summary"><p>Add a tag object to the header of the page
+Will simply not do anything if an error occurs, like if the page object doesn&apos;t exist</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddToHead(Tag tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Connect.Razor.Html.Tag</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Connect_Razor_Blade_HtmlPage_AddToHead_Connect_Razor_Html_Tag__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New in 2.1</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_AddToHead_System_String_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.AddToHead(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L59">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_AddToHead_" data-uid="Connect.Razor.Blade.HtmlPage.AddToHead*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_AddToHead_System_String_" data-uid="Connect.Razor.Blade.HtmlPage.AddToHead(System.String)">AddToHead(String)</h4>
+  <div class="markdown level1 summary"><p>Add a tag to the header of the page
+Will simply not do anything if an error occurs, like if the page object doesn&apos;t exist</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddToHead(string tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage_GetPage.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage.GetPage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L22">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_HtmlPage_GetPage_" data-uid="Connect.Razor.Blade.HtmlPage.GetPage*"></a>
+  <h4 id="Connect_Razor_Blade_HtmlPage_GetPage" data-uid="Connect.Razor.Blade.HtmlPage.GetPage">GetPage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IHtmlPage GetPage()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Connect.Razor.Interfaces.IHtmlPage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_HtmlPage.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.HtmlPage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Connect.Razor.Dnn/Blade/HtmlPage.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

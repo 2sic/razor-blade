@@ -1,0 +1,743 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Text
+   | RazorBlade 2.03 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Text
+   | RazorBlade 2.03 ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logos/razor-blade-icon-50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Connect.Razor.Blade.Text">
+  
+  
+  <h1 id="Connect_Razor_Blade_Text" data-uid="Connect.Razor.Blade.Text" class="text-break">Class Text
+  </h1>
+  <div class="markdown level0 summary"><p>Many simple commands to work with Text inside HTML</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Text</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Connect.Razor.Blade.html">Connect.Razor.Blade</a></h6>
+  <h6><strong>Assembly</strong>: Connect.Razor.dll</h6>
+  <h5 id="Connect_Razor_Blade_Text_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Text</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_Crop_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.Crop(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/Crop.cs/#L16">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_Crop_" data-uid="Connect.Razor.Blade.Text.Crop*"></a>
+  <h4 id="Connect_Razor_Blade_Text_Crop_System_String_System_Int32_" data-uid="Connect.Razor.Blade.Text.Crop(System.String,System.Int32)">Crop(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Cut off a text at the best possible place with a max-length. 
+This will count html-entities like &amp;, &amp;nbsp; or umlauts as 1 character, 
+and will try to cut off between words if possible. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Crop(string value, int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>String to cut off. Can contain umlauts and html-entities, but should not contain html-tags as there are not treated properly.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>length to cut off at</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_Ellipsis_System_String_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.Ellipsis(System.String%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/Ellipsis.cs/#L16">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_Ellipsis_" data-uid="Connect.Razor.Blade.Text.Ellipsis*"></a>
+  <h4 id="Connect_Razor_Blade_Text_Ellipsis_System_String_System_Int32_System_String_" data-uid="Connect.Razor.Blade.Text.Ellipsis(System.String,System.Int32,System.String)">Ellipsis(String, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Crop a text if too long, add in that case, also add an ellipsis or a custom suffix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Ellipsis(string value, int length, string suffix = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">suffix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Connect_Razor_Blade_Text_Ellipsis_System_String_System_Int32_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If you don&apos;t need the suffix, use CropText(...) instead</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_First_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.First(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/First.cs/#L14">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_First_" data-uid="Connect.Razor.Blade.Text.First*"></a>
+  <h4 id="Connect_Razor_Blade_Text_First_System_String_System_String_System_Boolean_" data-uid="Connect.Razor.Blade.Text.First(System.String,System.String,System.Boolean)">First(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Try to return a value, but if it&apos;s empty, return the fallback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string First(string value1, string value2, bool handleHtmlWhitespaces = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">handleHtmlWhitespaces</span></td>
+        <td><p>if true (default) will treat html-whitespace as a space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_First_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.First(System.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/First.cs/#L35">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_First_" data-uid="Connect.Razor.Blade.Text.First*"></a>
+  <h4 id="Connect_Razor_Blade_Text_First_System_String_System_String_System_String_System_Boolean_" data-uid="Connect.Razor.Blade.Text.First(System.String,System.String,System.String,System.Boolean)">First(String, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Try to return a value, but if it&apos;s empty, return the next in line</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string First(string value1, string value2, string value3, bool handleHtmlWhitespaces = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">handleHtmlWhitespaces</span></td>
+        <td><p>if true (default) will treat html-whitespace as a space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_First_System_String_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.First(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/First.cs/#L47">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_First_" data-uid="Connect.Razor.Blade.Text.First*"></a>
+  <h4 id="Connect_Razor_Blade_Text_First_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="Connect.Razor.Blade.Text.First(System.String,System.String,System.String,System.String,System.Boolean)">First(String, String, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Try to return a value, but if it&apos;s empty, return the next in line</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string First(string value1, string value2, string value3, string value4, bool handleHtmlWhitespaces = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">handleHtmlWhitespaces</span></td>
+        <td><p>if true (default) will treat html-whitespace as a space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_First_System_String_System_String_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.First(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/First.cs/#L60">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_First_" data-uid="Connect.Razor.Blade.Text.First*"></a>
+  <h4 id="Connect_Razor_Blade_Text_First_System_String_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="Connect.Razor.Blade.Text.First(System.String,System.String,System.String,System.String,System.String,System.Boolean)">First(String, String, String, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Try to return a value, but if it&apos;s empty, return the next in line</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string First(string value1, string value2, string value3, string value4, string value5, bool handleHtmlWhitespaces = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">handleHtmlWhitespaces</span></td>
+        <td><p>if true (default) will treat html-whitespace as a space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_First_System_String___System_Boolean_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.First(System.String%5B%5D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/First.cs/#L23">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_First_" data-uid="Connect.Razor.Blade.Text.First*"></a>
+  <h4 id="Connect_Razor_Blade_Text_First_System_String___System_Boolean_" data-uid="Connect.Razor.Blade.Text.First(System.String[],System.Boolean)">First(String[], Boolean)</h4>
+  <div class="markdown level1 summary"><p>Try to return the first possible value, but if it&apos;s empty, return null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string First(string[] values, bool handleHtmlWhitespaces = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>array of values to check consecutively</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">handleHtmlWhitespaces</span></td>
+        <td><p>if true (default) will treat html-whitespace as a space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_Has_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.Has(System.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/Has.cs/#L14">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_Has_" data-uid="Connect.Razor.Blade.Text.Has*"></a>
+  <h4 id="Connect_Razor_Blade_Text_Has_System_Object_System_Boolean_" data-uid="Connect.Razor.Blade.Text.Has(System.Object,System.Boolean)">Has(Object, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Will check if a variable is a string, and it actually has contents (not null, empty or just spaces)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Has(object value, bool handleHtmlWhitespaces = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">handleHtmlWhitespaces</span></td>
+        <td><p>if true (default) will treat html-whitespace as a space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true, if it&apos;s a string with real content</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Connect_Razor_Blade_Text_Has_System_Object_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>will try to cast the object as string first, so it will be null if not a real string</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_Has_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.Has(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/Has.cs/#L25">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_Has_" data-uid="Connect.Razor.Blade.Text.Has*"></a>
+  <h4 id="Connect_Razor_Blade_Text_Has_System_String_System_Boolean_" data-uid="Connect.Razor.Blade.Text.Has(System.String,System.Boolean)">Has(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Will check if a string actually has contents (not null, empty or just spaces)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Has(string value, bool handleHtmlWhitespaces = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">handleHtmlWhitespaces</span></td>
+        <td><p>if true (default) will treat html-whitespace as a space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true, if the string has real contents</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text_Zip_System_String_.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text.Zip(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/Zip.cs/#L12">View Source</a>
+  </span>
+  <a id="Connect_Razor_Blade_Text_Zip_" data-uid="Connect.Razor.Blade.Text.Zip*"></a>
+  <h4 id="Connect_Razor_Blade_Text_Zip_System_String_" data-uid="Connect.Razor.Blade.Text.Zip(System.String)">Zip(String)</h4>
+  <div class="markdown level1 summary"><p>Will remove all new-lines from a string and merge multiple spaces together</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Zip(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DNN-Connect/razor-helpers/new/master/apiSpec/new?filename=Connect_Razor_Blade_Text.md&amp;value=---%0Auid%3A%20Connect.Razor.Blade.Text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/DNN-Connect/razor-helpers/blob/master/Razor.Blade/Blade/Text/Zip.cs/#L5" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
