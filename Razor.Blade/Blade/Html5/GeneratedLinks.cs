@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A A object with all the attributes available in that tag
     /// </returns>
-    public partial class A : Tag
+    public partial class A : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -143,7 +143,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Link object with all the attributes available in that tag
     /// </returns>
-    public partial class Link : Tag
+    public partial class Link : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -240,7 +240,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Nav object with all the attributes available in that tag
     /// </returns>
-    public partial class Nav : Tag
+    public partial class Nav : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>

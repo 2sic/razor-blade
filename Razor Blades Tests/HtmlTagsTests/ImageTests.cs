@@ -1,6 +1,8 @@
 ﻿using Connect.Razor.Blade;
 using Connect.Razor.Blade.Html5;
+using Connect.Razor.Blade.HtmlTags;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Tag = Connect.Razor.Blade.Tag;
 
 namespace Razor_Blades_Tests.HtmlTagsTests
 {
@@ -104,13 +106,7 @@ namespace Razor_Blades_Tests.HtmlTagsTests
                "<source srcset='other.webp' type='image/webp'>" +
                "<img src='https://azing.org'>" +
                "</picture>",
-                new Picture(new Tag[]
-                    {
-                        new PictureSource("something.jpg"), 
-                        new PictureSource("other.webp", type: "image/webp"), 
-                        new Img("https://azing.org")
-                    }
-                ));
+                new Picture(new PictureSource("something.jpg"), new PictureSource("other.webp", type: "image/webp"), new Img("https://azing.org")));
 
         }
 

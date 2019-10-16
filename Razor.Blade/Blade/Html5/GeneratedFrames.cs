@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Iframe object with all the attributes available in that tag
     /// </returns>
-    public partial class Iframe : Tag
+    public partial class Iframe : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>

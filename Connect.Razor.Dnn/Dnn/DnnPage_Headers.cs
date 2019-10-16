@@ -2,7 +2,9 @@
 using System.Web.UI.HtmlControls;
 using Connect.Razor.Blade;
 using Connect.Razor.Blade.Html5;
+using Connect.Razor.Blade.HtmlTags;
 using Connect.Razor.Internals;
+using Tag = Connect.Razor.Blade.HtmlTags.Tag;
 
 namespace Connect.Razor.Dnn
 {

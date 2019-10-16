@@ -15,7 +15,8 @@
           ]
         }
       ],
-      "dest": "obj/api"
+      "dest": "obj/api",
+      "filter": "filterConfig.yml"
     }
   ],
   "build": {
@@ -68,7 +69,7 @@
     "globalMetadata": {
       "_appTitle": "RazorBlade 2.03",
 
-      "_appLogoPath": "images/logos/razor-blade-logo.png",
+      "_appLogoPath": "images/logos/razor-blade-icon-50.png",
       "_enableNewTab": true,
       "_enableSearch": true
     }

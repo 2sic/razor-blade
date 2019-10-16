@@ -1,0 +1,11 @@
+apiRules:
+- exclude:
+    uidRegex: ^System\.Object
+- exclude:
+    uidRegex: ^Connect\.Razor\.Dnn
+- exclude: 
+    uidRegex: ^Connect\.Razor\.Blade\.HtmlTags
+- exclude: 
+    uidRegex: ^Connect\.Razor\.Interfaces
+- exclude: 
+    uidRegex: ^Connect\.Razor\.Internals

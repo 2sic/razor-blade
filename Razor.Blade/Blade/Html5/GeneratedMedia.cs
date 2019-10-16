@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Audio object with all the attributes available in that tag
     /// </returns>
-    public partial class Audio : Tag
+    public partial class Audio : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -149,7 +149,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Source object with all the attributes available in that tag
     /// </returns>
-    public partial class Source : Tag
+    public partial class Source : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -244,7 +244,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Track object with all the attributes available in that tag
     /// </returns>
-    public partial class Track : Tag
+    public partial class Track : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -337,7 +337,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Video object with all the attributes available in that tag
     /// </returns>
-    public partial class Video : Tag
+    public partial class Video : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>

@@ -53,6 +53,7 @@
     <None Include="docfx.json" />
     <None Include="index.md" />
     <None Include="packages.config" />
+    <None Include="filterConfig.yml" />
     <None Include="toc.yml" />
   </ItemGroup>
   <ItemGroup>

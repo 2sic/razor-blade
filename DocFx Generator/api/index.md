@@ -1,3 +1,8 @@
 
-# PLACEHOLDER
-TODO: Add .NET projects to *src* folder and run `docfx` to generate a **REAL** *API Documentation*!
+# RazorBlade API
+
+These is a technical API documentation for developers using [RazorBlade](https://razor-blade.net).
+
+What you probably want to do
+
+1. 

@@ -1,7 +1,11 @@
 ﻿using Connect.Razor.Blade.HtmlTags;
+using Connect.Razor.Internals.Mime;
 
 namespace Connect.Razor.Blade.Html5
 {
+    /// <summary>
+    /// Generate a standard HTML5 &lt;link&gt; tag with properties an icon needs
+    /// </summary>
     public class Icon : Link
     {
         internal const int SizeUndefined = 0;

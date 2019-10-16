@@ -37,7 +37,7 @@ namespace SourceCodeGenerator.Parts
     /// </returns>
     {(name == ContentParamName ? $@"/// <param name=""{ContentParamName}"">one or more objects (strings or tags) which will be inside the tag</param>" : "")}";
 
-        public string Class => $@"public partial class {ClassName} : Tag
+        public string Class => $@"public partial class {ClassName} : Connect.Razor.Blade.HtmlTags.Tag
     {{
     {Constructor}
     {ConstructorWithParams}

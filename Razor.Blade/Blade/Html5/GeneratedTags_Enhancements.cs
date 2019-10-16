@@ -49,7 +49,10 @@
         }
     }
 
-
+    /// <summary>
+    /// Generate a standard HTML5 &lt;source&gt; tag,
+    /// initialized with src and optionally type
+    /// </summary>
     public class MediaSource : Source
     {
         public MediaSource(string src, string type = null) : base()
@@ -60,6 +63,10 @@
     }
     public class PictureSource : Source
     {
+        /// <summary>
+        /// Generate a standard HTML5 &lt;source&gt; tag,
+        /// initialized with srcset and optionally media, sizes and type
+        /// </summary>
         public PictureSource(string srcset, string media = null, string sizes = null, string type = null) : base()
         {
             Srcset(srcset);

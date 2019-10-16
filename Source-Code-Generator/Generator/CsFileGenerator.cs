@@ -17,7 +17,7 @@ namespace SourceCodeGenerator.Generator
         /// </summary>
         public static string GeneratedTags = "GeneratedTags.cs";
 
-        public static string QuickAccessFile = "Tags.cs";
+        public static string QuickAccessFile = "Tag.cs";
 
 
         public static void GenerateFormatting()

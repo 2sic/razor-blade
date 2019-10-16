@@ -51,7 +51,7 @@ using Connect.Razor.Blade.Html5;
 namespace Connect.Razor.Blade
 {
 
-    public static partial class Tags
+    public static partial class Tag
     {
         {Contents}
     }

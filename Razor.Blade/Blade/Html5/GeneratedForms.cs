@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Button object with all the attributes available in that tag
     /// </returns>
-    public partial class Button : Tag
+    public partial class Button : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -197,7 +197,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Datalist object with all the attributes available in that tag
     /// </returns>
-    public partial class Datalist : Tag
+    public partial class Datalist : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -228,7 +228,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Fieldset object with all the attributes available in that tag
     /// </returns>
-    public partial class Fieldset : Tag
+    public partial class Fieldset : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -299,7 +299,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Form object with all the attributes available in that tag
     /// </returns>
-    public partial class Form : Tag
+    public partial class Form : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -425,7 +425,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Input object with all the attributes available in that tag
     /// </returns>
-    public partial class Input : Tag
+    public partial class Input : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -835,7 +835,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Label object with all the attributes available in that tag
     /// </returns>
-    public partial class Label : Tag
+    public partial class Label : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -888,7 +888,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Legend object with all the attributes available in that tag
     /// </returns>
-    public partial class Legend : Tag
+    public partial class Legend : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -919,7 +919,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Optgroup object with all the attributes available in that tag
     /// </returns>
-    public partial class Optgroup : Tag
+    public partial class Optgroup : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -979,7 +979,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Option object with all the attributes available in that tag
     /// </returns>
-    public partial class Option : Tag
+    public partial class Option : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -1068,7 +1068,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Output object with all the attributes available in that tag
     /// </returns>
-    public partial class Output : Tag
+    public partial class Output : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -1132,7 +1132,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Select object with all the attributes available in that tag
     /// </returns>
-    public partial class Select : Tag
+    public partial class Select : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -1268,7 +1268,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Textarea object with all the attributes available in that tag
     /// </returns>
-    public partial class Textarea : Tag
+    public partial class Textarea : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>

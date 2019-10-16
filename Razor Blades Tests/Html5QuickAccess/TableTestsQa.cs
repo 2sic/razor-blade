@@ -11,7 +11,7 @@ namespace Razor_Blades_Tests.Html5QuickAccess
         public void TableBasic()
         {
             Is("<table></table>", 
-                Tags.Table());
+                Tag.Table());
         }
 
         [TestMethod]
@@ -19,48 +19,48 @@ namespace Razor_Blades_Tests.Html5QuickAccess
         public void TableWithRowAnd2Cells()
         {
             Is("<table><tr><td></td><td></td></tr></table>",
-                Tags.Table(
-                    Tags.Tr(Tags.Td(), Tags.Td())
+                Tag.Table(
+                    Tag.Tr(Tag.Td(), Tag.Td())
                 )
             );
 
             Is("<table><tr><td></td><td></td></tr></table>",
-                Tags.Table(
-                    Tags.Tr(
-                        Tags.Td(),
-                        Tags.Td()
+                Tag.Table(
+                    Tag.Tr(
+                        Tag.Td(),
+                        Tag.Td()
                     )
                 )
             );
 
             Is("<table><tr><td></td><td></td></tr></table>",
-                Tags.Table()
-                    .Add(Tags.Tr(Tags.Td(), Tags.Td())));
+                Tag.Table()
+                    .Add(Tag.Tr(Tag.Td(), Tag.Td())));
             Is("<table><tr><td></td><td></td></tr></table>",
-                Tags.Table()
-                    .Add(Tags.Tr()
-                        .Add(Tags.Td(), Tags.Td())));
+                Tag.Table()
+                    .Add(Tag.Tr()
+                        .Add(Tag.Td(), Tag.Td())));
             Is("<table><tr><td></td><td></td></tr></table>",
-                Tags.Table()
-                    .Add(Tags.Tr()
-                        .Add(Tags.Td())
-                        .Add(Tags.Td())
+                Tag.Table()
+                    .Add(Tag.Tr()
+                        .Add(Tag.Td())
+                        .Add(Tag.Td())
                     )
             );
 
             // the same thing using wrap
             Is("<table><tr><td></td><td></td></tr></table>",
-                Tags.Table()
-                    .Wrap(Tags.Tr(Tags.Td(), Tags.Td())));
+                Tag.Table()
+                    .Wrap(Tag.Tr(Tag.Td(), Tag.Td())));
             Is("<table><tr><td></td><td></td></tr></table>",
-                Tags.Table()
-                    .Wrap(Tags.Tr()
-                        .Wrap(Tags.Td(), Tags.Td())));
+                Tag.Table()
+                    .Wrap(Tag.Tr()
+                        .Wrap(Tag.Td(), Tag.Td())));
             Is("<table><tr><td></td></tr></table>",
-                Tags.Table()
-                    .Wrap(Tags.Tr()
-                        .Wrap(Tags.Td())
-                        .Wrap(Tags.Td())
+                Tag.Table()
+                    .Wrap(Tag.Tr()
+                        .Wrap(Tag.Td())
+                        .Wrap(Tag.Td())
                     )
             );
 
@@ -70,24 +70,24 @@ namespace Razor_Blades_Tests.Html5QuickAccess
         public void TrChaining()
         {
             Is("<table><tr></tr></table>",
-                Tags.Table(Tags.Tr()));
+                Tag.Table(Tag.Tr()));
             Is("<table><tr></tr><tr></tr></table>",
-                Tags.Table(Tags.Tr(), Tags.Tr()));
+                Tag.Table(Tag.Tr(), Tag.Tr()));
             Is("<table><tr><td></td></tr></table>",
-                Tags.Table(
-                    Tags.Tr(
-                        Tags.Td()
+                Tag.Table(
+                    Tag.Tr(
+                        Tag.Td()
                     )
                 )
             );
 
             Is("<table><tr><td></td></tr><tr><td></td></tr></table>",
-                Tags.Table(
-                    Tags.Tr(
-                        Tags.Td()
+                Tag.Table(
+                    Tag.Tr(
+                        Tag.Td()
                     ),
-                    Tags.Tr(
-                        Tags.Td()
+                    Tag.Tr(
+                        Tag.Td()
                     )
                 )
 

@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Embed object with all the attributes available in that tag
     /// </returns>
-    public partial class Embed : Tag
+    public partial class Embed : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -113,7 +113,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Noscript object with all the attributes available in that tag
     /// </returns>
-    public partial class Noscript : Tag
+    public partial class Noscript : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -144,7 +144,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Object object with all the attributes available in that tag
     /// </returns>
-    public partial class Object : Tag
+    public partial class Object : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -266,7 +266,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Param object with all the attributes available in that tag
     /// </returns>
-    public partial class Param : Tag
+    public partial class Param : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -319,7 +319,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Script object with all the attributes available in that tag
     /// </returns>
-    public partial class Script : Tag
+    public partial class Script : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>

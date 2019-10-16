@@ -1,6 +1,11 @@
-﻿namespace Connect.Razor.Blade.Html5
+﻿using Connect.Razor.Blade.HtmlTags;
+
+namespace Connect.Razor.Blade.Html5
 {
-    public class Comment : Tag
+    /// <summary>
+    /// Generate a standard HTML5 &lt;-- --&gt; tag for adding comments
+    /// </summary>
+    public class Comment : HtmlTags.Tag
     {
         private const string Template = "<!-- {0} -->";
 

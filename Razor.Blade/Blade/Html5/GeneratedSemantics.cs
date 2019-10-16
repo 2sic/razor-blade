@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Article object with all the attributes available in that tag
     /// </returns>
-    public partial class Article : Tag
+    public partial class Article : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -55,7 +55,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Aside object with all the attributes available in that tag
     /// </returns>
-    public partial class Aside : Tag
+    public partial class Aside : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -86,7 +86,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Data object with all the attributes available in that tag
     /// </returns>
-    public partial class Data : Tag
+    public partial class Data : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -135,7 +135,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Details object with all the attributes available in that tag
     /// </returns>
-    public partial class Details : Tag
+    public partial class Details : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -184,7 +184,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Dialog object with all the attributes available in that tag
     /// </returns>
-    public partial class Dialog : Tag
+    public partial class Dialog : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -233,7 +233,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Div object with all the attributes available in that tag
     /// </returns>
-    public partial class Div : Tag
+    public partial class Div : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -264,7 +264,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Footer object with all the attributes available in that tag
     /// </returns>
-    public partial class Footer : Tag
+    public partial class Footer : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -295,7 +295,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Header object with all the attributes available in that tag
     /// </returns>
-    public partial class Header : Tag
+    public partial class Header : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -326,7 +326,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Main object with all the attributes available in that tag
     /// </returns>
-    public partial class Main : Tag
+    public partial class Main : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -357,7 +357,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Section object with all the attributes available in that tag
     /// </returns>
-    public partial class Section : Tag
+    public partial class Section : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -388,7 +388,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Span object with all the attributes available in that tag
     /// </returns>
-    public partial class Span : Tag
+    public partial class Span : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -419,7 +419,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Style object with all the attributes available in that tag
     /// </returns>
-    public partial class Style : Tag
+    public partial class Style : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -472,7 +472,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Summary object with all the attributes available in that tag
     /// </returns>
-    public partial class Summary : Tag
+    public partial class Summary : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>

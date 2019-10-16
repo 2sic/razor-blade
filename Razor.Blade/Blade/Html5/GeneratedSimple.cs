@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Br object with all the attributes available in that tag
     /// </returns>
-    public partial class Br : Tag
+    public partial class Br : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -55,7 +55,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Dd object with all the attributes available in that tag
     /// </returns>
-    public partial class Dd : Tag
+    public partial class Dd : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -86,7 +86,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Dl object with all the attributes available in that tag
     /// </returns>
-    public partial class Dl : Tag
+    public partial class Dl : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -117,7 +117,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Dt object with all the attributes available in that tag
     /// </returns>
-    public partial class Dt : Tag
+    public partial class Dt : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -148,7 +148,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A H1 object with all the attributes available in that tag
     /// </returns>
-    public partial class H1 : Tag
+    public partial class H1 : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -179,7 +179,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A H2 object with all the attributes available in that tag
     /// </returns>
-    public partial class H2 : Tag
+    public partial class H2 : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -210,7 +210,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A H3 object with all the attributes available in that tag
     /// </returns>
-    public partial class H3 : Tag
+    public partial class H3 : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -241,7 +241,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A H4 object with all the attributes available in that tag
     /// </returns>
-    public partial class H4 : Tag
+    public partial class H4 : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -272,7 +272,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A H5 object with all the attributes available in that tag
     /// </returns>
-    public partial class H5 : Tag
+    public partial class H5 : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -303,7 +303,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A H6 object with all the attributes available in that tag
     /// </returns>
-    public partial class H6 : Tag
+    public partial class H6 : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -334,7 +334,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Hr object with all the attributes available in that tag
     /// </returns>
-    public partial class Hr : Tag
+    public partial class Hr : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -365,7 +365,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Li object with all the attributes available in that tag
     /// </returns>
-    public partial class Li : Tag
+    public partial class Li : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -396,7 +396,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Ol object with all the attributes available in that tag
     /// </returns>
-    public partial class Ol : Tag
+    public partial class Ol : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -427,7 +427,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A P object with all the attributes available in that tag
     /// </returns>
-    public partial class P : Tag
+    public partial class P : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -458,7 +458,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Ul object with all the attributes available in that tag
     /// </returns>
-    public partial class Ul : Tag
+    public partial class Ul : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -489,7 +489,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Wbr object with all the attributes available in that tag
     /// </returns>
-    public partial class Wbr : Tag
+    public partial class Wbr : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>

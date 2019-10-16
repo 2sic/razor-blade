@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Connect.Razor.Blade.HtmlTags;
 using Connect.Razor.Dnn;
 using Connect.Razor.Interfaces;
 using Connect.Razor.Internals;
@@ -8,7 +9,7 @@ namespace Connect.Razor.Blade
 {
     /// <summary>
     /// Access the surrounding page and read/modify some properties, 
-    /// + add various kinds of headers
+    /// and add various kinds of headers to the &lt;head&gt; of the current page.
     /// </summary>
     /// <remarks>
     /// It's important that the commands on this class are the same as in the IHtmlPage,
@@ -64,7 +65,7 @@ namespace Connect.Razor.Blade
         /// </summary>
         /// <param name="tag"></param>
         /// <remarks>New in 2.1</remarks>
-        public static void AddToHead(Tag tag) => GetPage().AddToHead(tag);
+        public static void AddToHead(HtmlTags.Tag tag) => GetPage().AddToHead(tag);
 
         /// <summary>
         /// Add a standard meta header tag.

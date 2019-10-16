@@ -4,7 +4,7 @@ using Connect.Razor.Blade.HtmlTags;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 18:47
+// Created 16.10.2019 20:27
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Area object with all the attributes available in that tag
     /// </returns>
-    public partial class Area : Tag
+    public partial class Area : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -55,7 +55,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Canvas object with all the attributes available in that tag
     /// </returns>
-    public partial class Canvas : Tag
+    public partial class Canvas : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -122,7 +122,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Img object with all the attributes available in that tag
     /// </returns>
-    public partial class Img : Tag
+    public partial class Img : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -275,7 +275,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Map object with all the attributes available in that tag
     /// </returns>
-    public partial class Map : Tag
+    public partial class Map : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -317,7 +317,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Picture object with all the attributes available in that tag
     /// </returns>
-    public partial class Picture : Tag
+    public partial class Picture : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
@@ -348,7 +348,7 @@ namespace Connect.Razor.Blade.Html5
     /// <returns>
     /// A Svg object with all the attributes available in that tag
     /// </returns>
-    public partial class Svg : Tag
+    public partial class Svg : Connect.Razor.Blade.HtmlTags.Tag
     {
     
     /// <summary>
