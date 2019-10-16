@@ -4,9 +4,10 @@
       "src": [
         {
           "files": [
-            "*.csproj"
+            "Razor.Blade/*.csproj",
+            "Connect.Razor.Dnn/*.csproj"
           ],
-          "cwd": "../Razor.Blade",
+          "cwd": "..",
           "exclude": [
             "**/obj/**",
             "**/bin/**",
@@ -63,6 +64,13 @@
     "dest": "_site",
     "template": [
       "default"
-    ]
+    ],
+    "globalMetadata": {
+      "_appTitle": "RazorBlade 2.03",
+
+      "_appLogoPath": "images/logos/razor-blade-logo.png",
+      "_enableNewTab": true,
+      "_enableSearch": true
+    }
   }
 }
