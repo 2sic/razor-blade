@@ -12,7 +12,7 @@ _return to [overview](https://github.com/DNN-Connect/razor-blade)_
 Building valid HTML in code is tricky, especially when you have attributes containing dangerous characters like `'` and `"`, which is common both in JSON attributes as well as when you need attributes based on content added by editors. So we created an extensive API to generate safe html and encode things optimally - this is what this is for. Here's a basic example:
 
 ```razor
-@using Connect.Razor.Blade;
+@using ToSic.Razor.Blade;
 @{
   var box = new Div().Id("wrapper").Class("box");
 }

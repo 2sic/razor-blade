@@ -23,3 +23,63 @@ These docs are meant for programmers using [RazorBlade](https://github.com/DNN-C
 
 1. We have an extensive [tutorial on 2sxc for using RazorBlade](https://2sxc.org/dnn-tutorials/en/razor/blade/home)
 1. We also have many [blog posts on RazorBlade](https://2sxc.org/en/blog/tag/razor-blade)
+
+## What is RazorBlade 3?
+
+A library of common functions for Razor, to lighten Razor templates and make work easier. Some examples:
+
+_You need to change the page title and some headers from a razor template:_
+
+```razor
+@using ToSic.Razor.Blade;
+HtmlPage.Title = "Title changed using Razor Blade! original";
+HtmlPage.Description = "Learn to use Razor Blade " + HtmlPage.Description;
+HtmlPage.Keywords = "Tutorial, Razor, Blade" + HtmlPage.Keywords;
+HtmlPage.AddMeta("somename", "somevalue");
+HtmlPage.AddIcon("iconfile.png");
+```
+
+_You need the first 100 characters followed by an ellipsis (if truncated), but umlauts like `&uuml;` will mess up your count or might even be cut off. This is automatically handled by:_
+
+```razor
+  @* just cut it off at the visible character count, not splitting words *@
+  @Text.Crop(someText, 100)
+
+  @* truncate a text and if necessary, add ellipsis character *@
+  @Text.Ellipsis(longText, 100)
+
+  @* now the same thing, with text having html-tags *@
+  @Text.Ellipsis(Tags.Strip(longText), 100)
+```
+
+_You need a value, but if it's empty (null, spaces, line-breaks, `&nbsp;` etc.), you need another one:_
+
+```razor
+  @* Do this *@
+  @Text.First(firstName, "nothing found");
+
+  @* instead of this *@
+  @if(String.IsNullOrWhiteSpace(firstName as string)) {
+    @"nothing found"
+  } else {
+    @firstName
+  }
+```
+
+_Note that HTML whitespace like `&nbsp;` will also be treated as empty, unless you add `false` as a last parameter. But RazorBlade does more than just skip empty texts, here some more examples:_
+
+```razor
+  @* First non-empty of many possible values *@
+  @Text.First(nameFromDb, nameFromProfile, defaultNameForThisCountry, "unknown")
+
+  @* remove html from a wysiwyg-string *@
+  @Tags.Strip(formattedText)
+
+  @* the same with a custom ending *@
+  @Text.Ellipsis(longText, 100, "...more")
+
+  @* an it won't cut off in the middle of &auml; *@
+  @Text.Ellipsis("Visit M&uuml;nchen", 10)
+
+```
+

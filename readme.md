@@ -7,7 +7,7 @@ A library of common functions for Razor, to lighten Razor templates and make wor
 _You need to change the page title and some headers from a razor template:_
 
 ```razor
-@using Connect.Razor.Blade;
+@using ToSic.Razor.Blade;
 HtmlPage.Title = "Title changed using Razor Blade! original";
 HtmlPage.Description = "Learn to use Razor Blade " + HtmlPage.Description;
 HtmlPage.Keywords = "Tutorial, Razor, Blade" + HtmlPage.Keywords;
@@ -61,12 +61,12 @@ _Note that HTML whitespace like `&nbsp;` will also be treated as empty, unless y
 
 ## Using Razor Blade
 
-You can use **Razor Blade** with any asp.net project, just by including the DLLs, or if you're using DNN, you can install the extension from the [releases on Github](https://github.com/DNN-Connect/razor-blade/releases). Note that if you are have [2sxc](https://github.com/2sic/2sxc) 9.40+ installed, it will automatically also install Razor Blade.
+You can use **Razor Blade** with any asp.net project, just by including the DLLs, or if you're using DNN, you can install the extension from the [releases on Github](https://github.com/2sic/razor-blade/releases). Note that if you are have [2sxc](https://github.com/2sic/2sxc) 10.9+ installed, it will automatically also install RazorBlade 3.
 
 In your c# code, add the following line to then have access to all the commands:
 
 ```razor
-@using Connect.Razor.Blade;
+@using ToSic.Razor.Blade;
 ```
 
 We have also created a [Razor Blade tutorial app](https://github.com/DNN-Connect/razor-blade-tutorial-app).

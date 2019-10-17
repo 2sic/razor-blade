@@ -78,7 +78,7 @@ will render the close-tag to html. Implements IHtmlString and will not be encode
 
 
 ```razor
-@using Connect.Razor.Blade;
+@using ToSic.Razor.Blade;
 @Tags.Tag("br")
 @Tags.Tag("div").Wrap("this is my message")
 @{

@@ -13,11 +13,11 @@ To keep the naming convention stable, we've added this guide regarding conventio
 
 We want to be sure that this is super easy to use, but that as the library grows, we can "fix" mistakes made in previous versions. For example, assume we called a method `ToDynamic(...)` and later found out that this is confusing, and wanted to rename it to `DynamicDictionary(...)`. Within a short time we would have a lot of confusing commands and names, or otherwise updates would break something. So the basic idea is as follows:
 
-1. The initial release is in the Namespace `Connect.Razor.Blade` with static classes like `Text` or `Tags`. When using this, a developer will have a using-statement `@using Connect.Razor.Blade;` and just write `@Tags.Strip(...)`.
+1. The initial release is in the Namespace `ToSic.Razor.Blade` with static classes like `Text` or `Tags`. When using this, a developer will have a using-statement `@using ToSic.Razor.Blade;` and just write `@Tags.Strip(...)`.
 
 1. New commands etc. would be added, enhanced and if everything works well, we'll stay on V1 forever.
 
-1. If one day the inconsistencies become too confusing, we'll create a `Connect.Razor.Blade2` with newer, cleaned up command names.
+1. If one day the inconsistencies become too confusing, we'll create a `ToSic.Razor.Blade4` with newer, cleaned up command names.
 
 1. This setup should allow us deploy multiple APIs side-by-side and grow new features, without breaking old stuff.
 
