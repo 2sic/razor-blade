@@ -51,11 +51,20 @@ namespace Connect.Razor.Html5
         }
     }
 
+
+    //public partial class Source
+    //{
+    //    public Source SrcSet(string url)
+    //    {
+    //        return this;
+    //    }
+    //}
+
     /// <summary>
     /// Generate a standard HTML5 &lt;source&gt; tag,
     /// initialized with src and optionally type
     /// </summary>
-    public class MediaSource : Source
+    internal class MediaSource : Source
     {
         internal MediaSource(string src, string type = null) : base()
         {
@@ -63,7 +72,7 @@ namespace Connect.Razor.Html5
             if (type != null) Type(type);
         }
     }
-    public class PictureSource : Source
+    internal class PictureSource : Source
     {
         /// <summary>
         /// Generate a standard HTML5 &lt;source&gt; tag,

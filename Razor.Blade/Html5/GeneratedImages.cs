@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 19:25
+// Created 17.10.2019 20:47
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -210,11 +210,10 @@ namespace Connect.Razor.Html5
 
     /// <summary>
     /// Set the src attribute on the &lt;img&gt; tag
+    /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
-    /// <param name="value">what should be in src='...'.
-    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Src(string value) => this.Attr("src", value);
+        public Img Src(string value) => this.AttrUrl("src", value);
 
 
 
@@ -236,7 +235,7 @@ namespace Connect.Razor.Html5
     /// <param name="name">image name</param>
     /// <param name="multiplier">what the images is for - numbers below 8 are used for resolution densities, larger numbers for pixel widths</param>  
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Srcset(string name, int multiplier) => Srcset(name + " " + multiplier + (multiplier > 8 ? "w" : "x"));
+        public Img Srcset(string name, int multiplier) => Srcset(UriEncode(name) + " " + multiplier + (multiplier > 8 ? "w" : "x"));
 
 
     /// <summary>

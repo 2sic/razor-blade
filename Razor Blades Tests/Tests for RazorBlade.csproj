@@ -57,7 +57,7 @@
     <Compile Include="Html5QuickAccess\TableTestsQa.cs" />
     <Compile Include="HtmlTagsTests\TableTests.cs" />
     <Compile Include="HtmlTagsTests\MediaTests.cs" />
-    <Compile Include="HtmlTagsTests\ImageTests.cs" />
+    <Compile Include="HtmlTagsTests\ImgTests.cs" />
     <Compile Include="HtmlTagsTests\Headings.cs" />
     <Compile Include="HtmlTagsTests\FrameTests.cs" />
     <Compile Include="HtmlTagsTests\Script_JsonLdTests.cs" />
@@ -68,6 +68,7 @@
     <Compile Include="HtmlTagsTests\IconTests\MimeTypes.cs" />
     <Compile Include="HtmlTagsTests\IconTests\Icons.cs" />
     <Compile Include="HtmlTagsTests\IconTests\IconSets.cs" />
+    <Compile Include="InternalTests\UriEncoding.cs" />
     <Compile Include="TagBuilderTests\HtmlEncode.cs" />
     <Compile Include="TagBuilderTests\TagOpenClose.cs" />
     <Compile Include="TagBuilderTests\TagBuilderTests.cs" />

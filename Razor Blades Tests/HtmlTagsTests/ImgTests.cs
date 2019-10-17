@@ -1,23 +1,40 @@
-﻿using Connect.Razor.Html5;
+﻿using Connect.Razor.Blade;
+using Connect.Razor.Html5;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.HtmlTagsTests
 {
     [TestClass]
-    public class ImageTests: TagTestBase
+    public class ImgTests: TagTestBase
     {
+
         [TestMethod]
-        // ReSharper disable once InconsistentNaming
         public void Img()
         {
-            Is("<img>", 
-                new Img());
-            Is("<img src='https://azing.org'>", 
-                new Img("https://azing.org"));
-            Is("<img src='https://azing.org'>", 
-                new Img().Src("https://azing.org"));
-
+            Is("<img src='abc.jpg'>", Tag.Img().Src("abc.jpg"));
         }
+
+
+        [TestMethod]
+        // ReSharper disable once InconsistentNaming
+        public void Img2()
+        {
+            Is("<img>", new Img());
+            Is("<img src='https://azing.org'>", new Img("https://azing.org"));
+            Is("<img src='https://azing.org'>", new Img().Src("https://azing.org"));
+        }
+
+        [TestMethod]
+        public void ImgWithSpace() 
+            => Is("<img src='abc%20def.jpg'>", Tag.Img().Src("abc def.jpg"));
+
+        [TestMethod]
+        public void ImgWithUmlaut() 
+            => Is("<img src='L%C3%A9onie%20M%C3%BCller.jpg'>", Tag.Img().Src("Léonie Müller.jpg"));
+
+        [TestMethod]
+        public void ImgWithUmlautAndResizer() 
+            => Is("<img src='L%C3%A9onie%20M%C3%BCller.jpg?w=17'>", Tag.Img().Src("Léonie Müller.jpg?w=17"));
 
 
         [TestMethod]
@@ -75,6 +92,17 @@ namespace Razor_Blades_Tests.HtmlTagsTests
                     .Srcset( "xyz.jpg?w=400", 100));
         }
 
+        [TestMethod]
+        public void ImgSrcSetUmlautsX()
+        {
+            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 2x'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17", 2));
+        }
+
+        [TestMethod]
+        public void ImgSrcSetUmlautsNoXw()
+        {
+            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17"));
+        }
 
         [TestMethod]
         public void NoDuplicateAttributes()

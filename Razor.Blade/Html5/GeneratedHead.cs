@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 19:25
+// Created 17.10.2019 20:47
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -50,11 +50,10 @@ namespace Connect.Razor.Html5
     
     /// <summary>
     /// Set the href attribute on the &lt;base&gt; tag
+    /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
-    /// <param name="value">what should be in href='...'.
-    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Base object to enable fluid command chaining</returns>
-        public Base Href(string value) => this.Attr("href", value);
+        public Base Href(string value) => this.AttrUrl("href", value);
 
 
 

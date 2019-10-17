@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Connect.Razor.Html;
 
 namespace Connect.Razor.Html
 {
@@ -35,7 +34,7 @@ namespace Connect.Razor.Html
         /// </summary>
         public AttributeOptions Options;
 
-        public void Add(string name, object value = null, /*bool replace = false,*/ string appendSeparator = " ")
+        public void Add(string name, object value = null, string appendSeparator = null)
         {
             // bad entry, skip
             if (string.IsNullOrEmpty(name)) return;
@@ -59,6 +58,9 @@ namespace Connect.Razor.Html
             else
                 ReplaceOrAppendValue(attrib, value, replace, appendSeparator);
         }
+
+        public void AddUrl(string name, object value = null, string appendSeparator = null) 
+            => Add(name, Tag.UriEncode(value?.ToString()), appendSeparator);
 
         private static void ReplaceOrAppendValue(AttributeBase attrib, object value, bool replace, string separator)
         {

@@ -26,6 +26,22 @@ namespace Connect.Razor.Blade
 
 
         /// <summary>
+        /// Quickly add a URL attribute which usually needs encoding
+        /// it always returns the tag itself again, allowing chaining of multiple add-calls
+        /// </summary>
+        /// <param name="tag">the parent tag</param>
+        /// <param name="name">the attribute name, or a complete value like "name='value'"</param>
+        /// <param name="value">optional value - if the attribute already exists, it will be appended</param>
+        /// <param name="appendSeparator">attribute appendSeparator in case the value is appended</param>
+        /// <returns></returns>
+        internal static T AttrUrl<T>(this T tag, string name, object value = null, string appendSeparator = null)
+            where T : Html.Tag
+        {
+            tag.TagAttributes.AddUrl(name, value, appendSeparator);
+            return tag;
+        }
+
+        /// <summary>
         /// ID - set multiple times always overwrites previous ID
         /// </summary>
         public static T Id<T>(this T tag, string id) where T: Html.Tag

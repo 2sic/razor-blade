@@ -31,7 +31,11 @@ namespace SourceCodeGenerator.Parts
             var valueType = Type;
             var allMethods = new[]
             {
-                MethodString(tag),
+                // url attributes have a different inner call to use
+                //IsUrlAttribute() 
+                //    ? CodeForUrlAttribute(tag, valueType)
+                    // : 
+                    MethodString(tag),
                 MethodTyped(tag, valueType), // optional second signature with a int-type or something
                 CodeForBooleanAttribute(tag), 
                 CodeForSrcSetAttribute(tag),
@@ -43,12 +47,12 @@ namespace SourceCodeGenerator.Parts
         private string Method(TagCodeGenerator tag, string valueType) => 
             $@"
     /// <summary>
-    /// Set the {Key} attribute on the &lt;{tag.TagName}&gt; tag
+    /// Set the {Key} attribute on the &lt;{tag.TagName}&gt; tag {CommentForPreprocessing}
     /// </summary>
     /// <param name=""value"">what should be in {Key}='...'.
     /// {SeparatorComment()}</param>
     /// <returns>a {tag.ClassName} object to enable fluid command chaining</returns>
-    {Method(tag.ClassName)}({valueType} value) => this.Attr(""{Key}"", value{GetSeparator()});";
+    {Method(tag.ClassName)}({valueType} value) => this.Attr(""{Key}"", {ValuePreprocessor("value")}{GetSeparator()});";
 
 
         private string MethodString(TagCodeGenerator tag) => Method(tag, DefaultType);
@@ -57,6 +61,7 @@ namespace SourceCodeGenerator.Parts
             type == DefaultType 
                 ? "" 
                 : Method(tag, type);
+
     }
 
     // todo: maybe add enumerated attributes like 
