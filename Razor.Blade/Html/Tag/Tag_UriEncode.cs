@@ -40,10 +40,11 @@ namespace Connect.Razor.Html
             string CleanASrcSetLine(string line)
             {
                 var matches = Regex.Matches(line, @"^(.*)(\s\d+[xw])$");
-                if (matches.Count == 0) return UriEncode(line);
+                // we expect 3 hits, #0 is everything, #1 the first hit and #2 the resolution
+                if (matches.Count == 0 || matches[0].Groups.Count != 3) return UriEncode(line);
 
-                var url = matches[0].Value;
-                var ext = matches[1].Value;
+                var url = matches[0].Groups[1].Value;
+                var ext = matches[0].Groups[2].Value;
                 return UriEncode(url) + ext;
             }
         }

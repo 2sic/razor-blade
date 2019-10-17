@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -111,7 +111,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the open attribute on the &lt;data&gt; tag
+    /// Set the open attribute on the &lt;data&gt; tag 
     /// </summary>
     /// <param name="value">what should be in open='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -160,7 +160,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the open attribute on the &lt;details&gt; tag
+    /// Set the open attribute on the &lt;details&gt; tag 
     /// </summary>
     /// <param name="value">what should be in open='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -209,7 +209,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the open attribute on the &lt;dialog&gt; tag
+    /// Set the open attribute on the &lt;dialog&gt; tag 
     /// </summary>
     /// <param name="value">what should be in open='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -444,7 +444,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the media attribute on the &lt;style&gt; tag
+    /// Set the media attribute on the &lt;style&gt; tag 
     /// </summary>
     /// <param name="value">what should be in media='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -455,7 +455,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;style&gt; tag
+    /// Set the type attribute on the &lt;style&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>

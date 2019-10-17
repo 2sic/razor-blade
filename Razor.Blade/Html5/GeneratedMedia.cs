@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -49,7 +49,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the autoplay attribute on the &lt;audio&gt; tag
+    /// Set the autoplay attribute on the &lt;audio&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autoplay='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -67,7 +67,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the controls attribute on the &lt;audio&gt; tag
+    /// Set the controls attribute on the &lt;audio&gt; tag 
     /// </summary>
     /// <param name="value">what should be in controls='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -85,7 +85,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the loop attribute on the &lt;audio&gt; tag
+    /// Set the loop attribute on the &lt;audio&gt; tag 
     /// </summary>
     /// <param name="value">what should be in loop='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -103,7 +103,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the muted attribute on the &lt;audio&gt; tag
+    /// Set the muted attribute on the &lt;audio&gt; tag 
     /// </summary>
     /// <param name="value">what should be in muted='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -121,7 +121,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the preload attribute on the &lt;audio&gt; tag
+    /// Set the preload attribute on the &lt;audio&gt; tag 
     /// </summary>
     /// <param name="value">what should be in preload='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -132,11 +132,13 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;audio&gt; tag
+    /// Set the src attribute on the &lt;audio&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Audio object to enable fluid command chaining</returns>
-        public Audio Src(string value) => this.AttrUrl("src", value);
+        public Audio Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
@@ -173,37 +175,41 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the src attribute on the &lt;source&gt; tag
+    /// Set the src attribute on the &lt;source&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Source object to enable fluid command chaining</returns>
-        public Source Src(string value) => this.AttrUrl("src", value);
+        public Source Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the srcset attribute on the &lt;source&gt; tag
+    /// Set the srcset attribute on the &lt;source&gt; tag 
+    /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
     /// <param name="value">what should be in srcset='...'.
     /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Source object to enable fluid command chaining</returns>
-        public Source Srcset(string value) => this.Attr("srcset", value, ",");
+        public Source Srcset(string value) => this.Attr("srcset", UriEncodeSrcSet(value), ",");
 
 
 
 
     /// <summary>
-    /// Add another name/number pair to the srcset attribute on the &lt;source&gt; tag
+    /// Add another name/number pair to the srcset attribute on the &lt;source&gt; tag 
+    /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
     /// <param name="name">image name</param>
     /// <param name="multiplier">what the images is for - numbers below 8 are used for resolution densities, larger numbers for pixel widths</param>  
     /// <returns>a Source object to enable fluid command chaining</returns>
-        public Source Srcset(string name, int multiplier) => Srcset(UriEncode(name) + " " + multiplier + (multiplier > 8 ? "w" : "x"));
+        public Source Srcset(string name, int multiplier) => this.Attr("srcset", UriEncode(name) + " " + multiplier + (multiplier > 8 ? "w" : "x"), ",");
 
 
     /// <summary>
-    /// Set the media attribute on the &lt;source&gt; tag
+    /// Set the media attribute on the &lt;source&gt; tag 
     /// </summary>
     /// <param name="value">what should be in media='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -214,7 +220,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the sizes attribute on the &lt;source&gt; tag
+    /// Set the sizes attribute on the &lt;source&gt; tag 
     /// </summary>
     /// <param name="value">what should be in sizes='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -225,7 +231,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;source&gt; tag
+    /// Set the type attribute on the &lt;source&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -267,7 +273,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the default attribute on the &lt;track&gt; tag
+    /// Set the default attribute on the &lt;track&gt; tag 
     /// </summary>
     /// <param name="value">what should be in default='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -285,7 +291,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the kind attribute on the &lt;track&gt; tag
+    /// Set the kind attribute on the &lt;track&gt; tag 
     /// </summary>
     /// <param name="value">what should be in kind='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -296,7 +302,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the label attribute on the &lt;track&gt; tag
+    /// Set the label attribute on the &lt;track&gt; tag 
     /// </summary>
     /// <param name="value">what should be in label='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -307,17 +313,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;track&gt; tag
+    /// Set the src attribute on the &lt;track&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Track object to enable fluid command chaining</returns>
-        public Track Src(string value) => this.AttrUrl("src", value);
+        public Track Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the srclang attribute on the &lt;track&gt; tag
+    /// Set the srclang attribute on the &lt;track&gt; tag 
     /// </summary>
     /// <param name="value">what should be in srclang='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -359,7 +367,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the autoplay attribute on the &lt;video&gt; tag
+    /// Set the autoplay attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autoplay='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -377,7 +385,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the controls attribute on the &lt;video&gt; tag
+    /// Set the controls attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in controls='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -395,7 +403,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;video&gt; tag
+    /// Set the height attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -404,7 +412,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;video&gt; tag
+    /// Set the height attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -413,7 +421,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the loop attribute on the &lt;video&gt; tag
+    /// Set the loop attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in loop='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -431,7 +439,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the muted attribute on the &lt;video&gt; tag
+    /// Set the muted attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in muted='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -449,17 +457,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the poster attribute on the &lt;video&gt; tag
+    /// Set the poster attribute on the &lt;video&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in poster='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Video object to enable fluid command chaining</returns>
-        public Video Poster(string value) => this.AttrUrl("poster", value);
+        public Video Poster(string value) => this.Attr("poster", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the preload attribute on the &lt;video&gt; tag
+    /// Set the preload attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in preload='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -470,17 +480,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;video&gt; tag
+    /// Set the src attribute on the &lt;video&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Video object to enable fluid command chaining</returns>
-        public Video Src(string value) => this.AttrUrl("src", value);
+        public Video Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;video&gt; tag
+    /// Set the width attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -489,7 +501,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;video&gt; tag
+    /// Set the width attribute on the &lt;video&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>

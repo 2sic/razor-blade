@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -80,7 +80,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the height attribute on the &lt;canvas&gt; tag
+    /// Set the height attribute on the &lt;canvas&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -89,7 +89,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;canvas&gt; tag
+    /// Set the height attribute on the &lt;canvas&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -98,7 +98,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;canvas&gt; tag
+    /// Set the width attribute on the &lt;canvas&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -107,7 +107,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;canvas&gt; tag
+    /// Set the width attribute on the &lt;canvas&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -147,7 +147,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the alt attribute on the &lt;img&gt; tag
+    /// Set the alt attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in alt='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -158,7 +158,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the crossorigin attribute on the &lt;img&gt; tag
+    /// Set the crossorigin attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in crossorigin='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -169,7 +169,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;img&gt; tag
+    /// Set the height attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -178,7 +178,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;img&gt; tag
+    /// Set the height attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -187,7 +187,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the longdesc attribute on the &lt;img&gt; tag
+    /// Set the longdesc attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in longdesc='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -198,7 +198,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the sizes attribute on the &lt;img&gt; tag
+    /// Set the sizes attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in sizes='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -209,37 +209,41 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;img&gt; tag
+    /// Set the src attribute on the &lt;img&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Src(string value) => this.AttrUrl("src", value);
+        public Img Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the srcset attribute on the &lt;img&gt; tag
+    /// Set the srcset attribute on the &lt;img&gt; tag 
+    /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
     /// <param name="value">what should be in srcset='...'.
     /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Srcset(string value) => this.Attr("srcset", value, ",");
+        public Img Srcset(string value) => this.Attr("srcset", UriEncodeSrcSet(value), ",");
 
 
 
 
     /// <summary>
-    /// Add another name/number pair to the srcset attribute on the &lt;img&gt; tag
+    /// Add another name/number pair to the srcset attribute on the &lt;img&gt; tag 
+    /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
     /// <param name="name">image name</param>
     /// <param name="multiplier">what the images is for - numbers below 8 are used for resolution densities, larger numbers for pixel widths</param>  
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Srcset(string name, int multiplier) => Srcset(UriEncode(name) + " " + multiplier + (multiplier > 8 ? "w" : "x"));
+        public Img Srcset(string name, int multiplier) => this.Attr("srcset", UriEncode(name) + " " + multiplier + (multiplier > 8 ? "w" : "x"), ",");
 
 
     /// <summary>
-    /// Set the usemap attribute on the &lt;img&gt; tag
+    /// Set the usemap attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in usemap='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -250,7 +254,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;img&gt; tag
+    /// Set the width attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -259,7 +263,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;img&gt; tag
+    /// Set the width attribute on the &lt;img&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -299,7 +303,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the name attribute on the &lt;map&gt; tag
+    /// Set the name attribute on the &lt;map&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -372,7 +376,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the height attribute on the &lt;svg&gt; tag
+    /// Set the height attribute on the &lt;svg&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -381,7 +385,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;svg&gt; tag
+    /// Set the height attribute on the &lt;svg&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -390,7 +394,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;svg&gt; tag
+    /// Set the width attribute on the &lt;svg&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -399,7 +403,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;svg&gt; tag
+    /// Set the width attribute on the &lt;svg&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>

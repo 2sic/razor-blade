@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -173,7 +173,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the dir attribute on the &lt;bdo&gt; tag
+    /// Set the dir attribute on the &lt;bdo&gt; tag 
     /// </summary>
     /// <param name="value">what should be in dir='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -215,7 +215,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the cite attribute on the &lt;blockquote&gt; tag
+    /// Set the cite attribute on the &lt;blockquote&gt; tag 
     /// </summary>
     /// <param name="value">what should be in cite='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -319,7 +319,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the cite attribute on the &lt;del&gt; tag
+    /// Set the cite attribute on the &lt;del&gt; tag 
     /// </summary>
     /// <param name="value">what should be in cite='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -330,7 +330,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the datetime attribute on the &lt;del&gt; tag
+    /// Set the datetime attribute on the &lt;del&gt; tag 
     /// </summary>
     /// <param name="value">what should be in datetime='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -339,7 +339,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the datetime attribute on the &lt;del&gt; tag
+    /// Set the datetime attribute on the &lt;del&gt; tag 
     /// </summary>
     /// <param name="value">what should be in datetime='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -534,7 +534,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the cite attribute on the &lt;ins&gt; tag
+    /// Set the cite attribute on the &lt;ins&gt; tag 
     /// </summary>
     /// <param name="value">what should be in cite='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -545,7 +545,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the datetime attribute on the &lt;ins&gt; tag
+    /// Set the datetime attribute on the &lt;ins&gt; tag 
     /// </summary>
     /// <param name="value">what should be in datetime='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -554,7 +554,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the datetime attribute on the &lt;ins&gt; tag
+    /// Set the datetime attribute on the &lt;ins&gt; tag 
     /// </summary>
     /// <param name="value">what should be in datetime='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -656,7 +656,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the form attribute on the &lt;meter&gt; tag
+    /// Set the form attribute on the &lt;meter&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -667,7 +667,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the high attribute on the &lt;meter&gt; tag
+    /// Set the high attribute on the &lt;meter&gt; tag 
     /// </summary>
     /// <param name="value">what should be in high='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -678,7 +678,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the low attribute on the &lt;meter&gt; tag
+    /// Set the low attribute on the &lt;meter&gt; tag 
     /// </summary>
     /// <param name="value">what should be in low='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -689,7 +689,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the max attribute on the &lt;meter&gt; tag
+    /// Set the max attribute on the &lt;meter&gt; tag 
     /// </summary>
     /// <param name="value">what should be in max='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -700,7 +700,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the min attribute on the &lt;meter&gt; tag
+    /// Set the min attribute on the &lt;meter&gt; tag 
     /// </summary>
     /// <param name="value">what should be in min='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -711,7 +711,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the optimum attribute on the &lt;meter&gt; tag
+    /// Set the optimum attribute on the &lt;meter&gt; tag 
     /// </summary>
     /// <param name="value">what should be in optimum='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -722,7 +722,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the value attribute on the &lt;meter&gt; tag
+    /// Set the value attribute on the &lt;meter&gt; tag 
     /// </summary>
     /// <param name="value">what should be in value='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -795,7 +795,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the max attribute on the &lt;progress&gt; tag
+    /// Set the max attribute on the &lt;progress&gt; tag 
     /// </summary>
     /// <param name="value">what should be in max='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -806,7 +806,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the value attribute on the &lt;progress&gt; tag
+    /// Set the value attribute on the &lt;progress&gt; tag 
     /// </summary>
     /// <param name="value">what should be in value='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -848,7 +848,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the cite attribute on the &lt;q&gt; tag
+    /// Set the cite attribute on the &lt;q&gt; tag 
     /// </summary>
     /// <param name="value">what should be in cite='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1200,7 +1200,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the datetime attribute on the &lt;time&gt; tag
+    /// Set the datetime attribute on the &lt;time&gt; tag 
     /// </summary>
     /// <param name="value">what should be in datetime='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1209,7 +1209,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the datetime attribute on the &lt;time&gt; tag
+    /// Set the datetime attribute on the &lt;time&gt; tag 
     /// </summary>
     /// <param name="value">what should be in datetime='...'.
     /// If called multiple times, later values replace the previous value.</param>

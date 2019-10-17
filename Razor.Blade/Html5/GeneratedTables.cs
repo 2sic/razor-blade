@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -80,7 +80,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the span attribute on the &lt;col&gt; tag
+    /// Set the span attribute on the &lt;col&gt; tag 
     /// </summary>
     /// <param name="value">what should be in span='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -89,7 +89,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the span attribute on the &lt;col&gt; tag
+    /// Set the span attribute on the &lt;col&gt; tag 
     /// </summary>
     /// <param name="value">what should be in span='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -129,7 +129,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the span attribute on the &lt;colgroup&gt; tag
+    /// Set the span attribute on the &lt;colgroup&gt; tag 
     /// </summary>
     /// <param name="value">what should be in span='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -138,7 +138,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the span attribute on the &lt;colgroup&gt; tag
+    /// Set the span attribute on the &lt;colgroup&gt; tag 
     /// </summary>
     /// <param name="value">what should be in span='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -240,7 +240,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the colspan attribute on the &lt;td&gt; tag
+    /// Set the colspan attribute on the &lt;td&gt; tag 
     /// </summary>
     /// <param name="value">what should be in colspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -249,7 +249,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the colspan attribute on the &lt;td&gt; tag
+    /// Set the colspan attribute on the &lt;td&gt; tag 
     /// </summary>
     /// <param name="value">what should be in colspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -258,7 +258,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the headers attribute on the &lt;td&gt; tag
+    /// Set the headers attribute on the &lt;td&gt; tag 
     /// </summary>
     /// <param name="value">what should be in headers='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -269,7 +269,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the rowspan attribute on the &lt;td&gt; tag
+    /// Set the rowspan attribute on the &lt;td&gt; tag 
     /// </summary>
     /// <param name="value">what should be in rowspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -278,7 +278,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the rowspan attribute on the &lt;td&gt; tag
+    /// Set the rowspan attribute on the &lt;td&gt; tag 
     /// </summary>
     /// <param name="value">what should be in rowspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -349,7 +349,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the abbr attribute on the &lt;th&gt; tag
+    /// Set the abbr attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in abbr='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -360,7 +360,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the colspan attribute on the &lt;th&gt; tag
+    /// Set the colspan attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in colspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -369,7 +369,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the colspan attribute on the &lt;th&gt; tag
+    /// Set the colspan attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in colspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -378,7 +378,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the headers attribute on the &lt;th&gt; tag
+    /// Set the headers attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in headers='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -389,7 +389,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the rowspan attribute on the &lt;th&gt; tag
+    /// Set the rowspan attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in rowspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -398,7 +398,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the rowspan attribute on the &lt;th&gt; tag
+    /// Set the rowspan attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in rowspan='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -407,7 +407,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the scope attribute on the &lt;th&gt; tag
+    /// Set the scope attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in scope='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -418,7 +418,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the sorted attribute on the &lt;th&gt; tag
+    /// Set the sorted attribute on the &lt;th&gt; tag 
     /// </summary>
     /// <param name="value">what should be in sorted='...'.
     /// If called multiple times, later values replace the previous value.</param>

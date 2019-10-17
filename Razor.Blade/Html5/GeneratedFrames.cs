@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -49,7 +49,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the height attribute on the &lt;iframe&gt; tag
+    /// Set the height attribute on the &lt;iframe&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -58,7 +58,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;iframe&gt; tag
+    /// Set the height attribute on the &lt;iframe&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -67,7 +67,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;iframe&gt; tag
+    /// Set the name attribute on the &lt;iframe&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -78,7 +78,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the sandbox attribute on the &lt;iframe&gt; tag
+    /// Set the sandbox attribute on the &lt;iframe&gt; tag 
     /// </summary>
     /// <param name="value">what should be in sandbox='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -89,17 +89,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;iframe&gt; tag
+    /// Set the src attribute on the &lt;iframe&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Iframe object to enable fluid command chaining</returns>
-        public Iframe Src(string value) => this.AttrUrl("src", value);
+        public Iframe Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the srcdoc attribute on the &lt;iframe&gt; tag
+    /// Set the srcdoc attribute on the &lt;iframe&gt; tag 
     /// </summary>
     /// <param name="value">what should be in srcdoc='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -110,7 +112,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;iframe&gt; tag
+    /// Set the width attribute on the &lt;iframe&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -119,7 +121,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;iframe&gt; tag
+    /// Set the width attribute on the &lt;iframe&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>

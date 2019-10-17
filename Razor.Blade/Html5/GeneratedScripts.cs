@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -49,7 +49,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the height attribute on the &lt;embed&gt; tag
+    /// Set the height attribute on the &lt;embed&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -58,7 +58,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;embed&gt; tag
+    /// Set the height attribute on the &lt;embed&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -67,17 +67,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;embed&gt; tag
+    /// Set the src attribute on the &lt;embed&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Embed object to enable fluid command chaining</returns>
-        public Embed Src(string value) => this.AttrUrl("src", value);
+        public Embed Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;embed&gt; tag
+    /// Set the type attribute on the &lt;embed&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -88,7 +90,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;embed&gt; tag
+    /// Set the width attribute on the &lt;embed&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -97,7 +99,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;embed&gt; tag
+    /// Set the width attribute on the &lt;embed&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -168,7 +170,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the data attribute on the &lt;object&gt; tag
+    /// Set the data attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in data='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -179,7 +181,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;object&gt; tag
+    /// Set the form attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -190,7 +192,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;object&gt; tag
+    /// Set the height attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -199,7 +201,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;object&gt; tag
+    /// Set the height attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -208,7 +210,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;object&gt; tag
+    /// Set the name attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -219,7 +221,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;object&gt; tag
+    /// Set the type attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -230,7 +232,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the usemap attribute on the &lt;object&gt; tag
+    /// Set the usemap attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in usemap='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -241,7 +243,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;object&gt; tag
+    /// Set the width attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -250,7 +252,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;object&gt; tag
+    /// Set the width attribute on the &lt;object&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -290,7 +292,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the name attribute on the &lt;param&gt; tag
+    /// Set the name attribute on the &lt;param&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -301,7 +303,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the value attribute on the &lt;param&gt; tag
+    /// Set the value attribute on the &lt;param&gt; tag 
     /// </summary>
     /// <param name="value">what should be in value='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -343,7 +345,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the async attribute on the &lt;script&gt; tag
+    /// Set the async attribute on the &lt;script&gt; tag 
     /// </summary>
     /// <param name="value">what should be in async='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -361,7 +363,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the charset attribute on the &lt;script&gt; tag
+    /// Set the charset attribute on the &lt;script&gt; tag 
     /// </summary>
     /// <param name="value">what should be in charset='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -372,7 +374,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the defer attribute on the &lt;script&gt; tag
+    /// Set the defer attribute on the &lt;script&gt; tag 
     /// </summary>
     /// <param name="value">what should be in defer='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -390,17 +392,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;script&gt; tag
+    /// Set the src attribute on the &lt;script&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Script object to enable fluid command chaining</returns>
-        public Script Src(string value) => this.AttrUrl("src", value);
+        public Script Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;script&gt; tag
+    /// Set the type attribute on the &lt;script&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>

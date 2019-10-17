@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -49,7 +49,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the autofocus attribute on the &lt;button&gt; tag
+    /// Set the autofocus attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autofocus='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -67,7 +67,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the disabled attribute on the &lt;button&gt; tag
+    /// Set the disabled attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in disabled='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -85,7 +85,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;button&gt; tag
+    /// Set the form attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -96,7 +96,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formaction attribute on the &lt;button&gt; tag
+    /// Set the formaction attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formaction='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -107,7 +107,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formenctype attribute on the &lt;button&gt; tag
+    /// Set the formenctype attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formenctype='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -118,7 +118,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formmethod attribute on the &lt;button&gt; tag
+    /// Set the formmethod attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formmethod='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -129,7 +129,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formnovalidate attribute on the &lt;button&gt; tag
+    /// Set the formnovalidate attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formnovalidate='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -147,7 +147,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formtarget attribute on the &lt;button&gt; tag
+    /// Set the formtarget attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formtarget='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -158,7 +158,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;button&gt; tag
+    /// Set the name attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -169,7 +169,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;button&gt; tag
+    /// Set the type attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -180,7 +180,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the value attribute on the &lt;button&gt; tag
+    /// Set the value attribute on the &lt;button&gt; tag 
     /// </summary>
     /// <param name="value">what should be in value='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -253,7 +253,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the disabled attribute on the &lt;fieldset&gt; tag
+    /// Set the disabled attribute on the &lt;fieldset&gt; tag 
     /// </summary>
     /// <param name="value">what should be in disabled='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -271,7 +271,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;fieldset&gt; tag
+    /// Set the form attribute on the &lt;fieldset&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -282,7 +282,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;fieldset&gt; tag
+    /// Set the name attribute on the &lt;fieldset&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -324,7 +324,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the accept-charset attribute on the &lt;form&gt; tag
+    /// Set the accept-charset attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in accept-charset='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -335,7 +335,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the action attribute on the &lt;form&gt; tag
+    /// Set the action attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in action='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -346,7 +346,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the autocomplete attribute on the &lt;form&gt; tag
+    /// Set the autocomplete attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autocomplete='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -357,7 +357,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the enctype attribute on the &lt;form&gt; tag
+    /// Set the enctype attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in enctype='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -368,7 +368,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the method attribute on the &lt;form&gt; tag
+    /// Set the method attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in method='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -379,7 +379,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;form&gt; tag
+    /// Set the name attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -390,7 +390,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the novalidate attribute on the &lt;form&gt; tag
+    /// Set the novalidate attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in novalidate='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -408,7 +408,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the target attribute on the &lt;form&gt; tag
+    /// Set the target attribute on the &lt;form&gt; tag 
     /// </summary>
     /// <param name="value">what should be in target='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -450,7 +450,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the accept attribute on the &lt;input&gt; tag
+    /// Set the accept attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in accept='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -461,7 +461,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the alt attribute on the &lt;input&gt; tag
+    /// Set the alt attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in alt='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -472,7 +472,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the autocomplete attribute on the &lt;input&gt; tag
+    /// Set the autocomplete attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autocomplete='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -483,7 +483,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the autofocus attribute on the &lt;input&gt; tag
+    /// Set the autofocus attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autofocus='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -501,7 +501,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the checked attribute on the &lt;input&gt; tag
+    /// Set the checked attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in checked='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -519,7 +519,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the dirname attribute on the &lt;input&gt; tag
+    /// Set the dirname attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in dirname='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -530,7 +530,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the disabled attribute on the &lt;input&gt; tag
+    /// Set the disabled attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in disabled='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -548,7 +548,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;input&gt; tag
+    /// Set the form attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -559,7 +559,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formaction attribute on the &lt;input&gt; tag
+    /// Set the formaction attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formaction='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -570,7 +570,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formenctype attribute on the &lt;input&gt; tag
+    /// Set the formenctype attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formenctype='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -581,7 +581,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formmethod attribute on the &lt;input&gt; tag
+    /// Set the formmethod attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formmethod='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -592,7 +592,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formnovalidate attribute on the &lt;input&gt; tag
+    /// Set the formnovalidate attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formnovalidate='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -610,7 +610,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the formtarget attribute on the &lt;input&gt; tag
+    /// Set the formtarget attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in formtarget='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -621,7 +621,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the height attribute on the &lt;input&gt; tag
+    /// Set the height attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in height='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -632,7 +632,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the list attribute on the &lt;input&gt; tag
+    /// Set the list attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in list='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -643,7 +643,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the max attribute on the &lt;input&gt; tag
+    /// Set the max attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in max='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -654,7 +654,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the maxlength attribute on the &lt;input&gt; tag
+    /// Set the maxlength attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in maxlength='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -665,7 +665,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the min attribute on the &lt;input&gt; tag
+    /// Set the min attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in min='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -676,7 +676,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the multiple attribute on the &lt;input&gt; tag
+    /// Set the multiple attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in multiple='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -694,7 +694,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;input&gt; tag
+    /// Set the name attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -705,7 +705,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the pattern attribute on the &lt;input&gt; tag
+    /// Set the pattern attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in pattern='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -716,7 +716,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the placeholder attribute on the &lt;input&gt; tag
+    /// Set the placeholder attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in placeholder='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -727,7 +727,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the readonly attribute on the &lt;input&gt; tag
+    /// Set the readonly attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in readonly='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -745,7 +745,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the required attribute on the &lt;input&gt; tag
+    /// Set the required attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in required='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -763,7 +763,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the size attribute on the &lt;input&gt; tag
+    /// Set the size attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in size='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -774,17 +774,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the src attribute on the &lt;input&gt; tag
+    /// Set the src attribute on the &lt;input&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in src='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Input object to enable fluid command chaining</returns>
-        public Input Src(string value) => this.AttrUrl("src", value);
+        public Input Src(string value) => this.Attr("src", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the step attribute on the &lt;input&gt; tag
+    /// Set the step attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in step='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -795,7 +797,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;input&gt; tag
+    /// Set the type attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -806,7 +808,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the value attribute on the &lt;input&gt; tag
+    /// Set the value attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in value='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -817,7 +819,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the width attribute on the &lt;input&gt; tag
+    /// Set the width attribute on the &lt;input&gt; tag 
     /// </summary>
     /// <param name="value">what should be in width='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -859,7 +861,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the for attribute on the &lt;label&gt; tag
+    /// Set the for attribute on the &lt;label&gt; tag 
     /// </summary>
     /// <param name="value">what should be in for='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -870,7 +872,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;label&gt; tag
+    /// Set the form attribute on the &lt;label&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -943,7 +945,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the disabled attribute on the &lt;optgroup&gt; tag
+    /// Set the disabled attribute on the &lt;optgroup&gt; tag 
     /// </summary>
     /// <param name="value">what should be in disabled='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -961,7 +963,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the label attribute on the &lt;optgroup&gt; tag
+    /// Set the label attribute on the &lt;optgroup&gt; tag 
     /// </summary>
     /// <param name="value">what should be in label='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1003,7 +1005,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the disabled attribute on the &lt;option&gt; tag
+    /// Set the disabled attribute on the &lt;option&gt; tag 
     /// </summary>
     /// <param name="value">what should be in disabled='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1021,7 +1023,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the label attribute on the &lt;option&gt; tag
+    /// Set the label attribute on the &lt;option&gt; tag 
     /// </summary>
     /// <param name="value">what should be in label='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1032,7 +1034,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the selected attribute on the &lt;option&gt; tag
+    /// Set the selected attribute on the &lt;option&gt; tag 
     /// </summary>
     /// <param name="value">what should be in selected='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1050,7 +1052,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the value attribute on the &lt;option&gt; tag
+    /// Set the value attribute on the &lt;option&gt; tag 
     /// </summary>
     /// <param name="value">what should be in value='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1092,7 +1094,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the for attribute on the &lt;output&gt; tag
+    /// Set the for attribute on the &lt;output&gt; tag 
     /// </summary>
     /// <param name="value">what should be in for='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1103,7 +1105,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;output&gt; tag
+    /// Set the form attribute on the &lt;output&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1114,7 +1116,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;output&gt; tag
+    /// Set the name attribute on the &lt;output&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1156,7 +1158,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the autofocus attribute on the &lt;select&gt; tag
+    /// Set the autofocus attribute on the &lt;select&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autofocus='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1174,7 +1176,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the disabled attribute on the &lt;select&gt; tag
+    /// Set the disabled attribute on the &lt;select&gt; tag 
     /// </summary>
     /// <param name="value">what should be in disabled='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1192,7 +1194,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;select&gt; tag
+    /// Set the form attribute on the &lt;select&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1203,7 +1205,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the multiple attribute on the &lt;select&gt; tag
+    /// Set the multiple attribute on the &lt;select&gt; tag 
     /// </summary>
     /// <param name="value">what should be in multiple='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1221,7 +1223,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;select&gt; tag
+    /// Set the name attribute on the &lt;select&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1232,7 +1234,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the required attribute on the &lt;select&gt; tag
+    /// Set the required attribute on the &lt;select&gt; tag 
     /// </summary>
     /// <param name="value">what should be in required='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1250,7 +1252,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the size attribute on the &lt;select&gt; tag
+    /// Set the size attribute on the &lt;select&gt; tag 
     /// </summary>
     /// <param name="value">what should be in size='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1292,7 +1294,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the autofocus attribute on the &lt;textarea&gt; tag
+    /// Set the autofocus attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in autofocus='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1310,7 +1312,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the cols attribute on the &lt;textarea&gt; tag
+    /// Set the cols attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in cols='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1321,7 +1323,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the dirname attribute on the &lt;textarea&gt; tag
+    /// Set the dirname attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in dirname='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1332,7 +1334,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the disabled attribute on the &lt;textarea&gt; tag
+    /// Set the disabled attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in disabled='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1350,7 +1352,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the form attribute on the &lt;textarea&gt; tag
+    /// Set the form attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in form='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1361,7 +1363,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the maxlength attribute on the &lt;textarea&gt; tag
+    /// Set the maxlength attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in maxlength='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1372,7 +1374,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the name attribute on the &lt;textarea&gt; tag
+    /// Set the name attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in name='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1383,7 +1385,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the placeholder attribute on the &lt;textarea&gt; tag
+    /// Set the placeholder attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in placeholder='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1394,7 +1396,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the readonly attribute on the &lt;textarea&gt; tag
+    /// Set the readonly attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in readonly='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1412,7 +1414,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the required attribute on the &lt;textarea&gt; tag
+    /// Set the required attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in required='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1430,7 +1432,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the rows attribute on the &lt;textarea&gt; tag
+    /// Set the rows attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in rows='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -1441,7 +1443,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the wrap attribute on the &lt;textarea&gt; tag
+    /// Set the wrap attribute on the &lt;textarea&gt; tag 
     /// </summary>
     /// <param name="value">what should be in wrap='...'.
     /// If called multiple times, later values replace the previous value.</param>

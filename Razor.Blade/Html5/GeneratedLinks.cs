@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 20:47
+// Created 17.10.2019 21:32
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -49,7 +49,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the download attribute on the &lt;a&gt; tag
+    /// Set the download attribute on the &lt;a&gt; tag 
     /// </summary>
     /// <param name="value">what should be in download='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -60,17 +60,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the href attribute on the &lt;a&gt; tag
+    /// Set the href attribute on the &lt;a&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in href='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a A object to enable fluid command chaining</returns>
-        public A Href(string value) => this.AttrUrl("href", value);
+        public A Href(string value) => this.Attr("href", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the hreflang attribute on the &lt;a&gt; tag
+    /// Set the hreflang attribute on the &lt;a&gt; tag 
     /// </summary>
     /// <param name="value">what should be in hreflang='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -81,7 +83,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the media attribute on the &lt;a&gt; tag
+    /// Set the media attribute on the &lt;a&gt; tag 
     /// </summary>
     /// <param name="value">what should be in media='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -92,7 +94,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the ping attribute on the &lt;a&gt; tag
+    /// Set the ping attribute on the &lt;a&gt; tag 
     /// </summary>
     /// <param name="value">what should be in ping='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -103,7 +105,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the rel attribute on the &lt;a&gt; tag
+    /// Set the rel attribute on the &lt;a&gt; tag 
     /// </summary>
     /// <param name="value">what should be in rel='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -114,7 +116,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the target attribute on the &lt;a&gt; tag
+    /// Set the target attribute on the &lt;a&gt; tag 
     /// </summary>
     /// <param name="value">what should be in target='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -125,7 +127,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;a&gt; tag
+    /// Set the type attribute on the &lt;a&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -167,7 +169,7 @@ namespace Connect.Razor.Html5
     }
     
     /// <summary>
-    /// Set the crossorigin attribute on the &lt;link&gt; tag
+    /// Set the crossorigin attribute on the &lt;link&gt; tag 
     /// </summary>
     /// <param name="value">what should be in crossorigin='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -178,17 +180,19 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the href attribute on the &lt;link&gt; tag
+    /// Set the href attribute on the &lt;link&gt; tag 
     /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars
     /// </summary>
+    /// <param name="value">what should be in href='...'.
+    /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Link object to enable fluid command chaining</returns>
-        public Link Href(string value) => this.AttrUrl("href", value);
+        public Link Href(string value) => this.Attr("href", UriEncode(value));
 
 
 
 
     /// <summary>
-    /// Set the hreflang attribute on the &lt;link&gt; tag
+    /// Set the hreflang attribute on the &lt;link&gt; tag 
     /// </summary>
     /// <param name="value">what should be in hreflang='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -199,7 +203,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the media attribute on the &lt;link&gt; tag
+    /// Set the media attribute on the &lt;link&gt; tag 
     /// </summary>
     /// <param name="value">what should be in media='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -210,7 +214,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the rel attribute on the &lt;link&gt; tag
+    /// Set the rel attribute on the &lt;link&gt; tag 
     /// </summary>
     /// <param name="value">what should be in rel='...'.
     /// If called multiple times, later values replace the previous value.</param>
@@ -221,7 +225,7 @@ namespace Connect.Razor.Html5
 
 
     /// <summary>
-    /// Set the type attribute on the &lt;link&gt; tag
+    /// Set the type attribute on the &lt;link&gt; tag 
     /// </summary>
     /// <param name="value">what should be in type='...'.
     /// If called multiple times, later values replace the previous value.</param>
