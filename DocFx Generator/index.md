@@ -3,7 +3,7 @@
 
 # **API Docs** of _RazorBlade 3.0_
 
-These docs are meant for programmers using [RazorBlade](https://github.com/DNN-Connect/razor-blade). These will usually be people working with C# and Razor, MVC etc.
+These docs are meant for programmers using [RazorBlade](https://github.com/2sic/razor-blade). These will usually be people working with C# and Razor, MVC etc.
 
 ## What you're probably looking for
 

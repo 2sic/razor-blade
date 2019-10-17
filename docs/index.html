@@ -73,7 +73,7 @@
 
 <p><img src="images/logos/razor-blade-logo.png" width="100%"></p>
 <h1 id="api-docs-of-razorblade-30"><strong>API Docs</strong> of <em>RazorBlade 3.0</em></h1>
-<p>These docs are meant for programmers using <a href="https://github.com/DNN-Connect/razor-blade">RazorBlade</a>. These will usually be people working with C# and Razor, MVC etc.</p>
+<p>These docs are meant for programmers using <a href="https://github.com/2sic/razor-blade">RazorBlade</a>. These will usually be people working with C# and Razor, MVC etc.</p>
 <h2 id="what-youre-probably-looking-for">What you&#39;re probably looking for</h2>
 <ol>
 <li><a class="xref" href="api/ToSic.Razor.Blade.Text.html">APIs for <strong>Text</strong></a> with commands like<br> <code>Crop(...)</code>, <code>Ellipsis(...)</code>, <code>First(...)</code>, <code>Has(...)</code>, <code>Zip(...)</code></li>
@@ -94,7 +94,47 @@
 <li>We have an extensive <a href="https://2sxc.org/dnn-tutorials/en/razor/blade/home">tutorial on 2sxc for using RazorBlade</a></li>
 <li>We also have many <a href="https://2sxc.org/en/blog/tag/razor-blade">blog posts on RazorBlade</a></li>
 </ol>
-</article>
+<h2 id="what-is-razorblade-3">What is RazorBlade 3?</h2>
+<p>A library of common functions for Razor, to lighten Razor templates and make work easier. Some examples:</p>
+<p><em>You need to change the page title and some headers from a razor template:</em></p>
+<pre><code class="lang-razor">@using ToSic.Razor.Blade;
+HtmlPage.Title = &quot;Title changed using Razor Blade! original&quot;;
+HtmlPage.Description = &quot;Learn to use Razor Blade &quot; + HtmlPage.Description;
+HtmlPage.Keywords = &quot;Tutorial, Razor, Blade&quot; + HtmlPage.Keywords;
+HtmlPage.AddMeta(&quot;somename&quot;, &quot;somevalue&quot;);
+HtmlPage.AddIcon(&quot;iconfile.png&quot;);
+</code></pre><p><em>You need the first 100 characters followed by an ellipsis (if truncated), but umlauts like <code>&amp;uuml;</code> will mess up your count or might even be cut off. This is automatically handled by:</em></p>
+<pre><code class="lang-razor">  @* just cut it off at the visible character count, not splitting words *@
+  @Text.Crop(someText, 100)
+
+  @* truncate a text and if necessary, add ellipsis character *@
+  @Text.Ellipsis(longText, 100)
+
+  @* now the same thing, with text having html-tags *@
+  @Text.Ellipsis(Tags.Strip(longText), 100)
+</code></pre><p><em>You need a value, but if it&#39;s empty (null, spaces, line-breaks, <code>&amp;nbsp;</code> etc.), you need another one:</em></p>
+<pre><code class="lang-razor">  @* Do this *@
+  @Text.First(firstName, &quot;nothing found&quot;);
+
+  @* instead of this *@
+  @if(String.IsNullOrWhiteSpace(firstName as string)) {
+    @&quot;nothing found&quot;
+  } else {
+    @firstName
+  }
+</code></pre><p><em>Note that HTML whitespace like <code>&amp;nbsp;</code> will also be treated as empty, unless you add <code>false</code> as a last parameter. But RazorBlade does more than just skip empty texts, here some more examples:</em></p>
+<pre><code class="lang-razor">  @* First non-empty of many possible values *@
+  @Text.First(nameFromDb, nameFromProfile, defaultNameForThisCountry, &quot;unknown&quot;)
+
+  @* remove html from a wysiwyg-string *@
+  @Tags.Strip(formattedText)
+
+  @* the same with a custom ending *@
+  @Text.Ellipsis(longText, 100, &quot;...more&quot;)
+
+  @* an it won&#39;t cut off in the middle of &amp;auml; *@
+  @Text.Ellipsis(&quot;Visit M&amp;uuml;nchen&quot;, 10)
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

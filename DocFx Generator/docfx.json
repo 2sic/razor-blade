@@ -5,7 +5,7 @@
         {
           "files": [
             "Razor.Blade/*.csproj",
-            "Connect.Razor.Dnn/*.csproj"
+            "ToSic.Razor.Dnn/*.csproj"
           ],
           "cwd": "..",
           "exclude": [
