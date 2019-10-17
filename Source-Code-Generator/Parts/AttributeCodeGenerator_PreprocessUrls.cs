@@ -32,11 +32,6 @@ namespace SourceCodeGenerator.Parts
             ? "\n    /// Automatically url-encode it if contains spaces, umlauts or other unexpected chars"
             : "";
 
-        /// <summary>
-        /// tells us if the desired attribute is a boolean
-        /// this means that the attribute can be added by itself, without a value
-        /// </summary>
-        /// <returns></returns>
         public bool IsUrlAttribute => UrlAttributes.Contains(Key);
 
         // list taken from https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
@@ -45,6 +40,7 @@ namespace SourceCodeGenerator.Parts
             "src",
             "href",
             "poster", // in video tag
+            "data", // in object tag
         };
         // ReSharper restore StringLiteralTypo
     }

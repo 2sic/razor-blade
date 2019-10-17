@@ -93,15 +93,35 @@ namespace Razor_Blades_Tests.HtmlTagsTests
         }
 
         [TestMethod]
-        public void ImgSrcSetUmlautsX()
+        public void ImgSrcSetUmlautsNoXw() 
+            => Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17"));
+
+        [TestMethod]
+        public void ImgSrcSetUmlautsXorW()
         {
             Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 2x'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17", 2));
+            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 2x'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17 2x"));
+
+            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 700w'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17", 700));
+            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 700w'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17 700w"));
         }
 
         [TestMethod]
-        public void ImgSrcSetUmlautsNoXw()
+        public void ImgSrcSetUmlautsMultiline()
         {
-            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17'>", Tag.Img().Srcset("Léonie Müller.jpg?w=17"));
+            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 2x,L%C3%A9onie%20M%C3%BCller.jpg?w=17 700w'>",
+                Tag.Img().Srcset(@"
+Léonie Müller.jpg?w=17 2x,
+Léonie Müller.jpg?w=17 700w"));
+
+        }
+
+        [TestMethod]
+        public void ImgSrcSetUmlautsMultiple()
+        {
+            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 2x,L%C3%A9onie%20M%C3%BCller.jpg?w=17 700w'>", Tag.Img()
+                .Srcset("Léonie Müller.jpg?w=17", 2)
+                .Srcset("Léonie Müller.jpg?w=17 700w"));
         }
 
         [TestMethod]

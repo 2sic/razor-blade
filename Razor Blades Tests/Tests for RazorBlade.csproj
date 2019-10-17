@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Html5QuickAccess\ATests.cs" />
     <Compile Include="Html5QuickAccess\TableTestsQa.cs" />
+    <Compile Include="HtmlTagsTests\ObjectTests.cs" />
     <Compile Include="HtmlTagsTests\TableTests.cs" />
     <Compile Include="HtmlTagsTests\MediaTests.cs" />
     <Compile Include="HtmlTagsTests\ImgTests.cs" />
