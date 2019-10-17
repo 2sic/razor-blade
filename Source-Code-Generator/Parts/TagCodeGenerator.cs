@@ -74,9 +74,9 @@ namespace SourceCodeGenerator.Parts
 
         public string QuickAccessCode => $@"{Comment(ContentParamName)}
     /// <code>
-    /// var {ClassName.ToLower()} = Tags.{ClassName}();{(
+    /// var {ClassName.ToLower()} = Tag.{ClassName}();{(
 Standalone ? "" : $@"
-    /// var {ClassName.ToLower()}2 = Tags.{ClassName}(""hello there"");"
+    /// var {ClassName.ToLower()}2 = Tag.{ClassName}(""hello there"");"
     )}
     /// </code>
     {QuickAccessWithParams}";

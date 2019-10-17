@@ -5,7 +5,7 @@ using Connect.Razor.Html;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 16.10.2019 23:09
+// Created 17.10.2019 19:25
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands

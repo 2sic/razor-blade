@@ -34,8 +34,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var a = Tags.A();
-    /// var a2 = Tags.A("hello there");
+    /// var a = Tag.A();
+    /// var a2 = Tag.A("hello there");
     /// </code>
     public static A A(params object[] content) => new A(content);
 
@@ -47,8 +47,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var abbr = Tags.Abbr();
-    /// var abbr2 = Tags.Abbr("hello there");
+    /// var abbr = Tag.Abbr();
+    /// var abbr2 = Tag.Abbr("hello there");
     /// </code>
     public static Abbr Abbr(params object[] content) => new Abbr(content);
 
@@ -60,8 +60,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var address = Tags.Address();
-    /// var address2 = Tags.Address("hello there");
+    /// var address = Tag.Address();
+    /// var address2 = Tag.Address("hello there");
     /// </code>
     public static Address Address(params object[] content) => new Address(content);
 
@@ -73,8 +73,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var area = Tags.Area();
-    /// var area2 = Tags.Area("hello there");
+    /// var area = Tag.Area();
+    /// var area2 = Tag.Area("hello there");
     /// </code>
     public static Area Area(params object[] content) => new Area(content);
 
@@ -86,8 +86,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var article = Tags.Article();
-    /// var article2 = Tags.Article("hello there");
+    /// var article = Tag.Article();
+    /// var article2 = Tag.Article("hello there");
     /// </code>
     public static Article Article(params object[] content) => new Article(content);
 
@@ -99,8 +99,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var aside = Tags.Aside();
-    /// var aside2 = Tags.Aside("hello there");
+    /// var aside = Tag.Aside();
+    /// var aside2 = Tag.Aside("hello there");
     /// </code>
     public static Aside Aside(params object[] content) => new Aside(content);
 
@@ -112,8 +112,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var audio = Tags.Audio();
-    /// var audio2 = Tags.Audio("hello there");
+    /// var audio = Tag.Audio();
+    /// var audio2 = Tag.Audio("hello there");
     /// </code>
     public static Audio Audio(params object[] content) => new Audio(content);
 
@@ -125,8 +125,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var b = Tags.B();
-    /// var b2 = Tags.B("hello there");
+    /// var b = Tag.B();
+    /// var b2 = Tag.B("hello there");
     /// </code>
     public static B B(params object[] content) => new B(content);
 
@@ -138,7 +138,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var base = Tags.Base();
+    /// var base = Tag.Base();
     /// </code>
     public static Base Base(params object[] content) => new Base(content);
 
@@ -150,8 +150,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var bdi = Tags.Bdi();
-    /// var bdi2 = Tags.Bdi("hello there");
+    /// var bdi = Tag.Bdi();
+    /// var bdi2 = Tag.Bdi("hello there");
     /// </code>
     public static Bdi Bdi(params object[] content) => new Bdi(content);
 
@@ -163,8 +163,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var bdo = Tags.Bdo();
-    /// var bdo2 = Tags.Bdo("hello there");
+    /// var bdo = Tag.Bdo();
+    /// var bdo2 = Tag.Bdo("hello there");
     /// </code>
     public static Bdo Bdo(params object[] content) => new Bdo(content);
 
@@ -176,8 +176,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var blockquote = Tags.Blockquote();
-    /// var blockquote2 = Tags.Blockquote("hello there");
+    /// var blockquote = Tag.Blockquote();
+    /// var blockquote2 = Tag.Blockquote("hello there");
     /// </code>
     public static Blockquote Blockquote(params object[] content) => new Blockquote(content);
 
@@ -189,7 +189,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var br = Tags.Br();
+    /// var br = Tag.Br();
     /// </code>
     public static Br Br(params object[] content) => new Br(content);
 
@@ -201,8 +201,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var button = Tags.Button();
-    /// var button2 = Tags.Button("hello there");
+    /// var button = Tag.Button();
+    /// var button2 = Tag.Button("hello there");
     /// </code>
     public static Button Button(params object[] content) => new Button(content);
 
@@ -214,8 +214,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var canvas = Tags.Canvas();
-    /// var canvas2 = Tags.Canvas("hello there");
+    /// var canvas = Tag.Canvas();
+    /// var canvas2 = Tag.Canvas("hello there");
     /// </code>
     public static Canvas Canvas(params object[] content) => new Canvas(content);
 
@@ -227,8 +227,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var caption = Tags.Caption();
-    /// var caption2 = Tags.Caption("hello there");
+    /// var caption = Tag.Caption();
+    /// var caption2 = Tag.Caption("hello there");
     /// </code>
     public static Caption Caption(params object[] content) => new Caption(content);
 
@@ -240,8 +240,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var cite = Tags.Cite();
-    /// var cite2 = Tags.Cite("hello there");
+    /// var cite = Tag.Cite();
+    /// var cite2 = Tag.Cite("hello there");
     /// </code>
     public static Cite Cite(params object[] content) => new Cite(content);
 
@@ -253,8 +253,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var code = Tags.Code();
-    /// var code2 = Tags.Code("hello there");
+    /// var code = Tag.Code();
+    /// var code2 = Tag.Code("hello there");
     /// </code>
     public static Code Code(params object[] content) => new Code(content);
 
@@ -266,8 +266,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var col = Tags.Col();
-    /// var col2 = Tags.Col("hello there");
+    /// var col = Tag.Col();
+    /// var col2 = Tag.Col("hello there");
     /// </code>
     public static Col Col(params object[] content) => new Col(content);
 
@@ -279,8 +279,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var colgroup = Tags.Colgroup();
-    /// var colgroup2 = Tags.Colgroup("hello there");
+    /// var colgroup = Tag.Colgroup();
+    /// var colgroup2 = Tag.Colgroup("hello there");
     /// </code>
     public static Colgroup Colgroup(params object[] content) => new Colgroup(content);
 
@@ -292,8 +292,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var data = Tags.Data();
-    /// var data2 = Tags.Data("hello there");
+    /// var data = Tag.Data();
+    /// var data2 = Tag.Data("hello there");
     /// </code>
     public static Data Data(params object[] content) => new Data(content);
 
@@ -305,8 +305,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var datalist = Tags.Datalist();
-    /// var datalist2 = Tags.Datalist("hello there");
+    /// var datalist = Tag.Datalist();
+    /// var datalist2 = Tag.Datalist("hello there");
     /// </code>
     public static Datalist Datalist(params object[] content) => new Datalist(content);
 
@@ -318,8 +318,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dd = Tags.Dd();
-    /// var dd2 = Tags.Dd("hello there");
+    /// var dd = Tag.Dd();
+    /// var dd2 = Tag.Dd("hello there");
     /// </code>
     public static Dd Dd(params object[] content) => new Dd(content);
 
@@ -331,8 +331,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var del = Tags.Del();
-    /// var del2 = Tags.Del("hello there");
+    /// var del = Tag.Del();
+    /// var del2 = Tag.Del("hello there");
     /// </code>
     public static Del Del(params object[] content) => new Del(content);
 
@@ -344,8 +344,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var details = Tags.Details();
-    /// var details2 = Tags.Details("hello there");
+    /// var details = Tag.Details();
+    /// var details2 = Tag.Details("hello there");
     /// </code>
     public static Details Details(params object[] content) => new Details(content);
 
@@ -357,8 +357,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dfn = Tags.Dfn();
-    /// var dfn2 = Tags.Dfn("hello there");
+    /// var dfn = Tag.Dfn();
+    /// var dfn2 = Tag.Dfn("hello there");
     /// </code>
     public static Dfn Dfn(params object[] content) => new Dfn(content);
 
@@ -370,8 +370,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dialog = Tags.Dialog();
-    /// var dialog2 = Tags.Dialog("hello there");
+    /// var dialog = Tag.Dialog();
+    /// var dialog2 = Tag.Dialog("hello there");
     /// </code>
     public static Dialog Dialog(params object[] content) => new Dialog(content);
 
@@ -383,8 +383,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var div = Tags.Div();
-    /// var div2 = Tags.Div("hello there");
+    /// var div = Tag.Div();
+    /// var div2 = Tag.Div("hello there");
     /// </code>
     public static Div Div(params object[] content) => new Div(content);
 
@@ -396,8 +396,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dl = Tags.Dl();
-    /// var dl2 = Tags.Dl("hello there");
+    /// var dl = Tag.Dl();
+    /// var dl2 = Tag.Dl("hello there");
     /// </code>
     public static Dl Dl(params object[] content) => new Dl(content);
 
@@ -409,8 +409,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dt = Tags.Dt();
-    /// var dt2 = Tags.Dt("hello there");
+    /// var dt = Tag.Dt();
+    /// var dt2 = Tag.Dt("hello there");
     /// </code>
     public static Dt Dt(params object[] content) => new Dt(content);
 
@@ -422,8 +422,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var em = Tags.Em();
-    /// var em2 = Tags.Em("hello there");
+    /// var em = Tag.Em();
+    /// var em2 = Tag.Em("hello there");
     /// </code>
     public static Em Em(params object[] content) => new Em(content);
 
@@ -435,8 +435,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var embed = Tags.Embed();
-    /// var embed2 = Tags.Embed("hello there");
+    /// var embed = Tag.Embed();
+    /// var embed2 = Tag.Embed("hello there");
     /// </code>
     public static Embed Embed(params object[] content) => new Embed(content);
 
@@ -448,8 +448,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var fieldset = Tags.Fieldset();
-    /// var fieldset2 = Tags.Fieldset("hello there");
+    /// var fieldset = Tag.Fieldset();
+    /// var fieldset2 = Tag.Fieldset("hello there");
     /// </code>
     public static Fieldset Fieldset(params object[] content) => new Fieldset(content);
 
@@ -461,8 +461,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var figcaption = Tags.Figcaption();
-    /// var figcaption2 = Tags.Figcaption("hello there");
+    /// var figcaption = Tag.Figcaption();
+    /// var figcaption2 = Tag.Figcaption("hello there");
     /// </code>
     public static Figcaption Figcaption(params object[] content) => new Figcaption(content);
 
@@ -474,8 +474,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var figure = Tags.Figure();
-    /// var figure2 = Tags.Figure("hello there");
+    /// var figure = Tag.Figure();
+    /// var figure2 = Tag.Figure("hello there");
     /// </code>
     public static Figure Figure(params object[] content) => new Figure(content);
 
@@ -487,8 +487,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var footer = Tags.Footer();
-    /// var footer2 = Tags.Footer("hello there");
+    /// var footer = Tag.Footer();
+    /// var footer2 = Tag.Footer("hello there");
     /// </code>
     public static Footer Footer(params object[] content) => new Footer(content);
 
@@ -500,8 +500,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var form = Tags.Form();
-    /// var form2 = Tags.Form("hello there");
+    /// var form = Tag.Form();
+    /// var form2 = Tag.Form("hello there");
     /// </code>
     public static Form Form(params object[] content) => new Form(content);
 
@@ -513,8 +513,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h1 = Tags.H1();
-    /// var h12 = Tags.H1("hello there");
+    /// var h1 = Tag.H1();
+    /// var h12 = Tag.H1("hello there");
     /// </code>
     public static H1 H1(params object[] content) => new H1(content);
 
@@ -526,8 +526,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h2 = Tags.H2();
-    /// var h22 = Tags.H2("hello there");
+    /// var h2 = Tag.H2();
+    /// var h22 = Tag.H2("hello there");
     /// </code>
     public static H2 H2(params object[] content) => new H2(content);
 
@@ -539,8 +539,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h3 = Tags.H3();
-    /// var h32 = Tags.H3("hello there");
+    /// var h3 = Tag.H3();
+    /// var h32 = Tag.H3("hello there");
     /// </code>
     public static H3 H3(params object[] content) => new H3(content);
 
@@ -552,8 +552,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h4 = Tags.H4();
-    /// var h42 = Tags.H4("hello there");
+    /// var h4 = Tag.H4();
+    /// var h42 = Tag.H4("hello there");
     /// </code>
     public static H4 H4(params object[] content) => new H4(content);
 
@@ -565,8 +565,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h5 = Tags.H5();
-    /// var h52 = Tags.H5("hello there");
+    /// var h5 = Tag.H5();
+    /// var h52 = Tag.H5("hello there");
     /// </code>
     public static H5 H5(params object[] content) => new H5(content);
 
@@ -578,8 +578,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h6 = Tags.H6();
-    /// var h62 = Tags.H6("hello there");
+    /// var h6 = Tag.H6();
+    /// var h62 = Tag.H6("hello there");
     /// </code>
     public static H6 H6(params object[] content) => new H6(content);
 
@@ -591,8 +591,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var head = Tags.Head();
-    /// var head2 = Tags.Head("hello there");
+    /// var head = Tag.Head();
+    /// var head2 = Tag.Head("hello there");
     /// </code>
     public static Head Head(params object[] content) => new Head(content);
 
@@ -604,8 +604,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var header = Tags.Header();
-    /// var header2 = Tags.Header("hello there");
+    /// var header = Tag.Header();
+    /// var header2 = Tag.Header("hello there");
     /// </code>
     public static Header Header(params object[] content) => new Header(content);
 
@@ -617,7 +617,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var hr = Tags.Hr();
+    /// var hr = Tag.Hr();
     /// </code>
     public static Hr Hr(params object[] content) => new Hr(content);
 
@@ -629,8 +629,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var i = Tags.I();
-    /// var i2 = Tags.I("hello there");
+    /// var i = Tag.I();
+    /// var i2 = Tag.I("hello there");
     /// </code>
     public static I I(params object[] content) => new I(content);
 
@@ -642,7 +642,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var iframe = Tags.Iframe();
+    /// var iframe = Tag.Iframe();
     /// </code>
     public static Iframe Iframe(params object[] content) => new Iframe(content);
 
@@ -654,7 +654,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var img = Tags.Img();
+    /// var img = Tag.Img();
     /// </code>
     public static Img Img(params object[] content) => new Img(content);
 
@@ -666,7 +666,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var input = Tags.Input();
+    /// var input = Tag.Input();
     /// </code>
     public static Input Input(params object[] content) => new Input(content);
 
@@ -678,8 +678,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ins = Tags.Ins();
-    /// var ins2 = Tags.Ins("hello there");
+    /// var ins = Tag.Ins();
+    /// var ins2 = Tag.Ins("hello there");
     /// </code>
     public static Ins Ins(params object[] content) => new Ins(content);
 
@@ -691,8 +691,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var kbd = Tags.Kbd();
-    /// var kbd2 = Tags.Kbd("hello there");
+    /// var kbd = Tag.Kbd();
+    /// var kbd2 = Tag.Kbd("hello there");
     /// </code>
     public static Kbd Kbd(params object[] content) => new Kbd(content);
 
@@ -704,8 +704,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var label = Tags.Label();
-    /// var label2 = Tags.Label("hello there");
+    /// var label = Tag.Label();
+    /// var label2 = Tag.Label("hello there");
     /// </code>
     public static Label Label(params object[] content) => new Label(content);
 
@@ -717,8 +717,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var legend = Tags.Legend();
-    /// var legend2 = Tags.Legend("hello there");
+    /// var legend = Tag.Legend();
+    /// var legend2 = Tag.Legend("hello there");
     /// </code>
     public static Legend Legend(params object[] content) => new Legend(content);
 
@@ -730,8 +730,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var li = Tags.Li();
-    /// var li2 = Tags.Li("hello there");
+    /// var li = Tag.Li();
+    /// var li2 = Tag.Li("hello there");
     /// </code>
     public static Li Li(params object[] content) => new Li(content);
 
@@ -743,7 +743,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var link = Tags.Link();
+    /// var link = Tag.Link();
     /// </code>
     public static Link Link(params object[] content) => new Link(content);
 
@@ -755,8 +755,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var main = Tags.Main();
-    /// var main2 = Tags.Main("hello there");
+    /// var main = Tag.Main();
+    /// var main2 = Tag.Main("hello there");
     /// </code>
     public static Main Main(params object[] content) => new Main(content);
 
@@ -768,8 +768,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var map = Tags.Map();
-    /// var map2 = Tags.Map("hello there");
+    /// var map = Tag.Map();
+    /// var map2 = Tag.Map("hello there");
     /// </code>
     public static Map Map(params object[] content) => new Map(content);
 
@@ -781,8 +781,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var mark = Tags.Mark();
-    /// var mark2 = Tags.Mark("hello there");
+    /// var mark = Tag.Mark();
+    /// var mark2 = Tag.Mark("hello there");
     /// </code>
     public static Mark Mark(params object[] content) => new Mark(content);
 
@@ -794,7 +794,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var meta = Tags.Meta();
+    /// var meta = Tag.Meta();
     /// </code>
     public static Meta Meta(params object[] content) => new Meta(content);
 
@@ -806,8 +806,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var meter = Tags.Meter();
-    /// var meter2 = Tags.Meter("hello there");
+    /// var meter = Tag.Meter();
+    /// var meter2 = Tag.Meter("hello there");
     /// </code>
     public static Meter Meter(params object[] content) => new Meter(content);
 
@@ -819,8 +819,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var nav = Tags.Nav();
-    /// var nav2 = Tags.Nav("hello there");
+    /// var nav = Tag.Nav();
+    /// var nav2 = Tag.Nav("hello there");
     /// </code>
     public static Nav Nav(params object[] content) => new Nav(content);
 
@@ -832,8 +832,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var noscript = Tags.Noscript();
-    /// var noscript2 = Tags.Noscript("hello there");
+    /// var noscript = Tag.Noscript();
+    /// var noscript2 = Tag.Noscript("hello there");
     /// </code>
     public static Noscript Noscript(params object[] content) => new Noscript(content);
 
@@ -845,8 +845,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var object = Tags.Object();
-    /// var object2 = Tags.Object("hello there");
+    /// var object = Tag.Object();
+    /// var object2 = Tag.Object("hello there");
     /// </code>
     public static Object Object(params object[] content) => new Object(content);
 
@@ -858,8 +858,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ol = Tags.Ol();
-    /// var ol2 = Tags.Ol("hello there");
+    /// var ol = Tag.Ol();
+    /// var ol2 = Tag.Ol("hello there");
     /// </code>
     public static Ol Ol(params object[] content) => new Ol(content);
 
@@ -871,8 +871,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var optgroup = Tags.Optgroup();
-    /// var optgroup2 = Tags.Optgroup("hello there");
+    /// var optgroup = Tag.Optgroup();
+    /// var optgroup2 = Tag.Optgroup("hello there");
     /// </code>
     public static Optgroup Optgroup(params object[] content) => new Optgroup(content);
 
@@ -884,8 +884,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var option = Tags.Option();
-    /// var option2 = Tags.Option("hello there");
+    /// var option = Tag.Option();
+    /// var option2 = Tag.Option("hello there");
     /// </code>
     public static Option Option(params object[] content) => new Option(content);
 
@@ -897,8 +897,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var output = Tags.Output();
-    /// var output2 = Tags.Output("hello there");
+    /// var output = Tag.Output();
+    /// var output2 = Tag.Output("hello there");
     /// </code>
     public static Output Output(params object[] content) => new Output(content);
 
@@ -910,8 +910,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var p = Tags.P();
-    /// var p2 = Tags.P("hello there");
+    /// var p = Tag.P();
+    /// var p2 = Tag.P("hello there");
     /// </code>
     public static P P(params object[] content) => new P(content);
 
@@ -923,8 +923,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var param = Tags.Param();
-    /// var param2 = Tags.Param("hello there");
+    /// var param = Tag.Param();
+    /// var param2 = Tag.Param("hello there");
     /// </code>
     public static Param Param(params object[] content) => new Param(content);
 
@@ -936,8 +936,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var picture = Tags.Picture();
-    /// var picture2 = Tags.Picture("hello there");
+    /// var picture = Tag.Picture();
+    /// var picture2 = Tag.Picture("hello there");
     /// </code>
     public static Picture Picture(params object[] content) => new Picture(content);
 
@@ -949,8 +949,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var pre = Tags.Pre();
-    /// var pre2 = Tags.Pre("hello there");
+    /// var pre = Tag.Pre();
+    /// var pre2 = Tag.Pre("hello there");
     /// </code>
     public static Pre Pre(params object[] content) => new Pre(content);
 
@@ -962,8 +962,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var progress = Tags.Progress();
-    /// var progress2 = Tags.Progress("hello there");
+    /// var progress = Tag.Progress();
+    /// var progress2 = Tag.Progress("hello there");
     /// </code>
     public static Progress Progress(params object[] content) => new Progress(content);
 
@@ -975,8 +975,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var q = Tags.Q();
-    /// var q2 = Tags.Q("hello there");
+    /// var q = Tag.Q();
+    /// var q2 = Tag.Q("hello there");
     /// </code>
     public static Q Q(params object[] content) => new Q(content);
 
@@ -988,8 +988,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var rp = Tags.Rp();
-    /// var rp2 = Tags.Rp("hello there");
+    /// var rp = Tag.Rp();
+    /// var rp2 = Tag.Rp("hello there");
     /// </code>
     public static Rp Rp(params object[] content) => new Rp(content);
 
@@ -1001,8 +1001,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var rt = Tags.Rt();
-    /// var rt2 = Tags.Rt("hello there");
+    /// var rt = Tag.Rt();
+    /// var rt2 = Tag.Rt("hello there");
     /// </code>
     public static Rt Rt(params object[] content) => new Rt(content);
 
@@ -1014,8 +1014,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ruby = Tags.Ruby();
-    /// var ruby2 = Tags.Ruby("hello there");
+    /// var ruby = Tag.Ruby();
+    /// var ruby2 = Tag.Ruby("hello there");
     /// </code>
     public static Ruby Ruby(params object[] content) => new Ruby(content);
 
@@ -1027,8 +1027,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var s = Tags.S();
-    /// var s2 = Tags.S("hello there");
+    /// var s = Tag.S();
+    /// var s2 = Tag.S("hello there");
     /// </code>
     public static S S(params object[] content) => new S(content);
 
@@ -1040,8 +1040,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var samp = Tags.Samp();
-    /// var samp2 = Tags.Samp("hello there");
+    /// var samp = Tag.Samp();
+    /// var samp2 = Tag.Samp("hello there");
     /// </code>
     public static Samp Samp(params object[] content) => new Samp(content);
 
@@ -1053,8 +1053,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var script = Tags.Script();
-    /// var script2 = Tags.Script("hello there");
+    /// var script = Tag.Script();
+    /// var script2 = Tag.Script("hello there");
     /// </code>
     public static Script Script(params object[] content) => new Script(content);
 
@@ -1066,8 +1066,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var section = Tags.Section();
-    /// var section2 = Tags.Section("hello there");
+    /// var section = Tag.Section();
+    /// var section2 = Tag.Section("hello there");
     /// </code>
     public static Section Section(params object[] content) => new Section(content);
 
@@ -1079,8 +1079,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var select = Tags.Select();
-    /// var select2 = Tags.Select("hello there");
+    /// var select = Tag.Select();
+    /// var select2 = Tag.Select("hello there");
     /// </code>
     public static Select Select(params object[] content) => new Select(content);
 
@@ -1092,8 +1092,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var small = Tags.Small();
-    /// var small2 = Tags.Small("hello there");
+    /// var small = Tag.Small();
+    /// var small2 = Tag.Small("hello there");
     /// </code>
     public static Small Small(params object[] content) => new Small(content);
 
@@ -1105,7 +1105,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var source = Tags.Source();
+    /// var source = Tag.Source();
     /// </code>
     public static Source Source(params object[] content) => new Source(content);
 
@@ -1117,8 +1117,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var span = Tags.Span();
-    /// var span2 = Tags.Span("hello there");
+    /// var span = Tag.Span();
+    /// var span2 = Tag.Span("hello there");
     /// </code>
     public static Span Span(params object[] content) => new Span(content);
 
@@ -1130,8 +1130,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var strong = Tags.Strong();
-    /// var strong2 = Tags.Strong("hello there");
+    /// var strong = Tag.Strong();
+    /// var strong2 = Tag.Strong("hello there");
     /// </code>
     public static Strong Strong(params object[] content) => new Strong(content);
 
@@ -1143,8 +1143,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var style = Tags.Style();
-    /// var style2 = Tags.Style("hello there");
+    /// var style = Tag.Style();
+    /// var style2 = Tag.Style("hello there");
     /// </code>
     public static Style Style(params object[] content) => new Style(content);
 
@@ -1156,8 +1156,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var sub = Tags.Sub();
-    /// var sub2 = Tags.Sub("hello there");
+    /// var sub = Tag.Sub();
+    /// var sub2 = Tag.Sub("hello there");
     /// </code>
     public static Sub Sub(params object[] content) => new Sub(content);
 
@@ -1169,8 +1169,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var summary = Tags.Summary();
-    /// var summary2 = Tags.Summary("hello there");
+    /// var summary = Tag.Summary();
+    /// var summary2 = Tag.Summary("hello there");
     /// </code>
     public static Summary Summary(params object[] content) => new Summary(content);
 
@@ -1182,8 +1182,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var sup = Tags.Sup();
-    /// var sup2 = Tags.Sup("hello there");
+    /// var sup = Tag.Sup();
+    /// var sup2 = Tag.Sup("hello there");
     /// </code>
     public static Sup Sup(params object[] content) => new Sup(content);
 
@@ -1195,8 +1195,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var svg = Tags.Svg();
-    /// var svg2 = Tags.Svg("hello there");
+    /// var svg = Tag.Svg();
+    /// var svg2 = Tag.Svg("hello there");
     /// </code>
     public static Svg Svg(params object[] content) => new Svg(content);
 
@@ -1208,8 +1208,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var table = Tags.Table();
-    /// var table2 = Tags.Table("hello there");
+    /// var table = Tag.Table();
+    /// var table2 = Tag.Table("hello there");
     /// </code>
     public static Table Table(params object[] content) => new Table(content);
 
@@ -1221,8 +1221,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var tbody = Tags.Tbody();
-    /// var tbody2 = Tags.Tbody("hello there");
+    /// var tbody = Tag.Tbody();
+    /// var tbody2 = Tag.Tbody("hello there");
     /// </code>
     public static Tbody Tbody(params object[] content) => new Tbody(content);
 
@@ -1234,8 +1234,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var td = Tags.Td();
-    /// var td2 = Tags.Td("hello there");
+    /// var td = Tag.Td();
+    /// var td2 = Tag.Td("hello there");
     /// </code>
     public static Td Td(params object[] content) => new Td(content);
 
@@ -1247,8 +1247,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var template = Tags.Template();
-    /// var template2 = Tags.Template("hello there");
+    /// var template = Tag.Template();
+    /// var template2 = Tag.Template("hello there");
     /// </code>
     public static Template Template(params object[] content) => new Template(content);
 
@@ -1260,8 +1260,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var textarea = Tags.Textarea();
-    /// var textarea2 = Tags.Textarea("hello there");
+    /// var textarea = Tag.Textarea();
+    /// var textarea2 = Tag.Textarea("hello there");
     /// </code>
     public static Textarea Textarea(params object[] content) => new Textarea(content);
 
@@ -1273,8 +1273,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var tfoot = Tags.Tfoot();
-    /// var tfoot2 = Tags.Tfoot("hello there");
+    /// var tfoot = Tag.Tfoot();
+    /// var tfoot2 = Tag.Tfoot("hello there");
     /// </code>
     public static Tfoot Tfoot(params object[] content) => new Tfoot(content);
 
@@ -1286,8 +1286,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var th = Tags.Th();
-    /// var th2 = Tags.Th("hello there");
+    /// var th = Tag.Th();
+    /// var th2 = Tag.Th("hello there");
     /// </code>
     public static Th Th(params object[] content) => new Th(content);
 
@@ -1299,8 +1299,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var thead = Tags.Thead();
-    /// var thead2 = Tags.Thead("hello there");
+    /// var thead = Tag.Thead();
+    /// var thead2 = Tag.Thead("hello there");
     /// </code>
     public static Thead Thead(params object[] content) => new Thead(content);
 
@@ -1312,8 +1312,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var time = Tags.Time();
-    /// var time2 = Tags.Time("hello there");
+    /// var time = Tag.Time();
+    /// var time2 = Tag.Time("hello there");
     /// </code>
     public static Time Time(params object[] content) => new Time(content);
 
@@ -1325,8 +1325,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var tr = Tags.Tr();
-    /// var tr2 = Tags.Tr("hello there");
+    /// var tr = Tag.Tr();
+    /// var tr2 = Tag.Tr("hello there");
     /// </code>
     public static Tr Tr(params object[] content) => new Tr(content);
 
@@ -1338,7 +1338,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var track = Tags.Track();
+    /// var track = Tag.Track();
     /// </code>
     public static Track Track(params object[] content) => new Track(content);
 
@@ -1350,8 +1350,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var u = Tags.U();
-    /// var u2 = Tags.U("hello there");
+    /// var u = Tag.U();
+    /// var u2 = Tag.U("hello there");
     /// </code>
     public static U U(params object[] content) => new U(content);
 
@@ -1363,8 +1363,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ul = Tags.Ul();
-    /// var ul2 = Tags.Ul("hello there");
+    /// var ul = Tag.Ul();
+    /// var ul2 = Tag.Ul("hello there");
     /// </code>
     public static Ul Ul(params object[] content) => new Ul(content);
 
@@ -1376,8 +1376,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var var = Tags.Var();
-    /// var var2 = Tags.Var("hello there");
+    /// var var = Tag.Var();
+    /// var var2 = Tag.Var("hello there");
     /// </code>
     public static Var Var(params object[] content) => new Var(content);
 
@@ -1389,8 +1389,8 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var video = Tags.Video();
-    /// var video2 = Tags.Video("hello there");
+    /// var video = Tag.Video();
+    /// var video2 = Tag.Video("hello there");
     /// </code>
     public static Video Video(params object[] content) => new Video(content);
 
@@ -1402,7 +1402,7 @@ namespace Connect.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var wbr = Tags.Wbr();
+    /// var wbr = Tag.Wbr();
     /// </code>
     public static Wbr Wbr(params object[] content) => new Wbr(content);
     }
