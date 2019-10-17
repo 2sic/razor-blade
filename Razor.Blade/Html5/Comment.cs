@@ -1,6 +1,6 @@
-﻿using Connect.Razor.Html;
+﻿using ToSic.Razor.Html;
 
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
     /// <summary>
     /// Generate a standard HTML5 &lt;-- --&gt; tag for adding comments

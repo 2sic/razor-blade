@@ -1,6 +1,6 @@
-﻿using Connect.Razor.Blade;
+﻿using ToSic.Razor.Blade;
 
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
     public partial class Abbr
     {

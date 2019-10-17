@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     internal static partial class Dic
     {

@@ -1,6 +1,6 @@
 ﻿using DotNetNuke.Framework;
 
-namespace Connect.Razor.Dnn
+namespace ToSic.Razor.Dnn
 {
     public partial class DnnHtmlPage 
     {

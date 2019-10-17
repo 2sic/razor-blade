@@ -1,6 +1,6 @@
 using System;
-using Connect.Razor.Blade;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -16,7 +16,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
 
     /// <summary>
@@ -25,7 +25,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Article object with all the attributes available in that tag
     /// </returns>
-    public partial class Article : Connect.Razor.Html.Tag
+    public partial class Article : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -56,7 +56,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Aside object with all the attributes available in that tag
     /// </returns>
-    public partial class Aside : Connect.Razor.Html.Tag
+    public partial class Aside : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -87,7 +87,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Data object with all the attributes available in that tag
     /// </returns>
-    public partial class Data : Connect.Razor.Html.Tag
+    public partial class Data : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -136,7 +136,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Details object with all the attributes available in that tag
     /// </returns>
-    public partial class Details : Connect.Razor.Html.Tag
+    public partial class Details : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -185,7 +185,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Dialog object with all the attributes available in that tag
     /// </returns>
-    public partial class Dialog : Connect.Razor.Html.Tag
+    public partial class Dialog : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -234,7 +234,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Div object with all the attributes available in that tag
     /// </returns>
-    public partial class Div : Connect.Razor.Html.Tag
+    public partial class Div : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -265,7 +265,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Footer object with all the attributes available in that tag
     /// </returns>
-    public partial class Footer : Connect.Razor.Html.Tag
+    public partial class Footer : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -296,7 +296,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Header object with all the attributes available in that tag
     /// </returns>
-    public partial class Header : Connect.Razor.Html.Tag
+    public partial class Header : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -327,7 +327,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Main object with all the attributes available in that tag
     /// </returns>
-    public partial class Main : Connect.Razor.Html.Tag
+    public partial class Main : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -358,7 +358,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Section object with all the attributes available in that tag
     /// </returns>
-    public partial class Section : Connect.Razor.Html.Tag
+    public partial class Section : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -389,7 +389,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Span object with all the attributes available in that tag
     /// </returns>
-    public partial class Span : Connect.Razor.Html.Tag
+    public partial class Span : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -420,7 +420,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Style object with all the attributes available in that tag
     /// </returns>
-    public partial class Style : Connect.Razor.Html.Tag
+    public partial class Style : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -473,7 +473,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Summary object with all the attributes available in that tag
     /// </returns>
-    public partial class Summary : Connect.Razor.Html.Tag
+    public partial class Summary : ToSic.Razor.Html.Tag
     {
     
     /// <summary>

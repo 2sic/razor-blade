@@ -1,4 +1,4 @@
-﻿namespace Connect.Razor.Html
+﻿namespace ToSic.Razor.Html
 {
     public class TagOptions
     {

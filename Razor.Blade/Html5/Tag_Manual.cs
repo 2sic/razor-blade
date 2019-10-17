@@ -1,7 +1,7 @@
-﻿using Connect.Razor.Html5;
+﻿using ToSic.Razor.Html5;
 
 // ReSharper disable once CheckNamespace
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     public static partial class Tag
     {

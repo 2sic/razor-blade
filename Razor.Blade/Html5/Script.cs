@@ -1,4 +1,4 @@
-﻿namespace Connect.Razor.Html5
+﻿namespace ToSic.Razor.Html5
 {
     /// <summary>
     /// Special tag for generating JsonLd markup
@@ -20,6 +20,6 @@
         /// </summary>
         /// <param name="content">an object which will be json serialized</param>
         internal ScriptJsonLd(object content)
-            : this(Connect.Razor.Internals.Html.ToJsonOrErrorMessage(content)) {}
+            : this(ToSic.Razor.Internals.Html.ToJsonOrErrorMessage(content)) {}
     }
 }

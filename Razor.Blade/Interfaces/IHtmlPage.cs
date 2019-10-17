@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Connect.Razor.Internals;
-using Tag = Connect.Razor.Html.Tag;
+using ToSic.Razor.Internals;
+using Tag = ToSic.Razor.Html.Tag;
 
-namespace Connect.Razor.Interfaces
+namespace ToSic.Razor.Interfaces
 {
     public interface IHtmlPage
     {

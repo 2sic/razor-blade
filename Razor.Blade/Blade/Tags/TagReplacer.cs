@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     internal static class TagReplacer
     {

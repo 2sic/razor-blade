@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using Connect.Razor.Html;
-using Connect.Razor.Dnn;
-using Connect.Razor.Interfaces;
-using Connect.Razor.Internals;
+using ToSic.Razor.Dnn;
+using ToSic.Razor.Interfaces;
+using ToSic.Razor.Internals;
+
 // ReSharper disable UnusedMember.Global
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Access the surrounding page and read/modify some properties, 
@@ -65,7 +65,7 @@ namespace Connect.Razor.Blade
         /// </summary>
         /// <param name="tag"></param>
         /// <remarks>New in 2.1</remarks>
-        public static void AddToHead(Html.Tag tag) => GetPage().AddToHead(tag);
+        public static void AddToHead(ToSic.Razor.Html.Tag tag) => GetPage().AddToHead(tag);
 
         /// <summary>
         /// Add a standard meta header tag.

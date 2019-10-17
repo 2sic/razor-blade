@@ -1,6 +1,6 @@
 using System;
-using Connect.Razor.Blade;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -16,7 +16,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
 
     /// <summary>
@@ -25,7 +25,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Area object with all the attributes available in that tag
     /// </returns>
-    public partial class Area : Connect.Razor.Html.Tag
+    public partial class Area : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -56,7 +56,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Canvas object with all the attributes available in that tag
     /// </returns>
-    public partial class Canvas : Connect.Razor.Html.Tag
+    public partial class Canvas : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -123,7 +123,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Img object with all the attributes available in that tag
     /// </returns>
-    public partial class Img : Connect.Razor.Html.Tag
+    public partial class Img : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -279,7 +279,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Map object with all the attributes available in that tag
     /// </returns>
-    public partial class Map : Connect.Razor.Html.Tag
+    public partial class Map : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -321,7 +321,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Picture object with all the attributes available in that tag
     /// </returns>
-    public partial class Picture : Connect.Razor.Html.Tag
+    public partial class Picture : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -352,7 +352,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Svg object with all the attributes available in that tag
     /// </returns>
-    public partial class Svg : Connect.Razor.Html.Tag
+    public partial class Svg : ToSic.Razor.Html.Tag
     {
     
     /// <summary>

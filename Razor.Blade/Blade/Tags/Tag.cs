@@ -1,6 +1,6 @@
-﻿using Connect.Razor.Html;
+﻿using ToSic.Razor.Html;
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Basic tools to generate attributes and tags here, probably also move "Wrap" to this

@@ -1,7 +1,7 @@
-﻿using Connect.Razor.Blade;
-using Connect.Razor.Html;
+﻿using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tag = Connect.Razor.Html.Tag;
+using Tag = ToSic.Razor.Html.Tag;
 
 namespace Razor_Blades_Tests.TagBuilderTests
 {

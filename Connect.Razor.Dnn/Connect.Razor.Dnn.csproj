@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Connect.Razor</RootNamespace>
-    <AssemblyName>Connect.Razor.Dnn</AssemblyName>
+    <RootNamespace>ToSic.Razor</RootNamespace>
+    <AssemblyName>ToSic.Razor.Dnn</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -72,7 +72,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connect_Razor_Blade_Dnn.dnn" />
+    <Content Include="ToSic_Razor_Blade_Dnn.dnn" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Razor.Blade\Razor.Blade.csproj">
@@ -107,8 +107,8 @@
   </ProjectExtensions>
   <PropertyGroup>
     <Extension>zip</Extension>
-    <DNNFileName>Connect_Razor_Blade_Dnn</DNNFileName>
-    <PackageName>Connect_Razor_Blade_Dnn</PackageName>
+    <DNNFileName>ToSic_Razor_Blade_Dnn</DNNFileName>
+    <PackageName>ToSic_Razor_Blade_Dnn</PackageName>
     <MSBuildCommunityTasksPath>$(SolutionDir)\BuildScripts</MSBuildCommunityTasksPath>
   </PropertyGroup>
   <Import Project="BuildScripts\ModulePackage.Targets" />

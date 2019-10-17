@@ -1,8 +1,8 @@
 ﻿using System.Web;
-using Connect.Razor.Interfaces;
+using ToSic.Razor.Interfaces;
 using Page = System.Web.UI.Page;
 
-namespace Connect.Razor.Dnn
+namespace ToSic.Razor.Dnn
 {
     public partial class DnnHtmlPage : IHtmlPage
     {

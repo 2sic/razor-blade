@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Connect.Razor.Internals;
+using ToSic.Razor.Internals;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.Text
@@ -13,14 +13,14 @@ namespace Razor_Blades_Tests.Text
         public void Crop_Basic()
         {
             var message = "This is a teaser for something";
-            Assert.AreEqual("T", Connect.Razor.Blade.Text.Crop(message, 1), "message is short, shouldn't change");
-            Assert.AreEqual("Th", Connect.Razor.Blade.Text.Crop(message, 2));
-            Assert.AreEqual("Thi", Connect.Razor.Blade.Text.Crop(message, 3));
-            Assert.AreEqual("This", Connect.Razor.Blade.Text.Crop(message, 4));
-            Assert.AreEqual("This", Connect.Razor.Blade.Text.Crop(message, 5));
-            Assert.AreEqual("This", Connect.Razor.Blade.Text.Crop(message, 6));
-            Assert.AreEqual("This is", Connect.Razor.Blade.Text.Crop(message, 7));
-            Assert.AreEqual("This is", Connect.Razor.Blade.Text.Crop(message, 8));
+            Assert.AreEqual("T", ToSic.Razor.Blade.Text.Crop(message, 1), "message is short, shouldn't change");
+            Assert.AreEqual("Th", ToSic.Razor.Blade.Text.Crop(message, 2));
+            Assert.AreEqual("Thi", ToSic.Razor.Blade.Text.Crop(message, 3));
+            Assert.AreEqual("This", ToSic.Razor.Blade.Text.Crop(message, 4));
+            Assert.AreEqual("This", ToSic.Razor.Blade.Text.Crop(message, 5));
+            Assert.AreEqual("This", ToSic.Razor.Blade.Text.Crop(message, 6));
+            Assert.AreEqual("This is", ToSic.Razor.Blade.Text.Crop(message, 7));
+            Assert.AreEqual("This is", ToSic.Razor.Blade.Text.Crop(message, 8));
         }
 
         [TestMethod]
@@ -101,10 +101,10 @@ namespace Razor_Blades_Tests.Text
         [TestMethod]
         public void Truncate_Basic()
         {
-            Assert.AreEqual(simpleTruncates, Connect.Razor.Blade.Text.Crop(simpleTruncates, 100), "message is short, shouldn't change");
+            Assert.AreEqual(simpleTruncates, ToSic.Razor.Blade.Text.Crop(simpleTruncates, 100), "message is short, shouldn't change");
 
-            Assert.AreEqual("This", Connect.Razor.Blade.Text.Crop(simpleTruncates, 4), "truncate till end of word");
-            Assert.AreEqual("This", Connect.Razor.Blade.Text.Crop(simpleTruncates, 5), "truncate till end of word");
+            Assert.AreEqual("This", ToSic.Razor.Blade.Text.Crop(simpleTruncates, 4), "truncate till end of word");
+            Assert.AreEqual("This", ToSic.Razor.Blade.Text.Crop(simpleTruncates, 5), "truncate till end of word");
         }
 
 

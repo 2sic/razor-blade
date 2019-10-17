@@ -1,6 +1,6 @@
 using System;
-using Connect.Razor.Blade;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -16,7 +16,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
 
     /// <summary>
@@ -25,7 +25,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Audio object with all the attributes available in that tag
     /// </returns>
-    public partial class Audio : Connect.Razor.Html.Tag
+    public partial class Audio : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -151,7 +151,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Source object with all the attributes available in that tag
     /// </returns>
-    public partial class Source : Connect.Razor.Html.Tag
+    public partial class Source : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -249,7 +249,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Track object with all the attributes available in that tag
     /// </returns>
-    public partial class Track : Connect.Razor.Html.Tag
+    public partial class Track : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -343,7 +343,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Video object with all the attributes available in that tag
     /// </returns>
-    public partial class Video : Connect.Razor.Html.Tag
+    public partial class Video : ToSic.Razor.Html.Tag
     {
     
     /// <summary>

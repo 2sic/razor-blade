@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Mf6zmPYv2YcqWGA81leVsA=="
+          "hash": "mWdLJ0YFP6DymldGlzqAgg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "l/c4FSdqoEkw3SJCb/dmeQ=="
+          "hash": "WOSMRLMTyxXI0P+8oyewFw=="
         }
       },
       "is_incremental": false,
@@ -98,7 +98,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "wKBpikhP20xLOnhIjKsdJg=="
+          "hash": "liyMVyxqHRW7RMmgB5JI8A=="
         }
       },
       "is_incremental": false,
@@ -106,11 +106,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Blade.HtmlPage.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Blade.HtmlPage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Blade.HtmlPage.html",
-          "hash": "vkCqFbzQbvG2HdjhnF4yoQ=="
+          "relative_path": "api/ToSic.Razor.Blade.HtmlPage.html",
+          "hash": "K991U4g1mawel1z2yvtABA=="
         }
       },
       "is_incremental": false,
@@ -118,11 +118,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Blade.Tag.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Blade.Tag.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Blade.Tag.html",
-          "hash": "n1wA985szhArmNXCCCOR0w=="
+          "relative_path": "api/ToSic.Razor.Blade.Tag.html",
+          "hash": "7wZF7+tUJYjUwq3ir5XOVQ=="
         }
       },
       "is_incremental": false,
@@ -130,11 +130,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Blade.TagExtensions.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Blade.TagExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Blade.TagExtensions.html",
-          "hash": "OL0PHWeRl7ZL64pT7tetnw=="
+          "relative_path": "api/ToSic.Razor.Blade.TagExtensions.html",
+          "hash": "0anHyneLOc+EBkIWnSZ9Hw=="
         }
       },
       "is_incremental": false,
@@ -142,11 +142,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Blade.Tags.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Blade.Tags.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Blade.Tags.html",
-          "hash": "idaJyfUWJH1eBeFiCNfrjg=="
+          "relative_path": "api/ToSic.Razor.Blade.Tags.html",
+          "hash": "eDXk3xbG4GG+BHG7Pcex4Q=="
         }
       },
       "is_incremental": false,
@@ -154,11 +154,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Blade.Text.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Blade.Text.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Blade.Text.html",
-          "hash": "A1yeXd4AGDxqDx6ucuhqIg=="
+          "relative_path": "api/ToSic.Razor.Blade.Text.html",
+          "hash": "V+OQvLb8zJNA+ulNHm8VBQ=="
         }
       },
       "is_incremental": false,
@@ -166,11 +166,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Blade.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Blade.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Blade.html",
-          "hash": "4JqmGB1saQBNCFJFiPw3Wg=="
+          "relative_path": "api/ToSic.Razor.Blade.html",
+          "hash": "bAWJCOY1OUczKdW5lIk+xQ=="
         }
       },
       "is_incremental": false,
@@ -178,11 +178,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.A.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.A.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.A.html",
-          "hash": "8xWWKkCfZYwA/0cI2M0EgA=="
+          "relative_path": "api/ToSic.Razor.Html5.A.html",
+          "hash": "Or/x24NL+Xqd63ZoREkpTQ=="
         }
       },
       "is_incremental": false,
@@ -190,11 +190,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Abbr.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Abbr.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Abbr.html",
-          "hash": "bByr4PwDUTKIRNR/o6J9mQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Abbr.html",
+          "hash": "KL3nh3CaCWEvyRLjTun0Uw=="
         }
       },
       "is_incremental": false,
@@ -202,11 +202,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Address.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Address.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Address.html",
-          "hash": "CZe+KZIZD/9zCSe1IHZj4g=="
+          "relative_path": "api/ToSic.Razor.Html5.Address.html",
+          "hash": "J0aFmf0adN0IdSlKd7ZJMQ=="
         }
       },
       "is_incremental": false,
@@ -214,11 +214,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Area.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Area.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Area.html",
-          "hash": "aIfrYhqaMtnuKufWLWRmOg=="
+          "relative_path": "api/ToSic.Razor.Html5.Area.html",
+          "hash": "2Yiklrk4FJ4puKLK9fqOvw=="
         }
       },
       "is_incremental": false,
@@ -226,11 +226,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Article.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Article.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Article.html",
-          "hash": "5C5E/aYojNNAbNbQ6b3lTQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Article.html",
+          "hash": "Vwq0esLtkAdE4izNNlAD2g=="
         }
       },
       "is_incremental": false,
@@ -238,11 +238,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Aside.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Aside.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Aside.html",
-          "hash": "WO13iDQUxi2UiUknyfTK0g=="
+          "relative_path": "api/ToSic.Razor.Html5.Aside.html",
+          "hash": "5RG6kAUeisys47Z4mXv2dg=="
         }
       },
       "is_incremental": false,
@@ -250,11 +250,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Audio.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Audio.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Audio.html",
-          "hash": "+WKmzWURx1Mxi+LdxbO1PA=="
+          "relative_path": "api/ToSic.Razor.Html5.Audio.html",
+          "hash": "KHHmylC32CTjAzP+LM1G3g=="
         }
       },
       "is_incremental": false,
@@ -262,11 +262,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.B.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.B.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.B.html",
-          "hash": "knWXmz+Kw9fLbKwwiTaluA=="
+          "relative_path": "api/ToSic.Razor.Html5.B.html",
+          "hash": "zqFfPD4qUQq1iDGlM/yV/A=="
         }
       },
       "is_incremental": false,
@@ -274,11 +274,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Base.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Base.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Base.html",
-          "hash": "4zZC9dUTOvr/eg1N5szATg=="
+          "relative_path": "api/ToSic.Razor.Html5.Base.html",
+          "hash": "DnRytKJvCtkObOrXLheQ5A=="
         }
       },
       "is_incremental": false,
@@ -286,11 +286,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Bdi.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Bdi.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Bdi.html",
-          "hash": "j/WAkmwjx28q2F/tDCXc0Q=="
+          "relative_path": "api/ToSic.Razor.Html5.Bdi.html",
+          "hash": "wJ4QJfMW6TK4mH/yddR1lA=="
         }
       },
       "is_incremental": false,
@@ -298,11 +298,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Bdo.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Bdo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Bdo.html",
-          "hash": "cbWxNXM+vJDqXailDSrocw=="
+          "relative_path": "api/ToSic.Razor.Html5.Bdo.html",
+          "hash": "jF+JtCKHUjz42bWygTrOBA=="
         }
       },
       "is_incremental": false,
@@ -310,11 +310,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Blockquote.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Blockquote.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Blockquote.html",
-          "hash": "qwvvjtsIPJ2EdaBtpNY2jw=="
+          "relative_path": "api/ToSic.Razor.Html5.Blockquote.html",
+          "hash": "nWlGFZlJdHGbfoRJ4p7HbQ=="
         }
       },
       "is_incremental": false,
@@ -322,11 +322,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Br.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Br.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Br.html",
-          "hash": "Ey3Gg3EfCd4bcii/Y0qqfg=="
+          "relative_path": "api/ToSic.Razor.Html5.Br.html",
+          "hash": "fZhM0S/BTMXcg7hH9dBHOw=="
         }
       },
       "is_incremental": false,
@@ -334,11 +334,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Button.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Button.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Button.html",
-          "hash": "w84RcNqFIHj7JUyhBiNrEA=="
+          "relative_path": "api/ToSic.Razor.Html5.Button.html",
+          "hash": "9idLohQQjNDJWWpZs/vSag=="
         }
       },
       "is_incremental": false,
@@ -346,11 +346,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Canvas.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Canvas.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Canvas.html",
-          "hash": "OxyqVr3n2uTBNbjFRh4Tog=="
+          "relative_path": "api/ToSic.Razor.Html5.Canvas.html",
+          "hash": "uMdyplNwLkdJP5tuSnBVIg=="
         }
       },
       "is_incremental": false,
@@ -358,11 +358,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Caption.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Caption.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Caption.html",
-          "hash": "IBlIyHek5LkkE/e6N1nNvQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Caption.html",
+          "hash": "kagve+sKoxc0wwAgHcldNg=="
         }
       },
       "is_incremental": false,
@@ -370,11 +370,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Cite.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Cite.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Cite.html",
-          "hash": "ejIx1hv9jFPiUmsVahgVzw=="
+          "relative_path": "api/ToSic.Razor.Html5.Cite.html",
+          "hash": "AkBO9uEw0KN5GxFKWOvEfQ=="
         }
       },
       "is_incremental": false,
@@ -382,11 +382,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Code.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Code.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Code.html",
-          "hash": "G2wQpTMDlOQxsKpWGiGVqw=="
+          "relative_path": "api/ToSic.Razor.Html5.Code.html",
+          "hash": "Xemkto0X+B6dz/ClEhN7gg=="
         }
       },
       "is_incremental": false,
@@ -394,11 +394,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Col.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Col.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Col.html",
-          "hash": "5b2sJuXC3UaAqB0YZTtrsw=="
+          "relative_path": "api/ToSic.Razor.Html5.Col.html",
+          "hash": "DSXpmCz2lrQrCxbukGXZpA=="
         }
       },
       "is_incremental": false,
@@ -406,11 +406,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Colgroup.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Colgroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Colgroup.html",
-          "hash": "hr4TVmc4y2rVrSeiZHzpfA=="
+          "relative_path": "api/ToSic.Razor.Html5.Colgroup.html",
+          "hash": "yLs5bi/XkPMDccGxZ7gvQg=="
         }
       },
       "is_incremental": false,
@@ -418,11 +418,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Comment.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Comment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Comment.html",
-          "hash": "j0MYmj39zS81sc1C6gfNPw=="
+          "relative_path": "api/ToSic.Razor.Html5.Comment.html",
+          "hash": "WyJn1M0HVlgn+yESFC5bKw=="
         }
       },
       "is_incremental": false,
@@ -430,11 +430,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Data.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Data.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Data.html",
-          "hash": "6AXbJQxM2Le0hZiHPoybGw=="
+          "relative_path": "api/ToSic.Razor.Html5.Data.html",
+          "hash": "zsEMFuvBMg2BHMsCpsIjEQ=="
         }
       },
       "is_incremental": false,
@@ -442,11 +442,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Datalist.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Datalist.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Datalist.html",
-          "hash": "4DCaKzFID86YbSd89ayLSQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Datalist.html",
+          "hash": "MUsBHw7l/2aPLIl/BQlezA=="
         }
       },
       "is_incremental": false,
@@ -454,11 +454,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Dd.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Dd.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Dd.html",
-          "hash": "jlXu4g+QEzwag7M8GZeSjQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Dd.html",
+          "hash": "Ar+n0k7umu2aKqF77d2Y1g=="
         }
       },
       "is_incremental": false,
@@ -466,11 +466,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Del.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Del.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Del.html",
-          "hash": "GkDvCZWWL5urTTssOSA+TA=="
+          "relative_path": "api/ToSic.Razor.Html5.Del.html",
+          "hash": "Wh45C3muZcLu0Bah8OGatw=="
         }
       },
       "is_incremental": false,
@@ -478,11 +478,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Details.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Details.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Details.html",
-          "hash": "uoCM+82/YuEL/TCAeczPHQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Details.html",
+          "hash": "BIP9to+exm1E0YFOEAn/+A=="
         }
       },
       "is_incremental": false,
@@ -490,11 +490,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Dfn.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Dfn.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Dfn.html",
-          "hash": "+8L/IY8Ol1jC8EoFKOkSew=="
+          "relative_path": "api/ToSic.Razor.Html5.Dfn.html",
+          "hash": "Vf/qXObn8l1m4mqaF/S4Fw=="
         }
       },
       "is_incremental": false,
@@ -502,11 +502,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Dialog.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Dialog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Dialog.html",
-          "hash": "FQjz6hC+k7S2XLdmgxRl9w=="
+          "relative_path": "api/ToSic.Razor.Html5.Dialog.html",
+          "hash": "vDCHbSfSag2QaS64YFqeGQ=="
         }
       },
       "is_incremental": false,
@@ -514,11 +514,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Div.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Div.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Div.html",
-          "hash": "CKifTd2TjrxWf09bP6xGvA=="
+          "relative_path": "api/ToSic.Razor.Html5.Div.html",
+          "hash": "OdWopMspoV/3W1+5vV6Ffg=="
         }
       },
       "is_incremental": false,
@@ -526,11 +526,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Dl.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Dl.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Dl.html",
-          "hash": "lG3u9eKqgv5gMCb85GKBpQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Dl.html",
+          "hash": "dp2rraHtlEjw1+PZxd92YA=="
         }
       },
       "is_incremental": false,
@@ -538,11 +538,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Dt.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Dt.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Dt.html",
-          "hash": "bHKaO1PFaT8JB0D4tmaMkw=="
+          "relative_path": "api/ToSic.Razor.Html5.Dt.html",
+          "hash": "+h4E81VrvVpzMATy2Rv3uQ=="
         }
       },
       "is_incremental": false,
@@ -550,11 +550,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Em.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Em.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Em.html",
-          "hash": "OxNRM2z2Av2E23JCnER6pA=="
+          "relative_path": "api/ToSic.Razor.Html5.Em.html",
+          "hash": "HuQpFkTgAeiPjYrVwNRNhQ=="
         }
       },
       "is_incremental": false,
@@ -562,11 +562,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Embed.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Embed.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Embed.html",
-          "hash": "4oXfEmKcbhg1h9gbxrTYzg=="
+          "relative_path": "api/ToSic.Razor.Html5.Embed.html",
+          "hash": "hSEe4oNgAzj6QRVGcL4Eqw=="
         }
       },
       "is_incremental": false,
@@ -574,11 +574,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Fieldset.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Fieldset.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Fieldset.html",
-          "hash": "tdf3IpkS6ZVBxryA/vFRXg=="
+          "relative_path": "api/ToSic.Razor.Html5.Fieldset.html",
+          "hash": "kdyxwcIE1F6BwDiUwsKniA=="
         }
       },
       "is_incremental": false,
@@ -586,11 +586,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Figcaption.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Figcaption.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Figcaption.html",
-          "hash": "BYJTTaqzdAFj7J/ttt3kfw=="
+          "relative_path": "api/ToSic.Razor.Html5.Figcaption.html",
+          "hash": "rpCM0LgVLaSY8aVCKPqy6g=="
         }
       },
       "is_incremental": false,
@@ -598,11 +598,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Figure.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Figure.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Figure.html",
-          "hash": "cgnRlZzTqXa2SySM7qeQsg=="
+          "relative_path": "api/ToSic.Razor.Html5.Figure.html",
+          "hash": "zGCwVqTBiLD8VJfv1SJK9w=="
         }
       },
       "is_incremental": false,
@@ -610,11 +610,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Footer.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Footer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Footer.html",
-          "hash": "IGq2BPtBxW714RzztaH1ww=="
+          "relative_path": "api/ToSic.Razor.Html5.Footer.html",
+          "hash": "WWNCvjR51MkGDZIt4qCRKw=="
         }
       },
       "is_incremental": false,
@@ -622,11 +622,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Form.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Form.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Form.html",
-          "hash": "YnffN+x526N1Be2gM5dLow=="
+          "relative_path": "api/ToSic.Razor.Html5.Form.html",
+          "hash": "re1t/LSAD2ZH4xok27wV9Q=="
         }
       },
       "is_incremental": false,
@@ -634,11 +634,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.H1.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.H1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.H1.html",
-          "hash": "xSAB2cEBYZiuXp1VrLp7iA=="
+          "relative_path": "api/ToSic.Razor.Html5.H1.html",
+          "hash": "Nl2JoxIh7n2CHxh7qrNOnQ=="
         }
       },
       "is_incremental": false,
@@ -646,11 +646,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.H2.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.H2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.H2.html",
-          "hash": "yyLQg2XNVsPJo89qmMCkXw=="
+          "relative_path": "api/ToSic.Razor.Html5.H2.html",
+          "hash": "VCYWjOdAYQ8pUCTx0llRRw=="
         }
       },
       "is_incremental": false,
@@ -658,11 +658,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.H3.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.H3.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.H3.html",
-          "hash": "YDcFgyPU45tqDqFDYQKqpQ=="
+          "relative_path": "api/ToSic.Razor.Html5.H3.html",
+          "hash": "oZvCxug5On2FiJz3hd3EXg=="
         }
       },
       "is_incremental": false,
@@ -670,11 +670,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.H4.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.H4.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.H4.html",
-          "hash": "8QmJZGrwTuxkVYmtRP56dA=="
+          "relative_path": "api/ToSic.Razor.Html5.H4.html",
+          "hash": "PTCkW/riklC0msVDLMgbgA=="
         }
       },
       "is_incremental": false,
@@ -682,11 +682,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.H5.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.H5.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.H5.html",
-          "hash": "k+ywipnfX7BsaZsjeZPYXA=="
+          "relative_path": "api/ToSic.Razor.Html5.H5.html",
+          "hash": "wH3dRB+wsfO6UStNkdcr0Q=="
         }
       },
       "is_incremental": false,
@@ -694,11 +694,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.H6.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.H6.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.H6.html",
-          "hash": "/BBRzFYQ6TgiJ29tbFvtig=="
+          "relative_path": "api/ToSic.Razor.Html5.H6.html",
+          "hash": "bo9E1fWnR7PbzPnS/cvPPw=="
         }
       },
       "is_incremental": false,
@@ -706,11 +706,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Head.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Head.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Head.html",
-          "hash": "7mgOQeqDddOAd45v9RQgXg=="
+          "relative_path": "api/ToSic.Razor.Html5.Head.html",
+          "hash": "1/cTHKb0ah+b5V28XMm9uw=="
         }
       },
       "is_incremental": false,
@@ -718,11 +718,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Header.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Header.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Header.html",
-          "hash": "1wYjZ1fuX9VQduDiKwx7DA=="
+          "relative_path": "api/ToSic.Razor.Html5.Header.html",
+          "hash": "6nWx721zV7ILNmGr07JqwQ=="
         }
       },
       "is_incremental": false,
@@ -730,11 +730,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Hr.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Hr.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Hr.html",
-          "hash": "Zq6gLCGxLhtdxwDqcKmxiA=="
+          "relative_path": "api/ToSic.Razor.Html5.Hr.html",
+          "hash": "AAvZkoVR1P2Kn48u98GqxQ=="
         }
       },
       "is_incremental": false,
@@ -742,11 +742,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.I.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.I.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.I.html",
-          "hash": "ZkAHRNMu7y0fNFFa8Bt77w=="
+          "relative_path": "api/ToSic.Razor.Html5.I.html",
+          "hash": "w86wTaSWM2jAuOwdwL5xAg=="
         }
       },
       "is_incremental": false,
@@ -754,11 +754,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Icon.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Icon.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Icon.html",
-          "hash": "2oFSiFJO9X3qdYmqhjxzmw=="
+          "relative_path": "api/ToSic.Razor.Html5.Icon.html",
+          "hash": "fAEN88ZQ6eTeIBIX8/sKxw=="
         }
       },
       "is_incremental": false,
@@ -766,11 +766,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Iframe.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Iframe.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Iframe.html",
-          "hash": "4pFR/rO7pxLiXRtnZ5fqLw=="
+          "relative_path": "api/ToSic.Razor.Html5.Iframe.html",
+          "hash": "qBIUUVSuUw1ZMBgFw7/o1g=="
         }
       },
       "is_incremental": false,
@@ -778,11 +778,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Img.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Img.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Img.html",
-          "hash": "pJOA+/b6Vi+GFCjzzuaZug=="
+          "relative_path": "api/ToSic.Razor.Html5.Img.html",
+          "hash": "8SrmSibgR8ZLWKVD5yeJ4Q=="
         }
       },
       "is_incremental": false,
@@ -790,11 +790,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Input.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Input.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Input.html",
-          "hash": "hIYZop6kxL3BBhXI2rOxEw=="
+          "relative_path": "api/ToSic.Razor.Html5.Input.html",
+          "hash": "kzmEiYYbx5siAg25pMaKvQ=="
         }
       },
       "is_incremental": false,
@@ -802,11 +802,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Ins.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Ins.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Ins.html",
-          "hash": "FfCzZE3I261Tavqbv4zdAQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Ins.html",
+          "hash": "SRpiqjSe4Rk83QUK5UsDew=="
         }
       },
       "is_incremental": false,
@@ -814,11 +814,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Kbd.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Kbd.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Kbd.html",
-          "hash": "+0YMPgSf9o7hDsIyWyK50Q=="
+          "relative_path": "api/ToSic.Razor.Html5.Kbd.html",
+          "hash": "aeRJgkJqSJlkBo1mqKBaFg=="
         }
       },
       "is_incremental": false,
@@ -826,11 +826,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Label.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Label.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Label.html",
-          "hash": "PjnAJDfaqAD0291yEYo1Wg=="
+          "relative_path": "api/ToSic.Razor.Html5.Label.html",
+          "hash": "IFLNKzuh8o1xQbdlPzua6A=="
         }
       },
       "is_incremental": false,
@@ -838,11 +838,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Legend.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Legend.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Legend.html",
-          "hash": "tIUuYVNuvUkUY2ZCqMITYA=="
+          "relative_path": "api/ToSic.Razor.Html5.Legend.html",
+          "hash": "WII/dfnvoW3o+1j2LjMF4A=="
         }
       },
       "is_incremental": false,
@@ -850,11 +850,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Li.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Li.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Li.html",
-          "hash": "y14lrX94OBB/ZKL+QnsjIw=="
+          "relative_path": "api/ToSic.Razor.Html5.Li.html",
+          "hash": "B6Unv0CgXKoe+ch0e4XoQw=="
         }
       },
       "is_incremental": false,
@@ -862,11 +862,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Link.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Link.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Link.html",
-          "hash": "PGW/ZOI4PfO+g8+5vEvrjw=="
+          "relative_path": "api/ToSic.Razor.Html5.Link.html",
+          "hash": "Xhb3Zl9uEK8+pMkqlMd79g=="
         }
       },
       "is_incremental": false,
@@ -874,11 +874,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Main.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Main.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Main.html",
-          "hash": "g3ajsZO0RQX2Ra7MJgMzXQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Main.html",
+          "hash": "JlmPV2ybsT4F/FQtfl7FYQ=="
         }
       },
       "is_incremental": false,
@@ -886,11 +886,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Map.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Map.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Map.html",
-          "hash": "cEOaMv8N2ufgcbdHhPCDaQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Map.html",
+          "hash": "LR8I2ERiSoHGehxfwgN4Gw=="
         }
       },
       "is_incremental": false,
@@ -898,11 +898,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Mark.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Mark.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Mark.html",
-          "hash": "kCk9Q9GlmUab2DwAFcSrNQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Mark.html",
+          "hash": "MXVgxMuRHun8YOQ6dFpfJQ=="
         }
       },
       "is_incremental": false,
@@ -910,11 +910,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.MediaSource.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Meta.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.MediaSource.html",
-          "hash": "QTeygjK+acxOMc7hFKtXZQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Meta.html",
+          "hash": "GpIvQaOdJOSCL0jX+YYFJg=="
         }
       },
       "is_incremental": false,
@@ -922,11 +922,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Meta.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.MetaOg.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Meta.html",
-          "hash": "5etUhyqr9iklJUD+baXUAg=="
+          "relative_path": "api/ToSic.Razor.Html5.MetaOg.html",
+          "hash": "ewIHiddtjbfbWcKjnjPIsw=="
         }
       },
       "is_incremental": false,
@@ -934,11 +934,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.MetaOg.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Meter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.MetaOg.html",
-          "hash": "ynHQTJ+IPznOFQTEbJKksA=="
+          "relative_path": "api/ToSic.Razor.Html5.Meter.html",
+          "hash": "fZgXIwCycCOeMC1PWALk4Q=="
         }
       },
       "is_incremental": false,
@@ -946,11 +946,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Meter.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Nav.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Meter.html",
-          "hash": "9mupI6ETcHomVzlgsURPdQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Nav.html",
+          "hash": "ICTprwa1bTMHBKNMkR6M8A=="
         }
       },
       "is_incremental": false,
@@ -958,11 +958,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Nav.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Noscript.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Nav.html",
-          "hash": "tXLXboFTHaCw44KYvBv6Tg=="
+          "relative_path": "api/ToSic.Razor.Html5.Noscript.html",
+          "hash": "lTg8aR8IhO5WqSZYYBNU0A=="
         }
       },
       "is_incremental": false,
@@ -970,11 +970,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Noscript.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Object.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Noscript.html",
-          "hash": "ZjZD4OZwVNHoO1WSqHQA0g=="
+          "relative_path": "api/ToSic.Razor.Html5.Object.html",
+          "hash": "jkm4aenVtK8K7kfZzcLQ8w=="
         }
       },
       "is_incremental": false,
@@ -982,11 +982,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Object.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Ol.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Object.html",
-          "hash": "kbKdbAFFmHVjiw+K7keUUg=="
+          "relative_path": "api/ToSic.Razor.Html5.Ol.html",
+          "hash": "1oWG7PSzf38IT1lwCxzCzQ=="
         }
       },
       "is_incremental": false,
@@ -994,11 +994,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Ol.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Optgroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Ol.html",
-          "hash": "Hn8asu+RN+g7+3ZA2KjYKA=="
+          "relative_path": "api/ToSic.Razor.Html5.Optgroup.html",
+          "hash": "UF3gLD1a9IBit/dbKj2wrg=="
         }
       },
       "is_incremental": false,
@@ -1006,11 +1006,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Optgroup.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Option.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Optgroup.html",
-          "hash": "GQoi8lfxlR5jbAINowRhHQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Option.html",
+          "hash": "zDxLQ2jKit9zrl0nGBukRg=="
         }
       },
       "is_incremental": false,
@@ -1018,11 +1018,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Option.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Output.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Option.html",
-          "hash": "5ZDA5kkrrmSRCqZjFznxaw=="
+          "relative_path": "api/ToSic.Razor.Html5.Output.html",
+          "hash": "m2unTXhenA16E8NxHwepFw=="
         }
       },
       "is_incremental": false,
@@ -1030,11 +1030,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Output.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.P.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Output.html",
-          "hash": "0ywDIh9qOZgqDhOqszvXlw=="
+          "relative_path": "api/ToSic.Razor.Html5.P.html",
+          "hash": "zs59eNjZcfTQaoUs/GD8OA=="
         }
       },
       "is_incremental": false,
@@ -1042,11 +1042,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.P.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Param.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.P.html",
-          "hash": "ucWEeUTDjr4LWl8QAWmpXw=="
+          "relative_path": "api/ToSic.Razor.Html5.Param.html",
+          "hash": "czL7Fv06+uw3EbYBiAm5PQ=="
         }
       },
       "is_incremental": false,
@@ -1054,11 +1054,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Param.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Picture.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Param.html",
-          "hash": "TyXFZBVI1UfouZULbYbZHw=="
+          "relative_path": "api/ToSic.Razor.Html5.Picture.html",
+          "hash": "plmcyyKfZosVsr449tE7Tw=="
         }
       },
       "is_incremental": false,
@@ -1066,11 +1066,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Picture.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Pre.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Picture.html",
-          "hash": "Oy1RhAWYLTc/u6Dr80LZPw=="
+          "relative_path": "api/ToSic.Razor.Html5.Pre.html",
+          "hash": "ZFvEtkxgZJVKYPR3XmMq1g=="
         }
       },
       "is_incremental": false,
@@ -1078,11 +1078,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.PictureSource.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Progress.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.PictureSource.html",
-          "hash": "TtPdjbd98piEqwYFGC6O7g=="
+          "relative_path": "api/ToSic.Razor.Html5.Progress.html",
+          "hash": "Xr5or2JwDlAY04AImjyDMQ=="
         }
       },
       "is_incremental": false,
@@ -1090,11 +1090,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Pre.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Q.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Pre.html",
-          "hash": "54H4HI3RpfEZCI+GvwVJuA=="
+          "relative_path": "api/ToSic.Razor.Html5.Q.html",
+          "hash": "jbl2OWneTD8r5fB218FCNw=="
         }
       },
       "is_incremental": false,
@@ -1102,11 +1102,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Progress.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Rp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Progress.html",
-          "hash": "EkmwpOVsf7emW7Y9jFS+fg=="
+          "relative_path": "api/ToSic.Razor.Html5.Rp.html",
+          "hash": "M+FqCPTUa5qepiUfAqP03Q=="
         }
       },
       "is_incremental": false,
@@ -1114,11 +1114,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Q.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Rt.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Q.html",
-          "hash": "fvjRac/MKJVV+A+nion6Ww=="
+          "relative_path": "api/ToSic.Razor.Html5.Rt.html",
+          "hash": "m6wFxHgbwsWeXqEmzehL2w=="
         }
       },
       "is_incremental": false,
@@ -1126,11 +1126,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Rp.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Ruby.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Rp.html",
-          "hash": "7dUW0dLdngZP0Qu4BaxE9g=="
+          "relative_path": "api/ToSic.Razor.Html5.Ruby.html",
+          "hash": "i0pYDSF6YQyQ061N4sTVtQ=="
         }
       },
       "is_incremental": false,
@@ -1138,11 +1138,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Rt.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.S.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Rt.html",
-          "hash": "4taBZT78lCMgMQJn59m9lg=="
+          "relative_path": "api/ToSic.Razor.Html5.S.html",
+          "hash": "H6AArfUsSFFQgZwF114+FA=="
         }
       },
       "is_incremental": false,
@@ -1150,11 +1150,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Ruby.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Samp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Ruby.html",
-          "hash": "pxDcmdJWRG4lC5clBk8SyA=="
+          "relative_path": "api/ToSic.Razor.Html5.Samp.html",
+          "hash": "0Vi0UMaEeK9V7+Jveprs1A=="
         }
       },
       "is_incremental": false,
@@ -1162,11 +1162,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.S.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Script.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.S.html",
-          "hash": "DAJw/c9bpad7gaVRCzRFVw=="
+          "relative_path": "api/ToSic.Razor.Html5.Script.html",
+          "hash": "MNxBD3tEanxxC3p0hLx/yw=="
         }
       },
       "is_incremental": false,
@@ -1174,11 +1174,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Samp.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.ScriptJsonLd.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Samp.html",
-          "hash": "TrL0zCLezWyISozDq1/NeQ=="
+          "relative_path": "api/ToSic.Razor.Html5.ScriptJsonLd.html",
+          "hash": "xHjf5PpbzeZGlwJvu1dk4A=="
         }
       },
       "is_incremental": false,
@@ -1186,11 +1186,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Script.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Section.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Script.html",
-          "hash": "lX5HXO+kfLDei/81u19zRA=="
+          "relative_path": "api/ToSic.Razor.Html5.Section.html",
+          "hash": "kSgXJOOuqFPlfdF+Avj2zQ=="
         }
       },
       "is_incremental": false,
@@ -1198,11 +1198,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.ScriptJsonLd.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Select.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.ScriptJsonLd.html",
-          "hash": "+1+C4tcyCXHCMJC+qGz4dw=="
+          "relative_path": "api/ToSic.Razor.Html5.Select.html",
+          "hash": "9McPJfS2ZltXHJwVXrm94w=="
         }
       },
       "is_incremental": false,
@@ -1210,11 +1210,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Section.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Small.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Section.html",
-          "hash": "vRo760MS5zWerje6uXENhg=="
+          "relative_path": "api/ToSic.Razor.Html5.Small.html",
+          "hash": "HV2mathsXHT5nM6ak8us9A=="
         }
       },
       "is_incremental": false,
@@ -1222,11 +1222,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Select.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Source.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Select.html",
-          "hash": "qvIUQQPE89+3BE4WGvE+bQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Source.html",
+          "hash": "Qiq5G77YVxGBsJKuiQMrEw=="
         }
       },
       "is_incremental": false,
@@ -1234,11 +1234,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Small.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Span.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Small.html",
-          "hash": "0eiFU/NigtpEA6VPTD6jhg=="
+          "relative_path": "api/ToSic.Razor.Html5.Span.html",
+          "hash": "WXtdIdct7JgP0hcnC8ejpw=="
         }
       },
       "is_incremental": false,
@@ -1246,11 +1246,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Source.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Strong.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Source.html",
-          "hash": "TcjqAuGHOZsTVoRarvFD6g=="
+          "relative_path": "api/ToSic.Razor.Html5.Strong.html",
+          "hash": "2Wovy/ygnhEXzXSgdOWipA=="
         }
       },
       "is_incremental": false,
@@ -1258,11 +1258,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Span.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Style.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Span.html",
-          "hash": "8edKRRGLaY+K45rcRLzjpg=="
+          "relative_path": "api/ToSic.Razor.Html5.Style.html",
+          "hash": "T/cwBayISh+7C7mklD0cHA=="
         }
       },
       "is_incremental": false,
@@ -1270,11 +1270,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Strong.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Sub.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Strong.html",
-          "hash": "8utG7ZoZeRDm3kf3DhTVjw=="
+          "relative_path": "api/ToSic.Razor.Html5.Sub.html",
+          "hash": "/alM9fwE4b9GgOo4ze1mEw=="
         }
       },
       "is_incremental": false,
@@ -1282,11 +1282,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Style.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Summary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Style.html",
-          "hash": "QlUuxGE/mQLRwUZkSxUaPA=="
+          "relative_path": "api/ToSic.Razor.Html5.Summary.html",
+          "hash": "ZZY+fH5IVJjY1rF0/aOiyg=="
         }
       },
       "is_incremental": false,
@@ -1294,11 +1294,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Sub.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Sup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Sub.html",
-          "hash": "5+JzV/PaO+PNHVEl7Ib0rw=="
+          "relative_path": "api/ToSic.Razor.Html5.Sup.html",
+          "hash": "w5PoY0zQgTgNfOgKYcGDUQ=="
         }
       },
       "is_incremental": false,
@@ -1306,11 +1306,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Summary.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Svg.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Summary.html",
-          "hash": "ULU/7DA9Iv/NK/LZ9csFJw=="
+          "relative_path": "api/ToSic.Razor.Html5.Svg.html",
+          "hash": "z4x1ebH3WK5qV5vVRO914Q=="
         }
       },
       "is_incremental": false,
@@ -1318,11 +1318,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Sup.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Table.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Sup.html",
-          "hash": "LGSDcwrEKOUNL1zRCzaXtw=="
+          "relative_path": "api/ToSic.Razor.Html5.Table.html",
+          "hash": "fSwLtvYEbLn5rQ9kXDjjeQ=="
         }
       },
       "is_incremental": false,
@@ -1330,11 +1330,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Svg.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Tbody.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Svg.html",
-          "hash": "PLr/ujbC4v10SovlOQt9IA=="
+          "relative_path": "api/ToSic.Razor.Html5.Tbody.html",
+          "hash": "qrL9mjJB4mCfjt6kquhh2g=="
         }
       },
       "is_incremental": false,
@@ -1342,11 +1342,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Table.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Td.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Table.html",
-          "hash": "1iZsVc/AYMzOg2hT41EUJQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Td.html",
+          "hash": "fXqVge9qy5QM0dys1AvP1g=="
         }
       },
       "is_incremental": false,
@@ -1354,11 +1354,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Tbody.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Template.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Tbody.html",
-          "hash": "tHWyL7oWCQwTN4aFwyNQWw=="
+          "relative_path": "api/ToSic.Razor.Html5.Template.html",
+          "hash": "9Hc3c7qPQo792aVHJ6aopg=="
         }
       },
       "is_incremental": false,
@@ -1366,11 +1366,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Td.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Textarea.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Td.html",
-          "hash": "ZPveNpbumk7IJfIvN+2PFg=="
+          "relative_path": "api/ToSic.Razor.Html5.Textarea.html",
+          "hash": "SsSGBeK2FKET04AsX7wPSA=="
         }
       },
       "is_incremental": false,
@@ -1378,11 +1378,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Template.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Tfoot.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Template.html",
-          "hash": "FjtH3Dl2MrwkLosa5+6krQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Tfoot.html",
+          "hash": "LbX297uPgZXNicI4M8nbrA=="
         }
       },
       "is_incremental": false,
@@ -1390,11 +1390,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Textarea.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Th.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Textarea.html",
-          "hash": "95uKuX3ydPPyLkMABEeQEw=="
+          "relative_path": "api/ToSic.Razor.Html5.Th.html",
+          "hash": "mceKm3iZOsbs11f3s6YITQ=="
         }
       },
       "is_incremental": false,
@@ -1402,11 +1402,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Tfoot.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Thead.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Tfoot.html",
-          "hash": "BivpYxiNEY7/o1RjgsOANw=="
+          "relative_path": "api/ToSic.Razor.Html5.Thead.html",
+          "hash": "rCVUKjDk/DimkKtfdLDcMA=="
         }
       },
       "is_incremental": false,
@@ -1414,11 +1414,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Th.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Time.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Th.html",
-          "hash": "op1LAJzaDdMlD3JdWEgccw=="
+          "relative_path": "api/ToSic.Razor.Html5.Time.html",
+          "hash": "XNVVAuavPAP8CopMHeWnOQ=="
         }
       },
       "is_incremental": false,
@@ -1426,11 +1426,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Thead.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Tr.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Thead.html",
-          "hash": "UX3179UCJxtBZJkJNWFr3Q=="
+          "relative_path": "api/ToSic.Razor.Html5.Tr.html",
+          "hash": "fmU176Xq2j2Y/G1zL862fA=="
         }
       },
       "is_incremental": false,
@@ -1438,11 +1438,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Time.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Track.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Time.html",
-          "hash": "jxmVTAfCapg85OtQ01stOw=="
+          "relative_path": "api/ToSic.Razor.Html5.Track.html",
+          "hash": "9n/qKVJQB5F/v8lmb+gImA=="
         }
       },
       "is_incremental": false,
@@ -1450,11 +1450,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Tr.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.U.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Tr.html",
-          "hash": "f6uKEBICtz1NaoI7lgfhng=="
+          "relative_path": "api/ToSic.Razor.Html5.U.html",
+          "hash": "qxpgwctSVoqWPUR5Rfov/Q=="
         }
       },
       "is_incremental": false,
@@ -1462,11 +1462,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Track.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Ul.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Track.html",
-          "hash": "wn0TT4Du7ow+RRCaem64lQ=="
+          "relative_path": "api/ToSic.Razor.Html5.Ul.html",
+          "hash": "0FR9FmiHmuf5XJ7F3gtytw=="
         }
       },
       "is_incremental": false,
@@ -1474,11 +1474,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.U.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Var.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.U.html",
-          "hash": "gWx4ynjxj0SXYXSgIjLRxw=="
+          "relative_path": "api/ToSic.Razor.Html5.Var.html",
+          "hash": "MeQFiKp930nAOM28wP8Baw=="
         }
       },
       "is_incremental": false,
@@ -1486,11 +1486,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Ul.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Video.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Ul.html",
-          "hash": "Yd0Hg8n8y4Z7886Nobnn8w=="
+          "relative_path": "api/ToSic.Razor.Html5.Video.html",
+          "hash": "SCfrdDvYpYx/e6+8B0R/Jg=="
         }
       },
       "is_incremental": false,
@@ -1498,11 +1498,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Var.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.Wbr.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Var.html",
-          "hash": "2Rc7mT52XamfeXMUixeh6w=="
+          "relative_path": "api/ToSic.Razor.Html5.Wbr.html",
+          "hash": "yTTWGDcXFEEgwzvv3c1UdQ=="
         }
       },
       "is_incremental": false,
@@ -1510,35 +1510,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Video.yml",
+      "source_relative_path": "obj/api/ToSic.Razor.Html5.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Video.html",
-          "hash": "Bkf7Y5mbVNhYysEFozSbkw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.Wbr.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Connect.Razor.Html5.Wbr.html",
-          "hash": "uye873ahgOEqotzUEi6Umg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Connect.Razor.Html5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Connect.Razor.Html5.html",
-          "hash": "o880w5agFXmQrQCCcA0RsA=="
+          "relative_path": "api/ToSic.Razor.Html5.html",
+          "hash": "RgdgOrS7dIqnQsDfJtFrVw=="
         }
       },
       "is_incremental": false,
@@ -1550,7 +1526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "fyHplFMWZOBVWohm/2+6Ig=="
+          "hash": "iD4QwSn9EosN9muNcD9+2Q=="
         }
       },
       "is_incremental": false,
@@ -1580,18 +1556,17 @@
         "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 120,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -1600,10 +1575,11 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 122,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }

@@ -1,0 +1,44 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="ToSic.Razor" type="Library" version="02.99.00">
+      <friendlyName>ToSic RazorBlade.net</friendlyName>
+      <description>RazorBlade.net</description>
+      <iconFile>icon.png</iconFile>
+      <owner>
+        <name>2sic/2sxc</name>
+        <organization>2sic.com</organization>
+        <url>https://razor-blade.net</url>
+        <email>info@2sxc.org</email>
+      </owner>
+      <license src="razorblade\License.txt"></license>
+      <releaseNotes src="razorblade\ReleaseNotes.txt"></releaseNotes>
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">07.00.02</dependency>
+      </dependencies>
+
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules\ToSic.Razor\</basePath>
+            <resourceFile>
+              <name>razorblade\Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>ToSic.Razor.dll</name>
+              <path>bin</path>
+            </assembly>
+            <assembly>
+              <name>ToSic.Razor.Dnn.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

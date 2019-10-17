@@ -1,7 +1,7 @@
 
-using Connect.Razor.Blade;
-using Connect.Razor.Html5;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
+using ToSic.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -17,7 +17,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Helper to quickly generate all HTML5 tags with a Tag.Img(...) syntax

@@ -1,6 +1,6 @@
 using System;
-using Connect.Razor.Blade;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -16,7 +16,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
 
     /// <summary>
@@ -25,7 +25,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Embed object with all the attributes available in that tag
     /// </returns>
-    public partial class Embed : Connect.Razor.Html.Tag
+    public partial class Embed : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -115,7 +115,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Noscript object with all the attributes available in that tag
     /// </returns>
-    public partial class Noscript : Connect.Razor.Html.Tag
+    public partial class Noscript : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -146,7 +146,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Object object with all the attributes available in that tag
     /// </returns>
-    public partial class Object : Connect.Razor.Html.Tag
+    public partial class Object : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -269,7 +269,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Param object with all the attributes available in that tag
     /// </returns>
-    public partial class Param : Connect.Razor.Html.Tag
+    public partial class Param : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -322,7 +322,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Script object with all the attributes available in that tag
     /// </returns>
-    public partial class Script : Connect.Razor.Html.Tag
+    public partial class Script : ToSic.Razor.Html.Tag
     {
     
     /// <summary>

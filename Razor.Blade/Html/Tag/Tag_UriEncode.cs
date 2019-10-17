@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Connect.Razor.Html
+namespace ToSic.Razor.Html
 {
     public partial class Tag
     {

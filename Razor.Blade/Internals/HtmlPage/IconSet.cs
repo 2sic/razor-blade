@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Connect.Razor.Html5;
+using ToSic.Razor.Html5;
 
-namespace Connect.Razor.Internals.HtmlPage
+namespace ToSic.Razor.Internals.HtmlPage
 {
     internal class IconSet
     {

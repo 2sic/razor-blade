@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-using Connect.Razor.Blade;
+using ToSic.Razor.Blade;
 
 namespace Razor_Blades_Tests
 {

@@ -1,4 +1,4 @@
-﻿namespace Connect.Razor.Blade
+﻿namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Many simple commands to work with Text inside HTML

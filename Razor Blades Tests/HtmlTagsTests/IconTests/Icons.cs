@@ -1,5 +1,5 @@
-﻿using Connect.Razor.Html5;
-using Connect.Razor.Internals.Mime;
+﻿using ToSic.Razor.Html5;
+using ToSic.Razor.Internals.Mime;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.HtmlTagsTests.IconTests

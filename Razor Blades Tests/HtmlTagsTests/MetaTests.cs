@@ -1,5 +1,5 @@
-﻿using Connect.Razor.Blade;
-using Connect.Razor.Html5;
+﻿using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.HtmlTagsTests

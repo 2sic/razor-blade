@@ -1,4 +1,4 @@
-﻿using Connect.Razor.Html;
+﻿using ToSic.Razor.Html;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.InternalTests

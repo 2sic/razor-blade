@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Dynamic;
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     // not for public use yes, so internal
     internal static partial class Dic

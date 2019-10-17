@@ -2,10 +2,10 @@ apiRules:
 - exclude:
     uidRegex: ^System\.Object
 - exclude:
-    uidRegex: ^Connect\.Razor\.Dnn
+    uidRegex: ^ToSic\.Razor\.Dnn
 - exclude: 
-    uidRegex: ^Connect\.Razor\.Html$
+    uidRegex: ^ToSic\.Razor\.Html$
 - exclude: 
-    uidRegex: ^Connect\.Razor\.Interfaces
+    uidRegex: ^ToSic\.Razor\.Interfaces
 - exclude: 
-    uidRegex: ^Connect\.Razor\.Internals
+    uidRegex: ^ToSic\.Razor\.Internals

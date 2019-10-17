@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Connect.Razor.Html;
+using ToSic.Razor.Html;
 
-namespace Connect.Razor.Html
+namespace ToSic.Razor.Html
 {
     public class ChildTags: List<Tag>
     {

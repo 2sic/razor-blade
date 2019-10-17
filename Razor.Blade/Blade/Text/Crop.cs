@@ -1,7 +1,7 @@
-﻿using Connect.Razor.Internals;
+﻿using ToSic.Razor.Internals;
 // ReSharper disable UnusedMember.Global
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     public static partial class Text
     {

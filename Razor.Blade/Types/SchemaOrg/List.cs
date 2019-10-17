@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Connect.Razor.Types.SchemaOrg
+namespace ToSic.Razor.Types.SchemaOrg
 {
     /// <summary>
     /// Helper Type to keep code shorter when creating JSON LD data

@@ -1,6 +1,6 @@
 using System;
-using Connect.Razor.Blade;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -16,7 +16,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
 
     /// <summary>
@@ -25,7 +25,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Button object with all the attributes available in that tag
     /// </returns>
-    public partial class Button : Connect.Razor.Html.Tag
+    public partial class Button : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -198,7 +198,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Datalist object with all the attributes available in that tag
     /// </returns>
-    public partial class Datalist : Connect.Razor.Html.Tag
+    public partial class Datalist : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -229,7 +229,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Fieldset object with all the attributes available in that tag
     /// </returns>
-    public partial class Fieldset : Connect.Razor.Html.Tag
+    public partial class Fieldset : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -300,7 +300,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Form object with all the attributes available in that tag
     /// </returns>
-    public partial class Form : Connect.Razor.Html.Tag
+    public partial class Form : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -426,7 +426,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Input object with all the attributes available in that tag
     /// </returns>
-    public partial class Input : Connect.Razor.Html.Tag
+    public partial class Input : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -837,7 +837,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Label object with all the attributes available in that tag
     /// </returns>
-    public partial class Label : Connect.Razor.Html.Tag
+    public partial class Label : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -890,7 +890,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Legend object with all the attributes available in that tag
     /// </returns>
-    public partial class Legend : Connect.Razor.Html.Tag
+    public partial class Legend : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -921,7 +921,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Optgroup object with all the attributes available in that tag
     /// </returns>
-    public partial class Optgroup : Connect.Razor.Html.Tag
+    public partial class Optgroup : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -981,7 +981,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Option object with all the attributes available in that tag
     /// </returns>
-    public partial class Option : Connect.Razor.Html.Tag
+    public partial class Option : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -1070,7 +1070,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Output object with all the attributes available in that tag
     /// </returns>
-    public partial class Output : Connect.Razor.Html.Tag
+    public partial class Output : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -1134,7 +1134,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Select object with all the attributes available in that tag
     /// </returns>
-    public partial class Select : Connect.Razor.Html.Tag
+    public partial class Select : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -1270,7 +1270,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Textarea object with all the attributes available in that tag
     /// </returns>
-    public partial class Textarea : Connect.Razor.Html.Tag
+    public partial class Textarea : ToSic.Razor.Html.Tag
     {
     
     /// <summary>

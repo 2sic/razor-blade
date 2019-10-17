@@ -1,4 +1,4 @@
-﻿namespace Connect.Razor.Internals
+﻿namespace ToSic.Razor.Internals
 {
     internal static class Defaults
     {

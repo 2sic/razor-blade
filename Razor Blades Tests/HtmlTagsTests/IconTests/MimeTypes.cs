@@ -1,4 +1,4 @@
-﻿using Connect.Razor.Internals.Mime;
+﻿using ToSic.Razor.Internals.Mime;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.HtmlTagsTests.IconTests

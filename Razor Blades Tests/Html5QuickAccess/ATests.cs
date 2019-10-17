@@ -1,5 +1,5 @@
-﻿using Connect.Razor.Blade;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Blade;
 
 namespace Razor_Blades_Tests.Html5QuickAccess
 {

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     public static partial class Text
     {

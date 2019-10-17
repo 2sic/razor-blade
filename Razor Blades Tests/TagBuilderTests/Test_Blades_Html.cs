@@ -1,4 +1,4 @@
-﻿using Connect.Razor.Blade;
+﻿using ToSic.Razor.Blade;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Razor_Blades_Tests.TagBuilderTests

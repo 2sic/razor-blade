@@ -1,5 +1,5 @@
 ﻿
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Encode a string for placing in the source of html or an attribute

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Connect.Razor.Internals;
-using Connect.Razor.Html5;
+using ToSic.Razor.Internals;
+using ToSic.Razor.Html5;
 
-namespace Connect.Razor.Dnn
+namespace ToSic.Razor.Dnn
 {
     public partial class DnnHtmlPage
     {

@@ -1,5 +1,5 @@
 ﻿#if NET40
-using Connect.Razor.Html;
+using ToSic.Razor.Html;
 using IHtmlString = System.Web.IHtmlString;
 using HtmlString = System.Web.HtmlString;
 #else
@@ -10,7 +10,7 @@ using System.IO;
 #endif
 
 
-namespace Connect.Razor.Html
+namespace ToSic.Razor.Html
 {
     public partial class Tag: IHtmlString
     {

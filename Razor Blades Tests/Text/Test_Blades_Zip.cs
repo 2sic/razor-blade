@@ -11,7 +11,7 @@ namespace Razor_Blades_Tests.Text
         {
             var message = "This is a   teaser for something";
             var expected = "This is a teaser for something";
-            Assert.AreEqual(expected, Connect.Razor.Blade.Text.Zip(message), "multiple spaces must go");
+            Assert.AreEqual(expected, ToSic.Razor.Blade.Text.Zip(message), "multiple spaces must go");
         }
         
         [TestMethod]
@@ -19,7 +19,7 @@ namespace Razor_Blades_Tests.Text
         {
             var message = "This is a \n  teaser\n for something";
             var expected = "This is a teaser for something";
-            Assert.AreEqual(expected, Connect.Razor.Blade.Text.Zip(message), "multiple spaces must go");
+            Assert.AreEqual(expected, ToSic.Razor.Blade.Text.Zip(message), "multiple spaces must go");
         }
 
     }

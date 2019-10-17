@@ -1,6 +1,6 @@
-﻿using Connect.Razor.Html;
+﻿using ToSic.Razor.Html;
 
-namespace Connect.Razor.Html
+namespace ToSic.Razor.Html
 {
     public partial class Tag
     {

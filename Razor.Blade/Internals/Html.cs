@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Connect.Razor.Internals
+namespace ToSic.Razor.Internals
 {
     internal class Html
     {

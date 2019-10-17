@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Connect.Razor.Html;
+using ToSic.Razor.Html;
 #if NET40
 using IHtmlString = System.Web.IHtmlString;
 #else
@@ -7,7 +7,7 @@ using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
 using HtmlEncoder = System.Text.Encodings.Web.HtmlEncoder;
 #endif
 
-namespace Connect.Razor.Html
+namespace ToSic.Razor.Html
 {
     public class AttributeList: AttributeListBase, IHtmlString
     {

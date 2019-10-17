@@ -7,14 +7,14 @@ These docs are meant for programmers using [RazorBlade](https://github.com/DNN-C
 
 ## What you're probably looking for
 
-1. [APIs for **Text**](xref:Connect.Razor.Blade.Text) with commands like  
+1. [APIs for **Text**](xref:ToSic.Razor.Blade.Text) with commands like  
 	`Crop(...)`, `Ellipsis(...)`, `First(...)`, `Has(...)`, `Zip(...)`
-1. [API for **Tags**](xref:Connect.Razor.Blade.Tags) with commands like
+1. [API for **Tags**](xref:ToSic.Razor.Blade.Tags) with commands like
    1. Text to HTML conversions: `Br2Nl(...)`, `Br2Space(...)`, `Decode(...)`, `Encode(...)`, `Nl2Br(...)`, ...
    1. Html generators: `Attribute(...)`, `Attributes(...)`, `Tag(...)`
-1. [API for **Tag**](xref:Connect.Razor.Blade.Tag) with all known html5 tags like  
+1. [API for **Tag**](xref:ToSic.Razor.Blade.Tag) with all known html5 tags like  
    `A(...)`, `Abbr(...)`, `Address(...)`, `Area(...)` all the way to `Wbr(...)`
-1. [API for **HtmlPage**](xref:Connect.Razor.Blade.HtmlPage) with
+1. [API for **HtmlPage**](xref:ToSic.Razor.Blade.HtmlPage) with
   1. Page properties (get/set): `Description`, `Keywords`, `Title`, ...
   1. Methods to add headers: `AddIcon(...)`, `AddIconSet(...)`, `AddJsonLd(...)`, `AddMeta(...)`, ...
    

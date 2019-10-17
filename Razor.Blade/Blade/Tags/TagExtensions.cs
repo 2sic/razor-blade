@@ -1,6 +1,6 @@
 ﻿// ReSharper disable RedundantArgumentDefaultValue
 
-namespace Connect.Razor.Blade
+namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Helper commands to enable fluid coding with tags.

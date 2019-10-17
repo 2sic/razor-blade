@@ -1,8 +1,8 @@
-﻿using Connect.Razor.Blade;
-using Connect.Razor.Html;
-using Connect.Razor.Internals.Mime;
+﻿using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
+using ToSic.Razor.Internals.Mime;
 
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
     /// <summary>
     /// Generate a standard HTML5 &lt;link&gt; tag with properties an icon needs

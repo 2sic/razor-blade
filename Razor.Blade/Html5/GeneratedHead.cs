@@ -1,6 +1,6 @@
 using System;
-using Connect.Razor.Blade;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -16,7 +16,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
 
     /// <summary>
@@ -25,7 +25,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Base object with all the attributes available in that tag
     /// </returns>
-    public partial class Base : Connect.Razor.Html.Tag
+    public partial class Base : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -79,7 +79,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Head object with all the attributes available in that tag
     /// </returns>
-    public partial class Head : Connect.Razor.Html.Tag
+    public partial class Head : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
@@ -110,7 +110,7 @@ namespace Connect.Razor.Html5
     /// <returns>
     /// A Meta object with all the attributes available in that tag
     /// </returns>
-    public partial class Meta : Connect.Razor.Html.Tag
+    public partial class Meta : ToSic.Razor.Html.Tag
     {
     
     /// <summary>
