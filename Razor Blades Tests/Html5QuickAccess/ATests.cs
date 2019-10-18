@@ -18,24 +18,24 @@ namespace Razor_Blades_Tests.Html5QuickAccess
         //public void TrChaining()
         //{
         //    Is("<table><tr></tr></table>",
-        //        Tag.Table(Tag.Tr()));
+        //        TagBase.Table(TagBase.Tr()));
         //    Is("<table><tr></tr><tr></tr></table>",
-        //        Tag.Table(Tag.Tr(), Tag.Tr()));
+        //        TagBase.Table(TagBase.Tr(), TagBase.Tr()));
         //    Is("<table><tr><td></td></tr></table>",
-        //        Tag.Table(
-        //            Tag.Tr(
-        //                Tag.Td()
+        //        TagBase.Table(
+        //            TagBase.Tr(
+        //                TagBase.Td()
         //            )
         //        )
         //    );
 
         //    Is("<table><tr><td></td></tr><tr><td></td></tr></table>",
-        //        Tag.Table(
-        //            Tag.Tr(
-        //                Tag.Td()
+        //        TagBase.Table(
+        //            TagBase.Tr(
+        //                TagBase.Td()
         //            ),
-        //            Tag.Tr(
-        //                Tag.Td()
+        //            TagBase.Tr(
+        //                TagBase.Td()
         //            )
         //        )
 

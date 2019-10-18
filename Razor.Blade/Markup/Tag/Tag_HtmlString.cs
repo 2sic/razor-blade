@@ -12,7 +12,7 @@ using System.IO;
 
 namespace ToSic.Razor.Markup
 {
-    public partial class Tag: IHtmlString
+    public partial class TagBase: IHtmlString
     {
 
 #if NET40

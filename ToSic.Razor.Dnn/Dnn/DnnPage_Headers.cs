@@ -3,7 +3,7 @@ using System.Web.UI.HtmlControls;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Internals;
-using Tag = ToSic.Razor.Markup.Tag;
+using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Dnn
 {
@@ -28,7 +28,7 @@ namespace ToSic.Razor.Dnn
         /// Add a tag to the header
         /// </summary>
         /// <param name="tag"></param>
-        public void AddToHead(Tag tag) => AddToHead(tag?.ToString());
+        public void AddToHead(TagBase tag) => AddToHead(tag?.ToString());
 
         /// <summary>
         /// Generate and add a meta-tag

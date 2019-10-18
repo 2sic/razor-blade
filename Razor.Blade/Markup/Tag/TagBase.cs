@@ -3,12 +3,12 @@
     /// <summary>
     /// A generic tag object - used to create any kind of tag
     /// </summary>
-    public partial class Tag
+    public partial class TagBase
     {
         #region Constructors
-        private Tag() { }
+        private TagBase() { }
 
-        public Tag(string name = null, TagOptions options = null)
+        public TagBase(string name = null, TagOptions options = null)
         {
             TagOptions = options;
             if (name?.Contains("<") ?? false)
@@ -17,22 +17,22 @@
                 TagName = name;
         }
 
-        public Tag(string name, object content, TagOptions options = null)
+        public TagBase(string name, object content, TagOptions options = null)
             : this(name, options)
         {
             if (content != null)
                 TagChildren.Replace(content);
         }
 
-        internal Tag(string name, TagOptions options, object[] content) : this(name, options)
+        internal TagBase(string name, TagOptions options, object[] content) : this(name, options)
         {
             if(content.Length > 0)
                 TagChildren.Replace(content);
         }
         #endregion
 
-        internal static Tag Text(string text)
-            => new Tag { TagOverride = text };
+        internal static TagBase Text(string text)
+            => new TagBase { TagOverride = text };
 
         /// <summary>
         /// The tag name
@@ -40,7 +40,7 @@
         public string TagName;
 
         /// <summary>
-        /// Tag serialization options, like what quotes to use
+        /// TagBase serialization options, like what quotes to use
         /// If null, will use defaults
         /// </summary>
         internal TagOptions TagOptions;
@@ -52,16 +52,16 @@
         /// </summary>
         /// <param name="child"></param>
         /// <returns></returns>
-        internal static Tag EnsureTag(object child)
+        internal static TagBase EnsureTag(object child)
         {
             switch (child)
             {
                 case string text:
                     return Text(text);
-                case Tag tag:
+                case TagBase tag:
                     return tag;
                 default:
-                    return new Tag();
+                    return new TagBase();
             }
         }
 

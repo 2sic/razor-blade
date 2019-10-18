@@ -4,23 +4,23 @@ using System.Linq;
 
 namespace ToSic.Razor.Markup
 {
-    public class ChildTags: List<Tag>
+    public class ChildTags: List<TagBase>
     {
         public void Add(object child)
         {
             // if it's a classic tag list - everything is ok
-            if (child is IEnumerable<Tag> list)
+            if (child is IEnumerable<TagBase> list)
                 AddRange(list);
 
             // otherwise check if it's a list, but exclude strings,
             // because otherwise it will try to enumerate each character
             else if(!(child is string) && child is IEnumerable nonTagList)
                 foreach (var item in nonTagList)
-                    base.Add(Tag.EnsureTag(item));
+                    base.Add(TagBase.EnsureTag(item));
             
             // last case: string or tag, just add
             else
-                base.Add(Tag.EnsureTag(child));
+                base.Add(TagBase.EnsureTag(child));
         }
 
         public void Replace(object child)

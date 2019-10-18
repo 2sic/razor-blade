@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using ToSic.Razor.Internals;
-using Tag = ToSic.Razor.Markup.Tag;
+using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Interfaces
 {
@@ -39,7 +39,7 @@ namespace ToSic.Razor.Interfaces
         /// </summary>
         /// <param name="tag"></param>
         /// <remarks>New in 2.1</remarks>
-        void AddToHead(Tag tag);
+        void AddToHead(TagBase tag);
 
         /// <summary>
         /// Add a standard meta header tag.

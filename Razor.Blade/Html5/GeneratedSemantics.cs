@@ -1,12 +1,11 @@
 using System;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Markup;
-using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:52
+// Created 18.10.2019 17:57
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -26,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Article object with all the attributes available in that tag
     /// </returns>
-    public partial class Article : ToSic.Razor.Markup.Tag
+    public partial class Article : TagBase
     {
     
     /// <summary>
@@ -57,7 +56,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Aside object with all the attributes available in that tag
     /// </returns>
-    public partial class Aside : ToSic.Razor.Markup.Tag
+    public partial class Aside : TagBase
     {
     
     /// <summary>
@@ -88,7 +87,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Data object with all the attributes available in that tag
     /// </returns>
-    public partial class Data : ToSic.Razor.Markup.Tag
+    public partial class Data : TagBase
     {
     
     /// <summary>
@@ -137,7 +136,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Details object with all the attributes available in that tag
     /// </returns>
-    public partial class Details : ToSic.Razor.Markup.Tag
+    public partial class Details : TagBase
     {
     
     /// <summary>
@@ -186,7 +185,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Dialog object with all the attributes available in that tag
     /// </returns>
-    public partial class Dialog : ToSic.Razor.Markup.Tag
+    public partial class Dialog : TagBase
     {
     
     /// <summary>
@@ -235,7 +234,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Div object with all the attributes available in that tag
     /// </returns>
-    public partial class Div : ToSic.Razor.Markup.Tag
+    public partial class Div : TagBase
     {
     
     /// <summary>
@@ -266,7 +265,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Footer object with all the attributes available in that tag
     /// </returns>
-    public partial class Footer : ToSic.Razor.Markup.Tag
+    public partial class Footer : TagBase
     {
     
     /// <summary>
@@ -297,7 +296,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Header object with all the attributes available in that tag
     /// </returns>
-    public partial class Header : ToSic.Razor.Markup.Tag
+    public partial class Header : TagBase
     {
     
     /// <summary>
@@ -328,7 +327,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Main object with all the attributes available in that tag
     /// </returns>
-    public partial class Main : ToSic.Razor.Markup.Tag
+    public partial class Main : TagBase
     {
     
     /// <summary>
@@ -359,7 +358,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Section object with all the attributes available in that tag
     /// </returns>
-    public partial class Section : ToSic.Razor.Markup.Tag
+    public partial class Section : TagBase
     {
     
     /// <summary>
@@ -390,7 +389,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Span object with all the attributes available in that tag
     /// </returns>
-    public partial class Span : ToSic.Razor.Markup.Tag
+    public partial class Span : TagBase
     {
     
     /// <summary>
@@ -421,7 +420,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Style object with all the attributes available in that tag
     /// </returns>
-    public partial class Style : ToSic.Razor.Markup.Tag
+    public partial class Style : TagBase
     {
     
     /// <summary>
@@ -474,7 +473,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Summary object with all the attributes available in that tag
     /// </returns>
-    public partial class Summary : ToSic.Razor.Markup.Tag
+    public partial class Summary : TagBase
     {
     
     /// <summary>

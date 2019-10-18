@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tag = ToSic.Razor.Markup.Tag;
+using ToSic.Razor.Markup;
 
 namespace Razor_Blades_Tests.TagTests
 {
@@ -9,9 +9,9 @@ namespace Razor_Blades_Tests.TagTests
         [TestMethod]
         public void VeryBasic()
         {
-            Is("<div></div>", new Tag("div"));
-            Is("<strong></strong>", new Tag{TagName = "strong"});
-            Is("<strong>...</strong>", new Tag { TagName = "strong", TagContents = "..."});
+            Is("<div></div>", new TagBase("div"));
+            Is("<strong></strong>", new TagBase{TagName = "strong"});
+            Is("<strong>...</strong>", new TagBase { TagName = "strong", TagContents = "..."});
         }
     }
 }

@@ -1,12 +1,11 @@
 using System;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Markup;
-using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:52
+// Created 18.10.2019 17:57
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -26,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Area object with all the attributes available in that tag
     /// </returns>
-    public partial class Area : ToSic.Razor.Markup.Tag
+    public partial class Area : TagBase
     {
     
     /// <summary>
@@ -57,7 +56,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Canvas object with all the attributes available in that tag
     /// </returns>
-    public partial class Canvas : ToSic.Razor.Markup.Tag
+    public partial class Canvas : TagBase
     {
     
     /// <summary>
@@ -124,7 +123,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Img object with all the attributes available in that tag
     /// </returns>
-    public partial class Img : ToSic.Razor.Markup.Tag
+    public partial class Img : TagBase
     {
     
     /// <summary>
@@ -280,7 +279,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Map object with all the attributes available in that tag
     /// </returns>
-    public partial class Map : ToSic.Razor.Markup.Tag
+    public partial class Map : TagBase
     {
     
     /// <summary>
@@ -322,7 +321,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Picture object with all the attributes available in that tag
     /// </returns>
-    public partial class Picture : ToSic.Razor.Markup.Tag
+    public partial class Picture : TagBase
     {
     
     /// <summary>
@@ -353,7 +352,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Svg object with all the attributes available in that tag
     /// </returns>
-    public partial class Svg : ToSic.Razor.Markup.Tag
+    public partial class Svg : TagBase
     {
     
     /// <summary>

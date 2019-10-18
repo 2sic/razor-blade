@@ -60,7 +60,7 @@ namespace ToSic.Razor.Markup
         }
 
         public void AddUrl(string name, object value = null, string appendSeparator = null) 
-            => Add(name, Tag.UriEncode(value?.ToString()), appendSeparator);
+            => Add(name, TagBase.UriEncode(value?.ToString()), appendSeparator);
 
         private static void ReplaceOrAppendValue(AttributeBase attrib, object value, bool replace, string separator)
         {

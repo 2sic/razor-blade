@@ -10,23 +10,23 @@ namespace Razor_Blades_Tests.TagTests
         public void RealTags()
         {
             var text = "<div>";
-            Is(text, new Tag(text));
+            Is(text, new TagBase(text));
             text = "<div id='7'>text</div>";
-            Is(text, new Tag(text));
+            Is(text, new TagBase(text));
         }
 
         [TestMethod]
         public void Comment()
         {
             var text = "<!-- comment -->";
-            Is(text, new Tag(text));
+            Is(text, new TagBase(text));
         }
 
         [TestMethod]
         public void Text()
         {
             var text = "div";
-            Is(text, Tag.Text(text));
+            Is(text, TagBase.Text(text));
         }
     }
 

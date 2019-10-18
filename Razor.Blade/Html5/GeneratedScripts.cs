@@ -1,12 +1,11 @@
 using System;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Markup;
-using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:52
+// Created 18.10.2019 17:57
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -26,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Embed object with all the attributes available in that tag
     /// </returns>
-    public partial class Embed : ToSic.Razor.Markup.Tag
+    public partial class Embed : TagBase
     {
     
     /// <summary>
@@ -116,7 +115,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Noscript object with all the attributes available in that tag
     /// </returns>
-    public partial class Noscript : ToSic.Razor.Markup.Tag
+    public partial class Noscript : TagBase
     {
     
     /// <summary>
@@ -147,7 +146,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Object object with all the attributes available in that tag
     /// </returns>
-    public partial class Object : ToSic.Razor.Markup.Tag
+    public partial class Object : TagBase
     {
     
     /// <summary>
@@ -270,7 +269,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Param object with all the attributes available in that tag
     /// </returns>
-    public partial class Param : ToSic.Razor.Markup.Tag
+    public partial class Param : TagBase
     {
     
     /// <summary>
@@ -323,7 +322,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Script object with all the attributes available in that tag
     /// </returns>
-    public partial class Script : ToSic.Razor.Markup.Tag
+    public partial class Script : TagBase
     {
     
     /// <summary>

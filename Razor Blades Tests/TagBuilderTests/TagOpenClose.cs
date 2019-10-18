@@ -10,21 +10,21 @@ namespace Razor_Blades_Tests.TagBuilderTests
         [TestMethod]
         public void CloseSimpleTags()
         {
-            Assert.AreEqual("</p>", new Tag("p").Close.ToString());
-            Assert.AreEqual("</em>", new Tag("em").Close.ToString());
-            Assert.AreEqual("</EM>", new Tag("EM").Close.ToString());
-            Assert.AreEqual("</ng-template>", new Tag("ng-template").Close.ToString());
+            Assert.AreEqual("</p>", new TagBase("p").Close.ToString());
+            Assert.AreEqual("</em>", new TagBase("em").Close.ToString());
+            Assert.AreEqual("</EM>", new TagBase("EM").Close.ToString());
+            Assert.AreEqual("</ng-template>", new TagBase("ng-template").Close.ToString());
         }
 
         [TestMethod]
         public void OpenCloseEmptyTags()
         {
-            Assert.AreEqual("", new Tag("").Close.ToString());
-            Assert.AreEqual("", new Tag(" ").Close.ToString());
-            Assert.AreEqual("", new Tag(null).Close.ToString());
-            Assert.AreEqual("", new Tag("").Open.ToString());
-            Assert.AreEqual("", new Tag(" ").Open.ToString());
-            Assert.AreEqual("", new Tag(null).Open.ToString());
+            Assert.AreEqual("", new TagBase("").Close.ToString());
+            Assert.AreEqual("", new TagBase(" ").Close.ToString());
+            Assert.AreEqual("", new TagBase(null).Close.ToString());
+            Assert.AreEqual("", new TagBase("").Open.ToString());
+            Assert.AreEqual("", new TagBase(" ").Open.ToString());
+            Assert.AreEqual("", new TagBase(null).Open.ToString());
         }
 
         

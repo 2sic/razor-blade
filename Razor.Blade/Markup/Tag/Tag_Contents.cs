@@ -1,6 +1,6 @@
 ﻿namespace ToSic.Razor.Markup
 {
-    public partial class Tag
+    public partial class TagBase
     {
         public ChildTags TagChildren => _children ?? (_children = new ChildTags());
         private ChildTags _children;

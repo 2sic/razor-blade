@@ -6,7 +6,7 @@
     public class ScriptJsonLd : Script
     {
         /// <summary>
-        /// Create a JsonLd Script-Tag 
+        /// Create a JsonLd Script-TagBase 
         /// </summary>
         /// <param name="content">the contents in the tag</param>
         internal ScriptJsonLd(string content)

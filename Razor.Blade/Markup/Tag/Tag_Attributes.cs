@@ -1,6 +1,6 @@
 ﻿namespace ToSic.Razor.Markup
 {
-    public partial class Tag
+    public partial class TagBase
     {
         /// <summary>
         /// All attributes of this tag

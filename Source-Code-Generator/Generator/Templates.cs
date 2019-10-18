@@ -8,7 +8,6 @@ namespace SourceCodeGenerator.Generator
             @"using System;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Markup;
-using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -36,7 +35,6 @@ namespace ToSic.Razor.Html5
 using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
-using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify

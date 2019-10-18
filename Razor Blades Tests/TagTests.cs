@@ -1,14 +1,14 @@
 ﻿using System.Linq;
 using System.Web;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tag = ToSic.Razor.Markup.Tag;
+using ToSic.Razor.Markup;
 
 namespace Razor_Blades_Tests
 {
     public class TagTestBase
 
     {
-        public void Is(string expected, Tag result, string message = null)
+        public void Is(string expected, TagBase result, string message = null)
         {
             Is(expected, result.ToString(), message);
             //Assert.AreEqual(expected, result.ToString(), message);

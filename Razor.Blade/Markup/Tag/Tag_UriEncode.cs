@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Markup
 {
-    public partial class Tag
+    public partial class TagBase
     {
         internal static string UriEncode(string url)
         {
