@@ -25,6 +25,11 @@ namespace Razor_Blades_Tests.HtmlTagsTests
         }
 
         [TestMethod]
+        public void ImgWithUnexpectedContent()
+            => Is("<img src='abc%20def.jpg'>content</img>", Tag.Img("content").Src("abc def.jpg"));
+
+
+        [TestMethod]
         public void ImgWithSpace() 
             => Is("<img src='abc%20def.jpg'>", Tag.Img().Src("abc def.jpg"));
 
