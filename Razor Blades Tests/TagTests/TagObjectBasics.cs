@@ -10,8 +10,8 @@ namespace Razor_Blades_Tests.TagTests
         public void VeryBasic()
         {
             Is("<div></div>", new TagBase("div"));
-            Is("<strong></strong>", new TagBase{TagName = "strong"});
-            Is("<strong>...</strong>", new TagBase { TagName = "strong", TagContents = "..."});
+            Is("<strong></strong>", new TagBase( "strong"));
+            Is("<strong>...</strong>", new TagBase("strong"){ TagContents = "..."});
         }
     }
 }

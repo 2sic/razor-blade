@@ -1,14 +1,16 @@
-﻿namespace ToSic.Razor.Markup
+﻿using ToSic.Razor.Interfaces;
+
+namespace ToSic.Razor.Markup
 {
     /// <summary>
     /// A generic tag object - used to create any kind of tag
     /// </summary>
-    public partial class TagBase
+    public partial class TagBase : ITag
     {
         #region Constructors
         private TagBase() { }
 
-        public TagBase(string name = null, TagOptions options = null)
+        internal TagBase(string name = null, TagOptions options = null)
         {
             TagOptions = options;
             if (name?.Contains("<") ?? false)
@@ -17,7 +19,7 @@
                 TagName = name;
         }
 
-        public TagBase(string name, object content, TagOptions options = null)
+        internal TagBase(string name, object content, TagOptions options = null)
             : this(name, options)
         {
             if (content != null)
@@ -34,10 +36,8 @@
         internal static TagBase Text(string text)
             => new TagBase { TagOverride = text };
 
-        /// <summary>
-        /// The tag name
-        /// </summary>
-        public string TagName;
+        /// <inheritdoc cref="TagName"/>
+        public string TagName { get; }
 
         /// <summary>
         /// TagBase serialization options, like what quotes to use
@@ -68,6 +68,7 @@
         /// <summary>
         /// Gets the HTML encoded value.
         /// </summary>
+        /// <inheritdoc cref="ITag" />
         public override string ToString() => ToString(RealOptions);
 
         internal string ToString(TagOptions options)

@@ -1,5 +1,7 @@
 ﻿// ReSharper disable RedundantArgumentDefaultValue
 
+using ToSic.Razor.Interfaces;
+
 namespace ToSic.Razor.Blade
 {
     /// <summary>
@@ -18,7 +20,7 @@ namespace ToSic.Razor.Blade
         /// <param name="appendSeparator">attribute appendSeparator in case the value is appended</param>
         /// <returns></returns>
         public static T Attr<T>(this T tag, string name, object value = null, string appendSeparator = null)
-            where T: Markup.TagBase
+            where T: ITag
         {
             tag.TagAttributes.Add(name, value, appendSeparator);
             return tag;
@@ -35,7 +37,7 @@ namespace ToSic.Razor.Blade
         /// <param name="appendSeparator">attribute appendSeparator in case the value is appended</param>
         /// <returns></returns>
         internal static T AttrUrl<T>(this T tag, string name, object value = null, string appendSeparator = null)
-            where T : Markup.TagBase
+            where T : ITag
         {
             tag.TagAttributes.AddUrl(name, value, appendSeparator);
             return tag;
@@ -44,13 +46,13 @@ namespace ToSic.Razor.Blade
         /// <summary>
         /// ID - set multiple times always overwrites previous ID
         /// </summary>
-        public static T Id<T>(this T tag, string id) where T: Markup.TagBase
+        public static T Id<T>(this T tag, string id) where T: ITag
             => tag.Attr("id", id, null);
 
         /// <summary>
         /// class attribute
         /// </summary>
-        public static T Class<T>(this T tag, string value) where T: Markup.TagBase
+        public static T Class<T>(this T tag, string value) where T: ITag
             => tag.Attr("class", value, " ");
 
         /// <summary>
@@ -59,7 +61,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="value">Style to add</param>
         /// <returns></returns>
-        public static T Style<T>(this T tag, string value) where T: Markup.TagBase
+        public static T Style<T>(this T tag, string value) where T: ITag
             => tag.Attr("style", value, appendSeparator: ";");
 
         /// <summary>
@@ -68,7 +70,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="value">new title to set</param>
         /// <returns></returns>
-        public static T Title<T>(this T tag, string value) where T: Markup.TagBase
+        public static T Title<T>(this T tag, string value) where T: ITag
             => tag.Attr("title", value, null);
 
         /// <summary>
@@ -78,7 +80,7 @@ namespace ToSic.Razor.Blade
         /// <param name="name">the term behind data-, so "name" becomes "data-name"</param>
         /// <param name="value">string or object, objects will be json serialized</param>
         /// <returns></returns>
-        public static T Data<T>(this T tag, string name, object value = null) where T: Markup.TagBase
+        public static T Data<T>(this T tag, string name, object value = null) where T: ITag
             => tag.Attr("data-" + name, value, null);
 
         /// <summary>
@@ -88,7 +90,7 @@ namespace ToSic.Razor.Blade
         /// <param name="name">the term behind data-, so "name" becomes "data-name"</param>
         /// <param name="value">string or object, objects will be json serialized</param>
         /// <returns></returns>
-        public static T On<T>(this T tag, string name, object value = null) where T : Markup.TagBase
+        public static T On<T>(this T tag, string name, object value = null) where T : ITag
             => tag.Attr("on" + name, value, null);
 
 
