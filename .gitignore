@@ -260,4 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 ToSic.Razor.Dnn/Assemblies/*
-# ToSic.Razor.Dnn/install/*
+ToSic.Razor.Dnn/install/*
