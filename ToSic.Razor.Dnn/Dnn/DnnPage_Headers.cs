@@ -1,10 +1,9 @@
 ﻿using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using ToSic.Razor.Blade;
-using ToSic.Razor.Html;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Internals;
-using Tag = ToSic.Razor.Html.Tag;
+using Tag = ToSic.Razor.Markup.Tag;
 
 namespace ToSic.Razor.Dnn
 {

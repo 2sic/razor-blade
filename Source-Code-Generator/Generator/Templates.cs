@@ -6,8 +6,9 @@ namespace SourceCodeGenerator.Generator
     {
         public static string Wrapper =
             @"using System;
-using Connect.Razor.Blade;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Markup;
+using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -23,7 +24,7 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Html5
+namespace ToSic.Razor.Html5
 {
 {Contents}
 }
@@ -32,9 +33,10 @@ namespace Connect.Razor.Html5
 
 
     public static string QuickAccessWrapper = @"
-using Connect.Razor.Blade;
-using Connect.Razor.Html5;
-using Connect.Razor.Html;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
+using ToSic.Razor.Markup;
+using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -50,7 +52,8 @@ using Connect.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
-namespace Connect.Razor.Blade
+// ReSharper disable once CheckNamespace
+namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Helper to quickly generate all HTML5 tags with a Tag.Img(...) syntax

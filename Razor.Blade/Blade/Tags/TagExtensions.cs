@@ -18,7 +18,7 @@ namespace ToSic.Razor.Blade
         /// <param name="appendSeparator">attribute appendSeparator in case the value is appended</param>
         /// <returns></returns>
         public static T Attr<T>(this T tag, string name, object value = null, string appendSeparator = null)
-            where T: Html.Tag
+            where T: Markup.Tag
         {
             tag.TagAttributes.Add(name, value, appendSeparator);
             return tag;
@@ -35,7 +35,7 @@ namespace ToSic.Razor.Blade
         /// <param name="appendSeparator">attribute appendSeparator in case the value is appended</param>
         /// <returns></returns>
         internal static T AttrUrl<T>(this T tag, string name, object value = null, string appendSeparator = null)
-            where T : Html.Tag
+            where T : Markup.Tag
         {
             tag.TagAttributes.AddUrl(name, value, appendSeparator);
             return tag;
@@ -44,13 +44,13 @@ namespace ToSic.Razor.Blade
         /// <summary>
         /// ID - set multiple times always overwrites previous ID
         /// </summary>
-        public static T Id<T>(this T tag, string id) where T: Html.Tag
+        public static T Id<T>(this T tag, string id) where T: Markup.Tag
             => tag.Attr("id", id, null);
 
         /// <summary>
         /// class attribute
         /// </summary>
-        public static T Class<T>(this T tag, string value) where T: Html.Tag
+        public static T Class<T>(this T tag, string value) where T: Markup.Tag
             => tag.Attr("class", value, " ");
 
         /// <summary>
@@ -59,7 +59,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="value">Style to add</param>
         /// <returns></returns>
-        public static T Style<T>(this T tag, string value) where T: Html.Tag
+        public static T Style<T>(this T tag, string value) where T: Markup.Tag
             => tag.Attr("style", value, appendSeparator: ";");
 
         /// <summary>
@@ -68,7 +68,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="value">new title to set</param>
         /// <returns></returns>
-        public static T Title<T>(this T tag, string value) where T: Html.Tag
+        public static T Title<T>(this T tag, string value) where T: Markup.Tag
             => tag.Attr("title", value, null);
 
         /// <summary>
@@ -78,7 +78,7 @@ namespace ToSic.Razor.Blade
         /// <param name="name">the term behind data-, so "name" becomes "data-name"</param>
         /// <param name="value">string or object, objects will be json serialized</param>
         /// <returns></returns>
-        public static T Data<T>(this T tag, string name, object value = null) where T: Html.Tag
+        public static T Data<T>(this T tag, string name, object value = null) where T: Markup.Tag
             => tag.Attr("data-" + name, value, null);
 
         /// <summary>
@@ -88,7 +88,7 @@ namespace ToSic.Razor.Blade
         /// <param name="name">the term behind data-, so "name" becomes "data-name"</param>
         /// <param name="value">string or object, objects will be json serialized</param>
         /// <returns></returns>
-        public static T On<T>(this T tag, string name, object value = null) where T : Html.Tag
+        public static T On<T>(this T tag, string name, object value = null) where T : Markup.Tag
             => tag.Attr("on" + name, value, null);
 
 
@@ -99,7 +99,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="child"></param>
         /// <returns></returns>
-        public static T Add<T>(this T tag, object child) where T : Html.Tag
+        public static T Add<T>(this T tag, object child) where T : Markup.Tag
         {
             tag.TagChildren.Add(child);
             return tag;
@@ -112,7 +112,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="children">a variable amount of tags / strings to add to the contents of this tag</param>
         /// <returns></returns>
-        public static T Add<T>(this T tag, params object[] children) where T : Html.Tag
+        public static T Add<T>(this T tag, params object[] children) where T : Markup.Tag
         {
             tag.TagChildren.Add(children);
             return tag;
@@ -124,7 +124,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="content">New content - can be a string, Tag or list of tags</param>
         /// <returns></returns>
-        public static T Wrap<T>(this T tag, object content) where T : Html.Tag
+        public static T Wrap<T>(this T tag, object content) where T : Markup.Tag
         {
             tag.TagChildren.Replace(content);
             return tag;
@@ -136,7 +136,7 @@ namespace ToSic.Razor.Blade
         /// <param name="tag">the parent tag</param>
         /// <param name="content">a variable amount of tags / strings to add to the contents of this tag</param>
         /// <returns></returns>
-        public static T Wrap<T>(this T tag, params object[] content) where T : Html.Tag
+        public static T Wrap<T>(this T tag, params object[] content) where T : Markup.Tag
         {
             tag.TagChildren.Replace(content);
             return tag;

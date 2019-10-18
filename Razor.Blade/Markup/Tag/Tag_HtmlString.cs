@@ -1,22 +1,19 @@
-﻿using ToSic.Razor.Html;
-#if NET40
+﻿#if NET40
 using IHtmlString = System.Web.IHtmlString;
+using HtmlString = System.Web.HtmlString;
 #else
 using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
+using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
 using HtmlEncoder = System.Text.Encodings.Web.HtmlEncoder;
 #endif
+using ToSic.Razor.Markup;
+using System.IO;
 
-namespace ToSic.Razor.Html
+
+namespace ToSic.Razor.Markup
 {
-    /// <summary>
-    /// Describes an attribute on an HTML tag. You usually won't need this API. 
-    /// </summary>
-    public class Attribute: AttributeBase, IHtmlString
+    public partial class Tag: IHtmlString
     {
-        public Attribute(string name, object value = null, AttributeOptions options = null)
-            : base(name, value, options) { }
-
-        #region ToString and ToHtml for all interfaces
 
 #if NET40
         /// <summary>
@@ -27,7 +24,7 @@ namespace ToSic.Razor.Html
 #else
 
         /// <inheritdoc />
-        public void WriteTo(System.IO.TextWriter writer, HtmlEncoder encoder)
+        public void WriteTo(TextWriter writer, HtmlEncoder encoder)
         {
             if (writer == null)
                 throw new System.ArgumentNullException(nameof(writer));
@@ -35,7 +32,12 @@ namespace ToSic.Razor.Html
         }
 #endif
 
-        #endregion
 
+        #region .Open and .Close
+
+        public HtmlString Open => new HtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
+        public HtmlString Close => new HtmlString(TagBuilder.Close(TagName));
+
+        #endregion
     }
 }

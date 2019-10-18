@@ -1,11 +1,12 @@
 using System;
 using ToSic.Razor.Blade;
-using ToSic.Razor.Html;
+using ToSic.Razor.Markup;
+using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 21:44
+// Created 18.10.2019 17:52
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +26,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Button object with all the attributes available in that tag
     /// </returns>
-    public partial class Button : ToSic.Razor.Html.Tag
+    public partial class Button : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -198,7 +199,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Datalist object with all the attributes available in that tag
     /// </returns>
-    public partial class Datalist : ToSic.Razor.Html.Tag
+    public partial class Datalist : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -229,7 +230,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Fieldset object with all the attributes available in that tag
     /// </returns>
-    public partial class Fieldset : ToSic.Razor.Html.Tag
+    public partial class Fieldset : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -300,7 +301,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Form object with all the attributes available in that tag
     /// </returns>
-    public partial class Form : ToSic.Razor.Html.Tag
+    public partial class Form : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -426,7 +427,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Input object with all the attributes available in that tag
     /// </returns>
-    public partial class Input : ToSic.Razor.Html.Tag
+    public partial class Input : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -837,7 +838,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Label object with all the attributes available in that tag
     /// </returns>
-    public partial class Label : ToSic.Razor.Html.Tag
+    public partial class Label : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -890,7 +891,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Legend object with all the attributes available in that tag
     /// </returns>
-    public partial class Legend : ToSic.Razor.Html.Tag
+    public partial class Legend : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -921,7 +922,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Optgroup object with all the attributes available in that tag
     /// </returns>
-    public partial class Optgroup : ToSic.Razor.Html.Tag
+    public partial class Optgroup : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -981,7 +982,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Option object with all the attributes available in that tag
     /// </returns>
-    public partial class Option : ToSic.Razor.Html.Tag
+    public partial class Option : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -1070,7 +1071,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Output object with all the attributes available in that tag
     /// </returns>
-    public partial class Output : ToSic.Razor.Html.Tag
+    public partial class Output : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -1134,7 +1135,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Select object with all the attributes available in that tag
     /// </returns>
-    public partial class Select : ToSic.Razor.Html.Tag
+    public partial class Select : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -1270,7 +1271,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Textarea object with all the attributes available in that tag
     /// </returns>
-    public partial class Textarea : ToSic.Razor.Html.Tag
+    public partial class Textarea : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>

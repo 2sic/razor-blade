@@ -1,11 +1,12 @@
 using System;
 using ToSic.Razor.Blade;
-using ToSic.Razor.Html;
+using ToSic.Razor.Markup;
+using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 21:44
+// Created 18.10.2019 17:52
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +26,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A A object with all the attributes available in that tag
     /// </returns>
-    public partial class A : ToSic.Razor.Html.Tag
+    public partial class A : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -145,7 +146,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Link object with all the attributes available in that tag
     /// </returns>
-    public partial class Link : ToSic.Razor.Html.Tag
+    public partial class Link : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -243,7 +244,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Nav object with all the attributes available in that tag
     /// </returns>
-    public partial class Nav : ToSic.Razor.Html.Tag
+    public partial class Nav : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>

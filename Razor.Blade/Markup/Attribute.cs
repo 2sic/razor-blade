@@ -1,25 +1,20 @@
-﻿using System.Collections.Generic;
-using ToSic.Razor.Html;
-#if NET40
+﻿#if NET40
 using IHtmlString = System.Web.IHtmlString;
 #else
 using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
 using HtmlEncoder = System.Text.Encodings.Web.HtmlEncoder;
 #endif
 
-namespace ToSic.Razor.Html
+namespace ToSic.Razor.Markup
 {
-    public class AttributeList: AttributeListBase, IHtmlString
+    /// <summary>
+    /// Describes an attribute on an HTML tag. You usually won't need this API. 
+    /// </summary>
+    public class Attribute: AttributeBase, IHtmlString
     {
-        public AttributeList(AttributeOptions options = null): base(options) { }
+        public Attribute(string name, object value = null, AttributeOptions options = null)
+            : base(name, value, options) { }
 
-        public AttributeList(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null)
-            : base(attributes, options)  { }
-        
-        public AttributeList(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null)
-            :base(attributes, options) { }
-
-        
         #region ToString and ToHtml for all interfaces
 
 #if NET40
@@ -40,5 +35,6 @@ namespace ToSic.Razor.Html
 #endif
 
         #endregion
+
     }
 }

@@ -65,7 +65,7 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="tag"></param>
         /// <remarks>New in 2.1</remarks>
-        public static void AddToHead(ToSic.Razor.Html.Tag tag) => GetPage().AddToHead(tag);
+        public static void AddToHead(ToSic.Razor.Markup.Tag tag) => GetPage().AddToHead(tag);
 
         /// <summary>
         /// Add a standard meta header tag.

@@ -1,11 +1,12 @@
 using System;
 using ToSic.Razor.Blade;
-using ToSic.Razor.Html;
+using ToSic.Razor.Markup;
+using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 17.10.2019 21:44
+// Created 18.10.2019 17:52
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +26,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Br object with all the attributes available in that tag
     /// </returns>
-    public partial class Br : ToSic.Razor.Html.Tag
+    public partial class Br : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -56,7 +57,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Dd object with all the attributes available in that tag
     /// </returns>
-    public partial class Dd : ToSic.Razor.Html.Tag
+    public partial class Dd : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -87,7 +88,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Dl object with all the attributes available in that tag
     /// </returns>
-    public partial class Dl : ToSic.Razor.Html.Tag
+    public partial class Dl : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -118,7 +119,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Dt object with all the attributes available in that tag
     /// </returns>
-    public partial class Dt : ToSic.Razor.Html.Tag
+    public partial class Dt : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -149,7 +150,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A H1 object with all the attributes available in that tag
     /// </returns>
-    public partial class H1 : ToSic.Razor.Html.Tag
+    public partial class H1 : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -180,7 +181,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A H2 object with all the attributes available in that tag
     /// </returns>
-    public partial class H2 : ToSic.Razor.Html.Tag
+    public partial class H2 : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -211,7 +212,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A H3 object with all the attributes available in that tag
     /// </returns>
-    public partial class H3 : ToSic.Razor.Html.Tag
+    public partial class H3 : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -242,7 +243,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A H4 object with all the attributes available in that tag
     /// </returns>
-    public partial class H4 : ToSic.Razor.Html.Tag
+    public partial class H4 : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -273,7 +274,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A H5 object with all the attributes available in that tag
     /// </returns>
-    public partial class H5 : ToSic.Razor.Html.Tag
+    public partial class H5 : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -304,7 +305,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A H6 object with all the attributes available in that tag
     /// </returns>
-    public partial class H6 : ToSic.Razor.Html.Tag
+    public partial class H6 : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -335,7 +336,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Hr object with all the attributes available in that tag
     /// </returns>
-    public partial class Hr : ToSic.Razor.Html.Tag
+    public partial class Hr : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -366,7 +367,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Li object with all the attributes available in that tag
     /// </returns>
-    public partial class Li : ToSic.Razor.Html.Tag
+    public partial class Li : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -397,7 +398,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Ol object with all the attributes available in that tag
     /// </returns>
-    public partial class Ol : ToSic.Razor.Html.Tag
+    public partial class Ol : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -428,7 +429,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A P object with all the attributes available in that tag
     /// </returns>
-    public partial class P : ToSic.Razor.Html.Tag
+    public partial class P : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -459,7 +460,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Ul object with all the attributes available in that tag
     /// </returns>
-    public partial class Ul : ToSic.Razor.Html.Tag
+    public partial class Ul : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>
@@ -490,7 +491,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Wbr object with all the attributes available in that tag
     /// </returns>
-    public partial class Wbr : ToSic.Razor.Html.Tag
+    public partial class Wbr : ToSic.Razor.Markup.Tag
     {
     
     /// <summary>

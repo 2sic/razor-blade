@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using ToSic.Razor.Internals;
-using Tag = ToSic.Razor.Html.Tag;
+using Tag = ToSic.Razor.Markup.Tag;
 
 namespace ToSic.Razor.Interfaces
 {

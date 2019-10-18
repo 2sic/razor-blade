@@ -1,11 +1,10 @@
-﻿using ToSic.Razor.Html;
-
+﻿
 namespace ToSic.Razor.Html5
 {
     /// <summary>
     /// Generate a standard HTML5 &lt;-- --&gt; tag for adding comments
     /// </summary>
-    public class Comment : Tag
+    public class Comment : ToSic.Razor.Markup.Tag
     {
         private const string Template = "<!-- {0} -->";
 

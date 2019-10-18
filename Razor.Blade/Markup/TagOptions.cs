@@ -1,4 +1,4 @@
-﻿namespace ToSic.Razor.Html
+﻿namespace ToSic.Razor.Markup
 {
     public class TagOptions
     {

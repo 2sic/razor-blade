@@ -1,6 +1,4 @@
-﻿using ToSic.Razor.Html;
-
-namespace ToSic.Razor.Blade
+﻿namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Basic tools to generate attributes and tags here, probably also move "Wrap" to this
@@ -13,8 +11,8 @@ namespace ToSic.Razor.Blade
         /// <param name="name">tag name</param>
         /// <param name="content">optional content to place within the tag - can be a string or other tags</param>
         /// <returns>HtmlString of the tag, so you can use it directly with @Tag.Open(...) in your razor</returns>
-        public static Html.Tag Tag(string name, object content = null)
-            => new Html.Tag(name, content);
+        public static Markup.Tag Tag(string name, object content = null)
+            => new Markup.Tag(name, content);
 
     }
 }

@@ -1,6 +1,4 @@
-﻿using ToSic.Razor.Html;
-
-namespace ToSic.Razor.Html
+﻿namespace ToSic.Razor.Markup
 {
     /// <summary>
     /// A generic tag object - used to create any kind of tag

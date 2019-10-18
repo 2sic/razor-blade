@@ -1,5 +1,6 @@
 ﻿using ToSic.Razor.Blade;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Tag = ToSic.Razor.Blade.Tag;
 
 namespace Razor_Blades_Tests.Html5QuickAccess
 {

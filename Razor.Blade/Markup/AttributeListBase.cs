@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ToSic.Razor.Html
+namespace ToSic.Razor.Markup
 {
     public class AttributeListBase: List<AttributeBase>
     {

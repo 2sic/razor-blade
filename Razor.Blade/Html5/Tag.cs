@@ -1,7 +1,8 @@
 
 using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
-using ToSic.Razor.Html;
+using ToSic.Razor.Markup;
+using Tag = ToSic.Razor.Markup.Tag;
 // ****
 // ****
 // This is auto-generated code - don't modify
@@ -17,6 +18,7 @@ using ToSic.Razor.Html;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+// ReSharper disable once CheckNamespace
 namespace ToSic.Razor.Blade
 {
     /// <summary>
