@@ -83,7 +83,7 @@
   
   <h1 id="ToSic_Razor_Blade_Tag" data-uid="ToSic.Razor.Blade.Tag" class="text-break">Class Tag
   </h1>
-  <div class="markdown level0 summary"><p>Helper to quickly generate all HTML5 tags with a <pre><code>Tag.Img()</code></pre> syntax.
+  <div class="markdown level0 summary"><p>Helper to quickly generate all HTML5 tags with a <strong>Tag.Img()</strong> syntax.
 This is the easiest and safest way to use in in Razor templates because you won&apos;t have naming issues etc.
 <br>
 The objects are smart - for example <pre><code>Tag.Img().Src(&quot;ünsafe.jpg&quot;)</code></pre> will automatically uri-encode ;)
@@ -1272,6 +1272,64 @@ The objects are smart - for example <pre><code>Tag.Img().Src(&quot;ünsafe.jpg&q
       <tr>
         <td><a class="xref" href="ToSic.Razor.Html5.Comment.html">Comment</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tag_Custom_System_String_System_Object___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tag.Custom(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tag/Tag_Custom.cs/#L14">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Blade_Tag_Custom_" data-uid="ToSic.Razor.Blade.Tag.Custom*"></a>
+  <h4 id="ToSic_Razor_Blade_Tag_Custom_System_String_System_Object___" data-uid="ToSic.Razor.Blade.Tag.Custom(System.String,System.Object[])">Custom(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Create a generic html tag for a specific name.
+We recommend to use the normal tag overloads instead.
+So Tag.Img(...) is better than Tag.Custom(&quot;Img&quot;) because it&apos;s preconfigured to self-close, encode the src etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TagBase Custom(string name, params object[] content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>tag name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">content</span></td>
+        <td><p>optional content to place within the tag - can be a string or other tags</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.TagBase.html">TagBase</a></td>
+        <td><p>HtmlString of the tag, so you can use it directly with @TagBase.TagStart(...) in your razor</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3621,64 +3679,6 @@ The objects are smart - for example <pre><code>Tag.Img().Src(&quot;ünsafe.jpg&q
       <tr>
         <td><a class="xref" href="ToSic.Razor.Html5.Option.html">Option</a></td>
         <td><p>A Option object with all the attributes available in that tag</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tag_Other_System_String_System_Object___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tag.Other(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tag/Tag_Tag.cs/#L14">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_Tag_Other_" data-uid="ToSic.Razor.Blade.Tag.Other*"></a>
-  <h4 id="ToSic_Razor_Blade_Tag_Other_System_String_System_Object___" data-uid="ToSic.Razor.Blade.Tag.Other(System.String,System.Object[])">Other(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Create a generic html tag for a specific name.
-We recommend to use the normal tag overloads instead.
-So Tag.Img(...) is better than Tag.Other(&quot;Img&quot;) because it&apos;s preconfigured to self-close, encode the src etc.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TagBase Other(string name, params object[] content)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>tag name</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">content</span></td>
-        <td><p>optional content to place within the tag - can be a string or other tags</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.TagBase.html">TagBase</a></td>
-        <td><p>HtmlString of the tag, so you can use it directly with @TagBase.TagStart(...) in your razor</p>
 </td>
       </tr>
     </tbody>

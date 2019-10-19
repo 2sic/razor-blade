@@ -516,6 +516,22 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.Tag.Comment
   nameWithType: Tag.Comment
+- uid: ToSic.Razor.Blade.Tag.Custom(System.String,System.Object[])
+  name: Custom(String, Object[])
+  href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Custom_System_String_System_Object___
+  commentId: M:ToSic.Razor.Blade.Tag.Custom(System.String,System.Object[])
+  name.vb: Custom(String, Object())
+  fullName: ToSic.Razor.Blade.Tag.Custom(System.String, System.Object[])
+  fullName.vb: ToSic.Razor.Blade.Tag.Custom(System.String, System.Object())
+  nameWithType: Tag.Custom(String, Object[])
+  nameWithType.vb: Tag.Custom(String, Object())
+- uid: ToSic.Razor.Blade.Tag.Custom*
+  name: Custom
+  href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Custom_
+  commentId: Overload:ToSic.Razor.Blade.Tag.Custom
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Tag.Custom
+  nameWithType: Tag.Custom
 - uid: ToSic.Razor.Blade.Tag.Data(System.Object[])
   name: Data(Object[])
   href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Data_System_Object___
@@ -1268,22 +1284,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.Tag.Option
   nameWithType: Tag.Option
-- uid: ToSic.Razor.Blade.Tag.Other(System.String,System.Object[])
-  name: Other(String, Object[])
-  href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Other_System_String_System_Object___
-  commentId: M:ToSic.Razor.Blade.Tag.Other(System.String,System.Object[])
-  name.vb: Other(String, Object())
-  fullName: ToSic.Razor.Blade.Tag.Other(System.String, System.Object[])
-  fullName.vb: ToSic.Razor.Blade.Tag.Other(System.String, System.Object())
-  nameWithType: Tag.Other(String, Object[])
-  nameWithType.vb: Tag.Other(String, Object())
-- uid: ToSic.Razor.Blade.Tag.Other*
-  name: Other
-  href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Other_
-  commentId: Overload:ToSic.Razor.Blade.Tag.Other
-  isSpec: "True"
-  fullName: ToSic.Razor.Blade.Tag.Other
-  nameWithType: Tag.Other
 - uid: ToSic.Razor.Blade.Tag.Output(System.Object[])
   name: Output(Object[])
   href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Output_System_Object___
