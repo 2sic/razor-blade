@@ -1,14 +1,37 @@
-﻿using System.Web.UI;
+﻿using System;
+using System.Web.UI;
 using System.Web.UI.HtmlControls;
+using DotNetNuke.Entities.Portals;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
-using ToSic.Razor.Internals;
 using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Dnn
 {
     public partial class DnnHtmlPage 
     {
+
+        /// <inheritdoc />
+        public void AddBase(string url = null)
+        {
+            if (url == null)
+            {
+                try
+                {
+                    var currentPage = PortalSettings.Current.ActiveTab.TabID;
+                    // helper to generate a base path which is also valid on home (special DNN behaviour)
+                    const string random = "this-should-never-exist-in-the-url";
+                    var basePath = DotNetNuke.Common.Globals.NavigateURL(currentPage, "", random + "=1");
+                    url = basePath.Substring(0, basePath.IndexOf(random, StringComparison.Ordinal));
+                }
+                catch { /* ignore */ }
+            }
+
+            if (url != null)
+                AddToHead(Tag.Base(url));
+        }
+
+
         /// <summary>
         /// Add a string to the header
         /// </summary>
@@ -29,6 +52,8 @@ namespace ToSic.Razor.Dnn
         /// </summary>
         /// <param name="tag"></param>
         public void AddToHead(TagBase tag) => AddToHead(tag?.ToString());
+
+
 
         /// <summary>
         /// Generate and add a meta-tag

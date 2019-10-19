@@ -4,8 +4,4 @@ apiRules:
 - exclude:
     uidRegex: ^ToSic\.Razor\.Dnn
 - exclude: 
-    uidRegex: ^ToSic\.Razor\.Html$
-- exclude: 
-    uidRegex: ^ToSic\.Razor\.Interfaces
-- exclude: 
     uidRegex: ^ToSic\.Razor\.Internals

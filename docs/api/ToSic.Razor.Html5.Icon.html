@@ -89,12 +89,13 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ToSic.Razor.Html.Tag</span></div>
+    <div class="level1"><a class="xref" href="ToSic.Razor.Markup.TagBase.html">TagBase</a></div>
     <div class="level2"><a class="xref" href="ToSic.Razor.Html5.Link.html">Link</a></div>
     <div class="level3"><span class="xref">Icon</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="ToSic.Razor.Interfaces.ITag.html">ITag</a></div>
     <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
   </div>
   <div class="inheritedMembers">
@@ -117,12 +118,36 @@
     <div>
       <a class="xref" href="ToSic.Razor.Html5.Link.html#ToSic_Razor_Html5_Link_Type_System_String_">Link.Type(String)</a>
     </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName">TagBase.TagName</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ToString">TagBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagAttributes">TagBase.TagAttributes</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagChildren">TagBase.TagChildren</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagContents">TagBase.TagContents</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_">TagBase.WriteTo(TextWriter, HtmlEncoder)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagStart">TagBase.TagStart</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagEnd">TagBase.TagEnd</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ToSic.Razor.Html5.html">ToSic.Razor.Html5</a></h6>
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Html5_Icon_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Icon : Link, IHtmlContent</code></pre>
+    <pre><code class="lang-csharp hljs">public class Icon : Link, ITag, IHtmlContent</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -174,6 +199,9 @@
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ToSic.Razor.Interfaces.ITag.html">ITag</a>
+  </div>
   <div>
       <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
   </div>

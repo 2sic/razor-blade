@@ -93,12 +93,12 @@ references:
   commentId: M:ToSic.Razor.Blade.HtmlPage.AddToHead(System.String)
   fullName: ToSic.Razor.Blade.HtmlPage.AddToHead(System.String)
   nameWithType: HtmlPage.AddToHead(String)
-- uid: ToSic.Razor.Blade.HtmlPage.AddToHead(ToSic.Razor.Html.Tag)
-  name: AddToHead(Tag)
-  href: api/ToSic.Razor.Blade.HtmlPage.html#ToSic_Razor_Blade_HtmlPage_AddToHead_ToSic_Razor_Html_Tag_
-  commentId: M:ToSic.Razor.Blade.HtmlPage.AddToHead(ToSic.Razor.Html.Tag)
-  fullName: ToSic.Razor.Blade.HtmlPage.AddToHead(ToSic.Razor.Html.Tag)
-  nameWithType: HtmlPage.AddToHead(Tag)
+- uid: ToSic.Razor.Blade.HtmlPage.AddToHead(ToSic.Razor.Markup.TagBase)
+  name: AddToHead(TagBase)
+  href: api/ToSic.Razor.Blade.HtmlPage.html#ToSic_Razor_Blade_HtmlPage_AddToHead_ToSic_Razor_Markup_TagBase_
+  commentId: M:ToSic.Razor.Blade.HtmlPage.AddToHead(ToSic.Razor.Markup.TagBase)
+  fullName: ToSic.Razor.Blade.HtmlPage.AddToHead(ToSic.Razor.Markup.TagBase)
+  nameWithType: HtmlPage.AddToHead(TagBase)
 - uid: ToSic.Razor.Blade.HtmlPage.AddToHead*
   name: AddToHead
   href: api/ToSic.Razor.Blade.HtmlPage.html#ToSic_Razor_Blade_HtmlPage_AddToHead_
@@ -2063,17 +2063,17 @@ references:
   commentId: T:ToSic.Razor.Blade.Tags
   fullName: ToSic.Razor.Blade.Tags
   nameWithType: Tags
-- uid: ToSic.Razor.Blade.Tags.Attribute(System.String,System.Object,ToSic.Razor.Html.AttributeOptions)
+- uid: ToSic.Razor.Blade.Tags.Attribute(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
   name: Attribute(String, Object, AttributeOptions)
-  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attribute_System_String_System_Object_ToSic_Razor_Html_AttributeOptions_
-  commentId: M:ToSic.Razor.Blade.Tags.Attribute(System.String,System.Object,ToSic.Razor.Html.AttributeOptions)
-  fullName: ToSic.Razor.Blade.Tags.Attribute(System.String, System.Object, ToSic.Razor.Html.AttributeOptions)
+  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attribute_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Blade.Tags.Attribute(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Blade.Tags.Attribute(System.String, System.Object, ToSic.Razor.Markup.AttributeOptions)
   nameWithType: Tags.Attribute(String, Object, AttributeOptions)
-- uid: ToSic.Razor.Blade.Tags.Attribute(System.String,System.String,ToSic.Razor.Html.AttributeOptions)
+- uid: ToSic.Razor.Blade.Tags.Attribute(System.String,System.String,ToSic.Razor.Markup.AttributeOptions)
   name: Attribute(String, String, AttributeOptions)
-  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attribute_System_String_System_String_ToSic_Razor_Html_AttributeOptions_
-  commentId: M:ToSic.Razor.Blade.Tags.Attribute(System.String,System.String,ToSic.Razor.Html.AttributeOptions)
-  fullName: ToSic.Razor.Blade.Tags.Attribute(System.String, System.String, ToSic.Razor.Html.AttributeOptions)
+  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attribute_System_String_System_String_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Blade.Tags.Attribute(System.String,System.String,ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Blade.Tags.Attribute(System.String, System.String, ToSic.Razor.Markup.AttributeOptions)
   nameWithType: Tags.Attribute(String, String, AttributeOptions)
 - uid: ToSic.Razor.Blade.Tags.Attribute*
   name: Attribute
@@ -2082,22 +2082,22 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.Tags.Attribute
   nameWithType: Tags.Attribute
-- uid: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Html.AttributeOptions)
+- uid: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Markup.AttributeOptions)
   name: Attributes(IEnumerable<KeyValuePair<String, Object>>, AttributeOptions)
-  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___ToSic_Razor_Html_AttributeOptions_
-  commentId: M:ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Html.AttributeOptions)
+  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Markup.AttributeOptions)
   name.vb: Attributes(IEnumerable(Of KeyValuePair(Of String, Object)), AttributeOptions)
-  fullName: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>, ToSic.Razor.Html.AttributeOptions)
-  fullName.vb: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Object)), ToSic.Razor.Html.AttributeOptions)
+  fullName: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>, ToSic.Razor.Markup.AttributeOptions)
+  fullName.vb: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Object)), ToSic.Razor.Markup.AttributeOptions)
   nameWithType: Tags.Attributes(IEnumerable<KeyValuePair<String, Object>>, AttributeOptions)
   nameWithType.vb: Tags.Attributes(IEnumerable(Of KeyValuePair(Of String, Object)), AttributeOptions)
-- uid: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Html.AttributeOptions)
+- uid: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Markup.AttributeOptions)
   name: Attributes(IEnumerable<KeyValuePair<String, String>>, AttributeOptions)
-  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___ToSic_Razor_Html_AttributeOptions_
-  commentId: M:ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Html.AttributeOptions)
+  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Markup.AttributeOptions)
   name.vb: Attributes(IEnumerable(Of KeyValuePair(Of String, String)), AttributeOptions)
-  fullName: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>, ToSic.Razor.Html.AttributeOptions)
-  fullName.vb: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String)), ToSic.Razor.Html.AttributeOptions)
+  fullName: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>, ToSic.Razor.Markup.AttributeOptions)
+  fullName.vb: ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String)), ToSic.Razor.Markup.AttributeOptions)
   nameWithType: Tags.Attributes(IEnumerable<KeyValuePair<String, String>>, AttributeOptions)
   nameWithType.vb: Tags.Attributes(IEnumerable(Of KeyValuePair(Of String, String)), AttributeOptions)
 - uid: ToSic.Razor.Blade.Tags.Attributes*
@@ -5959,3 +5959,745 @@ references:
   commentId: T:ToSic.Razor.Html5.Wbr
   fullName: ToSic.Razor.Html5.Wbr
   nameWithType: Wbr
+- uid: ToSic.Razor.Interfaces
+  name: ToSic.Razor.Interfaces
+  href: api/ToSic.Razor.Interfaces.html
+  commentId: N:ToSic.Razor.Interfaces
+  fullName: ToSic.Razor.Interfaces
+  nameWithType: ToSic.Razor.Interfaces
+- uid: ToSic.Razor.Interfaces.IHtmlPage
+  name: IHtmlPage
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html
+  commentId: T:ToSic.Razor.Interfaces.IHtmlPage
+  fullName: ToSic.Razor.Interfaces.IHtmlPage
+  nameWithType: IHtmlPage
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddBase(System.String)
+  name: AddBase(String)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddBase_System_String_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddBase(System.String)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddBase(System.String)
+  nameWithType: IHtmlPage.AddBase(String)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddBase*
+  name: AddBase
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddBase_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.AddBase
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddBase
+  nameWithType: IHtmlPage.AddBase
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddIcon(System.String,System.String,System.String,System.Int32,System.String)
+  name: AddIcon(String, String, String, Int32, String)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddIcon_System_String_System_String_System_String_System_Int32_System_String_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddIcon(System.String,System.String,System.String,System.Int32,System.String)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddIcon(System.String, System.String, System.String, System.Int32, System.String)
+  nameWithType: IHtmlPage.AddIcon(String, String, String, Int32, String)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddIcon*
+  name: AddIcon
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddIcon_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.AddIcon
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddIcon
+  nameWithType: IHtmlPage.AddIcon
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddIconSet(System.String,System.String,System.Object,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Int32})
+  name: AddIconSet(String, String, Object, IEnumerable<String>, IEnumerable<Int32>)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddIconSet_System_String_System_String_System_Object_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddIconSet(System.String,System.String,System.Object,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: AddIconSet(String, String, Object, IEnumerable(Of String), IEnumerable(Of Int32))
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddIconSet(System.String, System.String, System.Object, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.Int32>)
+  fullName.vb: ToSic.Razor.Interfaces.IHtmlPage.AddIconSet(System.String, System.String, System.Object, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.Int32))
+  nameWithType: IHtmlPage.AddIconSet(String, String, Object, IEnumerable<String>, IEnumerable<Int32>)
+  nameWithType.vb: IHtmlPage.AddIconSet(String, String, Object, IEnumerable(Of String), IEnumerable(Of Int32))
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddIconSet*
+  name: AddIconSet
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddIconSet_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.AddIconSet
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddIconSet
+  nameWithType: IHtmlPage.AddIconSet
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd(System.Object)
+  name: AddJsonLd(Object)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddJsonLd_System_Object_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd(System.Object)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd(System.Object)
+  nameWithType: IHtmlPage.AddJsonLd(Object)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd(System.String)
+  name: AddJsonLd(String)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddJsonLd_System_String_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd(System.String)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd(System.String)
+  nameWithType: IHtmlPage.AddJsonLd(String)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd*
+  name: AddJsonLd
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddJsonLd_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddJsonLd
+  nameWithType: IHtmlPage.AddJsonLd
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddMeta(System.String,System.String)
+  name: AddMeta(String, String)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddMeta_System_String_System_String_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddMeta(System.String,System.String)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddMeta(System.String, System.String)
+  nameWithType: IHtmlPage.AddMeta(String, String)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddMeta*
+  name: AddMeta
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddMeta_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.AddMeta
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddMeta
+  nameWithType: IHtmlPage.AddMeta
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddOpenGraph(System.String,System.String)
+  name: AddOpenGraph(String, String)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddOpenGraph_System_String_System_String_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddOpenGraph(System.String,System.String)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddOpenGraph(System.String, System.String)
+  nameWithType: IHtmlPage.AddOpenGraph(String, String)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddOpenGraph*
+  name: AddOpenGraph
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddOpenGraph_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.AddOpenGraph
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddOpenGraph
+  nameWithType: IHtmlPage.AddOpenGraph
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddToHead(System.String)
+  name: AddToHead(String)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddToHead_System_String_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddToHead(System.String)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddToHead(System.String)
+  nameWithType: IHtmlPage.AddToHead(String)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddToHead(ToSic.Razor.Markup.TagBase)
+  name: AddToHead(TagBase)
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddToHead_ToSic_Razor_Markup_TagBase_
+  commentId: M:ToSic.Razor.Interfaces.IHtmlPage.AddToHead(ToSic.Razor.Markup.TagBase)
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddToHead(ToSic.Razor.Markup.TagBase)
+  nameWithType: IHtmlPage.AddToHead(TagBase)
+- uid: ToSic.Razor.Interfaces.IHtmlPage.AddToHead*
+  name: AddToHead
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_AddToHead_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.AddToHead
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.AddToHead
+  nameWithType: IHtmlPage.AddToHead
+- uid: ToSic.Razor.Interfaces.IHtmlPage.Description
+  name: Description
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_Description
+  commentId: P:ToSic.Razor.Interfaces.IHtmlPage.Description
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.Description
+  nameWithType: IHtmlPage.Description
+- uid: ToSic.Razor.Interfaces.IHtmlPage.Description*
+  name: Description
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_Description_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.Description
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.Description
+  nameWithType: IHtmlPage.Description
+- uid: ToSic.Razor.Interfaces.IHtmlPage.Keywords
+  name: Keywords
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_Keywords
+  commentId: P:ToSic.Razor.Interfaces.IHtmlPage.Keywords
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.Keywords
+  nameWithType: IHtmlPage.Keywords
+- uid: ToSic.Razor.Interfaces.IHtmlPage.Keywords*
+  name: Keywords
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_Keywords_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.Keywords
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.Keywords
+  nameWithType: IHtmlPage.Keywords
+- uid: ToSic.Razor.Interfaces.IHtmlPage.Title
+  name: Title
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_Title
+  commentId: P:ToSic.Razor.Interfaces.IHtmlPage.Title
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.Title
+  nameWithType: IHtmlPage.Title
+- uid: ToSic.Razor.Interfaces.IHtmlPage.Title*
+  name: Title
+  href: api/ToSic.Razor.Interfaces.IHtmlPage.html#ToSic_Razor_Interfaces_IHtmlPage_Title_
+  commentId: Overload:ToSic.Razor.Interfaces.IHtmlPage.Title
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.IHtmlPage.Title
+  nameWithType: IHtmlPage.Title
+- uid: ToSic.Razor.Interfaces.ITag
+  name: ITag
+  href: api/ToSic.Razor.Interfaces.ITag.html
+  commentId: T:ToSic.Razor.Interfaces.ITag
+  fullName: ToSic.Razor.Interfaces.ITag
+  nameWithType: ITag
+- uid: ToSic.Razor.Interfaces.ITag.TagAttributes
+  name: TagAttributes
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagAttributes
+  commentId: P:ToSic.Razor.Interfaces.ITag.TagAttributes
+  fullName: ToSic.Razor.Interfaces.ITag.TagAttributes
+  nameWithType: ITag.TagAttributes
+- uid: ToSic.Razor.Interfaces.ITag.TagAttributes*
+  name: TagAttributes
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagAttributes_
+  commentId: Overload:ToSic.Razor.Interfaces.ITag.TagAttributes
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.ITag.TagAttributes
+  nameWithType: ITag.TagAttributes
+- uid: ToSic.Razor.Interfaces.ITag.TagEnd
+  name: TagEnd
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagEnd
+  commentId: P:ToSic.Razor.Interfaces.ITag.TagEnd
+  fullName: ToSic.Razor.Interfaces.ITag.TagEnd
+  nameWithType: ITag.TagEnd
+- uid: ToSic.Razor.Interfaces.ITag.TagEnd*
+  name: TagEnd
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagEnd_
+  commentId: Overload:ToSic.Razor.Interfaces.ITag.TagEnd
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.ITag.TagEnd
+  nameWithType: ITag.TagEnd
+- uid: ToSic.Razor.Interfaces.ITag.TagName
+  name: TagName
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagName
+  commentId: P:ToSic.Razor.Interfaces.ITag.TagName
+  fullName: ToSic.Razor.Interfaces.ITag.TagName
+  nameWithType: ITag.TagName
+- uid: ToSic.Razor.Interfaces.ITag.TagName*
+  name: TagName
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagName_
+  commentId: Overload:ToSic.Razor.Interfaces.ITag.TagName
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.ITag.TagName
+  nameWithType: ITag.TagName
+- uid: ToSic.Razor.Interfaces.ITag.TagStart
+  name: TagStart
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagStart
+  commentId: P:ToSic.Razor.Interfaces.ITag.TagStart
+  fullName: ToSic.Razor.Interfaces.ITag.TagStart
+  nameWithType: ITag.TagStart
+- uid: ToSic.Razor.Interfaces.ITag.TagStart*
+  name: TagStart
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_TagStart_
+  commentId: Overload:ToSic.Razor.Interfaces.ITag.TagStart
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.ITag.TagStart
+  nameWithType: ITag.TagStart
+- uid: ToSic.Razor.Interfaces.ITag.ToString
+  name: ToString()
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_ToString
+  commentId: M:ToSic.Razor.Interfaces.ITag.ToString
+  fullName: ToSic.Razor.Interfaces.ITag.ToString()
+  nameWithType: ITag.ToString()
+- uid: ToSic.Razor.Interfaces.ITag.ToString*
+  name: ToString
+  href: api/ToSic.Razor.Interfaces.ITag.html#ToSic_Razor_Interfaces_ITag_ToString_
+  commentId: Overload:ToSic.Razor.Interfaces.ITag.ToString
+  isSpec: "True"
+  fullName: ToSic.Razor.Interfaces.ITag.ToString
+  nameWithType: ITag.ToString
+- uid: ToSic.Razor.Markup
+  name: ToSic.Razor.Markup
+  href: api/ToSic.Razor.Markup.html
+  commentId: N:ToSic.Razor.Markup
+  fullName: ToSic.Razor.Markup
+  nameWithType: ToSic.Razor.Markup
+- uid: ToSic.Razor.Markup.Attribute
+  name: Attribute
+  href: api/ToSic.Razor.Markup.Attribute.html
+  commentId: T:ToSic.Razor.Markup.Attribute
+  fullName: ToSic.Razor.Markup.Attribute
+  nameWithType: Attribute
+- uid: ToSic.Razor.Markup.Attribute.#ctor(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
+  name: Attribute(String, Object, AttributeOptions)
+  href: api/ToSic.Razor.Markup.Attribute.html#ToSic_Razor_Markup_Attribute__ctor_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.Attribute.#ctor(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Markup.Attribute.Attribute(System.String, System.Object, ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: Attribute.Attribute(String, Object, AttributeOptions)
+- uid: ToSic.Razor.Markup.Attribute.#ctor*
+  name: Attribute
+  href: api/ToSic.Razor.Markup.Attribute.html#ToSic_Razor_Markup_Attribute__ctor_
+  commentId: Overload:ToSic.Razor.Markup.Attribute.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.Attribute.Attribute
+  nameWithType: Attribute.Attribute
+- uid: ToSic.Razor.Markup.Attribute.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
+  name: WriteTo(TextWriter, HtmlEncoder)
+  href: api/ToSic.Razor.Markup.Attribute.html#ToSic_Razor_Markup_Attribute_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_
+  commentId: M:ToSic.Razor.Markup.Attribute.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
+  fullName: ToSic.Razor.Markup.Attribute.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)
+  nameWithType: Attribute.WriteTo(TextWriter, HtmlEncoder)
+- uid: ToSic.Razor.Markup.Attribute.WriteTo*
+  name: WriteTo
+  href: api/ToSic.Razor.Markup.Attribute.html#ToSic_Razor_Markup_Attribute_WriteTo_
+  commentId: Overload:ToSic.Razor.Markup.Attribute.WriteTo
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.Attribute.WriteTo
+  nameWithType: Attribute.WriteTo
+- uid: ToSic.Razor.Markup.AttributeBase
+  name: AttributeBase
+  href: api/ToSic.Razor.Markup.AttributeBase.html
+  commentId: T:ToSic.Razor.Markup.AttributeBase
+  fullName: ToSic.Razor.Markup.AttributeBase
+  nameWithType: AttributeBase
+- uid: ToSic.Razor.Markup.AttributeBase.#ctor(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
+  name: AttributeBase(String, Object, AttributeOptions)
+  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase__ctor_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.AttributeBase.#ctor(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Markup.AttributeBase.AttributeBase(System.String, System.Object, ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: AttributeBase.AttributeBase(String, Object, AttributeOptions)
+- uid: ToSic.Razor.Markup.AttributeBase.#ctor*
+  name: AttributeBase
+  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase__ctor_
+  commentId: Overload:ToSic.Razor.Markup.AttributeBase.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeBase.AttributeBase
+  nameWithType: AttributeBase.AttributeBase
+- uid: ToSic.Razor.Markup.AttributeBase.Name
+  name: Name
+  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_Name
+  commentId: F:ToSic.Razor.Markup.AttributeBase.Name
+  fullName: ToSic.Razor.Markup.AttributeBase.Name
+  nameWithType: AttributeBase.Name
+- uid: ToSic.Razor.Markup.AttributeBase.Options
+  name: Options
+  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_Options
+  commentId: F:ToSic.Razor.Markup.AttributeBase.Options
+  fullName: ToSic.Razor.Markup.AttributeBase.Options
+  nameWithType: AttributeBase.Options
+- uid: ToSic.Razor.Markup.AttributeBase.ToString
+  name: ToString()
+  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_ToString
+  commentId: M:ToSic.Razor.Markup.AttributeBase.ToString
+  fullName: ToSic.Razor.Markup.AttributeBase.ToString()
+  nameWithType: AttributeBase.ToString()
+- uid: ToSic.Razor.Markup.AttributeBase.ToString*
+  name: ToString
+  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_ToString_
+  commentId: Overload:ToSic.Razor.Markup.AttributeBase.ToString
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeBase.ToString
+  nameWithType: AttributeBase.ToString
+- uid: ToSic.Razor.Markup.AttributeBase.Value
+  name: Value
+  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_Value
+  commentId: F:ToSic.Razor.Markup.AttributeBase.Value
+  fullName: ToSic.Razor.Markup.AttributeBase.Value
+  nameWithType: AttributeBase.Value
+- uid: ToSic.Razor.Markup.AttributeList
+  name: AttributeList
+  href: api/ToSic.Razor.Markup.AttributeList.html
+  commentId: T:ToSic.Razor.Markup.AttributeList
+  fullName: ToSic.Razor.Markup.AttributeList
+  nameWithType: AttributeList
+- uid: ToSic.Razor.Markup.AttributeList.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Markup.AttributeOptions)
+  name: AttributeList(IEnumerable<KeyValuePair<String, Object>>, AttributeOptions)
+  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.AttributeList.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Markup.AttributeOptions)
+  name.vb: AttributeList(IEnumerable(Of KeyValuePair(Of String, Object)), AttributeOptions)
+  fullName: ToSic.Razor.Markup.AttributeList.AttributeList(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>, ToSic.Razor.Markup.AttributeOptions)
+  fullName.vb: ToSic.Razor.Markup.AttributeList.AttributeList(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Object)), ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: AttributeList.AttributeList(IEnumerable<KeyValuePair<String, Object>>, AttributeOptions)
+  nameWithType.vb: AttributeList.AttributeList(IEnumerable(Of KeyValuePair(Of String, Object)), AttributeOptions)
+- uid: ToSic.Razor.Markup.AttributeList.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Markup.AttributeOptions)
+  name: AttributeList(IEnumerable<KeyValuePair<String, String>>, AttributeOptions)
+  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.AttributeList.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Markup.AttributeOptions)
+  name.vb: AttributeList(IEnumerable(Of KeyValuePair(Of String, String)), AttributeOptions)
+  fullName: ToSic.Razor.Markup.AttributeList.AttributeList(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>, ToSic.Razor.Markup.AttributeOptions)
+  fullName.vb: ToSic.Razor.Markup.AttributeList.AttributeList(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String)), ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: AttributeList.AttributeList(IEnumerable<KeyValuePair<String, String>>, AttributeOptions)
+  nameWithType.vb: AttributeList.AttributeList(IEnumerable(Of KeyValuePair(Of String, String)), AttributeOptions)
+- uid: ToSic.Razor.Markup.AttributeList.#ctor(ToSic.Razor.Markup.AttributeOptions)
+  name: AttributeList(AttributeOptions)
+  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList__ctor_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.AttributeList.#ctor(ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Markup.AttributeList.AttributeList(ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: AttributeList.AttributeList(AttributeOptions)
+- uid: ToSic.Razor.Markup.AttributeList.#ctor*
+  name: AttributeList
+  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList__ctor_
+  commentId: Overload:ToSic.Razor.Markup.AttributeList.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeList.AttributeList
+  nameWithType: AttributeList.AttributeList
+- uid: ToSic.Razor.Markup.AttributeList.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
+  name: WriteTo(TextWriter, HtmlEncoder)
+  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_
+  commentId: M:ToSic.Razor.Markup.AttributeList.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
+  fullName: ToSic.Razor.Markup.AttributeList.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)
+  nameWithType: AttributeList.WriteTo(TextWriter, HtmlEncoder)
+- uid: ToSic.Razor.Markup.AttributeList.WriteTo*
+  name: WriteTo
+  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList_WriteTo_
+  commentId: Overload:ToSic.Razor.Markup.AttributeList.WriteTo
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeList.WriteTo
+  nameWithType: AttributeList.WriteTo
+- uid: ToSic.Razor.Markup.AttributeListBase
+  name: AttributeListBase
+  href: api/ToSic.Razor.Markup.AttributeListBase.html
+  commentId: T:ToSic.Razor.Markup.AttributeListBase
+  fullName: ToSic.Razor.Markup.AttributeListBase
+  nameWithType: AttributeListBase
+- uid: ToSic.Razor.Markup.AttributeListBase.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Markup.AttributeOptions)
+  name: AttributeListBase(IEnumerable<KeyValuePair<String, Object>>, AttributeOptions)
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.AttributeListBase.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Markup.AttributeOptions)
+  name.vb: AttributeListBase(IEnumerable(Of KeyValuePair(Of String, Object)), AttributeOptions)
+  fullName: ToSic.Razor.Markup.AttributeListBase.AttributeListBase(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>, ToSic.Razor.Markup.AttributeOptions)
+  fullName.vb: ToSic.Razor.Markup.AttributeListBase.AttributeListBase(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Object)), ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: AttributeListBase.AttributeListBase(IEnumerable<KeyValuePair<String, Object>>, AttributeOptions)
+  nameWithType.vb: AttributeListBase.AttributeListBase(IEnumerable(Of KeyValuePair(Of String, Object)), AttributeOptions)
+- uid: ToSic.Razor.Markup.AttributeListBase.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Markup.AttributeOptions)
+  name: AttributeListBase(IEnumerable<KeyValuePair<String, String>>, AttributeOptions)
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.AttributeListBase.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Markup.AttributeOptions)
+  name.vb: AttributeListBase(IEnumerable(Of KeyValuePair(Of String, String)), AttributeOptions)
+  fullName: ToSic.Razor.Markup.AttributeListBase.AttributeListBase(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>, ToSic.Razor.Markup.AttributeOptions)
+  fullName.vb: ToSic.Razor.Markup.AttributeListBase.AttributeListBase(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String)), ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: AttributeListBase.AttributeListBase(IEnumerable<KeyValuePair<String, String>>, AttributeOptions)
+  nameWithType.vb: AttributeListBase.AttributeListBase(IEnumerable(Of KeyValuePair(Of String, String)), AttributeOptions)
+- uid: ToSic.Razor.Markup.AttributeListBase.#ctor(ToSic.Razor.Markup.AttributeOptions)
+  name: AttributeListBase(AttributeOptions)
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase__ctor_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.AttributeListBase.#ctor(ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Markup.AttributeListBase.AttributeListBase(ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: AttributeListBase.AttributeListBase(AttributeOptions)
+- uid: ToSic.Razor.Markup.AttributeListBase.#ctor*
+  name: AttributeListBase
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase__ctor_
+  commentId: Overload:ToSic.Razor.Markup.AttributeListBase.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeListBase.AttributeListBase
+  nameWithType: AttributeListBase.AttributeListBase
+- uid: ToSic.Razor.Markup.AttributeListBase.Add(System.String,System.Object,System.String)
+  name: Add(String, Object, String)
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_Add_System_String_System_Object_System_String_
+  commentId: M:ToSic.Razor.Markup.AttributeListBase.Add(System.String,System.Object,System.String)
+  fullName: ToSic.Razor.Markup.AttributeListBase.Add(System.String, System.Object, System.String)
+  nameWithType: AttributeListBase.Add(String, Object, String)
+- uid: ToSic.Razor.Markup.AttributeListBase.Add*
+  name: Add
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_Add_
+  commentId: Overload:ToSic.Razor.Markup.AttributeListBase.Add
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeListBase.Add
+  nameWithType: AttributeListBase.Add
+- uid: ToSic.Razor.Markup.AttributeListBase.AddUrl(System.String,System.Object,System.String)
+  name: AddUrl(String, Object, String)
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_AddUrl_System_String_System_Object_System_String_
+  commentId: M:ToSic.Razor.Markup.AttributeListBase.AddUrl(System.String,System.Object,System.String)
+  fullName: ToSic.Razor.Markup.AttributeListBase.AddUrl(System.String, System.Object, System.String)
+  nameWithType: AttributeListBase.AddUrl(String, Object, String)
+- uid: ToSic.Razor.Markup.AttributeListBase.AddUrl*
+  name: AddUrl
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_AddUrl_
+  commentId: Overload:ToSic.Razor.Markup.AttributeListBase.AddUrl
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeListBase.AddUrl
+  nameWithType: AttributeListBase.AddUrl
+- uid: ToSic.Razor.Markup.AttributeListBase.Options
+  name: Options
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_Options
+  commentId: F:ToSic.Razor.Markup.AttributeListBase.Options
+  fullName: ToSic.Razor.Markup.AttributeListBase.Options
+  nameWithType: AttributeListBase.Options
+- uid: ToSic.Razor.Markup.AttributeListBase.ToString
+  name: ToString()
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_ToString
+  commentId: M:ToSic.Razor.Markup.AttributeListBase.ToString
+  fullName: ToSic.Razor.Markup.AttributeListBase.ToString()
+  nameWithType: AttributeListBase.ToString()
+- uid: ToSic.Razor.Markup.AttributeListBase.ToString*
+  name: ToString
+  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_ToString_
+  commentId: Overload:ToSic.Razor.Markup.AttributeListBase.ToString
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeListBase.ToString
+  nameWithType: AttributeListBase.ToString
+- uid: ToSic.Razor.Markup.AttributeOptions
+  name: AttributeOptions
+  href: api/ToSic.Razor.Markup.AttributeOptions.html
+  commentId: T:ToSic.Razor.Markup.AttributeOptions
+  fullName: ToSic.Razor.Markup.AttributeOptions
+  nameWithType: AttributeOptions
+- uid: ToSic.Razor.Markup.AttributeOptions.DefaultEncodeQuotes
+  name: DefaultEncodeQuotes
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_DefaultEncodeQuotes
+  commentId: F:ToSic.Razor.Markup.AttributeOptions.DefaultEncodeQuotes
+  fullName: ToSic.Razor.Markup.AttributeOptions.DefaultEncodeQuotes
+  nameWithType: AttributeOptions.DefaultEncodeQuotes
+- uid: ToSic.Razor.Markup.AttributeOptions.DefaultKeepEmptyAttributes
+  name: DefaultKeepEmptyAttributes
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_DefaultKeepEmptyAttributes
+  commentId: F:ToSic.Razor.Markup.AttributeOptions.DefaultKeepEmptyAttributes
+  fullName: ToSic.Razor.Markup.AttributeOptions.DefaultKeepEmptyAttributes
+  nameWithType: AttributeOptions.DefaultKeepEmptyAttributes
+- uid: ToSic.Razor.Markup.AttributeOptions.DefaultQuote
+  name: DefaultQuote
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_DefaultQuote
+  commentId: F:ToSic.Razor.Markup.AttributeOptions.DefaultQuote
+  fullName: ToSic.Razor.Markup.AttributeOptions.DefaultQuote
+  nameWithType: AttributeOptions.DefaultQuote
+- uid: ToSic.Razor.Markup.AttributeOptions.DefaultValueIfNull
+  name: DefaultValueIfNull
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_DefaultValueIfNull
+  commentId: F:ToSic.Razor.Markup.AttributeOptions.DefaultValueIfNull
+  fullName: ToSic.Razor.Markup.AttributeOptions.DefaultValueIfNull
+  nameWithType: AttributeOptions.DefaultValueIfNull
+- uid: ToSic.Razor.Markup.AttributeOptions.DropValueIfNull
+  name: DropValueIfNull
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_DropValueIfNull
+  commentId: P:ToSic.Razor.Markup.AttributeOptions.DropValueIfNull
+  fullName: ToSic.Razor.Markup.AttributeOptions.DropValueIfNull
+  nameWithType: AttributeOptions.DropValueIfNull
+- uid: ToSic.Razor.Markup.AttributeOptions.DropValueIfNull*
+  name: DropValueIfNull
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_DropValueIfNull_
+  commentId: Overload:ToSic.Razor.Markup.AttributeOptions.DropValueIfNull
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeOptions.DropValueIfNull
+  nameWithType: AttributeOptions.DropValueIfNull
+- uid: ToSic.Razor.Markup.AttributeOptions.EncodeQuotes
+  name: EncodeQuotes
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_EncodeQuotes
+  commentId: P:ToSic.Razor.Markup.AttributeOptions.EncodeQuotes
+  fullName: ToSic.Razor.Markup.AttributeOptions.EncodeQuotes
+  nameWithType: AttributeOptions.EncodeQuotes
+- uid: ToSic.Razor.Markup.AttributeOptions.EncodeQuotes*
+  name: EncodeQuotes
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_EncodeQuotes_
+  commentId: Overload:ToSic.Razor.Markup.AttributeOptions.EncodeQuotes
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeOptions.EncodeQuotes
+  nameWithType: AttributeOptions.EncodeQuotes
+- uid: ToSic.Razor.Markup.AttributeOptions.KeepEmpty
+  name: KeepEmpty
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_KeepEmpty
+  commentId: P:ToSic.Razor.Markup.AttributeOptions.KeepEmpty
+  fullName: ToSic.Razor.Markup.AttributeOptions.KeepEmpty
+  nameWithType: AttributeOptions.KeepEmpty
+- uid: ToSic.Razor.Markup.AttributeOptions.KeepEmpty*
+  name: KeepEmpty
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_KeepEmpty_
+  commentId: Overload:ToSic.Razor.Markup.AttributeOptions.KeepEmpty
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeOptions.KeepEmpty
+  nameWithType: AttributeOptions.KeepEmpty
+- uid: ToSic.Razor.Markup.AttributeOptions.Quote
+  name: Quote
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_Quote
+  commentId: P:ToSic.Razor.Markup.AttributeOptions.Quote
+  fullName: ToSic.Razor.Markup.AttributeOptions.Quote
+  nameWithType: AttributeOptions.Quote
+- uid: ToSic.Razor.Markup.AttributeOptions.Quote*
+  name: Quote
+  href: api/ToSic.Razor.Markup.AttributeOptions.html#ToSic_Razor_Markup_AttributeOptions_Quote_
+  commentId: Overload:ToSic.Razor.Markup.AttributeOptions.Quote
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.AttributeOptions.Quote
+  nameWithType: AttributeOptions.Quote
+- uid: ToSic.Razor.Markup.ChildTags
+  name: ChildTags
+  href: api/ToSic.Razor.Markup.ChildTags.html
+  commentId: T:ToSic.Razor.Markup.ChildTags
+  fullName: ToSic.Razor.Markup.ChildTags
+  nameWithType: ChildTags
+- uid: ToSic.Razor.Markup.ChildTags.Add(System.Object)
+  name: Add(Object)
+  href: api/ToSic.Razor.Markup.ChildTags.html#ToSic_Razor_Markup_ChildTags_Add_System_Object_
+  commentId: M:ToSic.Razor.Markup.ChildTags.Add(System.Object)
+  fullName: ToSic.Razor.Markup.ChildTags.Add(System.Object)
+  nameWithType: ChildTags.Add(Object)
+- uid: ToSic.Razor.Markup.ChildTags.Add*
+  name: Add
+  href: api/ToSic.Razor.Markup.ChildTags.html#ToSic_Razor_Markup_ChildTags_Add_
+  commentId: Overload:ToSic.Razor.Markup.ChildTags.Add
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ChildTags.Add
+  nameWithType: ChildTags.Add
+- uid: ToSic.Razor.Markup.ChildTags.Replace(System.Object)
+  name: Replace(Object)
+  href: api/ToSic.Razor.Markup.ChildTags.html#ToSic_Razor_Markup_ChildTags_Replace_System_Object_
+  commentId: M:ToSic.Razor.Markup.ChildTags.Replace(System.Object)
+  fullName: ToSic.Razor.Markup.ChildTags.Replace(System.Object)
+  nameWithType: ChildTags.Replace(Object)
+- uid: ToSic.Razor.Markup.ChildTags.Replace*
+  name: Replace
+  href: api/ToSic.Razor.Markup.ChildTags.html#ToSic_Razor_Markup_ChildTags_Replace_
+  commentId: Overload:ToSic.Razor.Markup.ChildTags.Replace
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ChildTags.Replace
+  nameWithType: ChildTags.Replace
+- uid: ToSic.Razor.Markup.TagBase
+  name: TagBase
+  href: api/ToSic.Razor.Markup.TagBase.html
+  commentId: T:ToSic.Razor.Markup.TagBase
+  fullName: ToSic.Razor.Markup.TagBase
+  nameWithType: TagBase
+- uid: ToSic.Razor.Markup.TagBase.TagAttributes
+  name: TagAttributes
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagAttributes
+  commentId: P:ToSic.Razor.Markup.TagBase.TagAttributes
+  fullName: ToSic.Razor.Markup.TagBase.TagAttributes
+  nameWithType: TagBase.TagAttributes
+- uid: ToSic.Razor.Markup.TagBase.TagAttributes*
+  name: TagAttributes
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagAttributes_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagAttributes
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.TagAttributes
+  nameWithType: TagBase.TagAttributes
+- uid: ToSic.Razor.Markup.TagBase.TagChildren
+  name: TagChildren
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagChildren
+  commentId: P:ToSic.Razor.Markup.TagBase.TagChildren
+  fullName: ToSic.Razor.Markup.TagBase.TagChildren
+  nameWithType: TagBase.TagChildren
+- uid: ToSic.Razor.Markup.TagBase.TagChildren*
+  name: TagChildren
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagChildren_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagChildren
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.TagChildren
+  nameWithType: TagBase.TagChildren
+- uid: ToSic.Razor.Markup.TagBase.TagContents
+  name: TagContents
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagContents
+  commentId: P:ToSic.Razor.Markup.TagBase.TagContents
+  fullName: ToSic.Razor.Markup.TagBase.TagContents
+  nameWithType: TagBase.TagContents
+- uid: ToSic.Razor.Markup.TagBase.TagContents*
+  name: TagContents
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagContents_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagContents
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.TagContents
+  nameWithType: TagBase.TagContents
+- uid: ToSic.Razor.Markup.TagBase.TagEnd
+  name: TagEnd
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagEnd
+  commentId: P:ToSic.Razor.Markup.TagBase.TagEnd
+  fullName: ToSic.Razor.Markup.TagBase.TagEnd
+  nameWithType: TagBase.TagEnd
+- uid: ToSic.Razor.Markup.TagBase.TagEnd*
+  name: TagEnd
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagEnd_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagEnd
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.TagEnd
+  nameWithType: TagBase.TagEnd
+- uid: ToSic.Razor.Markup.TagBase.TagName
+  name: TagName
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName
+  commentId: P:ToSic.Razor.Markup.TagBase.TagName
+  fullName: ToSic.Razor.Markup.TagBase.TagName
+  nameWithType: TagBase.TagName
+- uid: ToSic.Razor.Markup.TagBase.TagName*
+  name: TagName
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagName
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.TagName
+  nameWithType: TagBase.TagName
+- uid: ToSic.Razor.Markup.TagBase.TagStart
+  name: TagStart
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagStart
+  commentId: P:ToSic.Razor.Markup.TagBase.TagStart
+  fullName: ToSic.Razor.Markup.TagBase.TagStart
+  nameWithType: TagBase.TagStart
+- uid: ToSic.Razor.Markup.TagBase.TagStart*
+  name: TagStart
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagStart_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagStart
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.TagStart
+  nameWithType: TagBase.TagStart
+- uid: ToSic.Razor.Markup.TagBase.ToString
+  name: ToString()
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ToString
+  commentId: M:ToSic.Razor.Markup.TagBase.ToString
+  fullName: ToSic.Razor.Markup.TagBase.ToString()
+  nameWithType: TagBase.ToString()
+- uid: ToSic.Razor.Markup.TagBase.ToString*
+  name: ToString
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ToString_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.ToString
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.ToString
+  nameWithType: TagBase.ToString
+- uid: ToSic.Razor.Markup.TagBase.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
+  name: WriteTo(TextWriter, HtmlEncoder)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_
+  commentId: M:ToSic.Razor.Markup.TagBase.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
+  fullName: ToSic.Razor.Markup.TagBase.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)
+  nameWithType: TagBase.WriteTo(TextWriter, HtmlEncoder)
+- uid: ToSic.Razor.Markup.TagBase.WriteTo*
+  name: WriteTo
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.WriteTo
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.WriteTo
+  nameWithType: TagBase.WriteTo
+- uid: ToSic.Razor.Markup.TagOptions
+  name: TagOptions
+  href: api/ToSic.Razor.Markup.TagOptions.html
+  commentId: T:ToSic.Razor.Markup.TagOptions
+  fullName: ToSic.Razor.Markup.TagOptions
+  nameWithType: TagOptions
+- uid: ToSic.Razor.Markup.TagOptions.#ctor(ToSic.Razor.Markup.AttributeOptions)
+  name: TagOptions(AttributeOptions)
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions__ctor_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Markup.TagOptions.#ctor(ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Markup.TagOptions.TagOptions(ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: TagOptions.TagOptions(AttributeOptions)
+- uid: ToSic.Razor.Markup.TagOptions.#ctor*
+  name: TagOptions
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions__ctor_
+  commentId: Overload:ToSic.Razor.Markup.TagOptions.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagOptions.TagOptions
+  nameWithType: TagOptions.TagOptions
+- uid: ToSic.Razor.Markup.TagOptions.Attribute
+  name: Attribute
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_Attribute
+  commentId: P:ToSic.Razor.Markup.TagOptions.Attribute
+  fullName: ToSic.Razor.Markup.TagOptions.Attribute
+  nameWithType: TagOptions.Attribute
+- uid: ToSic.Razor.Markup.TagOptions.Attribute*
+  name: Attribute
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_Attribute_
+  commentId: Overload:ToSic.Razor.Markup.TagOptions.Attribute
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagOptions.Attribute
+  nameWithType: TagOptions.Attribute
+- uid: ToSic.Razor.Markup.TagOptions.Close
+  name: Close
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_Close
+  commentId: P:ToSic.Razor.Markup.TagOptions.Close
+  fullName: ToSic.Razor.Markup.TagOptions.Close
+  nameWithType: TagOptions.Close
+- uid: ToSic.Razor.Markup.TagOptions.Close*
+  name: Close
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_Close_
+  commentId: Overload:ToSic.Razor.Markup.TagOptions.Close
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagOptions.Close
+  nameWithType: TagOptions.Close
+- uid: ToSic.Razor.Markup.TagOptions.DefaultClose
+  name: DefaultClose
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_DefaultClose
+  commentId: F:ToSic.Razor.Markup.TagOptions.DefaultClose
+  fullName: ToSic.Razor.Markup.TagOptions.DefaultClose
+  nameWithType: TagOptions.DefaultClose
+- uid: ToSic.Razor.Markup.TagOptions.DefaultSelfCloseIfNoContent
+  name: DefaultSelfCloseIfNoContent
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_DefaultSelfCloseIfNoContent
+  commentId: F:ToSic.Razor.Markup.TagOptions.DefaultSelfCloseIfNoContent
+  fullName: ToSic.Razor.Markup.TagOptions.DefaultSelfCloseIfNoContent
+  nameWithType: TagOptions.DefaultSelfCloseIfNoContent
+- uid: ToSic.Razor.Markup.TagOptions.SelfClose
+  name: SelfClose
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_SelfClose
+  commentId: P:ToSic.Razor.Markup.TagOptions.SelfClose
+  fullName: ToSic.Razor.Markup.TagOptions.SelfClose
+  nameWithType: TagOptions.SelfClose
+- uid: ToSic.Razor.Markup.TagOptions.SelfClose*
+  name: SelfClose
+  href: api/ToSic.Razor.Markup.TagOptions.html#ToSic_Razor_Markup_TagOptions_SelfClose_
+  commentId: Overload:ToSic.Razor.Markup.TagOptions.SelfClose
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagOptions.SelfClose
+  nameWithType: TagOptions.SelfClose

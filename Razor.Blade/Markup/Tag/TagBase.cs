@@ -36,7 +36,7 @@ namespace ToSic.Razor.Markup
         internal static TagBase Text(string text)
             => new TagBase { TagOverride = text };
 
-        /// <inheritdoc cref="TagName"/>
+        /// <inheritdoc/>
         public string TagName { get; }
 
         /// <summary>
@@ -68,7 +68,6 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// Gets the HTML encoded value.
         /// </summary>
-        /// <inheritdoc cref="ITag" />
         public override string ToString() => ToString(RealOptions);
 
         internal string ToString(TagOptions options)

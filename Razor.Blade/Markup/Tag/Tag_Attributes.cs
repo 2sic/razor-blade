@@ -7,7 +7,7 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// All attributes of this tag
         /// </summary>
-        /// <inheritdoc cref="ITag"/>
+        /// <inheritdoc/>
         public AttributeList TagAttributes { get; } = new AttributeList();
     }
 }

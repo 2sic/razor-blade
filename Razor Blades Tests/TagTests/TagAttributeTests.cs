@@ -11,13 +11,13 @@ namespace Razor_Blades_Tests.TagTests
         [TestMethod]
         public void TagAttributeBasics()
         {
-            Is("<div class='x'>", Tags.Tag("div").Attr("class", "x").Open);
+            Is("<div class='x'>", Tags.Tag("div").Attr("class", "x").TagStart);
         }
 
         [TestMethod]
         public void TagAttributeStandalone()
         {
-            Is("<div data-fancybox>", Tags.Tag("div").Attr("data-fancybox").Open);
+            Is("<div data-fancybox>", Tags.Tag("div").Attr("data-fancybox").TagStart);
         }
 
         [TestMethod]
@@ -26,7 +26,7 @@ namespace Razor_Blades_Tests.TagTests
             Is("<div class='x' name='value'>", Tags.Tag("div")
                 .Attr("class", "x")
                 .Attr("name", "value")
-                .Open
+                .TagStart
             );
         }
 
@@ -37,7 +37,7 @@ namespace Razor_Blades_Tests.TagTests
                 .Attr("class", "x", "")
                 .Attr("class", "y", "")
                 .Attr("class", "z", "")
-                .Open
+                .TagStart
             );
         }
 
@@ -48,7 +48,7 @@ namespace Razor_Blades_Tests.TagTests
                 .Attr("class", "x", " ")
                 .Attr("class", "y", ",")
                 .Attr("class", "z", "-")
-                .Open
+                .TagStart
             );
         }
 
@@ -59,7 +59,7 @@ namespace Razor_Blades_Tests.TagTests
                 .Attr("class", "x", " ")
                 .Attr("class", "y", ",")
                 .Attr("class", "z", null)
-                .Open
+                .TagStart
             );
         }
         #endregion
@@ -68,30 +68,30 @@ namespace Razor_Blades_Tests.TagTests
         [TestMethod]
         public void TagId()
         {
-            Is("<div id='z'>", Tags.Tag("div").Id("z").Open);
-            Is("<div id='y'>", Tags.Tag("div").Id("z").Id("y").Open);
-            Is("<div id>", Tags.Tag("div").Id(null).Open);
-            Is("<div id>", Tags.Tag("div").Id("z").Id(null).Open);
-            Is("<div id='x'>", Tags.Tag("div").Id("z").Id(null).Id("x").Open);
+            Is("<div id='z'>", Tags.Tag("div").Id("z").TagStart);
+            Is("<div id='y'>", Tags.Tag("div").Id("z").Id("y").TagStart);
+            Is("<div id>", Tags.Tag("div").Id(null).TagStart);
+            Is("<div id>", Tags.Tag("div").Id("z").Id(null).TagStart);
+            Is("<div id='x'>", Tags.Tag("div").Id("z").Id(null).Id("x").TagStart);
         }
 
         [TestMethod]
         public void TagClass()
         {
-            Is("<div class='z'>", Tags.Tag("div").Class("z").Open);
-            Is("<div class='z y'>", Tags.Tag("div").Class("z").Class("y").Open);
-            Is("<div class>", Tags.Tag("div").Class(null).Open);
-            Is("<div class>", Tags.Tag("div").Class("z").Class("y").Class(null).Open);
-            Is("<div class='x'>", Tags.Tag("div").Class("z").Class("y").Class(null).Class("x").Open);
+            Is("<div class='z'>", Tags.Tag("div").Class("z").TagStart);
+            Is("<div class='z y'>", Tags.Tag("div").Class("z").Class("y").TagStart);
+            Is("<div class>", Tags.Tag("div").Class(null).TagStart);
+            Is("<div class>", Tags.Tag("div").Class("z").Class("y").Class(null).TagStart);
+            Is("<div class='x'>", Tags.Tag("div").Class("z").Class("y").Class(null).Class("x").TagStart);
         }
 
         [TestMethod]
         public void TagStyle()
         {
-            Is("<div style='z'>", Tags.Tag("div").Style("z").Open);
-            Is("<div style='z;y'>", Tags.Tag("div").Style("z").Style("y").Open);
-            Is("<div style>", Tags.Tag("div").Style("z").Style("y").Style(null).Open);
-            Is("<div style='x'>", Tags.Tag("div").Style("z").Style("y").Style(null).Style("x").Open);
+            Is("<div style='z'>", Tags.Tag("div").Style("z").TagStart);
+            Is("<div style='z;y'>", Tags.Tag("div").Style("z").Style("y").TagStart);
+            Is("<div style>", Tags.Tag("div").Style("z").Style("y").Style(null).TagStart);
+            Is("<div style='x'>", Tags.Tag("div").Style("z").Style("y").Style(null).Style("x").TagStart);
         }
         #endregion
     }

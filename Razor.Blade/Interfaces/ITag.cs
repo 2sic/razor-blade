@@ -28,8 +28,8 @@ namespace ToSic.Razor.Interfaces
 
         #region .Open and .Close
 
-        HtmlString Open {get; }
-        HtmlString Close { get; }
+        HtmlString TagStart {get; }
+        HtmlString TagEnd { get; }
         #endregion
     }
 }

@@ -42,8 +42,14 @@ namespace ToSic.Razor.Interfaces
         void AddToHead(TagBase tag);
 
         /// <summary>
+        /// Add a standard base header tag.
+        /// </summary>
+        /// <param name="url">the optional url for the base tag - if null, will default to the real url for the current page</param>
+        void AddBase(string url = null);
+
+        /// <summary>
         /// Add a standard meta header tag.
-        /// If you need to add more attributes, use AddHeader(...) instead
+        /// You may also want AddOpenGraph or AddJsonLd
         /// </summary>
         /// <param name="name"></param>
         /// <param name="content"></param>

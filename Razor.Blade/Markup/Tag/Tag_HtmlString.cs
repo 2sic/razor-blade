@@ -35,8 +35,8 @@ namespace ToSic.Razor.Markup
 
         #region .Open and .Close
 
-        public HtmlString Open => new HtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
-        public HtmlString Close => new HtmlString(TagBuilder.Close(TagName));
+        public HtmlString TagStart => new HtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
+        public HtmlString TagEnd => new HtmlString(TagBuilder.Close(TagName));
 
         #endregion
     }
