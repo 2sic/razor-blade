@@ -6,7 +6,7 @@ namespace ToSic.Razor.Blade
 {
     /// <summary>
     /// Helper commands to enable fluid coding with tags.
-    /// This allows you to do things like TagBase.Div().Id("myId")
+    /// This allows you to do things like <code>Tag.Div().Id("myId").Class("row4").Class("xs")</code>
     /// </summary>
     public static class TagExtensions
     {

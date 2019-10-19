@@ -82,7 +82,14 @@
   
   <h1 id="ToSic_Razor_Html5" data-uid="ToSic.Razor.Html5" class="text-break">Namespace ToSic.Razor.Html5
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>This namespace is responsible for all HTML5 tags inside razor. You could use it, but usually you&#39;ll use the shortcut from the </p>
+<pre><code class="lang-c#">@using ToSic.Razor.Blade;
+</code></pre><p>After that you can simply use the commands - so here&#39;s a super simple cshtml file:</p>
+<pre><code class="lang-c#">@using ToSic.Razor.Blade;
+&lt;div&gt;
+    @Tag.A(&quot;this text is much too long &amp;amp; will need to be truncated...&quot;, 25)
+&lt;/div&gt;
+</code></pre></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
@@ -426,6 +433,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/razor-blade/blob/master/DocFx Generator/namespaces/ToSic.Razor.Html5.md/#L2" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

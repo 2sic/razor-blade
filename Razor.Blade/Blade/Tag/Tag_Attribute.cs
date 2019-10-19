@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using ToSic.Razor.Markup;
+﻿using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Blade
 {
@@ -12,8 +11,8 @@ namespace ToSic.Razor.Blade
         /// <param name="name">attribute name</param>
         /// <param name="value">attribute value</param>
         /// <param name="options">optional configuration regarding quotes and encoding</param>
-        /// <returns>HtmlString so you can use @TagBase.Attribute(...) in your code</returns>
-        public static Attribute Attribute(string name, string value, AttributeOptions options = null)
+        /// <returns>HtmlString so you can use &lt;div @Tag.Attr("myid", "5930")&gt; in your code</returns>
+        public static Attribute Attr(string name, string value, AttributeOptions options = null)
             => new Attribute(name, value, options);
 
         /// <summary>
@@ -22,28 +21,31 @@ namespace ToSic.Razor.Blade
         /// <param name="name">attribute name</param>
         /// <param name="value">attribute value object - will be serialized to json</param>
         /// <param name="options">optional configuration regarding quotes and encoding</param>
-        /// <returns>HtmlString so you can use @TagBase.Attribute(...) in your code</returns>
-        public static Attribute Attribute(string name, object value = null, AttributeOptions options = null)
+        /// <returns>HtmlString so you can use &lt;div @Tag.Attr("myid", 5930)&gt; in your code</returns>
+        public static Attribute Attr(string name, object value = null, AttributeOptions options = null)
             => new Attribute(name, value, options);
 
-        /// <summary>
-        /// Create a string for rendering a set of attributes
-        /// </summary>
-        /// <param name="attributes">An enumerable of key/value pairs, usually a dictionary</param>
-        /// <param name="options">optional configuration regarding quotes and encoding</param>
-        /// <returns>HtmlString so you can use @TagBase.Attributes(...) in your code</returns>
-        public static AttributeList Attributes(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null) 
-            => new AttributeList(attributes, options);
+        #region Disabled for now - not sure if this is a useful API to publish
+
+        ///// <summary>
+        ///// Create a string for rendering a set of attributes
+        ///// </summary>
+        ///// <param name="attributes">An enumerable of key/value pairs, usually a dictionary</param>
+        ///// <param name="options">optional configuration regarding quotes and encoding</param>
+        ///// <returns>HtmlString so you can use @Tag.Attributes(...) in your code</returns>
+        //public static AttributeList Attributes(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null) 
+        //    => new AttributeList(attributes, options);
 
 
-        /// <summary>
-        /// Create a string for rendering a set of attributes
-        /// </summary>
-        /// <param name="attributes">An enumerable of key/value pairs, usually a dictionary. Objects will be serialized to json</param>
-        /// <param name="options">optional configuration regarding quotes and encoding</param>
-        /// <returns>HtmlString so you can use @TagBase.Attributes(...) in your code</returns>
-        public static AttributeList Attributes(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null)
-            => new AttributeList(attributes, options);
+        ///// <summary>
+        ///// Create a string for rendering a set of attributes
+        ///// </summary>
+        ///// <param name="attributes">An enumerable of key/value pairs, usually a dictionary. Objects will be serialized to json</param>
+        ///// <param name="options">optional configuration regarding quotes and encoding</param>
+        ///// <returns>HtmlString so you can use @Tag.Attributes(...) in your code</returns>
+        //public static AttributeList Attributes(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null)
+        //    => new AttributeList(attributes, options);
 
+        #endregion
     }
 }

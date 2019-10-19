@@ -82,7 +82,14 @@
   
   <h1 id="ToSic_Razor_Blade" data-uid="ToSic.Razor.Blade" class="text-break">Namespace ToSic.Razor.Blade
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>This is the main namespace you will be working with. Add it to your page like this:</p>
+<pre><code class="lang-c#">@using ToSic.Razor.Blade;
+</code></pre><p>After that you can simply use the commands - so here&#39;s a super simple cshtml file:</p>
+<pre><code class="lang-c#">@using ToSic.Razor.Blade;
+&lt;div&gt;
+    @Text.Ellipsis(&quot;this text is much too long &amp;amp; will need to be truncated&quot;, 25)
+&lt;/div&gt;
+</code></pre></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
@@ -92,15 +99,21 @@
 and add various kinds of headers to the &lt;head&gt; of the current page.</p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.Tag.html">Tag</a></h4>
-      <section><p>Helper to quickly generate all HTML5 tags with a Tag.Img(...) syntax
-This is usually nicer that new Img(...) and easier for use in Razor templates</p>
+      <section><p>Helper to quickly generate all HTML5 tags with a <pre><code>Tag.Img()</code></pre> syntax.
+This is the easiest and safest way to use in in Razor templates because you won&apos;t have naming issues etc.
+<br>
+The objects are smart - for example <pre><code>Tag.Img().Src(&quot;ünsafe.jpg&quot;)</code></pre> will automatically uri-encode ;)
+<br>
+<em>Important: This can easily be confused with the Tags object which has another purpose.</em></p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.TagExtensions.html">TagExtensions</a></h4>
       <section><p>Helper commands to enable fluid coding with tags.
 This allows you to do things like TagBase.Div().Id(&quot;myId&quot;)</p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.Tags.html">Tags</a></h4>
-      <section><p>Basic tools to generate attributes and tags here</p>
+      <section><p>Commands to work with html tags as strings.
+For example to filter out html-tags, convert new lines to BR-tags etc.
+Important: This can easily be confused with the Tag object which has another purpose.</p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.Text.html">Text</a></h4>
       <section><p>Many simple commands to work with Text inside HTML</p>
@@ -112,6 +125,9 @@ This allows you to do things like TagBase.Div().Id(&quot;myId&quot;)</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/razor-blade/blob/master/DocFx Generator/namespaces/ToSic.Razor.Blade.md/#L2" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

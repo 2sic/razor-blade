@@ -13,6 +13,6 @@ After that you can simply use the commands - so here's a super simple cshtml fil
 ```c#
 @using ToSic.Razor.Blade;
 <div>
-    @Text.Ellipsis("this text is much too long &amp; will need to be truncated...", 25)
+    @Text.Ellipsis("this text is much too long &amp; will need to be truncated", 25)
 </div>
 ```

@@ -83,7 +83,9 @@
   
   <h1 id="ToSic_Razor_Blade_Tags" data-uid="ToSic.Razor.Blade.Tags" class="text-break">Class Tags
   </h1>
-  <div class="markdown level0 summary"><p>Basic tools to generate attributes and tags here</p>
+  <div class="markdown level0 summary"><p>Commands to work with html tags as strings.
+For example to filter out html-tags, convert new lines to BR-tags etc.
+Important: This can easily be confused with the Tag object which has another purpose.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -99,242 +101,6 @@
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Attribute_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Attribute(System.String%2CSystem.Object%2CToSic.Razor.Markup.AttributeOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Attribute.cs/#L28">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_Tags_Attribute_" data-uid="ToSic.Razor.Blade.Tags.Attribute*"></a>
-  <h4 id="ToSic_Razor_Blade_Tags_Attribute_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_" data-uid="ToSic.Razor.Blade.Tags.Attribute(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)">Attribute(String, Object, AttributeOptions)</h4>
-  <div class="markdown level1 summary"><p>Generate an attribute for use in a tag</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Attribute Attribute(string name, object value = null, AttributeOptions options = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>attribute name</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>attribute value object - will be serialized to json</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>optional configuration regarding quotes and encoding</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.Attribute.html">Attribute</a></td>
-        <td><p>HtmlString so you can use @TagBase.Attribute(...) in your code</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Attribute_System_String_System_String_ToSic_Razor_Markup_AttributeOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Attribute(System.String%2CSystem.String%2CToSic.Razor.Markup.AttributeOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Attribute.cs/#L18">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_Tags_Attribute_" data-uid="ToSic.Razor.Blade.Tags.Attribute*"></a>
-  <h4 id="ToSic_Razor_Blade_Tags_Attribute_System_String_System_String_ToSic_Razor_Markup_AttributeOptions_" data-uid="ToSic.Razor.Blade.Tags.Attribute(System.String,System.String,ToSic.Razor.Markup.AttributeOptions)">Attribute(String, String, AttributeOptions)</h4>
-  <div class="markdown level1 summary"><p>Generate an attribute for use in a tag</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Attribute Attribute(string name, string value, AttributeOptions options = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>attribute name</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>attribute value</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>optional configuration regarding quotes and encoding</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.Attribute.html">Attribute</a></td>
-        <td><p>HtmlString so you can use @TagBase.Attribute(...) in your code</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___ToSic_Razor_Markup_AttributeOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable%7BSystem.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D%7D%2CToSic.Razor.Markup.AttributeOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Attribute.cs/#L47">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_Tags_Attributes_" data-uid="ToSic.Razor.Blade.Tags.Attributes*"></a>
-  <h4 id="ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___ToSic_Razor_Markup_AttributeOptions_" data-uid="ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},ToSic.Razor.Markup.AttributeOptions)">Attributes(IEnumerable&lt;KeyValuePair&lt;String, Object&gt;&gt;, AttributeOptions)</h4>
-  <div class="markdown level1 summary"><p>Create a string for rendering a set of attributes</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AttributeList Attributes(IEnumerable&lt;KeyValuePair&lt;string, object&gt;&gt; attributes, AttributeOptions options = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">attributes</span></td>
-        <td><p>An enumerable of key/value pairs, usually a dictionary. Objects will be serialized to json</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>optional configuration regarding quotes and encoding</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.AttributeList.html">AttributeList</a></td>
-        <td><p>HtmlString so you can use @TagBase.Attributes(...) in your code</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___ToSic_Razor_Markup_AttributeOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable%7BSystem.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.String%7D%7D%2CToSic.Razor.Markup.AttributeOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Attribute.cs/#L37">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_Tags_Attributes_" data-uid="ToSic.Razor.Blade.Tags.Attributes*"></a>
-  <h4 id="ToSic_Razor_Blade_Tags_Attributes_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___ToSic_Razor_Markup_AttributeOptions_" data-uid="ToSic.Razor.Blade.Tags.Attributes(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},ToSic.Razor.Markup.AttributeOptions)">Attributes(IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;, AttributeOptions)</h4>
-  <div class="markdown level1 summary"><p>Create a string for rendering a set of attributes</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AttributeList Attributes(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; attributes, AttributeOptions options = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
-        <td><span class="parametername">attributes</span></td>
-        <td><p>An enumerable of key/value pairs, usually a dictionary</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>optional configuration regarding quotes and encoding</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.AttributeList.html">AttributeList</a></td>
-        <td><p>HtmlString so you can use @TagBase.Attributes(...) in your code</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Br2Nl_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Br2Nl(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -436,7 +202,7 @@
     <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Decode_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Decode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Encode.cs/#L23">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Encode.cs/#L21">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Tags_Decode_" data-uid="ToSic.Razor.Blade.Tags.Decode*"></a>
   <h4 id="ToSic_Razor_Blade_Tags_Decode_System_String_" data-uid="ToSic.Razor.Blade.Tags.Decode(System.String)">Decode(String)</h4>
@@ -486,7 +252,7 @@
     <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Encode_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Encode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Encode.cs/#L15">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Encode.cs/#L13">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Tags_Encode_" data-uid="ToSic.Razor.Blade.Tags.Encode*"></a>
   <h4 id="ToSic_Razor_Blade_Tags_Encode_System_String_" data-uid="ToSic.Razor.Blade.Tags.Encode(System.String)">Encode(String)</h4>
@@ -627,62 +393,6 @@ Special note: apostrophes are encoded as &apos;, not as &quot;</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags_Tag_System_String_System_Object_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags.Tag(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Tag.cs/#L14">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_Tags_Tag_" data-uid="ToSic.Razor.Blade.Tags.Tag*"></a>
-  <h4 id="ToSic_Razor_Blade_Tags_Tag_System_String_System_Object_" data-uid="ToSic.Razor.Blade.Tags.Tag(System.String,System.Object)">Tag(String, Object)</h4>
-  <div class="markdown level1 summary"><p>Create an html tag for a specific name, optionally self self-closing (if specified in the options)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TagBase Tag(string name, object content = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>tag name</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">content</span></td>
-        <td><p>optional content to place within the tag - can be a string or other tags</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.TagBase.html">TagBase</a></td>
-        <td><p>HtmlString of the tag, so you can use it directly with @TagBase.TagStart(...) in your razor</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
@@ -694,7 +404,7 @@ Special note: apostrophes are encoded as &apos;, not as &quot;</p>
                     <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Tags.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Tags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Tag.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Tags/Tags.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
