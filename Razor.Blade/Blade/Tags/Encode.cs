@@ -1,9 +1,7 @@
 ﻿
 namespace ToSic.Razor.Blade
 {
-    /// <summary>
-    /// Encode a string for placing in the source of html or an attribute
-    /// </summary>
+    // Encode a string for placing in the source of html or an attribute
     partial class Tags
     {
         /// <summary>

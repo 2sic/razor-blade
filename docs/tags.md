@@ -1,6 +1,6 @@
 <img src="assets/razor-blade-logo.png" width="100%">
 
-_return to [overview](https://github.com/DNN-Connect/razor-blade)_
+_return to [overview](https://github.com/2sic/razor-blade)_
 
 # Razor Blade Tags API
 

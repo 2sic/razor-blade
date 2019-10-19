@@ -2,7 +2,7 @@
 
 # Razor Blade HtmlPage API
 
-_return to [overview](https://github.com/DNN-Connect/razor-blade)_
+_return to [overview](https://github.com/2sic/razor-blade)_
 
 ## Properties To Change Title, Description, Keywords
 

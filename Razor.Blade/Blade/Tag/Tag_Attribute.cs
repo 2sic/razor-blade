@@ -3,10 +3,8 @@ using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Blade
 {
-    /// <summary>
-    /// Basic tools to generate attributes and tags here
-    /// </summary>
-    partial class Tags
+    // Basic tools to generate attributes and tags here
+    partial class Tag
     {
         /// <summary>
         /// Generate an attribute for use in a tag
