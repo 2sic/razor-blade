@@ -67,6 +67,14 @@ namespace ToSic.Razor.Blade
         /// <remarks>New in 2.1</remarks>
         public static void AddToHead(ToSic.Razor.Markup.TagBase tag) => GetPage().AddToHead(tag);
 
+
+        /// <summary>
+        /// Add a standard base header tag.
+        /// </summary>
+        /// <param name="url">the optional url for the base tag - if null, will default to the real url for the current page</param>
+        public static void AddBase(string url = null) => GetPage().AddBase(url);
+
+
         /// <summary>
         /// Add a standard meta header tag.
         /// If you need to add more attributes, use AddHeader(...) instead

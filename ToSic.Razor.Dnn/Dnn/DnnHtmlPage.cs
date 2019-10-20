@@ -4,6 +4,11 @@ using Page = System.Web.UI.Page;
 
 namespace ToSic.Razor.Dnn
 {
+    /// <summary>
+    /// This is the DNN implementation of the HtmlPage Interface.
+    /// We need it because these kinds of commands are very platform specific, so we'll need an implementation
+    /// for each target Platform like NopCommerce or Oqtane.
+    /// </summary>
     public partial class DnnHtmlPage : IHtmlPage
     {
         public DnnHtmlPage()

@@ -5,7 +5,7 @@ using ToSic.Razor.Interfaces;
 namespace ToSic.Razor.Blade
 {
     /// <summary>
-    /// Helper commands to enable fluid coding with tags.
+    /// Helper commands to enable fluid coding with Tag Attributes and Common Helpers like Add and Wrap.
     /// This allows you to do things like <code>Tag.Div().Id("myId").Class("row4").Class("xs")</code>
     /// </summary>
     public static class TagExtensions

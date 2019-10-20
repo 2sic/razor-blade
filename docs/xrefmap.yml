@@ -13,6 +13,19 @@ references:
   commentId: T:ToSic.Razor.Blade.HtmlPage
   fullName: ToSic.Razor.Blade.HtmlPage
   nameWithType: HtmlPage
+- uid: ToSic.Razor.Blade.HtmlPage.AddBase(System.String)
+  name: AddBase(String)
+  href: api/ToSic.Razor.Blade.HtmlPage.html#ToSic_Razor_Blade_HtmlPage_AddBase_System_String_
+  commentId: M:ToSic.Razor.Blade.HtmlPage.AddBase(System.String)
+  fullName: ToSic.Razor.Blade.HtmlPage.AddBase(System.String)
+  nameWithType: HtmlPage.AddBase(String)
+- uid: ToSic.Razor.Blade.HtmlPage.AddBase*
+  name: AddBase
+  href: api/ToSic.Razor.Blade.HtmlPage.html#ToSic_Razor_Blade_HtmlPage_AddBase_
+  commentId: Overload:ToSic.Razor.Blade.HtmlPage.AddBase
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.HtmlPage.AddBase
+  nameWithType: HtmlPage.AddBase
 - uid: ToSic.Razor.Blade.HtmlPage.AddIcon(System.String,System.String,System.String,System.Int32,System.String)
   name: AddIcon(String, String, String, Int32, String)
   href: api/ToSic.Razor.Blade.HtmlPage.html#ToSic_Razor_Blade_HtmlPage_AddIcon_System_String_System_String_System_String_System_Int32_System_String_
