@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Razor Blade Fluent Tag API v3.0 | RazorBlade 3 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Razor Blade Fluent Tag API v3.0 | RazorBlade 3 ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logos/razor-blade-icon-50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p><img src="/images/logos/razor-blade-logo.png" width="100%"></p>
+<h1 id="razor-blade-fluent-tag-api-v30">Razor Blade Fluent Tag API <em>v3.0</em></h1>
+<h2 id="the-tag-objects">The Tag Objects</h2>
+<p>The <code>Tag</code> objects generate Html tags inside <em>RazorBlade</em> and provide a powerfull API will let you build html from code. 
+These docs will give you what you need to leverage the object. 
+Here you&#39;ll find:</p>
+<ol>
+<li>a Quick-Reference for the common API</li>
+<li>more instructions for doing specific things</li>
+<li>advanced API for special stuff</li>
+</ol>
+<p>To see this in action with many examples, visit the <a href="https://2sxc.org/dnn-tutorials/en/razor/blade/home">RazorBlade Tutorials</a> on <a href="https://2sxc.org/">2sxc.org</a>.</p>
+<h2 id="how-to-get-tag-objects">How to get Tag Objects</h2>
+<p>The following APIs will get you <code>Tag</code> objects:</p>
+<ol>
+<li><code>Tag.*()</code> where * is any standard HTML5 term, like <code>Div</code>, <code>Hr</code>, <code>IFrame</code> etc. - returns a typed object with more methods like <code>Src(url)</code> on <code>Tags.Img()</code> <em>v2.2</em></li>
+<li><code>Tag.*(content)</code> same thing like above, but with content in the constructor</li>
+<li><code>Tags.*(content1, content2, ...)</code> same thing like above, but with much content in the constructor</li>
+<li><code>Tag.Custom(string tagName)</code> (<a href="http://razor-blade.dnndev.me/api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Custom_System_String_System_Object___">more</a>)</li>
+</ol>
+<h2 id="fluent-api-for-tag-chaining">Fluent API for Tag (Chaining)</h2>
+<p>All these methods of a <code>Tag</code> change the object, and return the object itself again. This fluent-API allows chaining them together, like </p>
+<pre><code>someTag.Id(&quot;someId&quot;).Class(&quot;float-right&quot;)
+</code></pre><p>Below we&#39;ll explain the methods that <em>all</em> Tag objects have, but many have custom commands as well. 
+For example, an <code>Img</code> Tag also has a <code>Src(...)</code> while an<code>A</code> Tag also has <code>href</code>. 
+Some of the additional commands are extra-smart and automatically URI encode the value if not yet encoded.</p>
+<h2 id="modifying-tag-attributes">Modifying Tag Attributes</h2>
+<ol>
+<li><code>Attr(name, [value], [separator])</code><br>add an attribute - if it already exists, it will replace the value, unless a separator is specified which will then append the new value.<ul>
+<li><code>name</code>: <em><code>string</code>, required</em></li>
+<li><code>value</code>: <em><code>string</code> | <code>object</code> | <code>null</code>, optional</em><br><code>Objects</code> will be JSON serialized; <code>null</code> will result in the attribute being added without a value, like <code>disabled</code></li>
+<li><code>separator</code>: <em><code>string</code>, default is &quot;&quot;</em><br>Separation character if we have to append to an existing value. If null, will replace instead of append.</li>
+</ul>
+</li>
+<li><code>Class(value)</code><br>set / add a class to the tag; if called multiple times, will append with a space between the original and new value. When calling with null, will reset the class to empty.</li>
+<li><code>Data(name, [value])</code><br>will add a <code>data-{name}=&#39;value&#39;</code> attribute.</li>
+<li><code>Id(value)</code><br>set the id attribute - if called multiple times, will always replace previous id</li>
+<li><code>On(name, jsCode)</code><br>add an event-attribute like <code>onclick</code></li>
+<li><code>Style(value)</code><br>set / add a class to the tag; if called multiple times, will append with a semicolon <code>;</code> between the original and new value. When calling with null, will reset the id to empty.</li>
+<li><code>Title(value)</code><br>set the title attribute - if called multiple times, will always replace previous title</li>
+</ol>
+<h2 id="modifying-the-tag-contents">Modifying the Tag Contents</h2>
+<ol>
+<li><code>Add(value)</code><br>Add something to contents - at the end of existing content.<ul>
+<li><code>value</code>: <em><code>string</code> | <code>Tag</code> | <code>IEnumerable&lt;string|Tag&gt;</code></em></li>
+</ul>
+</li>
+<li><code>Add(value, value, ...)</code> <em>v2.2</em><br>Add a many items to contents - at the end of existing content.<ul>
+<li><code>value</code>: <em><code>string</code> | <code>Tag</code></em></li>
+</ul>
+</li>
+<li><code>Wrap(value)</code><br>Replaces the content<ul>
+<li><code>value</code>: <em><code>string</code> | <code>Tag</code> | <code>IEnumerable&lt;string|Tag&gt;</code></em></li>
+</ul>
+</li>
+<li><code>Wrap(value, value, ...)</code> <em>v2.2</em><br>Replaces the content with many items<ul>
+<li><code>value</code>: <em><code>string</code> | <code>Tag</code></em></li>
+</ul>
+</li>
+</ol>
+<h2 id="outputrender-api">Output/Render API</h2>
+<p>A <code>Tag</code> object and the two properties <code>.Open</code> and <code>.Close</code> all support <code>IHtmlString</code>, so you can output them directly:</p>
+<ol>
+<li><code>@myTag</code><br>will render the tag into the html. Implements IHtmlString and will not be encoded.</li>
+<li><code>@myTag.TagStart</code><br>will render the opening tag to html. Implements IHtmlString and will not be encoded.</li>
+<li><code>myTag.TagEnd</code><br>will render the close-tag to html. Implements IHtmlString and will not be encoded.</li>
+</ol>
+<p>_Note: the <code>TagStart</code> and <code>TagEnd</code> have unusually long names, to ensure that the terms won&#39;t collide with future attribute names like <code>Open</code> etc.</p>
+<pre><code class="lang-razor">@using ToSic.Razor.Blade;
+@Tags.Tag(&quot;br&quot;)
+@Tags.Tag(&quot;div&quot;).Wrap(&quot;this is my message&quot;)
+@{
+  var myStyle = Tags.Tag(&quot;style&quot;);
+}
+@myStyle.Open
+  .red { color: red};
+@myStyle.Close
+</code></pre><h2 id="all-html5-tags-and-attributes">All Html5 Tags and Attributes</h2>
+<p>The <code>Tag</code> object provides access to all known Html5 tags. Read the full <a class="xref" href="../api/ToSic.Razor.Blade.Tag.html">API</a></p>
+<!-- 
+## Options When Generating Custom Attributes and Tags
+
+Options like `AttributeOptions` and `TagOptions` are an optional parameter in all generator-commands. It allows you to change how attributes are generated, but remember that the default is well thought through, so you usually won't need to use it.
+
+### AttributeOptions _(new in 2.0)_
+
+The object has the following properties and defaults:
+
+1. `Quote` _string, default=`_ - the quote character used for wrapping values. The single-quote is the default, as it allows you to place json (which has double-quotes) in the value without having to encode the double quotes
+
+2. `EncodeQuotes` _boolean, default=false_ - determines if quote-characters inside the value should be encoded when not necessary. So by default `data='{"key":"value"}` is what you get, but if you set it to true, you get `data='{&quot;key&quot;:&quot;value&quot;}`.
+
+3. `KeepEmpty` _boolean, default=true_ - determines if empty attributes like `data` in `<div data=''></div>` are actually placed in the html, or filtered out.
+
+This is how you would use these:
+
+```razor
+@* Example without options *@
+<div @Attribute("data", "45")>...</div>
+
+@* Example with options directly *@
+<div @Attribute("data", "45", new AttributeOptions { KeepEmpty = false })>
+
+@* Example with using options multiple times *@
+@{
+  var options = new AttributeOptions {
+    Quotes = "\"",
+    EncodeQuotes = false
+  };
+}
+<div @Attribute("data", "45", options)></div>
+```
+--> </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/razor-blade/blob/master/DocFx Generator/articles/fluent-tag-api.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

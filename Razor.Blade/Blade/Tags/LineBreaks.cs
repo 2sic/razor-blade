@@ -17,7 +17,7 @@ namespace ToSic.Razor.Blade
         private static readonly Regex RelpacerBr = TagReplacer.Replacer("br");
 
         /// <summary>
-        /// Convert &lt;br&gt; and &lt;br/&gt; into line-breaks
+        /// Convert &lt;br&gt; and &lt;br/&gt; into line-breaks (\n)
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>

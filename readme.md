@@ -2,7 +2,15 @@
 
 # Razor Blade v2.99 - preparing for 3.0 release
 
-A library of common functions for Razor, to lighten Razor templates and make work easier. Some examples:
+A library of common functions for Razor, to lighten Razor templates and make work easier. 
+
+## Documentation and Tutorials
+
+* [Full Documentation](https://razor-blade.net)
+* [Tutorials](https://2sxc.org/dnn-tutorials/en/razor/blade/home)
+* [Blog Posts](https://2sxc.org/en/blog/tag/razor-blade)
+
+## Some Examples
 
 _You need to change the page title and some headers from a razor template:_
 
@@ -75,15 +83,18 @@ We have also created a [Razor Blade tutorial app](https://github.com/DNN-Connect
 
 This is a short summary of the most used variations of the helpers. Further details and syntaxes are listed further down.
 
-1. **Tags** - see [detailed docs](docs/tags.md)
+1. **Tags** - [see Tags API](https://razor-blade.net/api/ToSic.Razor.Blade.Tags.html)
     1. `Tags.Br2Nl(text)`
     2. `Tags.Br2Space(text)`
     3. `Tags.Nl2Br(text)`
     4. `Tags.Strip(text)`
     5. `Tags.Encode(...)` _v1.2_
     6. `Tags.Decode(...)` _v1.2_
-    7. `Tags.Attribute(...)` _v2.0_
-    8. `Tags.Tag(...)` with fluent API - [docs](docs/tag.md) _v2.0_
+
+1. **Tag** - [sse Tag API](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)
+    1. `Tag.Attribute(...)` _v3.0_
+    1. `Tag.Tag(...)` with fluent API _v3.0_
+    1. `Tag.A(...)` up to `Tag.Wbr(...)` - all knows Html5 tags _v3.0_
 
 2. **Text** - see [detailed docs](docs/text.md)
     1. `Text.Crop(string, length)`

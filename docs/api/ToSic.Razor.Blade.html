@@ -104,17 +104,20 @@ This is the easiest and safest way to use in in Razor templates because you won&
 <br>
 The objects are smart - for example this will automatically uri-encode 😎</p>
 <pre><code>Tag.Img().Src(&quot;ünsafe.jpg&quot;)</code></pre> 
-<p><em>Important: <em>Tag</em> can easily be confused with the <em>Tags</em> object.</em></p>
+<p><em>Important: <em>Tag</em> can easily be confused with the <em>Tags</em> object.</em> <br>
+<em>new in 3.0</em></p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.TagExtensions.html">TagExtensions</a></h4>
       <section><p>Helper commands to enable fluid coding with Tag Attributes and Common Helpers like Add and Wrap.
 This allows you to do things like <pre><code>Tag.Div().Id(&quot;myId&quot;).Class(&quot;row4&quot;).Class(&quot;xs&quot;)</code></pre></p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.Tags.html">Tags</a></h4>
-      <section><p>Commands to work with html tags as strings.
-For example to filter out html-tags, convert new lines to BR-tags etc.
+      <section><p>The Tags-API is for manipulating strings which contain html or should contain html</p>
+<ul>
+<li>like stripping away tags, converting <code>&amp;lt;br&gt;</code> tags to new-lines and similar.
 <br>
-<em>Important: <em>Tags</em> can easily be confused with the <em>Tag</em> object.</em></p>
+<em>Important: <em>Tags</em> can easily be confused with the <em>Tag</em> object.</em></li>
+</ul>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.Text.html">Text</a></h4>
       <section><p>Many simple commands to work with Text inside HTML</p>

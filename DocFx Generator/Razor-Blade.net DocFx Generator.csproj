@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="articles\fluent-tag-api.md" />
     <None Include="namespaces\ToSic.Razor.Markup.md" />
     <None Include="namespaces\ToSic.Razor.Interfaces.md" />
     <None Include="namespaces\ToSic.Razor.Html5.md" />
@@ -52,7 +53,6 @@
   <ItemGroup>
     <None Include="api\index.md" />
     <None Include="articles\intro.md" />
-    <None Include="articles\toc.md" />
     <None Include="articles\toc.yml" />
     <None Include="docfx.json" />
     <None Include="index.md" />

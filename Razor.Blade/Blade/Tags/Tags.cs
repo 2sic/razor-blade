@@ -1,8 +1,8 @@
 ﻿namespace ToSic.Razor.Blade
 {
     /// <summary>
-    /// Commands to work with html tags as strings.
-    /// For example to filter out html-tags, convert new lines to BR-tags etc.
+    /// The Tags-API is for manipulating strings which contain html or should contain html
+    /// - like stripping away tags, converting `&lt;br&gt;` tags to new-lines and similar.
     /// <br/>
     /// <em>Important: <em>Tags</em> can easily be confused with the <em>Tag</em> object.</em>
     /// </summary>
