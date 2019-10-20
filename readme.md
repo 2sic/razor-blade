@@ -83,13 +83,14 @@ We have also created a [Razor Blade tutorial app](https://github.com/DNN-Connect
 
 This is a short summary of the most used variations of the helpers. Further details and syntaxes are listed further down.
 
-1. **Tags** - [see Tags API](https://razor-blade.net/api/ToSic.Razor.Blade.Tags.html)  
-  `Tags.Br2Nl(text)`, `Tags.Br2Space(text)`, `Tags.Nl2Br(text)`, `Tags.Strip(text)`,  `Tags.Encode(...)`, `Tags.Decode(...)` etc.
+1. **Tags** - see [see Tags API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Tags.html)  
+  `Tags.Br2Nl(text)`, `Tags.Br2Space(text)`, `Tags.Nl2Br(text)`,  
+  `Tags.Strip(text)`,  
+  `Tags.Encode(...)`, `Tags.Decode(...)` etc.
 
-1. **Tag** - see [Fluent API](https://razor-blade.net/articles/fluent-tag-api.html) and [Tag API](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)
-    1. `Tag.A(...)` up to `Tag.Wbr(...)` - all knows Html5 tags _v3.0_
-    1. `Tag.Tag(...)` for all custom tags API _v3.0_
-    1. `Tag.Attribute(...)` _v3.0_
+1. **Tag** - see [Fluent API](https://razor-blade.net/articles/fluent-tag-api.html) and [Tag API](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)  
+  contains `Tag.A(...)` up to `Tag.Wbr(...)` (all knows Html5 tags),   
+  `Tag.Tag(...)` for all custom tags and `Tag.Attribute(...)` 
 
 2. **Text** - see [API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Text.html)
     1. `Text.Crop(string, length)`
