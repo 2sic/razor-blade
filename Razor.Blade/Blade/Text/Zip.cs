@@ -5,7 +5,7 @@ namespace ToSic.Razor.Blade
     public static partial class Text
     {
         /// <summary>
-        /// Will remove all new-lines from a string and merge multiple spaces together
+        /// Will remove all new-lines from a string and merge multiple spaces together.
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>

@@ -5,7 +5,8 @@ namespace ToSic.Razor.Blade
     public static partial class Text
     {
         /// <summary>
-        /// Will check if a variable is a string, and it actually has contents (not null, empty or just spaces)
+        /// Returns true if it has real text, false if it's null, not a string, an empty string
+        /// or a string containing just whitespace and/or html-whitespaces like `&amp;nbsp;` or `&amp;#160;`
         /// </summary>
         /// <param name="value"></param>
         /// <param name="handleHtmlWhitespaces">if true (default) will treat html-whitespace as a space</param>

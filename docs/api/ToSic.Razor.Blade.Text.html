@@ -104,13 +104,14 @@
     <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Crop_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Crop(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Crop.cs/#L16">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Crop.cs/#L17">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Crop_" data-uid="ToSic.Razor.Blade.Text.Crop*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Crop_System_String_System_Int32_" data-uid="ToSic.Razor.Blade.Text.Crop(System.String,System.Int32)">Crop(String, Int32)</h4>
   <div class="markdown level1 summary"><p>Cut off a text at the best possible place with a max-length. 
 This will count html-entities like &amp;, &amp;nbsp; or umlauts as 1 character, 
-and will try to cut off between words if possible. </p>
+and will try to cut off between words if possible.
+So it will backtrack to the previous space.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -165,7 +166,7 @@ and will try to cut off between words if possible. </p>
   </span>
   <a id="ToSic_Razor_Blade_Text_Ellipsis_" data-uid="ToSic.Razor.Blade.Text.Ellipsis*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Ellipsis_System_String_System_Int32_System_String_" data-uid="ToSic.Razor.Blade.Text.Ellipsis(System.String,System.Int32,System.String)">Ellipsis(String, Int32, String)</h4>
-  <div class="markdown level1 summary"><p>Crop a text if too long, add in that case, also add an ellipsis or a custom suffix</p>
+  <div class="markdown level1 summary"><p>Crop a text if too long, add in that case, also add an ellipsis &amp;hellip; or a custom suffix (optional)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -185,17 +186,20 @@ and will try to cut off between words if possible. </p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>Value to maybe truncate (using safe-truncate - see Text.Crop)</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">length</span></td>
-        <td></td>
+        <td><p>Max length to keep</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">suffix</span></td>
-        <td></td>
+        <td><p>optional suffix, defaults to  &amp;hellip;</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -543,11 +547,12 @@ and will try to cut off between words if possible. </p>
     <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Has_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Has(System.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Has.cs/#L14">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Has.cs/#L15">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Has_" data-uid="ToSic.Razor.Blade.Text.Has*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Has_System_Object_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.Has(System.Object,System.Boolean)">Has(Object, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Will check if a variable is a string, and it actually has contents (not null, empty or just spaces)</p>
+  <div class="markdown level1 summary"><p>Returns true if it has real text, false if it&apos;s null, not a string, an empty string
+or a string containing just whitespace and/or html-whitespaces like <code>&amp;amp;nbsp;</code> or <code>&amp;amp;#160;</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -601,7 +606,7 @@ and will try to cut off between words if possible. </p>
     <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Has_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Has(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Has.cs/#L25">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Has.cs/#L26">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Has_" data-uid="ToSic.Razor.Blade.Text.Has*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Has_System_String_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.Has(System.String,System.Boolean)">Has(String, Boolean)</h4>
@@ -660,7 +665,7 @@ and will try to cut off between words if possible. </p>
   </span>
   <a id="ToSic_Razor_Blade_Text_Zip_" data-uid="ToSic.Razor.Blade.Text.Zip*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Zip_System_String_" data-uid="ToSic.Razor.Blade.Text.Zip(System.String)">Zip(String)</h4>
-  <div class="markdown level1 summary"><p>Will remove all new-lines from a string and merge multiple spaces together</p>
+  <div class="markdown level1 summary"><p>Will remove all new-lines from a string and merge multiple spaces together.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

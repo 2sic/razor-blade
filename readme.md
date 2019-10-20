@@ -91,22 +91,24 @@ This is a short summary of the most used variations of the helpers. Further deta
     5. `Tags.Encode(...)` _v1.2_
     6. `Tags.Decode(...)` _v1.2_
 
-1. **Tag** - [sse Tag API](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)
-    1. `Tag.Attribute(...)` _v3.0_
-    1. `Tag.Tag(...)` with fluent API _v3.0_
+1. **Tag** - see [Fluent API](https://razor-blade.net/articles/fluent-tag-api.html) and [Tag API](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)
     1. `Tag.A(...)` up to `Tag.Wbr(...)` - all knows Html5 tags _v3.0_
+    1. `Tag.Tag(...)` for all custom tags API _v3.0_
+    1. `Tag.Attribute(...)` _v3.0_
 
-2. **Text** - see [detailed docs](docs/text.md)
+2. **Text** - see [API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Text.html)
     1. `Text.Crop(string, length)`
     2. `Text.Ellipsis(value, length)`
     3. `Text.Has(value)`
     4. `Text.First(value, value[, moreValues, ...])`
     5. `Text.Zip(value)`
 
-3. **HtmlPage** - for v1.1 see [detailed docs](docs/htmlpage.md)
+3. **HtmlPage** - for v1.1 see [detailed docs](https://razor-blade.net/api/ToSic.Razor.Blade.HtmlPage.html)
     1. `HtmlPage.Title` get-set property
     1. `HtmlPage.Description` get-set property
     1. `HtmlPage.Keywords` get-set property
+    1. `HtmlPage.AddBase()` - set automatic base tag _v3.0_
+    1. `HtmlPage.AddBase(url)` - set custom tag _v3.0_
     1. `HtmlPage.AddMeta(name, content)` add a meta-tag to the header
     1. `HtmlPage.AddJsonLd(string|object)` create a [Json-LD header](https://en.wikipedia.org/wiki/JSON-LD) see also [google guideline](https://developers.google.com/search/docs/guides/intro-structured-data)
     1. `HtmlPage.AddOpenGraph(property, content)` add an [open-graph tag](http://ogp.me/) to the header for facebook, twitter and co.
@@ -117,11 +119,7 @@ This is a short summary of the most used variations of the helpers. Further deta
     1. `GetPage()` get an object with the same commands as HtmlPage, but a bit faster _v2.2_
 
 
-## Work in Progress v2.2
-
-* Typed tag objects for everything in HTML5 like `Img`, `Meta`, etc.
-
-## Work in Progress v2.5+ (WIP / in discussion)
+## Work in Progress v3.1+ (WIP / in discussion)
 
 1. **Url**
     1. SeoFragment(string) - in discussion, would take a string and save-convert it so it can be added to a url for SEO.
@@ -137,11 +135,11 @@ This is a short summary of the most used variations of the helpers. Further deta
 1. `Dic.ToDynamic(dictionary)` - converts a Dictionary to an expando object, so you can write `obj.Property` instead of `obj["Property"]`; would return null if a property would not be found.
 1. `Mail.Generate(pathToRazor, objValues)` - uses a razor template to generate a mail.
 
-Here you can also find [scrapped ideas](docs/scrapped.md).
+Here you can also find [scrapped ideas](scrapped.md).
 
 ## Your Contributions
 
 1. Any tests and bugfixes are always welcome and will be processed quickly by iJungleboy.
 1. New commands / overloads / features should be discussed in issues before adding to this library, to ensure that it's inline with the overal purpose of this library.
 
-Please also read the [conventions](docs/conventions.md) so we can work on this together.
+Please also read the [conventions](conventions.md) so we can work on this together.

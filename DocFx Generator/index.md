@@ -1,11 +1,11 @@
 
 <img src="images/logos/razor-blade-logo.png" width="100%">
 
-# **API Docs** of _RazorBlade 3.0_
+# **API Docs of _RazorBlade 3.0_**
 
 These docs are meant for programmers using [RazorBlade](https://github.com/2sic/razor-blade). These will usually be people working with C# and Razor, MVC etc.
 
-## What you're probably looking for
+## APIs you're probably looking for
 
 1. [APIs for **Text**](xref:ToSic.Razor.Blade.Text) with commands like  
 	`Crop(...)`, `Ellipsis(...)`, `First(...)`, `Has(...)`, `Zip(...)`
@@ -21,6 +21,7 @@ These docs are meant for programmers using [RazorBlade](https://github.com/2sic/
 
 ## Tutorials & Blogs
 
+1. An explanation of the [Fluent Tag API](articles/fluent-tag-api.md)
 1. We have an extensive [tutorial on 2sxc for using RazorBlade](https://2sxc.org/dnn-tutorials/en/razor/blade/home)
 1. We also have many [blog posts on RazorBlade](https://2sxc.org/en/blog/tag/razor-blade)
 

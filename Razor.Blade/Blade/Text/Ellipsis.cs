@@ -6,11 +6,11 @@ namespace ToSic.Razor.Blade
     {
 
         /// <summary>
-        /// Crop a text if too long, add in that case, also add an ellipsis or a custom suffix
+        /// Crop a text if too long, add in that case, also add an ellipsis &amp;hellip; or a custom suffix (optional)
         /// </summary>
-        /// <param name="value"></param>
-        /// <param name="length"></param>
-        /// <param name="suffix"></param>
+        /// <param name="value">Value to maybe truncate (using safe-truncate - see Text.Crop)</param>
+        /// <param name="length">Max length to keep</param>
+        /// <param name="suffix">optional suffix, defaults to  &amp;hellip;</param>
         /// <remarks>If you don't need the suffix, use CropText(...) instead</remarks>
         /// <returns></returns>
         public static string Ellipsis(string value, int length, string suffix = null)
