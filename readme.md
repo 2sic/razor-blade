@@ -88,21 +88,16 @@ This is a short summary of the most used variations of the helpers. Further deta
   `Tags.Strip(text)`,  
   `Tags.Encode(...)`, `Tags.Decode(...)` etc.
 
-1. **Tag** - see [Fluent API](https://razor-blade.net/articles/fluent-tag-api.html) and [Tag API](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)  
+1. **Tag** - see [Fluent API](https://razor-blade.net/articles/fluent-tag-api.html) and [Tag API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)  
   contains `Tag.A(...)` up to `Tag.Wbr(...)` (all knows Html5 tags),   
   `Tag.Tag(...)` for all custom tags and `Tag.Attribute(...)` 
 
-2. **Text** - see [API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Text.html)
-    1. `Text.Crop(string, length)`
-    2. `Text.Ellipsis(value, length)`
-    3. `Text.Has(value)`
-    4. `Text.First(value, value[, moreValues, ...])`
-    5. `Text.Zip(value)`
+2. **Text** - see [API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Text.html)  
+  `Text.Crop(string, length)`, `Text.Ellipsis(value, length)`,  
+  `Text.Has(value)`, `Text.First(value, value[, moreValues, ...])`, `Text.Zip(value)`, ...
 
-3. **HtmlPage** - for v1.1 see [detailed docs](https://razor-blade.net/api/ToSic.Razor.Blade.HtmlPage.html)
-    1. `HtmlPage.Title` get-set property
-    1. `HtmlPage.Description` get-set property
-    1. `HtmlPage.Keywords` get-set property
+3. **HtmlPage** - see [detailed docs](https://razor-blade.net/api/ToSic.Razor.Blade.HtmlPage.html)  
+    1. get/set `HtmlPage.Title`, `HtmlPage.Description`, `HtmlPage.Keywords` 
     1. `HtmlPage.AddBase()` - set automatic base tag _v3.0_
     1. `HtmlPage.AddBase(url)` - set custom tag _v3.0_
     1. `HtmlPage.AddMeta(name, content)` add a meta-tag to the header
