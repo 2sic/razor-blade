@@ -83,13 +83,8 @@ We have also created a [Razor Blade tutorial app](https://github.com/DNN-Connect
 
 This is a short summary of the most used variations of the helpers. Further details and syntaxes are listed further down.
 
-1. **Tags** - [see Tags API](https://razor-blade.net/api/ToSic.Razor.Blade.Tags.html)
-    1. `Tags.Br2Nl(text)`
-    2. `Tags.Br2Space(text)`
-    3. `Tags.Nl2Br(text)`
-    4. `Tags.Strip(text)`
-    5. `Tags.Encode(...)` _v1.2_
-    6. `Tags.Decode(...)` _v1.2_
+1. **Tags** - [see Tags API](https://razor-blade.net/api/ToSic.Razor.Blade.Tags.html)  
+  `Tags.Br2Nl(text)`, `Tags.Br2Space(text)`, `Tags.Nl2Br(text)`, `Tags.Strip(text)`,  `Tags.Encode(...)`, `Tags.Decode(...)` etc.
 
 1. **Tag** - see [Fluent API](https://razor-blade.net/articles/fluent-tag-api.html) and [Tag API](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)
     1. `Tag.A(...)` up to `Tag.Wbr(...)` - all knows Html5 tags _v3.0_
