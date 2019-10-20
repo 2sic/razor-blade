@@ -2,3 +2,7 @@
   href: intro.md
 - name: Fluent Tag API
   href: fluent-tag-api.md
+- name: Guide FavIcons
+  href: guide-favicons.md
+- name: Guide HtmlPage
+  href: guide-htmlpage.md

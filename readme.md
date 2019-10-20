@@ -98,8 +98,7 @@ This is a short summary of the most used variations of the helpers. Further deta
 
 3. **HtmlPage** - see [detailed docs](https://razor-blade.net/api/ToSic.Razor.Blade.HtmlPage.html)  
     1. get/set `HtmlPage.Title`, `HtmlPage.Description`, `HtmlPage.Keywords` 
-    1. `HtmlPage.AddBase()` - set automatic base tag _v3.0_
-    1. `HtmlPage.AddBase(url)` - set custom tag _v3.0_
+    1. `HtmlPage.AddBase()`, `HtmlPage.AddBase(url)` - set automatic base tag
     1. `HtmlPage.AddMeta(name, content)` add a meta-tag to the header
     1. `HtmlPage.AddJsonLd(string|object)` create a [Json-LD header](https://en.wikipedia.org/wiki/JSON-LD) see also [google guideline](https://developers.google.com/search/docs/guides/intro-structured-data)
     1. `HtmlPage.AddOpenGraph(property, content)` add an [open-graph tag](http://ogp.me/) to the header for facebook, twitter and co.

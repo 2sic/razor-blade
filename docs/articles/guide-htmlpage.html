@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Razor Guide to HtmlPage v3.0 | RazorBlade 3 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Razor Guide to HtmlPage v3.0 | RazorBlade 3 ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logos/razor-blade-icon-50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p><img src="/images/logos/razor-blade-logo.png" width="100%"></p>
+<h1 id="razor-guide-to-htmlpage-v30">Razor Guide to HtmlPage <em>v3.0</em></h1>
+<h2 id="properties-to-change-title-description-keywords">Properties To Change Title, Description, Keywords</h2>
+<ol>
+<li><p><code>HtmlPage.Description</code> (get/set) - Read/Write the page description. <em>v1.1</em></p>
+</li>
+<li><p><code>HtmlPage.Keywords</code> (get/set) - Read/Write the page keywords. <em>v1.1</em></p>
+</li>
+<li><p><code>HtmlPage.Title</code> (get/set) - Read/Write the page title. <em>v1.1</em></p>
+</li>
+</ol>
+<h2 id="commands-to-add-headers">Commands to Add Headers</h2>
+<ol>
+<li><p><code>HtmlPage.AddMeta(name, content)</code> - Adds a meta-tag with this name and content to the header. <em>v1.1</em></p>
+</li>
+<li><p><code>HtmlPage.AddJsonLd(...)</code> create a <a href="https://en.wikipedia.org/wiki/JSON-LD">JSON-LD (linked data) header</a> see also <a href="https://developers.google.com/search/docs/guides/intro-structured-data">google guideline</a> and <a href="https://schema.org/">Schema.org</a>. <em>v1.1</em></p>
+<ol>
+<li><code>HtmlPage.AddToJsonLd(string)</code> - uses a string, which should already be a valid json</li>
+<li><code>HtmlPage.AddToJsonLd(object)</code> - will JSON-serialize whatever you pass into it. For now, we recommend using <code>Dictionary&lt;string, object&gt;</code> to prepare the data you want to add. </li>
+</ol>
+</li>
+<li><p><code>HtmlPage.AddOpenGraph(property, content)</code> add an <a href="http://ogp.me/">open-graph tag</a> to the header for facebook, twitter and co. <em>v1.1</em></p>
+</li>
+<li><p><code>HtmlPage.AddToHead(string)</code> - Add anything to the <code>&lt;head&gt;</code> section of the page. The string should usually contain a meta, link or script tag. <em>v1.1</em></p>
+</li>
+<li><p><code>HtmlPage.AddIcon(path)</code> add an icon (favicon) to the page <em>v2.1</em></p>
+<ol>
+<li><code>...AddIcon(path, rel: string, size: int, type: string)</code> - all optional parameters to specify things like<ul>
+<li><code>rel</code>: the rel-text, default is &#39;icon&#39;. common terms are also &#39;shortcut icon&#39; or &#39;apple-touch-icon</li>
+<li><code>size</code>: will be used in size=&#39;#x#&#39; tag; only relevant if you want to provide multiple separate sizes</li>
+<li><code>type</code>: optional type, if not provided, will be auto-detected from known types or remain empty</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><code>HtmlPage.AddIconSet(path)</code> add a few icon headers to the page according to best practices <em>v2.1</em><ol>
+<li><code>...AddIconSet(path, favicon: bool|string, rels: IEnumerable&lt;string&gt;, sizes: IEnumerable&lt;int&gt;)</code> - all optional parameters to specify things like<ul>
+<li><code>favicon</code>: boolean - auto-add a default favicon tag (or not)</li>
+<li><code>favicon</code>: string - use this url for the favicon tag</li>
+<li><code>rels</code>: list/array of rel-texts (a separate icon tag will be generated for each rel)</li>
+<li><code>sizes</code>: list/array of sizes (a separate icon tag will be generate for each size)<br><em>note: if you supply <code>rels</code> and <code>sizes</code>, then all combinations of icon tags will be added</em><br><em>note: you can&#39;t specify the type, as each one could be different - the auto-detection will take care of this for you</em></li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="performance-optimizations">Performance Optimizations</h2>
+<p>The commands above are available for comfortable use. Internally, each command finds the page object and manipulates it. If you would like to optimize the code a bit, the <code>GetPage()</code> command gives you an object with the same features, but will run a few percent faster. So you can also do this:</p>
+<pre><code class="lang-cs">var p = HtmlPage.GetPage();
+p.Title = &quot;...&quot;;
+p.Keywords = &quot;...;
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/razor-blade/blob/master/DocFx Generator/articles/guide-htmlpage.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
