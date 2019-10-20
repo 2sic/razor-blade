@@ -65,11 +65,12 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="tag"></param>
         /// <remarks>New in 2.1</remarks>
-        public static void AddToHead(ToSic.Razor.Markup.TagBase tag) => GetPage().AddToHead(tag);
+        public static void AddToHead(Markup.TagBase tag) => GetPage().AddToHead(tag);
 
 
         /// <summary>
         /// Add a standard base header tag.
+        /// <em>new in 3.0</em>
         /// </summary>
         /// <param name="url">the optional url for the base tag - if null, will default to the real url for the current page</param>
         public static void AddBase(string url = null) => GetPage().AddBase(url);
@@ -108,8 +109,12 @@ namespace ToSic.Razor.Blade
 
         /// <summary>
         /// Add an icon tag to the page
+        /// <em>new in 3.0</em>
         /// </summary>
         /// <param name="path">Path to the image/icon file</param>
+        /// <param name="doNotRelyOnParameterOrder">This is a dummy parameter to force the developer to name the remaining parameters - like size: 75 etc.
+        /// This allows us to add more parameters in future without worrying that existing code could break. 
+        /// </param>
         /// <param name="rel">the rel-text, default is 'icon'. common terms are also 'shortcut icon' or 'apple-touch-icon'</param>
         /// <param name="size">Will be used in size='#x#' tag; only relevant if you want to provide multiple separate sizes</param>
         /// <param name="type">An optional type. If not provided, will be auto-detected from known types or remain empty</param>
@@ -125,8 +130,12 @@ namespace ToSic.Razor.Blade
 
         /// <summary>
         /// Add a set of icons to the page
+        /// <em>new in 3.0</em>
         /// </summary>
         /// <param name="path">Path to the image/icon file</param>
+        /// <param name="doNotRelyOnParameterOrder">This is a dummy parameter to force the developer to name the remaining parameters - like size: 75 etc.
+        /// This allows us to add more parameters in future without worrying that existing code could break. 
+        /// </param>
         /// <param name="favicon">path to favicon, default is '/favicon.ico' </param>
         /// <param name="rels"></param>
         /// <param name="sizes"></param>

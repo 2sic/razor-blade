@@ -47,6 +47,7 @@ namespace ToSic.Razor.Interfaces
 
         /// <summary>
         /// Add a standard base header tag.
+        /// <em>new in 3.0</em>
         /// </summary>
         /// <param name="url">the optional url for the base tag - if null, will default to the real url for the current page</param>
         void AddBase(string url = null);
@@ -83,6 +84,7 @@ namespace ToSic.Razor.Interfaces
 
         /// <summary>
         /// Add an icon tag to the page
+        /// <em>new in 3.0</em>
         /// </summary>
         /// <param name="path">Path to the image/icon file</param>
         /// <param name="doNotRelyOnParameterOrder">This is a dummy parameter to force the developer to name the remaining parameters - like size: 75 etc.
@@ -100,6 +102,7 @@ namespace ToSic.Razor.Interfaces
 
         /// <summary>
         /// Add a set of icons to the page
+        /// <em>new in 3.0</em>
         /// </summary>
         /// <param name="path">Path to the image/icon file</param>
         /// <param name="doNotRelyOnParameterOrder">This is a dummy parameter to force the developer to name the remaining parameters - like size: 75 etc.
