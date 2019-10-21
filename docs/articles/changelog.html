@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>RazorBlade ChangeLog | RazorBlade 3 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="RazorBlade ChangeLog | RazorBlade 3 ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logos/razor-blade-icon-50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p><img src="/images/logos/razor-blade-logo.png" width="100%"></p>
+<h1 id="razorblade-changelog">RazorBlade ChangeLog</h1>
+<h2 id="version-3">Version 3</h2>
+<h3 id="version-30-2019-10-21">Version 3.0 (2019-10-21)</h3>
+<ol>
+<li>Created website with full API documentation <a href="https://razor-blade.net">Razor-Blade.net</a></li>
+<li>Created all Html5 tags and quick-accessor using Tag.xxx</li>
+</ol>
+<p><strong>Breaking Changes</strong></p>
+<p>We really hate to introduce breaking changes, but 3.0 was a good opportunity for this. </p>
+<ol>
+<li>Renamed everything to use the namespace <code>ToSic.Razor.Blade</code> from previously <code>Connect.Razor.Blade</code>. This was improtant, because we decided to release RazorBlade as a NuGet package, and the previous namespace <code>Connect</code> didn&#39;t make any sense. </li>
+<li>Renamed the DLL to be in-line with the changes, which also means that previous code still works, because the new namespace can run side-by-side with the previous one</li>
+<li>Reorganized some internal APIs, so they won&#39;t disturb in public documentation</li>
+<li>Modified the <code>Text.First()</code> method so it could now take an unlimited amount of strings to pick the first one. </li>
+<li>Moved primary repo in Github to <a href="https://github.com/2sic/razor-blade">2sic</a> </li>
+</ol>
+<hr>
+<h2 id="version-2">Version 2</h2>
+<h3 id="version-202-2019-10-15">Version 2.02 (2019-10-15)</h3>
+<ol>
+<li>Improved the <code>Add</code> and <code>Wrap</code> on the fluid API</li>
+<li><code>AddIconSet(...)</code> now defaults to using the provided image as the favicon</li>
+</ol>
+<h3 id="version-0201-2019-10-14">Version 02.01 (2019-10-14)</h3>
+<ol>
+<li><code>HtmlPage</code> got <code>AddIcon</code> and <code>AddIconSet</code> - see <a href="https://2sxc.org/dnn-tutorials/en/razor/blade340/page/mode/set">tutorial</a></li>
+</ol>
+<h3 id="version-200-2019-04-09">Version 2.00 (2019-04-09)</h3>
+<ol>
+<li>Released first draft of Fluent Tag API which was later brought to final in 3.0</li>
+</ol>
+<hr>
+<h2 id="version-1">Version 1</h2>
+<h3 id="version-102-2019-04-05">Version 1.02 (2019-04-05)</h3>
+<ol>
+<li>Created draft <code>HtmlTags</code> API - which was later completed in 3.0</li>
+</ol>
+<h3 id="version-101-2019-02-27">Version 1.01 (2019-02-27)</h3>
+<ol>
+<li>Created <code>HtmlPage</code> API to read/write DNN header properties and add all kind of headers</li>
+</ol>
+<h3 id="version-100-2019-02-17">Version 1.00 (2019-02-17)</h3>
+<ol>
+<li>Released RazorBlade</li>
+<li>Created <code>Text...</code> and <code>Tags...</code> API</li>
+<li>Released it as a DNN Extension Library on Github</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/razor-blade/blob/master/DocFx Generator/articles/changelog.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

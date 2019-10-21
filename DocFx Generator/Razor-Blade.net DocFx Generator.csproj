@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="articles\changelog.md" />
     <None Include="articles\guide-htmlpage.md" />
     <None Include="articles\guide-favicons.md" />
     <None Include="articles\fluent-tag-api.md" />

@@ -25,6 +25,21 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidYamlHeader"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/changelog.html",
+          "hash": "0fIGZmKosNV+RoJLgekriQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/fluent-tag-api.md",
       "output": {
@@ -78,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "ZZ2Ul7mRtWJBDH/9wD4u4w=="
+          "hash": "p9S28ZZAGeXem0HEEaWrFw=="
         }
       },
       "is_incremental": false,
@@ -194,7 +209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ToSic.Razor.Blade.Text.html",
-          "hash": "oTY7vRR00Vs9Yfcf8KQk9g=="
+          "hash": "DSVXxv0n3iy4uYVQr92ppA=="
         }
       },
       "is_incremental": false,
@@ -1753,7 +1768,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
