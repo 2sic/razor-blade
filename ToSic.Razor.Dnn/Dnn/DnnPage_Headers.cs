@@ -28,7 +28,7 @@ namespace ToSic.Razor.Dnn
             }
 
             if (url != null)
-                AddToHead(Tag.Base(url));
+                AddToHead(Tag.Base().Href(url));
         }
 
 
