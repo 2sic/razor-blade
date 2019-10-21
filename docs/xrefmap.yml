@@ -4349,6 +4349,12 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Html5.MetaOg.Content
   nameWithType: MetaOg.Content
+- uid: ToSic.Razor.Html5.MetaOg.Prefix
+  name: Prefix
+  href: api/ToSic.Razor.Html5.MetaOg.html#ToSic_Razor_Html5_MetaOg_Prefix
+  commentId: F:ToSic.Razor.Html5.MetaOg.Prefix
+  fullName: ToSic.Razor.Html5.MetaOg.Prefix
+  nameWithType: MetaOg.Prefix
 - uid: ToSic.Razor.Html5.MetaOg.Property(System.String)
   name: Property(String)
   href: api/ToSic.Razor.Html5.MetaOg.html#ToSic_Razor_Html5_MetaOg_Property_System_String_

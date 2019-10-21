@@ -63,7 +63,7 @@ namespace ToSic.Razor.Interfaces
         /// <summary>
         /// Add an open-graph header according to http://ogp.me/
         /// </summary>
-        /// <param name="property">Open Graph property name, like og:title or og:image:type</param>
+        /// <param name="property">Open Graph property name, like title or image:width. 'og:' is automatically prefixed if not included</param>
         /// <param name="content">value of this property</param>
         void AddOpenGraph(string property, string content);
 
