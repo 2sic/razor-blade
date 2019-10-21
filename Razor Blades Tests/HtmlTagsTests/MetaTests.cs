@@ -21,13 +21,15 @@ namespace Razor_Blades_Tests.HtmlTagsTests
         [TestMethod]
         public void MetaOgTag()
         {
-            Is("<meta property='something' content='other'>", 
+            Is("<meta property='og:something' content='other'>", 
                 new MetaOg("something", "other"), "basic");
-            Is("<meta property='something' content='other'>",
+            Is("<meta property='og:something' content='other'>",
+                new MetaOg("og:something", "other"), "basic");
+            Is("<meta property='og:something' content='other'>",
                 new MetaOg("something", "").Content("other"), "");
-            Is("<meta property='something' content='other'>",
+            Is("<meta property='og:something' content='other'>",
                 new MetaOg().Property("something").Content( "other"), "default order");
-            Is("<meta content='other' property='something'>",
+            Is("<meta content='other' property='og:something'>",
                 new MetaOg().Content("other").Property("something"), "modified order");
         }
 
