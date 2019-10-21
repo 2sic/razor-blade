@@ -1,12 +1,12 @@
 <img src="docs/assets/razor-blade-logo.png" width="100%">
 
-# Razor Blade v2.99 - preparing for 3.0 release
+# Razor Blade 3
 
 A library of common functions for Razor, to lighten Razor templates and make work easier. 
 
 ## Documentation and Tutorials
 
-* [Full Documentation](https://razor-blade.net)
+* [Full API Documentation](https://razor-blade.net)
 * [Tutorials](https://2sxc.org/dnn-tutorials/en/razor/blade/home)
 * [Blog Posts](https://2sxc.org/en/blog/tag/razor-blade)
 
@@ -76,8 +76,6 @@ In your c# code, add the following line to then have access to all the commands:
 ```razor
 @using ToSic.Razor.Blade;
 ```
-
-We have also created a [Razor Blade tutorial app](https://github.com/DNN-Connect/razor-blade-tutorial-app).
 
 ## Quick Command Reference Sheet
 
