@@ -29,8 +29,8 @@ namespace Razor_Blades_Tests.Text
         public void Test_FirstText2ParamsHtmlWhitespace()
         {
             // html-whitespace checks
-            Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Nbsp, fallback, true), fallback, "should be fallback");
-            Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Nbsp, fallback, false), val1Nbsp, "should be nbsp");
+            Assert.AreEqual(ToSic.Razor.Blade.Text.First(true, val1Nbsp, fallback), fallback, "should be fallback");
+            Assert.AreEqual(ToSic.Razor.Blade.Text.First(false, val1Nbsp, fallback), val1Nbsp, "should be nbsp");
         }
 
 
@@ -41,7 +41,7 @@ namespace Razor_Blades_Tests.Text
             Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Ok, val1Null), val1Ok, "should be second");
             Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Nbsp, val1Ok), val1Ok, "should be third");
 
-            Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Nbsp, val1Ok, false), val1Nbsp, "should be nbsp");
+            Assert.AreEqual(ToSic.Razor.Blade.Text.First(false, val1Null, val1Nbsp, val1Ok), val1Nbsp, "should be nbsp");
         }
 
         [TestMethod]
@@ -51,7 +51,7 @@ namespace Razor_Blades_Tests.Text
             Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Ok, val1Null, fallback), val1Ok, "should be second");
             Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Nbsp, val1Ok, fallback), val1Ok, "should be third");
 
-            Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Nbsp, val1Ok, fallback, false), val1Nbsp, "should be nbsp");
+            Assert.AreEqual(ToSic.Razor.Blade.Text.First(false, val1Null, val1Nbsp, val1Ok, fallback), val1Nbsp, "should be nbsp");
         }
 
         [TestMethod]
@@ -62,7 +62,7 @@ namespace Razor_Blades_Tests.Text
             Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Nbsp, val1Ok, val1Null, fallback), val1Ok, "should be third");
             Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Nbsp, val1Null, val1Null, fallback), fallback, "should be last");
 
-            Assert.AreEqual(ToSic.Razor.Blade.Text.First(val1Null, val1Nbsp, val1Ok, fallback, val1Ok, false), val1Nbsp, "should be nbsp");
+            Assert.AreEqual(ToSic.Razor.Blade.Text.First(false, val1Null, val1Nbsp, val1Ok, fallback, val1Ok), val1Nbsp, "should be nbsp");
         }
 
         [TestMethod]

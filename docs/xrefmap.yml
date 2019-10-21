@@ -2221,39 +2221,24 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.Text.Ellipsis
   nameWithType: Text.Ellipsis
-- uid: ToSic.Razor.Blade.Text.First(System.String,System.String,System.Boolean)
-  name: First(String, String, Boolean)
-  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_System_String_System_String_System_Boolean_
-  commentId: M:ToSic.Razor.Blade.Text.First(System.String,System.String,System.Boolean)
-  fullName: ToSic.Razor.Blade.Text.First(System.String, System.String, System.Boolean)
-  nameWithType: Text.First(String, String, Boolean)
-- uid: ToSic.Razor.Blade.Text.First(System.String,System.String,System.String,System.Boolean)
-  name: First(String, String, String, Boolean)
-  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_System_String_System_String_System_String_System_Boolean_
-  commentId: M:ToSic.Razor.Blade.Text.First(System.String,System.String,System.String,System.Boolean)
-  fullName: ToSic.Razor.Blade.Text.First(System.String, System.String, System.String, System.Boolean)
-  nameWithType: Text.First(String, String, String, Boolean)
-- uid: ToSic.Razor.Blade.Text.First(System.String,System.String,System.String,System.String,System.Boolean)
-  name: First(String, String, String, String, Boolean)
-  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_System_String_System_String_System_String_System_String_System_Boolean_
-  commentId: M:ToSic.Razor.Blade.Text.First(System.String,System.String,System.String,System.String,System.Boolean)
-  fullName: ToSic.Razor.Blade.Text.First(System.String, System.String, System.String, System.String, System.Boolean)
-  nameWithType: Text.First(String, String, String, String, Boolean)
-- uid: ToSic.Razor.Blade.Text.First(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  name: First(String, String, String, String, String, Boolean)
-  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_System_String_System_String_System_String_System_String_System_String_System_Boolean_
-  commentId: M:ToSic.Razor.Blade.Text.First(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  fullName: ToSic.Razor.Blade.Text.First(System.String, System.String, System.String, System.String, System.String, System.Boolean)
-  nameWithType: Text.First(String, String, String, String, String, Boolean)
-- uid: ToSic.Razor.Blade.Text.First(System.String[],System.Boolean)
-  name: First(String[], Boolean)
-  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_System_String___System_Boolean_
-  commentId: M:ToSic.Razor.Blade.Text.First(System.String[],System.Boolean)
-  name.vb: First(String(), Boolean)
-  fullName: ToSic.Razor.Blade.Text.First(System.String[], System.Boolean)
-  fullName.vb: ToSic.Razor.Blade.Text.First(System.String(), System.Boolean)
-  nameWithType: Text.First(String[], Boolean)
-  nameWithType.vb: Text.First(String(), Boolean)
+- uid: ToSic.Razor.Blade.Text.First(System.Boolean,System.String[])
+  name: First(Boolean, String[])
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_System_Boolean_System_String___
+  commentId: M:ToSic.Razor.Blade.Text.First(System.Boolean,System.String[])
+  name.vb: First(Boolean, String())
+  fullName: ToSic.Razor.Blade.Text.First(System.Boolean, System.String[])
+  fullName.vb: ToSic.Razor.Blade.Text.First(System.Boolean, System.String())
+  nameWithType: Text.First(Boolean, String[])
+  nameWithType.vb: Text.First(Boolean, String())
+- uid: ToSic.Razor.Blade.Text.First(System.String[])
+  name: First(String[])
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_System_String___
+  commentId: M:ToSic.Razor.Blade.Text.First(System.String[])
+  name.vb: First(String())
+  fullName: ToSic.Razor.Blade.Text.First(System.String[])
+  fullName.vb: ToSic.Razor.Blade.Text.First(System.String())
+  nameWithType: Text.First(String[])
+  nameWithType.vb: Text.First(String())
 - uid: ToSic.Razor.Blade.Text.First*
   name: First
   href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_First_
