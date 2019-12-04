@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ToSic.Razor.Markup
+﻿namespace ToSic.Razor.Markup
 {
     public class TagGeneric: Tag<TagGeneric>
     {
@@ -12,7 +8,7 @@ namespace ToSic.Razor.Markup
             : base(name, options) { }
 
         internal TagGeneric(string name, object content, TagOptions options = null)
-            : base(name, options) { }
+            : base(name, content, options) { }
 
         internal TagGeneric(string name, TagOptions options, object[] content)
             : base(name, options, content) { }

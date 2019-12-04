@@ -10,21 +10,21 @@ namespace Razor_Blades_Tests.TagBuilderTests
         [TestMethod]
         public void CloseSimpleTags()
         {
-            Assert.AreEqual("</p>", new TagBase("p").TagEnd.ToString());
-            Assert.AreEqual("</em>", new TagBase("em").TagEnd.ToString());
-            Assert.AreEqual("</EM>", new TagBase("EM").TagEnd.ToString());
-            Assert.AreEqual("</ng-template>", new TagBase("ng-template").TagEnd.ToString());
+            Assert.AreEqual("</p>", new TagGeneric("p").TagEnd.ToString());
+            Assert.AreEqual("</em>", new TagGeneric("em").TagEnd.ToString());
+            Assert.AreEqual("</EM>", new TagGeneric("EM").TagEnd.ToString());
+            Assert.AreEqual("</ng-template>", new TagGeneric("ng-template").TagEnd.ToString());
         }
 
         [TestMethod]
         public void OpenCloseEmptyTags()
         {
-            Assert.AreEqual("", new TagBase("").TagEnd.ToString());
-            Assert.AreEqual("", new TagBase(" ").TagEnd.ToString());
-            Assert.AreEqual("", new TagBase(null).TagEnd.ToString());
-            Assert.AreEqual("", new TagBase("").TagStart.ToString());
-            Assert.AreEqual("", new TagBase(" ").TagStart.ToString());
-            Assert.AreEqual("", new TagBase(null).TagStart.ToString());
+            Assert.AreEqual("", new TagGeneric("").TagEnd.ToString());
+            Assert.AreEqual("", new TagGeneric(" ").TagEnd.ToString());
+            Assert.AreEqual("", new TagGeneric(null).TagEnd.ToString());
+            Assert.AreEqual("", new TagGeneric("").TagStart.ToString());
+            Assert.AreEqual("", new TagGeneric(" ").TagStart.ToString());
+            Assert.AreEqual("", new TagGeneric(null).TagStart.ToString());
         }
 
         
