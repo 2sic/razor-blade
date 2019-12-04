@@ -10,7 +10,7 @@ namespace ToSic.Razor.Markup
         #region Constructors
         private TagBase() { }
 
-        protected TagBase(string name = null, TagOptions options = null)
+        protected internal TagBase(string name = null, TagOptions options = null)
         {
             TagOptions = options;
             if (name?.Contains("<") ?? false)
@@ -19,14 +19,14 @@ namespace ToSic.Razor.Markup
                 TagName = name;
         }
 
-        protected TagBase(string name, object content, TagOptions options = null)
+        protected internal TagBase(string name, object content, TagOptions options = null)
             : this(name, options)
         {
             if (content != null)
                 TagChildren.Replace(content);
         }
 
-        protected TagBase(string name, TagOptions options, object[] content) : this(name, options)
+        protected internal TagBase(string name, TagOptions options, object[] content) : this(name, options)
         {
             if(content.Length > 0)
                 TagChildren.Replace(content);

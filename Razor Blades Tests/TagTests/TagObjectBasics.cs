@@ -9,9 +9,9 @@ namespace Razor_Blades_Tests.TagTests
         [TestMethod]
         public void VeryBasic()
         {
-            Is("<div></div>", new TagGeneric("div"));
-            Is("<strong></strong>", new TagGeneric( "strong"));
-            Is("<strong>...</strong>", new TagGeneric("strong"){ TagContents = "..."});
+            Is("<div></div>", new TagCustom("div"));
+            Is("<strong></strong>", new TagCustom( "strong"));
+            Is("<strong>...</strong>", new TagCustom("strong"){ TagContents = "..."});
         }
     }
 }

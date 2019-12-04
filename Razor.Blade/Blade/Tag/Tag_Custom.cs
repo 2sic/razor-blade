@@ -11,8 +11,8 @@
         /// <param name="name">tag name</param>
         /// <param name="content">optional content to place within the tag - can be a string or other tags</param>
         /// <returns>HtmlString of the tag, so you can use it directly with @TagBase.TagStart(...) in your razor</returns>
-        public static Markup.TagGeneric Custom(string name, params object[] content)
-            => new Markup.TagGeneric(name, content);
+        public static Markup.TagCustom Custom(string name, params object[] content)
+            => new Markup.TagCustom(name, content);
 
     }
 }

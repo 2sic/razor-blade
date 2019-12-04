@@ -16,15 +16,15 @@ namespace SourceCodeGenerator.Parts
         }
 
 
-        private string CodeForUrlAttribute(TagCodeGenerator tag, string valueType) =>
-            IsUrlAttribute
-                ? $@"
-    /// <summary>
-    /// Set the {Key} attribute on the &lt;{tag.TagName}&gt; tag {CommentForPreprocessing}
-    /// </summary>
-    /// <returns>a {tag.ClassName} object to enable fluid command chaining</returns>
-    {Method(tag.ClassName)}({valueType} value) => this.AttrUrl(""{Key}"", value{GetSeparator()});"
-                : null;
+    //    private string CodeForUrlAttribute(TagCodeGenerator tag, string valueType) =>
+    //        IsUrlAttribute
+    //            ? $@"
+    ///// <summary>
+    ///// Set the {Key} attribute on the &lt;{tag.TagName}&gt; tag {CommentForPreprocessing}
+    ///// </summary>
+    ///// <returns>a {tag.ClassName} object to enable fluid command chaining</returns>
+    //{Method(tag.ClassName)}({valueType} value) => this.AttrUrl(""{Key}"", value{GetSeparator()});"
+    //            : null;
 
         public bool MustPreprocess() => IsUrlAttribute || IsSrcSetAttribute;
 
