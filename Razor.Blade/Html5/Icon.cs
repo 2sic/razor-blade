@@ -34,7 +34,7 @@ namespace ToSic.Razor.Html5
             Href(path);
         }
 
-        public Icon Sizes(string value) => this.Attr("sizes", value, null);
+        public Icon Sizes(string value) => this.Attr("sizes", value, null) as Icon;
 
     }
 }

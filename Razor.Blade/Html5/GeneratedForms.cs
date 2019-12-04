@@ -5,7 +5,7 @@ using ToSic.Razor.Markup;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:57
+// Created 04.12.2019 11:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Button object with all the attributes available in that tag
     /// </returns>
-    public partial class Button : TagBase
+    public partial class Button : Tag<Button>
     {
     
     /// <summary>
@@ -198,7 +198,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Datalist object with all the attributes available in that tag
     /// </returns>
-    public partial class Datalist : TagBase
+    public partial class Datalist : Tag<Datalist>
     {
     
     /// <summary>
@@ -229,7 +229,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Fieldset object with all the attributes available in that tag
     /// </returns>
-    public partial class Fieldset : TagBase
+    public partial class Fieldset : Tag<Fieldset>
     {
     
     /// <summary>
@@ -300,7 +300,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Form object with all the attributes available in that tag
     /// </returns>
-    public partial class Form : TagBase
+    public partial class Form : Tag<Form>
     {
     
     /// <summary>
@@ -426,7 +426,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Input object with all the attributes available in that tag
     /// </returns>
-    public partial class Input : TagBase
+    public partial class Input : Tag<Input>
     {
     
     /// <summary>
@@ -837,7 +837,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Label object with all the attributes available in that tag
     /// </returns>
-    public partial class Label : TagBase
+    public partial class Label : Tag<Label>
     {
     
     /// <summary>
@@ -890,7 +890,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Legend object with all the attributes available in that tag
     /// </returns>
-    public partial class Legend : TagBase
+    public partial class Legend : Tag<Legend>
     {
     
     /// <summary>
@@ -921,7 +921,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Optgroup object with all the attributes available in that tag
     /// </returns>
-    public partial class Optgroup : TagBase
+    public partial class Optgroup : Tag<Optgroup>
     {
     
     /// <summary>
@@ -981,7 +981,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Option object with all the attributes available in that tag
     /// </returns>
-    public partial class Option : TagBase
+    public partial class Option : Tag<Option>
     {
     
     /// <summary>
@@ -1070,7 +1070,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Output object with all the attributes available in that tag
     /// </returns>
-    public partial class Output : TagBase
+    public partial class Output : Tag<Output>
     {
     
     /// <summary>
@@ -1134,7 +1134,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Select object with all the attributes available in that tag
     /// </returns>
-    public partial class Select : TagBase
+    public partial class Select : Tag<Select>
     {
     
     /// <summary>
@@ -1270,7 +1270,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Textarea object with all the attributes available in that tag
     /// </returns>
-    public partial class Textarea : TagBase
+    public partial class Textarea : Tag<Textarea>
     {
     
     /// <summary>

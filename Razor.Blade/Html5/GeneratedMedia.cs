@@ -5,7 +5,7 @@ using ToSic.Razor.Markup;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:57
+// Created 04.12.2019 11:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Audio object with all the attributes available in that tag
     /// </returns>
-    public partial class Audio : TagBase
+    public partial class Audio : Tag<Audio>
     {
     
     /// <summary>
@@ -151,7 +151,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Source object with all the attributes available in that tag
     /// </returns>
-    public partial class Source : TagBase
+    public partial class Source : Tag<Source>
     {
     
     /// <summary>
@@ -249,7 +249,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Track object with all the attributes available in that tag
     /// </returns>
-    public partial class Track : TagBase
+    public partial class Track : Tag<Track>
     {
     
     /// <summary>
@@ -343,7 +343,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Video object with all the attributes available in that tag
     /// </returns>
-    public partial class Video : TagBase
+    public partial class Video : Tag<Video>
     {
     
     /// <summary>

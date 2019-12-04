@@ -1,12 +1,14 @@
 apiRules:
 # Exclude System.Object to avoid having .Equals and stuff
-# in the documetnation
+# in the documentation
 - exclude:
     uidRegex: ^System\.Object
+
 # Exclude the DNN specific implementation
 # This namespace isn't for public use, as anything we do should be interface typed
 - exclude:
     uidRegex: ^ToSic\.Razor\.Dnn
+
 # Hide internal APIs which we need, but the signature may change at any time
 - exclude: 
     uidRegex: ^ToSic\.Razor\.Internals

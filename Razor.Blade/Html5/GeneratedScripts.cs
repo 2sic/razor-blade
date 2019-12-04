@@ -5,7 +5,7 @@ using ToSic.Razor.Markup;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:57
+// Created 04.12.2019 11:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Embed object with all the attributes available in that tag
     /// </returns>
-    public partial class Embed : TagBase
+    public partial class Embed : Tag<Embed>
     {
     
     /// <summary>
@@ -115,7 +115,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Noscript object with all the attributes available in that tag
     /// </returns>
-    public partial class Noscript : TagBase
+    public partial class Noscript : Tag<Noscript>
     {
     
     /// <summary>
@@ -146,7 +146,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Object object with all the attributes available in that tag
     /// </returns>
-    public partial class Object : TagBase
+    public partial class Object : Tag<Object>
     {
     
     /// <summary>
@@ -269,7 +269,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Param object with all the attributes available in that tag
     /// </returns>
-    public partial class Param : TagBase
+    public partial class Param : Tag<Param>
     {
     
     /// <summary>
@@ -322,7 +322,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Script object with all the attributes available in that tag
     /// </returns>
-    public partial class Script : TagBase
+    public partial class Script : Tag<Script>
     {
     
     /// <summary>

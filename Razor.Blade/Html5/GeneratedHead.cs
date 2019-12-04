@@ -5,7 +5,7 @@ using ToSic.Razor.Markup;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:57
+// Created 04.12.2019 11:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Base object with all the attributes available in that tag
     /// </returns>
-    public partial class Base : TagBase
+    public partial class Base : Tag<Base>
     {
     
     /// <summary>
@@ -79,7 +79,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Head object with all the attributes available in that tag
     /// </returns>
-    public partial class Head : TagBase
+    public partial class Head : Tag<Head>
     {
     
     /// <summary>
@@ -110,7 +110,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Meta object with all the attributes available in that tag
     /// </returns>
-    public partial class Meta : TagBase
+    public partial class Meta : Tag<Meta>
     {
     
     /// <summary>

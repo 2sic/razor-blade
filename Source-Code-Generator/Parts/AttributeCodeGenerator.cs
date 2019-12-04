@@ -37,7 +37,7 @@ namespace SourceCodeGenerator.Parts
                     // : 
                     MethodString(tag),
                 MethodTyped(tag, valueType), // optional second signature with a int-type or something
-                CodeForBooleanAttribute(tag), 
+                CodeForBooleanAttribute(tag),
                 CodeForSrcSetAttribute(tag),
                 "" // empty, to ensure trailing enters in generated code
             };

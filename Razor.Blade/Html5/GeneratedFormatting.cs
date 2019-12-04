@@ -5,7 +5,7 @@ using ToSic.Razor.Markup;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:57
+// Created 04.12.2019 11:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Abbr object with all the attributes available in that tag
     /// </returns>
-    public partial class Abbr : TagBase
+    public partial class Abbr : Tag<Abbr>
     {
     
     /// <summary>
@@ -56,7 +56,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Address object with all the attributes available in that tag
     /// </returns>
-    public partial class Address : TagBase
+    public partial class Address : Tag<Address>
     {
     
     /// <summary>
@@ -87,7 +87,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A B object with all the attributes available in that tag
     /// </returns>
-    public partial class B : TagBase
+    public partial class B : Tag<B>
     {
     
     /// <summary>
@@ -118,7 +118,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Bdi object with all the attributes available in that tag
     /// </returns>
-    public partial class Bdi : TagBase
+    public partial class Bdi : Tag<Bdi>
     {
     
     /// <summary>
@@ -149,7 +149,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Bdo object with all the attributes available in that tag
     /// </returns>
-    public partial class Bdo : TagBase
+    public partial class Bdo : Tag<Bdo>
     {
     
     /// <summary>
@@ -191,7 +191,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Blockquote object with all the attributes available in that tag
     /// </returns>
-    public partial class Blockquote : TagBase
+    public partial class Blockquote : Tag<Blockquote>
     {
     
     /// <summary>
@@ -233,7 +233,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Cite object with all the attributes available in that tag
     /// </returns>
-    public partial class Cite : TagBase
+    public partial class Cite : Tag<Cite>
     {
     
     /// <summary>
@@ -264,7 +264,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Code object with all the attributes available in that tag
     /// </returns>
-    public partial class Code : TagBase
+    public partial class Code : Tag<Code>
     {
     
     /// <summary>
@@ -295,7 +295,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Del object with all the attributes available in that tag
     /// </returns>
-    public partial class Del : TagBase
+    public partial class Del : Tag<Del>
     {
     
     /// <summary>
@@ -355,7 +355,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Dfn object with all the attributes available in that tag
     /// </returns>
-    public partial class Dfn : TagBase
+    public partial class Dfn : Tag<Dfn>
     {
     
     /// <summary>
@@ -386,7 +386,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Em object with all the attributes available in that tag
     /// </returns>
-    public partial class Em : TagBase
+    public partial class Em : Tag<Em>
     {
     
     /// <summary>
@@ -417,7 +417,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Figcaption object with all the attributes available in that tag
     /// </returns>
-    public partial class Figcaption : TagBase
+    public partial class Figcaption : Tag<Figcaption>
     {
     
     /// <summary>
@@ -448,7 +448,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Figure object with all the attributes available in that tag
     /// </returns>
-    public partial class Figure : TagBase
+    public partial class Figure : Tag<Figure>
     {
     
     /// <summary>
@@ -479,7 +479,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A I object with all the attributes available in that tag
     /// </returns>
-    public partial class I : TagBase
+    public partial class I : Tag<I>
     {
     
     /// <summary>
@@ -510,7 +510,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Ins object with all the attributes available in that tag
     /// </returns>
-    public partial class Ins : TagBase
+    public partial class Ins : Tag<Ins>
     {
     
     /// <summary>
@@ -570,7 +570,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Kbd object with all the attributes available in that tag
     /// </returns>
-    public partial class Kbd : TagBase
+    public partial class Kbd : Tag<Kbd>
     {
     
     /// <summary>
@@ -601,7 +601,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Mark object with all the attributes available in that tag
     /// </returns>
-    public partial class Mark : TagBase
+    public partial class Mark : Tag<Mark>
     {
     
     /// <summary>
@@ -632,7 +632,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Meter object with all the attributes available in that tag
     /// </returns>
-    public partial class Meter : TagBase
+    public partial class Meter : Tag<Meter>
     {
     
     /// <summary>
@@ -740,7 +740,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Pre object with all the attributes available in that tag
     /// </returns>
-    public partial class Pre : TagBase
+    public partial class Pre : Tag<Pre>
     {
     
     /// <summary>
@@ -771,7 +771,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Progress object with all the attributes available in that tag
     /// </returns>
-    public partial class Progress : TagBase
+    public partial class Progress : Tag<Progress>
     {
     
     /// <summary>
@@ -824,7 +824,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Q object with all the attributes available in that tag
     /// </returns>
-    public partial class Q : TagBase
+    public partial class Q : Tag<Q>
     {
     
     /// <summary>
@@ -866,7 +866,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Rp object with all the attributes available in that tag
     /// </returns>
-    public partial class Rp : TagBase
+    public partial class Rp : Tag<Rp>
     {
     
     /// <summary>
@@ -897,7 +897,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Rt object with all the attributes available in that tag
     /// </returns>
-    public partial class Rt : TagBase
+    public partial class Rt : Tag<Rt>
     {
     
     /// <summary>
@@ -928,7 +928,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Ruby object with all the attributes available in that tag
     /// </returns>
-    public partial class Ruby : TagBase
+    public partial class Ruby : Tag<Ruby>
     {
     
     /// <summary>
@@ -959,7 +959,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A S object with all the attributes available in that tag
     /// </returns>
-    public partial class S : TagBase
+    public partial class S : Tag<S>
     {
     
     /// <summary>
@@ -990,7 +990,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Samp object with all the attributes available in that tag
     /// </returns>
-    public partial class Samp : TagBase
+    public partial class Samp : Tag<Samp>
     {
     
     /// <summary>
@@ -1021,7 +1021,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Small object with all the attributes available in that tag
     /// </returns>
-    public partial class Small : TagBase
+    public partial class Small : Tag<Small>
     {
     
     /// <summary>
@@ -1052,7 +1052,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Strong object with all the attributes available in that tag
     /// </returns>
-    public partial class Strong : TagBase
+    public partial class Strong : Tag<Strong>
     {
     
     /// <summary>
@@ -1083,7 +1083,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Sub object with all the attributes available in that tag
     /// </returns>
-    public partial class Sub : TagBase
+    public partial class Sub : Tag<Sub>
     {
     
     /// <summary>
@@ -1114,7 +1114,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Sup object with all the attributes available in that tag
     /// </returns>
-    public partial class Sup : TagBase
+    public partial class Sup : Tag<Sup>
     {
     
     /// <summary>
@@ -1145,7 +1145,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Template object with all the attributes available in that tag
     /// </returns>
-    public partial class Template : TagBase
+    public partial class Template : Tag<Template>
     {
     
     /// <summary>
@@ -1176,7 +1176,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Time object with all the attributes available in that tag
     /// </returns>
-    public partial class Time : TagBase
+    public partial class Time : Tag<Time>
     {
     
     /// <summary>
@@ -1225,7 +1225,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A U object with all the attributes available in that tag
     /// </returns>
-    public partial class U : TagBase
+    public partial class U : Tag<U>
     {
     
     /// <summary>
@@ -1256,7 +1256,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Var object with all the attributes available in that tag
     /// </returns>
-    public partial class Var : TagBase
+    public partial class Var : Tag<Var>
     {
     
     /// <summary>

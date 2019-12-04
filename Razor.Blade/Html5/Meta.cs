@@ -24,10 +24,11 @@ namespace ToSic.Razor.Html5
         {
             if (!value.ToLowerInvariant().StartsWith(Prefix))
                 value = Prefix + value;
-            return this.Attr("property", value);
+            return Attr("property", value) as MetaOg;
         }
 
-        public new MetaOg Content(string value) => this.Attr("content", value);
+        public new MetaOg Content(string value) 
+            => Attr("content", value) as MetaOg;
    }
     
 }

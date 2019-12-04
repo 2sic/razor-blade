@@ -57,6 +57,7 @@
     <Compile Include="Configuration\TagsImages.cs" />
     <Compile Include="Configuration\TagsFormatting.cs" />
     <Compile Include="Configuration\TagsSimple.cs" />
+    <Compile Include="Parts\AttributeCodeGenerator_ITag_T.cs" />
     <Compile Include="Parts\AttributeCodeGenerator_PreprocessUrls.cs" />
     <Compile Include="Parts\AttributeCodeGenerator_Boolean.cs" />
     <Compile Include="Parts\AttributeCodeGenerator_SrcSet.cs" />

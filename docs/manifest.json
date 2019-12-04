@@ -161,7 +161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ToSic.Razor.Blade.HtmlPage.html",
-          "hash": "A5qC71q4P97aH2n7F7RBmg=="
+          "hash": "3Ta6XDpMjOadRDaLnfvRlQ=="
         }
       },
       "is_incremental": false,
@@ -1685,7 +1685,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ToSic.Razor.Markup.TagBase.html",
-          "hash": "L9V6h3jp7VNF9uOrpFMUJQ=="
+          "hash": "hi7glywMeWWp+lTzYr0uTw=="
         }
       },
       "is_incremental": false,
@@ -1743,12 +1743,10 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ResourceDocumentProcessor": {
@@ -1765,17 +1763,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 7,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 134,
-          "skipped_file_count": 0
+          "skipped_file_count": 133
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 7
         }
       }
     },

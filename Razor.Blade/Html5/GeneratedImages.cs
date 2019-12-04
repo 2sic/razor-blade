@@ -5,7 +5,7 @@ using ToSic.Razor.Markup;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 18.10.2019 17:57
+// Created 04.12.2019 11:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Area object with all the attributes available in that tag
     /// </returns>
-    public partial class Area : TagBase
+    public partial class Area : Tag<Area>
     {
     
     /// <summary>
@@ -56,7 +56,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Canvas object with all the attributes available in that tag
     /// </returns>
-    public partial class Canvas : TagBase
+    public partial class Canvas : Tag<Canvas>
     {
     
     /// <summary>
@@ -123,7 +123,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Img object with all the attributes available in that tag
     /// </returns>
-    public partial class Img : TagBase
+    public partial class Img : Tag<Img>
     {
     
     /// <summary>
@@ -279,7 +279,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Map object with all the attributes available in that tag
     /// </returns>
-    public partial class Map : TagBase
+    public partial class Map : Tag<Map>
     {
     
     /// <summary>
@@ -321,7 +321,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Picture object with all the attributes available in that tag
     /// </returns>
-    public partial class Picture : TagBase
+    public partial class Picture : Tag<Picture>
     {
     
     /// <summary>
@@ -352,7 +352,7 @@ namespace ToSic.Razor.Html5
     /// <returns>
     /// A Svg object with all the attributes available in that tag
     /// </returns>
-    public partial class Svg : TagBase
+    public partial class Svg : Tag<Svg>
     {
     
     /// <summary>

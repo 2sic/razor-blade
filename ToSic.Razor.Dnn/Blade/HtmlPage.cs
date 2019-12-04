@@ -25,6 +25,7 @@ namespace ToSic.Razor.Blade
         /// The current page title
         /// Will return null if not running in a page context.
         /// </summary>
+        /// <param name="value">a new title</param>
         public static string Title
         {
             get => GetPage().Title;
@@ -35,6 +36,7 @@ namespace ToSic.Razor.Blade
         /// Get/Set description of this page
         /// Will return null if not running in a page context.
         /// </summary>
+        /// <param name="value">a new description</param>
         public static string Description
         {
             get => GetPage().Description;
@@ -45,6 +47,7 @@ namespace ToSic.Razor.Blade
         /// Get/Set keywords of this page
         /// Will return null if not running in a page context.
         /// </summary>
+        /// <param name="value">the new keywords</param>
         public static string Keywords
         {
             get => GetPage().Keywords;

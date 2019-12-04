@@ -20,10 +20,6 @@ using ToSic.Razor.Markup;
 // ReSharper disable once CheckNamespace
 namespace ToSic.Razor.Blade
 {
-    /// <summary>
-    /// Helper to quickly generate all HTML5 tags with a Tag.Img(...) syntax
-    /// This is usually nicer that new Img(...) and easier for use in Razor templates
-    /// </summary>
     public static partial class Tag
     {
         
