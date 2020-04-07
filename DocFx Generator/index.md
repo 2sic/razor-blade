@@ -84,3 +84,16 @@ _Note that HTML whitespace like `&nbsp;` will also be treated as empty, unless y
 
 ```
 
+## Change History
+
+### V3.00 2019-10
+
+Released V3 which was a complete rework and had a new root namespace.
+
+### V3.01 2019-12
+
+Minor fixes / changes which required a version bump.
+
+### V3.02 2020-04
+
+1. Added Tags.SafeUrl()

@@ -2008,6 +2008,19 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.Tags.Nl2Br
   nameWithType: Tags.Nl2Br
+- uid: ToSic.Razor.Blade.Tags.SafeUrl(System.String)
+  name: SafeUrl(String)
+  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_SafeUrl_System_String_
+  commentId: M:ToSic.Razor.Blade.Tags.SafeUrl(System.String)
+  fullName: ToSic.Razor.Blade.Tags.SafeUrl(System.String)
+  nameWithType: Tags.SafeUrl(String)
+- uid: ToSic.Razor.Blade.Tags.SafeUrl*
+  name: SafeUrl
+  href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_SafeUrl_
+  commentId: Overload:ToSic.Razor.Blade.Tags.SafeUrl
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Tags.SafeUrl
+  nameWithType: Tags.SafeUrl
 - uid: ToSic.Razor.Blade.Tags.Strip(System.String)
   name: Strip(String)
   href: api/ToSic.Razor.Blade.Tags.html#ToSic_Razor_Blade_Tags_Strip_System_String_
