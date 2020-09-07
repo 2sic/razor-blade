@@ -8,7 +8,7 @@ namespace ToSic.Razor.Markup
     {
         internal static string UriEncode(string url)
         {
-            if (url == null) return url;
+            if (string.IsNullOrEmpty(url)) return url;
 
             // more difficult case: %-character detected
             // maybe we want it - like in ?title=I want 25%
@@ -22,7 +22,7 @@ namespace ToSic.Razor.Markup
             // simple use case - no % character in url
             // or the % wasn't just used for encoding
             // so just perform standard encoding
-            return (url.Contains("'") ? Uri.EscapeUriString(url).Replace("'", "%27") : Uri.EscapeUriString(url));
+            return Uri.EscapeUriString(url).Replace("'", "%27");
         }
 
         internal static string UriEncodeSrcSet(string srcSet)
