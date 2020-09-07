@@ -22,7 +22,7 @@ namespace ToSic.Razor.Markup
             // simple use case - no % character in url
             // or the % wasn't just used for encoding
             // so just perform standard encoding
-            return Uri.EscapeUriString(url);
+            return (url.Contains("'") ? Uri.EscapeUriString(url).Replace("'", "%27") : Uri.EscapeUriString(url));
         }
 
         internal static string UriEncodeSrcSet(string srcSet)
