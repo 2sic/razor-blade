@@ -5987,12 +5987,6 @@ references:
   commentId: T:ToSic.Razor.Markup.AttributeBase
   fullName: ToSic.Razor.Markup.AttributeBase
   nameWithType: AttributeBase
-- uid: ToSic.Razor.Markup.AttributeBase.#ctor(System.Object)
-  name: AttributeBase(Object)
-  href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase__ctor_System_Object_
-  commentId: M:ToSic.Razor.Markup.AttributeBase.#ctor(System.Object)
-  fullName: ToSic.Razor.Markup.AttributeBase.AttributeBase(System.Object)
-  nameWithType: AttributeBase.AttributeBase(Object)
 - uid: ToSic.Razor.Markup.AttributeBase.#ctor(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
   name: AttributeBase(String, Object, AttributeOptions)
   href: api/ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase__ctor_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_
@@ -6137,19 +6131,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.AttributeListBase.Add
   nameWithType: AttributeListBase.Add
-- uid: ToSic.Razor.Markup.AttributeListBase.AddObject(System.Object)
-  name: AddObject(Object)
-  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_AddObject_System_Object_
-  commentId: M:ToSic.Razor.Markup.AttributeListBase.AddObject(System.Object)
-  fullName: ToSic.Razor.Markup.AttributeListBase.AddObject(System.Object)
-  nameWithType: AttributeListBase.AddObject(Object)
-- uid: ToSic.Razor.Markup.AttributeListBase.AddObject*
-  name: AddObject
-  href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_AddObject_
-  commentId: Overload:ToSic.Razor.Markup.AttributeListBase.AddObject
-  isSpec: "True"
-  fullName: ToSic.Razor.Markup.AttributeListBase.AddObject
-  nameWithType: AttributeListBase.AddObject
 - uid: ToSic.Razor.Markup.AttributeListBase.AddUrl(System.String,System.Object,System.String)
   name: AddUrl(String, Object, String)
   href: api/ToSic.Razor.Markup.AttributeListBase.html#ToSic_Razor_Markup_AttributeListBase_AddUrl_System_String_System_Object_System_String_
