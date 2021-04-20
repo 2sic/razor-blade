@@ -34,6 +34,17 @@
             return (T) this;
         }
 
+        /// <summary>
+        /// Quickly add an attribute
+        /// it always returns the tag itself again, allowing chaining of multiple add-calls
+        /// </summary>
+        /// <param name="nameWithValue">Object which can be ToString()ed</param>
+        /// <returns></returns>
+        public T Attr(object nameWithValue)
+        {
+            TagAttributes.AddObject(nameWithValue);
+            return (T) this;
+        }
 
         ///// <summary>
         ///// Quickly add a URL attribute which usually needs encoding

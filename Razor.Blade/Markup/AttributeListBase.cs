@@ -34,6 +34,12 @@ namespace ToSic.Razor.Markup
         /// </summary>
         public AttributeOptions Options;
 
+        /// <summary>
+        /// This must have another name than Add, because otherwise it collides with List.Add
+        /// </summary>
+        /// <param name="nameOrValue"></param>
+        internal void AddObject(object nameOrValue) => Add(nameOrValue?.ToString());
+
         public void Add(string name, object value = null, string appendSeparator = null)
         {
             // bad entry, skip

@@ -1,6 +1,4 @@
-﻿using ToSic.Razor.Interfaces;
-
-namespace ToSic.Razor.Markup
+﻿namespace ToSic.Razor.Markup
 {
     public partial class TagBase
     {
