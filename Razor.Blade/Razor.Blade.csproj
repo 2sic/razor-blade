@@ -3,12 +3,13 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net40;net5.0</TargetFrameworks>
     <RootNamespace>ToSic.Razor</RootNamespace>
-    <Version>03.03.00</Version>
+    <Version>03.04.00</Version>
     <AssemblyName>ToSic.Razor</AssemblyName>
     <PackageId>ToSic.Razor</PackageId>
     <Authors>ToSic.Razor</Authors>
-    <AssemblyVersion>3.3.0.0</AssemblyVersion>
-    <FileVersion>3.3.0.0</FileVersion>
+    <AssemblyVersion>3.4.0.0</AssemblyVersion>
+    <FileVersion>3.4.0.0</FileVersion>
+    <Copyright>Copyright (MIT) © 2021 by 2sic</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
