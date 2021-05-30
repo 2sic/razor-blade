@@ -57,6 +57,7 @@
     <Compile Include="Dnn\DnnHtmlPage.cs" />
     <Compile Include="Dnn\DnnPage_Headers.cs" />
     <Compile Include="Dnn\DnnPage_Icons.cs" />
+    <Compile Include="Interfaces\IHtmlPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

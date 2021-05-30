@@ -8,6 +8,11 @@ namespace ToSic.Razor.Interfaces
     /// <summary>
     /// Standardizes what an HtmlPage object can do across platforms. 
     /// </summary>
+    /// <remarks>
+    /// WARNING - this was an implementation for DNN and doesn't use Dependency injection
+    /// Because of this we strongly recommend against using it. We assume this interface is actually not used anywhere, so don't start now :).
+    /// Use the Connect.Koi implementation instead. 
+    /// </remarks>
     public interface IHtmlPage
     {
 
