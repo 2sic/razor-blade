@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net40;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net45;net5.0</TargetFrameworks>
     <RootNamespace>ToSic.Razor</RootNamespace>
     <Version>03.04.00</Version>
     <AssemblyName>ToSic.Razor</AssemblyName>
@@ -24,7 +24,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net40' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -34,6 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Internals\HtmlPage\IconSet.cs" />
+    <None Include="Internals\Page\IconSet.cs" />
   </ItemGroup>
 </Project>

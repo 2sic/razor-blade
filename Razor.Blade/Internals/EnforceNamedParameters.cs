@@ -11,7 +11,7 @@ namespace ToSic.Razor.Internals
         /// This is just a constant to give to the parameter "protecting" the others
         /// Its value and type can be changed from time to time, as it's value is only checked internally. 
         /// </summary>
-        public const string ProtectionKey = "0239fse[4332xhkne";
+        public const string ProtectionKey = "Dummy-Parameter - don't provide this, but do name all other parameters in this call using paramName: value";
 
         public static bool VerifyProtectionKey(string value, bool throwError = true)
         {

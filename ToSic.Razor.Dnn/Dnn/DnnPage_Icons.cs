@@ -28,7 +28,7 @@ namespace ToSic.Razor.Dnn
             )
         {
             EnforceNamedParameters.VerifyProtectionKey(doNotRelyOnParameterOrder);
-            foreach (var s in Internals.HtmlPage.IconSet.GenerateIconSet(path, favicon, rels, sizes))
+            foreach (var s in Internals.Page.IconSet.GenerateIconSet(path, favicon, rels, sizes))
                 AddToHead(s);
         }
 

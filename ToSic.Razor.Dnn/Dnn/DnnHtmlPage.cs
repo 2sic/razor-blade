@@ -15,7 +15,7 @@ namespace ToSic.Razor.Dnn
         {
             // load the page from the context
             // will be null if not available
-            Page = HttpContext.Current?.Handler as Page;
+            Page = HttpContext.Current?.Handler as System.Web.UI.Page;
         }
 
         /// <summary>
@@ -23,7 +23,7 @@ namespace ToSic.Razor.Dnn
         /// Important: will not throw an error if it can't find it, to prevent issues when the template
         /// is being run in a test environment or in indexing mode.         
         /// </summary>
-        public Page Page { get; set; }
+        public System.Web.UI.Page Page { get; set; }
 
     }
 }

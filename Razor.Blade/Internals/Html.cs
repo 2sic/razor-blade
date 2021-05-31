@@ -25,7 +25,7 @@ namespace ToSic.Razor.Internals
 
         internal static string ToJson(object jsonObject)
         {
-#if NET40
+#if NET45
             return new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(jsonObject);
 #else
             throw new NotImplementedException(

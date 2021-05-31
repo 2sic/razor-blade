@@ -1,4 +1,4 @@
-﻿#if NET40
+﻿#if NET45
 using IHtmlString = System.Web.IHtmlString;
 using HtmlString = System.Web.HtmlString;
 #else

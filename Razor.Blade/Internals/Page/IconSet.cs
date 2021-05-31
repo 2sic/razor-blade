@@ -2,9 +2,9 @@
 using System.Linq;
 using ToSic.Razor.Html5;
 
-namespace ToSic.Razor.Internals.HtmlPage
+namespace ToSic.Razor.Internals.Page
 {
-    internal class IconSet
+    public class IconSet
     {
         internal static readonly string[] IconSetDefaultRelationships = {
             Icon.RelIcon,
@@ -12,7 +12,7 @@ namespace ToSic.Razor.Internals.HtmlPage
             Icon.RelApple,
         };
 
-        internal static List<Icon> GenerateIconSet(string path, object favicon = null, IEnumerable<string> rels = null, IEnumerable<int> sizes = null)
+        public static List<Icon> GenerateIconSet(string path, object favicon = null, IEnumerable<string> rels = null, IEnumerable<int> sizes = null)
         {
             // if no sizes given, just assume the default size only
             sizes = sizes ?? new[] { Icon.SizeUndefined };

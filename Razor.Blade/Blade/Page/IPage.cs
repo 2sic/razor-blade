@@ -1,65 +1,55 @@
 ﻿using System.Collections.Generic;
-using ToSic.Razor.Dnn;
 using ToSic.Razor.Internals;
-
-// ReSharper disable UnusedMember.Global
+using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Blade
 {
     /// <summary>
-    /// Access the surrounding page and read/modify some properties, 
-    /// and add various kinds of headers to the &lt;head&gt; of the current page.
+    /// Standardizes what an HtmlPage object can do across platforms.
+    ///
+    /// This is just the interface. When a system implements it, you can get it through Dependency Injection.
+    ///
+    /// Example: in 2sxc 12+ you can use `var page = GetService&lt;IHtmlPage&gt;()` and then work with the resulting object.
     /// </summary>
-    /// <remarks>
-    /// It's important that the commands on this class are the same as in the IHtmlPage,
-    /// to allow the API to be consistent both when using this shortcut-class as well as 
-    /// when using the GetPage() and then doing the same commands on that. 
-    /// This cannot be enforced with interfaces, as the static class cannot be typed
-    /// </remarks>
-    public static class HtmlPage
+    public interface IPage
     {
-        public static ToSic.Razor.Interfaces.IHtmlPage GetPage() => new DnnHtmlPage();
+        void Enable(string key);
+        
+        /// <summary>
+        /// How changes should be applied to the page.
+        /// Default is <see cref="T:ChangeMode.Auto"/>
+        /// </summary>
+        ChangeModes ChangeMode { get; set; }
 
         /// <summary>
-        /// The current page title
-        /// Will return null if not running in a page context.
+        /// Add a standard base header tag.
+        /// <em>new in 3.0</em>
         /// </summary>
-        /// <param name="value">a new title</param>
-        public static string Title
-        {
-            get => GetPage().Title;
-            set => GetPage().Title = value;
-        }
+        /// <param name="url">the optional url for the base tag - if null, will try to default to the real url for the current page</param>
+        void SetBase(string url = null);
 
         /// <summary>
-        /// Get/Set description of this page
-        /// Will return null if not running in a page context.
+        /// Set the page title
         /// </summary>
-        /// <param name="value">a new description</param>
-        public static string Description
-        {
-            get => GetPage().Description;
-            set => GetPage().Description = value;
-        }
+        void SetTitle(string value, string token = null);
 
         /// <summary>
-        /// Get/Set keywords of this page
-        /// Will return null if not running in a page context.
+        /// Set the description of this page
         /// </summary>
-        /// <param name="value">the new keywords</param>
-        public static string Keywords
-        {
-            get => GetPage().Keywords;
-            set => GetPage().Keywords = value;
-        }
+        void SetDescription(string value, string token = null);
+
+        /// <summary>
+        /// Set the keywords of this page
+        /// </summary>
+        void SetKeywords(string value, string token = null);
+
 
         /// <summary>
         /// Add a tag to the header of the page
         /// Will simply not do anything if an error occurs, like if the page object doesn't exist
         /// </summary>
         /// <param name="tag"></param>
-        public static void AddToHead(string tag) => GetPage().AddToHead(tag);
-
+        void AddToHead(string tag);
 
         /// <summary>
         /// Add a tag object to the header of the page
@@ -67,45 +57,36 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="tag"></param>
         /// <remarks>New in 2.1</remarks>
-        public static void AddToHead(Markup.TagBase tag) => GetPage().AddToHead(tag);
-
-
-        /// <summary>
-        /// Add a standard base header tag.
-        /// <em>new in 3.0</em>
-        /// </summary>
-        /// <param name="url">the optional url for the base tag - if null, will default to the real url for the current page</param>
-        public static void AddBase(string url = null) => GetPage().AddBase(url);
+        void AddToHead(TagBase tag);
 
 
         /// <summary>
         /// Add a standard meta header tag.
-        /// If you need to add more attributes, use AddHeader(...) instead
+        /// You may also want AddOpenGraph or AddJsonLd
         /// </summary>
         /// <param name="name"></param>
         /// <param name="content"></param>
-        public static void AddMeta(string name, string content) => GetPage().AddMeta(name, content);
+        void AddMeta(string name, string content);
 
         /// <summary>
         /// Add an open-graph header according to http://ogp.me/
         /// </summary>
         /// <param name="property">Open Graph property name, like title or image:width. 'og:' is automatically prefixed if not included</param>
         /// <param name="content">value of this property</param>
-        public static void AddOpenGraph(string property, string content) => GetPage().AddOpenGraph(property, content);
+        void AddOpenGraph(string property, string content);
+
 
         /// <summary>
         /// Add a JSON-LD header according https://developers.google.com/search/docs/guides/intro-structured-data
         /// </summary>
         /// <param name="jsonString">A prepared JSON string</param>
-        public static void AddJsonLd(string jsonString) => GetPage().AddJsonLd(jsonString);
+        void AddJsonLd(string jsonString);
 
         /// <summary>
         /// Add a JSON-LD header according https://developers.google.com/search/docs/guides/intro-structured-data
         /// </summary>
         /// <param name="jsonObject">A object which will be converted to JSON. We recommend using dictionaries to build the object.</param>
-        public static void AddJsonLd(object jsonObject) => GetPage().AddJsonLd(jsonObject);
-
-
+        void AddJsonLd(object jsonObject);
 
         #region Icon stuff
 
@@ -120,15 +101,12 @@ namespace ToSic.Razor.Blade
         /// <param name="rel">the rel-text, default is 'icon'. common terms are also 'shortcut icon' or 'apple-touch-icon'</param>
         /// <param name="size">Will be used in size='#x#' tag; only relevant if you want to provide multiple separate sizes</param>
         /// <param name="type">An optional type. If not provided, will be auto-detected from known types or remain empty</param>
-        public static void AddIcon(
+        void AddIcon(
             string path,
-            // ReSharper disable once InvalidXmlDocComment
             string doNotRelyOnParameterOrder = EnforceNamedParameters.ProtectionKey,
-            string rel = "",
-            int size = 0,
-            string type = null) 
-            => GetPage().AddIcon(path, rel: rel, size: size, type: type);
-
+            string rel = "", 
+            int size = 0, 
+            string type = null);
 
         /// <summary>
         /// Add a set of icons to the page
@@ -136,19 +114,17 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="path">Path to the image/icon file</param>
         /// <param name="doNotRelyOnParameterOrder">This is a dummy parameter to force the developer to name the remaining parameters - like size: 75 etc.
-        /// This allows us to add more parameters in future without worrying that existing code could break. 
+        /// This allows us to add more parameters in future without worrying that existing code could break.
         /// </param>
         /// <param name="favicon">path to favicon, default is '/favicon.ico' </param>
         /// <param name="rels"></param>
         /// <param name="sizes"></param>
-        public static void AddIconSet(
+        void AddIconSet(
             string path,
-            // ReSharper disable once InvalidXmlDocComment
             string doNotRelyOnParameterOrder = EnforceNamedParameters.ProtectionKey,
-            object favicon = null,
+            object favicon = null, 
             IEnumerable<string> rels = null,
-            IEnumerable<int> sizes = null)
-            => GetPage().AddIconSet(path, favicon:favicon, rels:rels, sizes:sizes);
+            IEnumerable<int> sizes = null);
 
         #endregion
     }

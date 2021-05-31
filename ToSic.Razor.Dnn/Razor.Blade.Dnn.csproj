@@ -29,7 +29,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\bin\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blade\HtmlPage.cs" />
+    <Compile Include="Dnn\DnnPageChanges.cs" />
     <Compile Include="Dnn\DnnPage_BasicProps.cs" />
     <Compile Include="Dnn\DnnHtmlPage.cs" />
     <Compile Include="Dnn\DnnPage_Headers.cs" />
