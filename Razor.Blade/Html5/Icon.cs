@@ -1,5 +1,4 @@
-﻿using ToSic.Razor.Blade;
-using ToSic.Razor.Internals.Mime;
+﻿using ToSic.Razor.Internals.Mime;
 using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Html5
@@ -9,11 +8,11 @@ namespace ToSic.Razor.Html5
     /// </summary>
     public class Icon : Link
     {
-        internal const int SizeUndefined = 0;
-        internal const string RelIcon = "icon";
-        internal const string RootFavicon = "/favicon.ico";
-        internal const string RelShortcut = "shortcut icon";
-        internal const string RelApple = "apple-touch-icon";
+        public const int SizeUndefined = 0;
+        public static readonly string RelIcon = "icon";
+        public static readonly string RootFavicon = "/favicon.ico";
+        public static readonly string RelShortcut = "shortcut icon";
+        public static readonly string RelApple = "apple-touch-icon";
 
         /// <summary>
         /// Generate an icon 
@@ -23,7 +22,7 @@ namespace ToSic.Razor.Html5
         /// <param name="size">size parameter</param>
         /// <param name="type">mime type</param>
         /// <returns></returns>
-        internal Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
+        public Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
         {
             // override empty attributes
             TagOptions = new TagOptions(new AttributeOptions {KeepEmpty = false}) {Close = false};

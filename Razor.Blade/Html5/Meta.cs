@@ -4,7 +4,7 @@ namespace ToSic.Razor.Html5
 {
     public partial class Meta
     {
-        internal Meta(string name = null, string content = null): this()
+        public Meta(string name = null, string content = null): this()
         {
             if(name != null) Name(name);
             if (content != null) Content(content);
@@ -15,7 +15,7 @@ namespace ToSic.Razor.Html5
     {
         public const string Prefix = "og:";
 
-        internal MetaOg(string property = null, string content = null)
+        public MetaOg(string property = null, string content = null)
         {
             if(property != null) Property(property);
             if(content != null) Content(content);

@@ -54,7 +54,6 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\SimpleFeatureManagement.cs" />
     <Compile Include="Html5QuickAccess\ATests.cs" />
     <Compile Include="Html5QuickAccess\TableTestsQa.cs" />
     <Compile Include="HtmlTagsTests\ObjectTests.cs" />
@@ -72,7 +71,6 @@
     <Compile Include="HtmlTagsTests\IconTests\Icons.cs" />
     <Compile Include="HtmlTagsTests\IconTests\IconSets.cs" />
     <Compile Include="InternalTests\UriEncoding.cs" />
-    <Compile Include="PageProperty\UpdatePropertyTest.cs" />
     <Compile Include="TagBuilderTests\HtmlEncode.cs" />
     <Compile Include="TagBuilderTests\TagOpenClose.cs" />
     <Compile Include="TagBuilderTests\TagBuilderTests.cs" />

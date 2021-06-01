@@ -9,7 +9,7 @@
         /// Create a JsonLd Script-TagBase 
         /// </summary>
         /// <param name="content">the contents in the tag</param>
-        internal ScriptJsonLd(string content)
+        public ScriptJsonLd(string content)
         {
             Type("application/ld+json");
             TagContents = content;
@@ -19,7 +19,7 @@
         /// Create a JsonLd Script tag and automatically json-serialize the object inside it
         /// </summary>
         /// <param name="content">an object which will be json serialized</param>
-        internal ScriptJsonLd(object content)
+        public ScriptJsonLd(object content)
             : this(ToSic.Razor.Internals.Html.ToJsonOrErrorMessage(content)) {}
     }
 }
