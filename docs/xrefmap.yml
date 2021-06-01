@@ -3226,6 +3226,43 @@ references:
   commentId: T:ToSic.Razor.Html5.Icon
   fullName: ToSic.Razor.Html5.Icon
   nameWithType: Icon
+- uid: ToSic.Razor.Html5.Icon.#ctor(System.String,System.String,System.Int32,System.String)
+  name: Icon(String, String, Int32, String)
+  href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon__ctor_System_String_System_String_System_Int32_System_String_
+  commentId: M:ToSic.Razor.Html5.Icon.#ctor(System.String,System.String,System.Int32,System.String)
+  fullName: ToSic.Razor.Html5.Icon.Icon(System.String, System.String, System.Int32, System.String)
+  nameWithType: Icon.Icon(String, String, Int32, String)
+- uid: ToSic.Razor.Html5.Icon.#ctor*
+  name: Icon
+  href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon__ctor_
+  commentId: Overload:ToSic.Razor.Html5.Icon.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Html5.Icon.Icon
+  nameWithType: Icon.Icon
+- uid: ToSic.Razor.Html5.Icon.RelApple
+  name: RelApple
+  href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon_RelApple
+  commentId: F:ToSic.Razor.Html5.Icon.RelApple
+  fullName: ToSic.Razor.Html5.Icon.RelApple
+  nameWithType: Icon.RelApple
+- uid: ToSic.Razor.Html5.Icon.RelIcon
+  name: RelIcon
+  href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon_RelIcon
+  commentId: F:ToSic.Razor.Html5.Icon.RelIcon
+  fullName: ToSic.Razor.Html5.Icon.RelIcon
+  nameWithType: Icon.RelIcon
+- uid: ToSic.Razor.Html5.Icon.RelShortcut
+  name: RelShortcut
+  href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon_RelShortcut
+  commentId: F:ToSic.Razor.Html5.Icon.RelShortcut
+  fullName: ToSic.Razor.Html5.Icon.RelShortcut
+  nameWithType: Icon.RelShortcut
+- uid: ToSic.Razor.Html5.Icon.RootFavicon
+  name: RootFavicon
+  href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon_RootFavicon
+  commentId: F:ToSic.Razor.Html5.Icon.RootFavicon
+  fullName: ToSic.Razor.Html5.Icon.RootFavicon
+  nameWithType: Icon.RootFavicon
 - uid: ToSic.Razor.Html5.Icon.Sizes(System.String)
   name: Sizes(String)
   href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon_Sizes_System_String_
@@ -3239,6 +3276,12 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Html5.Icon.Sizes
   nameWithType: Icon.Sizes
+- uid: ToSic.Razor.Html5.Icon.SizeUndefined
+  name: SizeUndefined
+  href: api/ToSic.Razor.Html5.Icon.html#ToSic_Razor_Html5_Icon_SizeUndefined
+  commentId: F:ToSic.Razor.Html5.Icon.SizeUndefined
+  fullName: ToSic.Razor.Html5.Icon.SizeUndefined
+  nameWithType: Icon.SizeUndefined
 - uid: ToSic.Razor.Html5.Iframe
   name: Iframe
   href: api/ToSic.Razor.Html5.Iframe.html
@@ -4123,6 +4166,19 @@ references:
   commentId: T:ToSic.Razor.Html5.Meta
   fullName: ToSic.Razor.Html5.Meta
   nameWithType: Meta
+- uid: ToSic.Razor.Html5.Meta.#ctor(System.String,System.String)
+  name: Meta(String, String)
+  href: api/ToSic.Razor.Html5.Meta.html#ToSic_Razor_Html5_Meta__ctor_System_String_System_String_
+  commentId: M:ToSic.Razor.Html5.Meta.#ctor(System.String,System.String)
+  fullName: ToSic.Razor.Html5.Meta.Meta(System.String, System.String)
+  nameWithType: Meta.Meta(String, String)
+- uid: ToSic.Razor.Html5.Meta.#ctor*
+  name: Meta
+  href: api/ToSic.Razor.Html5.Meta.html#ToSic_Razor_Html5_Meta__ctor_
+  commentId: Overload:ToSic.Razor.Html5.Meta.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Html5.Meta.Meta
+  nameWithType: Meta.Meta
 - uid: ToSic.Razor.Html5.Meta.Charset(System.String)
   name: Charset(String)
   href: api/ToSic.Razor.Html5.Meta.html#ToSic_Razor_Html5_Meta_Charset_System_String_
@@ -4181,6 +4237,19 @@ references:
   commentId: T:ToSic.Razor.Html5.MetaOg
   fullName: ToSic.Razor.Html5.MetaOg
   nameWithType: MetaOg
+- uid: ToSic.Razor.Html5.MetaOg.#ctor(System.String,System.String)
+  name: MetaOg(String, String)
+  href: api/ToSic.Razor.Html5.MetaOg.html#ToSic_Razor_Html5_MetaOg__ctor_System_String_System_String_
+  commentId: M:ToSic.Razor.Html5.MetaOg.#ctor(System.String,System.String)
+  fullName: ToSic.Razor.Html5.MetaOg.MetaOg(System.String, System.String)
+  nameWithType: MetaOg.MetaOg(String, String)
+- uid: ToSic.Razor.Html5.MetaOg.#ctor*
+  name: MetaOg
+  href: api/ToSic.Razor.Html5.MetaOg.html#ToSic_Razor_Html5_MetaOg__ctor_
+  commentId: Overload:ToSic.Razor.Html5.MetaOg.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Html5.MetaOg.MetaOg
+  nameWithType: MetaOg.MetaOg
 - uid: ToSic.Razor.Html5.MetaOg.Content(System.String)
   name: Content(String)
   href: api/ToSic.Razor.Html5.MetaOg.html#ToSic_Razor_Html5_MetaOg_Content_System_String_
@@ -4810,6 +4879,25 @@ references:
   commentId: T:ToSic.Razor.Html5.ScriptJsonLd
   fullName: ToSic.Razor.Html5.ScriptJsonLd
   nameWithType: ScriptJsonLd
+- uid: ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.Object)
+  name: ScriptJsonLd(Object)
+  href: api/ToSic.Razor.Html5.ScriptJsonLd.html#ToSic_Razor_Html5_ScriptJsonLd__ctor_System_Object_
+  commentId: M:ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.Object)
+  fullName: ToSic.Razor.Html5.ScriptJsonLd.ScriptJsonLd(System.Object)
+  nameWithType: ScriptJsonLd.ScriptJsonLd(Object)
+- uid: ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.String)
+  name: ScriptJsonLd(String)
+  href: api/ToSic.Razor.Html5.ScriptJsonLd.html#ToSic_Razor_Html5_ScriptJsonLd__ctor_System_String_
+  commentId: M:ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.String)
+  fullName: ToSic.Razor.Html5.ScriptJsonLd.ScriptJsonLd(System.String)
+  nameWithType: ScriptJsonLd.ScriptJsonLd(String)
+- uid: ToSic.Razor.Html5.ScriptJsonLd.#ctor*
+  name: ScriptJsonLd
+  href: api/ToSic.Razor.Html5.ScriptJsonLd.html#ToSic_Razor_Html5_ScriptJsonLd__ctor_
+  commentId: Overload:ToSic.Razor.Html5.ScriptJsonLd.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Html5.ScriptJsonLd.ScriptJsonLd
+  nameWithType: ScriptJsonLd.ScriptJsonLd
 - uid: ToSic.Razor.Html5.Section
   name: Section
   href: api/ToSic.Razor.Html5.Section.html
