@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using ToSic.Razor.Internals;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Internals;
 
-namespace Razor_Blades_Tests.Text
+namespace Razor_Blades_Tests.TextTests
 {
     [TestClass]
     public class Text_Crop

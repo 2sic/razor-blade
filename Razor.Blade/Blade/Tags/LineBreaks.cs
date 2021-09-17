@@ -22,7 +22,9 @@ namespace ToSic.Razor.Blade
         /// <param name="value"></param>
         /// <returns></returns>
         public static string Br2Nl(string value) 
-            => RelpacerBr.Replace(value, "\n");
+            => string.IsNullOrEmpty(value)
+                ? value
+                : RelpacerBr.Replace(value, "\n");
 
         /// <summary>
         /// Convert &lt;br&gt; and &lt;br/&gt; into line-breaks
@@ -30,6 +32,8 @@ namespace ToSic.Razor.Blade
         /// <param name="value"></param>
         /// <returns></returns>
         public static string Br2Space(string value) 
-            => RelpacerBr.Replace(value, " ");
+            => string.IsNullOrEmpty(value)
+                ? value
+                : RelpacerBr.Replace(value, " ");
     }
 }

@@ -1,10 +1,10 @@
 ﻿#if NET45
-using IHtmlString = System.Web.IHtmlString;
+//using IHtmlString = System.Web.IHtmlString;
 using HtmlString = System.Web.HtmlString;
 #else
-using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
+//using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
 using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
-using HtmlEncoder = System.Text.Encodings.Web.HtmlEncoder;
+//using HtmlEncoder = System.Text.Encodings.Web.HtmlEncoder;
 #endif
 using ToSic.Razor.Markup;
 

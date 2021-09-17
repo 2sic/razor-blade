@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Razor_Blades_Tests.Text
+namespace Razor_Blades_Tests.TextTests
 {
     [TestClass]
     public class Test_Blades_FirstText

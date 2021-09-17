@@ -25,7 +25,9 @@ namespace ToSic.Razor.Blade
 
         internal static string Nl2X(string value, string replacement)
         {
-            return NewLine.Replace(value, replacement);
+            return string.IsNullOrEmpty(value)
+                ? value
+                : NewLine.Replace(value ?? "", replacement);
         }
     }
 }

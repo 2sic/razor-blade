@@ -6,6 +6,9 @@ namespace ToSic.Razor.Blade
     {
         public static string Strip(string original)
         {
+            // Extra null check
+            if (original is null) return null;
+
             // remove all tags, replace with spaces to prevent words from sticking together
             var sanitizedText = Regex.Replace(original, "<[^>]*>", " ", RegexOptions.IgnoreCase);
 
