@@ -27,7 +27,7 @@ namespace ToSic.Razor.Markup
 
         protected internal TagBase(string name, TagOptions options, object[] content) : this(name, options)
         {
-            if(content.Length > 0)
+            if(content?.Length > 0)
                 TagChildren.Replace(content);
         }
         #endregion
