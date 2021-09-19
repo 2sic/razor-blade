@@ -25,6 +25,9 @@ namespace ToSic.Razor.Internals
 
         internal static string ToJson(object jsonObject)
         {
+            // First - try if the environment had provided an Delegate for this
+            if (ObjToJsonString != null)
+                return ObjToJsonString(jsonObject);
 #if NET45
             return new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(jsonObject);
 #else
@@ -33,6 +36,12 @@ namespace ToSic.Razor.Internals
                 "just make sure that the project still compiles and doesn't have new dependencies for the .net40 release");
 #endif
         }
+
+        /// <summary>
+        /// Special function to create Json which would be provided from external at start-up.
+        /// This is to ensure .net standard2 can have a ToJson even if .net standard2 would otherwise need more dependencies.
+        /// </summary>
+        internal static Func<object, string> ObjToJsonString;
 
         internal const string SerializationErrorIntro = "Error: could not convert object to json - ";
 
