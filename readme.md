@@ -131,3 +131,12 @@ Here you can also find [scrapped ideas](scrapped.md).
 1. New commands / overloads / features should be discussed in issues before adding to this library, to ensure that it's inline with the overal purpose of this library.
 
 Please also read the [conventions](conventions.md) so we can work on this together.
+
+## History
+
+* v03.07 2021-09-19
+    1. Various null-checks/bugfixes
+    1. Operatiors to add Tags like `Tag.P() + Tag.Div()`
+    1. Adding tag contents with IEnumerable (previously only Arrays worked)
+    1. Fix Json serialization for Oqtane (previously internal ToJson only worked in .net 451)
+    1. Will probably be bundled with 2sxc 12.05

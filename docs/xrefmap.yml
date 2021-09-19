@@ -6658,6 +6658,68 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.TagBase
   nameWithType: TagBase.TagBase
+- uid: ToSic.Razor.Markup.TagBase.op_Addition(System.Boolean,ToSic.Razor.Markup.TagBase)
+  name: Addition(Boolean, TagBase)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_System_Boolean_ToSic_Razor_Markup_TagBase_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_Addition(System.Boolean,ToSic.Razor.Markup.TagBase)
+  fullName: ToSic.Razor.Markup.TagBase.Addition(System.Boolean, ToSic.Razor.Markup.TagBase)
+  nameWithType: TagBase.Addition(Boolean, TagBase)
+- uid: ToSic.Razor.Markup.TagBase.op_Addition(System.Int32,ToSic.Razor.Markup.TagBase)
+  name: Addition(Int32, TagBase)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_System_Int32_ToSic_Razor_Markup_TagBase_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_Addition(System.Int32,ToSic.Razor.Markup.TagBase)
+  fullName: ToSic.Razor.Markup.TagBase.Addition(System.Int32, ToSic.Razor.Markup.TagBase)
+  nameWithType: TagBase.Addition(Int32, TagBase)
+- uid: ToSic.Razor.Markup.TagBase.op_Addition(System.String,ToSic.Razor.Markup.TagBase)
+  name: Addition(String, TagBase)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_System_String_ToSic_Razor_Markup_TagBase_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_Addition(System.String,ToSic.Razor.Markup.TagBase)
+  fullName: ToSic.Razor.Markup.TagBase.Addition(System.String, ToSic.Razor.Markup.TagBase)
+  nameWithType: TagBase.Addition(String, TagBase)
+- uid: ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,System.Boolean)
+  name: Addition(TagBase, Boolean)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_ToSic_Razor_Markup_TagBase_System_Boolean_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,System.Boolean)
+  fullName: ToSic.Razor.Markup.TagBase.Addition(ToSic.Razor.Markup.TagBase, System.Boolean)
+  nameWithType: TagBase.Addition(TagBase, Boolean)
+- uid: ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,System.Int32)
+  name: Addition(TagBase, Int32)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_ToSic_Razor_Markup_TagBase_System_Int32_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,System.Int32)
+  fullName: ToSic.Razor.Markup.TagBase.Addition(ToSic.Razor.Markup.TagBase, System.Int32)
+  nameWithType: TagBase.Addition(TagBase, Int32)
+- uid: ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,System.String)
+  name: Addition(TagBase, String)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_ToSic_Razor_Markup_TagBase_System_String_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,System.String)
+  fullName: ToSic.Razor.Markup.TagBase.Addition(ToSic.Razor.Markup.TagBase, System.String)
+  nameWithType: TagBase.Addition(TagBase, String)
+- uid: ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,ToSic.Razor.Markup.TagBase)
+  name: Addition(TagBase, TagBase)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_ToSic_Razor_Markup_TagBase_ToSic_Razor_Markup_TagBase_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_Addition(ToSic.Razor.Markup.TagBase,ToSic.Razor.Markup.TagBase)
+  fullName: ToSic.Razor.Markup.TagBase.Addition(ToSic.Razor.Markup.TagBase, ToSic.Razor.Markup.TagBase)
+  nameWithType: TagBase.Addition(TagBase, TagBase)
+- uid: ToSic.Razor.Markup.TagBase.op_Addition*
+  name: Addition
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.op_Addition
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.Addition
+  nameWithType: TagBase.Addition
+- uid: ToSic.Razor.Markup.TagBase.op_UnaryPlus(ToSic.Razor.Markup.TagBase)
+  name: UnaryPlus(TagBase)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_UnaryPlus_ToSic_Razor_Markup_TagBase_
+  commentId: M:ToSic.Razor.Markup.TagBase.op_UnaryPlus(ToSic.Razor.Markup.TagBase)
+  fullName: ToSic.Razor.Markup.TagBase.UnaryPlus(ToSic.Razor.Markup.TagBase)
+  nameWithType: TagBase.UnaryPlus(TagBase)
+- uid: ToSic.Razor.Markup.TagBase.op_UnaryPlus*
+  name: UnaryPlus
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_UnaryPlus_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.op_UnaryPlus
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.UnaryPlus
+  nameWithType: TagBase.UnaryPlus
 - uid: ToSic.Razor.Markup.TagBase.TagAttributes
   name: TagAttributes
   href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagAttributes
