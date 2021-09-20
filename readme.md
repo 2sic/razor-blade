@@ -1,6 +1,6 @@
 <img src="docs/assets/razor-blade-logo.png" width="100%">
 
-# Razor Blade 3
+# Razor Blade 3.07
 
 A library of common functions for Razor, to lighten Razor templates and make work easier. 
 
@@ -136,7 +136,7 @@ Please also read the [conventions](conventions.md) so we can work on this togeth
 
 * v03.07 2021-09-19
     1. Various null-checks/bugfixes
-    1. Operatiors to add Tags like `Tag.P() + Tag.Div()`
+    1. Operators to enable adding Tags like `Tag.P() + Tag.Div()`
     1. Adding tag contents with IEnumerable (previously only Arrays worked)
     1. Fix Json serialization for Oqtane (previously internal ToJson only worked in .net 451)
     1. Will probably be bundled with 2sxc 12.05

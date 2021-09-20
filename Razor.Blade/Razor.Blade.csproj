@@ -36,4 +36,8 @@
   <ItemGroup>
     <None Include="Internals\Page\IconSet.cs" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Internals\Documentation\" />
+  </ItemGroup>
 </Project>

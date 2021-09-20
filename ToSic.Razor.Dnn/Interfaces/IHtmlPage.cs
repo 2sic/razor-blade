@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using ToSic.Razor.Internals;
+using ToSic.Razor.Internals.Documentation;
 using ToSic.Razor.Markup;
 // ReSharper disable UnusedMember.Global
 
@@ -13,6 +14,7 @@ namespace ToSic.Razor.Interfaces
     /// Because of this we strongly recommend against using it. We assume this interface is actually not used anywhere, so don't start now :).
     /// Use the Connect.Koi implementation instead. 
     /// </remarks>
+    [PrivateApi]
     public interface IHtmlPage
     {
 
