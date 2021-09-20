@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using ToSic.Razor.Dnn;
 using ToSic.Razor.Internals;
 
@@ -11,14 +12,12 @@ namespace ToSic.Razor.Blade
     /// and add various kinds of headers to the &lt;head&gt; of the current page.
     /// </summary>
     /// <remarks>
-    /// It's important that the commands on this class are the same as in the IHtmlPage,
-    /// to allow the API to be consistent both when using this shortcut-class as well as 
-    /// when using the GetPage() and then doing the same commands on that. 
-    /// This cannot be enforced with interfaces, as the static class cannot be typed
+    /// This is now obsolete. The concept doesn't scale with Blazor (.net core), so we recommend you use the newer ToSic.Sxc.Web.IPageService instead.
     /// </remarks>
+    [Obsolete("This used to be a good idea, but doesn't scale well with blazor. Please use the newer ToSic.Sxc.Web.IPageService instead.")]
     public static class HtmlPage
     {
-        public static ToSic.Razor.Interfaces.IHtmlPage GetPage() => new DnnHtmlPage();
+        public static Interfaces.IHtmlPage GetPage() => new DnnHtmlPage();
 
         /// <summary>
         /// The current page title
@@ -122,7 +121,6 @@ namespace ToSic.Razor.Blade
         /// <param name="type">An optional type. If not provided, will be auto-detected from known types or remain empty</param>
         public static void AddIcon(
             string path,
-            // ReSharper disable once InvalidXmlDocComment
             string doNotRelyOnParameterOrder = EnforceNamedParameters.ProtectionKey,
             string rel = "",
             int size = 0,
@@ -143,7 +141,6 @@ namespace ToSic.Razor.Blade
         /// <param name="sizes"></param>
         public static void AddIconSet(
             string path,
-            // ReSharper disable once InvalidXmlDocComment
             string doNotRelyOnParameterOrder = EnforceNamedParameters.ProtectionKey,
             object favicon = null,
             IEnumerable<string> rels = null,

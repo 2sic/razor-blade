@@ -140,3 +140,4 @@ Please also read the [conventions](conventions.md) so we can work on this togeth
     1. Adding tag contents with IEnumerable (previously only Arrays worked)
     1. Fix Json serialization for Oqtane (previously internal ToJson only worked in .net 451)
     1. Will probably be bundled with 2sxc 12.05
+    1. Removed the `IHtmlPage` interface from the docs as it shouldn't be used any more
