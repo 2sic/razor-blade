@@ -1,6 +1,8 @@
 ﻿using System.Linq;
 using System.Web;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
 
 namespace Razor_Blades_Tests
@@ -41,5 +43,11 @@ namespace Razor_Blades_Tests
             Assert.AreEqual(expected, resultStr, message);
 
         }
+
+        /// <summary>
+        /// Helper to reduce access to Tag.Div, so the use count is more realistic
+        /// </summary>
+        /// <returns></returns>
+        internal Div TestDiv() => Tag.Div();
     }
 }

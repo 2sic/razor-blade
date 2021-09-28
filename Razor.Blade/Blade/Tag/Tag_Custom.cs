@@ -14,5 +14,14 @@
         public static Markup.TagCustom Custom(string name, params object[] content)
             => new Markup.TagCustom(name, content);
 
+        /// <summary>
+        /// Simple tag creator for raw source code which doesn't have another tag around it.
+        ///
+        /// Mainly used in function which want to return content which should then be put into html directly
+        /// </summary>
+        /// <param name="content"></param>
+        /// <returns></returns>
+        public static Markup.TagCustom RawHtml(params object[] content)
+            => new Markup.TagCustom(null, content);
     }
 }
