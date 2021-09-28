@@ -15,7 +15,8 @@
             else
             {
                 Name = name;
-                Value = value;
+                // if (value is ITag htmlValue) value = htmlValue.ToString();
+                Value = value is ITag htmlValue ? htmlValue.ToString() : value;
             }
 
             Options = options;

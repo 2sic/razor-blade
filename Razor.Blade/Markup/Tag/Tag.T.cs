@@ -28,7 +28,6 @@
         /// <param name="appendSeparator">attribute appendSeparator in case the value is appended</param>
         /// <returns></returns>
         public T Attr(string name, object value = null, string appendSeparator = null)
-            
         {
             TagAttributes.Add(name, value, appendSeparator);
             return (T) this;
@@ -45,21 +44,6 @@
             TagAttributes.AddObject(nameWithValue);
             return (T) this;
         }
-
-        ///// <summary>
-        ///// Quickly add a URL attribute which usually needs encoding
-        ///// it always returns the tag itself again, allowing chaining of multiple add-calls
-        ///// </summary>
-        ///// <param name="name">the attribute name, or a complete value like "name='value'"</param>
-        ///// <param name="value">optional value - if the attribute already exists, it will be appended</param>
-        ///// <param name="appendSeparator">attribute appendSeparator in case the value is appended</param>
-        ///// <returns></returns>
-        //internal T AttrUrl(string name, object value = null, string appendSeparator = null)
-            
-        //{
-        //    TagAttributes.AddUrl(name, value, appendSeparator);
-        //    return this as T;
-        //}
 
         /// <summary>
         /// ID - set multiple times always overwrites previous ID

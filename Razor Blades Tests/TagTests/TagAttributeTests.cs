@@ -15,6 +15,18 @@ namespace Razor_Blades_Tests.TagTests
         }
 
         [TestMethod]
+        public void TagAttributeContainingIHtmlData()
+        {
+            Is("<div data='love &amp; harmony'>", Tag.Div().Attr("data", Tag.RawHtml("love & harmony") ).TagStart);
+        }
+
+        [TestMethod]
+        public void TagAttributeContainingPTag()
+        {
+            Is("<div data='&lt;p&gt;content&lt;/p&gt;'>", Tag.Div().Attr("data", Tag.P("content") ).TagStart);
+        }
+
+        [TestMethod]
         public void TagAttributeStandalone()
         {
             Is("<div data-fancybox>", Tag.Custom("div").Attr("data-fancybox").TagStart);
