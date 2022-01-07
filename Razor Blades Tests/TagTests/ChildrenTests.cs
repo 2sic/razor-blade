@@ -31,6 +31,14 @@ namespace Razor_Blades_Tests.TagTests
         }
 
         [TestMethod]
+        public void TagSubchildren()
+        {
+            var tag = new Div();
+            tag.Add(new Span(new B(), new I()));
+            Assert.AreEqual("<div><span><b></b><i></i></span></div>", tag.ToString());
+        }
+
+        [TestMethod]
         public void MixedChildren()
         {
             var tag = new Div();
