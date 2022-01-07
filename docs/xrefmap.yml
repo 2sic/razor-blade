@@ -1409,6 +1409,22 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.Tag.Q
   nameWithType: Tag.Q
+- uid: ToSic.Razor.Blade.Tag.RawHtml(System.Object[])
+  name: RawHtml(Object[])
+  href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_RawHtml_System_Object___
+  commentId: M:ToSic.Razor.Blade.Tag.RawHtml(System.Object[])
+  name.vb: RawHtml(Object())
+  fullName: ToSic.Razor.Blade.Tag.RawHtml(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.Tag.RawHtml(System.Object())
+  nameWithType: Tag.RawHtml(Object[])
+  nameWithType.vb: Tag.RawHtml(Object())
+- uid: ToSic.Razor.Blade.Tag.RawHtml*
+  name: RawHtml
+  href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_RawHtml_
+  commentId: Overload:ToSic.Razor.Blade.Tag.RawHtml
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Tag.RawHtml
+  nameWithType: Tag.RawHtml
 - uid: ToSic.Razor.Blade.Tag.Rp(System.Object[])
   name: Rp(Object[])
   href: api/ToSic.Razor.Blade.Tag.html#ToSic_Razor_Blade_Tag_Rp_System_Object___
