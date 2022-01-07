@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 ToSic.Razor.Dnn/Assemblies/*
 ToSic.Razor.Dnn/install/*
+DocFx Generator/log.txt

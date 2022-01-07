@@ -487,6 +487,9 @@
                             <a href="ToSic.Razor.Markup.TagCustom.html" title="TagCustom" class="">TagCustom</a>
                           </li>
                           <li class="">
+                            <a href="ToSic.Razor.Markup.TagList.html" title="TagList" class="">TagList</a>
+                          </li>
+                          <li class="">
                             <a href="ToSic.Razor.Markup.TagOptions.html" title="TagOptions" class="">TagOptions</a>
                           </li>
                         </ul>  </li>
@@ -515,6 +518,8 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
     <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
   </div>
   <div class="inheritedMembers">
@@ -571,6 +576,12 @@
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagContents">TagBase.TagContents</a>
     </div>
     <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_System_Collections_Generic_IEnumerable_ToSic_Razor_Markup_ITag__GetEnumerator">TagBase.IEnumerable&lt;ITag&gt;.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_GetEnumerator">TagBase.GetEnumerator()</a>
+    </div>
+    <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_">TagBase.WriteTo(TextWriter, HtmlEncoder)</a>
     </div>
     <div>
@@ -584,11 +595,17 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Html5_Comment_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Comment : Tag&lt;Comment&gt;, ITag, IHtmlContent</code></pre>
+    <pre><code class="lang-csharp hljs">public class Comment : Tag&lt;Comment&gt;, ITag, IEnumerable&lt;ITag&gt;, IEnumerable, IHtmlContent</code></pre>
   </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
   </div>
   <div>
       <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>

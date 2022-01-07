@@ -487,6 +487,9 @@
                             <a href="ToSic.Razor.Markup.TagCustom.html" title="TagCustom" class="">TagCustom</a>
                           </li>
                           <li class="">
+                            <a href="ToSic.Razor.Markup.TagList.html" title="TagList" class="">TagList</a>
+                          </li>
+                          <li class="">
                             <a href="ToSic.Razor.Markup.TagOptions.html" title="TagOptions" class="">TagOptions</a>
                           </li>
                         </ul>  </li>
@@ -624,6 +627,8 @@ This allows you to do things like <pre><code>Div().Id(&quot;myId&quot;).Class(&q
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
     <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
   </div>
   <div class="inheritedMembers">
@@ -644,6 +649,12 @@ This allows you to do things like <pre><code>Div().Id(&quot;myId&quot;).Class(&q
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagContents">TagBase.TagContents</a>
     </div>
     <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_System_Collections_Generic_IEnumerable_ToSic_Razor_Markup_ITag__GetEnumerator">TagBase.IEnumerable&lt;ITag&gt;.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_GetEnumerator">TagBase.GetEnumerator()</a>
+    </div>
+    <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_">TagBase.WriteTo(TextWriter, HtmlEncoder)</a>
     </div>
     <div>
@@ -657,7 +668,7 @@ This allows you to do things like <pre><code>Div().Id(&quot;myId&quot;).Class(&q
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Markup_Tag_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Tag&lt;T&gt; : TagBase, ITag, IHtmlContent where T : Tag&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class Tag&lt;T&gt; : TagBase, ITag, IEnumerable&lt;ITag&gt;, IEnumerable, IHtmlContent where T : Tag&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,6 +681,129 @@ This allows you to do things like <pre><code>Div().Id(&quot;myId&quot;).Class(&q
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Markup_Tag_1__ctor_System_String_System_Object_ToSic_Razor_Markup_TagOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Tag%601.%23ctor(System.String%2CSystem.Object%2CToSic.Razor.Markup.TagOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Markup/Tag/Tag.T.cs/#L14">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Markup_Tag_1__ctor_" data-uid="ToSic.Razor.Markup.Tag`1.#ctor*"></a>
+  <h4 id="ToSic_Razor_Markup_Tag_1__ctor_System_String_System_Object_ToSic_Razor_Markup_TagOptions_" data-uid="ToSic.Razor.Markup.Tag`1.#ctor(System.String,System.Object,ToSic.Razor.Markup.TagOptions)">Tag(String, Object, TagOptions)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Tag(string name, object content, TagOptions options = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">content</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.TagOptions.html">TagOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Markup_Tag_1__ctor_System_String_ToSic_Razor_Markup_TagOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Tag%601.%23ctor(System.String%2CToSic.Razor.Markup.TagOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Markup/Tag/Tag.T.cs/#L11">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Markup_Tag_1__ctor_" data-uid="ToSic.Razor.Markup.Tag`1.#ctor*"></a>
+  <h4 id="ToSic_Razor_Markup_Tag_1__ctor_System_String_ToSic_Razor_Markup_TagOptions_" data-uid="ToSic.Razor.Markup.Tag`1.#ctor(System.String,ToSic.Razor.Markup.TagOptions)">Tag(String, TagOptions)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Tag(string name = null, TagOptions options = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.TagOptions.html">TagOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Markup_Tag_1__ctor_System_String_ToSic_Razor_Markup_TagOptions_System_Object___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Tag%601.%23ctor(System.String%2CToSic.Razor.Markup.TagOptions%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Markup/Tag/Tag.T.cs/#L17">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Markup_Tag_1__ctor_" data-uid="ToSic.Razor.Markup.Tag`1.#ctor*"></a>
+  <h4 id="ToSic_Razor_Markup_Tag_1__ctor_System_String_ToSic_Razor_Markup_TagOptions_System_Object___" data-uid="ToSic.Razor.Markup.Tag`1.#ctor(System.String,ToSic.Razor.Markup.TagOptions,System.Object[])">Tag(String, TagOptions, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Tag(string name, TagOptions options, object[] content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.TagOptions.html">TagOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">content</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1292,6 +1426,12 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
   </div>
   <div>
       <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
