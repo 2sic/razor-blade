@@ -1,6 +1,6 @@
 <img src="docs/assets/razor-blade-logo.png" width="100%">
 
-# Razor Blade 3.07
+# Razor Blade 3.08
 
 A library of common functions for Razor, to lighten Razor templates and make work easier. 
 

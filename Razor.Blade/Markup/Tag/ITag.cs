@@ -1,18 +1,16 @@
 ﻿#if NET45
-using IHtmlString = System.Web.IHtmlString;
 using HtmlString = System.Web.HtmlString;
 #else
-using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
 using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
 #endif
-using ToSic.Razor.Markup;
+using System.Collections.Generic;
 
 namespace ToSic.Razor.Markup
 {
     /// <summary>
     /// Standardizes what Tag-objects can do - valid for all Html and Svg tags.
     /// </summary>
-    public interface ITag
+    public interface ITag: IEnumerable<ITag>
     {
         /// <summary>
         /// All attributes of this tag
@@ -33,6 +31,7 @@ namespace ToSic.Razor.Markup
 
         HtmlString TagStart {get; }
         HtmlString TagEnd { get; }
+
         #endregion
     }
 }

@@ -8,13 +8,13 @@
     {
         #region Constructors
 
-        internal Tag(string name = null, TagOptions options = null)
+        protected Tag(string name = null, TagOptions options = null)
             : base(name, options) { }
 
-        internal Tag(string name, object content, TagOptions options = null)
+        protected Tag(string name, object content, TagOptions options = null)
             : base(name, content, options) { }
 
-        internal Tag(string name, TagOptions options, object[] content) 
+        protected Tag(string name, TagOptions options, object[] content) 
             : base(name, options, content) { }
 
         #endregion
