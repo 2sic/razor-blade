@@ -1,21 +1,23 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Blade;
 
-namespace ToSic.RazorBladeTests.TextTests
+namespace ToSic.RazorBladeTests.TagStripperTests
 {
   [TestClass]
-  public class StripHtmlAll
+  public class StripAll
   {
+    private string StripTags(string original) => new TagStripper().All(original);
+
     [TestMethod]
     public void Basic()
     {
-      Assert.AreEqual("Hello there", Text.StripTags("<h1>Hello</h1><strong> there</strong>"));
+      Assert.AreEqual("Hello there", StripTags("<h1>Hello</h1><strong> there</strong>"));
     }
 
     [TestMethod]
     public void MultiLine()
     {
-      Assert.AreEqual("Hello there", Text.StripTags(@"<h1>
+      Assert.AreEqual("Hello there", StripTags(@"<h1>
 Hello
 </h1>
 <strong>
@@ -26,7 +28,7 @@ there
     [TestMethod]
     public void MultiLineTag()
     {
-      Assert.AreEqual("Hello there", Text.StripTags(@"<h1>
+      Assert.AreEqual("Hello there", StripTags(@"<h1>
 Hello
 </h1>
 <strong
@@ -38,7 +40,7 @@ there
     [TestMethod]
     public void NullCheck()
     {
-      Assert.AreEqual(null, Text.StripTags(null));
+      Assert.AreEqual(null, StripTags(null));
     }
 
     [TestMethod]
@@ -46,7 +48,7 @@ there
     {
         var html = "<div>some text with valid html</div>";
         var clean = "some text with valid html";
-        var strip = Text.StripTags(html);
+        var strip = StripTags(html);
 
         Assert.AreEqual(clean, strip, "should be the same");
     }
