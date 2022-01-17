@@ -6,15 +6,6 @@ namespace Razor_Blades_Tests.TagBuilderTests
     [TestClass]
     public class Test_Blades_Html
     {
-        [TestMethod]
-        public void Test_StripHtml()
-        {
-            var html = "<div>some text with valid html</div>";
-            var clean = "some text with valid html";
-            var strip = Tags.Strip(html);
-
-            Assert.AreEqual(clean, strip, "should be the same");
-        }
 
         [TestMethod]
         public void Br2Nl()
