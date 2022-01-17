@@ -59,8 +59,7 @@ namespace ToSic.Razor.Blade
     {
       foreach (var tag in tags)
       {
-        // todo: Daia - why not call the original strip (duplicate code)
-        original = Regex.Replace(original, @"<\/?" + Regex.Escape(tag) + @"\s*([a-zA-Z]*\s*=""?[^>]*""?)*\s*\/?>", "", RegexOptions.IgnoreCase);
+        original = Text.StripTags(original, tag);
       }
       return original;
     }
