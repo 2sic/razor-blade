@@ -77,8 +77,8 @@
     <Compile Include="TagBuilderTests\TagBuilderOpenTests.cs" />
     <Compile Include="TagBuilderTests\AttributeBuilderTests.cs" />
     <Compile Include="TagBuilderTests\AttributesBuilderTest.cs" />
-    <Compile Include="TextTests\StripHtmlOne.cs" />
-    <Compile Include="TextTests\StripHtmlMany.cs" />
+    <Compile Include="TagStripperTests\StripOnlyMany.cs" />
+    <Compile Include="TagStripperTests\StripOnlyOne.cs" />
     <Compile Include="TagsTests\StripTests.cs" />
     <Compile Include="TagTests\TagTestBase.cs" />
     <Compile Include="TagTests\TagObjectBasics.cs" />
@@ -89,7 +89,7 @@
     <Compile Include="TagTests\TagOperatorsTests.cs" />
     <Compile Include="TagTests\TagCustomTests.cs" />
     <Compile Include="TagTests\RawHtmlTests.cs" />
-    <Compile Include="TextTests\StripHtmlAll.cs" />
+    <Compile Include="TagStripperTests\StripAll.cs" />
     <Compile Include="TextTests\Text_Crop.cs" />
     <Compile Include="TextTests\Test_Blades_Zip.cs" />
     <Compile Include="TagBuilderTests\Test_Blades_Html.cs" />

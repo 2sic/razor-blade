@@ -2,7 +2,7 @@
 
 namespace ToSic.Razor.Blade
 {
-  public static partial class Text
+  public partial class TagStripper
   {
     /// <summary>
     /// Remove all HTML tags from a string.
@@ -12,7 +12,7 @@ namespace ToSic.Razor.Blade
     /// <remarks>
     /// Added in v2
     /// </remarks>
-    public static string StripTags(string original)
+    public string All(string original)
     {
       // Extra null check
       if (original is null) return null;
@@ -39,7 +39,7 @@ namespace ToSic.Razor.Blade
     /// <remarks>
     /// Added in v3.9
     /// </remarks>
-    public static string StripTags(string original, string tag)
+    public string Only(string original, string tag)
     {
       //Remove the selected tags
       var sanitizedText = Regex.Replace(original, @"<\/?" + Regex.Escape(tag) + @"\s*([a-zA-Z]*\s*=""?[^>]*""?\s*)*\s*\/?>", "", RegexOptions.IgnoreCase);
@@ -55,7 +55,7 @@ namespace ToSic.Razor.Blade
     /// <remarks>
     /// Added in v3.9
     /// </remarks>
-    public static string StripTags(string original, params string[] tags)
+    public string Only(string original, params string[] tags)
     {
       foreach (var tag in tags)
       {
