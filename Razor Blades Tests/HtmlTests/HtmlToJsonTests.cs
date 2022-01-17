@@ -17,7 +17,7 @@ namespace Razor_Blades_Tests.HtmlTests
         public HtmlToJsonTests BadPropertyToPreventSerialization;
 
         [TestMethod]
-        [ExpectedException(typeof(System.InvalidOperationException))]
+        [ExpectedException(typeof(Newtonsoft.Json.JsonSerializationException))]
         public void InvalidObject()
         {
             BadPropertyToPreventSerialization = this;

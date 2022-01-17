@@ -80,7 +80,7 @@
     <Compile Include="TextTests\StripHtmlOne.cs" />
     <Compile Include="TextTests\StripHtmlMany.cs" />
     <Compile Include="TagsTests\StripTests.cs" />
-    <Compile Include="TagTests.cs" />
+    <Compile Include="TagTests\TagTestBase.cs" />
     <Compile Include="TagTests\TagObjectBasics.cs" />
     <Compile Include="TagTests\ManualTagsTests.cs" />
     <Compile Include="TagTests\ChildrenTests.cs" />
@@ -99,6 +99,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test_Blades_Dynamic.cs" />
     <Compile Include="TagsTests\Nl2BrTests.cs" />
+    <Compile Include="Initialize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
