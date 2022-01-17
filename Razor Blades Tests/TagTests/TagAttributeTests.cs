@@ -1,8 +1,9 @@
-﻿using ToSic.Razor.Blade;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Blade;
+
 // ReSharper disable StringLiteralTypo
 
-namespace Razor_Blades_Tests.TagTests
+namespace ToSic.RazorBladeTests.TagTests
 {
     [TestClass]
     public class TagAttributeTests: TagTestBase

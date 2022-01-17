@@ -1,8 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Markup;
 
-
-namespace Razor_Blades_Tests.TagBuilderTests
+namespace ToSic.RazorBladeTests.TagBuilderTests
 {
     [TestClass]
     public class TagOpenClose

@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Razor_Blades_Tests.TextTests
+namespace ToSic.RazorBladeTests.TextTests
 {
     [TestClass]
     public class Test_Blades_Zip

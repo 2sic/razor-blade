@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Internals.Mime;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.RazorBladeTests.TagTests;
 
-namespace Razor_Blades_Tests.HtmlTagsTests.IconTests
+namespace ToSic.RazorBladeTests.HtmlTagsTests.IconTests
 {
     [TestClass]
     public class IconSets: TagTestBase

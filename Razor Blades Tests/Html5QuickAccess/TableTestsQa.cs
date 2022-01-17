@@ -1,8 +1,8 @@
-﻿using ToSic.Razor.Blade;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.RazorBladeTests.TagTests;
 using Tag = ToSic.Razor.Blade.Tag;
 
-namespace Razor_Blades_Tests.Html5QuickAccess
+namespace ToSic.RazorBladeTests.Html5QuickAccess
 {
     [TestClass]
     public class TableTestsQa: TagTestBase

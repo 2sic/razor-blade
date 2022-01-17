@@ -1,11 +1,10 @@
-﻿using ToSic.Razor.Blade;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Html5;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Markup;
 
 // ReSharper disable MustUseReturnValue
 
-namespace Razor_Blades_Tests.TagTests
+namespace ToSic.RazorBladeTests.TagTests
 {
     [TestClass]
     public class ChildrenTests

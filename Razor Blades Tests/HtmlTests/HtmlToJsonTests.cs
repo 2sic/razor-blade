@@ -1,7 +1,7 @@
-﻿using ToSic.Razor.Internals;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Internals;
 
-namespace Razor_Blades_Tests.HtmlTests
+namespace ToSic.RazorBladeTests.HtmlTests
 {
     [TestClass]
     public class HtmlToJsonTests

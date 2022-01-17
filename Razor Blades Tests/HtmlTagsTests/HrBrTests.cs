@@ -1,7 +1,8 @@
-﻿using ToSic.Razor.Html5;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Html5;
+using ToSic.RazorBladeTests.TagTests;
 
-namespace Razor_Blades_Tests.HtmlTagsTests
+namespace ToSic.RazorBladeTests.HtmlTagsTests
 {
     [TestClass]
     public class HrBrTests: TagTestBase

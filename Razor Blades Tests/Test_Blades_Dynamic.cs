@@ -1,8 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Blade;
 
-namespace Razor_Blades_Tests
+namespace ToSic.RazorBladeTests
 {
     [TestClass]
     public class Test_Blades_Dynamic

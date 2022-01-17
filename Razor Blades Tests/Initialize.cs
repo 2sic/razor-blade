@@ -1,9 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using Newtonsoft.Json;
 using ToSic.Razor.Internals;
 
-namespace Razor_Blades_Tests
+namespace ToSic.RazorBladeTests
 {
     [TestClass]
     public class Initialize

@@ -1,8 +1,9 @@
-﻿using ToSic.Razor.Html5;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Internals.Mime;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.RazorBladeTests.TagTests;
 
-namespace Razor_Blades_Tests.HtmlTagsTests.IconTests
+namespace ToSic.RazorBladeTests.HtmlTagsTests.IconTests
 {
     [TestClass]
     public class Icons: TagTestBase

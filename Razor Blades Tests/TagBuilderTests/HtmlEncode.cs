@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using ToSic.Razor.Internals;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Internals;
 
-namespace Razor_Blades_Tests.TagBuilderTests
+namespace ToSic.RazorBladeTests.TagBuilderTests
 {
     [TestClass]
     public class HtmlEncode

@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Blade;
 
-namespace Razor_Blades_Tests.TagsTests
+namespace ToSic.RazorBladeTests.TagsTests
 {
     [TestClass]
     public class Nl2BrTests

@@ -1,7 +1,7 @@
-﻿using ToSic.Razor.Blade;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Blade;
 
-namespace Razor_Blades_Tests.TagBuilderTests
+namespace ToSic.RazorBladeTests.TagBuilderTests
 {
     [TestClass]
     public class Test_Blades_Html

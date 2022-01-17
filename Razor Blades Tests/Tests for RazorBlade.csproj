@@ -7,7 +7,7 @@
     <ProjectGuid>{B163AA4D-8149-4A08-B79E-82B64ED940EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Razor_Blades_Tests</RootNamespace>
+    <RootNamespace>ToSic.RazorBladeTests</RootNamespace>
     <AssemblyName>Razor Blades Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

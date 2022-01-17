@@ -3,7 +3,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Internals;
 
-namespace Razor_Blades_Tests.TextTests
+namespace ToSic.RazorBladeTests.TextTests
 {
     [TestClass]
     public class Text_Crop

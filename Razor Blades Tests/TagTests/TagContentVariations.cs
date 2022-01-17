@@ -1,10 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Markup;
 
-namespace Razor_Blades_Tests.TagTests
+namespace ToSic.RazorBladeTests.TagTests
 {
     [TestClass]
     public class TagContentVariations

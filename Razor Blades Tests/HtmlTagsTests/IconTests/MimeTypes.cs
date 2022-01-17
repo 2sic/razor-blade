@@ -1,7 +1,7 @@
-﻿using ToSic.Razor.Internals.Mime;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToSic.Razor.Internals.Mime;
 
-namespace Razor_Blades_Tests.HtmlTagsTests.IconTests
+namespace ToSic.RazorBladeTests.HtmlTagsTests.IconTests
 {
     [TestClass]
     public class MimeTypes

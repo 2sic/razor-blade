@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Markup;
 
-namespace Razor_Blades_Tests.InternalTests
+namespace ToSic.RazorBladeTests.InternalTests
 {
     [TestClass]
     public class UriEncoding

@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Markup;
 
-namespace Razor_Blades_Tests.TagTests
+namespace ToSic.RazorBladeTests.TagTests
 {
     [TestClass]
     public class TagObjectBasics: TagTestBase

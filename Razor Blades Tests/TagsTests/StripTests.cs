@@ -1,8 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using ToSic.Razor.Blade;
 
-namespace Razor_Blades_Tests.TagsTests
+namespace ToSic.RazorBladeTests.TagsTests
 {
   [TestClass]
   public class StripTests

@@ -5,7 +5,7 @@ using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
 
-namespace Razor_Blades_Tests
+namespace ToSic.RazorBladeTests.TagTests
 {
     public class TagTestBase
 
