@@ -1,4 +1,4 @@
-﻿#if NET45
+﻿#if NET451
 using IHtmlString = System.Web.IHtmlString;
 using HtmlString = System.Web.HtmlString;
 #else
@@ -15,7 +15,7 @@ namespace ToSic.Razor.Markup
     public partial class TagBase: IHtmlString
     {
 
-#if NET45
+#if NET451
         /// <summary>
         /// This is the serialization for the old-style asp.net razor
         /// </summary>

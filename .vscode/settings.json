@@ -1,0 +1,8 @@
+{
+  "gitflow4code.features": [
+    {
+      "name": "feature/strip-arrayInput-feature",
+      "base": "develop"
+    }
+  ]
+}

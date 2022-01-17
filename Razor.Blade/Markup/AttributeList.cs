@@ -1,4 +1,4 @@
-﻿#if NET45
+﻿#if NET451
 using IHtmlString = System.Web.IHtmlString;
 #else
 using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
@@ -18,10 +18,10 @@ namespace ToSic.Razor.Markup
         public AttributeList(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null)
             :base(attributes, options) { }
 
-        
+
         #region ToString and ToHtml for all interfaces
 
-#if NET45
+#if NET451
         /// <summary>
         /// This is the serialization for the old-style asp.net razor
         /// </summary>

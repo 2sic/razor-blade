@@ -1,4 +1,4 @@
-﻿#if NET45
+﻿#if NET451
 using HtmlString = System.Web.HtmlString;
 #else
 using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
