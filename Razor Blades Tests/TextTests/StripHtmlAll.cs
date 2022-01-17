@@ -13,6 +13,29 @@ namespace ToSic.RazorBladeTests.TextTests
     }
 
     [TestMethod]
+    public void MultiLine()
+    {
+      Assert.AreEqual("Hello there", Text.StripTags(@"<h1>
+Hello
+</h1>
+<strong>
+there
+</strong>"));
+    }
+
+    [TestMethod]
+    public void MultiLineTag()
+    {
+      Assert.AreEqual("Hello there", Text.StripTags(@"<h1>
+Hello
+</h1>
+<strong
+  class='something'
+  onclick='someJs'>
+there
+</strong>"));
+    }
+    [TestMethod]
     public void NullCheck()
     {
       Assert.AreEqual(null, Text.StripTags(null));
