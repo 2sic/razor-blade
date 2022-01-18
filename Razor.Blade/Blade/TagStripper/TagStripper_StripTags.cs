@@ -148,6 +148,25 @@ namespace ToSic.Razor.Blade
       }
       return original;
     }
+    public string Classes(string original)
+    {
+      //Remove class attributes defined with double-quotes
+      original = Regex.Replace(original, "(?<=<\\w+\\s+[^>]*)(class)\\s*=\\s*(\")[^\"]*(\")(?=[^>]*\\/?>)", "", RegexOptions.IgnoreCase);
+
+      //Remove class attributes defined with single-quotes
+      original = Regex.Replace(original, "(?<=<\\w+\\s+[^>]*)(class)\\s*=\\s*(')[^']*(')(?=[^>]*\\/?>)", "", RegexOptions.IgnoreCase);
+      
+      //Remove class attributes defined without quotes
+      original = Regex.Replace(original, "(?<=<\\w+\\s+[^>]*)(class)\\s*=\\s*[^ \"'=><`]+(?=[^>]*\\/?>)", "", RegexOptions.IgnoreCase);
+
+      //Clean up spaces between tag-name and first attribute
+      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
+
+      //Clean up space between tag-name and tag-ending (> or />)
+      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\/?>)", "");
+
+      return original;
+    }
   }
 
   //Tag sets to be used in combination with TagStripper.Exclude()
