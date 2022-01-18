@@ -40,6 +40,12 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     {
       Assert.AreEqual("<div style=\"background-color:blue'>", StripAttributes("<div style=\"background-color:blue'>"));
     }
+
+    [TestMethod]
+    public void NewLine()
+    {
+      Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">"));
+    }
   }
 
   //Tests for TagStripper().Attributes(string original, string attribute)
@@ -57,15 +63,43 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     [TestMethod]
     public void Normal2()
     {
-      string[] testAttributes = { "class" };
       Assert.AreEqual("<div >", StripAttributes("<div class='example'>", "class"));
     }
 
     [TestMethod]
     public void Normal3()
     {
-      string[] testAttributes = { "class" };
       Assert.AreEqual("<div >", StripAttributes("<div class=\"example\">", "class"));
+    }
+
+    [TestMethod]
+    public void DoubleSingleNoQuotes()
+    {
+      Assert.AreEqual("<div src='https://www...' width=100>", StripAttributes("<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "style"));
+    }
+
+    [TestMethod]
+    public void DoubleSingleNoQuotes2()
+    {
+      Assert.AreEqual("<div style=\"background-color:blue; color: yellow;\" width=100>", StripAttributes("<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "src"));
+    }
+
+    [TestMethod]
+    public void DoubleSingleNoQuotes3()
+    {
+      Assert.AreEqual("<div style=\"background-color:blue; color: yellow;\" src='https://www...' >", StripAttributes("<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "width"));
+    }
+
+    [TestMethod]
+    public void InvalidAttributes()
+    {
+      Assert.AreEqual("<div style=\"background-color:blue'>", StripAttributes("<div style=\"background-color:blue'>", "style"));
+    }
+
+    [TestMethod]
+    public void NewLine()
+    {
+      Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">", "style"));
     }
   }
 
@@ -83,10 +117,24 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     }
 
     [TestMethod]
-    public void ManyAttributes()
+    public void MultipleAttributes()
     {
       string[] testAttributes = { "class", "href" };
-      Assert.AreEqual("", StripAttributes("<div >", testAttributes));
+      Assert.AreEqual("<div style='color:blue'>", StripAttributes("<div class=\"hello-world\" href=https:\\... style='color:blue'>", testAttributes));
+    }
+
+    [TestMethod]
+    public void InvalidAttributes()
+    {
+      string[] testAttributes = { "style" };
+      Assert.AreEqual("<div style=\"background-color:blue'>", StripAttributes("<div style=\"background-color:blue'>", testAttributes));
+    }
+
+    [TestMethod]
+    public void NewLine()
+    {
+      string[] testAttributes = { "style" };
+      Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">", testAttributes));
     }
   }
 }

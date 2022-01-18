@@ -102,8 +102,10 @@ namespace ToSic.Razor.Blade
     {
       //Remove all attributes with no quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
       //Remove all attributes with single quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
       //Remove all attributes with double quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
@@ -119,10 +121,18 @@ namespace ToSic.Razor.Blade
     {
       //Remove certain attributes with no quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
       //Remove certain attributes with single quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
       //Remove certain attributes with double quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
+      //Clean up spaces between tag-name and first attribute
+      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
+
+      //Clean up space between tag-name and tag-ending (> or />)
+      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\/?>)", "");
 
       return original;
     }
