@@ -3,6 +3,10 @@
     {
       "name": "feature/strip-arrayInput-feature",
       "base": "develop"
+    },
+    {
+      "name": "feature/Except(original,_tag,_tag2)",
+      "base": "develop"
     }
   ]
 }

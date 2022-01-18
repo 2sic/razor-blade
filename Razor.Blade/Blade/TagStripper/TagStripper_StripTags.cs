@@ -55,13 +55,32 @@ namespace ToSic.Razor.Blade
     /// <remarks>
     /// Added in v3.9
     /// </remarks>
-    public string Only(string original, params string[] tags)
+    public string Only(string text, params string[] tags)
     {
+      string StripTags(string original, string tag) => new TagStripper().Only(original, tag);
+
       foreach (var tag in tags)
       {
-        original = Text.StripTags(original, tag);
+        text = StripTags(text, tag);
       }
-      return original;
+      return text;
+    }
+
+    public string Except(string original, params string[] tags)
+    {
+      string finalPattern = "<\\/?[a-zA-Z]*\\s*([a-zA-Z]*=\"?[^>]*\"?\\s*)*\\s*\\/?>";
+      int place = 4;
+      foreach (var tag in tags)
+      {
+        string conditionPattern = "(?!( |>|\\/|\n))";
+        string insert = conditionPattern.Insert(3, tag);
+        int tagLength = tag.Length;
+        int insertLength = insert.Length;
+        finalPattern = finalPattern.Insert(place, insert);
+        place = place + tagLength + 14;
+      }
+      var sanitizedText = Regex.Replace(original, finalPattern, "", RegexOptions.IgnoreCase);
+      return sanitizedText;
     }
   }
 }
