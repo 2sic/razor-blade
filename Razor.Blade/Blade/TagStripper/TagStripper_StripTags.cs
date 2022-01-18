@@ -42,7 +42,7 @@ namespace ToSic.Razor.Blade
     public string Only(string original, string tag)
     {
       //Remove the selected tags
-      var sanitizedText = Regex.Replace(original, @"<\/?" + Regex.Escape(tag) + @"\s*([a-zA-Z]*\s*=""?[^>]*""?\s*)*\s*\/?>", "", RegexOptions.IgnoreCase);
+      var sanitizedText = Regex.Replace(original, @"<\/?" + Regex.Escape(tag) + @"\s*([a-zA-Z\\s]*\s*=(""|')?[^>]*(""|')?\s*)*\s*\/?>", "", RegexOptions.IgnoreCase);
       return sanitizedText;
     }
 
@@ -55,14 +55,39 @@ namespace ToSic.Razor.Blade
     /// <remarks>
     /// Added in v3.9
     /// </remarks>
-    public string Only(string original, params string[] tags)
+    public string Only(string text, params string[] tags)
     {
+      string StripTags(string original, string tag) => new TagStripper().Only(original, tag);
+
       foreach (var tag in tags)
       {
-        original = Text.StripTags(original, tag);
+        text = StripTags(text, tag);
       }
-      return original;
+      return text;
     }
+
+    public string Except(string original, params string[] tags)
+    {
+      string finalPattern = "<\\/?[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>";
+      int place = 4;
+      foreach (var tag in tags)
+      {
+        string conditionPattern = "(?!( |>|\\/|\n))";
+        string insert = conditionPattern.Insert(3, tag);
+        int tagLength = tag.Length;
+        int insertLength = insert.Length;
+        finalPattern = finalPattern.Insert(place, insert);
+        place = place + tagLength + 14;
+      }
+      var sanitizedText = Regex.Replace(original, finalPattern, "", RegexOptions.IgnoreCase);
+      return sanitizedText;
+    }
+  }
+  public partial class TagSets
+  {
+    public static readonly string[] Formatting = { "!DOCTYPE","html","head","title","body","h1","h2","h3","h4","h5","h6","p","br","hr","acronym", "abbr", "address", "b", "bdi", "bdo", "big", "blockquote", "center", "cite", "code", "del", "dfn", "em", "font", "i", "ins", "kbd", "mark", "meter", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "small", "strike", "strong", "sub", "sup", "template", "time", "time", "tt", "u", "var", "wbr" };
+    public static readonly string[] FormattingSimple = { "h1", "h2", "h3", "h4", "h5", "h6","b", "big","center","em","i","mark","q","small","strong" };
+    public static readonly string[] InlineBasic = {"a", "b","big","br","em","i","img","q", "small","span","strong"};
   }
 }
 
