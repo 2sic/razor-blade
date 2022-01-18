@@ -77,7 +77,7 @@
     <Compile Include="TagBuilderTests\TagBuilderOpenTests.cs" />
     <Compile Include="TagBuilderTests\AttributeBuilderTests.cs" />
     <Compile Include="TagBuilderTests\AttributesBuilderTest.cs" />
-    <Compile Include="TagStripperTests\StripAttributes%28original%29.cs" />
+    <Compile Include="TagStripperTests\StripAttributes.cs" />
     <Compile Include="TagStripperTests\StripExcept.cs" />
     <Compile Include="TagStripperTests\StripOnlyMany.cs" />
     <Compile Include="TagStripperTests\StripOnlyOne.cs" />
