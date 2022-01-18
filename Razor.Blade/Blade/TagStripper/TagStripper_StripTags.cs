@@ -42,7 +42,7 @@ namespace ToSic.Razor.Blade
     public string Only(string original, string tag)
     {
       //Remove the selected tags
-      var sanitizedText = Regex.Replace(original, @"<\/?" + Regex.Escape(tag) + @"\s*([a-zA-Z]*\s*=(""|')?[^>]*(""|')?\s*)*\s*\/?>", "", RegexOptions.IgnoreCase);
+      var sanitizedText = Regex.Replace(original, @"<\/?" + Regex.Escape(tag) + @"\s*([a-zA-Z\\s]*\s*=(""|')?[^>]*(""|')?\s*)*\s*\/?>", "", RegexOptions.IgnoreCase);
       return sanitizedText;
     }
 
@@ -68,7 +68,7 @@ namespace ToSic.Razor.Blade
 
     public string Except(string original, params string[] tags)
     {
-      string finalPattern = "<\\/?[a-zA-Z]*\\s*([a-zA-Z]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>";
+      string finalPattern = "<\\/?[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>";
       int place = 4;
       foreach (var tag in tags)
       {
