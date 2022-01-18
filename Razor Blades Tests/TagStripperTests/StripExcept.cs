@@ -4,7 +4,7 @@ using ToSic.Razor.Blade;
 namespace ToSic.RazorBladeTests.TagStripperTests
 {
   [TestClass]
-  public class Except
+  public class StripExceptMany
   {
     private string StripExcept(string original, params string[] tags) => new TagStripper().Except(original, tags);
     
