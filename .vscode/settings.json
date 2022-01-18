@@ -5,7 +5,7 @@
       "base": "develop"
     },
     {
-      "name": "feature/Except(original,_tag,_tag2)",
+      "name": "feature/TagStripperAttributes()",
       "base": "develop"
     }
   ]
