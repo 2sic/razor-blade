@@ -46,6 +46,20 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     {
       Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">"));
     }
+
+    [TestMethod]
+    public void OnlyAttribute()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      Assert.AreEqual("<div >", StripAttributes("<div class>"));
+    }
+
+    [TestMethod]
+    public void EmptyStringClass()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      Assert.AreEqual("<div >", StripAttributes("<div class=\" \">"));
+    }
   }
 
   //Tests for TagStripper().Attributes(string original, string attribute)

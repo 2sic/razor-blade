@@ -109,6 +109,9 @@ namespace ToSic.Razor.Blade
       //Remove all attributes with double quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
+      //Remove instances attributes where the attribute is declared without assigning an value to it
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b\w*\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
       //Clean up spaces between tag-name and first attribute
       original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
       //Clean up space between tag-name and tag-ending (> or />)
@@ -127,6 +130,9 @@ namespace ToSic.Razor.Blade
 
       //Remove certain attributes with double quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
+      //Remove instances of a certain attribute where the attribute is declared without assigning an value to it
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\\w-]*|=))\b" + Regex.Escape(attribute) + @"\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
       //Clean up spaces between tag-name and first attribute
       original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
@@ -150,20 +156,9 @@ namespace ToSic.Razor.Blade
     }
     public string Classes(string original)
     {
-      //Remove class attributes defined with double-quotes
-      original = Regex.Replace(original, "(?<=<\\w+\\s+[^>]*)(class)\\s*=\\s*(\")[^\"]*(\")(?=[^>]*\\/?>)", "", RegexOptions.IgnoreCase);
+      string StripClasses(string originalText, string attribute) => new TagStripper().Attributes(original, attribute);
 
-      //Remove class attributes defined with single-quotes
-      original = Regex.Replace(original, "(?<=<\\w+\\s+[^>]*)(class)\\s*=\\s*(')[^']*(')(?=[^>]*\\/?>)", "", RegexOptions.IgnoreCase);
-      
-      //Remove class attributes defined without quotes
-      original = Regex.Replace(original, "(?<=<\\w+\\s+[^>]*)(class)\\s*=\\s*[^ \"'=><`]+(?=[^>]*\\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Clean up spaces between tag-name and first attribute
-      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
-
-      //Clean up space between tag-name and tag-ending (> or />)
-      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\/?>)", "");
+      original = StripClasses(original, "class");
 
       return original;
     }
