@@ -162,6 +162,14 @@ namespace ToSic.Razor.Blade
 
       return original;
     }
+    public string Styles(string original)
+    {
+      string StripClasses(string originalText, string attribute) => new TagStripper().Attributes(original, attribute);
+
+      original = StripClasses(original, "style");
+
+      return original;
+    }
   }
 
   //Tag sets to be used in combination with TagStripper.Exclude()
