@@ -7,6 +7,10 @@
     {
       "name": "feature/TagStripperAttributes()",
       "base": "develop"
+    },
+    {
+      "name": "feature/TagStripperClasses()",
+      "base": "develop"
     }
   ]
 }

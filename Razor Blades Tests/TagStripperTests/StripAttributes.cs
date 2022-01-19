@@ -46,6 +46,20 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     {
       Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">"));
     }
+
+    [TestMethod]
+    public void OnlyAttribute()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      Assert.AreEqual("<div >", StripAttributes("<div class>"));
+    }
+
+    [TestMethod]
+    public void EmptyStringClass()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      Assert.AreEqual("<div >", StripAttributes("<div class=\" \">"));
+    }
   }
 
   //Tests for TagStripper().Attributes(string original, string attribute)
@@ -101,6 +115,20 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     {
       Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">", "style"));
     }
+
+    [TestMethod]
+    public void OnlyAttribute()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      Assert.AreEqual("<div >", StripAttributes("<div class>", "class"));
+    }
+
+    [TestMethod]
+    public void EmptyStringClass()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      Assert.AreEqual("<div >", StripAttributes("<div class=\" \">", "class"));
+    }
   }
 
   //Tests for TagStripper().Attributes(string original, params string[] attributes)
@@ -135,6 +163,22 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     {
       string[] testAttributes = { "style" };
       Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">", testAttributes));
+    }
+
+    [TestMethod]
+    public void OnlyAttribute()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      string[] testAttributes = { "style", "class" };
+      Assert.AreEqual("<div>", StripAttributes("<div class style>", testAttributes));
+    }
+
+    [TestMethod]
+    public void EmptyStringClass()
+    //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+    {
+      string[] testAttributes = { "style", "class" };
+      Assert.AreEqual("<div>", StripAttributes("<div class=\" \" style=' '>", testAttributes));
     }
   }
 }
