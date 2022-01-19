@@ -46,6 +46,12 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     }
 
     [TestMethod]
+    public void Normal()
+    {
+      Assert.AreEqual("<div style=\"hello-world shadow\" width=100 height=25 >", StripClasses("<div class=hello-world style=\"hello-world shadow\" class=\"color:blue display:none\" width=100 height=25 class='shadow:none'>"));
+    }
+
+    [TestMethod]
     public void OnlyAttribute()
     //If the attribute is defined without any quotes there can only be one class the rest will be ignored
     {
