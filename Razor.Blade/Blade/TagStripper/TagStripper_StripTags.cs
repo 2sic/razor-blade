@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Blade
 {
@@ -65,119 +66,6 @@ namespace ToSic.Razor.Blade
       }
       return text;
     }
-
-    public string Except(string original, params string[] tags)
-    {
-      //The pattern that is used to match the tags
-      string finalPattern = "<\\/?[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>";
-
-      //Place defines the value where the first excluding pattern must be inserted 
-      int place = 4;
-
-      foreach (var tag in tags)
-      {
-
-        //Pattern to exclude inserted tag from the regex match 
-        string conditionPattern = "(?!( |>|\\/|\n))";
-
-        //Insert tag into pattern that is needed to exclude the tag from the regex match 
-        string insertPattern = conditionPattern.Insert(3, tag);
-
-        //Getting the length of the two 
-        int tagLength = tag.Length;
-
-        //Inserting the string with the pattern that was just created into the final pattern 
-        finalPattern = finalPattern.Insert(place, insertPattern);
-
-        //Calculating where the insertPattern needs to be inserted into the final pattern in the next pass of the loop
-        place = place + tagLength + 14;
-      }
-      //Use the created pattern to replace the tags 
-      var sanitizedText = Regex.Replace(original, finalPattern, "", RegexOptions.IgnoreCase);
-      return sanitizedText;
-    }
-
-    //Delete all attributes
-    public string Attributes(string original)
-    {
-      //Remove all attributes with no quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Remove all attributes with single quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Remove all attributes with double quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Remove instances attributes where the attribute is declared without assigning an value to it
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b\w*\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Clean up spaces between tag-name and first attribute
-      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
-      //Clean up space between tag-name and tag-ending (> or />)
-      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\/?>)", "");
-      return original;
-    }
-
-    //Delete all instances of a single attribute
-    public string Attributes(string original, string attribute)
-    {
-      //Remove certain attributes with no quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Remove certain attributes with single quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Remove certain attributes with double quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Remove instances of a certain attribute where the attribute is declared without assigning an value to it
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\\w-]*|=))\b" + Regex.Escape(attribute) + @"\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
-
-      //Clean up spaces between tag-name and first attribute
-      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
-
-      //Clean up space between tag-name and tag-ending (> or />)
-      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\/?>)", "");
-
-      return original;
-    }
-
-    //Delete all instances of a list of attributes
-    public string Attributes(string original, params string[] attributes)
-    {
-      string StripAttributes(string originalText, string attribute) => new TagStripper().Attributes(original, attribute);
-
-      foreach (var attribute in attributes)
-      {
-        original = StripAttributes(original, attribute);
-      }
-      return original;
-    }
-    public string Classes(string original)
-    {
-      string StripClasses(string originalText, string attribute) => new TagStripper().Attributes(original, attribute);
-
-      original = StripClasses(original, "class");
-
-      return original;
-    }
-    public string Styles(string original)
-    {
-      string StripClasses(string originalText, string attribute) => new TagStripper().Attributes(original, attribute);
-
-      original = StripClasses(original, "style");
-
-      return original;
-    }
-  }
-
-  //Tag sets to be used in combination with TagStripper.Exclude()
-  public partial class TagSets
-  {
-    public static readonly string[] Formatting = { "!DOCTYPE","html","head","title","body","h1","h2","h3","h4","h5","h6","p","br","hr","acronym", "abbr", "address", "b", "bdi", "bdo", "big", "blockquote", "center", "cite", "code", "del", "dfn", "em", "font", "i", "ins", "kbd", "mark", "meter", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "small", "strike", "strong", "sub", "sup", "template", "time", "time", "tt", "u", "var", "wbr" };
-    public static readonly string[] FormattingSimple = { "h1", "h2", "h3", "h4", "h5", "h6","b", "big","center","em","i","mark","q","small","strong" };
-    public static readonly string[] InlineBasic = {"a", "b","big","br","em","i","img","q", "small","span","strong"};
   }
 }
 

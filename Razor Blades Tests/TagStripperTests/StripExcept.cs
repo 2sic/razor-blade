@@ -11,7 +11,7 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     [TestMethod]
     public void Normal1()
     {
-      string[] testTags = { "div" };
+      var testTags = "div";
       Assert.AreEqual("<div>Hello small World</div>", StripExcept("<div>Hello <p>small</p> World</div>", testTags));
     }
 
@@ -32,8 +32,9 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     [TestMethod]
     public void EmptyArray()
     {
+      // An empty array doesn't do anything in this case you can just use the normal strip
       string[] testTags = {};
-      Assert.AreEqual("This is an Example", StripExcept("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags));
+      Assert.AreEqual("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", StripExcept("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags));
     }
 
     [TestMethod]
@@ -74,14 +75,15 @@ namespace ToSic.RazorBladeTests.TagStripperTests
     [TestMethod]
     public void TagsWithAttributes2()
     {
-      string[] testTags = { };
-      Assert.AreEqual("", StripExcept("<div style\n=\"background-color: blue;\n padding:0\"\n href=\"https//:www...\"\n>", testTags));
+      string[] testTags = {"body"};
+      Assert.AreEqual("<body></body>", StripExcept("<body><div style\n=\"background-color: blue;\n padding:0\"\n href=\"https//:www...\"\n></body>", testTags));
     }
+
     //Tests with constants
     [TestMethod]
     public void ExceptWithTagSetsFormatting()
     {
-      Assert.AreEqual("<body></body>", StripExcept("<body><img></body>", TagSets.Formatting));
+      Assert.AreEqual("<i></i>", StripExcept("<i><img></i>", TagSets.Formatting));
     }
 
     [TestMethod]
