@@ -58,8 +58,10 @@ namespace ToSic.Razor.Blade
     /// </remarks>
     public string Only(string text, params string[] tags)
     {
+        // todo: no inline function, no new object
       string StripTags(string original, string tag) => new TagStripper().Only(original, tag);
 
+      // todo: simpler loop, try using .Aggregate LINQ ;)
       foreach (var tag in tags)
       {
         text = StripTags(text, tag);
