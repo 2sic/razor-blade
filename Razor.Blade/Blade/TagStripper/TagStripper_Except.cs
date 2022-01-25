@@ -18,10 +18,11 @@ namespace ToSic.Razor.Blade
       var i = 0;
 
       // Null check
-      if (tags == null || tags.Length == 0)
-      {
-        return original;
-      }
+      if (tags == null || !tags.Any())
+          return original;
+
+      var exceptList = string.Join("|", tags.Select(t => t + "( |>|\\/|\n)"));
+
 
       foreach (var tag in tags)
       {
@@ -33,17 +34,18 @@ namespace ToSic.Razor.Blade
         }
         else
         {
-          insertPattern = insertPattern + "|" + tag + "( |>|\\/|\n)";
+          insertPattern = insertPattern + (insertPattern == "" ? "" : "|") + tag + "( |>|\\/|\n)";
         }
       }
 
+      var exceptRule = "(?!" + exceptList + ")";
       insertPattern = "(?!" + insertPattern + ")";
 
       //Combines the created pattern with the final pattern 
-      insertPattern = "<\\/?" + insertPattern + "[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>";
+      insertPattern = "<\\/?" + insertPattern + "[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>"; // language=regex
 
-      //Use the created pattern to replace the tags 
-      var sanitizedText = Regex.Replace(original, insertPattern, "", RegexOptions.IgnoreCase);
+            //Use the created pattern to replace the tags 
+            var sanitizedText = Regex.Replace(original, insertPattern, "", RegexOptions.IgnoreCase);
 
       return sanitizedText;
     }

@@ -32,10 +32,13 @@ namespace ToSic.Razor.Blade
     /// This is only the regex that matches attributes with no quotes but the other work almost the same one just matches ' after the = and the other one " 
 
 
+    private static string AttributePlaceholder = @"(\w+)"; // language=regex
+    private static string AttributeRegexNoQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)"; // language=regex
+
     public string Attributes(string original)
     {
-      //Remove all attributes with no quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+        //Remove all attributes with no quotes
+      original = Regex.Replace(original, AttributeRegexNoQuote, "", RegexOptions.IgnoreCase);
 
       //Remove all attributes with single quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
@@ -43,11 +46,12 @@ namespace ToSic.Razor.Blade
       //Remove all attributes with double quotes
       original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
-      //Remove instances attributes where the attribute is declared without assigning an value to it
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b\w*\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+            //Remove instances attributes where the attribute is declared without assigning an value to it
+            original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b\w*\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+            //original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b(\w+)\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
-      //Clean up spaces between tag-name and first attribute
-      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
+            //Clean up spaces between tag-name and first attribute
+            original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
 
       //Clean up space between tag-name and tag-ending (> or />)
       original = SpaceCleaning(original);
@@ -66,17 +70,54 @@ namespace ToSic.Razor.Blade
     ///Works almost the same as the regex above only instead of matching \w charcters before the = character it only matches the input attribute
     public string Attributes(string original, string attribute)
     {
+        var escaped = Regex.Escape(attribute);
+        // language=regex
+        var regexNoQuotes = AttributeRegexNoQuote.Replace(AttributePlaceholder, escaped);
+
       //Remove certain attributes with no quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+      original = Regex.Replace(original, regexNoQuotes, "", RegexOptions.IgnoreCase);
 
       //Remove certain attributes with single quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + escaped + @")\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
       //Remove certain attributes with double quotes
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + Regex.Escape(attribute) + @")\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + escaped + @")\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
       //Remove instances of a certain attribute where the attribute is declared without assigning an value to it
-      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\\w-]*|=))\b" + Regex.Escape(attribute) + @"\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\\w-]*|=))\b" + escaped + @"\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
+      //Clean up spaces between tag-name and first attribute
+      original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
+
+      //Clean up space between tag-name and tag-ending (> or />)
+      original = SpaceCleaning(original);
+
+      return original;
+    }
+    private string AttributesInternal(string original, string attribute = null)
+    {
+        // todo: null-checks, empty-string checks
+        if (string.IsNullOrWhiteSpace(original)) return original;
+
+        var regexNoQuotes = AttributeRegexNoQuote;
+
+        var escaped = Regex.Escape(attribute);
+        if (attribute != null)
+        {
+            regexNoQuotes = regexNoQuotes.Replace(AttributePlaceholder, escaped);
+        }
+
+      //Remove certain attributes with no quotes
+      original = Regex.Replace(original, regexNoQuotes, "", RegexOptions.IgnoreCase);
+
+      //Remove certain attributes with single quotes
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + escaped + @")\s*=\s*(')[^']*(')(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
+      //Remove certain attributes with double quotes
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(" + escaped + @")\s*=\s*("")[^""]*("")(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
+
+      //Remove instances of a certain attribute where the attribute is declared without assigning an value to it
+      original = Regex.Replace(original, @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\\w-]*|=))\b" + escaped + @"\b(?!=)(?=[^>]*\/?>)", "", RegexOptions.IgnoreCase);
 
       //Clean up spaces between tag-name and first attribute
       original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\w*=)", " ");
