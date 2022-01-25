@@ -46,11 +46,11 @@ there
     [TestMethod]
     public void Test_StripHtml()
     {
-        var html = "<div>some text with valid html</div>";
-        var clean = "some text with valid html";
-        var strip = StripTags(html);
+      var html = "<div>some text with valid html</div>";
+      var clean = "some text with valid html";
+      var strip = StripTags(html);
 
-        Assert.AreEqual(clean, strip, "should be the same");
+      Assert.AreEqual(clean, strip, "should be the same");
     }
-    }
+  }
 }

@@ -75,4 +75,3 @@ namespace ToSic.RazorBladeTests.TagStripperTests
   }
 }
 
-  

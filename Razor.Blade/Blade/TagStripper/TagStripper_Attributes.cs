@@ -19,14 +19,14 @@ namespace ToSic.Razor.Blade
     /// <returns>A string without any attributes inside the HTML Tags</returns>
 
     /// regex explained:
-    /// 1. Positive lookbehind (checks if there is a opening tag before the identied attribute and only proceds with the match if that is true): 
+    /// 1. Positive lookbehind (basically checks if there is an opening tag before the identifed attribute and only proceds with the match if that is true): 
     ///   (?<=<\w+\s+[^>]*)
     /// 
     /// 2. Match (matches one or more \w characters if there is only spaces or no spaces between it and the = character 
-    ///   after it there can also be as zero or more spaces as soon as it detects a character it matches anything one or more times but the content of the square brackets): 
+    ///   after it there can also be as zero or more spaces as soon as it detects a character it matches anything one or more times but doesn't match the content of the square brackets): 
     ///   (\w+)\s*=\s*[^ ""'=><`]+
     ///
-    /// 3. Negative lookbehind (Basically checks if there is somewhere a closing tag after the attribute to make sure it doesnt match something that just looks like an attribute but isn't inside a HTML Tag):
+    /// 3. Negative lookbehind (Basically checks if there is a closing tag somewhere after the attribute to make sure it doesnt match something that just looks like an attribute but isn't inside a HTML Tag):
     ///   (?=[^>]*\/?>)
     /// 
     /// This is only the regex that matches attributes with no quotes but the other work almost the same one just matches ' after the = and the other one " 
@@ -61,9 +61,9 @@ namespace ToSic.Razor.Blade
     /// <param name="original">original string containing HTML</param>
     /// <param name="attribute">string defining the attribute to remove</param>
     /// <returns>A string which doesn't contain the specified attribute</returns>
-    
+
     ///regex explained: 
-    ///Works exatly the same as the regex above other than checking in the first positive lookbehind if the tag is the one that shouldn't be matched
+    ///Works almost the same as the regex above only instead of matching \w charcters before the = character it only matches the input attribute
     public string Attributes(string original, string attribute)
     {
       //Remove certain attributes with no quotes

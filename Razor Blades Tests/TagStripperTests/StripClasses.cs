@@ -74,7 +74,7 @@ namespace ToSic.RazorBladeTests.TagStripperTests
 
     [TestMethod]
     public void InvalidQuotes()
-     //In this case the attribute is defined wrong and can't be identified 
+    //In this case the attribute is defined wrong and can't be identified 
     {
       Assert.AreEqual("<div class=\"hello-world'>", StripClasses("<div class=\"hello-world'>"));
     }
