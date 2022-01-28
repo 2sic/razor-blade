@@ -3,51 +3,32 @@ using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Blade
 {
-  public partial class TagStripper
-  {
-    ///<summary>
-    /// Remove all HTML Tags exept of a specified list
-    /// </summary>
-    /// <param name="original">original string containing HTML</param>
-    /// <param name="tags">array defining the HTML Tags which shouldn't be removed</param>
-    /// <returns>A string which doesn't contain the specified HTML Tags</returns>
-    public string Except(string original, params string[] tags)
+    public partial class TagStripper
     {
-      //Pattern that is used to build the exeption to the normal tag searching regex
-      var insertPattern = "";
-      var i = 0;
-
-      // Null check
-      if (tags == null || !tags.Any())
-          return original;
-
-      var exceptList = string.Join("|", tags.Select(t => t + "( |>|\\/|\n)"));
-
-
-      foreach (var tag in tags)
-      {
-        //If else condition determins if it is the first pass through the loop if it is it doesn't add a "|" on every other pass it does
-        if (i == 0)
+        ///<summary>
+        /// Remove all HTML Tags exept of a specified list
+        /// </summary>
+        /// <param name="original">original string containing HTML</param>
+        /// <param name="tags">array defining the HTML Tags which shouldn't be removed</param>
+        /// <returns>A string which doesn't contain the specified HTML Tags</returns>
+        public string Except(string original, params string[] tags)
         {
-          insertPattern = insertPattern + tag + "( |>|\\/|\n)";
-          i++;
-        }
-        else
-        {
-          insertPattern = insertPattern + (insertPattern == "" ? "" : "|") + tag + "( |>|\\/|\n)";
-        }
-      }
+            // Null check
+            if (tags == null || !tags.Any() || original == null)
+                return original;
 
-      var exceptRule = "(?!" + exceptList + ")";
-      insertPattern = "(?!" + insertPattern + ")";
+            //var exceptList = string.Join("|", tags.Select(t => t + "( |>|\\/|\n)"));
+            var exceptList = string.Join("|", tags.Select(tag => tag + "( |>|\\/|\n)"));
 
-      //Combines the created pattern with the final pattern 
-      insertPattern = "<\\/?" + insertPattern + "[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>"; // language=regex
+            var exceptRule = "(?!" + exceptList + ")";
+
+            //Combines the created pattern with the final pattern 
+            exceptRule = "<\\/?" + exceptRule + "[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>"; // language=regex
 
             //Use the created pattern to replace the tags 
-            var sanitizedText = Regex.Replace(original, insertPattern, "", RegexOptions.IgnoreCase);
+            var sanitizedText = Regex.Replace(original, exceptRule, "", RegexOptions.IgnoreCase);
 
-      return sanitizedText;
+            return sanitizedText;
+        }
     }
-  }
 }

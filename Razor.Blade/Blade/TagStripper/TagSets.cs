@@ -1,14 +1,15 @@
 namespace ToSic.Razor.Blade
 {
-  /// <summary>
-  /// Tag sets to be used in combination with TagStripper.Exclude()
-  /// </summary>
-  public class TagSets
-  {
     /// <summary>
-    /// array containing all formatting HTML Tags 
+    /// Tag sets to be used in combination with TagStripper.Exclude()
+    /// Tag sets from here -> https://www.w3schools.com/TAGS/default.ASP
     /// </summary>
-    public static readonly string[] Formatting = {
+    public class TagSets
+    {
+        /// <summary>
+        /// array containing all formatting HTML Tags 
+        /// </summary>
+        public static readonly string[] Formatting = {
       "acronym",
       "abbr",
       "address",
@@ -51,10 +52,10 @@ namespace ToSic.Razor.Blade
       "wbr"
     };
 
-    /// <summary>
-    /// array containing a list of common formatting HTML Tags
-    /// </summary>
-    public static readonly string[] FormattingSimple = {
+        /// <summary>
+        /// array containing a list of common formatting HTML Tags
+        /// </summary>
+        public static readonly string[] FormattingSimple = {
       "h1",
       "h2",
       "h3",
@@ -72,10 +73,10 @@ namespace ToSic.Razor.Blade
       "strong"
     };
 
-    /// <summary>
-    /// array containing the most common inline HTML Tags
-    /// </summary>
-    public static readonly string[] InlineBasic = {
+        /// <summary>
+        /// array containing the most common inline HTML Tags
+        /// </summary>
+        public static readonly string[] InlineBasic = {
       "a",
       "b",
       "big",
@@ -88,5 +89,5 @@ namespace ToSic.Razor.Blade
       "span",
       "strong"
     };
-  }
+    }
 }

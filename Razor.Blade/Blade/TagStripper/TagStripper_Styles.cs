@@ -3,20 +3,22 @@ using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Blade
 {
-  public partial class TagStripper
-  {
-    ///<summary>
-    /// Remove all style attributes
-    /// </summary>
-    /// <param name="original">original string containing HTML</param>
-    /// <returns>A string without any style=""/style=''/style= attributes</returns>
-    public string Styles(string original)
+    public partial class TagStripper
     {
-      string StripClasses(string originalText, string attribute) => new TagStripper().Attributes(original, attribute);
+        ///<summary>
+        /// Remove all style attributes
+        /// </summary>
+        /// <param name="original">original string containing HTML</param>
+        /// <returns>A string without any style=""/style=''/style= attributes</returns>
+        public string Styles(string original)
+        {
+            // Null check
+            if (original == null)
+                return original;
 
-      original = StripClasses(original, "style");
+            original = Attributes(original, "style");
 
-      return original;
+            return original;
+        }
     }
-  }
 }
