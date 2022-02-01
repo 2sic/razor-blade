@@ -1,5 +1,4 @@
-﻿#if NET451
-//using IHtmlString = System.Web.IHtmlString;
+﻿#if NETFRAMEWORK
 using HtmlString = System.Web.HtmlString;
 #else
 //using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;

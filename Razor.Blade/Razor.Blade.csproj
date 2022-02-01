@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net451;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net472;net5.0</TargetFrameworks>
     <RootNamespace>ToSic.Razor</RootNamespace>
     <Version>03.09.00</Version>
     <AssemblyName>ToSic.Razor</AssemblyName>
@@ -16,19 +16,28 @@
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+	    <Version>3.1.16</Version>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0'">
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+	    <Version>3.1.16</Version>
+    </PackageReference>
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+	    <Version>2.2.0</Version>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>

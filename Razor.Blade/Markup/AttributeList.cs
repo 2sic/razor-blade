@@ -1,4 +1,4 @@
-﻿#if NET451
+﻿#if NETFRAMEWORK
 using IHtmlString = System.Web.IHtmlString;
 #else
 using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
@@ -21,7 +21,7 @@ namespace ToSic.Razor.Markup
 
         #region ToString and ToHtml for all interfaces
 
-#if NET451
+#if NETFRAMEWORK
         /// <summary>
         /// This is the serialization for the old-style asp.net razor
         /// </summary>
