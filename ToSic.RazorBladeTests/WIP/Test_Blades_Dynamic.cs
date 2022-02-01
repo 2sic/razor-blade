@@ -17,7 +17,6 @@ namespace ToSic.RazorBladeTests
 
         [TestMethod]
         [ExpectedException(typeof( Microsoft.CSharp.RuntimeBinder.RuntimeBinderException))]
-
         public void Test_ToDynamic_InvalidPropertyCase()
         {
             var exp = TestDynamic();

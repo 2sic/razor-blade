@@ -13,6 +13,6 @@ namespace ToSic.Razor.Blade
     /// Added in v2
     /// </remarks>
     [Obsolete("Starting in V3.9 you should use IScrub.All(...) instead")]
-    public static string Strip(string original) => new Scrub().All(original);
+    public static string Strip(string original) => new ScrubImplementation().All(original);
   }
 }

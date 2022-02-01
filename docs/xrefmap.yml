@@ -171,6 +171,117 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.HtmlPage.Title
   nameWithType: HtmlPage.Title
+- uid: ToSic.Razor.Blade.IScrub
+  name: IScrub
+  href: api/ToSic.Razor.Blade.IScrub.html
+  commentId: T:ToSic.Razor.Blade.IScrub
+  fullName: ToSic.Razor.Blade.IScrub
+  nameWithType: IScrub
+- uid: ToSic.Razor.Blade.IScrub.All(System.String)
+  name: All(String)
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_All_System_String_
+  commentId: M:ToSic.Razor.Blade.IScrub.All(System.String)
+  fullName: ToSic.Razor.Blade.IScrub.All(System.String)
+  nameWithType: IScrub.All(String)
+- uid: ToSic.Razor.Blade.IScrub.All*
+  name: All
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_All_
+  commentId: Overload:ToSic.Razor.Blade.IScrub.All
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.IScrub.All
+  nameWithType: IScrub.All
+- uid: ToSic.Razor.Blade.IScrub.Attributes(System.String)
+  name: Attributes(String)
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Attributes_System_String_
+  commentId: M:ToSic.Razor.Blade.IScrub.Attributes(System.String)
+  fullName: ToSic.Razor.Blade.IScrub.Attributes(System.String)
+  nameWithType: IScrub.Attributes(String)
+- uid: ToSic.Razor.Blade.IScrub.Attributes(System.String,System.String)
+  name: Attributes(String, String)
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Attributes_System_String_System_String_
+  commentId: M:ToSic.Razor.Blade.IScrub.Attributes(System.String,System.String)
+  fullName: ToSic.Razor.Blade.IScrub.Attributes(System.String, System.String)
+  nameWithType: IScrub.Attributes(String, String)
+- uid: ToSic.Razor.Blade.IScrub.Attributes(System.String,System.String[])
+  name: Attributes(String, String[])
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Attributes_System_String_System_String___
+  commentId: M:ToSic.Razor.Blade.IScrub.Attributes(System.String,System.String[])
+  name.vb: Attributes(String, String())
+  fullName: ToSic.Razor.Blade.IScrub.Attributes(System.String, System.String[])
+  fullName.vb: ToSic.Razor.Blade.IScrub.Attributes(System.String, System.String())
+  nameWithType: IScrub.Attributes(String, String[])
+  nameWithType.vb: IScrub.Attributes(String, String())
+- uid: ToSic.Razor.Blade.IScrub.Attributes*
+  name: Attributes
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Attributes_
+  commentId: Overload:ToSic.Razor.Blade.IScrub.Attributes
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.IScrub.Attributes
+  nameWithType: IScrub.Attributes
+- uid: ToSic.Razor.Blade.IScrub.Classes(System.String)
+  name: Classes(String)
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Classes_System_String_
+  commentId: M:ToSic.Razor.Blade.IScrub.Classes(System.String)
+  fullName: ToSic.Razor.Blade.IScrub.Classes(System.String)
+  nameWithType: IScrub.Classes(String)
+- uid: ToSic.Razor.Blade.IScrub.Classes*
+  name: Classes
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Classes_
+  commentId: Overload:ToSic.Razor.Blade.IScrub.Classes
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.IScrub.Classes
+  nameWithType: IScrub.Classes
+- uid: ToSic.Razor.Blade.IScrub.Except(System.String,System.String[])
+  name: Except(String, String[])
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Except_System_String_System_String___
+  commentId: M:ToSic.Razor.Blade.IScrub.Except(System.String,System.String[])
+  name.vb: Except(String, String())
+  fullName: ToSic.Razor.Blade.IScrub.Except(System.String, System.String[])
+  fullName.vb: ToSic.Razor.Blade.IScrub.Except(System.String, System.String())
+  nameWithType: IScrub.Except(String, String[])
+  nameWithType.vb: IScrub.Except(String, String())
+- uid: ToSic.Razor.Blade.IScrub.Except*
+  name: Except
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Except_
+  commentId: Overload:ToSic.Razor.Blade.IScrub.Except
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.IScrub.Except
+  nameWithType: IScrub.Except
+- uid: ToSic.Razor.Blade.IScrub.Only(System.String,System.String)
+  name: Only(String, String)
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Only_System_String_System_String_
+  commentId: M:ToSic.Razor.Blade.IScrub.Only(System.String,System.String)
+  fullName: ToSic.Razor.Blade.IScrub.Only(System.String, System.String)
+  nameWithType: IScrub.Only(String, String)
+- uid: ToSic.Razor.Blade.IScrub.Only(System.String,System.String[])
+  name: Only(String, String[])
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Only_System_String_System_String___
+  commentId: M:ToSic.Razor.Blade.IScrub.Only(System.String,System.String[])
+  name.vb: Only(String, String())
+  fullName: ToSic.Razor.Blade.IScrub.Only(System.String, System.String[])
+  fullName.vb: ToSic.Razor.Blade.IScrub.Only(System.String, System.String())
+  nameWithType: IScrub.Only(String, String[])
+  nameWithType.vb: IScrub.Only(String, String())
+- uid: ToSic.Razor.Blade.IScrub.Only*
+  name: Only
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Only_
+  commentId: Overload:ToSic.Razor.Blade.IScrub.Only
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.IScrub.Only
+  nameWithType: IScrub.Only
+- uid: ToSic.Razor.Blade.IScrub.Styles(System.String)
+  name: Styles(String)
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Styles_System_String_
+  commentId: M:ToSic.Razor.Blade.IScrub.Styles(System.String)
+  fullName: ToSic.Razor.Blade.IScrub.Styles(System.String)
+  nameWithType: IScrub.Styles(String)
+- uid: ToSic.Razor.Blade.IScrub.Styles*
+  name: Styles
+  href: api/ToSic.Razor.Blade.IScrub.html#ToSic_Razor_Blade_IScrub_Styles_
+  commentId: Overload:ToSic.Razor.Blade.IScrub.Styles
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.IScrub.Styles
+  nameWithType: IScrub.Styles
 - uid: ToSic.Razor.Blade.Tag
   name: Tag
   href: api/ToSic.Razor.Blade.Tag.html
@@ -6901,3 +7012,28 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagOptions.SelfClose
   nameWithType: TagOptions.SelfClose
+- uid: ToSic.Razor.StartUp
+  name: ToSic.Razor.StartUp
+  href: api/ToSic.Razor.StartUp.html
+  commentId: N:ToSic.Razor.StartUp
+  fullName: ToSic.Razor.StartUp
+  nameWithType: ToSic.Razor.StartUp
+- uid: ToSic.Razor.StartUp.StartUp
+  name: StartUp
+  href: api/ToSic.Razor.StartUp.StartUp.html
+  commentId: T:ToSic.Razor.StartUp.StartUp
+  fullName: ToSic.Razor.StartUp.StartUp
+  nameWithType: StartUp
+- uid: ToSic.Razor.StartUp.StartUp.AddRazorBlade(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddRazorBlade(IServiceCollection)
+  href: api/ToSic.Razor.StartUp.StartUp.html#ToSic_Razor_StartUp_StartUp_AddRazorBlade_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:ToSic.Razor.StartUp.StartUp.AddRazorBlade(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: ToSic.Razor.StartUp.StartUp.AddRazorBlade(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: StartUp.AddRazorBlade(IServiceCollection)
+- uid: ToSic.Razor.StartUp.StartUp.AddRazorBlade*
+  name: AddRazorBlade
+  href: api/ToSic.Razor.StartUp.StartUp.html#ToSic_Razor_StartUp_StartUp_AddRazorBlade_
+  commentId: Overload:ToSic.Razor.StartUp.StartUp.AddRazorBlade
+  isSpec: "True"
+  fullName: ToSic.Razor.StartUp.StartUp.AddRazorBlade
+  nameWithType: StartUp.AddRazorBlade

@@ -1,9 +1,12 @@
+using ToSic.Razor.Internals.Documentation;
+
 namespace ToSic.Razor.Blade
 {
     /// <summary>
-    /// Tag sets to be used in combination with TagStripper.Exclude()
+    /// Tag sets to be used in combination with IScrub.Exclude()
     /// Tag sets from here -> https://www.w3schools.com/TAGS/default.ASP
     /// </summary>
+    [PrivateApi("implementation and list not final yet - WIP v3.09")]
     public class TagSets
     {
         /// <summary>

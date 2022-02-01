@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Blade
 {
-    public partial class Scrub
+    public partial class ScrubImplementation
     {
         /// <summary>
         /// Clean up space between tag-name and tag-ending (&gt; or /&gt;)
@@ -40,43 +40,43 @@ namespace ToSic.Razor.Blade
         /// <summary>
         /// Remove all HTML attributes.
         /// </summary>
-        /// <param name="original">original string containing HTML</param>
+        /// <param name="html">original string containing HTML</param>
         /// <returns>A string without any attributes inside the HTML Tags</returns>
-        public string Attributes(string original)
+        public string Attributes(string html)
         {
             //Null check
-            if (original == null) return null;
+            if (html == null) return null;
 
             //Remove all attributes with no quotes
-            original = Regex.Replace(original, AttributeRegexNoQuote, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, AttributeRegexNoQuote, "", RegexOptions.IgnoreCase);
 
             //Remove all attributes with single quotes
-            original = Regex.Replace(original, AttributeRegexSingleQuote, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, AttributeRegexSingleQuote, "", RegexOptions.IgnoreCase);
 
             //Remove all attributes with double quotes
-            original = Regex.Replace(original, AttributeRegexDoubleQuote, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, AttributeRegexDoubleQuote, "", RegexOptions.IgnoreCase);
 
             //Remove instances attributes where the attribute is declared without assigning an value to it
-            original = Regex.Replace(original, AttributeOnlyDeclared, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, AttributeOnlyDeclared, "", RegexOptions.IgnoreCase);
 
             //Clean up spaces
-            original = SpaceCleaning(original);
+            html = SpaceCleaning(html);
 
-            return original;
+            return html;
         }
 
         /// <summary>
         /// Remove all instances of a specified attribute.
         /// </summary>
-        /// <param name="original">original string containing HTML</param>
+        /// <param name="html">original string containing HTML</param>
         /// <param name="attribute">string defining the attribute to remove</param>
         /// <returns>A string which doesn't contain the specified attribute</returns>
 
-        public string Attributes(string original, string attribute)
+        public string Attributes(string html, string attribute)
         {
             // Null check
-            if (attribute == null || original == null)
-                return original;
+            if (attribute == null || html == null)
+                return html;
 
             //Set the attribute that should be replaced
             var escaped = Regex.Escape(attribute);
@@ -88,38 +88,38 @@ namespace ToSic.Razor.Blade
             var regexOnlyDeclared = AttributeOnlyDeclared.Replace(AttributePlaceholder, escaped);
 
             //Remove all attributes with no quotes
-            original = Regex.Replace(original, regexNoQuotes, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, regexNoQuotes, "", RegexOptions.IgnoreCase);
 
             //Remove all attributes with single quotes
-            original = Regex.Replace(original, regexSingleQuotes, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, regexSingleQuotes, "", RegexOptions.IgnoreCase);
 
             //Remove all attributes with double quotes
-            original = Regex.Replace(original, regexDoubleQuotes, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, regexDoubleQuotes, "", RegexOptions.IgnoreCase);
 
             //Remove instances attributes where the attribute is declared without assigning an value to it
-            original = Regex.Replace(original, regexOnlyDeclared, "", RegexOptions.IgnoreCase);
+            html = Regex.Replace(html, regexOnlyDeclared, "", RegexOptions.IgnoreCase);
 
             //Clean up spaces
-            original = SpaceCleaning(original);
+            html = SpaceCleaning(html);
 
-            return original;
+            return html;
         }
 
         /// <summary>
         /// Remove all instances of an array of specified attributes.
         /// </summary>
-        /// <param name="original">original string containing HTML</param>
+        /// <param name="html">original string containing HTML</param>
         /// <param name="attributes">array defining the attributes to remove</param>
         /// <returns>A string which doesn't contain the specified attributes</returns>
-        public string Attributes(string original, params string[] attributes)
+        public string Attributes(string html, params string[] attributes)
         {
             // Null check
-            if (attributes == null || !attributes.Any() || original == null)
-                return original;
+            if (attributes == null || !attributes.Any() || html == null)
+                return html;
 
-            original = attributes.Aggregate(original,(previous, attribute) => previous = Attributes(previous, attribute));
+            html = attributes.Aggregate(html,(previous, attribute) => previous = Attributes(previous, attribute));
 
-            return original;
+            return html;
         }
     }
 }
