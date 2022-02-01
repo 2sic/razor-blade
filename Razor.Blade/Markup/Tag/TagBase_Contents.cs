@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
 {
@@ -27,9 +28,11 @@ namespace ToSic.Razor.Markup
         internal string TagOverride;
 
         /// <inheritdoc />
+        [PrivateApi]
         IEnumerator<ITag> IEnumerable<ITag>.GetEnumerator() => TagChildren.GetEnumerator();
 
         /// <inheritdoc />
+        [PrivateApi]
         public IEnumerator GetEnumerator() => TagChildren.GetEnumerator();
     }
 }

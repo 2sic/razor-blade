@@ -1,26 +1,18 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
 
 namespace ToSic.Razor.Blade
 {
-    public static partial class Tags
-    {
-        public static string Strip(string original)
-        {
-            // Extra null check
-            if (original is null) return null;
-
-            // remove all tags, replace with spaces to prevent words from sticking together
-            var sanitizedText = Regex.Replace(original, "<[^>]*>", " ", RegexOptions.IgnoreCase);
-
-            // remove remaining < and >
-            // because there could still be some unmatched "<" or ">" characters 
-            // this is unlikely, but otherwise an attacker knowing these internals could abuse this
-            sanitizedText = sanitizedText.Replace("<", " ").Replace(">", " ");
-
-            // combine resulting multi-spaces
-            sanitizedText = Text.ShrinkSpaces(sanitizedText);
-
-            return sanitizedText.Trim();
-        }
-    }
+  public static partial class Tags
+  {
+    /// <summary>
+    /// Remove all HTML tags from a string.
+    /// </summary>
+    /// <param name="original">original HTML</param>
+    /// <returns>A cleaned string without any HTML tags</returns>
+    /// <remarks>
+    /// Added in v2
+    /// </remarks>
+    [Obsolete("Starting in V3.9 you should use IScrub.All(...) instead")]
+    public static string Strip(string original) => new ScrubImplementation().All(original);
+  }
 }

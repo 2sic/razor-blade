@@ -13,7 +13,7 @@ namespace ToSic.Razor.Blade
         /// <param name="suffix">optional suffix, defaults to  &amp;hellip;</param>
         /// <remarks>If you don't need the suffix, use CropText(...) instead</remarks>
         /// <returns></returns>
-        public static string Ellipsis(string value, int length, string suffix = null)
+        public static string Ellipsis(this string value, int length, string suffix = null)
         {
             var truncated = Truncator.SafeTruncate(value, length);
             var addExtension = truncated != value;

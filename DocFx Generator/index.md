@@ -1,7 +1,7 @@
 
 <img src="images/logos/razor-blade-logo.png" width="100%">
 
-# **API Docs of _RazorBlade 3.0_**
+# **API Docs of _RazorBlade 3.09_**
 
 These docs are meant for programmers using [RazorBlade](https://github.com/2sic/razor-blade). These will usually be people working with C# and Razor, MVC etc.
 
@@ -84,16 +84,8 @@ _Note that HTML whitespace like `&nbsp;` will also be treated as empty, unless y
 
 ```
 
-## Change History
+## Nice to Know
 
-### V3.00 2019-10
-
-Released V3 which was a complete rework and had a new root namespace.
-
-### V3.01 2019-12
-
-Minor fixes / changes which required a version bump.
-
-### V3.02 2020-04
-
-1. Added Tags.SafeUrl()
+1. **RazorBlade** has 300 unit tests to make it rock-solid!
+1. The last update was February 2022 when we released v3.09
+1. See the [Change Log](articles/changelog.md)

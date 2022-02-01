@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Text
    | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.46.0.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -48,19 +48,18 @@
               </form>
                 
                 <ul class="nav level1 navbar-nav">
-                      <li>
-                          <a href="..//" title="Home">Home</a>
+                      <li class="">
+                          <a href="..//" class="" title="Home">Home</a>
                       </li>
-                      <li>
-                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      <li class="">
+                          <a href="../articles/intro.html" class="" title="Articles">Articles</a>
                       </li>
-                      <li>
-                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
+                      <li class="active">
+                          <a href="../api/index.html" class="active" title="API Documentation">API Documentation</a>
                       </li>
                 </ul>    </div>
           </div>
-        </nav>
-        
+        </nav>        
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -72,11 +71,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -101,6 +100,9 @@
                         <ul class="nav level2">
                           <li class="">
                             <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.Tag.html" title="Tag" class="">Tag</a>
@@ -493,6 +495,15 @@
                             <a href="ToSic.Razor.Markup.TagOptions.html" title="TagOptions" class="">TagOptions</a>
                           </li>
                         </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="ToSic.Razor.StartUp.html" title="ToSic.Razor.StartUp" class="">ToSic.Razor.StartUp</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="ToSic.Razor.StartUp.StartUp.html" title="StartUp" class="">StartUp</a>
+                          </li>
+                        </ul>  </li>
                   </ul>        </div>
               </div>
             </div>
@@ -505,7 +516,7 @@
   
   <h1 id="ToSic_Razor_Blade_Text" data-uid="ToSic.Razor.Blade.Text" class="text-break">Class Text
   </h1>
-  <div class="markdown level0 summary"><p>Many simple commands to work with Text inside HTML</p>
+  <div class="markdown level0 summary"><p>Many simple commands to work with Text / Strings</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -523,10 +534,354 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Crop_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Crop(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_After_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.After(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Crop.cs/#L17">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Text_After.cs/#L20">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Blade_Text_After_" data-uid="ToSic.Razor.Blade.Text.After*"></a>
+  <h4 id="ToSic_Razor_Blade_Text_After_System_String_System_String_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.After(System.String,System.String,System.Boolean)">After(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get string value after the (first occurrence) key.
+Case insensitive by default. 
+Will return null in various cases which don&apos;t make sense or if not found.
+Very safe and robust, fully tested. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string After(this string value, string key, bool caseSensitive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The initial string. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to find. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">caseSensitive</span></td>
+        <td><p>Set to true if you need case-sensitive compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ToSic_Razor_Blade_Text_After_System_String_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New in v3.09</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_AfterLast_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.AfterLast(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Text_After.cs/#L34">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Blade_Text_AfterLast_" data-uid="ToSic.Razor.Blade.Text.AfterLast*"></a>
+  <h4 id="ToSic_Razor_Blade_Text_AfterLast_System_String_System_String_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.AfterLast(System.String,System.String,System.Boolean)">AfterLast(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get string value after the last occurrence of a key.
+Will return null in various cases which don&apos;t make sense or if not found.
+Case insensitive by default. 
+Very safe and robust, fully tested.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AfterLast(this string value, string key, bool caseSensitive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The initial string. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to find. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">caseSensitive</span></td>
+        <td><p>Set to true if you need case-sensitive compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ToSic_Razor_Blade_Text_AfterLast_System_String_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New in v3.09</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_Before_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Before(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Text_Before.cs/#L20">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Blade_Text_Before_" data-uid="ToSic.Razor.Blade.Text.Before*"></a>
+  <h4 id="ToSic_Razor_Blade_Text_Before_System_String_System_String_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.Before(System.String,System.String,System.Boolean)">Before(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get string value before the key.
+Case insensitive by default. 
+Will return null in various cases which don&apos;t make sense or if not found.
+Very safe and robust, fully tested.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Before(this string value, string key, bool caseSensitive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The initial string. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to find. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">caseSensitive</span></td>
+        <td><p>Set to true if you need case-sensitive compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ToSic_Razor_Blade_Text_Before_System_String_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New in v3.09</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_BeforeLast_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.BeforeLast(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Text_Before.cs/#L34">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Blade_Text_BeforeLast_" data-uid="ToSic.Razor.Blade.Text.BeforeLast*"></a>
+  <h4 id="ToSic_Razor_Blade_Text_BeforeLast_System_String_System_String_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.BeforeLast(System.String,System.String,System.Boolean)">BeforeLast(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get string value before the last occurrence of a key.
+Case insensitive by default. 
+Will return null in various cases which don&apos;t make sense or if not found.
+Very safe and robust, fully tested.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BeforeLast(this string value, string key, bool caseSensitive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The initial string. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to find. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">caseSensitive</span></td>
+        <td><p>Set to true if you need case-sensitive compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ToSic_Razor_Blade_Text_BeforeLast_System_String_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New in v3.09</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_Between_System_String_System_String_System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Between(System.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Text_Between.cs/#L18">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Blade_Text_Between_" data-uid="ToSic.Razor.Blade.Text.Between*"></a>
+  <h4 id="ToSic_Razor_Blade_Text_Between_System_String_System_String_System_String_System_Boolean_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.Between(System.String,System.String,System.String,System.Boolean,System.Boolean)">Between(String, String, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the text between two keys</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Between(this string value, string before, string after, bool goToEndIfEndNotFound = false, bool caseSensitive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The initial string. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">before</span></td>
+        <td><p>The key to find in front of what we&apos;re looking for. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">after</span></td>
+        <td><p>The key to find in front of what we&apos;re looking for. If null, will always return null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">goToEndIfEndNotFound</span></td>
+        <td><p>If true and the end isn&apos;t found, it will return the rest of the string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">caseSensitive</span></td>
+        <td><p>Set to true if you need case-sensitive compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ToSic_Razor_Blade_Text_Between_System_String_System_String_System_String_System_Boolean_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New in v3.09</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_Crop_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Crop(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Crop.cs/#L17">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Crop_" data-uid="ToSic.Razor.Blade.Text.Crop*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Crop_System_String_System_Int32_" data-uid="ToSic.Razor.Blade.Text.Crop(System.String,System.Int32)">Crop(String, Int32)</h4>
@@ -538,7 +893,7 @@ So it will backtrack to the previous space.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Crop(string value, int length)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string Crop(this string value, int length)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -581,10 +936,10 @@ So it will backtrack to the previous space.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Ellipsis_System_String_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Ellipsis(System.String%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_Ellipsis_System_String_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Ellipsis(System.String%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Ellipsis.cs/#L16">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Ellipsis.cs/#L16">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Ellipsis_" data-uid="ToSic.Razor.Blade.Text.Ellipsis*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Ellipsis_System_String_System_Int32_System_String_" data-uid="ToSic.Razor.Blade.Text.Ellipsis(System.String,System.Int32,System.String)">Ellipsis(String, Int32, String)</h4>
@@ -593,7 +948,7 @@ So it will backtrack to the previous space.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Ellipsis(string value, int length, string suffix = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string Ellipsis(this string value, int length, string suffix = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -645,10 +1000,10 @@ So it will backtrack to the previous space.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_First_System_Boolean_System_String___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.First(System.Boolean%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_First_System_Boolean_System_String___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.First(System.Boolean%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/First.cs/#L21">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/First.cs/#L21">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_First_" data-uid="ToSic.Razor.Blade.Text.First*"></a>
   <h4 id="ToSic_Razor_Blade_Text_First_System_Boolean_System_String___" data-uid="ToSic.Razor.Blade.Text.First(System.Boolean,System.String[])">First(Boolean, String[])</h4>
@@ -700,10 +1055,10 @@ So it will backtrack to the previous space.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_First_System_String___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.First(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_First_System_String___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.First(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/First.cs/#L12">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/First.cs/#L12">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_First_" data-uid="ToSic.Razor.Blade.Text.First*"></a>
   <h4 id="ToSic_Razor_Blade_Text_First_System_String___" data-uid="ToSic.Razor.Blade.Text.First(System.String[])">First(String[])</h4>
@@ -749,10 +1104,10 @@ So it will backtrack to the previous space.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Has_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Has(System.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_Has_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Has(System.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Has.cs/#L15">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Has.cs/#L15">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Has_" data-uid="ToSic.Razor.Blade.Text.Has*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Has_System_Object_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.Has(System.Object,System.Boolean)">Has(Object, Boolean)</h4>
@@ -808,10 +1163,10 @@ or a string containing just whitespace and/or html-whitespaces like <code>&amp;a
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Has_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Has(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_Has_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Has(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Has.cs/#L26">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Has.cs/#L23">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Has_" data-uid="ToSic.Razor.Blade.Text.Has*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Has_System_String_System_Boolean_" data-uid="ToSic.Razor.Blade.Text.Has(System.String,System.Boolean)">Has(String, Boolean)</h4>
@@ -820,7 +1175,7 @@ or a string containing just whitespace and/or html-whitespaces like <code>&amp;a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Has(string value, bool handleHtmlWhitespaces = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Has(this string value, bool handleHtmlWhitespaces = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -863,10 +1218,10 @@ or a string containing just whitespace and/or html-whitespaces like <code>&amp;a
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text_Zip_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Zip(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text_Zip_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text.Zip(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Zip.cs/#L12">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Zip.cs/#L12">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_Text_Zip_" data-uid="ToSic.Razor.Blade.Text.Zip*"></a>
   <h4 id="ToSic_Razor_Blade_Text_Zip_System_String_" data-uid="ToSic.Razor.Blade.Text.Zip(System.String)">Zip(String)</h4>
@@ -875,7 +1230,7 @@ or a string containing just whitespace and/or html-whitespaces like <code>&amp;a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Zip(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string Zip(this string value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -917,15 +1272,16 @@ or a string containing just whitespace and/or html-whitespaces like <code>&amp;a
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/new/master/apiSpec/new?filename=ToSic_Razor_Blade_Text.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_Text.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.Text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/master/Razor.Blade/Blade/Text/Zip.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Text/Zip.cs/#L5" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

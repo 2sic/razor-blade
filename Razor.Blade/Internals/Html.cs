@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Net;
+#if NET5_0_OR_GREATER
+using System.Text.Json;
+#endif
 
 namespace ToSic.Razor.Internals
 {
@@ -28,11 +31,13 @@ namespace ToSic.Razor.Internals
             // First - try if the environment had provided an Delegate for this
             if (ObjToJsonString != null)
                 return ObjToJsonString(jsonObject);
-#if NET45
+#if NETFRAMEWORK
             return new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(jsonObject);
+#elif NETCOREAPP
+            return JsonSerializer.Serialize(jsonObject);
 #else
             throw new NotImplementedException(
-                "Serialization for .net core hasn't been implemented yet, feel free to add this; " +
+                "Serialization for .net standard doesn't exist, feel free to add this; " +
                 "just make sure that the project still compiles and doesn't have new dependencies for the .net40 release");
 #endif
         }

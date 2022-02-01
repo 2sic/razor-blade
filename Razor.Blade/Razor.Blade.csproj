@@ -1,15 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net472;net5.0</TargetFrameworks>
     <RootNamespace>ToSic.Razor</RootNamespace>
-    <Version>03.08.00</Version>
+    <Version>03.09.00</Version>
     <AssemblyName>ToSic.Razor</AssemblyName>
     <PackageId>ToSic.Razor</PackageId>
     <Authors>ToSic.Razor</Authors>
-    <AssemblyVersion>3.07.0.0</AssemblyVersion>
-    <FileVersion>3.07.0.0</FileVersion>
-    <Copyright>Copyright (MIT) © 2021 by 2sic</Copyright>
+    <Copyright>Copyright (MIT) © 2022 by 2sic</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
@@ -18,19 +16,28 @@
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+	    <Version>3.1.16</Version>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0'">
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+	    <Version>3.1.16</Version>
+    </PackageReference>
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+	    <Version>2.2.0</Version>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>

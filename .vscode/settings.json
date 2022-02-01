@@ -1,0 +1,16 @@
+{
+  "gitflow4code.features": [
+    {
+      "name": "feature/strip-arrayInput-feature",
+      "base": "develop"
+    },
+    {
+      "name": "feature/TagStripperAttributes()",
+      "base": "develop"
+    },
+    {
+      "name": "feature/TagStripper()Styles()",
+      "base": "develop"
+    }
+  ]
+}

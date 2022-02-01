@@ -9,14 +9,14 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        public static string Zip(string value)
+        public static string Zip(this string value)
         {
             return string.IsNullOrEmpty(value) 
                 ? value 
                 : ShrinkSpaces(Nl2X(value, " "));
         }
 
-        internal static string ShrinkSpaces(string value)
+        internal static string ShrinkSpaces(this string value)
         {
             return Regex.Replace(value, @"\s{2,}", " ");
         }

@@ -1,0 +1,33 @@
+﻿{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+{{!2sic changes: original from statictoc, changes documented below }}
+
+<ul class="nav level{{level}} navbar-nav">
+  {{#items}}
+    {{^dropdown}}
+      {{! 2sic added active class }}
+      <li class="{{#active}}active{{/active}}">
+        {{^leaf}}
+          <span class="expand-stub"></span>
+        {{/leaf}}
+        {{#topicHref}}
+          {{! 2sic added active class }}
+          <a href="{{topicHref}}"  class="{{#active}}active{{/active}}" title="{{name}}">{{name}}</a>
+        {{/topicHref}}
+        {{^topicHref}}
+          <a>{{{name}}}</a>
+        {{/topicHref}}
+        {{^leaf}}
+          {{>partials/navbar-li}}
+        {{/leaf}}
+      </li>
+    {{/dropdown}}
+    {{#dropdown}}
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{name}} <span class="caret"></span></a>
+        <ul class="dropdown-menu level{{level}}">
+          {{>partials/dd-li}}
+        </ul>
+      </li>
+    {{/dropdown}}
+  {{/items}}
+</ul>
