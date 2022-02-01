@@ -6,6 +6,8 @@
 
 ### Version 3.0 (2019-10-21)
 
+Released V3 which was a complete rework and had a new root namespace.
+
 1. Created website with full API documentation [Razor-Blade.net](https://razor-blade.net)
 1. Created all Html5 tags and quick-accessor using Tag.xxx
 
@@ -18,6 +20,38 @@ We really hate to introduce breaking changes, but 3.0 was a good opportunity for
 1. Reorganized some internal APIs, so they won't disturb in public documentation
 1. Modified the `Text.First()` method so it could now take an unlimited amount of strings to pick the first one. 
 1. Moved primary repo in Github to [2sic](https://github.com/2sic/razor-blade) 
+
+### V3.01 2019-12
+
+Minor fixes / changes which required a version bump.
+
+### V3.02 2020-04
+
+1. Added Tags.SafeUrl()
+
+### V3.03 - V3.06 2021
+
+1. Added support for .net 5 and Oqtane
+1. Deprecating support for the `HtmlPage` because it won't work in .net core
+
+### V3.07 2021-09
+
+1. Created `Tag.RawHtml(...)`
+1. `Tag.Attr(...)` now can also accept ITag values like prepared attributes
+
+### V3.08 2022-01
+
+1. Improved `Tag.Custom(...)` and `Tag.RawHtml(...)`
+
+### V3.09 2022-02
+
+1. Added new IScrub system and ca. 100 unit tests
+1. Implemented DI support
+1. Added `Text.After(...)`
+1. Added `Text.AfterLast(...)`
+1. Added `Text.Before(...)`
+1. Added `Text.BeforeLast(...)`
+1. Added `Text.Between(...)`
 
 --- 
 

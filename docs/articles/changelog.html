@@ -119,6 +119,7 @@
 <h1 id="razorblade-changelog">RazorBlade ChangeLog</h1>
 <h2 id="version-3">Version 3</h2>
 <h3 id="version-30-2019-10-21">Version 3.0 (2019-10-21)</h3>
+<p>Released V3 which was a complete rework and had a new root namespace.</p>
 <ol>
 <li>Created website with full API documentation <a href="https://razor-blade.net">Razor-Blade.net</a></li>
 <li>Created all Html5 tags and quick-accessor using Tag.xxx</li>
@@ -131,6 +132,36 @@
 <li>Reorganized some internal APIs, so they won&#39;t disturb in public documentation</li>
 <li>Modified the <code>Text.First()</code> method so it could now take an unlimited amount of strings to pick the first one. </li>
 <li>Moved primary repo in Github to <a href="https://github.com/2sic/razor-blade">2sic</a> </li>
+</ol>
+<h3 id="v301-2019-12">V3.01 2019-12</h3>
+<p>Minor fixes / changes which required a version bump.</p>
+<h3 id="v302-2020-04">V3.02 2020-04</h3>
+<ol>
+<li>Added Tags.SafeUrl()</li>
+</ol>
+<h3 id="v303---v306-2021">V3.03 - V3.06 2021</h3>
+<ol>
+<li>Added support for .net 5 and Oqtane</li>
+<li>Deprecating support for the <code>HtmlPage</code> because it won&#39;t work in .net core</li>
+</ol>
+<h3 id="v307-2021-09">V3.07 2021-09</h3>
+<ol>
+<li>Created <code>Tag.RawHtml(...)</code></li>
+<li><code>Tag.Attr(...)</code> now can also accept ITag values like prepared attributes</li>
+</ol>
+<h3 id="v308-2022-01">V3.08 2022-01</h3>
+<ol>
+<li>Improved <code>Tag.Custom(...)</code> and <code>Tag.RawHtml(...)</code></li>
+</ol>
+<h3 id="v309-2022-02">V3.09 2022-02</h3>
+<ol>
+<li>Added new IScrub system and ca. 100 unit tests</li>
+<li>Implemented DI support</li>
+<li>Added <code>Text.After(...)</code></li>
+<li>Added <code>Text.AfterLast(...)</code></li>
+<li>Added <code>Text.Before(...)</code></li>
+<li>Added <code>Text.BeforeLast(...)</code></li>
+<li>Added <code>Text.Between(...)</code></li>
 </ol>
 <hr>
 <h2 id="version-2">Version 2</h2>

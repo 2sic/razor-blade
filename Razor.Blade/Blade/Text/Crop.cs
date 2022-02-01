@@ -14,10 +14,6 @@ namespace ToSic.Razor.Blade
         /// <param name="value">String to cut off. Can contain umlauts and html-entities, but should not contain html-tags as there are not treated properly.</param>
         /// <param name="length">length to cut off at</param>
         /// <returns></returns>
-        public static string Crop(string value, int length)
-        {
-            return Truncator.SafeTruncate(value, length);
-        }
-
+        public static string Crop(this string value, int length) => Truncator.SafeTruncate(value, length);
     }
 }

@@ -2183,6 +2183,71 @@ references:
   commentId: T:ToSic.Razor.Blade.Text
   fullName: ToSic.Razor.Blade.Text
   nameWithType: Text
+- uid: ToSic.Razor.Blade.Text.After(System.String,System.String,System.Boolean)
+  name: After(String, String, Boolean)
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_After_System_String_System_String_System_Boolean_
+  commentId: M:ToSic.Razor.Blade.Text.After(System.String,System.String,System.Boolean)
+  fullName: ToSic.Razor.Blade.Text.After(System.String, System.String, System.Boolean)
+  nameWithType: Text.After(String, String, Boolean)
+- uid: ToSic.Razor.Blade.Text.After*
+  name: After
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_After_
+  commentId: Overload:ToSic.Razor.Blade.Text.After
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Text.After
+  nameWithType: Text.After
+- uid: ToSic.Razor.Blade.Text.AfterLast(System.String,System.String,System.Boolean)
+  name: AfterLast(String, String, Boolean)
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_AfterLast_System_String_System_String_System_Boolean_
+  commentId: M:ToSic.Razor.Blade.Text.AfterLast(System.String,System.String,System.Boolean)
+  fullName: ToSic.Razor.Blade.Text.AfterLast(System.String, System.String, System.Boolean)
+  nameWithType: Text.AfterLast(String, String, Boolean)
+- uid: ToSic.Razor.Blade.Text.AfterLast*
+  name: AfterLast
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_AfterLast_
+  commentId: Overload:ToSic.Razor.Blade.Text.AfterLast
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Text.AfterLast
+  nameWithType: Text.AfterLast
+- uid: ToSic.Razor.Blade.Text.Before(System.String,System.String,System.Boolean)
+  name: Before(String, String, Boolean)
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_Before_System_String_System_String_System_Boolean_
+  commentId: M:ToSic.Razor.Blade.Text.Before(System.String,System.String,System.Boolean)
+  fullName: ToSic.Razor.Blade.Text.Before(System.String, System.String, System.Boolean)
+  nameWithType: Text.Before(String, String, Boolean)
+- uid: ToSic.Razor.Blade.Text.Before*
+  name: Before
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_Before_
+  commentId: Overload:ToSic.Razor.Blade.Text.Before
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Text.Before
+  nameWithType: Text.Before
+- uid: ToSic.Razor.Blade.Text.BeforeLast(System.String,System.String,System.Boolean)
+  name: BeforeLast(String, String, Boolean)
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_BeforeLast_System_String_System_String_System_Boolean_
+  commentId: M:ToSic.Razor.Blade.Text.BeforeLast(System.String,System.String,System.Boolean)
+  fullName: ToSic.Razor.Blade.Text.BeforeLast(System.String, System.String, System.Boolean)
+  nameWithType: Text.BeforeLast(String, String, Boolean)
+- uid: ToSic.Razor.Blade.Text.BeforeLast*
+  name: BeforeLast
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_BeforeLast_
+  commentId: Overload:ToSic.Razor.Blade.Text.BeforeLast
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Text.BeforeLast
+  nameWithType: Text.BeforeLast
+- uid: ToSic.Razor.Blade.Text.Between(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  name: Between(String, String, String, Boolean, Boolean)
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_Between_System_String_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ToSic.Razor.Blade.Text.Between(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  fullName: ToSic.Razor.Blade.Text.Between(System.String, System.String, System.String, System.Boolean, System.Boolean)
+  nameWithType: Text.Between(String, String, String, Boolean, Boolean)
+- uid: ToSic.Razor.Blade.Text.Between*
+  name: Between
+  href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_Between_
+  commentId: Overload:ToSic.Razor.Blade.Text.Between
+  isSpec: "True"
+  fullName: ToSic.Razor.Blade.Text.Between
+  nameWithType: Text.Between
 - uid: ToSic.Razor.Blade.Text.Crop(System.String,System.Int32)
   name: Crop(String, Int32)
   href: api/ToSic.Razor.Blade.Text.html#ToSic_Razor_Blade_Text_Crop_System_String_System_Int32_
