@@ -1,6 +1,6 @@
 ﻿namespace ToSic.Razor.Markup
 {
-    public class AttributeBase
+    public class AttributeBase: ToHtmlHybridBase
     {
         /// <summary>
         /// Create an attribute, which can then generated into a name='value' output

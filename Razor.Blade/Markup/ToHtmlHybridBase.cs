@@ -4,24 +4,16 @@ using IHtmlString = System.Web.IHtmlString;
 using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
 using HtmlEncoder = System.Text.Encodings.Web.HtmlEncoder;
 #endif
-using System.Collections.Generic;
 using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
 {
-    public class AttributeList: AttributeListBase, IHtmlString
+    /// <summary>
+    /// ToString and ToHtml for all interfaces
+    /// </summary>
+    [PrivateApi]
+    public abstract class ToHtmlHybridBase: IHtmlString
     {
-        public AttributeList(AttributeOptions options = null): base(options) { }
-
-        public AttributeList(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null)
-            : base(attributes, options)  { }
-        
-        public AttributeList(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null)
-            :base(attributes, options) { }
-
-
-        #region ToString and ToHtml for all interfaces
-
 #if NETFRAMEWORK
         /// <summary>
         /// This is the serialization for the old-style asp.net razor
@@ -39,7 +31,5 @@ namespace ToSic.Razor.Markup
             writer.Write(ToString());
         }
 #endif
-
-        #endregion
     }
 }

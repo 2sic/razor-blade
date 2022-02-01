@@ -6042,19 +6042,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.Attribute.Attribute
   nameWithType: Attribute.Attribute
-- uid: ToSic.Razor.Markup.Attribute.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
-  name: WriteTo(TextWriter, HtmlEncoder)
-  href: api/ToSic.Razor.Markup.Attribute.html#ToSic_Razor_Markup_Attribute_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_
-  commentId: M:ToSic.Razor.Markup.Attribute.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
-  fullName: ToSic.Razor.Markup.Attribute.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)
-  nameWithType: Attribute.WriteTo(TextWriter, HtmlEncoder)
-- uid: ToSic.Razor.Markup.Attribute.WriteTo*
-  name: WriteTo
-  href: api/ToSic.Razor.Markup.Attribute.html#ToSic_Razor_Markup_Attribute_WriteTo_
-  commentId: Overload:ToSic.Razor.Markup.Attribute.WriteTo
-  isSpec: "True"
-  fullName: ToSic.Razor.Markup.Attribute.WriteTo
-  nameWithType: Attribute.WriteTo
 - uid: ToSic.Razor.Markup.AttributeBase
   name: AttributeBase
   href: api/ToSic.Razor.Markup.AttributeBase.html
@@ -6142,19 +6129,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.AttributeList.AttributeList
   nameWithType: AttributeList.AttributeList
-- uid: ToSic.Razor.Markup.AttributeList.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
-  name: WriteTo(TextWriter, HtmlEncoder)
-  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_
-  commentId: M:ToSic.Razor.Markup.AttributeList.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
-  fullName: ToSic.Razor.Markup.AttributeList.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)
-  nameWithType: AttributeList.WriteTo(TextWriter, HtmlEncoder)
-- uid: ToSic.Razor.Markup.AttributeList.WriteTo*
-  name: WriteTo
-  href: api/ToSic.Razor.Markup.AttributeList.html#ToSic_Razor_Markup_AttributeList_WriteTo_
-  commentId: Overload:ToSic.Razor.Markup.AttributeList.WriteTo
-  isSpec: "True"
-  fullName: ToSic.Razor.Markup.AttributeList.WriteTo
-  nameWithType: AttributeList.WriteTo
 - uid: ToSic.Razor.Markup.AttributeListBase
   name: AttributeListBase
   href: api/ToSic.Razor.Markup.AttributeListBase.html
@@ -6678,19 +6652,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.TagBase
   nameWithType: TagBase.TagBase
-- uid: ToSic.Razor.Markup.TagBase.GetEnumerator
-  name: GetEnumerator()
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_GetEnumerator
-  commentId: M:ToSic.Razor.Markup.TagBase.GetEnumerator
-  fullName: ToSic.Razor.Markup.TagBase.GetEnumerator()
-  nameWithType: TagBase.GetEnumerator()
-- uid: ToSic.Razor.Markup.TagBase.GetEnumerator*
-  name: GetEnumerator
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_GetEnumerator_
-  commentId: Overload:ToSic.Razor.Markup.TagBase.GetEnumerator
-  isSpec: "True"
-  fullName: ToSic.Razor.Markup.TagBase.GetEnumerator
-  nameWithType: TagBase.GetEnumerator
 - uid: ToSic.Razor.Markup.TagBase.op_Addition(System.Boolean,ToSic.Razor.Markup.TagBase)
   name: Addition(Boolean, TagBase)
   href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_System_Boolean_ToSic_Razor_Markup_TagBase_
@@ -6753,23 +6714,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.UnaryPlus
   nameWithType: TagBase.UnaryPlus
-- uid: ToSic.Razor.Markup.TagBase.System#Collections#Generic#IEnumerable{ToSic#Razor#Markup#ITag}#GetEnumerator
-  name: IEnumerable<ITag>.GetEnumerator()
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_System_Collections_Generic_IEnumerable_ToSic_Razor_Markup_ITag__GetEnumerator
-  commentId: M:ToSic.Razor.Markup.TagBase.System#Collections#Generic#IEnumerable{ToSic#Razor#Markup#ITag}#GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.ITag>.GetEnumerator()
-  fullName: ToSic.Razor.Markup.TagBase.System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.ITag>.GetEnumerator()
-  nameWithType: TagBase.IEnumerable<ITag>.GetEnumerator()
-  nameWithType.vb: TagBase.System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.ITag>.GetEnumerator()
-- uid: ToSic.Razor.Markup.TagBase.System#Collections#Generic#IEnumerable{ToSic#Razor#Markup#ITag}#GetEnumerator*
-  name: IEnumerable<ITag>.GetEnumerator
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_System_Collections_Generic_IEnumerable_ToSic_Razor_Markup_ITag__GetEnumerator_
-  commentId: Overload:ToSic.Razor.Markup.TagBase.System#Collections#Generic#IEnumerable{ToSic#Razor#Markup#ITag}#GetEnumerator
-  isSpec: "True"
-  name.vb: System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.ITag>.GetEnumerator
-  fullName: ToSic.Razor.Markup.TagBase.System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.ITag>.GetEnumerator
-  nameWithType: TagBase.IEnumerable<ITag>.GetEnumerator
-  nameWithType.vb: TagBase.System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.ITag>.GetEnumerator
 - uid: ToSic.Razor.Markup.TagBase.TagAttributes
   name: TagAttributes
   href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagAttributes
@@ -6861,19 +6805,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.ToString
   nameWithType: TagBase.ToString
-- uid: ToSic.Razor.Markup.TagBase.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
-  name: WriteTo(TextWriter, HtmlEncoder)
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_
-  commentId: M:ToSic.Razor.Markup.TagBase.WriteTo(System.IO.TextWriter,System.Text.Encodings.Web.HtmlEncoder)
-  fullName: ToSic.Razor.Markup.TagBase.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)
-  nameWithType: TagBase.WriteTo(TextWriter, HtmlEncoder)
-- uid: ToSic.Razor.Markup.TagBase.WriteTo*
-  name: WriteTo
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_
-  commentId: Overload:ToSic.Razor.Markup.TagBase.WriteTo
-  isSpec: "True"
-  fullName: ToSic.Razor.Markup.TagBase.WriteTo
-  nameWithType: TagBase.WriteTo
 - uid: ToSic.Razor.Markup.TagCustom
   name: TagCustom
   href: api/ToSic.Razor.Markup.TagCustom.html

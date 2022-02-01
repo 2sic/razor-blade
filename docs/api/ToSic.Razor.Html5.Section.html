@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Section
    | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.46.0.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -72,11 +72,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -523,16 +523,17 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="ToSic.Razor.Markup.TagBase.html">TagBase</a></div>
-    <div class="level2"><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag</a>&lt;<a class="xref" href="ToSic.Razor.Html5.Section.html">Section</a>&gt;</div>
-    <div class="level3"><span class="xref">Section</span></div>
+    <div class="level1"><span class="xref">ToSic.Razor.Markup.ToHtmlHybridBase</span></div>
+    <div class="level2"><a class="xref" href="ToSic.Razor.Markup.TagBase.html">TagBase</a></div>
+    <div class="level3"><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag</a>&lt;<a class="xref" href="ToSic.Razor.Html5.Section.html">Section</a>&gt;</div>
+    <div class="level4"><span class="xref">Section</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
     <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
-    <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -588,15 +589,6 @@
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagContents">TagBase.TagContents</a>
     </div>
     <div>
-      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_System_Collections_Generic_IEnumerable_ToSic_Razor_Markup_ITag__GetEnumerator">TagBase.IEnumerable&lt;ITag&gt;.GetEnumerator()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_GetEnumerator">TagBase.GetEnumerator()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_WriteTo_System_IO_TextWriter_System_Text_Encodings_Web_HtmlEncoder_">TagBase.WriteTo(TextWriter, HtmlEncoder)</a>
-    </div>
-    <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagStart">TagBase.TagStart</a>
     </div>
     <div>
@@ -607,9 +599,12 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Html5_Section_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Section : Tag&lt;Section&gt;, ITag, IEnumerable&lt;ITag&gt;, IEnumerable, IHtmlContent</code></pre>
+    <pre><code class="lang-csharp hljs">public class Section : Tag&lt;Section&gt;, IHtmlContent, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
+  </div>
   <div>
       <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
   </div>
@@ -618,9 +613,6 @@
   </div>
   <div>
       <span class="xref">System.Collections.IEnumerable</span>
-  </div>
-  <div>
-      <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
   </div>
 </article>
           </div>
@@ -638,7 +630,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

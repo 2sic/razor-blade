@@ -59,24 +59,22 @@
     <None Include="articles\toc.yml" />
     <None Include="docfx.json" />
     <None Include="index.md" />
-    <None Include="packages.config" />
     <None Include="filterConfig.yml" />
+    <None Include="packages.config" />
+    <None Include="template\navbar-li.tmpl.partial" />
+    <None Include="template\navbar.tmpl.partial" />
     <None Include="toc.yml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
-    <Content Include="api\.gitignore" />
     <Content Include="images\logos\razor-blade-logo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="template\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\docfx.console.2.46.0\build\docfx.console.targets" Condition="Exists('..\packages\docfx.console.2.46.0\build\docfx.console.targets')" />
+  <Import Project="..\packages\docfx.console.2.59.0\build\docfx.console.targets" Condition="Exists('..\packages\docfx.console.2.59.0\build\docfx.console.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\docfx.console.2.46.0\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.console.2.46.0\build\docfx.console.targets'))" />
+    <Error Condition="!Exists('..\packages\docfx.console.2.59.0\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.console.2.59.0\build\docfx.console.targets'))" />
   </Target>
 </Project>
