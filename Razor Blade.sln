@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests for RazorBlade", "Razor Blades Tests\Tests for RazorBlade.csproj", "{B163AA4D-8149-4A08-B79E-82B64ED940EE}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source-Code-Generator", "Source-Code-Generator\Source-Code-Generator.csproj", "{7AF9B0C8-74F7-4026-8537-8485BCFDBD97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor-Blade.net DocFx Generator", "DocFx Generator\Razor-Blade.net DocFx Generator.csproj", "{A73F840F-B553-4406-BDD7-A2ED2200D3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToSic.RazorBladeTests", "ToSic.RazorBladeTests\ToSic.RazorBladeTests.csproj", "{8C646237-2186-4472-B697-E7B9A0C663BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{A73F840F-B553-4406-BDD7-A2ED2200D3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A73F840F-B553-4406-BDD7-A2ED2200D3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A73F840F-B553-4406-BDD7-A2ED2200D3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
