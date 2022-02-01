@@ -6,7 +6,7 @@ namespace ToSic.RazorBladeTests.TagsTests
   [TestClass]
   public class StripTests
   {
-    private string StripTags(string original) => new TagStripper().All(original);
+    private string StripTags(string original) => new Scrub().All(original);
 
     [TestMethod]
     public void Basic()

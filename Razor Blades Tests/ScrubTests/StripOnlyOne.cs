@@ -1,13 +1,13 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Blade;
 
-namespace ToSic.RazorBladeTests.TagStripperTests
+namespace ToSic.RazorBladeTests.ScrubTests
 {
     // Tests for the optional input
     [TestClass]
     public class StripOnlyOne
     {
-        private static string StripOnly(string original, string tag) => new TagStripper().Only(original, tag);
+        private static string StripOnly(string original, string tag) => new Scrub().Only(original, tag);
 
         [TestMethod]
         public void Normal()

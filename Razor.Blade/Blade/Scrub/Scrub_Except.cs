@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Blade
 {
-    public partial class TagStripper
+    public partial class Scrub
     {
         ///<summary>
         /// Remove all HTML Tags exept of a specified list

@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Blade
 {
-    public partial class TagStripper
+    public partial class Scrub
     {
         /// <summary>
         /// Remove all HTML tags from a string.
@@ -16,8 +16,7 @@ namespace ToSic.Razor.Blade
         public string All(string original)
         {
             // Extra null check
-            if (original is null) 
-                    return null;
+            if (original is null) return null;
 
             // remove all tags, replace with spaces to prevent words from sticking together
             var sanitizedText = Regex.Replace(original, "<[^>]*>", " ", RegexOptions.IgnoreCase);
@@ -44,13 +43,14 @@ namespace ToSic.Razor.Blade
         /// </remarks>
         public string Only(string original, string tag)
         {
-            // Null check
-            if (tag == null || original == null)
-                return original;
+            // Null/Empty check
+            if (tag == null || original == null) return original;
+            
+            // language=regex
+            const string pattern = @"<\/?TagToReplace\s*([a-zA-Z\\s]*\s*=(""|')?[^>]*(""|')?\s*)*\s*\/?>";
 
             //Remove the selected tags
-            var sanitizedText = Regex.Replace(original, @"<\/?" + Regex.Escape(tag) + @"\s*([a-zA-Z\\s]*\s*=(""|')?[^>]*(""|')?\s*)*\s*\/?>", "", RegexOptions.IgnoreCase);
-            return sanitizedText;
+            return Regex.Replace(original, pattern.Replace("TagToReplace", tag), "", RegexOptions.IgnoreCase);
         }
 
         /// <summary>
@@ -65,12 +65,9 @@ namespace ToSic.Razor.Blade
         public string Only(string original, params string[] tags)
         {
             // Null check
-            if (tags == null || !tags.Any() || original == null)
-                return original;
+            if (tags == null || !tags.Any() || original == null) return original;
 
-            original = tags.Aggregate(original, (originalstr, tag) => originalstr = Only(originalstr, tag));
-
-            return original;
+            return tags.Aggregate(original, (previous, tag) => previous = Only(previous, tag));
         }
     }
 }

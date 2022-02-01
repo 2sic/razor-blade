@@ -12,7 +12,7 @@ namespace ToSic.Razor.Blade
     /// <remarks>
     /// Added in v2
     /// </remarks>
-    [Obsolete("Starting in V3.9 we suggest you use TagStripper.All(...) instead")]
-    public static string Strip(string original) => new TagStripper().All(original);
+    [Obsolete("Starting in V3.9 we suggest you use Scrub.All(...) instead")]
+    public static string Strip(string original) => new Scrub().All(original);
   }
 }

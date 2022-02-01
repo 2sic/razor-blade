@@ -3,9 +3,12 @@ using System.Text.RegularExpressions;
 
 namespace ToSic.Razor.Blade
 {
-    public partial class TagStripper
+    public partial class Scrub
     {
-        //Clean up space between tag-name and tag-ending (> or />)
+        /// <summary>
+        /// Clean up space between tag-name and tag-ending (&gt; or /&gt;)
+        /// </summary>
+        /// <returns></returns>
         private string SpaceCleaning(string original)
         {
             original = Regex.Replace(original, "(?<=<\\w+[^>/]*) {2,}(?=\\/?>)", "");
@@ -15,7 +18,7 @@ namespace ToSic.Razor.Blade
         }
 
         /// regex explained:
-        /// 1. Positive lookbehind (basically checks if there is an opening tag before the identifed attribute and only proceds with the match if that is true): 
+        /// 1. Positive lookbehind (basically checks if there is an opening tag before the identified attribute and only proceeds with the match if that is true): 
         ///   (?<=<\w+\s+[^>]*)
         /// 
         /// 2. Match (matches one or more \w characters if there is only spaces or no spaces between it and the = character 
@@ -28,13 +31,13 @@ namespace ToSic.Razor.Blade
         /// This is only the regex that matches attributes with no quotes but the other work almost the same one just matches ' after the = and the other one " 
 
 
-        private static string AttributePlaceholder = @"(\w+)"; // language=regex
-        private static string AttributeRegexNoQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)"; // language=regex
-        private static string AttributeRegexSingleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*(')[^']*(')(?=[^>]*\/?>)"; // language=regex
-        private static string AttributeRegexDoubleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)"; // language=regex
-        private static string AttributeOnlyDeclared = @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b(\w+)\b(?!=)(?=[^>]*\/?>)"; // language=regex
+        private const string AttributePlaceholder = @"(\w+)"; // language=regex
+        private const string AttributeRegexNoQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeRegexSingleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*(')[^']*(')(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeRegexDoubleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeOnlyDeclared = @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b(\w+)\b(?!=)(?=[^>]*\/?>)"; // language=regex
 
-        ///<summary>
+        /// <summary>
         /// Remove all HTML attributes.
         /// </summary>
         /// <param name="original">original string containing HTML</param>
@@ -42,8 +45,7 @@ namespace ToSic.Razor.Blade
         public string Attributes(string original)
         {
             //Null check
-            if (original == null)
-                return original;
+            if (original == null) return null;
 
             //Remove all attributes with no quotes
             original = Regex.Replace(original, AttributeRegexNoQuote, "", RegexOptions.IgnoreCase);
@@ -63,7 +65,7 @@ namespace ToSic.Razor.Blade
             return original;
         }
 
-        ///<summary>
+        /// <summary>
         /// Remove all instances of a specified attribute.
         /// </summary>
         /// <param name="original">original string containing HTML</param>
@@ -79,7 +81,7 @@ namespace ToSic.Razor.Blade
             //Set the attribute that should be replaced
             var escaped = Regex.Escape(attribute);
 
-            //Replace the attribute placeholder in all the regex patterns with the actuall attribute
+            //Replace the attribute placeholder in all the regex patterns with the actual attribute
             var regexNoQuotes = AttributeRegexNoQuote.Replace(AttributePlaceholder, escaped);
             var regexSingleQuotes = AttributeRegexSingleQuote.Replace(AttributePlaceholder, escaped);
             var regexDoubleQuotes = AttributeRegexDoubleQuote.Replace(AttributePlaceholder, escaped);
@@ -103,7 +105,7 @@ namespace ToSic.Razor.Blade
             return original;
         }
 
-        ///<summary>
+        /// <summary>
         /// Remove all instances of an array of specified attributes.
         /// </summary>
         /// <param name="original">original string containing HTML</param>
@@ -111,11 +113,11 @@ namespace ToSic.Razor.Blade
         /// <returns>A string which doesn't contain the specified attributes</returns>
         public string Attributes(string original, params string[] attributes)
         {
-            //Null check
+            // Null check
             if (attributes == null || !attributes.Any() || original == null)
                 return original;
 
-            original = attributes.Aggregate(original,(originalstr, s) => originalstr = Attributes(originalstr, s));
+            original = attributes.Aggregate(original,(previous, attribute) => previous = Attributes(previous, attribute));
 
             return original;
         }

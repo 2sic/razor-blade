@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToSic.Razor.Blade;
 
-namespace ToSic.RazorBladeTests.TagStripperTests
+namespace ToSic.RazorBladeTests.ScrubTests
 {
     [TestClass]
     public class StripOnlyMany
     {
-        private static string StripOnly(string original, params string[] tags) => new TagStripper().Only(original, tags);
+        private static string StripOnly(string original, params string[] tags) => new Scrub().Only(original, tags);
 
         [TestMethod]
         public void Normal1()
