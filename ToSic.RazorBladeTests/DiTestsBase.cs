@@ -1,6 +1,6 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
-using ToSic.Razor.Blade;
+using ToSic.Razor.StartUp;
 
 namespace ToSic.RazorBladeTests
 {

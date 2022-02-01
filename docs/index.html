@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>API Docs of RazorBlade 3.0 | RazorBlade 3 </title>
+    <title>API Docs of RazorBlade 3.09 | RazorBlade 3 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="API Docs of RazorBlade 3.0 | RazorBlade 3 ">
+    <meta name="title" content="API Docs of RazorBlade 3.09 | RazorBlade 3 ">
     <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -83,7 +83,7 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <p><img src="images/logos/razor-blade-logo.png" width="100%"></p>
-<h1 id="api-docs-of-razorblade-30"><strong>API Docs of <em>RazorBlade 3.0</em></strong></h1>
+<h1 id="api-docs-of-razorblade-309"><strong>API Docs of <em>RazorBlade 3.09</em></strong></h1>
 <p>These docs are meant for programmers using <a href="https://github.com/2sic/razor-blade">RazorBlade</a>. These will usually be people working with C# and Razor, MVC etc.</p>
 <h2 id="apis-youre-probably-looking-for">APIs you&#39;re probably looking for</h2>
 <ol>
@@ -146,7 +146,9 @@ HtmlPage.AddIcon(&quot;iconfile.png&quot;);
 
   @* an it won&#39;t cut off in the middle of &amp;auml; *@
   @Text.Ellipsis(&quot;Visit M&amp;uuml;nchen&quot;, 10)
-</code></pre><h2 id="change-history">Change History</h2>
+</code></pre><h2 id="nice-to-know">Nice to Know</h2>
+<p><strong>RazorBlade</strong> has more than 250 unit tests to make it rock-solid!</p>
+<h2 id="change-history">Change History</h2>
 <h3 id="v300-2019-10">V3.00 2019-10</h3>
 <p>Released V3 which was a complete rework and had a new root namespace.</p>
 <h3 id="v301-2019-12">V3.01 2019-12</h3>
@@ -154,6 +156,25 @@ HtmlPage.AddIcon(&quot;iconfile.png&quot;);
 <h3 id="v302-2020-04">V3.02 2020-04</h3>
 <ol>
 <li>Added Tags.SafeUrl()</li>
+</ol>
+<h3 id="v303---v306-2021">V3.03 - V3.06 2021</h3>
+<ol>
+<li>Added support for .net 5 and Oqtane</li>
+<li>Deprecating support for the <code>HtmlPage</code> because it won&#39;t work in .net core</li>
+</ol>
+<h3 id="v307-2021-09">V3.07 2021-09</h3>
+<ol>
+<li>Created <code>Tag.RawHtml(...)</code></li>
+<li><code>Tag.Attr(...)</code> now can also accept ITag values like prepared attributes</li>
+</ol>
+<h3 id="v308-2022-01">V3.08 2022-01</h3>
+<ol>
+<li>Improved <code>Tag.Custom(...)</code> and <code>Tag.RawHtml(...)</code></li>
+</ol>
+<h3 id="v309-2022-02">V3.09 2022-02</h3>
+<ol>
+<li>Added new IScrub system and ca. 100 unit tests</li>
+<li>Implemented DI support</li>
 </ol>
 </article>
           </div>
@@ -163,7 +184,7 @@ HtmlPage.AddIcon(&quot;iconfile.png&quot;);
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/feature/TagStripper()Styles()/DocFx Generator/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/DocFx Generator/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

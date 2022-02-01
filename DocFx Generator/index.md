@@ -1,7 +1,7 @@
 
 <img src="images/logos/razor-blade-logo.png" width="100%">
 
-# **API Docs of _RazorBlade 3.0_**
+# **API Docs of _RazorBlade 3.09_**
 
 These docs are meant for programmers using [RazorBlade](https://github.com/2sic/razor-blade). These will usually be people working with C# and Razor, MVC etc.
 
@@ -84,6 +84,10 @@ _Note that HTML whitespace like `&nbsp;` will also be treated as empty, unless y
 
 ```
 
+## Nice to Know
+
+**RazorBlade** has more than 250 unit tests to make it rock-solid!
+
 ## Change History
 
 ### V3.00 2019-10
@@ -97,3 +101,22 @@ Minor fixes / changes which required a version bump.
 ### V3.02 2020-04
 
 1. Added Tags.SafeUrl()
+
+### V3.03 - V3.06 2021
+
+1. Added support for .net 5 and Oqtane
+1. Deprecating support for the `HtmlPage` because it won't work in .net core
+
+### V3.07 2021-09
+
+1. Created `Tag.RawHtml(...)`
+1. `Tag.Attr(...)` now can also accept ITag values like prepared attributes
+
+### V3.08 2022-01
+
+1. Improved `Tag.Custom(...)` and `Tag.RawHtml(...)`
+
+### V3.09 2022-02
+
+1. Added new IScrub system and ca. 100 unit tests
+1. Implemented DI support
