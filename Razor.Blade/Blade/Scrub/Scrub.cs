@@ -8,5 +8,6 @@ namespace ToSic.Razor.Blade
     [PrivateApi]
     public partial class Scrub: IScrub
     {
+        public Scrub() {}
     }
 }

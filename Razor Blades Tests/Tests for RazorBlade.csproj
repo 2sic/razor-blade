@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ToSic.RazorBladeTests</RootNamespace>
     <AssemblyName>Razor Blades Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
@@ -54,48 +54,7 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Html5QuickAccess\ATests.cs" />
-    <Compile Include="Html5QuickAccess\TableTestsQa.cs" />
-    <Compile Include="HtmlTagsTests\ObjectTests.cs" />
-    <Compile Include="HtmlTagsTests\TableTests.cs" />
-    <Compile Include="HtmlTagsTests\MediaTests.cs" />
-    <Compile Include="HtmlTagsTests\ImgTests.cs" />
-    <Compile Include="HtmlTagsTests\Headings.cs" />
-    <Compile Include="HtmlTagsTests\FrameTests.cs" />
-    <Compile Include="HtmlTagsTests\Script_JsonLdTests.cs" />
-    <Compile Include="HtmlTagsTests\MetaTests.cs" />
-    <Compile Include="HtmlTagsTests\HrBrTests.cs" />
-    <Compile Include="HtmlTagsTests\Comments.cs" />
-    <Compile Include="HtmlTests\HtmlToJsonTests.cs" />
-    <Compile Include="HtmlTagsTests\IconTests\MimeTypes.cs" />
-    <Compile Include="HtmlTagsTests\IconTests\Icons.cs" />
-    <Compile Include="HtmlTagsTests\IconTests\IconSets.cs" />
-    <Compile Include="InternalTests\UriEncoding.cs" />
-    <Compile Include="TagBuilderTests\HtmlEncode.cs" />
-    <Compile Include="TagBuilderTests\TagOpenClose.cs" />
-    <Compile Include="TagBuilderTests\TagBuilderTests.cs" />
-    <Compile Include="TagBuilderTests\TagBuilderOpenTests.cs" />
-    <Compile Include="TagBuilderTests\AttributeBuilderTests.cs" />
-    <Compile Include="TagBuilderTests\AttributesBuilderTest.cs" />
-    <Compile Include="TagsTests\StripTests.cs" />
-    <Compile Include="TagTests\TagTestBase.cs" />
-    <Compile Include="TagTests\TagObjectBasics.cs" />
-    <Compile Include="TagTests\ManualTagsTests.cs" />
-    <Compile Include="TagTests\ChildrenTests.cs" />
-    <Compile Include="TagTests\TagAttributeTests.cs" />
-    <Compile Include="TagTests\TagContentVariations.cs" />
-    <Compile Include="TagTests\TagOperatorsTests.cs" />
-    <Compile Include="TagTests\TagCustomTests.cs" />
-    <Compile Include="TagTests\RawHtmlTests.cs" />
-    <Compile Include="TextTests\Text_Crop.cs" />
-    <Compile Include="TextTests\Test_Blades_Zip.cs" />
-    <Compile Include="TagBuilderTests\Test_Blades_Html.cs" />
-    <Compile Include="TextTests\Test_Blades_HasText.cs" />
-    <Compile Include="TextTests\Test_Blades_FirstText.cs" />
-    <Compile Include="TextTests\Text_Ellipsis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test_Blades_Dynamic.cs" />
-    <Compile Include="TagsTests\Nl2BrTests.cs" />
     <Compile Include="Initialize.cs" />
   </ItemGroup>
   <ItemGroup>
