@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests for RazorBlade", "Razor Blades Tests\Tests for RazorBlade.csproj", "{B163AA4D-8149-4A08-B79E-82B64ED940EE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor.Blade.Dnn", "ToSic.Razor.Dnn\Razor.Blade.Dnn.csproj", "{BB44314B-1342-4119-AE76-E33529826EC6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor.Blade", "Razor.Blade\Razor.Blade.csproj", "{C0BD8761-0331-4F03-B0B5-422E73B75955}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source-Code-Generator", "So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor-Blade.net DocFx Generator", "DocFx Generator\Razor-Blade.net DocFx Generator.csproj", "{A73F840F-B553-4406-BDD7-A2ED2200D3FE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToSic.RazorBladeTests", "ToSic.RazorBladeTests\ToSic.RazorBladeTests.csproj", "{8C646237-2186-4472-B697-E7B9A0C663BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B163AA4D-8149-4A08-B79E-82B64ED940EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B163AA4D-8149-4A08-B79E-82B64ED940EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B163AA4D-8149-4A08-B79E-82B64ED940EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B163AA4D-8149-4A08-B79E-82B64ED940EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BB44314B-1342-4119-AE76-E33529826EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB44314B-1342-4119-AE76-E33529826EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB44314B-1342-4119-AE76-E33529826EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +33,10 @@ Global
 		{A73F840F-B553-4406-BDD7-A2ED2200D3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A73F840F-B553-4406-BDD7-A2ED2200D3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A73F840F-B553-4406-BDD7-A2ED2200D3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C646237-2186-4472-B697-E7B9A0C663BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

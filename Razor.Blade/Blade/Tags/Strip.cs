@@ -7,12 +7,12 @@ namespace ToSic.Razor.Blade
     /// <summary>
     /// Remove all HTML tags from a string.
     /// </summary>
-    /// <param name="original">original string containing HTML</param>
+    /// <param name="original">original HTML</param>
     /// <returns>A cleaned string without any HTML tags</returns>
     /// <remarks>
     /// Added in v2
     /// </remarks>
-    [Obsolete("Starting in V3.9 we suggest you use TagStripper.All(...) instead")]
-    public static string Strip(string original) => new TagStripper().All(original);
+    [Obsolete("Starting in V3.9 you should use IScrub.All(...) instead")]
+    public static string Strip(string original) => new ScrubImplementation().All(original);
   }
 }
