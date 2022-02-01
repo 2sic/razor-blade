@@ -1,14 +1,17 @@
 ﻿{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+{{!2sic changes: original from statictoc, changes documented below }}
 
 <ul class="nav level{{level}} navbar-nav">
   {{#items}}
     {{^dropdown}}
-      <li>
+      {{! 2sic added active class }}
+      <li class="{{#active}}active{{/active}}">
         {{^leaf}}
           <span class="expand-stub"></span>
         {{/leaf}}
         {{#topicHref}}
-          <a href="{{topicHref}}" title="{{name}}">{{name}}</a>
+          {{! 2sic added active class }}
+          <a href="{{topicHref}}"  class="{{#active}}active{{/active}}" title="{{name}}">{{name}}</a>
         {{/topicHref}}
         {{^topicHref}}
           <a>{{{name}}}</a>

@@ -67,7 +67,8 @@
     "dest": "../docs",
     "template": [
       "default",
-      "statictoc"
+      "statictoc",
+      "templates/razor-blade"
     ],
     "globalMetadata": {
       "_appTitle": "RazorBlade 3",

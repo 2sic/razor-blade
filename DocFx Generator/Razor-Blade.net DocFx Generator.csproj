@@ -61,8 +61,8 @@
     <None Include="index.md" />
     <None Include="filterConfig.yml" />
     <None Include="packages.config" />
-    <None Include="template\navbar-li.tmpl.partial" />
-    <None Include="template\navbar.tmpl.partial" />
+    <None Include="templates\razor-blade\partials\navbar-li.tmpl.partial" />
+    <None Include="templates\razor-blade\partials\navbar.tmpl.partial" />
     <None Include="toc.yml" />
   </ItemGroup>
   <ItemGroup>
