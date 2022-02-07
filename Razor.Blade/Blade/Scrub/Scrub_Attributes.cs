@@ -32,10 +32,10 @@ namespace ToSic.Razor.Blade
 
 
         private const string AttributePlaceholder = @"(\w+)"; // language=regex
-        private const string AttributeRegexNoQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)"; // language=regex
-        private const string AttributeRegexSingleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*(')[^']*(')(?=[^>]*\/?>)"; // language=regex
-        private const string AttributeRegexDoubleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)"; // language=regex
-        private const string AttributeOnlyDeclared = @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b(\w+)\b(?!=)(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeRegexNoQuote = @"(?<=<\w+\s+[^>]*)(\w+)-?(\w*)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeRegexSingleQuote = @"(?<=<\w+\s+[^>]*)(\w+)-?(\w*)\s*=\s*(')[^']*(')(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeRegexDoubleQuote = @"(?<=<\w+\s+[^>]*)(\w+)-?(\w*)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeOnlyDeclared = @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b(\w+)-?\b(?!=)(?=[^>]*\/?>)"; // language=regex
 
         /// <summary>
         /// Remove all HTML attributes.
