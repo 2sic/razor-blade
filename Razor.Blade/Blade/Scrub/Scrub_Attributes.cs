@@ -30,12 +30,11 @@ namespace ToSic.Razor.Blade
         /// 
         /// This is only the regex that matches attributes with no quotes but the other work almost the same one just matches ' after the = and the other one " 
 
-
-        private const string AttributePlaceholder = @"(\w+)"; // language=regex
-        private const string AttributeRegexNoQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*[^ ""'=><`]+(?=[^>]*\/?>)"; // language=regex
-        private const string AttributeRegexSingleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*(')[^']*(')(?=[^>]*\/?>)"; // language=regex
-        private const string AttributeRegexDoubleQuote = @"(?<=<\w+\s+[^>]*)(\w+)\s*=\s*("")[^""]*("")(?=[^>]*\/?>)"; // language=regex
-        private const string AttributeOnlyDeclared = @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b(\w+)\b(?!=)(?=[^>]*\/?>)"; // language=regex
+        private const string AttributePlaceholder = @"[^""'>,= ]+"; // language=regex
+        private const string AttributeRegexNoQuote = @"(?<=<\w+\s+[^>]*)[^""'>,= ]+\s*=\s*[^ ""'=><`\s]+(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeRegexSingleQuote = @"(?<=<\w+\s+[^>]*)[^""'>,= ]+\s*=\s*(')[^']*(')(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeRegexDoubleQuote = @"(?<=<\w+\s+[^>]*)[^""'>,= ]+\s*=\s*("")[^""]*("")(?=[^>]*\/?>)"; // language=regex
+        private const string AttributeOnlyDeclared = @"(?<=<\w+\s+[^>]*)(?<!(=(""|')([^>]*)|=[\w-]*|=))\b[^""'>,= ]+\b(?!=)(?=[^>]*\/?>)"; // language=regex
 
         /// <summary>
         /// Remove all HTML attributes.

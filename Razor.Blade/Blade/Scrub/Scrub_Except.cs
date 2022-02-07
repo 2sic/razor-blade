@@ -23,7 +23,7 @@ namespace ToSic.Razor.Blade
             var exceptRule = "(?!" + exceptList + ")";
 
             //Combines the created pattern with the final pattern 
-            exceptRule = "<\\/?" + exceptRule + "[a-zA-Z]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>"; // language=regex
+            exceptRule = "<\\/?" + exceptRule + "[a-zA-Z1-9]+\\s*([a-zA-Z\\s]*\\s*=(\"|')?[^>]*(\"|')?\\s*)*\\s*\\/?>"; // language=regex
 
             //Use the created pattern to replace the tags 
             var sanitizedText = Regex.Replace(html, exceptRule, "", RegexOptions.IgnoreCase);

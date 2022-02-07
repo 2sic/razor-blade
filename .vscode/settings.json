@@ -12,5 +12,11 @@
       "name": "feature/TagStripper()Styles()",
       "base": "develop"
     }
+  ],
+  "gitflow4code.hotfixes": [
+    {
+      "name": "hotfix/MultipleDashesBetweenAttributes",
+      "base": "master"
+    }
   ]
 }
