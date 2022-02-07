@@ -97,5 +97,19 @@ namespace ToSic.RazorBladeTests.ScrubTests
         {
             Assert.AreEqual("<em>Hello</em><a> small </a><i>World</i>", StripExcept("<div><em>Hello</em><p><a> small </a></p><i>World</i></div>", TagSets.InlineBasic));
         }
+
+        [TestMethod]
+        public void TagNamesWithNumbers()
+        {
+            string[] testTags = { "div", "span" };
+            Assert.AreEqual("<div><span>The cool title</span></div>", StripExcept("<div><h2><span>The cool title</span></h2></div>", testTags));
+        }
+
+        [TestMethod]
+        public void TagNamesWithNumbers2()
+        {
+            string[] testTags = { "div", "span" };
+            Assert.AreEqual("A cool text with some random numbers: 1234567890", StripExcept("<2sic><h2><he11o>A cool text with some random numbers: 1234567890</he11o></h2></2sic>", testTags));
+        }
     }
 }

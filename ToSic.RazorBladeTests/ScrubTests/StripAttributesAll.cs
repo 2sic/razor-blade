@@ -72,6 +72,34 @@ namespace ToSic.RazorBladeTests.ScrubTests
         {
             Assert.AreEqual("<div >", StripAttributes("<div class=\" \">"));
         }
+
+        [TestMethod]
+        public void AttributeNameWithMinus1()
+        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+        {
+            Assert.AreEqual("<div >", StripAttributes("<div hello-world>"));
+        }
+
+        [TestMethod]
+        public void AttributeNameWithMinus2()
+        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+        {
+            Assert.AreEqual("<div >", StripAttributes("<div hello-world=\"\">"));
+        }
+
+        [TestMethod]
+        public void AttributeNameWithMinus3()
+        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+        {
+            Assert.AreEqual("<div >", StripAttributes("<div hello-world=''>"));
+        }
+
+        [TestMethod]
+        public void AttributeNameWithMinus4()
+        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+        {
+            Assert.AreEqual("<div >", StripAttributes("<div hello-world=hello>"));
+        }
     }
 }
 
