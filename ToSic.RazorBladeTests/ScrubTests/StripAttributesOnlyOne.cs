@@ -8,6 +8,11 @@ namespace ToSic.RazorBladeTests.ScrubTests
     public class StripAttributesOnlyOne: ScrubBase
     {
         string StripAttributes(string original, string attribute) => GetService<IScrub>().Attributes(original, attribute);
+        
+        private void TestStripOnly(string expected, string original, string attribute) 
+            => Assert.AreEqual(expected, GetService<IScrub>().Attributes(original, attribute));
+        
+        private void TestStripUnchanged(string original, string attribute) => TestStripOnly(original, original, attribute);
 
         [TestMethod]
         public void Normal()
@@ -70,5 +75,16 @@ namespace ToSic.RazorBladeTests.ScrubTests
         {
             Assert.AreEqual("<div >", StripAttributes("<div class=\" \">", "class"));
         }
+
+        [TestMethod]
+        public void AttributeNameWithMinus() => TestStripOnly("<div >", "<div hello-world=hello>", "hello-world");
+
+        [TestMethod]
+        public void AttributeNameWithMinusNotFound() => TestStripUnchanged("<div hello-world=hello>", "world-hello");
+        [TestMethod]
+        public void AttributeNameWithMinusAlternateCase() => TestStripOnly("<div >", "<div HELLO-world=hello>", "hello-world");
+
+        [TestMethod]
+        public void AttributeNameWithMinusAlternateCaseNotFound() => TestStripUnchanged("<div HELLO-world=hello>", "world-HELLO");
     }
 }
