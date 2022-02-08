@@ -15,72 +15,46 @@ namespace ToSic.RazorBladeTests.ScrubTests
         private void TestStripUnchanged(string original, string attribute) => TestStripOnly(original, original, attribute);
 
         [TestMethod]
-        public void Normal()
-        {
-            Assert.AreEqual("<div >", StripAttributes("<div class=example>", "class"));
-        }
+        public void NormalNoQuotes() => TestStripOnly("<div >", "<div class=example>", "class");
 
         [TestMethod]
-        public void Normal2()
-        {
-            Assert.AreEqual("<div >", StripAttributes("<div class='example'>", "class"));
-        }
+        public void NormalSingleQuotes() => TestStripOnly("<div >", "<div class='example'>", "class");
 
         [TestMethod]
-        public void Normal3()
-        {
-            Assert.AreEqual("<div >", StripAttributes("<div class=\"example\">", "class"));
-        }
+        public void NormalDoubleQuotes() => TestStripOnly("<div >", "<div class=\"example\">", "class");
 
         [TestMethod]
-        public void DoubleSingleNoQuotes()
-        {
-            Assert.AreEqual("<div src='https://www...' width=100>", StripAttributes("<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "style"));
-        }
+        public void DoubleSingleNoQuotes() => TestStripOnly("<div src='https://www...' width=100>", "<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "style");
 
         [TestMethod]
-        public void DoubleSingleNoQuotes2()
-        {
-            Assert.AreEqual("<div style=\"background-color:blue; color: yellow;\" width=100>", StripAttributes("<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "src"));
-        }
+        public void DoubleSingleNoQuotes2() => TestStripOnly("<div style=\"background-color:blue; color: yellow;\" width=100>", "<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "src");
 
         [TestMethod]
-        public void DoubleSingleNoQuotes3()
-        {
-            Assert.AreEqual("<div style=\"background-color:blue; color: yellow;\" src='https://www...' >", StripAttributes("<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "width"));
-        }
+        public void DoubleSingleNoQuotes3() => TestStripOnly("<div style=\"background-color:blue; color: yellow;\" src='https://www...' >", "<div style=\"background-color:blue; color: yellow;\" src='https://www...' width=100>", "width");
 
         [TestMethod]
-        public void InvalidAttributes()
-        {
-            Assert.AreEqual("<div style=\"background-color:blue'>", StripAttributes("<div style=\"background-color:blue'>", "style"));
-        }
+        public void InvalidAttributes() => TestStripUnchanged("<div style=\"background-color:blue'>", "style");
 
         [TestMethod]
-        public void NewLine()
-        {
-            Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">", "style"));
-        }
+        public void NewLine() => TestStripOnly("<div\n >", "<div\n style=\"backg\nround-\ncolor:\nblue\">", "style");
 
         [TestMethod]
-        public void OnlyAttribute()
-        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
-        {
-            Assert.AreEqual("<div >", StripAttributes("<div class>", "class"));
-        }
+        public void OnlyAttribute() => TestStripOnly("<div ><span ><p >", "<div class><span class><p class>", "class");
 
         [TestMethod]
-        public void EmptyStringClass()
-        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
-        {
-            Assert.AreEqual("<div >", StripAttributes("<div class=\" \">", "class"));
-        }
+        //While this example isn't valid HTML because an attribute can only be declared once inside the same Tag
+        //it will still delete all instances
+        public void OnlyAttributeMultipleInstances() => TestStripOnly("<div>", "<div class class class class>", "class");
+
+        [TestMethod]
+        public void EmptyStringClass() => TestStripOnly("<div >", "<div class=\" \">", "class");
 
         [TestMethod]
         public void AttributeNameWithMinus() => TestStripOnly("<div >", "<div hello-world=hello>", "hello-world");
 
         [TestMethod]
         public void AttributeNameWithMinusNotFound() => TestStripUnchanged("<div hello-world=hello>", "world-hello");
+
         [TestMethod]
         public void AttributeNameWithMinusAlternateCase() => TestStripOnly("<div >", "<div HELLO-world=hello>", "hello-world");
 

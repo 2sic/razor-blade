@@ -8,6 +8,12 @@ namespace ToSic.RazorBladeTests.ScrubTests
     {
         private string StripExcept(string original, params string[] tags) => GetService<IScrub>().Except(original, tags);
 
+        private void TestStripExcept(string expected, string original, params string[] attributes)
+            => Assert.AreEqual(expected, GetService<IScrub>().Except(original, attributes));
+
+        private void TestStripUnchanged(string original, params string[] attributes) => TestStripExcept(original, original, attributes);
+
+        //Tests with strings
         [TestMethod]
         public void Normal1()
         {
