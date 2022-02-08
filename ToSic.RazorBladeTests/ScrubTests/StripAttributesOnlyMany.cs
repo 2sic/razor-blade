@@ -9,48 +9,52 @@ namespace ToSic.RazorBladeTests.ScrubTests
     {
         string StripAttributes(string original, params string[] attributes) => GetService<IScrub>().Attributes(original, attributes);
 
+        private void TestStripOnlyMany(string expected, string original, params string[] attributes)
+            => Assert.AreEqual(expected, GetService<IScrub>().Attributes(original, attributes));
+
+        private void TestStripUnchanged(string original, params string[] attributes) => TestStripOnlyMany(original, original, attributes);
+
         [TestMethod]
         public void Normal()
         {
             string[] testAttributes = { "class", "href" };
-            Assert.AreEqual("<div ><a >", StripAttributes("<div class=\"example\"><a href='https:...'>", testAttributes));
+            TestStripOnlyMany("<div ><a >", "<div class=\"example\"><a href='https:...'>", testAttributes);        
         }
 
         [TestMethod]
         public void MultipleAttributes()
         {
             string[] testAttributes = { "class", "href" };
-            Assert.AreEqual("<div style='color:blue'>", StripAttributes("<div class=\"hello-world\" href=https:\\... style='color:blue'>", testAttributes));
+            TestStripOnlyMany("<div style='color:blue'>", "<div class=\"hello-world\" href=https:\\... style='color:blue'>", testAttributes);
         }
 
         [TestMethod]
         public void InvalidAttributes()
         {
             string[] testAttributes = { "style" };
-            Assert.AreEqual("<div style=\"background-color:blue'>", StripAttributes("<div style=\"background-color:blue'>", testAttributes));
+            TestStripUnchanged("<div style=\"background-color:blue'>", testAttributes);
         }
 
         [TestMethod]
         public void NewLine()
         {
             string[] testAttributes = { "style" };
-            Assert.AreEqual("<div\n >", StripAttributes("<div\n style=\"backg\nround-\ncolor:\nblue\">", testAttributes));
+            TestStripOnlyMany("<div\n >", "<div\n style=\"backg\nround-\ncolor:\nblue\">", testAttributes);
+
         }
 
         [TestMethod]
         public void OnlyAttribute()
-        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
         {
             string[] testAttributes = { "style", "class" };
-            Assert.AreEqual("<div>", StripAttributes("<div class style>", testAttributes));
+            TestStripOnlyMany("<div>", "<div class style>", testAttributes);
         }
 
         [TestMethod]
-        public void EmptyStringClass()
-        //If the attribute is defined without any quotes there can only be one class the rest will be ignored
+        public void EmptyStringAttributes()
         {
             string[] testAttributes = { "style", "class" };
-            Assert.AreEqual("<div>", StripAttributes("<div class=\" \" style=' '>", testAttributes));
+            TestStripOnlyMany("<div>", "<div class=\" \" style=' '>", testAttributes);
         }
     }
 }

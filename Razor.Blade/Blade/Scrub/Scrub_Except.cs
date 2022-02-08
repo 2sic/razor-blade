@@ -17,7 +17,6 @@ namespace ToSic.Razor.Blade
             if (tags == null || !tags.Any() || html == null)
                 return html;
 
-            //var exceptList = string.Join("|", tags.Select(t => t + "( |>|\\/|\n)"));
             var exceptList = string.Join("|", tags.Select(tag => tag + "( |>|\\/|\n)"));
 
             var exceptRule = "(?!" + exceptList + ")";

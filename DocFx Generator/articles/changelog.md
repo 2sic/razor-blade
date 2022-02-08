@@ -53,6 +53,10 @@ Minor fixes / changes which required a version bump.
 1. Added `Text.BeforeLast(...)`
 1. Added `Text.Between(...)`
 
+### V3.10 2022-02
+
+1. Minor bugfixes and clean-up of tests
+
 --- 
 
 ## Version 2

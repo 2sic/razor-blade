@@ -8,49 +8,21 @@ namespace ToSic.RazorBladeTests.ScrubTests
     {
         private string StripTags(string original) => GetService<IScrub>().All(original);
 
-        [TestMethod]
-        public void Basic()
-        {
-            Assert.AreEqual("Hello there", StripTags("<h1>Hello</h1><strong> there</strong>"));
-        }
+        private void TestStripTagsAll(string expected, string original)
+            => Assert.AreEqual(expected, GetService<IScrub>().All(original));
 
         [TestMethod]
-        public void MultiLine()
-        {
-            Assert.AreEqual("Hello there", StripTags(@"<h1>
-Hello
-</h1>
-<strong>
-there
-</strong>"));
-        }
+        public void Basic() => TestStripTagsAll("Hello there", "<h1>Hello</h1><strong> there</strong>");
 
         [TestMethod]
-        public void MultiLineTag()
-        {
-            Assert.AreEqual("Hello there", StripTags(@"<h1>
-Hello
-</h1>
-<strong
-  class='something'
-  onclick='someJs'>
-there
-</strong>"));
-        }
-        [TestMethod]
-        public void NullCheck()
-        {
-            Assert.AreEqual(null, StripTags(null));
-        }
+        public void MultiLine() => TestStripTagsAll("Hello there", "<h1>\nHello\n </ h1 >\n < strong >\nthere\n </ strong >");
 
         [TestMethod]
-        public void Test_StripHtml()
-        {
-            var html = "<div>some text with valid html</div>";
-            var clean = "some text with valid html";
-            var strip = StripTags(html);
+        public void MultiLineTag() => TestStripTagsAll("Hello there", "<h1>\nHello\n</h1>\n<strong\n  class='something'\n  onclick='someJs'>\nthere\n</strong>");
+        [TestMethod]
+        public void NullCheck() => TestStripTagsAll(null, null);
 
-            Assert.AreEqual(clean, strip, "should be the same");
-        }
+        [TestMethod]
+        public void Test_StripHtml() => TestStripTagsAll("some text with valid html", "<div>some text with valid html</div>");
     }
 }
