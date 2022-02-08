@@ -79,7 +79,7 @@ namespace ToSic.RazorBladeTests.ScrubTests
         public void TagWithAttributes5() => TestStripOnlyOne("", "<p style=\"background-color:blue; padding: 0\"                     href=\"https://www.w3schools.com\"\n>", "p");
 
         [TestMethod]
-        //Tag.Strip can't detect that this isn't a valid tag and delets it anyway
+        //These tags can't be detect as invalid HTMl and are deleted anyway
         public void WrongTag() => TestStripOnlyOne("", "</p />", "p");
     }
 }

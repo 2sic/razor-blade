@@ -8,31 +8,32 @@ namespace ToSic.RazorBladeTests.ScrubTests
     {
         private string StripExcept(string original, params string[] tags) => GetService<IScrub>().Except(original, tags);
 
-        private void TestStripExcept(string expected, string original, params string[] attributes)
-            => Assert.AreEqual(expected, GetService<IScrub>().Except(original, attributes));
+        private void TestStripExcept(string expected, string original, params string[] tags)
+            => Assert.AreEqual(expected, GetService<IScrub>().Except(original, tags));
 
-        private void TestStripUnchanged(string original, params string[] attributes) => TestStripExcept(original, original, attributes);
+        private void TestStripUnchanged(string original, params string[] tags) => TestStripExcept(original, original, tags);
 
         //Tests with strings
         [TestMethod]
         public void Normal1()
         {
             var testTags = "div";
-            Assert.AreEqual("<div>Hello small World</div>", StripExcept("<div>Hello <p>small</p> World</div>", testTags));
+            TestStripExcept("<div>Hello small World</div>", "<div>Hello <p>small</p> World</div>", testTags);
         }
 
+        //Tests with array 
         [TestMethod]
         public void Normal2()
         {
             string[] testTags = { "div", "a" };
-            Assert.AreEqual("<div>Hello <a>small</a> World</div>", StripExcept("<div>Hello <p><a>small</a></p> World</div>", testTags));
+            TestStripExcept("<div>Hello <a>small</a> World</div>", "<div>Hello <p><a>small</a></p> World</div>", testTags);
         }
 
         [TestMethod]
         public void Normal3()
         {
             string[] testTags = { "div", "a", "b" };
-            Assert.AreEqual("<div>This<a> is </a></div><div><b>an </b>Example</div>", StripExcept("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags));
+            TestStripExcept("<div>This<a> is </a></div><div><b>an </b>Example</div>", "<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags);
         }
 
         [TestMethod]
@@ -40,82 +41,84 @@ namespace ToSic.RazorBladeTests.ScrubTests
         {
             // An empty array doesn't do anything in this case you can just use the normal strip
             string[] testTags = { };
-            Assert.AreEqual("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", StripExcept("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags));
+            TestStripExcept("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", "<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags);
         }
 
         [TestMethod]
         public void ArrayWithEmptyStrings()
         {
             string[] testTags = { "", " ", "  " };
-            Assert.AreEqual("This is an Example", StripExcept("<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags));
+            TestStripExcept("This is an Example", "<body><div>This<a> is </a></div></br><div><b>an </b>Example</div></body>", testTags);
         }
 
         [TestMethod]
         public void ArrayWithUnnecessaryStrings()
         {
             string[] testTags = { "a" };
-            Assert.AreEqual("Hello", StripExcept("<div>Hello</div>", testTags));
+            TestStripExcept("Hello", "<div>Hello</div>", testTags);
         }
 
         [TestMethod]
         public void NoTags()
         {
             string[] testTags = { "a" };
-            Assert.AreEqual("Hello", StripExcept("Hello", testTags));
+            TestStripUnchanged("Hello", testTags);
+            TestStripExcept("", "", testTags);
+
         }
 
         [TestMethod]
         public void ArrayWithWeirdInput()
         {
             string[] testTags = { "div", "4x5" };
-            Assert.AreEqual("<div>Hello</div>", StripExcept("<div>Hello</div>", testTags));
+            TestStripExcept("<div>Hello</div>", "<div>Hello</div>", testTags);
         }
 
         [TestMethod]
         public void TagsWithAttributes()
         {
             string[] testTags = { "div" };
-            Assert.AreEqual("<div style=\"background-color: blue; padding:0\" href=\"https//:www...\">Hello small World</div>", StripExcept("<div style=\"background-color: blue; padding:0\" href=\"https//:www...\">Hello<a style=\"background-color:black;\"> small </a>World</div>", testTags));
+            TestStripExcept("<div style=\"background-color: blue; padding:0\" href=\"https//:www...\">Hello small World</div>", "<div style=\"background-color: blue; padding:0\" href=\"https//:www...\">Hello<a style=\"background-color:black;\"> small </a>World</div>", testTags);
         }
 
         [TestMethod]
         public void TagsWithAttributes2()
         {
             string[] testTags = { "body" };
-            Assert.AreEqual("<body></body>", StripExcept("<body><div style\n=\"background-color: blue;\n padding:0\"\n href=\"https//:www...\"\n></body>", testTags));
-        }
-
-        //Tests with constants
-        [TestMethod]
-        public void ExceptWithTagSetsFormatting()
-        {
-            Assert.AreEqual("<i></i>", StripExcept("<i><img></i>", TagSets.Formatting));
-        }
-
-        [TestMethod]
-        public void ExceptWithTagSetsFormattingSimple()
-        {
-            Assert.AreEqual("<em>Hello</em><i> World</i>", StripExcept("<div><em>Hello</em><i> World</i></div>", TagSets.FormattingSimple));
-        }
-
-        [TestMethod]
-        public void ExceptWithTagSetsInlineBasic()
-        {
-            Assert.AreEqual("<em>Hello</em><a> small </a><i>World</i>", StripExcept("<div><em>Hello</em><p><a> small </a></p><i>World</i></div>", TagSets.InlineBasic));
+            TestStripExcept("<body></body>", "<body><div style\n=\"background-color: blue;\n padding:0\"\n href=\"https//:www...\"\n></body>", testTags);
         }
 
         [TestMethod]
         public void TagNamesWithNumbers()
         {
             string[] testTags = { "div", "span" };
-            Assert.AreEqual("<div><span>The cool title</span></div>", StripExcept("<div><h2><span>The cool title</span></h2></div>", testTags));
+            TestStripExcept("<div><span>The cool title</span></div>", "<div><h2><span>The cool title</span></h2></div>", testTags);
         }
 
         [TestMethod]
         public void TagNamesWithNumbers2()
         {
             string[] testTags = { "div", "span" };
-            Assert.AreEqual("A cool text with some random numbers: 1234567890", StripExcept("<2sic><h2><he11o>A cool text with some random numbers: 1234567890</he11o></h2></2sic>", testTags));
+            TestStripExcept("A cool text with some random numbers: 1234567890", "<2sic><h2><he11o>A cool text with some random numbers: 1234567890</he11o></h2></2sic>", testTags);
+        }
+
+        //Tests with constants
+        [TestMethod]
+        public void ExceptWithTagSetsFormatting()
+        {
+            TestStripExcept("<i></i>", "<i><img></i>", TagSets.Formatting);
+        }
+
+        [TestMethod]
+        public void ExceptWithTagSetsFormattingSimple()
+        {
+            TestStripExcept("<em>Hello</em><i> World</i>", "<div><em>Hello</em><i> World</i></div>", TagSets.FormattingSimple);
+        }
+
+        [TestMethod]
+        public void ExceptWithTagSetsInlineBasic()
+        {
+            TestStripExcept("<em>Hello</em><a> small </a><i>World</i>", "<div><em>Hello</em><p><a> small </a></p><i>World</i></div>", TagSets.InlineBasic);
         }
     }
 }
