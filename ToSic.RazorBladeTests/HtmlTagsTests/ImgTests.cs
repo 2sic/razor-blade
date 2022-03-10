@@ -42,6 +42,10 @@ namespace ToSic.RazorBladeTests.HtmlTagsTests
         public void ImgWithUmlautAndResizer() 
             => Is("<img src='L%C3%A9onie%20M%C3%BCller.jpg?w=17'>", Tag.Img().Src("Léonie Müller.jpg?w=17"));
 
+        [TestMethod]
+        public void ImgWithMultipleParamsShouldConvertAmp() 
+            => Is("<img src='test.jpg?w=100&amp;h=100'>", Tag.Img().Src("test.jpg?w=100&h=100"));
+
 
         [TestMethod]
         public void ImgSizes()
