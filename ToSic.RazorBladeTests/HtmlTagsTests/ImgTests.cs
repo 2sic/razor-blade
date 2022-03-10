@@ -115,7 +115,9 @@ namespace ToSic.RazorBladeTests.HtmlTagsTests
         [TestMethod]
         public void ImgSrcSetUmlautsMultiline()
         {
-            Is("<img srcset='L%C3%A9onie%20M%C3%BCller.jpg?w=17 2x,L%C3%A9onie%20M%C3%BCller.jpg?w=17 700w'>",
+            Is(@"<img srcset='
+L%C3%A9onie%20M%C3%BCller.jpg?w=17 2x,
+L%C3%A9onie%20M%C3%BCller.jpg?w=17 700w'>",
                 Tag.Img().Srcset(@"
 Léonie Müller.jpg?w=17 2x,
 Léonie Müller.jpg?w=17 700w"));
