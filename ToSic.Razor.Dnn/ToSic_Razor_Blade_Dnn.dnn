@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="ToSic.RazorBlade" type="Library" version="03.12.00">
+    <package name="ToSic.RazorBlade" type="Library" version="03.13.00">
       <friendlyName>2sic RazorBlade</friendlyName>
       <description>2sic RazorBlade</description>
       <iconFile>icon.png</iconFile>
