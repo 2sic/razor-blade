@@ -15,7 +15,9 @@ namespace ToSic.Razor.Html5
         {
             Type("application/ld+json");
             // https://w3c.github.io/json-ld-syntax/#restrictions-for-contents-of-json-ld-script-elements
-            TagContents = XssPrevention.HtmlEntityEncoding(content);
+            // Authors should avoid using character sequences in scripts embedded in HTML which may be confused
+            // with a comment-open, script-open, comment-close, or script-close.
+            TagContents = XssPrevention.JsonLdScriptEncoding(content);
         }
 
         /// <summary>
