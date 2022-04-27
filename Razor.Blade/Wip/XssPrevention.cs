@@ -8,10 +8,10 @@ namespace ToSic.Razor.Wip
     /// https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
     /// https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html#a7-cross-site-scripting-xss
     /// </summary>
-    internal class XssPrevention
+    public class XssPrevention
     {
         /// <summary>
-        /// Output Encoding for "JSON-LD Context"
+        /// Output Encoding for "JSON-LD Contexts"
         /// https://w3c.github.io/json-ld-syntax/#restrictions-for-contents-of-json-ld-script-elements
         /// https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html#output-encoding-for-javascript-contexts
         /// Authors should avoid using character sequences in scripts embedded in HTML which may be confused with a
@@ -20,14 +20,11 @@ namespace ToSic.Razor.Wip
         /// </summary>
         /// <param name="unsafeJsonLd"></param>
         /// <returns></returns>
-        internal static string JsonLdScriptEncoding(string unsafeJsonLd) => unsafeJsonLd
-            .Replace("<!--", @"\u003C!--", StringComparison.OrdinalIgnoreCase)
-            .Replace("<script", @"\u003Cscript", StringComparison.OrdinalIgnoreCase)
-            .Replace("-->", @"--\u003E", StringComparison.OrdinalIgnoreCase)
-            // TODO @STV: use </script and NOT </script> - the closing tag can be much later
-            // also write a test to verify
-            // and also a test to verify different script cases
-            .Replace("</script>", @"\u003C/script>", StringComparison.OrdinalIgnoreCase);
+        public static string JsonLdScriptEncoding(string unsafeJsonLd) => unsafeJsonLd
+            .Replace("<!--", "<", @"\u003C", StringComparison.OrdinalIgnoreCase)
+            .Replace("<script", "<", @"\u003C", StringComparison.OrdinalIgnoreCase)
+            .Replace("-->", ">", @"\u003E", StringComparison.OrdinalIgnoreCase)
+            .Replace("</script", "<", @"\u003C", StringComparison.OrdinalIgnoreCase);
 
         ///// <summary>
         ///// Output Encoding for "HTML Contexts"
