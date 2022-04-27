@@ -24,6 +24,9 @@ namespace ToSic.Razor.Wip
             .Replace("<!--", @"\u003C!--", StringComparison.OrdinalIgnoreCase)
             .Replace("<script", @"\u003Cscript", StringComparison.OrdinalIgnoreCase)
             .Replace("-->", @"--\u003E", StringComparison.OrdinalIgnoreCase)
+            // TODO @STV: use </script and NOT </script> - the closing tag can be much later
+            // also write a test to verify
+            // and also a test to verify different script cases
             .Replace("</script>", @"\u003C/script>", StringComparison.OrdinalIgnoreCase);
 
         ///// <summary>
