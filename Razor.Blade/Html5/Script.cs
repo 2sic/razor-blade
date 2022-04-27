@@ -1,4 +1,6 @@
-﻿namespace ToSic.Razor.Html5
+﻿using ToSic.Razor.Wip;
+
+namespace ToSic.Razor.Html5
 {
     /// <summary>
     /// Special tag for generating JsonLd markup
@@ -12,7 +14,10 @@
         public ScriptJsonLd(string content)
         {
             Type("application/ld+json");
-            TagContents = content;
+            // https://w3c.github.io/json-ld-syntax/#restrictions-for-contents-of-json-ld-script-elements
+            // Authors should avoid using character sequences in scripts embedded in HTML which may be confused
+            // with a comment-open, script-open, comment-close, or script-close.
+            TagContents = XssPrevention.JsonLdScriptEncoding(content);
         }
 
         /// <summary>

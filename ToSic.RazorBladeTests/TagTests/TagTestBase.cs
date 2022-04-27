@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Newtonsoft.Json;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
@@ -11,6 +12,13 @@ namespace ToSic.RazorBladeTests.TagTests
     public class TagTestBase
 
     {
+        public TagTestBase()
+        {
+            // setup use of Newtonsoft.Json for serialization to
+            // ensure same behavior in tests as in 2sxc
+            Razor.StartUp.StartUp.RegisterToJson(JsonConvert.SerializeObject);
+        }
+
         public void Is(string expected, TagBase result, string message = null)
         {
             Is(expected, result.ToString(), message);
