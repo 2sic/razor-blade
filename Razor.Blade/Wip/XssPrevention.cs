@@ -1,5 +1,6 @@
 ﻿using System;
 using ToSic.Razor.Internals;
+using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Wip
 {
@@ -8,6 +9,7 @@ namespace ToSic.Razor.Wip
     /// https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
     /// https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html#a7-cross-site-scripting-xss
     /// </summary>
+    [PrivateApi]
     public class XssPrevention
     {
         /// <summary>
