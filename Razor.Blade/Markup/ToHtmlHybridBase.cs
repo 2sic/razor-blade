@@ -31,5 +31,25 @@ namespace ToSic.Razor.Markup
             writer.Write(ToString());
         }
 #endif
+
+        public static bool IsStringOrHtmlString(object original, out string asString)
+        {
+            asString = null;
+            if (original is null) return false;
+            if (original is string strOriginal)
+            {
+                asString = strOriginal;
+                return true;
+            }
+
+            if (original is IHtmlString)
+            {
+                asString = original.ToString();
+                return true;
+            }
+
+            return false;
+        }
     }
+
 }
