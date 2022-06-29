@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net472;net5.0</TargetFrameworks>
     <RootNamespace>ToSic.Razor</RootNamespace>
-    <Version>03.13.00</Version>
+    <Version>03.14.00</Version>
     <AssemblyName>ToSic.Razor</AssemblyName>
     <PackageId>ToSic.Razor</PackageId>
     <Authors>ToSic.Razor</Authors>

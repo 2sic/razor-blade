@@ -17,7 +17,7 @@ namespace ToSic.Razor.Markup
             // Handle null, string, or single TagBase object
             if (AddOrSkipNullOrTagBase(child)) return;
 
-            // Check for IEnumerable, but make sure we don't pick up strings
+            // 1. Check for IEnumerable, but make sure we don't pick up strings
             // This doesn't process it yet, just ensures that in case it's an array/list of real items, that it is unwrapped
             if (!(child is string) && child is IEnumerable childEnum)
             {
@@ -27,6 +27,7 @@ namespace ToSic.Razor.Markup
                 // If it has exactly one item, it's probably an array/enumerable in an array, so unwrap
                 if (tempList.Count == 1)
                 {
+                    // Changes the 'child' for further processing if it's an accidental array which itself contains 1 IEnumerable<TagBase> for later on
                     child = tempList.First();
                     // Handle null, string, or single TagBase object
                     if (AddOrSkipNullOrTagBase(child)) return;
@@ -34,7 +35,9 @@ namespace ToSic.Razor.Markup
             }
 
 
+            // 2. Import a TagBase list
             // if it's a classic tag list - everything is ok
+            // This could also be the result of processing #1 before
             if (child is IEnumerable<TagBase> list)
             {
                 AddRange(list);
