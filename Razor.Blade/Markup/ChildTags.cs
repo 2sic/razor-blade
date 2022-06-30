@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using static ToSic.Razor.Markup.ToHtmlHybridBase;
 
 namespace ToSic.Razor.Markup
 {
     public class ChildTags: List<TagBase>
     {
-        public void Add(object child)
+        public void Add(params object[] children)
         {
             // Untangle deeper objects if necessary
             // This is because child could be
@@ -14,27 +15,34 @@ namespace ToSic.Razor.Markup
             // - an array of items - like a string[]
             // - an array with a single item - which itself is an ienumerable
 
-            // Handle null, string, or single TagBase object
-            if (AddOrSkipNullOrTagBase(child)) return;
+            var child = children;
 
-            // Check for IEnumerable, but make sure we don't pick up strings
-            // This doesn't process it yet, just ensures that in case it's an array/list of real items, that it is unwrapped
-            if (!(child is string) && child is IEnumerable childEnum)
-            {
-                var tempList = childEnum.Cast<object>().ToList();
-                if (!tempList.Any()) return;
+            // 2022-06-29 v3.14 - shouldn't be used any more, as it's always an array now
+            //// Handle null, string, or single TagBase object
+            //if (AddOrSkipNullOrTagBase(child)) return;
 
-                // If it has exactly one item, it's probably an array/enumerable in an array, so unwrap
-                if (tempList.Count == 1)
-                {
-                    child = tempList.First();
-                    // Handle null, string, or single TagBase object
-                    if (AddOrSkipNullOrTagBase(child)) return;
-                }
-            }
+            // 1. Check for IEnumerable, but make sure we don't pick up strings
+
+            //// This doesn't process it yet, just ensures that in case it's an array/list of real items, that it is unwrapped
+            //if (!(child is string) && child is IEnumerable childEnum)
+            //{
+            //    var tempList = childEnum.Cast<object>().ToList();
+            //    if (!tempList.Any()) return;
+
+            //    // If it has exactly one item, it's probably an array/enumerable in an array, so unwrap
+            //    if (tempList.Count == 1)
+            //    {
+            //        // Changes the 'child' for further processing if it's an accidental array which itself contains 1 IEnumerable<TagBase> for later on
+            //        child = tempList.First();
+            //        // Handle null, string, or single TagBase object
+            //        if (AddOrSkipNullOrTagBase(child)) return;
+            //    }
+            //}
 
 
+            // 2. Import a TagBase list
             // if it's a classic tag list - everything is ok
+            // This could also be the result of processing #1 before
             if (child is IEnumerable<TagBase> list)
             {
                 AddRange(list);
@@ -43,7 +51,8 @@ namespace ToSic.Razor.Markup
 
             // otherwise check if it's a list, but exclude strings,
             // because otherwise it will try to enumerate each character
-            if(!(child is string) && child is IEnumerable nonTagList)
+            // 2022-06-29 v3.14 - shouldn't be used any more, as it's always an array now
+            if (/*!(child is string) &&*/ child is IEnumerable nonTagList)
             {
                 foreach (var item in nonTagList)
                     base.Add(TagBase.EnsureTag(item));
@@ -66,19 +75,19 @@ namespace ToSic.Razor.Markup
                 return true;
             }
 
-            if (child is string)
+            if (IsStringOrHtmlString(child, out var childString))
             {
-                base.Add(TagBase.EnsureTag(child));
+                base.Add(TagBase.EnsureTag(childString));
                 return true;
             }
 
             return false;
         }
 
-        public void Replace(object child)
+        public void Replace(params object[] children)
         {
             Clear();
-            Add(child);
+            Add(children);
         }
 
         internal string Build(TagOptions options)

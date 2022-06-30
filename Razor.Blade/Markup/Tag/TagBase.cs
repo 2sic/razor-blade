@@ -18,14 +18,13 @@ namespace ToSic.Razor.Markup
                 TagName = name;
         }
 
-        protected internal TagBase(string name, object content, TagOptions options = null)
-            : this(name, options)
-        {
-            if (content != null)
-                TagChildren.Replace(content);
-        }
+        //protected internal TagBase(string name, object content, TagOptions options = null) : this(name, options)
+        //{
+        //    if (content != null)
+        //        TagChildren.Replace(content);
+        //}
 
-        protected internal TagBase(string name, TagOptions options, object[] content) : this(name, options)
+        protected internal TagBase(string name, TagOptions options, params object[] content) : this(name, options)
         {
             if(content?.Length > 0)
                 TagChildren.Replace(content);
@@ -53,15 +52,9 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         internal static TagBase EnsureTag(object child)
         {
-            switch (child)
-            {
-                case string text:
-                    return Text(text);
-                case TagBase tag:
-                    return tag;
-                default:
-                    return new TagBase();
-            }
+            if (IsStringOrHtmlString(child, out var s)) return Text(s);
+            if (child is TagBase tag) return tag;
+            return new TagBase();
         }
 
         /// <summary>

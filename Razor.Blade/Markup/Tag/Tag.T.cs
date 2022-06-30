@@ -12,7 +12,7 @@
             : base(name, options) { }
 
         protected Tag(string name, object content, TagOptions options = null)
-            : base(name, content, options) { }
+            : base(name, options, content) { }
 
         protected Tag(string name, TagOptions options, object[] content) 
             : base(name, options, content) { }
@@ -96,18 +96,18 @@
             => Attr("on" + name, value, null);
 
 
-        /// <summary>
-        /// Add contents to this tag - at the end of the already added contents.
-        /// If you want to replace the contents, use Wrap() instead
-        /// </summary>
+        ///// <summary>
+        ///// Add contents to this tag - at the end of the already added contents.
+        ///// If you want to replace the contents, use Wrap() instead
+        ///// </summary>
 
-        /// <param name="child"></param>
-        /// <returns></returns>
-        public T Add(object child) 
-        {
-            TagChildren.Add(child);
-            return this as T;
-        }
+        ///// <param name="child"></param>
+        ///// <returns></returns>
+        //public T Add(object child) 
+        //{
+        //    TagChildren.Add(child);
+        //    return this as T;
+        //}
 
         /// <summary>
         /// Add contents to this tag - at the end of the already added contents.
@@ -122,17 +122,17 @@
             return this as T;
         }
 
-        /// <summary>
-        /// Wrap the tag around the new content, so this replaces all the content with what you give it
-        /// </summary>
+        ///// <summary>
+        ///// Wrap the tag around the new content, so this replaces all the content with what you give it
+        ///// </summary>
 
-        /// <param name="content">New content - can be a string, TagBase or list of tags</param>
-        /// <returns></returns>
-        public T Wrap(object content) 
-        {
-            TagChildren.Replace(content);
-            return this as T;
-        }
+        ///// <param name="content">New content - can be a string, TagBase or list of tags</param>
+        ///// <returns></returns>
+        //public T Wrap(object content) 
+        //{
+        //    TagChildren.Replace(content);
+        //    return this as T;
+        //}
 
         /// <summary>
         /// Wrap the tag around the new content, so this replaces all the content with what you give it
