@@ -10,8 +10,8 @@
         protected internal TagCustom(string name = null, TagOptions options = null)
             : base(name, options) { }
 
-        protected internal TagCustom(string name, object content, TagOptions options = null)
-            : base(name, content, options) { }
+        //protected internal TagCustom(string name, object content, TagOptions options = null)
+        //    : base(name, content, options) { }
 
         protected internal TagCustom(string name, TagOptions options, object[] content)
             : base(name, options, content) { }

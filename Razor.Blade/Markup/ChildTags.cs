@@ -9,6 +9,24 @@ namespace ToSic.Razor.Markup
     {
         public void Add(params object[] children)
         {
+            if (children == null || children.Length == 0) return;
+
+            if (children.Length == 1)
+            {
+                var first = children.First();
+                if (first == null) return;
+                // Strings, TagBase and any list are now IEnumerable
+                if (first is IEnumerable innerList)
+                {
+                    // Handle null, string, or single TagBase object
+                    // Note that TagBase objects also report as being IEnumerable
+                    if (AddOrSkipNullOrTagBase(innerList)) return;
+
+                    // it was not a TagBase, string or null, but an IEnumerable
+                    // Unwrap and continue normal
+                    children = innerList.Cast<object>().ToArray();
+                }
+            }
             // Untangle deeper objects if necessary
             // This is because child could be
             // - a single item

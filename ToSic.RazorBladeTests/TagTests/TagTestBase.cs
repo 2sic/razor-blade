@@ -10,7 +10,6 @@ using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
 namespace ToSic.RazorBladeTests.TagTests
 {
     public class TagTestBase
-
     {
         public TagTestBase()
         {
@@ -58,5 +57,8 @@ namespace ToSic.RazorBladeTests.TagTests
         /// </summary>
         /// <returns></returns>
         internal Div TestDiv() => Tag.Div();
+
+        internal TagCustom Custom(string name) => new(name);
+        internal TagCustom Custom(string name, TagOptions options) => new(name, options);
     }
 }
