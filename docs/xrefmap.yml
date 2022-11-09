@@ -6860,12 +6860,6 @@ references:
   commentId: T:ToSic.Razor.Markup.TagCustom
   fullName: ToSic.Razor.Markup.TagCustom
   nameWithType: TagCustom
-- uid: ToSic.Razor.Markup.TagCustom.#ctor(System.String,System.Object,ToSic.Razor.Markup.TagOptions)
-  name: TagCustom(String, Object, TagOptions)
-  href: api/ToSic.Razor.Markup.TagCustom.html#ToSic_Razor_Markup_TagCustom__ctor_System_String_System_Object_ToSic_Razor_Markup_TagOptions_
-  commentId: M:ToSic.Razor.Markup.TagCustom.#ctor(System.String,System.Object,ToSic.Razor.Markup.TagOptions)
-  fullName: ToSic.Razor.Markup.TagCustom.TagCustom(System.String, System.Object, ToSic.Razor.Markup.TagOptions)
-  nameWithType: TagCustom.TagCustom(String, Object, TagOptions)
 - uid: ToSic.Razor.Markup.TagCustom.#ctor(System.String,ToSic.Razor.Markup.TagOptions)
   name: TagCustom(String, TagOptions)
   href: api/ToSic.Razor.Markup.TagCustom.html#ToSic_Razor_Markup_TagCustom__ctor_System_String_ToSic_Razor_Markup_TagOptions_
@@ -6894,18 +6888,6 @@ references:
   commentId: T:ToSic.Razor.Markup.TagList
   fullName: ToSic.Razor.Markup.TagList
   nameWithType: TagList
-- uid: ToSic.Razor.Markup.TagList.#ctor(System.Object,ToSic.Razor.Markup.TagOptions)
-  name: TagList(Object, TagOptions)
-  href: api/ToSic.Razor.Markup.TagList.html#ToSic_Razor_Markup_TagList__ctor_System_Object_ToSic_Razor_Markup_TagOptions_
-  commentId: M:ToSic.Razor.Markup.TagList.#ctor(System.Object,ToSic.Razor.Markup.TagOptions)
-  fullName: ToSic.Razor.Markup.TagList.TagList(System.Object, ToSic.Razor.Markup.TagOptions)
-  nameWithType: TagList.TagList(Object, TagOptions)
-- uid: ToSic.Razor.Markup.TagList.#ctor(ToSic.Razor.Markup.TagOptions)
-  name: TagList(TagOptions)
-  href: api/ToSic.Razor.Markup.TagList.html#ToSic_Razor_Markup_TagList__ctor_ToSic_Razor_Markup_TagOptions_
-  commentId: M:ToSic.Razor.Markup.TagList.#ctor(ToSic.Razor.Markup.TagOptions)
-  fullName: ToSic.Razor.Markup.TagList.TagList(ToSic.Razor.Markup.TagOptions)
-  nameWithType: TagList.TagList(TagOptions)
 - uid: ToSic.Razor.Markup.TagList.#ctor(ToSic.Razor.Markup.TagOptions,System.Object[])
   name: TagList(TagOptions, Object[])
   href: api/ToSic.Razor.Markup.TagList.html#ToSic_Razor_Markup_TagList__ctor_ToSic_Razor_Markup_TagOptions_System_Object___
