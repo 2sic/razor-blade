@@ -15,7 +15,7 @@ namespace ToSic.Razor.Markup
         /// </summary>
         public string TagContents
         {
-            get => TagChildren.Build(RealOptions);
+            get => TagChildren.Build(TagOptions);
             set => TagChildren.Replace(value);
         }
 

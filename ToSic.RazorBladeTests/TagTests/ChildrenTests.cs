@@ -76,7 +76,7 @@ namespace ToSic.RazorBladeTests.TagTests
             tag.TagContents = "razor-blade";
             Assert.AreEqual("<div>razor-blade</div>", tag.ToString());
 
-            tag = new Div(new Span(), new Span(), "hello");
+            tag = new(new Span(), new Span(), "hello");
         }
 
 
@@ -106,7 +106,7 @@ namespace ToSic.RazorBladeTests.TagTests
         public void SubChildrenPreserveOptions()
         {
             var tag = new Div().Id("27");
-            tag.TagOptions = new TagOptions(new AttributeOptions {Quote = "\""});
+            tag.TagOptions = new(attributeOptions: new(quote: "\""));
             var span = new Span().Id("spn").Add(new Div());
             tag.Add(span);
             Assert.AreEqual("<div id=\"27\"><span id=\"spn\"><div></div></span></div>", tag.ToString());
@@ -116,9 +116,9 @@ namespace ToSic.RazorBladeTests.TagTests
         public void SubChildrenPreserveOptionsUnlessOverridden()
         {
             var tag = new Div().Id("27");
-            tag.TagOptions = new TagOptions(new AttributeOptions { Quote = "\"" });
+            tag.TagOptions = new(attributeOptions: new(quote: "\""));
             var span = new Span().Id("spn").Add(new Div());
-            span.TagOptions = new TagOptions();
+            span.TagOptions = TagOptions.DefaultOptions;
             tag.Add(span);
             Assert.AreEqual("<div id=\"27\"><span id='spn'><div></div></span></div>", tag.ToString());
         }

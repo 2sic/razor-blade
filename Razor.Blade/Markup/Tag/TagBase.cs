@@ -37,9 +37,7 @@ namespace ToSic.Razor.Markup
         /// TagBase serialization options, like what quotes to use
         /// If null, will use defaults
         /// </summary>
-        internal TagOptions TagOptions;
-
-        private TagOptions RealOptions => TagOptions.UseOrCreate(TagOptions);
+        internal TagOptions TagOptions { get; set; }
 
         /// <summary>
         /// Helper to ensure that both strings/tags can be passed around and added to list
@@ -56,11 +54,10 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// Gets the HTML encoded value.
         /// </summary>
-        public override string ToString() => ToString(RealOptions);
+        public override string ToString() => ToString(TagOptions);
 
-        internal string ToString(TagOptions options)
-            => TagOverride
-               ?? TagBuilder.Tag(TagName, TagAttributes, TagContents, options);
+        internal string ToString(TagOptions optionsOrNull)
+            => TagOverride ?? TagBuilder.Tag(TagName, TagAttributes, TagContents, optionsOrNull);
 
     }
 }

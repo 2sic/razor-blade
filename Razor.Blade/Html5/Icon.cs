@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
         public Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
         {
             // override empty attributes
-            TagOptions = new TagOptions(new AttributeOptions {KeepEmpty = false}) {Close = false};
+            TagOptions = new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
 
             Rel(rel ?? RelIcon);
             Sizes(size == SizeUndefined ? "" : $"{size}x{size}");

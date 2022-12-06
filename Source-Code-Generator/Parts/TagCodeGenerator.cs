@@ -23,7 +23,7 @@ namespace SourceCodeGenerator.Parts
         public string Code() => Comment() + Class;
 
         private string TagOptions => Standalone
-            ? ", new TagOptions { Close = false }"
+            ? ", new TagOptions(close: false)"
             : string.Empty;
 
         private string TagOptionsWithExplicitNull => TagOptions == string.Empty ? ", null" : TagOptions;

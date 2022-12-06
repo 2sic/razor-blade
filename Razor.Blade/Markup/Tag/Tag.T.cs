@@ -7,11 +7,8 @@ namespace ToSic.Razor.Markup
     /// Helper commands to enable fluid coding with Tag Attributes and Common Helpers like Add and Wrap.
     /// This allows you to do things like <code>Div().Id("myId").Class("row4").Class("xs")</code>
     /// </summary>
-    public class Tag<T>: TagBase, IHtmlTag where T : Tag<T>
+    public abstract class Tag<T>: TagBase, IHtmlTag where T : Tag<T>
     {
-        ChildTags IHtmlTag.TagChildren => throw new System.NotImplementedException();
-
-        string IHtmlTag.TagContents { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
         #region Constructors
 
         protected Tag(string name = null, TagOptions options = null)
@@ -121,6 +118,14 @@ namespace ToSic.Razor.Markup
         public T Wrap(params object[] content)
         {
             TagChildren.Replace(content);
+            return this as T;
+        }
+
+        [PrivateApi("WIP v4 - should be exclusively fluid!")]
+        public T WithOptions(TagOptions options)
+        {
+            // TODO
+            TagOptions = options;
             return this as T;
         }
 

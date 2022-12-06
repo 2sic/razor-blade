@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 17:29
+// Created 06.12.2022 18:50
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -438,7 +438,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;input&gt; tag with optional contents
     /// </summary>
     
-    internal Input() : base("input", new TagOptions { Close = false })
+    internal Input() : base("input", new TagOptions(close: false))
     {
     }
     
@@ -450,7 +450,7 @@ namespace ToSic.Razor.Html5
     /// A Input object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Input(params object[] content) : base("input", new TagOptions { Close = false }, content)
+    internal Input(params object[] content) : base("input", new TagOptions(close: false), content)
     {
     }
     

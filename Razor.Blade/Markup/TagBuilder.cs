@@ -8,22 +8,17 @@
         internal static string Tag(string name,
             AttributeList attributes,
             string content,
-            TagOptions options)
+            TagOptions optionsOrNull)
         {
-            // default case, no content or no options, get default options or create new
-            if (string.IsNullOrEmpty(content) || options == null)
-                options = TagOptions.UseOrCreate(options);
-            else
-            {
+            optionsOrNull = string.IsNullOrEmpty(content) || optionsOrNull == null
+                // default case, no content or no options, get default options or create new
+                ? TagOptions.UseOrCreate(optionsOrNull)
                 // special case: we have content AND options, so we must ensure that it will close correctly
-                options = TagOptions.CloneOrCreate(options);
-                options.SelfClose = false;
-                options.Close = true;
-            }
+                : new TagOptions(optionsOrNull, close: TagOptions.DefaultClose, selfClose: TagOptions.DefaultSelfCloseIfNoContent);
 
-            var open = Open(name, attributes, options);
+            var open = Open(name, attributes, optionsOrNull);
             return $"{open}{content}"
-                   + (options.Close && !options.SelfClose ? Close(name) : "");
+                   + (optionsOrNull.Close && !optionsOrNull.SelfClose ? Close(name) : "");
         }
 
 

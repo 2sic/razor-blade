@@ -12,6 +12,7 @@
   It is available on `ToSic.Razor.Blade` so you don't need to add more namespaces
 * .net Core build now requires .net6 (previously .net5)
 * Removed the `StartUp.RegisterToJson(...)` method which was used at StartUp in special cases to register alternate json-serializer
+* The `AttributeOptions` and `TagOptions` were made read-only for reliable fluid APIs. This is kind of a **breaking change** but we believe it won't affect anybody
 
 ## Version 3
 
