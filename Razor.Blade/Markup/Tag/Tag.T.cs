@@ -20,17 +20,6 @@ namespace ToSic.Razor.Markup
         protected Tag(string name, TagOptions options, object[] content) 
             : base(name: name, options: options, children: new ChildTags(content)) { }
 
-        // new constructors
-
-        //protected Tag(bool fluid, string name = null, TagOptions options = null)
-        //    : base(fluid: fluid, name: name, options: options) { }
-
-        //protected Tag(bool fluid, string name, object content, TagOptions options = null)
-        //    : base(fluid: fluid, name: name, options: options, children: new ChildTags(content)) { }
-
-        //protected Tag(bool fluid, string name, TagOptions options, object[] content) 
-        //    : base(fluid: fluid, name: name, options: options, children: new ChildTags(content)) { }
-
 
         /// <summary>
         /// Special constructor just for cloning with changes
@@ -144,6 +133,12 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Add(params object[] children)
         {
+            if (TagIsFluid)
+            {
+                var newChildren = new ChildTags(TagChildren);
+                newChildren.Add(children);
+                return CiF(new CloneChanges { Children = newChildren });
+            }
             TagChildren.Add(children);
             return this as T;
         }
@@ -156,18 +151,15 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Wrap(params object[] content)
         {
+            if (TagIsFluid)
+                return CiF(new CloneChanges { Children = new ChildTags(content) });
             TagChildren.Replace(content);
             return this as T;
         }
 
         [PrivateApi("WIP v4 - should be exclusively fluid!")]
-        public T WithOptions(TagOptions options)
-        {
-            // TODO
-            //TagOptions = options;
-            return CiF(new CloneChanges { Options = options });
-            //return this as T;
-        }
+        public T WithOptions(TagOptions options) => CiF(new CloneChanges { Options = options });
+
 
         [PrivateApi("Explicit implementation for when this tag is generic without known specific type")]
         IHtmlTag IHtmlTag.Attr(string name, object value, string appendSeparator) => Attr(name, value, appendSeparator);

@@ -24,9 +24,6 @@ namespace ToSic.Razor.Markup
             AttributeList attributes = null,
             TagOptions options = null)
         {
-            //// By default tags should not be readonly
-            //TagIsFluid = fluid ?? original?.TagIsFluid ?? DefaultTagIsFluid;
-
             // TagOptions is allowed to be null
             TagOptions = options ?? original?.TagOptions;
 

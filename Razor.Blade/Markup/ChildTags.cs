@@ -13,6 +13,11 @@ namespace ToSic.Razor.Markup
                 Add(children);
         }
 
+        public ChildTags(ChildTags original)
+        {
+            base.AddRange(original);
+        }
+
         public void Add(params object[] children)
         {
             if (children == null || children.Length == 0) return;
