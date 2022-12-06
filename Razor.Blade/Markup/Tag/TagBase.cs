@@ -10,17 +10,23 @@ namespace ToSic.Razor.Markup
     {
         #region Constructors
 
-        public bool TagIsReadOnly { get; set; } = false;
+        internal bool DefaultTagIsReadOnly = false;
+
+        public bool TagIsReadOnly { get; }
 
         private TagBase(): this(null, null) { }
 
         protected internal TagBase(TagBase original = null,
+            bool? tagIsReadOnly = null,
             string name = null,
             string tagOverride = null,
             ChildTags children = null,
             AttributeList attributes = null,
             TagOptions options = null)
         {
+            // By default tags should not be readonly
+            TagIsReadOnly = tagIsReadOnly ?? original?.TagIsReadOnly ?? DefaultTagIsReadOnly;
+
             // TagOptions is allowed to be null
             TagOptions = options ?? original?.TagOptions;
 
