@@ -20,6 +20,8 @@ namespace SourceCodeGenerator.Parts
             ClassName = FirstCharToUpper(tagName);
         }
 
+        public bool Fluid = false;
+
         public string Code() => Comment() + Class;
 
         private string TagOptions => Standalone
@@ -58,7 +60,7 @@ namespace SourceCodeGenerator.Parts
 
         public string ConstructorWithParams => $@"
     {Comment(ContentParamName)}
-    internal {ClassName}(bool fluid, params object[] {ContentParamName}) : base(fluid, ""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
+    internal {ClassName}(params object[] {ContentParamName}) : base({Fluid.ToString().ToLower()}, ""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
     {{
     }}";
 
@@ -69,10 +71,10 @@ namespace SourceCodeGenerator.Parts
         #endregion
 
         public string ConstructorParameters =>
-            "bool fluid" +
+            // "bool fluid" +
             (Standalone
             ? ""
-            : ", object content = null");
+            : "object content = null");
 
         public string CallParameters(bool chain = true) => Standalone ? "" : (chain ? ", " : "") + "content";
 
@@ -80,7 +82,7 @@ namespace SourceCodeGenerator.Parts
         /// <summary>
         /// The first parameter ensures that it's not fluid = false
         /// </summary>
-        public string BaseCall => $"base(fluid, \"{TagName}\"{CallParameters(true)}{TagOptions})";
+        public string BaseCall => $"base({Fluid.ToString().ToLower()}, \"{TagName}\"{CallParameters(true)}{TagOptions})";
 
         public string Attributes => string.Join("", Properties.Select(p => p.Code(this)));
 
@@ -95,7 +97,7 @@ Standalone ? "" : $@"
     /// </code>
     {QuickAccessWithParams}";
 
-        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(false, content);";
+        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
 
         #endregion
 

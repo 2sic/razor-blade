@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 21:53
+// Created 06.12.2022 22:24
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;audio&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Audio(bool fluid, object content = null) : base(fluid, "audio", content)
+    internal Audio(object content = null) : base(false, "audio", content)
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A Audio object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Audio(bool fluid, params object[] content) : base(fluid, "audio", null, content)
+    internal Audio(params object[] content) : base(false, "audio", null, content)
     {
     }
     private Audio(Audio original, CloneChanges changes) : base(original, changes) { }
@@ -165,7 +165,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;source&gt; tag with optional contents
     /// </summary>
     
-    internal Source(bool fluid) : base(fluid, "source", new TagOptions(close: false))
+    internal Source() : base(false, "source", new TagOptions(close: false))
     {
     }
     
@@ -177,7 +177,7 @@ namespace ToSic.Razor.Html5
     /// A Source object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Source(bool fluid, params object[] content) : base(fluid, "source", new TagOptions(close: false), content)
+    internal Source(params object[] content) : base(false, "source", new TagOptions(close: false), content)
     {
     }
     private Source(Source original, CloneChanges changes) : base(original, changes) { }
@@ -265,7 +265,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;track&gt; tag with optional contents
     /// </summary>
     
-    internal Track(bool fluid) : base(fluid, "track", new TagOptions(close: false))
+    internal Track() : base(false, "track", new TagOptions(close: false))
     {
     }
     
@@ -277,7 +277,7 @@ namespace ToSic.Razor.Html5
     /// A Track object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Track(bool fluid, params object[] content) : base(fluid, "track", new TagOptions(close: false), content)
+    internal Track(params object[] content) : base(false, "track", new TagOptions(close: false), content)
     {
     }
     private Track(Track original, CloneChanges changes) : base(original, changes) { }
@@ -361,7 +361,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;video&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Video(bool fluid, object content = null) : base(fluid, "video", content)
+    internal Video(object content = null) : base(false, "video", content)
     {
     }
     
@@ -373,7 +373,7 @@ namespace ToSic.Razor.Html5
     /// A Video object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Video(bool fluid, params object[] content) : base(fluid, "video", null, content)
+    internal Video(params object[] content) : base(false, "video", null, content)
     {
     }
     private Video(Video original, CloneChanges changes) : base(original, changes) { }

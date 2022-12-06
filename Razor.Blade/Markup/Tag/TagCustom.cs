@@ -13,7 +13,7 @@ namespace ToSic.Razor.Markup
             : base(name, options) { }
 
         protected internal TagCustom(string name, TagOptions options, object[] content)
-            : base(name, options, content) { }
+            : base(false, name, options, content) { }
 
         private TagCustom(TagCustom original, CloneChanges changes) : base(original, changes) { }
 

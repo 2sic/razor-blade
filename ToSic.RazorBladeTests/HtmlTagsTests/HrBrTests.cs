@@ -10,13 +10,13 @@ namespace ToSic.RazorBladeTests.HtmlTagsTests
         [TestMethod]
         public void Hr()
         {
-            Is("<hr>", new Hr());
+            Is("<hr>", new Hr(false));
         }
 
         [TestMethod]
         public void Br()
         {
-            Is("<br>", new Br());
+            Is("<br>", new Br(false));
         }
     }
 }

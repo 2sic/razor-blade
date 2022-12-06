@@ -61,7 +61,7 @@ namespace ToSic.Razor.Dnn
         /// <param name="name"></param>
         /// <param name="content"></param>
         public void AddMeta(string name, string content) =>
-            AddToHead(new Meta(false, name, content));
+            AddToHead(new Meta(name, content));
 
         /// <summary>
         /// Generate and add an open-graph header
@@ -69,21 +69,21 @@ namespace ToSic.Razor.Dnn
         /// <param name="property"></param>
         /// <param name="content"></param>
         public void AddOpenGraph(string property, string content) =>
-            AddToHead(new MetaOg(false, property, content));
+            AddToHead(new MetaOg(property, content));
 
         /// <summary>
         /// Generate and add a json-ld header
         /// </summary>
         /// <param name="jsonString"></param>
         public void AddJsonLd(string jsonString) 
-            => AddToHead(new ScriptJsonLd(false, jsonString));
+            => AddToHead(new ScriptJsonLd(jsonString));
 
         /// <summary>
         /// Generate and add a json-ld header, by serializing an object
         /// </summary>
         /// <param name="jsonObject"></param>
         public void AddJsonLd(object jsonObject)
-            => AddToHead(new ScriptJsonLd(false, jsonObject));
+            => AddToHead(new ScriptJsonLd(jsonObject));
 
         private void EnsureFieldVisibleAndSetValueAgain(string id, string value)
         {

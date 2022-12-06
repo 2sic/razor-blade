@@ -5,7 +5,7 @@ namespace ToSic.Razor.Html5
 {
     public partial class Abbr
     {
-        internal Abbr(bool fluid, object content, string title) : this(fluid, content)
+        internal Abbr(object content, string title) : this(content)
         {
             this.Title(title);
         }
@@ -13,7 +13,7 @@ namespace ToSic.Razor.Html5
 
     public partial class Bdo
     {
-        internal Bdo(bool fluid, object content, string direction) : this(fluid, content)
+        internal Bdo(object content, string direction) : this(content)
         {
             Dir(direction);
         }
@@ -22,7 +22,7 @@ namespace ToSic.Razor.Html5
 
     public partial class Img
     {
-        internal Img(bool fluid, string src, int width = -1, int height = -1) : this(fluid)
+        internal Img(string src, int width = -1, int height = -1): this()
         {
             Src(src);
             if (height > -1) Height(height);
@@ -33,7 +33,7 @@ namespace ToSic.Razor.Html5
 
     public partial class A
     {
-        internal A(bool fluid, string href, string target = null) : this(fluid)
+        internal A(string href, string target = null): this()
         {
             Href(href);
             if (target != null) Target(target);
@@ -43,7 +43,7 @@ namespace ToSic.Razor.Html5
     // ReSharper disable once InconsistentNaming
     public partial class Iframe
     {
-        internal Iframe(bool fluid, string src, int width = -1, int height = -1) : this(fluid)
+        internal Iframe(string src, int width = -1, int height = -1): this()
         {
             Src(src);
             if (height > -1) Height(height);
@@ -57,7 +57,7 @@ namespace ToSic.Razor.Html5
     /// </summary>
     internal class MediaSource : Source
     {
-        internal MediaSource(bool fluid, string src, string type = null) : base(fluid)
+        internal MediaSource(string src, string type = null)
         {
             Src(src);
             if (type != null) Type(type);
@@ -69,7 +69,7 @@ namespace ToSic.Razor.Html5
         /// Generate a standard HTML5 &lt;source&gt; tag,
         /// initialized with srcset and optionally media, sizes and type
         /// </summary>
-        internal PictureSource(bool fluid, string srcset, string media = null, string sizes = null, string type = null) : base(fluid)
+        internal PictureSource(string srcset, string media = null, string sizes = null, string type = null)
         {
             Srcset(srcset);
             if (media != null) Media(media);

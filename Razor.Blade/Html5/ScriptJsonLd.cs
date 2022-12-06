@@ -12,7 +12,7 @@ namespace ToSic.Razor.Html5
         /// Create a JsonLd Script-TagBase 
         /// </summary>
         /// <param name="content">the contents in the tag</param>
-        internal ScriptJsonLd(bool fluid, string content): base(fluid)
+        internal ScriptJsonLd(string content)
         {
             Type("application/ld+json");
             // https://w3c.github.io/json-ld-syntax/#restrictions-for-contents-of-json-ld-script-elements
@@ -25,8 +25,8 @@ namespace ToSic.Razor.Html5
         /// Create a JsonLd Script tag and automatically json-serialize the object inside it
         /// </summary>
         /// <param name="content">an object which will be json serialized</param>
-        internal ScriptJsonLd(bool fluid, object content)
-            : this(fluid, Internals.Html.ToJsonOrErrorMessage(content)) {}
+        internal ScriptJsonLd(object content)
+            : this(Internals.Html.ToJsonOrErrorMessage(content)) {}
 
         private ScriptJsonLd(ScriptJsonLd original, CloneChanges changes) : base(original, changes) { }
 

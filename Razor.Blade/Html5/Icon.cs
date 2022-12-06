@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
         /// <param name="size">size parameter</param>
         /// <param name="type">mime type</param>
         /// <returns></returns>
-        public Icon(bool fluid, string path, string rel = null, int size = SizeUndefined, string type = null): base(fluid)
+        public Icon(string path, string rel = null, int size = SizeUndefined, string type = null) : base()
         {
             // TODO: GET INTO CONTSTRUCTOR
             // override empty attributes
