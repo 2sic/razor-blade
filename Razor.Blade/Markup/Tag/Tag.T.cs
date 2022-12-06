@@ -83,11 +83,11 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// Add a data-... attribute
         /// </summary>
-        /// <param name="name">the term behind data-, so "name" becomes "data-name"</param>
+        /// <param name="name">the term behind data-, so "name" becomes "data-name". If empty, will just create a "data" attribute</param>
         /// <param name="value">string or object, objects will be json serialized</param>
         /// <returns></returns>
         public T Data(string name, object value = null)
-            => Attr("data-" + name, value, null);
+            => Attr("data" + (string.IsNullOrEmpty(name) ? "" : "-" + name), value, null);
 
         /// <summary>
         /// Add a onEventName attribute for javascript events

@@ -23,7 +23,7 @@ using ToSic.Razor.Internals.Documentation;
 // ReSharper disable once CheckNamespace
 namespace ToSic.Razor.Blade
 {
-    public static partial class Tag
+    public partial interface IHtmlTagService
     {
         
     /// <summary>
@@ -34,10 +34,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var a = Tag.A();
-    /// var a2 = Tag.A("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var a = tagSvc.A();
+    /// var a2 = tagSvc.A("hello there");
     /// </code>
-    public static A A(params object[] content) => new A(content);
+    A A(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;abbr&gt; tag with optional contents
@@ -47,10 +48,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var abbr = Tag.Abbr();
-    /// var abbr2 = Tag.Abbr("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var abbr = tagSvc.Abbr();
+    /// var abbr2 = tagSvc.Abbr("hello there");
     /// </code>
-    public static Abbr Abbr(params object[] content) => new Abbr(content);
+    Abbr Abbr(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;address&gt; tag with optional contents
@@ -60,10 +62,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var address = Tag.Address();
-    /// var address2 = Tag.Address("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var address = tagSvc.Address();
+    /// var address2 = tagSvc.Address("hello there");
     /// </code>
-    public static Address Address(params object[] content) => new Address(content);
+    Address Address(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;area&gt; tag with optional contents
@@ -73,10 +76,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var area = Tag.Area();
-    /// var area2 = Tag.Area("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var area = tagSvc.Area();
+    /// var area2 = tagSvc.Area("hello there");
     /// </code>
-    public static Area Area(params object[] content) => new Area(content);
+    Area Area(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;article&gt; tag with optional contents
@@ -86,10 +90,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var article = Tag.Article();
-    /// var article2 = Tag.Article("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var article = tagSvc.Article();
+    /// var article2 = tagSvc.Article("hello there");
     /// </code>
-    public static Article Article(params object[] content) => new Article(content);
+    Article Article(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;aside&gt; tag with optional contents
@@ -99,10 +104,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var aside = Tag.Aside();
-    /// var aside2 = Tag.Aside("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var aside = tagSvc.Aside();
+    /// var aside2 = tagSvc.Aside("hello there");
     /// </code>
-    public static Aside Aside(params object[] content) => new Aside(content);
+    Aside Aside(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;audio&gt; tag with optional contents
@@ -112,10 +118,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var audio = Tag.Audio();
-    /// var audio2 = Tag.Audio("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var audio = tagSvc.Audio();
+    /// var audio2 = tagSvc.Audio("hello there");
     /// </code>
-    public static Audio Audio(params object[] content) => new Audio(content);
+    Audio Audio(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;b&gt; tag with optional contents
@@ -125,10 +132,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var b = Tag.B();
-    /// var b2 = Tag.B("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var b = tagSvc.B();
+    /// var b2 = tagSvc.B("hello there");
     /// </code>
-    public static B B(params object[] content) => new B(content);
+    B B(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;base&gt; tag with optional contents
@@ -138,9 +146,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var base = Tag.Base();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var base = tagSvc.Base();
     /// </code>
-    public static Base Base(params object[] content) => new Base(content);
+    Base Base(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;bdi&gt; tag with optional contents
@@ -150,10 +159,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var bdi = Tag.Bdi();
-    /// var bdi2 = Tag.Bdi("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var bdi = tagSvc.Bdi();
+    /// var bdi2 = tagSvc.Bdi("hello there");
     /// </code>
-    public static Bdi Bdi(params object[] content) => new Bdi(content);
+    Bdi Bdi(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;bdo&gt; tag with optional contents
@@ -163,10 +173,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var bdo = Tag.Bdo();
-    /// var bdo2 = Tag.Bdo("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var bdo = tagSvc.Bdo();
+    /// var bdo2 = tagSvc.Bdo("hello there");
     /// </code>
-    public static Bdo Bdo(params object[] content) => new Bdo(content);
+    Bdo Bdo(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;blockquote&gt; tag with optional contents
@@ -176,10 +187,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var blockquote = Tag.Blockquote();
-    /// var blockquote2 = Tag.Blockquote("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var blockquote = tagSvc.Blockquote();
+    /// var blockquote2 = tagSvc.Blockquote("hello there");
     /// </code>
-    public static Blockquote Blockquote(params object[] content) => new Blockquote(content);
+    Blockquote Blockquote(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;br&gt; tag with optional contents
@@ -189,9 +201,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var br = Tag.Br();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var br = tagSvc.Br();
     /// </code>
-    public static Br Br(params object[] content) => new Br(content);
+    Br Br(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;button&gt; tag with optional contents
@@ -201,10 +214,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var button = Tag.Button();
-    /// var button2 = Tag.Button("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var button = tagSvc.Button();
+    /// var button2 = tagSvc.Button("hello there");
     /// </code>
-    public static Button Button(params object[] content) => new Button(content);
+    Button Button(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;canvas&gt; tag with optional contents
@@ -214,10 +228,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var canvas = Tag.Canvas();
-    /// var canvas2 = Tag.Canvas("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var canvas = tagSvc.Canvas();
+    /// var canvas2 = tagSvc.Canvas("hello there");
     /// </code>
-    public static Canvas Canvas(params object[] content) => new Canvas(content);
+    Canvas Canvas(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;caption&gt; tag with optional contents
@@ -227,10 +242,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var caption = Tag.Caption();
-    /// var caption2 = Tag.Caption("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var caption = tagSvc.Caption();
+    /// var caption2 = tagSvc.Caption("hello there");
     /// </code>
-    public static Caption Caption(params object[] content) => new Caption(content);
+    Caption Caption(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;cite&gt; tag with optional contents
@@ -240,10 +256,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var cite = Tag.Cite();
-    /// var cite2 = Tag.Cite("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var cite = tagSvc.Cite();
+    /// var cite2 = tagSvc.Cite("hello there");
     /// </code>
-    public static Cite Cite(params object[] content) => new Cite(content);
+    Cite Cite(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;code&gt; tag with optional contents
@@ -253,10 +270,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var code = Tag.Code();
-    /// var code2 = Tag.Code("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var code = tagSvc.Code();
+    /// var code2 = tagSvc.Code("hello there");
     /// </code>
-    public static Code Code(params object[] content) => new Code(content);
+    Code Code(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;col&gt; tag with optional contents
@@ -266,10 +284,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var col = Tag.Col();
-    /// var col2 = Tag.Col("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var col = tagSvc.Col();
+    /// var col2 = tagSvc.Col("hello there");
     /// </code>
-    public static Col Col(params object[] content) => new Col(content);
+    Col Col(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;colgroup&gt; tag with optional contents
@@ -279,10 +298,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var colgroup = Tag.Colgroup();
-    /// var colgroup2 = Tag.Colgroup("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var colgroup = tagSvc.Colgroup();
+    /// var colgroup2 = tagSvc.Colgroup("hello there");
     /// </code>
-    public static Colgroup Colgroup(params object[] content) => new Colgroup(content);
+    Colgroup Colgroup(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;data&gt; tag with optional contents
@@ -292,10 +312,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var data = Tag.Data();
-    /// var data2 = Tag.Data("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var data = tagSvc.Data();
+    /// var data2 = tagSvc.Data("hello there");
     /// </code>
-    public static Data Data(params object[] content) => new Data(content);
+    Data Data(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;datalist&gt; tag with optional contents
@@ -305,10 +326,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var datalist = Tag.Datalist();
-    /// var datalist2 = Tag.Datalist("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var datalist = tagSvc.Datalist();
+    /// var datalist2 = tagSvc.Datalist("hello there");
     /// </code>
-    public static Datalist Datalist(params object[] content) => new Datalist(content);
+    Datalist Datalist(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dd&gt; tag with optional contents
@@ -318,10 +340,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dd = Tag.Dd();
-    /// var dd2 = Tag.Dd("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var dd = tagSvc.Dd();
+    /// var dd2 = tagSvc.Dd("hello there");
     /// </code>
-    public static Dd Dd(params object[] content) => new Dd(content);
+    Dd Dd(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;del&gt; tag with optional contents
@@ -331,10 +354,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var del = Tag.Del();
-    /// var del2 = Tag.Del("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var del = tagSvc.Del();
+    /// var del2 = tagSvc.Del("hello there");
     /// </code>
-    public static Del Del(params object[] content) => new Del(content);
+    Del Del(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;details&gt; tag with optional contents
@@ -344,10 +368,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var details = Tag.Details();
-    /// var details2 = Tag.Details("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var details = tagSvc.Details();
+    /// var details2 = tagSvc.Details("hello there");
     /// </code>
-    public static Details Details(params object[] content) => new Details(content);
+    Details Details(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dfn&gt; tag with optional contents
@@ -357,10 +382,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dfn = Tag.Dfn();
-    /// var dfn2 = Tag.Dfn("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var dfn = tagSvc.Dfn();
+    /// var dfn2 = tagSvc.Dfn("hello there");
     /// </code>
-    public static Dfn Dfn(params object[] content) => new Dfn(content);
+    Dfn Dfn(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dialog&gt; tag with optional contents
@@ -370,10 +396,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dialog = Tag.Dialog();
-    /// var dialog2 = Tag.Dialog("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var dialog = tagSvc.Dialog();
+    /// var dialog2 = tagSvc.Dialog("hello there");
     /// </code>
-    public static Dialog Dialog(params object[] content) => new Dialog(content);
+    Dialog Dialog(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;div&gt; tag with optional contents
@@ -383,10 +410,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var div = Tag.Div();
-    /// var div2 = Tag.Div("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var div = tagSvc.Div();
+    /// var div2 = tagSvc.Div("hello there");
     /// </code>
-    public static Div Div(params object[] content) => new Div(content);
+    Div Div(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dl&gt; tag with optional contents
@@ -396,10 +424,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dl = Tag.Dl();
-    /// var dl2 = Tag.Dl("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var dl = tagSvc.Dl();
+    /// var dl2 = tagSvc.Dl("hello there");
     /// </code>
-    public static Dl Dl(params object[] content) => new Dl(content);
+    Dl Dl(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dt&gt; tag with optional contents
@@ -409,10 +438,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var dt = Tag.Dt();
-    /// var dt2 = Tag.Dt("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var dt = tagSvc.Dt();
+    /// var dt2 = tagSvc.Dt("hello there");
     /// </code>
-    public static Dt Dt(params object[] content) => new Dt(content);
+    Dt Dt(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;em&gt; tag with optional contents
@@ -422,10 +452,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var em = Tag.Em();
-    /// var em2 = Tag.Em("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var em = tagSvc.Em();
+    /// var em2 = tagSvc.Em("hello there");
     /// </code>
-    public static Em Em(params object[] content) => new Em(content);
+    Em Em(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;embed&gt; tag with optional contents
@@ -435,10 +466,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var embed = Tag.Embed();
-    /// var embed2 = Tag.Embed("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var embed = tagSvc.Embed();
+    /// var embed2 = tagSvc.Embed("hello there");
     /// </code>
-    public static Embed Embed(params object[] content) => new Embed(content);
+    Embed Embed(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;fieldset&gt; tag with optional contents
@@ -448,10 +480,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var fieldset = Tag.Fieldset();
-    /// var fieldset2 = Tag.Fieldset("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var fieldset = tagSvc.Fieldset();
+    /// var fieldset2 = tagSvc.Fieldset("hello there");
     /// </code>
-    public static Fieldset Fieldset(params object[] content) => new Fieldset(content);
+    Fieldset Fieldset(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;figcaption&gt; tag with optional contents
@@ -461,10 +494,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var figcaption = Tag.Figcaption();
-    /// var figcaption2 = Tag.Figcaption("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var figcaption = tagSvc.Figcaption();
+    /// var figcaption2 = tagSvc.Figcaption("hello there");
     /// </code>
-    public static Figcaption Figcaption(params object[] content) => new Figcaption(content);
+    Figcaption Figcaption(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;figure&gt; tag with optional contents
@@ -474,10 +508,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var figure = Tag.Figure();
-    /// var figure2 = Tag.Figure("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var figure = tagSvc.Figure();
+    /// var figure2 = tagSvc.Figure("hello there");
     /// </code>
-    public static Figure Figure(params object[] content) => new Figure(content);
+    Figure Figure(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;footer&gt; tag with optional contents
@@ -487,10 +522,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var footer = Tag.Footer();
-    /// var footer2 = Tag.Footer("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var footer = tagSvc.Footer();
+    /// var footer2 = tagSvc.Footer("hello there");
     /// </code>
-    public static Footer Footer(params object[] content) => new Footer(content);
+    Footer Footer(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;form&gt; tag with optional contents
@@ -500,10 +536,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var form = Tag.Form();
-    /// var form2 = Tag.Form("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var form = tagSvc.Form();
+    /// var form2 = tagSvc.Form("hello there");
     /// </code>
-    public static Form Form(params object[] content) => new Form(content);
+    Form Form(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h1&gt; tag with optional contents
@@ -513,10 +550,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h1 = Tag.H1();
-    /// var h12 = Tag.H1("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var h1 = tagSvc.H1();
+    /// var h12 = tagSvc.H1("hello there");
     /// </code>
-    public static H1 H1(params object[] content) => new H1(content);
+    H1 H1(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h2&gt; tag with optional contents
@@ -526,10 +564,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h2 = Tag.H2();
-    /// var h22 = Tag.H2("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var h2 = tagSvc.H2();
+    /// var h22 = tagSvc.H2("hello there");
     /// </code>
-    public static H2 H2(params object[] content) => new H2(content);
+    H2 H2(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h3&gt; tag with optional contents
@@ -539,10 +578,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h3 = Tag.H3();
-    /// var h32 = Tag.H3("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var h3 = tagSvc.H3();
+    /// var h32 = tagSvc.H3("hello there");
     /// </code>
-    public static H3 H3(params object[] content) => new H3(content);
+    H3 H3(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h4&gt; tag with optional contents
@@ -552,10 +592,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h4 = Tag.H4();
-    /// var h42 = Tag.H4("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var h4 = tagSvc.H4();
+    /// var h42 = tagSvc.H4("hello there");
     /// </code>
-    public static H4 H4(params object[] content) => new H4(content);
+    H4 H4(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h5&gt; tag with optional contents
@@ -565,10 +606,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h5 = Tag.H5();
-    /// var h52 = Tag.H5("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var h5 = tagSvc.H5();
+    /// var h52 = tagSvc.H5("hello there");
     /// </code>
-    public static H5 H5(params object[] content) => new H5(content);
+    H5 H5(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h6&gt; tag with optional contents
@@ -578,10 +620,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var h6 = Tag.H6();
-    /// var h62 = Tag.H6("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var h6 = tagSvc.H6();
+    /// var h62 = tagSvc.H6("hello there");
     /// </code>
-    public static H6 H6(params object[] content) => new H6(content);
+    H6 H6(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;head&gt; tag with optional contents
@@ -591,10 +634,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var head = Tag.Head();
-    /// var head2 = Tag.Head("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var head = tagSvc.Head();
+    /// var head2 = tagSvc.Head("hello there");
     /// </code>
-    public static Head Head(params object[] content) => new Head(content);
+    Head Head(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;header&gt; tag with optional contents
@@ -604,10 +648,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var header = Tag.Header();
-    /// var header2 = Tag.Header("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var header = tagSvc.Header();
+    /// var header2 = tagSvc.Header("hello there");
     /// </code>
-    public static Header Header(params object[] content) => new Header(content);
+    Header Header(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;hr&gt; tag with optional contents
@@ -617,9 +662,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var hr = Tag.Hr();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var hr = tagSvc.Hr();
     /// </code>
-    public static Hr Hr(params object[] content) => new Hr(content);
+    Hr Hr(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;i&gt; tag with optional contents
@@ -629,10 +675,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var i = Tag.I();
-    /// var i2 = Tag.I("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var i = tagSvc.I();
+    /// var i2 = tagSvc.I("hello there");
     /// </code>
-    public static I I(params object[] content) => new I(content);
+    I I(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;iframe&gt; tag with optional contents
@@ -642,9 +689,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var iframe = Tag.Iframe();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var iframe = tagSvc.Iframe();
     /// </code>
-    public static Iframe Iframe(params object[] content) => new Iframe(content);
+    Iframe Iframe(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;img&gt; tag with optional contents
@@ -654,9 +702,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var img = Tag.Img();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var img = tagSvc.Img();
     /// </code>
-    public static Img Img(params object[] content) => new Img(content);
+    Img Img(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;input&gt; tag with optional contents
@@ -666,9 +715,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var input = Tag.Input();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var input = tagSvc.Input();
     /// </code>
-    public static Input Input(params object[] content) => new Input(content);
+    Input Input(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ins&gt; tag with optional contents
@@ -678,10 +728,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ins = Tag.Ins();
-    /// var ins2 = Tag.Ins("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var ins = tagSvc.Ins();
+    /// var ins2 = tagSvc.Ins("hello there");
     /// </code>
-    public static Ins Ins(params object[] content) => new Ins(content);
+    Ins Ins(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;kbd&gt; tag with optional contents
@@ -691,10 +742,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var kbd = Tag.Kbd();
-    /// var kbd2 = Tag.Kbd("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var kbd = tagSvc.Kbd();
+    /// var kbd2 = tagSvc.Kbd("hello there");
     /// </code>
-    public static Kbd Kbd(params object[] content) => new Kbd(content);
+    Kbd Kbd(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;label&gt; tag with optional contents
@@ -704,10 +756,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var label = Tag.Label();
-    /// var label2 = Tag.Label("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var label = tagSvc.Label();
+    /// var label2 = tagSvc.Label("hello there");
     /// </code>
-    public static Label Label(params object[] content) => new Label(content);
+    Label Label(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;legend&gt; tag with optional contents
@@ -717,10 +770,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var legend = Tag.Legend();
-    /// var legend2 = Tag.Legend("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var legend = tagSvc.Legend();
+    /// var legend2 = tagSvc.Legend("hello there");
     /// </code>
-    public static Legend Legend(params object[] content) => new Legend(content);
+    Legend Legend(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;li&gt; tag with optional contents
@@ -730,10 +784,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var li = Tag.Li();
-    /// var li2 = Tag.Li("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var li = tagSvc.Li();
+    /// var li2 = tagSvc.Li("hello there");
     /// </code>
-    public static Li Li(params object[] content) => new Li(content);
+    Li Li(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;link&gt; tag with optional contents
@@ -743,9 +798,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var link = Tag.Link();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var link = tagSvc.Link();
     /// </code>
-    public static Link Link(params object[] content) => new Link(content);
+    Link Link(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;main&gt; tag with optional contents
@@ -755,10 +811,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var main = Tag.Main();
-    /// var main2 = Tag.Main("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var main = tagSvc.Main();
+    /// var main2 = tagSvc.Main("hello there");
     /// </code>
-    public static Main Main(params object[] content) => new Main(content);
+    Main Main(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;map&gt; tag with optional contents
@@ -768,10 +825,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var map = Tag.Map();
-    /// var map2 = Tag.Map("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var map = tagSvc.Map();
+    /// var map2 = tagSvc.Map("hello there");
     /// </code>
-    public static Map Map(params object[] content) => new Map(content);
+    Map Map(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;mark&gt; tag with optional contents
@@ -781,10 +839,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var mark = Tag.Mark();
-    /// var mark2 = Tag.Mark("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var mark = tagSvc.Mark();
+    /// var mark2 = tagSvc.Mark("hello there");
     /// </code>
-    public static Mark Mark(params object[] content) => new Mark(content);
+    Mark Mark(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;meta&gt; tag with optional contents
@@ -794,9 +853,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var meta = Tag.Meta();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var meta = tagSvc.Meta();
     /// </code>
-    public static Meta Meta(params object[] content) => new Meta(content);
+    Meta Meta(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;meter&gt; tag with optional contents
@@ -806,10 +866,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var meter = Tag.Meter();
-    /// var meter2 = Tag.Meter("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var meter = tagSvc.Meter();
+    /// var meter2 = tagSvc.Meter("hello there");
     /// </code>
-    public static Meter Meter(params object[] content) => new Meter(content);
+    Meter Meter(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;nav&gt; tag with optional contents
@@ -819,10 +880,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var nav = Tag.Nav();
-    /// var nav2 = Tag.Nav("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var nav = tagSvc.Nav();
+    /// var nav2 = tagSvc.Nav("hello there");
     /// </code>
-    public static Nav Nav(params object[] content) => new Nav(content);
+    Nav Nav(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;noscript&gt; tag with optional contents
@@ -832,10 +894,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var noscript = Tag.Noscript();
-    /// var noscript2 = Tag.Noscript("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var noscript = tagSvc.Noscript();
+    /// var noscript2 = tagSvc.Noscript("hello there");
     /// </code>
-    public static Noscript Noscript(params object[] content) => new Noscript(content);
+    Noscript Noscript(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;object&gt; tag with optional contents
@@ -845,10 +908,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var object = Tag.Object();
-    /// var object2 = Tag.Object("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var object = tagSvc.Object();
+    /// var object2 = tagSvc.Object("hello there");
     /// </code>
-    public static Object Object(params object[] content) => new Object(content);
+    Object Object(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ol&gt; tag with optional contents
@@ -858,10 +922,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ol = Tag.Ol();
-    /// var ol2 = Tag.Ol("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var ol = tagSvc.Ol();
+    /// var ol2 = tagSvc.Ol("hello there");
     /// </code>
-    public static Ol Ol(params object[] content) => new Ol(content);
+    Ol Ol(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;optgroup&gt; tag with optional contents
@@ -871,10 +936,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var optgroup = Tag.Optgroup();
-    /// var optgroup2 = Tag.Optgroup("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var optgroup = tagSvc.Optgroup();
+    /// var optgroup2 = tagSvc.Optgroup("hello there");
     /// </code>
-    public static Optgroup Optgroup(params object[] content) => new Optgroup(content);
+    Optgroup Optgroup(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;option&gt; tag with optional contents
@@ -884,10 +950,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var option = Tag.Option();
-    /// var option2 = Tag.Option("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var option = tagSvc.Option();
+    /// var option2 = tagSvc.Option("hello there");
     /// </code>
-    public static Option Option(params object[] content) => new Option(content);
+    Option Option(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;output&gt; tag with optional contents
@@ -897,10 +964,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var output = Tag.Output();
-    /// var output2 = Tag.Output("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var output = tagSvc.Output();
+    /// var output2 = tagSvc.Output("hello there");
     /// </code>
-    public static Output Output(params object[] content) => new Output(content);
+    Output Output(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;p&gt; tag with optional contents
@@ -910,10 +978,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var p = Tag.P();
-    /// var p2 = Tag.P("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var p = tagSvc.P();
+    /// var p2 = tagSvc.P("hello there");
     /// </code>
-    public static P P(params object[] content) => new P(content);
+    P P(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;param&gt; tag with optional contents
@@ -923,10 +992,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var param = Tag.Param();
-    /// var param2 = Tag.Param("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var param = tagSvc.Param();
+    /// var param2 = tagSvc.Param("hello there");
     /// </code>
-    public static Param Param(params object[] content) => new Param(content);
+    Param Param(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;picture&gt; tag with optional contents
@@ -936,10 +1006,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var picture = Tag.Picture();
-    /// var picture2 = Tag.Picture("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var picture = tagSvc.Picture();
+    /// var picture2 = tagSvc.Picture("hello there");
     /// </code>
-    public static Picture Picture(params object[] content) => new Picture(content);
+    Picture Picture(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;pre&gt; tag with optional contents
@@ -949,10 +1020,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var pre = Tag.Pre();
-    /// var pre2 = Tag.Pre("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var pre = tagSvc.Pre();
+    /// var pre2 = tagSvc.Pre("hello there");
     /// </code>
-    public static Pre Pre(params object[] content) => new Pre(content);
+    Pre Pre(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;progress&gt; tag with optional contents
@@ -962,10 +1034,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var progress = Tag.Progress();
-    /// var progress2 = Tag.Progress("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var progress = tagSvc.Progress();
+    /// var progress2 = tagSvc.Progress("hello there");
     /// </code>
-    public static Progress Progress(params object[] content) => new Progress(content);
+    Progress Progress(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;q&gt; tag with optional contents
@@ -975,10 +1048,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var q = Tag.Q();
-    /// var q2 = Tag.Q("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var q = tagSvc.Q();
+    /// var q2 = tagSvc.Q("hello there");
     /// </code>
-    public static Q Q(params object[] content) => new Q(content);
+    Q Q(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;rp&gt; tag with optional contents
@@ -988,10 +1062,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var rp = Tag.Rp();
-    /// var rp2 = Tag.Rp("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var rp = tagSvc.Rp();
+    /// var rp2 = tagSvc.Rp("hello there");
     /// </code>
-    public static Rp Rp(params object[] content) => new Rp(content);
+    Rp Rp(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;rt&gt; tag with optional contents
@@ -1001,10 +1076,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var rt = Tag.Rt();
-    /// var rt2 = Tag.Rt("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var rt = tagSvc.Rt();
+    /// var rt2 = tagSvc.Rt("hello there");
     /// </code>
-    public static Rt Rt(params object[] content) => new Rt(content);
+    Rt Rt(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ruby&gt; tag with optional contents
@@ -1014,10 +1090,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ruby = Tag.Ruby();
-    /// var ruby2 = Tag.Ruby("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var ruby = tagSvc.Ruby();
+    /// var ruby2 = tagSvc.Ruby("hello there");
     /// </code>
-    public static Ruby Ruby(params object[] content) => new Ruby(content);
+    Ruby Ruby(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;s&gt; tag with optional contents
@@ -1027,10 +1104,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var s = Tag.S();
-    /// var s2 = Tag.S("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var s = tagSvc.S();
+    /// var s2 = tagSvc.S("hello there");
     /// </code>
-    public static S S(params object[] content) => new S(content);
+    S S(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;samp&gt; tag with optional contents
@@ -1040,10 +1118,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var samp = Tag.Samp();
-    /// var samp2 = Tag.Samp("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var samp = tagSvc.Samp();
+    /// var samp2 = tagSvc.Samp("hello there");
     /// </code>
-    public static Samp Samp(params object[] content) => new Samp(content);
+    Samp Samp(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;script&gt; tag with optional contents
@@ -1053,10 +1132,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var script = Tag.Script();
-    /// var script2 = Tag.Script("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var script = tagSvc.Script();
+    /// var script2 = tagSvc.Script("hello there");
     /// </code>
-    public static Script Script(params object[] content) => new Script(content);
+    Script Script(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;section&gt; tag with optional contents
@@ -1066,10 +1146,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var section = Tag.Section();
-    /// var section2 = Tag.Section("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var section = tagSvc.Section();
+    /// var section2 = tagSvc.Section("hello there");
     /// </code>
-    public static Section Section(params object[] content) => new Section(content);
+    Section Section(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;select&gt; tag with optional contents
@@ -1079,10 +1160,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var select = Tag.Select();
-    /// var select2 = Tag.Select("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var select = tagSvc.Select();
+    /// var select2 = tagSvc.Select("hello there");
     /// </code>
-    public static Select Select(params object[] content) => new Select(content);
+    Select Select(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;small&gt; tag with optional contents
@@ -1092,10 +1174,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var small = Tag.Small();
-    /// var small2 = Tag.Small("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var small = tagSvc.Small();
+    /// var small2 = tagSvc.Small("hello there");
     /// </code>
-    public static Small Small(params object[] content) => new Small(content);
+    Small Small(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;source&gt; tag with optional contents
@@ -1105,9 +1188,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var source = Tag.Source();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var source = tagSvc.Source();
     /// </code>
-    public static Source Source(params object[] content) => new Source(content);
+    Source Source(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;span&gt; tag with optional contents
@@ -1117,10 +1201,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var span = Tag.Span();
-    /// var span2 = Tag.Span("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var span = tagSvc.Span();
+    /// var span2 = tagSvc.Span("hello there");
     /// </code>
-    public static Span Span(params object[] content) => new Span(content);
+    Span Span(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;strong&gt; tag with optional contents
@@ -1130,10 +1215,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var strong = Tag.Strong();
-    /// var strong2 = Tag.Strong("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var strong = tagSvc.Strong();
+    /// var strong2 = tagSvc.Strong("hello there");
     /// </code>
-    public static Strong Strong(params object[] content) => new Strong(content);
+    Strong Strong(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;style&gt; tag with optional contents
@@ -1143,10 +1229,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var style = Tag.Style();
-    /// var style2 = Tag.Style("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var style = tagSvc.Style();
+    /// var style2 = tagSvc.Style("hello there");
     /// </code>
-    public static Style Style(params object[] content) => new Style(content);
+    Style Style(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;sub&gt; tag with optional contents
@@ -1156,10 +1243,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var sub = Tag.Sub();
-    /// var sub2 = Tag.Sub("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var sub = tagSvc.Sub();
+    /// var sub2 = tagSvc.Sub("hello there");
     /// </code>
-    public static Sub Sub(params object[] content) => new Sub(content);
+    Sub Sub(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;summary&gt; tag with optional contents
@@ -1169,10 +1257,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var summary = Tag.Summary();
-    /// var summary2 = Tag.Summary("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var summary = tagSvc.Summary();
+    /// var summary2 = tagSvc.Summary("hello there");
     /// </code>
-    public static Summary Summary(params object[] content) => new Summary(content);
+    Summary Summary(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;sup&gt; tag with optional contents
@@ -1182,10 +1271,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var sup = Tag.Sup();
-    /// var sup2 = Tag.Sup("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var sup = tagSvc.Sup();
+    /// var sup2 = tagSvc.Sup("hello there");
     /// </code>
-    public static Sup Sup(params object[] content) => new Sup(content);
+    Sup Sup(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;svg&gt; tag with optional contents
@@ -1195,10 +1285,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var svg = Tag.Svg();
-    /// var svg2 = Tag.Svg("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var svg = tagSvc.Svg();
+    /// var svg2 = tagSvc.Svg("hello there");
     /// </code>
-    public static Svg Svg(params object[] content) => new Svg(content);
+    Svg Svg(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;table&gt; tag with optional contents
@@ -1208,10 +1299,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var table = Tag.Table();
-    /// var table2 = Tag.Table("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var table = tagSvc.Table();
+    /// var table2 = tagSvc.Table("hello there");
     /// </code>
-    public static Table Table(params object[] content) => new Table(content);
+    Table Table(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;tbody&gt; tag with optional contents
@@ -1221,10 +1313,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var tbody = Tag.Tbody();
-    /// var tbody2 = Tag.Tbody("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var tbody = tagSvc.Tbody();
+    /// var tbody2 = tagSvc.Tbody("hello there");
     /// </code>
-    public static Tbody Tbody(params object[] content) => new Tbody(content);
+    Tbody Tbody(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;td&gt; tag with optional contents
@@ -1234,10 +1327,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var td = Tag.Td();
-    /// var td2 = Tag.Td("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var td = tagSvc.Td();
+    /// var td2 = tagSvc.Td("hello there");
     /// </code>
-    public static Td Td(params object[] content) => new Td(content);
+    Td Td(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;template&gt; tag with optional contents
@@ -1247,10 +1341,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var template = Tag.Template();
-    /// var template2 = Tag.Template("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var template = tagSvc.Template();
+    /// var template2 = tagSvc.Template("hello there");
     /// </code>
-    public static Template Template(params object[] content) => new Template(content);
+    Template Template(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;textarea&gt; tag with optional contents
@@ -1260,10 +1355,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var textarea = Tag.Textarea();
-    /// var textarea2 = Tag.Textarea("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var textarea = tagSvc.Textarea();
+    /// var textarea2 = tagSvc.Textarea("hello there");
     /// </code>
-    public static Textarea Textarea(params object[] content) => new Textarea(content);
+    Textarea Textarea(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;tfoot&gt; tag with optional contents
@@ -1273,10 +1369,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var tfoot = Tag.Tfoot();
-    /// var tfoot2 = Tag.Tfoot("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var tfoot = tagSvc.Tfoot();
+    /// var tfoot2 = tagSvc.Tfoot("hello there");
     /// </code>
-    public static Tfoot Tfoot(params object[] content) => new Tfoot(content);
+    Tfoot Tfoot(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;th&gt; tag with optional contents
@@ -1286,10 +1383,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var th = Tag.Th();
-    /// var th2 = Tag.Th("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var th = tagSvc.Th();
+    /// var th2 = tagSvc.Th("hello there");
     /// </code>
-    public static Th Th(params object[] content) => new Th(content);
+    Th Th(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;thead&gt; tag with optional contents
@@ -1299,10 +1397,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var thead = Tag.Thead();
-    /// var thead2 = Tag.Thead("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var thead = tagSvc.Thead();
+    /// var thead2 = tagSvc.Thead("hello there");
     /// </code>
-    public static Thead Thead(params object[] content) => new Thead(content);
+    Thead Thead(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;time&gt; tag with optional contents
@@ -1312,10 +1411,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var time = Tag.Time();
-    /// var time2 = Tag.Time("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var time = tagSvc.Time();
+    /// var time2 = tagSvc.Time("hello there");
     /// </code>
-    public static Time Time(params object[] content) => new Time(content);
+    Time Time(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;tr&gt; tag with optional contents
@@ -1325,10 +1425,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var tr = Tag.Tr();
-    /// var tr2 = Tag.Tr("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var tr = tagSvc.Tr();
+    /// var tr2 = tagSvc.Tr("hello there");
     /// </code>
-    public static Tr Tr(params object[] content) => new Tr(content);
+    Tr Tr(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;track&gt; tag with optional contents
@@ -1338,9 +1439,10 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var track = Tag.Track();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var track = tagSvc.Track();
     /// </code>
-    public static Track Track(params object[] content) => new Track(content);
+    Track Track(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;u&gt; tag with optional contents
@@ -1350,10 +1452,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var u = Tag.U();
-    /// var u2 = Tag.U("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var u = tagSvc.U();
+    /// var u2 = tagSvc.U("hello there");
     /// </code>
-    public static U U(params object[] content) => new U(content);
+    U U(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ul&gt; tag with optional contents
@@ -1363,10 +1466,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var ul = Tag.Ul();
-    /// var ul2 = Tag.Ul("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var ul = tagSvc.Ul();
+    /// var ul2 = tagSvc.Ul("hello there");
     /// </code>
-    public static Ul Ul(params object[] content) => new Ul(content);
+    Ul Ul(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;var&gt; tag with optional contents
@@ -1376,10 +1480,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var var = Tag.Var();
-    /// var var2 = Tag.Var("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var var = tagSvc.Var();
+    /// var var2 = tagSvc.Var("hello there");
     /// </code>
-    public static Var Var(params object[] content) => new Var(content);
+    Var Var(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;video&gt; tag with optional contents
@@ -1389,10 +1494,11 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var video = Tag.Video();
-    /// var video2 = Tag.Video("hello there");
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var video = tagSvc.Video();
+    /// var video2 = tagSvc.Video("hello there");
     /// </code>
-    public static Video Video(params object[] content) => new Video(content);
+    Video Video(params object[] content);
 
     /// <summary>
     /// Generate a standard HTML5 &lt;wbr&gt; tag with optional contents
@@ -1402,8 +1508,9 @@ namespace ToSic.Razor.Blade
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
     /// <code>
-    /// var wbr = Tag.Wbr();
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var wbr = tagSvc.Wbr();
     /// </code>
-    public static Wbr Wbr(params object[] content) => new Wbr(content);
+    Wbr Wbr(params object[] content);
     }
 }

@@ -71,6 +71,7 @@ namespace SourceCodeGenerator.Parts
 
         public string Attributes => string.Join("", Properties.Select(p => p.Code(this)));
 
+        #region Quick Access - ToSic.Razor.Blade.Tag.xxx
 
         public string QuickAccessCode => $@"{Comment(ContentParamName)}
     /// <code>
@@ -81,6 +82,26 @@ Standalone ? "" : $@"
     /// </code>
     {QuickAccessWithParams}";
 
-        public string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
+        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
+
+        #endregion
+
+        #region HtmlTagService & Interface
+
+        public string HtmlTagServiceCode => $@"
+    /// <inheritdoc />
+    public {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
+
+        public string HtmlTagServiceInterfaceCode => $@"{Comment(ContentParamName)}
+    /// <code>
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var {ClassName.ToLower()} = tagSvc.{ClassName}();{(
+Standalone ? "" : $@"
+    /// var {ClassName.ToLower()}2 = tagSvc.{ClassName}(""hello there"");"
+    )}
+    /// </code>
+    {ClassName} {ClassName}(params object[] content);";
+
+        #endregion
     }
 }

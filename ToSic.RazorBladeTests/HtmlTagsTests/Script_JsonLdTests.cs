@@ -48,10 +48,14 @@ namespace ToSic.RazorBladeTests.HtmlTagsTests
         }
 
         [TestMethod]
-        public void JsonLdObjectWithXss()
+        public void JsonLdObjectWithXssScript()
         {
-            Is("<script type='application/ld+json'>{\"name\":\"\\u003C/script>\\u003Cscript>\"}</script>",
+            Is("<script type='application/ld+json'>{\"name\":\"\\u003C/script\\u003E\\u003Cscript\\u003E\"}</script>",
                 new ScriptJsonLd(new { name = "</script><script>" }));
+        }
+        [TestMethod]
+        public void JsonLdObjectWithXssComment()
+        {
             Is("<script type='application/ld+json'>{\"name\":\"\\u003C!-- html comment --\\u003E\"}</script>",
                 new ScriptJsonLd(new { name = "<!-- html comment -->" }));
         }

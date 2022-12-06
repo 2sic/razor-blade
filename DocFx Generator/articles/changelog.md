@@ -11,6 +11,7 @@
 * Created a new interface `IHtmlTag` which is supported by all generated code, and ensures you have methods such as `Add(...)` or `Wrap(...)` when using any tag generically.  
   It is available on `ToSic.Razor.Blade` so you don't need to add more namespaces
 * .net Core build now requires .net6 (previously .net5)
+* Removed the `StartUp.RegisterToJson(...)` method which was used at StartUp in special cases to register alternate json-serializer
 
 ## Version 3
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using SourceCodeGenerator.Parts;
 
 namespace SourceCodeGenerator.Generator
 {
@@ -11,28 +12,38 @@ namespace SourceCodeGenerator.Generator
         /// Target path to store generated code in
         /// </summary>
         public const string GeneratedTargetPath = @"C:\Projects\razor-blades\Razor.Blade\Html5\";
+        
 
-        /// <summary>
-        /// Target file for generated code
-        /// </summary>
-        public static string GeneratedTags = "GeneratedTags.cs";
-
-        public static string QuickAccessFile = "Tag.cs";
-
+        public const string PathForTagService = @"C:\Projects\razor-blades\Razor.Blade\Blade\HtmlTagService\";
 
         public static void GenerateFormatting()
         {
-            var files = Generate();
+            var specs = Templates.Main;
+            var files = Generate(specs);
 
             foreach (var tuple in files)
             {
-                var fileName = GeneratedTargetPath + GeneratedTags.Replace("Tags", tuple.Item1);
+                var fileName = GeneratedTargetPath + specs.FileName.Replace("Tags", tuple.Item1);
                 ReplaceFile(fileName, tuple.Item2);
             }
 
-            var quickAccess = GenerateQuickAccess();
-            var qaFile = GeneratedTargetPath + QuickAccessFile;
+            // Generate Razor.Blade.Tag quick access
+            specs = Templates.BladeDotTag;
+            var quickAccess = GenerateQuickAccess(specs);
+            var qaFile = GeneratedTargetPath + specs.FileName;
             ReplaceFile(qaFile, quickAccess);
+
+            // Generate HtmlTagService
+            specs = Templates.HtmlTagsImplementation;
+            var htmlTagService = GenerateHtmlTagService(specs);
+            var htFile = PathForTagService + specs.FileName;
+            ReplaceFile(htFile, htmlTagService);
+
+            // Generate IHtmlTagService
+            specs = Templates.IHtmlTags;
+            htmlTagService = GenerateHtmlTagServiceInterface(specs);
+            htFile = PathForTagService + Templates.IHtmlTags.FileName;
+            ReplaceFile(htFile, htmlTagService);
         }
 
         /// <summary>
@@ -51,28 +62,44 @@ namespace SourceCodeGenerator.Generator
             fs.Write(fileBody);
         }
 
-        private static IEnumerable<Tuple<string, string>> Generate()
+        private static IEnumerable<Tuple<string, string>> Generate(CodeFileSpecs specs)
         {
             var tuples = Configuration.Configuration.GetTagGroupsToGenerate()
                 .Select(set =>
                     new Tuple<string, string>(
                         set.GroupName,
-                        Templates.Wrapper.Replace("{Contents}", set.GenerateCode()
+                        specs.Wrapper.Replace("{Contents}", set.GenerateCode()
                         )));
 
             return tuples;
         }
 
-        private static string GenerateQuickAccess()
+        private static string GenerateQuickAccess(CodeFileSpecs specs)
         {
-            var list = Configuration.Configuration.GetTagGroupsToGenerate()
-                .SelectMany(g => g.List)
-                .OrderBy(t => t.ClassName)
-                .Select(c => c.QuickAccessCode);
+            var list = CommandsList().Select(c => c.QuickAccessCode);
 
-            var template = Templates.QuickAccessWrapper
-                .Replace("{Contents}", string.Join("\n", list));
+            var template = specs.Wrapper.Replace("{Contents}", string.Join("\n", list));
             return template;
+        }
+        private static string GenerateHtmlTagService(CodeFileSpecs specs)
+        {
+            var list = CommandsList().Select(c => c.HtmlTagServiceCode);
+            var template = specs.Wrapper.Replace("{Contents}", string.Join("\n", list));
+            return template;
+        }
+        private static string GenerateHtmlTagServiceInterface(CodeFileSpecs specs)
+        {
+            var list = CommandsList().Select(c => c.HtmlTagServiceInterfaceCode);
+            var template =  specs.Wrapper.Replace("{Contents}", string.Join("\n", list));
+            return template;
+        }
+
+        private static IOrderedEnumerable<TagCodeGenerator> CommandsList()
+        {
+            var commands = Configuration.Configuration.GetTagGroupsToGenerate()
+                .SelectMany(g => g.List)
+                .OrderBy(t => t.ClassName);
+            return commands;
         }
     }
 }
