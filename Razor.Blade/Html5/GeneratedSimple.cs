@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 22:24
+// Created 06.12.2022 23:08
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;br&gt; tag with optional contents
     /// </summary>
     
-    internal Br() : base(false, "br", new TagOptions(close: false))
+    internal Br() : base("br", new TagOptions(close: false))
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A Br object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Br(params object[] content) : base(false, "br", new TagOptions(close: false), content)
+    internal Br(params object[] content) : base("br", new TagOptions(close: false), content)
     {
     }
     private Br(Br original, CloneChanges changes) : base(original, changes) { }
@@ -70,7 +70,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;dd&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Dd(object content = null) : base(false, "dd", content)
+    internal Dd(object content = null) : base("dd", content)
     {
     }
     
@@ -82,7 +82,7 @@ namespace ToSic.Razor.Html5
     /// A Dd object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Dd(params object[] content) : base(false, "dd", null, content)
+    internal Dd(params object[] content) : base("dd", null, content)
     {
     }
     private Dd(Dd original, CloneChanges changes) : base(original, changes) { }
@@ -103,7 +103,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;dl&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Dl(object content = null) : base(false, "dl", content)
+    internal Dl(object content = null) : base("dl", content)
     {
     }
     
@@ -115,7 +115,7 @@ namespace ToSic.Razor.Html5
     /// A Dl object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Dl(params object[] content) : base(false, "dl", null, content)
+    internal Dl(params object[] content) : base("dl", null, content)
     {
     }
     private Dl(Dl original, CloneChanges changes) : base(original, changes) { }
@@ -136,7 +136,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;dt&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Dt(object content = null) : base(false, "dt", content)
+    internal Dt(object content = null) : base("dt", content)
     {
     }
     
@@ -148,7 +148,7 @@ namespace ToSic.Razor.Html5
     /// A Dt object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Dt(params object[] content) : base(false, "dt", null, content)
+    internal Dt(params object[] content) : base("dt", null, content)
     {
     }
     private Dt(Dt original, CloneChanges changes) : base(original, changes) { }
@@ -169,7 +169,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;h1&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal H1(object content = null) : base(false, "h1", content)
+    internal H1(object content = null) : base("h1", content)
     {
     }
     
@@ -181,7 +181,7 @@ namespace ToSic.Razor.Html5
     /// A H1 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal H1(params object[] content) : base(false, "h1", null, content)
+    internal H1(params object[] content) : base("h1", null, content)
     {
     }
     private H1(H1 original, CloneChanges changes) : base(original, changes) { }
@@ -202,7 +202,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;h2&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal H2(object content = null) : base(false, "h2", content)
+    internal H2(object content = null) : base("h2", content)
     {
     }
     
@@ -214,7 +214,7 @@ namespace ToSic.Razor.Html5
     /// A H2 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal H2(params object[] content) : base(false, "h2", null, content)
+    internal H2(params object[] content) : base("h2", null, content)
     {
     }
     private H2(H2 original, CloneChanges changes) : base(original, changes) { }
@@ -235,7 +235,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;h3&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal H3(object content = null) : base(false, "h3", content)
+    internal H3(object content = null) : base("h3", content)
     {
     }
     
@@ -247,7 +247,7 @@ namespace ToSic.Razor.Html5
     /// A H3 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal H3(params object[] content) : base(false, "h3", null, content)
+    internal H3(params object[] content) : base("h3", null, content)
     {
     }
     private H3(H3 original, CloneChanges changes) : base(original, changes) { }
@@ -268,7 +268,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;h4&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal H4(object content = null) : base(false, "h4", content)
+    internal H4(object content = null) : base("h4", content)
     {
     }
     
@@ -280,7 +280,7 @@ namespace ToSic.Razor.Html5
     /// A H4 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal H4(params object[] content) : base(false, "h4", null, content)
+    internal H4(params object[] content) : base("h4", null, content)
     {
     }
     private H4(H4 original, CloneChanges changes) : base(original, changes) { }
@@ -301,7 +301,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;h5&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal H5(object content = null) : base(false, "h5", content)
+    internal H5(object content = null) : base("h5", content)
     {
     }
     
@@ -313,7 +313,7 @@ namespace ToSic.Razor.Html5
     /// A H5 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal H5(params object[] content) : base(false, "h5", null, content)
+    internal H5(params object[] content) : base("h5", null, content)
     {
     }
     private H5(H5 original, CloneChanges changes) : base(original, changes) { }
@@ -334,7 +334,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;h6&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal H6(object content = null) : base(false, "h6", content)
+    internal H6(object content = null) : base("h6", content)
     {
     }
     
@@ -346,7 +346,7 @@ namespace ToSic.Razor.Html5
     /// A H6 object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal H6(params object[] content) : base(false, "h6", null, content)
+    internal H6(params object[] content) : base("h6", null, content)
     {
     }
     private H6(H6 original, CloneChanges changes) : base(original, changes) { }
@@ -367,7 +367,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;hr&gt; tag with optional contents
     /// </summary>
     
-    internal Hr() : base(false, "hr", new TagOptions(close: false))
+    internal Hr() : base("hr", new TagOptions(close: false))
     {
     }
     
@@ -379,7 +379,7 @@ namespace ToSic.Razor.Html5
     /// A Hr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Hr(params object[] content) : base(false, "hr", new TagOptions(close: false), content)
+    internal Hr(params object[] content) : base("hr", new TagOptions(close: false), content)
     {
     }
     private Hr(Hr original, CloneChanges changes) : base(original, changes) { }
@@ -400,7 +400,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;li&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Li(object content = null) : base(false, "li", content)
+    internal Li(object content = null) : base("li", content)
     {
     }
     
@@ -412,7 +412,7 @@ namespace ToSic.Razor.Html5
     /// A Li object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Li(params object[] content) : base(false, "li", null, content)
+    internal Li(params object[] content) : base("li", null, content)
     {
     }
     private Li(Li original, CloneChanges changes) : base(original, changes) { }
@@ -433,7 +433,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;ol&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Ol(object content = null) : base(false, "ol", content)
+    internal Ol(object content = null) : base("ol", content)
     {
     }
     
@@ -445,7 +445,7 @@ namespace ToSic.Razor.Html5
     /// A Ol object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Ol(params object[] content) : base(false, "ol", null, content)
+    internal Ol(params object[] content) : base("ol", null, content)
     {
     }
     private Ol(Ol original, CloneChanges changes) : base(original, changes) { }
@@ -466,7 +466,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;p&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal P(object content = null) : base(false, "p", content)
+    internal P(object content = null) : base("p", content)
     {
     }
     
@@ -478,7 +478,7 @@ namespace ToSic.Razor.Html5
     /// A P object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal P(params object[] content) : base(false, "p", null, content)
+    internal P(params object[] content) : base("p", null, content)
     {
     }
     private P(P original, CloneChanges changes) : base(original, changes) { }
@@ -499,7 +499,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;ul&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Ul(object content = null) : base(false, "ul", content)
+    internal Ul(object content = null) : base("ul", content)
     {
     }
     
@@ -511,7 +511,7 @@ namespace ToSic.Razor.Html5
     /// A Ul object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Ul(params object[] content) : base(false, "ul", null, content)
+    internal Ul(params object[] content) : base("ul", null, content)
     {
     }
     private Ul(Ul original, CloneChanges changes) : base(original, changes) { }
@@ -532,7 +532,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;wbr&gt; tag with optional contents
     /// </summary>
     
-    internal Wbr() : base(false, "wbr", new TagOptions(close: false))
+    internal Wbr() : base("wbr", new TagOptions(close: false))
     {
     }
     
@@ -544,7 +544,7 @@ namespace ToSic.Razor.Html5
     /// A Wbr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Wbr(params object[] content) : base(false, "wbr", new TagOptions(close: false), content)
+    internal Wbr(params object[] content) : base("wbr", new TagOptions(close: false), content)
     {
     }
     private Wbr(Wbr original, CloneChanges changes) : base(original, changes) { }

@@ -6,7 +6,7 @@ namespace ToSic.Razor.Html5
     {
         internal Meta(string name = null, string content = null): this()
         {
-            if(name != null) Name(name);
+            if (name != null) Name(name);
             if (content != null) Content(content);
         }
 

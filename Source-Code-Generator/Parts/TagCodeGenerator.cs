@@ -60,7 +60,7 @@ namespace SourceCodeGenerator.Parts
 
         public string ConstructorWithParams => $@"
     {Comment(ContentParamName)}
-    internal {ClassName}(params object[] {ContentParamName}) : base({Fluid.ToString().ToLower()}, ""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
+    internal {ClassName}(params object[] {ContentParamName}) : base(""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
     {{
     }}";
 
@@ -82,7 +82,7 @@ namespace SourceCodeGenerator.Parts
         /// <summary>
         /// The first parameter ensures that it's not fluid = false
         /// </summary>
-        public string BaseCall => $"base({Fluid.ToString().ToLower()}, \"{TagName}\"{CallParameters(true)}{TagOptions})";
+        public string BaseCall => $"base(\"{TagName}\"{CallParameters(true)}{TagOptions})";
 
         public string Attributes => string.Join("", Properties.Select(p => p.Code(this)));
 
@@ -97,7 +97,7 @@ Standalone ? "" : $@"
     /// </code>
     {QuickAccessWithParams}";
 
-        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
+        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content) {{ TagIsFluid = false }};";
 
         #endregion
 

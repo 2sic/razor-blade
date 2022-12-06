@@ -1,6 +1,4 @@
-﻿using ToSic.Razor.Html5;
-
-namespace ToSic.Razor.Markup
+﻿namespace ToSic.Razor.Markup
 {
     /// <summary>
     /// Basis for either tags where the tag-name is given as parameter, or special tags like comments.
@@ -13,7 +11,7 @@ namespace ToSic.Razor.Markup
             : base(name, options) { }
 
         protected internal TagCustom(string name, TagOptions options, object[] content)
-            : base(false, name, options, content) { }
+            : base(name, options, content) { }
 
         private TagCustom(TagCustom original, CloneChanges changes) : base(original, changes) { }
 

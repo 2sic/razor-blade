@@ -6125,6 +6125,19 @@ references:
   commentId: T:ToSic.Razor.Html5.Link
   fullName: ToSic.Razor.Html5.Link
   nameWithType: Link
+- uid: ToSic.Razor.Html5.Link.#ctor(ToSic.Razor.Html5.Icon,ToSic.Razor.Markup.CloneChanges)
+  name: Link(Icon, CloneChanges)
+  href: api/ToSic.Razor.Html5.Link.html#ToSic_Razor_Html5_Link__ctor_ToSic_Razor_Html5_Icon_ToSic_Razor_Markup_CloneChanges_
+  commentId: M:ToSic.Razor.Html5.Link.#ctor(ToSic.Razor.Html5.Icon,ToSic.Razor.Markup.CloneChanges)
+  fullName: ToSic.Razor.Html5.Link.Link(ToSic.Razor.Html5.Icon, ToSic.Razor.Markup.CloneChanges)
+  nameWithType: Link.Link(Icon, CloneChanges)
+- uid: ToSic.Razor.Html5.Link.#ctor*
+  name: Link
+  href: api/ToSic.Razor.Html5.Link.html#ToSic_Razor_Html5_Link__ctor_
+  commentId: Overload:ToSic.Razor.Html5.Link.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Html5.Link.Link
+  nameWithType: Link.Link
 - uid: ToSic.Razor.Html5.Link.Crossorigin(System.String)
   name: Crossorigin(String)
   href: api/ToSic.Razor.Html5.Link.html#ToSic_Razor_Html5_Link_Crossorigin_System_String_
@@ -6240,12 +6253,12 @@ references:
   commentId: T:ToSic.Razor.Html5.Meta
   fullName: ToSic.Razor.Html5.Meta
   nameWithType: Meta
-- uid: ToSic.Razor.Html5.Meta.#ctor(System.String,System.String)
-  name: Meta(String, String)
-  href: api/ToSic.Razor.Html5.Meta.html#ToSic_Razor_Html5_Meta__ctor_System_String_System_String_
-  commentId: M:ToSic.Razor.Html5.Meta.#ctor(System.String,System.String)
-  fullName: ToSic.Razor.Html5.Meta.Meta(System.String, System.String)
-  nameWithType: Meta.Meta(String, String)
+- uid: ToSic.Razor.Html5.Meta.#ctor(ToSic.Razor.Html5.MetaOg,ToSic.Razor.Markup.CloneChanges)
+  name: Meta(MetaOg, CloneChanges)
+  href: api/ToSic.Razor.Html5.Meta.html#ToSic_Razor_Html5_Meta__ctor_ToSic_Razor_Html5_MetaOg_ToSic_Razor_Markup_CloneChanges_
+  commentId: M:ToSic.Razor.Html5.Meta.#ctor(ToSic.Razor.Html5.MetaOg,ToSic.Razor.Markup.CloneChanges)
+  fullName: ToSic.Razor.Html5.Meta.Meta(ToSic.Razor.Html5.MetaOg, ToSic.Razor.Markup.CloneChanges)
+  nameWithType: Meta.Meta(MetaOg, CloneChanges)
 - uid: ToSic.Razor.Html5.Meta.#ctor*
   name: Meta
   href: api/ToSic.Razor.Html5.Meta.html#ToSic_Razor_Html5_Meta__ctor_
@@ -6870,6 +6883,19 @@ references:
   commentId: T:ToSic.Razor.Html5.Script
   fullName: ToSic.Razor.Html5.Script
   nameWithType: Script
+- uid: ToSic.Razor.Html5.Script.#ctor(ToSic.Razor.Html5.ScriptJsonLd,ToSic.Razor.Markup.CloneChanges)
+  name: Script(ScriptJsonLd, CloneChanges)
+  href: api/ToSic.Razor.Html5.Script.html#ToSic_Razor_Html5_Script__ctor_ToSic_Razor_Html5_ScriptJsonLd_ToSic_Razor_Markup_CloneChanges_
+  commentId: M:ToSic.Razor.Html5.Script.#ctor(ToSic.Razor.Html5.ScriptJsonLd,ToSic.Razor.Markup.CloneChanges)
+  fullName: ToSic.Razor.Html5.Script.Script(ToSic.Razor.Html5.ScriptJsonLd, ToSic.Razor.Markup.CloneChanges)
+  nameWithType: Script.Script(ScriptJsonLd, CloneChanges)
+- uid: ToSic.Razor.Html5.Script.#ctor*
+  name: Script
+  href: api/ToSic.Razor.Html5.Script.html#ToSic_Razor_Html5_Script__ctor_
+  commentId: Overload:ToSic.Razor.Html5.Script.#ctor
+  isSpec: "True"
+  fullName: ToSic.Razor.Html5.Script.Script
+  nameWithType: Script.Script
 - uid: ToSic.Razor.Html5.Script.Async
   name: Async()
   href: api/ToSic.Razor.Html5.Script.html#ToSic_Razor_Html5_Script_Async
@@ -6953,25 +6979,6 @@ references:
   commentId: T:ToSic.Razor.Html5.ScriptJsonLd
   fullName: ToSic.Razor.Html5.ScriptJsonLd
   nameWithType: ScriptJsonLd
-- uid: ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.Object)
-  name: ScriptJsonLd(Object)
-  href: api/ToSic.Razor.Html5.ScriptJsonLd.html#ToSic_Razor_Html5_ScriptJsonLd__ctor_System_Object_
-  commentId: M:ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.Object)
-  fullName: ToSic.Razor.Html5.ScriptJsonLd.ScriptJsonLd(System.Object)
-  nameWithType: ScriptJsonLd.ScriptJsonLd(Object)
-- uid: ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.String)
-  name: ScriptJsonLd(String)
-  href: api/ToSic.Razor.Html5.ScriptJsonLd.html#ToSic_Razor_Html5_ScriptJsonLd__ctor_System_String_
-  commentId: M:ToSic.Razor.Html5.ScriptJsonLd.#ctor(System.String)
-  fullName: ToSic.Razor.Html5.ScriptJsonLd.ScriptJsonLd(System.String)
-  nameWithType: ScriptJsonLd.ScriptJsonLd(String)
-- uid: ToSic.Razor.Html5.ScriptJsonLd.#ctor*
-  name: ScriptJsonLd
-  href: api/ToSic.Razor.Html5.ScriptJsonLd.html#ToSic_Razor_Html5_ScriptJsonLd__ctor_
-  commentId: Overload:ToSic.Razor.Html5.ScriptJsonLd.#ctor
-  isSpec: "True"
-  fullName: ToSic.Razor.Html5.ScriptJsonLd.ScriptJsonLd
-  nameWithType: ScriptJsonLd.ScriptJsonLd
 - uid: ToSic.Razor.Html5.Section
   name: Section
   href: api/ToSic.Razor.Html5.Section.html
@@ -8328,14 +8335,6 @@ references:
   fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(System.String, ToSic.Razor.Markup.TagOptions, System.Object())
   nameWithType: Tag<T>.Tag(String, TagOptions, Object[])
   nameWithType.vb: Tag(Of T).Tag(String, TagOptions, Object())
-- uid: ToSic.Razor.Markup.Tag`1.#ctor(ToSic.Razor.Markup.TagBase,ToSic.Razor.Markup.ChildTags,ToSic.Razor.Markup.AttributeList,ToSic.Razor.Markup.TagOptions)
-  name: Tag(TagBase, ChildTags, AttributeList, TagOptions)
-  href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_ToSic_Razor_Markup_TagBase_ToSic_Razor_Markup_ChildTags_ToSic_Razor_Markup_AttributeList_ToSic_Razor_Markup_TagOptions_
-  commentId: M:ToSic.Razor.Markup.Tag`1.#ctor(ToSic.Razor.Markup.TagBase,ToSic.Razor.Markup.ChildTags,ToSic.Razor.Markup.AttributeList,ToSic.Razor.Markup.TagOptions)
-  fullName: ToSic.Razor.Markup.Tag<T>.Tag(ToSic.Razor.Markup.TagBase, ToSic.Razor.Markup.ChildTags, ToSic.Razor.Markup.AttributeList, ToSic.Razor.Markup.TagOptions)
-  fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(ToSic.Razor.Markup.TagBase, ToSic.Razor.Markup.ChildTags, ToSic.Razor.Markup.AttributeList, ToSic.Razor.Markup.TagOptions)
-  nameWithType: Tag<T>.Tag(TagBase, ChildTags, AttributeList, TagOptions)
-  nameWithType.vb: Tag(Of T).Tag(TagBase, ChildTags, AttributeList, TagOptions)
 - uid: ToSic.Razor.Markup.Tag`1.#ctor(ToSic.Razor.Markup.TagBase,ToSic.Razor.Markup.CloneChanges)
   name: Tag(TagBase, CloneChanges)
   href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_ToSic_Razor_Markup_TagBase_ToSic_Razor_Markup_CloneChanges_
@@ -8535,6 +8534,19 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.TagBase
   nameWithType: TagBase.TagBase
+- uid: ToSic.Razor.Markup.TagBase.ApplyChanges(ToSic.Razor.Markup.CloneChanges)
+  name: ApplyChanges(CloneChanges)
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ApplyChanges_ToSic_Razor_Markup_CloneChanges_
+  commentId: M:ToSic.Razor.Markup.TagBase.ApplyChanges(ToSic.Razor.Markup.CloneChanges)
+  fullName: ToSic.Razor.Markup.TagBase.ApplyChanges(ToSic.Razor.Markup.CloneChanges)
+  nameWithType: TagBase.ApplyChanges(CloneChanges)
+- uid: ToSic.Razor.Markup.TagBase.ApplyChanges*
+  name: ApplyChanges
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ApplyChanges_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.ApplyChanges
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.ApplyChanges
+  nameWithType: TagBase.ApplyChanges
 - uid: ToSic.Razor.Markup.TagBase.op_Addition(System.Boolean,ToSic.Razor.Markup.TagBase)
   name: Addition(Boolean, TagBase)
   href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_op_Addition_System_Boolean_ToSic_Razor_Markup_TagBase_
@@ -8649,19 +8661,19 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.TagEnd
   nameWithType: TagBase.TagEnd
-- uid: ToSic.Razor.Markup.TagBase.TagIsReadOnly
-  name: TagIsReadOnly
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsReadOnly
-  commentId: P:ToSic.Razor.Markup.TagBase.TagIsReadOnly
-  fullName: ToSic.Razor.Markup.TagBase.TagIsReadOnly
-  nameWithType: TagBase.TagIsReadOnly
-- uid: ToSic.Razor.Markup.TagBase.TagIsReadOnly*
-  name: TagIsReadOnly
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsReadOnly_
-  commentId: Overload:ToSic.Razor.Markup.TagBase.TagIsReadOnly
+- uid: ToSic.Razor.Markup.TagBase.TagIsFluid
+  name: TagIsFluid
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsFluid
+  commentId: P:ToSic.Razor.Markup.TagBase.TagIsFluid
+  fullName: ToSic.Razor.Markup.TagBase.TagIsFluid
+  nameWithType: TagBase.TagIsFluid
+- uid: ToSic.Razor.Markup.TagBase.TagIsFluid*
+  name: TagIsFluid
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsFluid_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagIsFluid
   isSpec: "True"
-  fullName: ToSic.Razor.Markup.TagBase.TagIsReadOnly
-  nameWithType: TagBase.TagIsReadOnly
+  fullName: ToSic.Razor.Markup.TagBase.TagIsFluid
+  nameWithType: TagBase.TagIsFluid
 - uid: ToSic.Razor.Markup.TagBase.TagName
   name: TagName
   href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName

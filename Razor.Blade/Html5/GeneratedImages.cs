@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 22:24
+// Created 06.12.2022 23:08
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;area&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Area(object content = null) : base(false, "area", content)
+    internal Area(object content = null) : base("area", content)
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A Area object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Area(params object[] content) : base(false, "area", null, content)
+    internal Area(params object[] content) : base("area", null, content)
     {
     }
     private Area(Area original, CloneChanges changes) : base(original, changes) { }
@@ -70,7 +70,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;canvas&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Canvas(object content = null) : base(false, "canvas", content)
+    internal Canvas(object content = null) : base("canvas", content)
     {
     }
     
@@ -82,7 +82,7 @@ namespace ToSic.Razor.Html5
     /// A Canvas object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Canvas(params object[] content) : base(false, "canvas", null, content)
+    internal Canvas(params object[] content) : base("canvas", null, content)
     {
     }
     private Canvas(Canvas original, CloneChanges changes) : base(original, changes) { }
@@ -139,7 +139,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;img&gt; tag with optional contents
     /// </summary>
     
-    internal Img() : base(false, "img", new TagOptions(close: false))
+    internal Img() : base("img", new TagOptions(close: false))
     {
     }
     
@@ -151,7 +151,7 @@ namespace ToSic.Razor.Html5
     /// A Img object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Img(params object[] content) : base(false, "img", new TagOptions(close: false), content)
+    internal Img(params object[] content) : base("img", new TagOptions(close: false), content)
     {
     }
     private Img(Img original, CloneChanges changes) : base(original, changes) { }
@@ -297,7 +297,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;map&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Map(object content = null) : base(false, "map", content)
+    internal Map(object content = null) : base("map", content)
     {
     }
     
@@ -309,7 +309,7 @@ namespace ToSic.Razor.Html5
     /// A Map object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Map(params object[] content) : base(false, "map", null, content)
+    internal Map(params object[] content) : base("map", null, content)
     {
     }
     private Map(Map original, CloneChanges changes) : base(original, changes) { }
@@ -341,7 +341,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;picture&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Picture(object content = null) : base(false, "picture", content)
+    internal Picture(object content = null) : base("picture", content)
     {
     }
     
@@ -353,7 +353,7 @@ namespace ToSic.Razor.Html5
     /// A Picture object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Picture(params object[] content) : base(false, "picture", null, content)
+    internal Picture(params object[] content) : base("picture", null, content)
     {
     }
     private Picture(Picture original, CloneChanges changes) : base(original, changes) { }
@@ -374,7 +374,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;svg&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Svg(object content = null) : base(false, "svg", content)
+    internal Svg(object content = null) : base("svg", content)
     {
     }
     
@@ -386,7 +386,7 @@ namespace ToSic.Razor.Html5
     /// A Svg object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Svg(params object[] content) : base(false, "svg", null, content)
+    internal Svg(params object[] content) : base("svg", null, content)
     {
     }
     private Svg(Svg original, CloneChanges changes) : base(original, changes) { }

@@ -10,22 +10,22 @@ namespace ToSic.Razor.Markup
     {
         #region Constructors
 
-        internal bool DefaultTagIsFluid = false;
+        internal const bool DefaultTagIsFluid = true;
 
-        public bool TagIsFluid { get; }
-
-        private TagBase(): this(null) { }
+        /// <summary>
+        /// Special - protected set - todo document
+        /// </summary>
+        public bool TagIsFluid { get; internal set; } = DefaultTagIsFluid;
 
         protected internal TagBase(TagBase original = null,
-            bool? fluid = null,
             string name = null,
             string tagOverride = null,
             ChildTags children = null,
             AttributeList attributes = null,
             TagOptions options = null)
         {
-            // By default tags should not be readonly
-            TagIsFluid = fluid ?? original?.TagIsFluid ?? DefaultTagIsFluid;
+            //// By default tags should not be readonly
+            //TagIsFluid = fluid ?? original?.TagIsFluid ?? DefaultTagIsFluid;
 
             // TagOptions is allowed to be null
             TagOptions = options ?? original?.TagOptions;
