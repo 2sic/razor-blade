@@ -4,23 +4,24 @@ namespace ToSic.Razor.Html5
 {
     public partial class Meta
     {
-        public Meta(string name = null, string content = null): this()
+        internal Meta(bool fluid, string name = null, string content = null): this(fluid)
         {
             if(name != null) Name(name);
             if (content != null) Content(content);
         }
 
-        //private Meta(Meta original, CloneChanges changes) : base(original, changes) { }
+        /// <summary>
+        /// Very special internal overload to allow MetaOg to replicate
+        /// </summary>
+        protected Meta(MetaOg original, CloneChanges changes) : base(original, changes) { }
 
-        /////// <inheritdoc />
-        //internal override Meta CwC(CloneChanges changes) => new Meta(this, changes);
     }
 
     public class MetaOg : Meta
     {
         public const string Prefix = "og:";
 
-        public MetaOg(string property = null, string content = null)
+        public MetaOg(bool fluid, string property = null, string content = null): base(fluid)
         {
             if(property != null) Property(property);
             if(content != null) Content(content);

@@ -12,7 +12,7 @@ namespace ToSic.Razor.Html5
         /// Create a JsonLd Script-TagBase 
         /// </summary>
         /// <param name="content">the contents in the tag</param>
-        public ScriptJsonLd(string content)
+        internal ScriptJsonLd(bool fluid, string content): base(fluid)
         {
             Type("application/ld+json");
             // https://w3c.github.io/json-ld-syntax/#restrictions-for-contents-of-json-ld-script-elements
@@ -25,8 +25,8 @@ namespace ToSic.Razor.Html5
         /// Create a JsonLd Script tag and automatically json-serialize the object inside it
         /// </summary>
         /// <param name="content">an object which will be json serialized</param>
-        public ScriptJsonLd(object content)
-            : this(Internals.Html.ToJsonOrErrorMessage(content)) {}
+        internal ScriptJsonLd(bool fluid, object content)
+            : this(fluid, Internals.Html.ToJsonOrErrorMessage(content)) {}
 
         private ScriptJsonLd(ScriptJsonLd original, CloneChanges changes) : base(original, changes) { }
 
@@ -34,6 +34,15 @@ namespace ToSic.Razor.Html5
         // THE ORIGINAL - TEST/VERIFY IF THE FINAL CONVERSION ENDS UP WORKING
         // SINCE THE real CwC return a T-type
         internal override Script CwC(CloneChanges changes) => new ScriptJsonLd(this, changes);
+
+    }
+
+    public partial class Script
+    {
+        /// <summary>
+        /// Very special internal overload to allow Icons to replicate
+        /// </summary>
+        protected Script(ScriptJsonLd original, CloneChanges changes) : base(original, changes) { }
 
     }
 }

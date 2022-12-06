@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 21:03
+// Created 06.12.2022 21:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;base&gt; tag with optional contents
     /// </summary>
     
-    internal Base() : base("base", new TagOptions(close: false))
+    internal Base(bool fluid) : base(fluid, "base", new TagOptions(close: false))
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A Base object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Base(params object[] content) : base("base", new TagOptions(close: false), content)
+    internal Base(bool fluid, params object[] content) : base(fluid, "base", new TagOptions(close: false), content)
     {
     }
     private Base(Base original, CloneChanges changes) : base(original, changes) { }
@@ -93,7 +93,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;head&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Head(object content = null) : base("head", content)
+    internal Head(bool fluid, object content = null) : base(fluid, "head", content)
     {
     }
     
@@ -105,7 +105,7 @@ namespace ToSic.Razor.Html5
     /// A Head object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Head(params object[] content) : base("head", null, content)
+    internal Head(bool fluid, params object[] content) : base(fluid, "head", null, content)
     {
     }
     private Head(Head original, CloneChanges changes) : base(original, changes) { }
@@ -126,7 +126,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;meta&gt; tag with optional contents
     /// </summary>
     
-    internal Meta() : base("meta", new TagOptions(close: false))
+    internal Meta(bool fluid) : base(fluid, "meta", new TagOptions(close: false))
     {
     }
     
@@ -138,7 +138,7 @@ namespace ToSic.Razor.Html5
     /// A Meta object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Meta(params object[] content) : base("meta", new TagOptions(close: false), content)
+    internal Meta(bool fluid, params object[] content) : base(fluid, "meta", new TagOptions(close: false), content)
     {
     }
     private Meta(Meta original, CloneChanges changes) : base(original, changes) { }

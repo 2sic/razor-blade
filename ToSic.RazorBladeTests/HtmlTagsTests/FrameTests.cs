@@ -12,14 +12,14 @@ namespace ToSic.RazorBladeTests.HtmlTagsTests
         public void IFrames()
         {
             Is("<iframe>", 
-                new Iframe());
+                new Iframe(false));
             Is("<iframe src='https://azing.org'>", 
-                new Iframe("https://azing.org"));
+                new Iframe(false, "https://azing.org"));
             Is("<iframe src='https://azing.org'>", 
-                new Iframe().Src("https://azing.org"));
+                new Iframe(false).Src("https://azing.org"));
 
             Is("<iframe src='xyz' height='8' width='7'>", 
-                new Iframe("xyz", 7, 8));
+                new Iframe(false, "xyz", 7, 8));
         }
 
     }

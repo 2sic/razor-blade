@@ -41,8 +41,8 @@ namespace SourceCodeGenerator.Parts
     {{
     {Constructor}
     {ConstructorWithParams}
-    {ConstructorForClone2}
-    {CloneWithChanges2}
+    {ConstructorForClone}
+    {CloneWithChanges}
     {Attributes}
     }}";
 
@@ -58,32 +58,29 @@ namespace SourceCodeGenerator.Parts
 
         public string ConstructorWithParams => $@"
     {Comment(ContentParamName)}
-    internal {ClassName}(params object[] {ContentParamName}) : base(""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
+    internal {ClassName}(bool fluid, params object[] {ContentParamName}) : base(fluid, ""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
     {{
     }}";
 
         #region Fluid Cloning
 
-        
-        public string ConstructorForClone => $@"
-    private {ClassName}({ClassName} original, ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
-      : base(original, children, attributes, options) {{ }}";
-        public string CloneWithChanges => $@"
-    internal override {ClassName} CwC(ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
-      => new {ClassName}(this, children, attributes, options);";
-
-        public string ConstructorForClone2 => $@"private {ClassName}({ClassName} original, CloneChanges changes) : base(original, changes) {{ }}";
-        public string CloneWithChanges2 => $@"internal override {ClassName} CwC(CloneChanges changes) => new {ClassName}(this, changes);";
+        public string ConstructorForClone => $@"private {ClassName}({ClassName} original, CloneChanges changes) : base(original, changes) {{ }}";
+        public string CloneWithChanges => $@"internal override {ClassName} CwC(CloneChanges changes) => new {ClassName}(this, changes);";
         #endregion
 
-        public string ConstructorParameters => Standalone
+        public string ConstructorParameters =>
+            "bool fluid" +
+            (Standalone
             ? ""
-            : "object content = null";
+            : ", object content = null");
 
-        public string CallParameters(bool chain = true) => Standalone ? "" : ((chain ? ", " : "") + "content");
+        public string CallParameters(bool chain = true) => Standalone ? "" : (chain ? ", " : "") + "content";
 
 
-        public string BaseCall => $"base(\"{TagName}\"{CallParameters(true)}{TagOptions})";
+        /// <summary>
+        /// The first parameter ensures that it's not fluid = false
+        /// </summary>
+        public string BaseCall => $"base(fluid, \"{TagName}\"{CallParameters(true)}{TagOptions})";
 
         public string Attributes => string.Join("", Properties.Select(p => p.Code(this)));
 
@@ -98,7 +95,7 @@ Standalone ? "" : $@"
     /// </code>
     {QuickAccessWithParams}";
 
-        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
+        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(false, content);";
 
         #endregion
 
@@ -106,7 +103,7 @@ Standalone ? "" : $@"
 
         public string HtmlTagServiceCode => $@"
     /// <inheritdoc />
-    public {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
+    public {ClassName} {ClassName}(params object[] content) => new {ClassName}(true, content);";
 
         public string HtmlTagServiceInterfaceCode => $@"{Comment(ContentParamName)}
     /// <code>

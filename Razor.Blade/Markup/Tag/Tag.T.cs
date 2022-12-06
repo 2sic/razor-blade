@@ -23,13 +23,13 @@ namespace ToSic.Razor.Markup
         // new constructors
 
         protected Tag(bool fluid, string name = null, TagOptions options = null)
-            : base(name: name, options: options) { }
+            : base(fluid: fluid, name: name, options: options) { }
 
         protected Tag(bool fluid, string name, object content, TagOptions options = null)
-            : base(name: name, options: options, children: new ChildTags(content)) { }
+            : base(fluid: fluid, name: name, options: options, children: new ChildTags(content)) { }
 
         protected Tag(bool fluid, string name, TagOptions options, object[] content) 
-            : base(name: name, options: options, children: new ChildTags(content)) { }
+            : base(fluid: fluid, name: name, options: options, children: new ChildTags(content)) { }
 
 
         /// <summary>

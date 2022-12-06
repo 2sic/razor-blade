@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 21:03
+// Created 06.12.2022 21:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;article&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Article(object content = null) : base("article", content)
+    internal Article(bool fluid, object content = null) : base(fluid, "article", content)
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A Article object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Article(params object[] content) : base("article", null, content)
+    internal Article(bool fluid, params object[] content) : base(fluid, "article", null, content)
     {
     }
     private Article(Article original, CloneChanges changes) : base(original, changes) { }
@@ -70,7 +70,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;aside&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Aside(object content = null) : base("aside", content)
+    internal Aside(bool fluid, object content = null) : base(fluid, "aside", content)
     {
     }
     
@@ -82,7 +82,7 @@ namespace ToSic.Razor.Html5
     /// A Aside object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Aside(params object[] content) : base("aside", null, content)
+    internal Aside(bool fluid, params object[] content) : base(fluid, "aside", null, content)
     {
     }
     private Aside(Aside original, CloneChanges changes) : base(original, changes) { }
@@ -103,7 +103,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;data&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Data(object content = null) : base("data", content)
+    internal Data(bool fluid, object content = null) : base(fluid, "data", content)
     {
     }
     
@@ -115,7 +115,7 @@ namespace ToSic.Razor.Html5
     /// A Data object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Data(params object[] content) : base("data", null, content)
+    internal Data(bool fluid, params object[] content) : base(fluid, "data", null, content)
     {
     }
     private Data(Data original, CloneChanges changes) : base(original, changes) { }
@@ -154,7 +154,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;details&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Details(object content = null) : base("details", content)
+    internal Details(bool fluid, object content = null) : base(fluid, "details", content)
     {
     }
     
@@ -166,7 +166,7 @@ namespace ToSic.Razor.Html5
     /// A Details object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Details(params object[] content) : base("details", null, content)
+    internal Details(bool fluid, params object[] content) : base(fluid, "details", null, content)
     {
     }
     private Details(Details original, CloneChanges changes) : base(original, changes) { }
@@ -205,7 +205,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;dialog&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Dialog(object content = null) : base("dialog", content)
+    internal Dialog(bool fluid, object content = null) : base(fluid, "dialog", content)
     {
     }
     
@@ -217,7 +217,7 @@ namespace ToSic.Razor.Html5
     /// A Dialog object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Dialog(params object[] content) : base("dialog", null, content)
+    internal Dialog(bool fluid, params object[] content) : base(fluid, "dialog", null, content)
     {
     }
     private Dialog(Dialog original, CloneChanges changes) : base(original, changes) { }
@@ -256,7 +256,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;div&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Div(object content = null) : base("div", content)
+    internal Div(bool fluid, object content = null) : base(fluid, "div", content)
     {
     }
     
@@ -268,7 +268,7 @@ namespace ToSic.Razor.Html5
     /// A Div object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Div(params object[] content) : base("div", null, content)
+    internal Div(bool fluid, params object[] content) : base(fluid, "div", null, content)
     {
     }
     private Div(Div original, CloneChanges changes) : base(original, changes) { }
@@ -289,7 +289,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;footer&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Footer(object content = null) : base("footer", content)
+    internal Footer(bool fluid, object content = null) : base(fluid, "footer", content)
     {
     }
     
@@ -301,7 +301,7 @@ namespace ToSic.Razor.Html5
     /// A Footer object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Footer(params object[] content) : base("footer", null, content)
+    internal Footer(bool fluid, params object[] content) : base(fluid, "footer", null, content)
     {
     }
     private Footer(Footer original, CloneChanges changes) : base(original, changes) { }
@@ -322,7 +322,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;header&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Header(object content = null) : base("header", content)
+    internal Header(bool fluid, object content = null) : base(fluid, "header", content)
     {
     }
     
@@ -334,7 +334,7 @@ namespace ToSic.Razor.Html5
     /// A Header object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Header(params object[] content) : base("header", null, content)
+    internal Header(bool fluid, params object[] content) : base(fluid, "header", null, content)
     {
     }
     private Header(Header original, CloneChanges changes) : base(original, changes) { }
@@ -355,7 +355,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;main&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Main(object content = null) : base("main", content)
+    internal Main(bool fluid, object content = null) : base(fluid, "main", content)
     {
     }
     
@@ -367,7 +367,7 @@ namespace ToSic.Razor.Html5
     /// A Main object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Main(params object[] content) : base("main", null, content)
+    internal Main(bool fluid, params object[] content) : base(fluid, "main", null, content)
     {
     }
     private Main(Main original, CloneChanges changes) : base(original, changes) { }
@@ -388,7 +388,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;section&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Section(object content = null) : base("section", content)
+    internal Section(bool fluid, object content = null) : base(fluid, "section", content)
     {
     }
     
@@ -400,7 +400,7 @@ namespace ToSic.Razor.Html5
     /// A Section object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Section(params object[] content) : base("section", null, content)
+    internal Section(bool fluid, params object[] content) : base(fluid, "section", null, content)
     {
     }
     private Section(Section original, CloneChanges changes) : base(original, changes) { }
@@ -421,7 +421,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;span&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Span(object content = null) : base("span", content)
+    internal Span(bool fluid, object content = null) : base(fluid, "span", content)
     {
     }
     
@@ -433,7 +433,7 @@ namespace ToSic.Razor.Html5
     /// A Span object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Span(params object[] content) : base("span", null, content)
+    internal Span(bool fluid, params object[] content) : base(fluid, "span", null, content)
     {
     }
     private Span(Span original, CloneChanges changes) : base(original, changes) { }
@@ -454,7 +454,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;style&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Style(object content = null) : base("style", content)
+    internal Style(bool fluid, object content = null) : base(fluid, "style", content)
     {
     }
     
@@ -466,7 +466,7 @@ namespace ToSic.Razor.Html5
     /// A Style object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Style(params object[] content) : base("style", null, content)
+    internal Style(bool fluid, params object[] content) : base(fluid, "style", null, content)
     {
     }
     private Style(Style original, CloneChanges changes) : base(original, changes) { }
@@ -509,7 +509,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;summary&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Summary(object content = null) : base("summary", content)
+    internal Summary(bool fluid, object content = null) : base(fluid, "summary", content)
     {
     }
     
@@ -521,7 +521,7 @@ namespace ToSic.Razor.Html5
     /// A Summary object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Summary(params object[] content) : base("summary", null, content)
+    internal Summary(bool fluid, params object[] content) : base(fluid, "summary", null, content)
     {
     }
     private Summary(Summary original, CloneChanges changes) : base(original, changes) { }

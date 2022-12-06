@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 21:03
+// Created 06.12.2022 21:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;a&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal A(object content = null) : base("a", content)
+    internal A(bool fluid, object content = null) : base(fluid, "a", content)
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A A object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal A(params object[] content) : base("a", null, content)
+    internal A(bool fluid, params object[] content) : base(fluid, "a", null, content)
     {
     }
     private A(A original, CloneChanges changes) : base(original, changes) { }
@@ -159,7 +159,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;link&gt; tag with optional contents
     /// </summary>
     
-    internal Link() : base("link", new TagOptions(close: false))
+    internal Link(bool fluid) : base(fluid, "link", new TagOptions(close: false))
     {
     }
     
@@ -171,7 +171,7 @@ namespace ToSic.Razor.Html5
     /// A Link object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Link(params object[] content) : base("link", new TagOptions(close: false), content)
+    internal Link(bool fluid, params object[] content) : base(fluid, "link", new TagOptions(close: false), content)
     {
     }
     private Link(Link original, CloneChanges changes) : base(original, changes) { }
@@ -259,7 +259,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;nav&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Nav(object content = null) : base("nav", content)
+    internal Nav(bool fluid, object content = null) : base(fluid, "nav", content)
     {
     }
     
@@ -271,7 +271,7 @@ namespace ToSic.Razor.Html5
     /// A Nav object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Nav(params object[] content) : base("nav", null, content)
+    internal Nav(bool fluid, params object[] content) : base(fluid, "nav", null, content)
     {
     }
     private Nav(Nav original, CloneChanges changes) : base(original, changes) { }

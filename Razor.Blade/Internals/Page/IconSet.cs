@@ -12,7 +12,7 @@ namespace ToSic.Razor.Internals.Page
             Icon.RelApple,
         };
 
-        public static List<Icon> GenerateIconSet(string path, object favicon = null, IEnumerable<string> rels = null, IEnumerable<int> sizes = null)
+        public static List<Icon> GenerateIconSet(bool fluid, string path, object favicon = null, IEnumerable<string> rels = null, IEnumerable<int> sizes = null)
         {
             // if no sizes given, just assume the default size only
             sizes = sizes ?? new[] { Icon.SizeUndefined };
@@ -22,20 +22,20 @@ namespace ToSic.Razor.Internals.Page
 
             // generate the icons
             var result = relList.SelectMany(relationship => sizes,
-                    (relationship, size) => new Icon(path, relationship, size))
+                    (relationship, size) => new Icon(fluid, path, relationship, size))
                 .ToList();
 
             // if we need a favicon, add it as well
             switch (favicon)
             {
                 case null:
-                    result.Add(new Icon(path, Icon.RelShortcut));
+                    result.Add(new Icon(fluid, path, Icon.RelShortcut));
                     break;
                 case bool favBool when favBool:
-                    result.Add(new Icon(Icon.RootFavicon, Icon.RelShortcut));
+                    result.Add(new Icon(fluid, Icon.RootFavicon, Icon.RelShortcut));
                     break;
                 case string favString when !string.IsNullOrEmpty(favString):
-                    result.Add(new Icon(favString, Icon.RelShortcut));
+                    result.Add(new Icon(fluid, favString, Icon.RelShortcut));
                     break;
             }
             return result;

@@ -25,7 +25,7 @@ namespace ToSic.Razor.Html5
         /// <param name="size">size parameter</param>
         /// <param name="type">mime type</param>
         /// <returns></returns>
-        public Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
+        public Icon(bool fluid, string path, string rel = null, int size = SizeUndefined, string type = null): base(fluid)
         {
             // TODO: GET INTO CONTSTRUCTOR
             // override empty attributes
@@ -46,5 +46,13 @@ namespace ToSic.Razor.Html5
         // SINCE THE real CwC return a T-type
         internal override Link CwC(CloneChanges changes) => new Icon(this, changes);
 
+    }
+
+    public partial class Link
+    {
+        /// <summary>
+        /// Very special internal overload to allow Icons to replicate
+        /// </summary>
+        protected Link(Icon original, CloneChanges changes) : base(original, changes) { }
     }
 }

@@ -15,7 +15,7 @@ namespace ToSic.Razor.Dnn
             string type = null)
         {
             EnforceNamedParameters.VerifyProtectionKey(doNotRelyOnParameterOrder);
-            AddToHead(new Icon(path, rel, size, type));
+            AddToHead(new Icon(false, path, rel, size, type));
         }
 
         /// <inheritdoc />
@@ -28,7 +28,7 @@ namespace ToSic.Razor.Dnn
             )
         {
             EnforceNamedParameters.VerifyProtectionKey(doNotRelyOnParameterOrder);
-            foreach (var s in Internals.Page.IconSet.GenerateIconSet(path, favicon, rels, sizes))
+            foreach (var s in Internals.Page.IconSet.GenerateIconSet(false, path, favicon, rels, sizes))
                 AddToHead(s);
         }
 

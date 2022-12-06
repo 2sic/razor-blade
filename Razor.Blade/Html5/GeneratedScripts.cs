@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 21:03
+// Created 06.12.2022 21:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;embed&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Embed(object content = null) : base("embed", content)
+    internal Embed(bool fluid, object content = null) : base(fluid, "embed", content)
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A Embed object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Embed(params object[] content) : base("embed", null, content)
+    internal Embed(bool fluid, params object[] content) : base(fluid, "embed", null, content)
     {
     }
     private Embed(Embed original, CloneChanges changes) : base(original, changes) { }
@@ -129,7 +129,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;noscript&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Noscript(object content = null) : base("noscript", content)
+    internal Noscript(bool fluid, object content = null) : base(fluid, "noscript", content)
     {
     }
     
@@ -141,7 +141,7 @@ namespace ToSic.Razor.Html5
     /// A Noscript object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Noscript(params object[] content) : base("noscript", null, content)
+    internal Noscript(bool fluid, params object[] content) : base(fluid, "noscript", null, content)
     {
     }
     private Noscript(Noscript original, CloneChanges changes) : base(original, changes) { }
@@ -162,7 +162,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;object&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Object(object content = null) : base("object", content)
+    internal Object(bool fluid, object content = null) : base(fluid, "object", content)
     {
     }
     
@@ -174,7 +174,7 @@ namespace ToSic.Razor.Html5
     /// A Object object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Object(params object[] content) : base("object", null, content)
+    internal Object(bool fluid, params object[] content) : base(fluid, "object", null, content)
     {
     }
     private Object(Object original, CloneChanges changes) : base(original, changes) { }
@@ -287,7 +287,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;param&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Param(object content = null) : base("param", content)
+    internal Param(bool fluid, object content = null) : base(fluid, "param", content)
     {
     }
     
@@ -299,7 +299,7 @@ namespace ToSic.Razor.Html5
     /// A Param object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Param(params object[] content) : base("param", null, content)
+    internal Param(bool fluid, params object[] content) : base(fluid, "param", null, content)
     {
     }
     private Param(Param original, CloneChanges changes) : base(original, changes) { }
@@ -342,7 +342,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;script&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Script(object content = null) : base("script", content)
+    internal Script(bool fluid, object content = null) : base(fluid, "script", content)
     {
     }
     
@@ -354,7 +354,7 @@ namespace ToSic.Razor.Html5
     /// A Script object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Script(params object[] content) : base("script", null, content)
+    internal Script(bool fluid, params object[] content) : base(fluid, "script", null, content)
     {
     }
     private Script(Script original, CloneChanges changes) : base(original, changes) { }

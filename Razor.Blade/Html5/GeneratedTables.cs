@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 21:03
+// Created 06.12.2022 21:53
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;caption&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Caption(object content = null) : base("caption", content)
+    internal Caption(bool fluid, object content = null) : base(fluid, "caption", content)
     {
     }
     
@@ -49,7 +49,7 @@ namespace ToSic.Razor.Html5
     /// A Caption object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Caption(params object[] content) : base("caption", null, content)
+    internal Caption(bool fluid, params object[] content) : base(fluid, "caption", null, content)
     {
     }
     private Caption(Caption original, CloneChanges changes) : base(original, changes) { }
@@ -70,7 +70,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;col&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Col(object content = null) : base("col", content)
+    internal Col(bool fluid, object content = null) : base(fluid, "col", content)
     {
     }
     
@@ -82,7 +82,7 @@ namespace ToSic.Razor.Html5
     /// A Col object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Col(params object[] content) : base("col", null, content)
+    internal Col(bool fluid, params object[] content) : base(fluid, "col", null, content)
     {
     }
     private Col(Col original, CloneChanges changes) : base(original, changes) { }
@@ -121,7 +121,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;colgroup&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Colgroup(object content = null) : base("colgroup", content)
+    internal Colgroup(bool fluid, object content = null) : base(fluid, "colgroup", content)
     {
     }
     
@@ -133,7 +133,7 @@ namespace ToSic.Razor.Html5
     /// A Colgroup object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Colgroup(params object[] content) : base("colgroup", null, content)
+    internal Colgroup(bool fluid, params object[] content) : base(fluid, "colgroup", null, content)
     {
     }
     private Colgroup(Colgroup original, CloneChanges changes) : base(original, changes) { }
@@ -172,7 +172,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;table&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Table(object content = null) : base("table", content)
+    internal Table(bool fluid, object content = null) : base(fluid, "table", content)
     {
     }
     
@@ -184,7 +184,7 @@ namespace ToSic.Razor.Html5
     /// A Table object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Table(params object[] content) : base("table", null, content)
+    internal Table(bool fluid, params object[] content) : base(fluid, "table", null, content)
     {
     }
     private Table(Table original, CloneChanges changes) : base(original, changes) { }
@@ -205,7 +205,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;tbody&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Tbody(object content = null) : base("tbody", content)
+    internal Tbody(bool fluid, object content = null) : base(fluid, "tbody", content)
     {
     }
     
@@ -217,7 +217,7 @@ namespace ToSic.Razor.Html5
     /// A Tbody object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Tbody(params object[] content) : base("tbody", null, content)
+    internal Tbody(bool fluid, params object[] content) : base(fluid, "tbody", null, content)
     {
     }
     private Tbody(Tbody original, CloneChanges changes) : base(original, changes) { }
@@ -238,7 +238,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;td&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Td(object content = null) : base("td", content)
+    internal Td(bool fluid, object content = null) : base(fluid, "td", content)
     {
     }
     
@@ -250,7 +250,7 @@ namespace ToSic.Razor.Html5
     /// A Td object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Td(params object[] content) : base("td", null, content)
+    internal Td(bool fluid, params object[] content) : base(fluid, "td", null, content)
     {
     }
     private Td(Td original, CloneChanges changes) : base(original, changes) { }
@@ -318,7 +318,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;tfoot&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Tfoot(object content = null) : base("tfoot", content)
+    internal Tfoot(bool fluid, object content = null) : base(fluid, "tfoot", content)
     {
     }
     
@@ -330,7 +330,7 @@ namespace ToSic.Razor.Html5
     /// A Tfoot object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Tfoot(params object[] content) : base("tfoot", null, content)
+    internal Tfoot(bool fluid, params object[] content) : base(fluid, "tfoot", null, content)
     {
     }
     private Tfoot(Tfoot original, CloneChanges changes) : base(original, changes) { }
@@ -351,7 +351,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;th&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Th(object content = null) : base("th", content)
+    internal Th(bool fluid, object content = null) : base(fluid, "th", content)
     {
     }
     
@@ -363,7 +363,7 @@ namespace ToSic.Razor.Html5
     /// A Th object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Th(params object[] content) : base("th", null, content)
+    internal Th(bool fluid, params object[] content) : base(fluid, "th", null, content)
     {
     }
     private Th(Th original, CloneChanges changes) : base(original, changes) { }
@@ -464,7 +464,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;thead&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Thead(object content = null) : base("thead", content)
+    internal Thead(bool fluid, object content = null) : base(fluid, "thead", content)
     {
     }
     
@@ -476,7 +476,7 @@ namespace ToSic.Razor.Html5
     /// A Thead object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Thead(params object[] content) : base("thead", null, content)
+    internal Thead(bool fluid, params object[] content) : base(fluid, "thead", null, content)
     {
     }
     private Thead(Thead original, CloneChanges changes) : base(original, changes) { }
@@ -497,7 +497,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;tr&gt; tag with optional contents
     /// </summary>
     /// <param name="content">content which will be inside the tag</param>
-    internal Tr(object content = null) : base("tr", content)
+    internal Tr(bool fluid, object content = null) : base(fluid, "tr", content)
     {
     }
     
@@ -509,7 +509,7 @@ namespace ToSic.Razor.Html5
     /// A Tr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Tr(params object[] content) : base("tr", null, content)
+    internal Tr(bool fluid, params object[] content) : base(fluid, "tr", null, content)
     {
     }
     private Tr(Tr original, CloneChanges changes) : base(original, changes) { }
