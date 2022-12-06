@@ -2,6 +2,16 @@
 
 # RazorBlade ChangeLog
 
+## Version 4
+
+### Version 4.0 (2022-12)
+
+* Moved `ITag` Interface from `ToSic.Razor.Markup` to `ToSic.Razor.Blade` to make it easier to use in code.  
+  **IMPORTANT** this could be a **breaking change** if you were referencing ITag in _compiled_ (dll) source code
+* Created a new interface `IHtmlTag` which is supported by all generated code, and ensures you have methods such as `Add(...)` or `Wrap(...)` when using any tag generically.  
+  It is available on `ToSic.Razor.Blade` so you don't need to add more namespaces
+* .net Core build now requires .net6 (previously .net5)
+
 ## Version 3
 
 ### Version 3.0 (2019-10-21)

@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net472;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net472;net6.0</TargetFrameworks>
     <RootNamespace>ToSic.Razor</RootNamespace>
-    <Version>03.14.01</Version>
+    <Version>04.00.00</Version>
     <AssemblyName>ToSic.Razor</AssemblyName>
     <PackageId>ToSic.Razor</PackageId>
     <Authors>ToSic.Razor</Authors>
-    <Copyright>Copyright (MIT) © 2022 by 2sic</Copyright>
+    <Copyright>Copyright (MIT) © 2023 by 2sic</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
@@ -21,7 +21,7 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0'">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0'">
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection">
 	    <Version>3.1.16</Version>
