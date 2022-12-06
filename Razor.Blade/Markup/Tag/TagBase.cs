@@ -9,22 +9,38 @@ namespace ToSic.Razor.Markup
     public partial class TagBase : ITag
     {
         #region Constructors
-        private TagBase() { }
 
-        protected internal TagBase(string name = null, TagOptions options = null)
+        public bool TagIsReadOnly { get; set; } = false;
+
+        private TagBase(): this(null, null, null, null, null, null) { }
+
+        protected internal TagBase(TagBase original = null,
+            string name = null,
+            string tagOverride = null,
+            ChildTags children = null,
+            AttributeList attributes = null,
+            TagOptions options = null)
         {
-            TagOptions = options;
-            if (name?.Contains("<") ?? false)
-                TagOverride = name;
-            else
-                TagName = name;
+            // TagOptions is allowed to be null
+            TagOptions = options ?? original?.TagOptions;
+
+            // TagOverride is allowed to be null
+            TagOverride = tagOverride ?? original?.TagOverride;
+
+            // Only set the name, if TagOverride is null - as it shouldn't both exist
+            if (TagOverride == null)
+            {
+                if (name?.Contains("<") ?? false)
+                    TagOverride = name;
+                else
+                    TagName = name ?? original?.TagName;
+            }
+
+            // Children and Attributes may never be null
+            TagChildren = children ?? original?.TagChildren ?? new ChildTags();
+            TagAttributes = attributes ?? original?.TagAttributes ?? new AttributeList();
         }
 
-        protected internal TagBase(string name, TagOptions options, params object[] content) : this(name, options)
-        {
-            if(content?.Length > 0)
-                TagChildren.Replace(content);
-        }
         #endregion
 
         internal static TagBase Text(string text)
@@ -35,9 +51,9 @@ namespace ToSic.Razor.Markup
 
         /// <summary>
         /// TagBase serialization options, like what quotes to use
-        /// If null, will use defaults
+        /// If null (allowed), will use defaults.
         /// </summary>
-        internal TagOptions TagOptions { get; set; }
+        internal virtual TagOptions TagOptions { get; /*set;*/ }
 
         /// <summary>
         /// Helper to ensure that both strings/tags can be passed around and added to list

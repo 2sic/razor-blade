@@ -7,8 +7,7 @@ namespace ToSic.Razor.Markup
 {
     public partial class TagBase: IEnumerable<ITag>
     {
-        public ChildTags TagChildren => _children ?? (_children = new ChildTags());
-        private ChildTags _children;
+        public ChildTags TagChildren { get; } = new ChildTags();
 
         /// <summary>
         /// The contents of this tag
@@ -26,7 +25,7 @@ namespace ToSic.Razor.Markup
         /// so no attributes, no content etc.
         /// </summary>
         /// <remarks>Must be null to be deactivated</remarks>
-        internal string TagOverride;
+        internal string TagOverride { get; set; }
 
         /// <inheritdoc />
         [PrivateApi]

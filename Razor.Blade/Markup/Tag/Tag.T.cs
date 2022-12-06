@@ -12,13 +12,44 @@ namespace ToSic.Razor.Markup
         #region Constructors
 
         protected Tag(string name = null, TagOptions options = null)
-            : base(name, options) { }
+            : base(name: name, options: options) { }
 
         protected Tag(string name, object content, TagOptions options = null)
-            : base(name, options, content) { }
+            : base(name: name, options: options, children: new ChildTags(content)) { }
 
         protected Tag(string name, TagOptions options, object[] content) 
-            : base(name, options, content) { }
+            : base(name: name, options: options, children: new ChildTags(content)) { }
+
+        /// <summary>
+        /// Special constructor just for cloning with changes
+        /// </summary>
+        /// <param name="original"></param>
+        /// <param name="children"></param>
+        /// <param name="attributes"></param>
+        /// <param name="options"></param>
+        protected internal Tag(TagBase original, ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
+            : base(original: original, name: null, tagOverride: null, children: children, attributes: attributes, options: options)
+        { }
+
+        #endregion
+
+        #region Self-Clone
+
+        /// <summary>
+        /// Clone if fluid...
+        /// </summary>
+        internal T CiF()
+        {
+            return this as T;
+        }
+
+        /// <summary>
+        /// Clone with Changes
+        /// </summary>
+        internal virtual T CwC(ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
+        {
+            return this as T;
+        }
 
         #endregion
 
@@ -125,7 +156,7 @@ namespace ToSic.Razor.Markup
         public T WithOptions(TagOptions options)
         {
             // TODO
-            TagOptions = options;
+            //TagOptions = options;
             return this as T;
         }
 

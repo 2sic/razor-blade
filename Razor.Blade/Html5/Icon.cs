@@ -14,6 +14,9 @@ namespace ToSic.Razor.Html5
         public static readonly string RelShortcut = "shortcut icon";
         public static readonly string RelApple = "apple-touch-icon";
 
+        // TODO: TEMP UNTIL we have better constructors
+        internal override TagOptions TagOptions => new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
+
         /// <summary>
         /// Generate an icon 
         /// </summary>
@@ -24,8 +27,9 @@ namespace ToSic.Razor.Html5
         /// <returns></returns>
         public Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
         {
+            // TODO: GET INTO CONTSTRUCTOR
             // override empty attributes
-            TagOptions = new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
+            //TagOptions = new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
 
             Rel(rel ?? RelIcon);
             Sizes(size == SizeUndefined ? "" : $"{size}x{size}");

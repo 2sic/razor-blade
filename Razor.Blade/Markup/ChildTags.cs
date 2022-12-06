@@ -7,6 +7,12 @@ namespace ToSic.Razor.Markup
 {
     public class ChildTags: List<TagBase>
     {
+        public ChildTags(params object[] children)
+        {
+            if (children.Length > 0)
+                Add(children);
+        }
+
         public void Add(params object[] children)
         {
             if (children == null || children.Length == 0) return;

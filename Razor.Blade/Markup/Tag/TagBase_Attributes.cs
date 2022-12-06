@@ -6,6 +6,6 @@
         /// All attributes of this tag
         /// </summary>
         /// <inheritdoc/>
-        public AttributeList TagAttributes { get; } = new AttributeList();
+        public AttributeList TagAttributes { get; } // = new AttributeList();
     }
 }

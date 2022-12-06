@@ -1,4 +1,5 @@
 ﻿using ToSic.Razor.Blade;
+using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Html5
 {
@@ -9,6 +10,13 @@ namespace ToSic.Razor.Html5
             if(name != null) Name(name);
             if (content != null) Content(content);
         }
+
+        private Meta(Meta original, ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
+            : base(original, children, attributes, options) { }
+
+        /// <inheritdoc />
+        internal override Meta CwC(ChildTags children = null, AttributeList attributes = null, TagOptions options = null) 
+            => new Meta(this, children, attributes, options);
     }
 
     public class MetaOg : Meta
