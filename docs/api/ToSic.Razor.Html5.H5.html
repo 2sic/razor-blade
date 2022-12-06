@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class H5
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class H5
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,10 +99,16 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.ITag.html" title="ITag" class="">ITag</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.Tag.html" title="Tag" class="">Tag</a>
@@ -477,9 +483,6 @@
                             <a href="ToSic.Razor.Markup.ChildTags.html" title="ChildTags" class="">ChildTags</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.ITag.html" title="ITag" class="">ITag</a>
-                          </li>
-                          <li class="">
                             <a href="ToSic.Razor.Markup.Tag-1.html" title="Tag&lt;T&gt;" class="">Tag&lt;T&gt;</a>
                           </li>
                           <li class="">
@@ -527,15 +530,22 @@
     <div class="level3"><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag</a>&lt;<a class="xref" href="ToSic.Razor.Html5.H5.html">H5</a>&gt;</div>
     <div class="level4"><span class="xref">H5</span></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
-    <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
-    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
+    <div><span class="xref">System.Web.IHtmlString</span></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a></div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_ToSic_Razor_Blade_IHtmlTag_TagChildren">Tag&lt;H5&gt;.IHtmlTag.TagChildren</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_ToSic_Razor_Blade_IHtmlTag_TagContents">Tag&lt;H5&gt;.IHtmlTag.TagContents</a>
+    </div>
     <div>
       <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Attr_System_String_System_Object_System_String_">Tag&lt;H5&gt;.Attr(String, Object, String)</a>
     </div>
@@ -592,14 +602,17 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Html5_H5_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class H5 : Tag&lt;H5&gt;, IHtmlContent, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class H5 : Tag&lt;H5&gt;, IHtmlString, IHtmlTag, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
+      <span class="xref">System.Web.IHtmlString</span>
   </div>
   <div>
-      <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
+      <a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a>
   </div>
   <div>
       <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
@@ -618,7 +631,7 @@
                     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_H5.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.H5%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedSimple.cs/#L276" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedSimple.cs/#L281" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

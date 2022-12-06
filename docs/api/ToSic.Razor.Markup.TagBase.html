@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class TagBase
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TagBase
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,10 +99,16 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.ITag.html" title="ITag" class="">ITag</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.Tag.html" title="Tag" class="">Tag</a>
@@ -477,9 +483,6 @@
                             <a href="ToSic.Razor.Markup.ChildTags.html" title="ChildTags" class="">ChildTags</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.ITag.html" title="ITag" class="">ITag</a>
-                          </li>
-                          <li class="">
                             <a href="ToSic.Razor.Markup.Tag-1.html" title="Tag&lt;T&gt;" class="">Tag&lt;T&gt;</a>
                           </li>
                           <li class="active">
@@ -526,18 +529,18 @@
     <div class="level2"><span class="xref">TagBase</span></div>
       <div class="level3"><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag&lt;T&gt;</a></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
-    <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
-    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
+    <div><span class="xref">System.Web.IHtmlString</span></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a></div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ToSic.Razor.Markup.html">ToSic.Razor.Markup</a></h6>
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Markup_TagBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TagBase : ToHtmlHybridBase, IHtmlContent, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TagBase : ToHtmlHybridBase, IHtmlString, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -546,7 +549,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagBase__ctor_System_String_ToSic_Razor_Markup_TagOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagBase.%23ctor(System.String%2CToSic.Razor.Markup.TagOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L12">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L14">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagBase__ctor_" data-uid="ToSic.Razor.Markup.TagBase.#ctor*"></a>
   <h4 id="ToSic_Razor_Markup_TagBase__ctor_System_String_ToSic_Razor_Markup_TagOptions_" data-uid="ToSic.Razor.Markup.TagBase.#ctor(System.String,ToSic.Razor.Markup.TagOptions)">TagBase(String, TagOptions)</h4>
@@ -583,7 +586,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagBase__ctor_System_String_ToSic_Razor_Markup_TagOptions_System_Object___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagBase.%23ctor(System.String%2CToSic.Razor.Markup.TagOptions%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L27">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L23">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagBase__ctor_" data-uid="ToSic.Razor.Markup.TagBase.#ctor*"></a>
   <h4 id="ToSic_Razor_Markup_TagBase__ctor_System_String_ToSic_Razor_Markup_TagOptions_System_Object___" data-uid="ToSic.Razor.Markup.TagBase.#ctor(System.String,ToSic.Razor.Markup.TagOptions,System.Object[])">TagBase(String, TagOptions, Object[])</h4>
@@ -658,7 +661,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagBase_TagChildren.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagBase.TagChildren%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase_Contents.cs/#L9">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase_Contents.cs/#L10">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagBase_TagChildren_" data-uid="ToSic.Razor.Markup.TagBase.TagChildren*"></a>
   <h4 id="ToSic_Razor_Markup_TagBase_TagChildren" data-uid="ToSic.Razor.Markup.TagBase.TagChildren">TagChildren</h4>
@@ -688,7 +691,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagBase_TagContents.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagBase.TagContents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase_Contents.cs/#L15">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase_Contents.cs/#L16">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagBase_TagContents_" data-uid="ToSic.Razor.Markup.TagBase.TagContents*"></a>
   <h4 id="ToSic_Razor_Markup_TagBase_TagContents" data-uid="ToSic.Razor.Markup.TagBase.TagContents">TagContents</h4>
@@ -739,7 +742,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Html.HtmlString</span></td>
+        <td><span class="xref">System.Web.HtmlString</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -749,12 +752,11 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagBase_TagName.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagBase.TagName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L38">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L34">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagBase_TagName_" data-uid="ToSic.Razor.Markup.TagBase.TagName*"></a>
   <h4 id="ToSic_Razor_Markup_TagBase_TagName" data-uid="ToSic.Razor.Markup.TagBase.TagName">TagName</h4>
-  <div class="markdown level1 summary"><p>The tag name</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -780,7 +782,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagBase_TagStart.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagBase.TagStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase_HtmlString.cs/#L15">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase_HtmlString.cs/#L14">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagBase_TagStart_" data-uid="ToSic.Razor.Markup.TagBase.TagStart*"></a>
   <h4 id="ToSic_Razor_Markup_TagBase_TagStart" data-uid="ToSic.Razor.Markup.TagBase.TagStart">TagStart</h4>
@@ -800,7 +802,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Html.HtmlString</span></td>
+        <td><span class="xref">System.Web.HtmlString</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -812,7 +814,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagBase_ToString.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagBase.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L63">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Tag/TagBase.cs/#L59">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagBase_ToString_" data-uid="ToSic.Razor.Markup.TagBase.ToString*"></a>
   <h4 id="ToSic_Razor_Markup_TagBase_ToString" data-uid="ToSic.Razor.Markup.TagBase.ToString">ToString()</h4>
@@ -1255,10 +1257,10 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
+      <span class="xref">System.Web.IHtmlString</span>
   </div>
   <div>
-      <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
+      <a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a>
   </div>
   <div>
       <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>

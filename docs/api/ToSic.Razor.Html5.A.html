@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class A
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class A
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,10 +99,16 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.ITag.html" title="ITag" class="">ITag</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.Tag.html" title="Tag" class="">Tag</a>
@@ -477,9 +483,6 @@
                             <a href="ToSic.Razor.Markup.ChildTags.html" title="ChildTags" class="">ChildTags</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.ITag.html" title="ITag" class="">ITag</a>
-                          </li>
-                          <li class="">
                             <a href="ToSic.Razor.Markup.Tag-1.html" title="Tag&lt;T&gt;" class="">Tag&lt;T&gt;</a>
                           </li>
                           <li class="">
@@ -527,15 +530,22 @@
     <div class="level3"><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag</a>&lt;<a class="xref" href="ToSic.Razor.Html5.A.html">A</a>&gt;</div>
     <div class="level4"><span class="xref">A</span></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
-    <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
-    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
+    <div><span class="xref">System.Web.IHtmlString</span></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a></div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_ToSic_Razor_Blade_IHtmlTag_TagChildren">Tag&lt;A&gt;.IHtmlTag.TagChildren</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_ToSic_Razor_Blade_IHtmlTag_TagContents">Tag&lt;A&gt;.IHtmlTag.TagContents</a>
+    </div>
     <div>
       <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Attr_System_String_System_Object_System_String_">Tag&lt;A&gt;.Attr(String, Object, String)</a>
     </div>
@@ -592,7 +602,7 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Html5_A_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class A : Tag&lt;A&gt;, IHtmlContent, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class A : Tag&lt;A&gt;, IHtmlString, IHtmlTag, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -601,7 +611,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Download_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Download(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L57">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L62">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Download_" data-uid="ToSic.Razor.Html5.A.Download*"></a>
   <h4 id="ToSic_Razor_Html5_A_Download_System_String_" data-uid="ToSic.Razor.Html5.A.Download(System.String)">Download(String)</h4>
@@ -652,7 +662,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Href_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Href(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L69">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L74">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Href_" data-uid="ToSic.Razor.Html5.A.Href*"></a>
   <h4 id="ToSic_Razor_Html5_A_Href_System_String_" data-uid="ToSic.Razor.Html5.A.Href(System.String)">Href(String)</h4>
@@ -704,7 +714,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Hreflang_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Hreflang(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L80">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L85">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Hreflang_" data-uid="ToSic.Razor.Html5.A.Hreflang*"></a>
   <h4 id="ToSic_Razor_Html5_A_Hreflang_System_String_" data-uid="ToSic.Razor.Html5.A.Hreflang(System.String)">Hreflang(String)</h4>
@@ -755,7 +765,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Media_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Media(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L91">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L96">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Media_" data-uid="ToSic.Razor.Html5.A.Media*"></a>
   <h4 id="ToSic_Razor_Html5_A_Media_System_String_" data-uid="ToSic.Razor.Html5.A.Media(System.String)">Media(String)</h4>
@@ -806,7 +816,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Ping_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Ping(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L102">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L107">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Ping_" data-uid="ToSic.Razor.Html5.A.Ping*"></a>
   <h4 id="ToSic_Razor_Html5_A_Ping_System_String_" data-uid="ToSic.Razor.Html5.A.Ping(System.String)">Ping(String)</h4>
@@ -857,7 +867,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Rel_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Rel(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L113">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L118">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Rel_" data-uid="ToSic.Razor.Html5.A.Rel*"></a>
   <h4 id="ToSic_Razor_Html5_A_Rel_System_String_" data-uid="ToSic.Razor.Html5.A.Rel(System.String)">Rel(String)</h4>
@@ -908,7 +918,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Target_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Target(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L124">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L129">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Target_" data-uid="ToSic.Razor.Html5.A.Target*"></a>
   <h4 id="ToSic_Razor_Html5_A_Target_System_String_" data-uid="ToSic.Razor.Html5.A.Target(System.String)">Target(String)</h4>
@@ -959,7 +969,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_A_Type_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.A.Type(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L135">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedLinks.cs/#L140">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_A_Type_" data-uid="ToSic.Razor.Html5.A.Type*"></a>
   <h4 id="ToSic_Razor_Html5_A_Type_System_String_" data-uid="ToSic.Razor.Html5.A.Type(System.String)">Type(String)</h4>
@@ -1007,10 +1017,13 @@ If called multiple times, later values replace the previous value.</p>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
+      <span class="xref">System.Web.IHtmlString</span>
   </div>
   <div>
-      <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
+      <a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Razor.Blade.ITag.html">ITag</a>
   </div>
   <div>
       <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>

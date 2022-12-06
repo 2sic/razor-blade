@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class AttributeListBase
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AttributeListBase
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,10 +99,16 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.ITag.html" title="ITag" class="">ITag</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.Tag.html" title="Tag" class="">Tag</a>
@@ -477,9 +483,6 @@
                             <a href="ToSic.Razor.Markup.ChildTags.html" title="ChildTags" class="">ChildTags</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.ITag.html" title="ITag" class="">ITag</a>
-                          </li>
-                          <li class="">
                             <a href="ToSic.Razor.Markup.Tag-1.html" title="Tag&lt;T&gt;" class="">Tag&lt;T&gt;</a>
                           </li>
                           <li class="">
@@ -525,15 +528,15 @@
     <div class="level2"><span class="xref">AttributeListBase</span></div>
       <div class="level3"><a class="xref" href="ToSic.Razor.Markup.AttributeList.html">AttributeList</a></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="ToSic.Razor.Markup.AttributeBase.html">AttributeBase</a>&gt;</div>
     <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="ToSic.Razor.Markup.AttributeBase.html">AttributeBase</a>&gt;</div>
+    <div><span class="xref">System.Collections.IList</span></div>
+    <div><span class="xref">System.Collections.ICollection</span></div>
     <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="ToSic.Razor.Markup.AttributeBase.html">AttributeBase</a>&gt;</div>
     <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="ToSic.Razor.Markup.AttributeBase.html">AttributeBase</a>&gt;</div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.AttributeBase.html">AttributeBase</a>&gt;</div>
-    <div><span class="xref">System.Collections.IList</span></div>
-    <div><span class="xref">System.Collections.ICollection</span></div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -548,10 +551,16 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Add(ToSic.Razor.Markup.AttributeBase)</span>
     </div>
     <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Add(System.Object)</span>
+    </div>
+    <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.AddRange(System.Collections.Generic.IEnumerable&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.AsReadOnly()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.BinarySearch(System.Int32, System.Int32, ToSic.Razor.Markup.AttributeBase, System.Collections.Generic.IComparer&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.BinarySearch(ToSic.Razor.Markup.AttributeBase)</span>
@@ -560,13 +569,13 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.BinarySearch(ToSic.Razor.Markup.AttributeBase, System.Collections.Generic.IComparer&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.BinarySearch(System.Int32, System.Int32, ToSic.Razor.Markup.AttributeBase, System.Collections.Generic.IComparer&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
-    </div>
-    <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Clear()</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Contains(ToSic.Razor.Markup.AttributeBase)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Contains(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.ConvertAll&lt;TOutput&gt;(System.Converter&lt;ToSic.Razor.Markup.AttributeBase, TOutput&gt;)</span>
@@ -575,10 +584,13 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.CopyTo(ToSic.Razor.Markup.AttributeBase[])</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.CopyTo(ToSic.Razor.Markup.AttributeBase[], System.Int32)</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.CopyTo(System.Int32, ToSic.Razor.Markup.AttributeBase[], System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.CopyTo(ToSic.Razor.Markup.AttributeBase[], System.Int32)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Exists(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
@@ -590,25 +602,25 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindAll(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindIndex(System.Int32, System.Int32, System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindIndex(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindIndex(System.Int32, System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindIndex(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindIndex(System.Int32, System.Int32, System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindLast(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindLastIndex(System.Int32, System.Int32, System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindLastIndex(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindLastIndex(System.Int32, System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindLastIndex(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.FindLastIndex(System.Int32, System.Int32, System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.ForEach(System.Action&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
@@ -617,10 +629,19 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.GetEnumerator()</span>
     </div>
     <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.Generic.IEnumerable&lt;ToSic.Razor.Markup.AttributeBase&gt;.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IEnumerable.GetEnumerator()</span>
+    </div>
+    <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.GetRange(System.Int32, System.Int32)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.IndexOf(ToSic.Razor.Markup.AttributeBase)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.IndexOf(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.IndexOf(ToSic.Razor.Markup.AttributeBase, System.Int32)</span>
@@ -630,6 +651,9 @@
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Insert(System.Int32, ToSic.Razor.Markup.AttributeBase)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Insert(System.Int32, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.InsertRange(System.Int32, System.Collections.Generic.IEnumerable&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
@@ -645,6 +669,9 @@
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Remove(ToSic.Razor.Markup.AttributeBase)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Remove(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.RemoveAll(System.Predicate&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
@@ -668,34 +695,10 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Sort(System.Collections.Generic.IComparer&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Sort(System.Comparison&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
-    </div>
-    <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Sort(System.Int32, System.Int32, System.Collections.Generic.IComparer&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.Generic.IEnumerable&lt;ToSic.Razor.Markup.AttributeBase&gt;.GetEnumerator()</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IEnumerable.GetEnumerator()</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Add(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Contains(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.IndexOf(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Insert(System.Int32, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Remove(System.Object)</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Sort(System.Comparison&lt;ToSic.Razor.Markup.AttributeBase&gt;)</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.ToArray()</span>
@@ -713,10 +716,13 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Count</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Item[System.Int32]</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.IsFixedSize</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.Generic.ICollection&lt;ToSic.Razor.Markup.AttributeBase&gt;.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.IsReadOnly</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.ICollection.IsSynchronized</span>
@@ -725,10 +731,7 @@
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.ICollection.SyncRoot</span>
     </div>
     <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.IsFixedSize</span>
-    </div>
-    <div>
-      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.IsReadOnly</span>
+      <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.Item[System.Int32]</span>
     </div>
     <div>
       <span class="xref">System.Collections.Generic.List&lt;ToSic.Razor.Markup.AttributeBase&gt;.System.Collections.IList.Item[System.Int32]</span>
@@ -738,7 +741,7 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Markup_AttributeListBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AttributeListBase : List&lt;AttributeBase&gt;, IList&lt;AttributeBase&gt;, ICollection&lt;AttributeBase&gt;, IReadOnlyList&lt;AttributeBase&gt;, IReadOnlyCollection&lt;AttributeBase&gt;, IEnumerable&lt;AttributeBase&gt;, IList, ICollection, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class AttributeListBase : List&lt;AttributeBase&gt;, IList&lt;AttributeBase&gt;, ICollection&lt;AttributeBase&gt;, IList, ICollection, IReadOnlyList&lt;AttributeBase&gt;, IReadOnlyCollection&lt;AttributeBase&gt;, IEnumerable&lt;AttributeBase&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -1008,6 +1011,12 @@ unless an attribute has own options</p>
       <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
   </div>
   <div>
+      <span class="xref">System.Collections.IList</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.ICollection</span>
+  </div>
+  <div>
       <span class="xref">System.Collections.Generic.IReadOnlyList&lt;T&gt;</span>
   </div>
   <div>
@@ -1015,12 +1024,6 @@ unless an attribute has own options</p>
   </div>
   <div>
       <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.IList</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.ICollection</span>
   </div>
   <div>
       <span class="xref">System.Collections.IEnumerable</span>
