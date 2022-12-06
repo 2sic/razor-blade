@@ -1,5 +1,6 @@
 ﻿
 using ToSic.Razor.Blade;
+using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
 {
@@ -10,12 +11,13 @@ namespace ToSic.Razor.Markup
     {
         #region Constructors
 
-        internal const bool DefaultTagIsFluid = true;
+        internal const bool DefaultTagIsFunctional = true;
 
         /// <summary>
         /// Special - protected set - todo document
         /// </summary>
-        public bool TagIsFluid { get; internal set; } = DefaultTagIsFluid;
+        [InternalApi_DoNotUse_MayChangeWithoutNotice]
+        public bool TagIsFluid { get; internal set; } = DefaultTagIsFunctional;
 
         protected internal TagBase(TagBase original = null,
             string name = null,

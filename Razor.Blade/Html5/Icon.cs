@@ -31,10 +31,13 @@ namespace ToSic.Razor.Html5
             // override empty attributes
             //TagOptions = new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
 
-            Rel(rel ?? RelIcon);
-            Sizes(size == SizeUndefined ? "" : $"{size}x{size}");
-            Type(type ?? Mime.DetectImageMime(path));
-            Href(path);
+            InitAttributes(() =>
+            {
+                Rel(rel ?? RelIcon);
+                Sizes(size == SizeUndefined ? "" : $"{size}x{size}");
+                Type(type ?? Mime.DetectImageMime(path));
+                Href(path);
+            });
         }
 
         public Icon Sizes(string value) => this.Attr("sizes", value, null) as Icon;

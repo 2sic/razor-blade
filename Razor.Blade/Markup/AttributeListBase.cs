@@ -7,9 +7,13 @@ namespace ToSic.Razor.Markup
     public class AttributeListBase: List<AttributeBase>
     {
         #region constructors
-        public AttributeListBase(AttributeOptions options = null)
+
+        public AttributeListBase(AttributeOptions options = null) => Options = options;
+
+        public AttributeListBase(AttributeListBase original) : this(original.Options)
         {
-            Options = options;
+            foreach (var attribute in original) 
+                Add(attribute);
         }
 
         public AttributeListBase(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null): this(options)

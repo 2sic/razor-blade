@@ -4,11 +4,12 @@ namespace ToSic.Razor.Html5
 {
     public partial class Meta
     {
-        internal Meta(string name = null, string content = null): this()
-        {
-            if (name != null) Name(name);
-            if (content != null) Content(content);
-        }
+        internal Meta(string name = null, string content = null) : this() =>
+            InitAttributes(() =>
+            {
+                if (name != null) Name(name);
+                if (content != null) Content(content);
+            });
 
         /// <summary>
         /// Very special internal overload to allow MetaOg to replicate
@@ -21,11 +22,12 @@ namespace ToSic.Razor.Html5
     {
         public const string Prefix = "og:";
 
-        public MetaOg(string property = null, string content = null)
-        {
-            if(property != null) Property(property);
-            if(content != null) Content(content);
-        }
+        public MetaOg(string property = null, string content = null) =>
+            InitAttributes(() =>
+            {
+                if (property != null) Property(property);
+                if (content != null) Content(content);
+            });
 
         private MetaOg(MetaOg original, CloneChanges changes) : base(original, changes) { }
 

@@ -1,4 +1,5 @@
-﻿using ToSic.Razor.Blade;
+﻿using System;
+using ToSic.Razor.Blade;
 using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
@@ -36,11 +37,11 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// Clone / change if fluid... otherwise just change
         /// </summary>
-        internal T CiF(CloneChanges changes)
+        internal T CloneIfFunctional(CloneChanges changes)
         {
-            if (TagIsFluid) return CwC(changes) as T;
+            if (TagIsFluid) return CwC(changes);
             ApplyChanges(changes);
-            return this as T;
+            return (T) this;
         }
         
         /// <summary>
@@ -60,8 +61,9 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Attr(string name, object value = null, string appendSeparator = null)
         {
-            TagAttributes.Add(name, value, appendSeparator);
-            return (T) this;
+            var newList = GetOrCloneAttributeList();
+            newList.Add(name, value, appendSeparator);
+            return CloneIfFunctional(new CloneChanges { Attributes = newList });
         }
 
 
@@ -73,8 +75,24 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Attr(object nameWithValue)
         {
-            TagAttributes.AddObject(nameWithValue);
-            return (T) this;
+            var newList = GetOrCloneAttributeList();
+            newList.AddObject(nameWithValue);
+            return CloneIfFunctional(new CloneChanges { Attributes = newList });
+        }
+
+        private AttributeList GetOrCloneAttributeList() => TagIsFluid ? new AttributeList(TagAttributes) : TagAttributes;
+
+        /// <summary>
+        /// Special initializer of attributes, because otherwise attributes will not be available in the final object
+        /// because of the functional nature of the API.
+        /// </summary>
+        /// <param name="initializer"></param>
+        protected void InitAttributes(Action initializer)
+        {
+            var before = TagIsFluid;
+            TagIsFluid = false; // necessary, to not generate new objects during init
+            initializer();
+            TagIsFluid = before;
         }
 
         /// <summary>
@@ -133,14 +151,9 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Add(params object[] children)
         {
-            if (TagIsFluid)
-            {
-                var newChildren = new ChildTags(TagChildren);
-                newChildren.Add(children);
-                return CiF(new CloneChanges { Children = newChildren });
-            }
-            TagChildren.Add(children);
-            return this as T;
+            var newChildren = TagIsFluid ? new ChildTags(TagChildren) : TagChildren;
+            newChildren.Add(children);
+            return CloneIfFunctional(new CloneChanges { Children = newChildren });
         }
 
 
@@ -149,16 +162,10 @@ namespace ToSic.Razor.Markup
         /// </summary>
         /// <param name="content">a variable amount of tags / strings to add to the contents of this tag</param>
         /// <returns></returns>
-        public T Wrap(params object[] content)
-        {
-            if (TagIsFluid)
-                return CiF(new CloneChanges { Children = new ChildTags(content) });
-            TagChildren.Replace(content);
-            return this as T;
-        }
+        public T Wrap(params object[] content) => CloneIfFunctional(new CloneChanges { Children = new ChildTags(content) });
 
         [PrivateApi("WIP v4 - should be exclusively fluid!")]
-        public T WithOptions(TagOptions options) => CiF(new CloneChanges { Options = options });
+        public T WithOptions(TagOptions options) => CloneIfFunctional(new CloneChanges { Options = options });
 
 
         [PrivateApi("Explicit implementation for when this tag is generic without known specific type")]
