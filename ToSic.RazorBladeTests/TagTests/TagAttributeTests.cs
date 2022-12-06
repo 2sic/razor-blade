@@ -78,8 +78,15 @@ namespace ToSic.RazorBladeTests.TagTests
         #endregion
 
         #region Id, Class, Title, Style
+
+        /// <summary>
+        /// Get a div, but treat as IHtmlTag to verify that the methods work as such too
+        /// </summary>
+        /// <returns></returns>
+        private IHtmlTag HtmlTagDiv() => TestDiv();
+
         [TestMethod]
-        public void TagId()
+        public void TagIdWithDiv()
         {
             Is("<div id='z'>", TestDiv().Id("z").TagStart);
             Is("<div id='y'>", TestDiv().Id("z").Id("y").TagStart);
@@ -88,8 +95,19 @@ namespace ToSic.RazorBladeTests.TagTests
             Is("<div id='x'>", TestDiv().Id("z").Id(null).Id("x").TagStart);
         }
 
+
         [TestMethod]
-        public void TagClass()
+        public void TestIdWithHtmlTag()
+        {
+            Is("<div id='z'>", HtmlTagDiv().Id("z").TagStart);
+            Is("<div id='y'>", HtmlTagDiv().Id("z").Id("y").TagStart);
+            Is("<div id>", HtmlTagDiv().Id(null).TagStart);
+            Is("<div id>", HtmlTagDiv().Id("z").Id(null).TagStart);
+            Is("<div id='x'>", HtmlTagDiv().Id("z").Id(null).Id("x").TagStart);
+        }
+
+        [TestMethod]
+        public void TagClassWithDiv()
         {
             Is("<div class='z'>", TestDiv().Class("z").TagStart);
             Is("<div class='z y'>", TestDiv().Class("z").Class("y").TagStart);
@@ -97,14 +115,31 @@ namespace ToSic.RazorBladeTests.TagTests
             Is("<div class>", TestDiv().Class("z").Class("y").Class(null).TagStart);
             Is("<div class='x'>", TestDiv().Class("z").Class("y").Class(null).Class("x").TagStart);
         }
+        [TestMethod]
+        public void TagClassWithHtmlTag()
+        {
+            Is("<div class='z'>", HtmlTagDiv().Class("z").TagStart);
+            Is("<div class='z y'>", HtmlTagDiv().Class("z").Class("y").TagStart);
+            Is("<div class>", HtmlTagDiv().Class(null).TagStart);
+            Is("<div class>", HtmlTagDiv().Class("z").Class("y").Class(null).TagStart);
+            Is("<div class='x'>", HtmlTagDiv().Class("z").Class("y").Class(null).Class("x").TagStart);
+        }
 
         [TestMethod]
-        public void TagStyle()
+        public void TagStyleWithDiv()
         {
             Is("<div style='z'>", TestDiv().Style("z").TagStart);
             Is("<div style='z;y'>", TestDiv().Style("z").Style("y").TagStart);
             Is("<div style>", TestDiv().Style("z").Style("y").Style(null).TagStart);
             Is("<div style='x'>", TestDiv().Style("z").Style("y").Style(null).Style("x").TagStart);
+        }
+        [TestMethod]
+        public void TagStyleWithHtmlTag()
+        {
+            Is("<div style='z'>", HtmlTagDiv().Style("z").TagStart);
+            Is("<div style='z;y'>", HtmlTagDiv().Style("z").Style("y").TagStart);
+            Is("<div style>", HtmlTagDiv().Style("z").Style("y").Style(null).TagStart);
+            Is("<div style='x'>", HtmlTagDiv().Style("z").Style("y").Style(null).Style("x").TagStart);
         }
         #endregion
     }

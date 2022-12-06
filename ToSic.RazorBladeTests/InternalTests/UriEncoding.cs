@@ -99,20 +99,20 @@ namespace ToSic.RazorBladeTests.InternalTests
         public void SrcSetAmp()
         {
             var original = "something.jpg?x=1&y=z 1x";
-            Assert.AreEqual(original/*.Replace("&", "&amp;")*/, EncodeSrcSetTestAccessor(original));
+            Assert.AreEqual(original, EncodeSrcSetTestAccessor(original));
         }
         [TestMethod]
         public void SrcSetOneLine()
         {
             var original = "something.jpg?x=1&y=z 1x,something.jpg?x=1&y=z 2x";
-            Assert.AreEqual(original/*.Replace("&", "&amp;")*/, EncodeSrcSetTestAccessor(original));
+            Assert.AreEqual(original, EncodeSrcSetTestAccessor(original));
         }
 
         [TestMethod]
         public void SrcSetMultiline()
         {
             var original = "something.jpg?x=1&y=z 1x,\nsomething.jpg?x=1&y=z 2x";
-            Assert.AreEqual(original/*.Replace("&", "&amp;")*/, EncodeSrcSetTestAccessor(original));
+            Assert.AreEqual(original, EncodeSrcSetTestAccessor(original));
         }
     }
 }
