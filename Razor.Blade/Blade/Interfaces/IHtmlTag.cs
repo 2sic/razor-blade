@@ -91,5 +91,16 @@ namespace ToSic.Razor.Blade
         /// <param name="content">a variable amount of tags / strings to add to the contents of this tag</param>
         /// <returns>A new <see cref="IHtmlTag"/> object with the changes, allowing a fluid API</returns>
         IHtmlTag Wrap(params object[] content);
+
+
+        /// <summary>
+        /// Cast a Tag to <see cref="IHtmlTag"/>, as it will make certain changes easier to manage.
+        ///
+        /// Example: You may have different code returning a span, div, whatever and need to add the link.
+        /// In this case each code would return a different object, which may make it hard to program.
+        /// So just run AsHtmlTag() so it becomes a more generic object but still has all the common Id, Class, Wrap etc.
+        /// </summary>
+        /// <returns></returns>
+        IHtmlTag AsHtmlTag();
     }
 }

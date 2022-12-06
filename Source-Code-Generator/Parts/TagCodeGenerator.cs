@@ -97,7 +97,7 @@ Standalone ? "" : $@"
     /// </code>
     {QuickAccessWithParams}";
 
-        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content) {{ TagIsFluid = false }};";
+        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content) {{ TagIsImmutable = false }};";
 
         #endregion
 

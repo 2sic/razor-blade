@@ -557,7 +557,25 @@ The objects are smart - for example this will automatically uri-encode 😎</p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Blade.IHtmlTagService.html">IHtmlTagService</a></h4>
       <section><p>The service to generate HTML Tags.</p>
-</section>
+<div class="TIP"><h5>Tip</h5><p>This is the new, recommended way of generating tags, as it&apos;s better and <strong>functional</strong></p>
+</div>
+<div class="WARNING"><h5>Warning</h5><p>This looks almost the same as the static <code>ToSic.Razor.Blade.Tag</code> but there is a crucial difference
+The APIs return <strong>functional</strong> <code>IHtmlTag</code> objects.
+This is safer and more future proof, but you may run into surprises.</p>
+</div>
+<p>Example:</p>
+<pre><code class="lang-c#">// Old Tag API - these two objects will be the same
+var tagOld = ToSic.Razor.Blade.Tag.Div();
+var tagOldWithId = tagOld.Id(...).Style(...).Class(...);
+// now tagOld and tagOldWithId are both the same objects with all changes applied
+
+// New API - assumes tagSvc is IHtmlTagService
+// these two objects will NOT be the same
+var tag = tagSvc.Div();
+var tagWithId = tag.Id(...).Style(...).Class(...);
+// now tag is still an empty div-tag
+// while tagWithId is the tag wth everything set on 
+</code></pre></section>
       <h4><a class="xref" href="ToSic.Razor.Blade.IScrub.html">IScrub</a></h4>
       <section><p>IScrub helps wash/clean html from things you want removed. It can take care of all tags, just specific tags or certain attributes.</p>
 <p>Note that it is implemented as an interface, so you must use <strong>Dependency Injection</strong> to get it. </p>

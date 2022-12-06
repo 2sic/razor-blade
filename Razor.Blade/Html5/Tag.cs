@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 23:08
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -37,7 +37,7 @@ namespace ToSic.Razor.Blade
     /// var a = Tag.A();
     /// var a2 = Tag.A("hello there");
     /// </code>
-    public static A A(params object[] content) => new A(content) { TagIsFluid = false };
+    public static A A(params object[] content) => new A(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;abbr&gt; tag with optional contents
@@ -50,7 +50,7 @@ namespace ToSic.Razor.Blade
     /// var abbr = Tag.Abbr();
     /// var abbr2 = Tag.Abbr("hello there");
     /// </code>
-    public static Abbr Abbr(params object[] content) => new Abbr(content) { TagIsFluid = false };
+    public static Abbr Abbr(params object[] content) => new Abbr(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;address&gt; tag with optional contents
@@ -63,7 +63,7 @@ namespace ToSic.Razor.Blade
     /// var address = Tag.Address();
     /// var address2 = Tag.Address("hello there");
     /// </code>
-    public static Address Address(params object[] content) => new Address(content) { TagIsFluid = false };
+    public static Address Address(params object[] content) => new Address(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;area&gt; tag with optional contents
@@ -76,7 +76,7 @@ namespace ToSic.Razor.Blade
     /// var area = Tag.Area();
     /// var area2 = Tag.Area("hello there");
     /// </code>
-    public static Area Area(params object[] content) => new Area(content) { TagIsFluid = false };
+    public static Area Area(params object[] content) => new Area(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;article&gt; tag with optional contents
@@ -89,7 +89,7 @@ namespace ToSic.Razor.Blade
     /// var article = Tag.Article();
     /// var article2 = Tag.Article("hello there");
     /// </code>
-    public static Article Article(params object[] content) => new Article(content) { TagIsFluid = false };
+    public static Article Article(params object[] content) => new Article(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;aside&gt; tag with optional contents
@@ -102,7 +102,7 @@ namespace ToSic.Razor.Blade
     /// var aside = Tag.Aside();
     /// var aside2 = Tag.Aside("hello there");
     /// </code>
-    public static Aside Aside(params object[] content) => new Aside(content) { TagIsFluid = false };
+    public static Aside Aside(params object[] content) => new Aside(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;audio&gt; tag with optional contents
@@ -115,7 +115,7 @@ namespace ToSic.Razor.Blade
     /// var audio = Tag.Audio();
     /// var audio2 = Tag.Audio("hello there");
     /// </code>
-    public static Audio Audio(params object[] content) => new Audio(content) { TagIsFluid = false };
+    public static Audio Audio(params object[] content) => new Audio(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;b&gt; tag with optional contents
@@ -128,7 +128,7 @@ namespace ToSic.Razor.Blade
     /// var b = Tag.B();
     /// var b2 = Tag.B("hello there");
     /// </code>
-    public static B B(params object[] content) => new B(content) { TagIsFluid = false };
+    public static B B(params object[] content) => new B(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;base&gt; tag with optional contents
@@ -140,7 +140,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var base = Tag.Base();
     /// </code>
-    public static Base Base(params object[] content) => new Base(content) { TagIsFluid = false };
+    public static Base Base(params object[] content) => new Base(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;bdi&gt; tag with optional contents
@@ -153,7 +153,7 @@ namespace ToSic.Razor.Blade
     /// var bdi = Tag.Bdi();
     /// var bdi2 = Tag.Bdi("hello there");
     /// </code>
-    public static Bdi Bdi(params object[] content) => new Bdi(content) { TagIsFluid = false };
+    public static Bdi Bdi(params object[] content) => new Bdi(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;bdo&gt; tag with optional contents
@@ -166,7 +166,7 @@ namespace ToSic.Razor.Blade
     /// var bdo = Tag.Bdo();
     /// var bdo2 = Tag.Bdo("hello there");
     /// </code>
-    public static Bdo Bdo(params object[] content) => new Bdo(content) { TagIsFluid = false };
+    public static Bdo Bdo(params object[] content) => new Bdo(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;blockquote&gt; tag with optional contents
@@ -179,7 +179,7 @@ namespace ToSic.Razor.Blade
     /// var blockquote = Tag.Blockquote();
     /// var blockquote2 = Tag.Blockquote("hello there");
     /// </code>
-    public static Blockquote Blockquote(params object[] content) => new Blockquote(content) { TagIsFluid = false };
+    public static Blockquote Blockquote(params object[] content) => new Blockquote(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;br&gt; tag with optional contents
@@ -191,7 +191,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var br = Tag.Br();
     /// </code>
-    public static Br Br(params object[] content) => new Br(content) { TagIsFluid = false };
+    public static Br Br(params object[] content) => new Br(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;button&gt; tag with optional contents
@@ -204,7 +204,7 @@ namespace ToSic.Razor.Blade
     /// var button = Tag.Button();
     /// var button2 = Tag.Button("hello there");
     /// </code>
-    public static Button Button(params object[] content) => new Button(content) { TagIsFluid = false };
+    public static Button Button(params object[] content) => new Button(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;canvas&gt; tag with optional contents
@@ -217,7 +217,7 @@ namespace ToSic.Razor.Blade
     /// var canvas = Tag.Canvas();
     /// var canvas2 = Tag.Canvas("hello there");
     /// </code>
-    public static Canvas Canvas(params object[] content) => new Canvas(content) { TagIsFluid = false };
+    public static Canvas Canvas(params object[] content) => new Canvas(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;caption&gt; tag with optional contents
@@ -230,7 +230,7 @@ namespace ToSic.Razor.Blade
     /// var caption = Tag.Caption();
     /// var caption2 = Tag.Caption("hello there");
     /// </code>
-    public static Caption Caption(params object[] content) => new Caption(content) { TagIsFluid = false };
+    public static Caption Caption(params object[] content) => new Caption(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;cite&gt; tag with optional contents
@@ -243,7 +243,7 @@ namespace ToSic.Razor.Blade
     /// var cite = Tag.Cite();
     /// var cite2 = Tag.Cite("hello there");
     /// </code>
-    public static Cite Cite(params object[] content) => new Cite(content) { TagIsFluid = false };
+    public static Cite Cite(params object[] content) => new Cite(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;code&gt; tag with optional contents
@@ -256,7 +256,7 @@ namespace ToSic.Razor.Blade
     /// var code = Tag.Code();
     /// var code2 = Tag.Code("hello there");
     /// </code>
-    public static Code Code(params object[] content) => new Code(content) { TagIsFluid = false };
+    public static Code Code(params object[] content) => new Code(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;col&gt; tag with optional contents
@@ -269,7 +269,7 @@ namespace ToSic.Razor.Blade
     /// var col = Tag.Col();
     /// var col2 = Tag.Col("hello there");
     /// </code>
-    public static Col Col(params object[] content) => new Col(content) { TagIsFluid = false };
+    public static Col Col(params object[] content) => new Col(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;colgroup&gt; tag with optional contents
@@ -282,7 +282,7 @@ namespace ToSic.Razor.Blade
     /// var colgroup = Tag.Colgroup();
     /// var colgroup2 = Tag.Colgroup("hello there");
     /// </code>
-    public static Colgroup Colgroup(params object[] content) => new Colgroup(content) { TagIsFluid = false };
+    public static Colgroup Colgroup(params object[] content) => new Colgroup(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;data&gt; tag with optional contents
@@ -295,7 +295,7 @@ namespace ToSic.Razor.Blade
     /// var data = Tag.Data();
     /// var data2 = Tag.Data("hello there");
     /// </code>
-    public static Data Data(params object[] content) => new Data(content) { TagIsFluid = false };
+    public static Data Data(params object[] content) => new Data(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;datalist&gt; tag with optional contents
@@ -308,7 +308,7 @@ namespace ToSic.Razor.Blade
     /// var datalist = Tag.Datalist();
     /// var datalist2 = Tag.Datalist("hello there");
     /// </code>
-    public static Datalist Datalist(params object[] content) => new Datalist(content) { TagIsFluid = false };
+    public static Datalist Datalist(params object[] content) => new Datalist(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dd&gt; tag with optional contents
@@ -321,7 +321,7 @@ namespace ToSic.Razor.Blade
     /// var dd = Tag.Dd();
     /// var dd2 = Tag.Dd("hello there");
     /// </code>
-    public static Dd Dd(params object[] content) => new Dd(content) { TagIsFluid = false };
+    public static Dd Dd(params object[] content) => new Dd(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;del&gt; tag with optional contents
@@ -334,7 +334,7 @@ namespace ToSic.Razor.Blade
     /// var del = Tag.Del();
     /// var del2 = Tag.Del("hello there");
     /// </code>
-    public static Del Del(params object[] content) => new Del(content) { TagIsFluid = false };
+    public static Del Del(params object[] content) => new Del(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;details&gt; tag with optional contents
@@ -347,7 +347,7 @@ namespace ToSic.Razor.Blade
     /// var details = Tag.Details();
     /// var details2 = Tag.Details("hello there");
     /// </code>
-    public static Details Details(params object[] content) => new Details(content) { TagIsFluid = false };
+    public static Details Details(params object[] content) => new Details(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dfn&gt; tag with optional contents
@@ -360,7 +360,7 @@ namespace ToSic.Razor.Blade
     /// var dfn = Tag.Dfn();
     /// var dfn2 = Tag.Dfn("hello there");
     /// </code>
-    public static Dfn Dfn(params object[] content) => new Dfn(content) { TagIsFluid = false };
+    public static Dfn Dfn(params object[] content) => new Dfn(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dialog&gt; tag with optional contents
@@ -373,7 +373,7 @@ namespace ToSic.Razor.Blade
     /// var dialog = Tag.Dialog();
     /// var dialog2 = Tag.Dialog("hello there");
     /// </code>
-    public static Dialog Dialog(params object[] content) => new Dialog(content) { TagIsFluid = false };
+    public static Dialog Dialog(params object[] content) => new Dialog(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;div&gt; tag with optional contents
@@ -386,7 +386,7 @@ namespace ToSic.Razor.Blade
     /// var div = Tag.Div();
     /// var div2 = Tag.Div("hello there");
     /// </code>
-    public static Div Div(params object[] content) => new Div(content) { TagIsFluid = false };
+    public static Div Div(params object[] content) => new Div(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dl&gt; tag with optional contents
@@ -399,7 +399,7 @@ namespace ToSic.Razor.Blade
     /// var dl = Tag.Dl();
     /// var dl2 = Tag.Dl("hello there");
     /// </code>
-    public static Dl Dl(params object[] content) => new Dl(content) { TagIsFluid = false };
+    public static Dl Dl(params object[] content) => new Dl(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;dt&gt; tag with optional contents
@@ -412,7 +412,7 @@ namespace ToSic.Razor.Blade
     /// var dt = Tag.Dt();
     /// var dt2 = Tag.Dt("hello there");
     /// </code>
-    public static Dt Dt(params object[] content) => new Dt(content) { TagIsFluid = false };
+    public static Dt Dt(params object[] content) => new Dt(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;em&gt; tag with optional contents
@@ -425,7 +425,7 @@ namespace ToSic.Razor.Blade
     /// var em = Tag.Em();
     /// var em2 = Tag.Em("hello there");
     /// </code>
-    public static Em Em(params object[] content) => new Em(content) { TagIsFluid = false };
+    public static Em Em(params object[] content) => new Em(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;embed&gt; tag with optional contents
@@ -438,7 +438,7 @@ namespace ToSic.Razor.Blade
     /// var embed = Tag.Embed();
     /// var embed2 = Tag.Embed("hello there");
     /// </code>
-    public static Embed Embed(params object[] content) => new Embed(content) { TagIsFluid = false };
+    public static Embed Embed(params object[] content) => new Embed(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;fieldset&gt; tag with optional contents
@@ -451,7 +451,7 @@ namespace ToSic.Razor.Blade
     /// var fieldset = Tag.Fieldset();
     /// var fieldset2 = Tag.Fieldset("hello there");
     /// </code>
-    public static Fieldset Fieldset(params object[] content) => new Fieldset(content) { TagIsFluid = false };
+    public static Fieldset Fieldset(params object[] content) => new Fieldset(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;figcaption&gt; tag with optional contents
@@ -464,7 +464,7 @@ namespace ToSic.Razor.Blade
     /// var figcaption = Tag.Figcaption();
     /// var figcaption2 = Tag.Figcaption("hello there");
     /// </code>
-    public static Figcaption Figcaption(params object[] content) => new Figcaption(content) { TagIsFluid = false };
+    public static Figcaption Figcaption(params object[] content) => new Figcaption(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;figure&gt; tag with optional contents
@@ -477,7 +477,7 @@ namespace ToSic.Razor.Blade
     /// var figure = Tag.Figure();
     /// var figure2 = Tag.Figure("hello there");
     /// </code>
-    public static Figure Figure(params object[] content) => new Figure(content) { TagIsFluid = false };
+    public static Figure Figure(params object[] content) => new Figure(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;footer&gt; tag with optional contents
@@ -490,7 +490,7 @@ namespace ToSic.Razor.Blade
     /// var footer = Tag.Footer();
     /// var footer2 = Tag.Footer("hello there");
     /// </code>
-    public static Footer Footer(params object[] content) => new Footer(content) { TagIsFluid = false };
+    public static Footer Footer(params object[] content) => new Footer(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;form&gt; tag with optional contents
@@ -503,7 +503,7 @@ namespace ToSic.Razor.Blade
     /// var form = Tag.Form();
     /// var form2 = Tag.Form("hello there");
     /// </code>
-    public static Form Form(params object[] content) => new Form(content) { TagIsFluid = false };
+    public static Form Form(params object[] content) => new Form(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h1&gt; tag with optional contents
@@ -516,7 +516,7 @@ namespace ToSic.Razor.Blade
     /// var h1 = Tag.H1();
     /// var h12 = Tag.H1("hello there");
     /// </code>
-    public static H1 H1(params object[] content) => new H1(content) { TagIsFluid = false };
+    public static H1 H1(params object[] content) => new H1(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h2&gt; tag with optional contents
@@ -529,7 +529,7 @@ namespace ToSic.Razor.Blade
     /// var h2 = Tag.H2();
     /// var h22 = Tag.H2("hello there");
     /// </code>
-    public static H2 H2(params object[] content) => new H2(content) { TagIsFluid = false };
+    public static H2 H2(params object[] content) => new H2(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h3&gt; tag with optional contents
@@ -542,7 +542,7 @@ namespace ToSic.Razor.Blade
     /// var h3 = Tag.H3();
     /// var h32 = Tag.H3("hello there");
     /// </code>
-    public static H3 H3(params object[] content) => new H3(content) { TagIsFluid = false };
+    public static H3 H3(params object[] content) => new H3(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h4&gt; tag with optional contents
@@ -555,7 +555,7 @@ namespace ToSic.Razor.Blade
     /// var h4 = Tag.H4();
     /// var h42 = Tag.H4("hello there");
     /// </code>
-    public static H4 H4(params object[] content) => new H4(content) { TagIsFluid = false };
+    public static H4 H4(params object[] content) => new H4(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h5&gt; tag with optional contents
@@ -568,7 +568,7 @@ namespace ToSic.Razor.Blade
     /// var h5 = Tag.H5();
     /// var h52 = Tag.H5("hello there");
     /// </code>
-    public static H5 H5(params object[] content) => new H5(content) { TagIsFluid = false };
+    public static H5 H5(params object[] content) => new H5(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;h6&gt; tag with optional contents
@@ -581,7 +581,7 @@ namespace ToSic.Razor.Blade
     /// var h6 = Tag.H6();
     /// var h62 = Tag.H6("hello there");
     /// </code>
-    public static H6 H6(params object[] content) => new H6(content) { TagIsFluid = false };
+    public static H6 H6(params object[] content) => new H6(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;head&gt; tag with optional contents
@@ -594,7 +594,7 @@ namespace ToSic.Razor.Blade
     /// var head = Tag.Head();
     /// var head2 = Tag.Head("hello there");
     /// </code>
-    public static Head Head(params object[] content) => new Head(content) { TagIsFluid = false };
+    public static Head Head(params object[] content) => new Head(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;header&gt; tag with optional contents
@@ -607,7 +607,7 @@ namespace ToSic.Razor.Blade
     /// var header = Tag.Header();
     /// var header2 = Tag.Header("hello there");
     /// </code>
-    public static Header Header(params object[] content) => new Header(content) { TagIsFluid = false };
+    public static Header Header(params object[] content) => new Header(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;hr&gt; tag with optional contents
@@ -619,7 +619,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var hr = Tag.Hr();
     /// </code>
-    public static Hr Hr(params object[] content) => new Hr(content) { TagIsFluid = false };
+    public static Hr Hr(params object[] content) => new Hr(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;i&gt; tag with optional contents
@@ -632,7 +632,7 @@ namespace ToSic.Razor.Blade
     /// var i = Tag.I();
     /// var i2 = Tag.I("hello there");
     /// </code>
-    public static I I(params object[] content) => new I(content) { TagIsFluid = false };
+    public static I I(params object[] content) => new I(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;iframe&gt; tag with optional contents
@@ -644,7 +644,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var iframe = Tag.Iframe();
     /// </code>
-    public static Iframe Iframe(params object[] content) => new Iframe(content) { TagIsFluid = false };
+    public static Iframe Iframe(params object[] content) => new Iframe(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;img&gt; tag with optional contents
@@ -656,7 +656,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var img = Tag.Img();
     /// </code>
-    public static Img Img(params object[] content) => new Img(content) { TagIsFluid = false };
+    public static Img Img(params object[] content) => new Img(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;input&gt; tag with optional contents
@@ -668,7 +668,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var input = Tag.Input();
     /// </code>
-    public static Input Input(params object[] content) => new Input(content) { TagIsFluid = false };
+    public static Input Input(params object[] content) => new Input(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ins&gt; tag with optional contents
@@ -681,7 +681,7 @@ namespace ToSic.Razor.Blade
     /// var ins = Tag.Ins();
     /// var ins2 = Tag.Ins("hello there");
     /// </code>
-    public static Ins Ins(params object[] content) => new Ins(content) { TagIsFluid = false };
+    public static Ins Ins(params object[] content) => new Ins(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;kbd&gt; tag with optional contents
@@ -694,7 +694,7 @@ namespace ToSic.Razor.Blade
     /// var kbd = Tag.Kbd();
     /// var kbd2 = Tag.Kbd("hello there");
     /// </code>
-    public static Kbd Kbd(params object[] content) => new Kbd(content) { TagIsFluid = false };
+    public static Kbd Kbd(params object[] content) => new Kbd(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;label&gt; tag with optional contents
@@ -707,7 +707,7 @@ namespace ToSic.Razor.Blade
     /// var label = Tag.Label();
     /// var label2 = Tag.Label("hello there");
     /// </code>
-    public static Label Label(params object[] content) => new Label(content) { TagIsFluid = false };
+    public static Label Label(params object[] content) => new Label(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;legend&gt; tag with optional contents
@@ -720,7 +720,7 @@ namespace ToSic.Razor.Blade
     /// var legend = Tag.Legend();
     /// var legend2 = Tag.Legend("hello there");
     /// </code>
-    public static Legend Legend(params object[] content) => new Legend(content) { TagIsFluid = false };
+    public static Legend Legend(params object[] content) => new Legend(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;li&gt; tag with optional contents
@@ -733,7 +733,7 @@ namespace ToSic.Razor.Blade
     /// var li = Tag.Li();
     /// var li2 = Tag.Li("hello there");
     /// </code>
-    public static Li Li(params object[] content) => new Li(content) { TagIsFluid = false };
+    public static Li Li(params object[] content) => new Li(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;link&gt; tag with optional contents
@@ -745,7 +745,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var link = Tag.Link();
     /// </code>
-    public static Link Link(params object[] content) => new Link(content) { TagIsFluid = false };
+    public static Link Link(params object[] content) => new Link(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;main&gt; tag with optional contents
@@ -758,7 +758,7 @@ namespace ToSic.Razor.Blade
     /// var main = Tag.Main();
     /// var main2 = Tag.Main("hello there");
     /// </code>
-    public static Main Main(params object[] content) => new Main(content) { TagIsFluid = false };
+    public static Main Main(params object[] content) => new Main(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;map&gt; tag with optional contents
@@ -771,7 +771,7 @@ namespace ToSic.Razor.Blade
     /// var map = Tag.Map();
     /// var map2 = Tag.Map("hello there");
     /// </code>
-    public static Map Map(params object[] content) => new Map(content) { TagIsFluid = false };
+    public static Map Map(params object[] content) => new Map(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;mark&gt; tag with optional contents
@@ -784,7 +784,7 @@ namespace ToSic.Razor.Blade
     /// var mark = Tag.Mark();
     /// var mark2 = Tag.Mark("hello there");
     /// </code>
-    public static Mark Mark(params object[] content) => new Mark(content) { TagIsFluid = false };
+    public static Mark Mark(params object[] content) => new Mark(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;meta&gt; tag with optional contents
@@ -796,7 +796,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var meta = Tag.Meta();
     /// </code>
-    public static Meta Meta(params object[] content) => new Meta(content) { TagIsFluid = false };
+    public static Meta Meta(params object[] content) => new Meta(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;meter&gt; tag with optional contents
@@ -809,7 +809,7 @@ namespace ToSic.Razor.Blade
     /// var meter = Tag.Meter();
     /// var meter2 = Tag.Meter("hello there");
     /// </code>
-    public static Meter Meter(params object[] content) => new Meter(content) { TagIsFluid = false };
+    public static Meter Meter(params object[] content) => new Meter(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;nav&gt; tag with optional contents
@@ -822,7 +822,7 @@ namespace ToSic.Razor.Blade
     /// var nav = Tag.Nav();
     /// var nav2 = Tag.Nav("hello there");
     /// </code>
-    public static Nav Nav(params object[] content) => new Nav(content) { TagIsFluid = false };
+    public static Nav Nav(params object[] content) => new Nav(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;noscript&gt; tag with optional contents
@@ -835,7 +835,7 @@ namespace ToSic.Razor.Blade
     /// var noscript = Tag.Noscript();
     /// var noscript2 = Tag.Noscript("hello there");
     /// </code>
-    public static Noscript Noscript(params object[] content) => new Noscript(content) { TagIsFluid = false };
+    public static Noscript Noscript(params object[] content) => new Noscript(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;object&gt; tag with optional contents
@@ -848,7 +848,7 @@ namespace ToSic.Razor.Blade
     /// var object = Tag.Object();
     /// var object2 = Tag.Object("hello there");
     /// </code>
-    public static Object Object(params object[] content) => new Object(content) { TagIsFluid = false };
+    public static Object Object(params object[] content) => new Object(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ol&gt; tag with optional contents
@@ -861,7 +861,7 @@ namespace ToSic.Razor.Blade
     /// var ol = Tag.Ol();
     /// var ol2 = Tag.Ol("hello there");
     /// </code>
-    public static Ol Ol(params object[] content) => new Ol(content) { TagIsFluid = false };
+    public static Ol Ol(params object[] content) => new Ol(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;optgroup&gt; tag with optional contents
@@ -874,7 +874,7 @@ namespace ToSic.Razor.Blade
     /// var optgroup = Tag.Optgroup();
     /// var optgroup2 = Tag.Optgroup("hello there");
     /// </code>
-    public static Optgroup Optgroup(params object[] content) => new Optgroup(content) { TagIsFluid = false };
+    public static Optgroup Optgroup(params object[] content) => new Optgroup(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;option&gt; tag with optional contents
@@ -887,7 +887,7 @@ namespace ToSic.Razor.Blade
     /// var option = Tag.Option();
     /// var option2 = Tag.Option("hello there");
     /// </code>
-    public static Option Option(params object[] content) => new Option(content) { TagIsFluid = false };
+    public static Option Option(params object[] content) => new Option(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;output&gt; tag with optional contents
@@ -900,7 +900,7 @@ namespace ToSic.Razor.Blade
     /// var output = Tag.Output();
     /// var output2 = Tag.Output("hello there");
     /// </code>
-    public static Output Output(params object[] content) => new Output(content) { TagIsFluid = false };
+    public static Output Output(params object[] content) => new Output(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;p&gt; tag with optional contents
@@ -913,7 +913,7 @@ namespace ToSic.Razor.Blade
     /// var p = Tag.P();
     /// var p2 = Tag.P("hello there");
     /// </code>
-    public static P P(params object[] content) => new P(content) { TagIsFluid = false };
+    public static P P(params object[] content) => new P(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;param&gt; tag with optional contents
@@ -926,7 +926,7 @@ namespace ToSic.Razor.Blade
     /// var param = Tag.Param();
     /// var param2 = Tag.Param("hello there");
     /// </code>
-    public static Param Param(params object[] content) => new Param(content) { TagIsFluid = false };
+    public static Param Param(params object[] content) => new Param(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;picture&gt; tag with optional contents
@@ -939,7 +939,7 @@ namespace ToSic.Razor.Blade
     /// var picture = Tag.Picture();
     /// var picture2 = Tag.Picture("hello there");
     /// </code>
-    public static Picture Picture(params object[] content) => new Picture(content) { TagIsFluid = false };
+    public static Picture Picture(params object[] content) => new Picture(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;pre&gt; tag with optional contents
@@ -952,7 +952,7 @@ namespace ToSic.Razor.Blade
     /// var pre = Tag.Pre();
     /// var pre2 = Tag.Pre("hello there");
     /// </code>
-    public static Pre Pre(params object[] content) => new Pre(content) { TagIsFluid = false };
+    public static Pre Pre(params object[] content) => new Pre(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;progress&gt; tag with optional contents
@@ -965,7 +965,7 @@ namespace ToSic.Razor.Blade
     /// var progress = Tag.Progress();
     /// var progress2 = Tag.Progress("hello there");
     /// </code>
-    public static Progress Progress(params object[] content) => new Progress(content) { TagIsFluid = false };
+    public static Progress Progress(params object[] content) => new Progress(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;q&gt; tag with optional contents
@@ -978,7 +978,7 @@ namespace ToSic.Razor.Blade
     /// var q = Tag.Q();
     /// var q2 = Tag.Q("hello there");
     /// </code>
-    public static Q Q(params object[] content) => new Q(content) { TagIsFluid = false };
+    public static Q Q(params object[] content) => new Q(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;rp&gt; tag with optional contents
@@ -991,7 +991,7 @@ namespace ToSic.Razor.Blade
     /// var rp = Tag.Rp();
     /// var rp2 = Tag.Rp("hello there");
     /// </code>
-    public static Rp Rp(params object[] content) => new Rp(content) { TagIsFluid = false };
+    public static Rp Rp(params object[] content) => new Rp(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;rt&gt; tag with optional contents
@@ -1004,7 +1004,7 @@ namespace ToSic.Razor.Blade
     /// var rt = Tag.Rt();
     /// var rt2 = Tag.Rt("hello there");
     /// </code>
-    public static Rt Rt(params object[] content) => new Rt(content) { TagIsFluid = false };
+    public static Rt Rt(params object[] content) => new Rt(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ruby&gt; tag with optional contents
@@ -1017,7 +1017,7 @@ namespace ToSic.Razor.Blade
     /// var ruby = Tag.Ruby();
     /// var ruby2 = Tag.Ruby("hello there");
     /// </code>
-    public static Ruby Ruby(params object[] content) => new Ruby(content) { TagIsFluid = false };
+    public static Ruby Ruby(params object[] content) => new Ruby(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;s&gt; tag with optional contents
@@ -1030,7 +1030,7 @@ namespace ToSic.Razor.Blade
     /// var s = Tag.S();
     /// var s2 = Tag.S("hello there");
     /// </code>
-    public static S S(params object[] content) => new S(content) { TagIsFluid = false };
+    public static S S(params object[] content) => new S(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;samp&gt; tag with optional contents
@@ -1043,7 +1043,7 @@ namespace ToSic.Razor.Blade
     /// var samp = Tag.Samp();
     /// var samp2 = Tag.Samp("hello there");
     /// </code>
-    public static Samp Samp(params object[] content) => new Samp(content) { TagIsFluid = false };
+    public static Samp Samp(params object[] content) => new Samp(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;script&gt; tag with optional contents
@@ -1056,7 +1056,7 @@ namespace ToSic.Razor.Blade
     /// var script = Tag.Script();
     /// var script2 = Tag.Script("hello there");
     /// </code>
-    public static Script Script(params object[] content) => new Script(content) { TagIsFluid = false };
+    public static Script Script(params object[] content) => new Script(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;section&gt; tag with optional contents
@@ -1069,7 +1069,7 @@ namespace ToSic.Razor.Blade
     /// var section = Tag.Section();
     /// var section2 = Tag.Section("hello there");
     /// </code>
-    public static Section Section(params object[] content) => new Section(content) { TagIsFluid = false };
+    public static Section Section(params object[] content) => new Section(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;select&gt; tag with optional contents
@@ -1082,7 +1082,7 @@ namespace ToSic.Razor.Blade
     /// var select = Tag.Select();
     /// var select2 = Tag.Select("hello there");
     /// </code>
-    public static Select Select(params object[] content) => new Select(content) { TagIsFluid = false };
+    public static Select Select(params object[] content) => new Select(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;small&gt; tag with optional contents
@@ -1095,7 +1095,7 @@ namespace ToSic.Razor.Blade
     /// var small = Tag.Small();
     /// var small2 = Tag.Small("hello there");
     /// </code>
-    public static Small Small(params object[] content) => new Small(content) { TagIsFluid = false };
+    public static Small Small(params object[] content) => new Small(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;source&gt; tag with optional contents
@@ -1107,7 +1107,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var source = Tag.Source();
     /// </code>
-    public static Source Source(params object[] content) => new Source(content) { TagIsFluid = false };
+    public static Source Source(params object[] content) => new Source(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;span&gt; tag with optional contents
@@ -1120,7 +1120,7 @@ namespace ToSic.Razor.Blade
     /// var span = Tag.Span();
     /// var span2 = Tag.Span("hello there");
     /// </code>
-    public static Span Span(params object[] content) => new Span(content) { TagIsFluid = false };
+    public static Span Span(params object[] content) => new Span(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;strong&gt; tag with optional contents
@@ -1133,7 +1133,7 @@ namespace ToSic.Razor.Blade
     /// var strong = Tag.Strong();
     /// var strong2 = Tag.Strong("hello there");
     /// </code>
-    public static Strong Strong(params object[] content) => new Strong(content) { TagIsFluid = false };
+    public static Strong Strong(params object[] content) => new Strong(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;style&gt; tag with optional contents
@@ -1146,7 +1146,7 @@ namespace ToSic.Razor.Blade
     /// var style = Tag.Style();
     /// var style2 = Tag.Style("hello there");
     /// </code>
-    public static Style Style(params object[] content) => new Style(content) { TagIsFluid = false };
+    public static Style Style(params object[] content) => new Style(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;sub&gt; tag with optional contents
@@ -1159,7 +1159,7 @@ namespace ToSic.Razor.Blade
     /// var sub = Tag.Sub();
     /// var sub2 = Tag.Sub("hello there");
     /// </code>
-    public static Sub Sub(params object[] content) => new Sub(content) { TagIsFluid = false };
+    public static Sub Sub(params object[] content) => new Sub(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;summary&gt; tag with optional contents
@@ -1172,7 +1172,7 @@ namespace ToSic.Razor.Blade
     /// var summary = Tag.Summary();
     /// var summary2 = Tag.Summary("hello there");
     /// </code>
-    public static Summary Summary(params object[] content) => new Summary(content) { TagIsFluid = false };
+    public static Summary Summary(params object[] content) => new Summary(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;sup&gt; tag with optional contents
@@ -1185,7 +1185,7 @@ namespace ToSic.Razor.Blade
     /// var sup = Tag.Sup();
     /// var sup2 = Tag.Sup("hello there");
     /// </code>
-    public static Sup Sup(params object[] content) => new Sup(content) { TagIsFluid = false };
+    public static Sup Sup(params object[] content) => new Sup(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;svg&gt; tag with optional contents
@@ -1198,7 +1198,7 @@ namespace ToSic.Razor.Blade
     /// var svg = Tag.Svg();
     /// var svg2 = Tag.Svg("hello there");
     /// </code>
-    public static Svg Svg(params object[] content) => new Svg(content) { TagIsFluid = false };
+    public static Svg Svg(params object[] content) => new Svg(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;table&gt; tag with optional contents
@@ -1211,7 +1211,7 @@ namespace ToSic.Razor.Blade
     /// var table = Tag.Table();
     /// var table2 = Tag.Table("hello there");
     /// </code>
-    public static Table Table(params object[] content) => new Table(content) { TagIsFluid = false };
+    public static Table Table(params object[] content) => new Table(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;tbody&gt; tag with optional contents
@@ -1224,7 +1224,7 @@ namespace ToSic.Razor.Blade
     /// var tbody = Tag.Tbody();
     /// var tbody2 = Tag.Tbody("hello there");
     /// </code>
-    public static Tbody Tbody(params object[] content) => new Tbody(content) { TagIsFluid = false };
+    public static Tbody Tbody(params object[] content) => new Tbody(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;td&gt; tag with optional contents
@@ -1237,7 +1237,7 @@ namespace ToSic.Razor.Blade
     /// var td = Tag.Td();
     /// var td2 = Tag.Td("hello there");
     /// </code>
-    public static Td Td(params object[] content) => new Td(content) { TagIsFluid = false };
+    public static Td Td(params object[] content) => new Td(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;template&gt; tag with optional contents
@@ -1250,7 +1250,7 @@ namespace ToSic.Razor.Blade
     /// var template = Tag.Template();
     /// var template2 = Tag.Template("hello there");
     /// </code>
-    public static Template Template(params object[] content) => new Template(content) { TagIsFluid = false };
+    public static Template Template(params object[] content) => new Template(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;textarea&gt; tag with optional contents
@@ -1263,7 +1263,7 @@ namespace ToSic.Razor.Blade
     /// var textarea = Tag.Textarea();
     /// var textarea2 = Tag.Textarea("hello there");
     /// </code>
-    public static Textarea Textarea(params object[] content) => new Textarea(content) { TagIsFluid = false };
+    public static Textarea Textarea(params object[] content) => new Textarea(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;tfoot&gt; tag with optional contents
@@ -1276,7 +1276,7 @@ namespace ToSic.Razor.Blade
     /// var tfoot = Tag.Tfoot();
     /// var tfoot2 = Tag.Tfoot("hello there");
     /// </code>
-    public static Tfoot Tfoot(params object[] content) => new Tfoot(content) { TagIsFluid = false };
+    public static Tfoot Tfoot(params object[] content) => new Tfoot(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;th&gt; tag with optional contents
@@ -1289,7 +1289,7 @@ namespace ToSic.Razor.Blade
     /// var th = Tag.Th();
     /// var th2 = Tag.Th("hello there");
     /// </code>
-    public static Th Th(params object[] content) => new Th(content) { TagIsFluid = false };
+    public static Th Th(params object[] content) => new Th(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;thead&gt; tag with optional contents
@@ -1302,7 +1302,7 @@ namespace ToSic.Razor.Blade
     /// var thead = Tag.Thead();
     /// var thead2 = Tag.Thead("hello there");
     /// </code>
-    public static Thead Thead(params object[] content) => new Thead(content) { TagIsFluid = false };
+    public static Thead Thead(params object[] content) => new Thead(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;time&gt; tag with optional contents
@@ -1315,7 +1315,7 @@ namespace ToSic.Razor.Blade
     /// var time = Tag.Time();
     /// var time2 = Tag.Time("hello there");
     /// </code>
-    public static Time Time(params object[] content) => new Time(content) { TagIsFluid = false };
+    public static Time Time(params object[] content) => new Time(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;tr&gt; tag with optional contents
@@ -1328,7 +1328,7 @@ namespace ToSic.Razor.Blade
     /// var tr = Tag.Tr();
     /// var tr2 = Tag.Tr("hello there");
     /// </code>
-    public static Tr Tr(params object[] content) => new Tr(content) { TagIsFluid = false };
+    public static Tr Tr(params object[] content) => new Tr(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;track&gt; tag with optional contents
@@ -1340,7 +1340,7 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var track = Tag.Track();
     /// </code>
-    public static Track Track(params object[] content) => new Track(content) { TagIsFluid = false };
+    public static Track Track(params object[] content) => new Track(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;u&gt; tag with optional contents
@@ -1353,7 +1353,7 @@ namespace ToSic.Razor.Blade
     /// var u = Tag.U();
     /// var u2 = Tag.U("hello there");
     /// </code>
-    public static U U(params object[] content) => new U(content) { TagIsFluid = false };
+    public static U U(params object[] content) => new U(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;ul&gt; tag with optional contents
@@ -1366,7 +1366,7 @@ namespace ToSic.Razor.Blade
     /// var ul = Tag.Ul();
     /// var ul2 = Tag.Ul("hello there");
     /// </code>
-    public static Ul Ul(params object[] content) => new Ul(content) { TagIsFluid = false };
+    public static Ul Ul(params object[] content) => new Ul(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;var&gt; tag with optional contents
@@ -1379,7 +1379,7 @@ namespace ToSic.Razor.Blade
     /// var var = Tag.Var();
     /// var var2 = Tag.Var("hello there");
     /// </code>
-    public static Var Var(params object[] content) => new Var(content) { TagIsFluid = false };
+    public static Var Var(params object[] content) => new Var(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;video&gt; tag with optional contents
@@ -1392,7 +1392,7 @@ namespace ToSic.Razor.Blade
     /// var video = Tag.Video();
     /// var video2 = Tag.Video("hello there");
     /// </code>
-    public static Video Video(params object[] content) => new Video(content) { TagIsFluid = false };
+    public static Video Video(params object[] content) => new Video(content) { TagIsImmutable = false };
 
     /// <summary>
     /// Generate a standard HTML5 &lt;wbr&gt; tag with optional contents
@@ -1404,6 +1404,6 @@ namespace ToSic.Razor.Blade
     /// <code>
     /// var wbr = Tag.Wbr();
     /// </code>
-    public static Wbr Wbr(params object[] content) => new Wbr(content) { TagIsFluid = false };
+    public static Wbr Wbr(params object[] content) => new Wbr(content) { TagIsImmutable = false };
     }
 }

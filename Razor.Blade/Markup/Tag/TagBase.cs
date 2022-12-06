@@ -11,13 +11,13 @@ namespace ToSic.Razor.Markup
     {
         #region Constructors
 
-        internal const bool DefaultTagIsFunctional = true;
+        internal const bool DefaultTagIsImmutable = true;
 
         /// <summary>
         /// Special - protected set - todo document
         /// </summary>
         [InternalApi_DoNotUse_MayChangeWithoutNotice]
-        public bool TagIsFluid { get; internal set; } = DefaultTagIsFunctional;
+        public bool TagIsImmutable { get; internal set; } = DefaultTagIsImmutable;
 
         protected internal TagBase(TagBase original = null,
             string name = null,

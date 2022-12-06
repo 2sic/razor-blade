@@ -12,7 +12,7 @@ namespace ToSic.RazorBladeTests.TagFluid
         [TestMethod]
         public void NonFluidAreEqual()
         {
-            var divNonFluid = new Div { TagIsFluid = false };
+            var divNonFluid = new Div { TagIsImmutable = false };
             var divWrap = divNonFluid.Wrap("hello");
             AreEqual(divNonFluid, divWrap);
             Is("<div>hello</div>", divWrap);

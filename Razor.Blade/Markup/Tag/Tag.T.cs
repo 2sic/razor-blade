@@ -39,7 +39,7 @@ namespace ToSic.Razor.Markup
         /// </summary>
         internal T CloneIfFunctional(CloneChanges changes)
         {
-            if (TagIsFluid) return CwC(changes);
+            if (TagIsImmutable) return CwC(changes);
             ApplyChanges(changes);
             return (T) this;
         }
@@ -80,19 +80,20 @@ namespace ToSic.Razor.Markup
             return CloneIfFunctional(new CloneChanges { Attributes = newList });
         }
 
-        private AttributeList GetOrCloneAttributeList() => TagIsFluid ? new AttributeList(TagAttributes) : TagAttributes;
+        private AttributeList GetOrCloneAttributeList() => TagIsImmutable ? new AttributeList(TagAttributes) : TagAttributes;
 
         /// <summary>
         /// Special initializer of attributes, because otherwise attributes will not be available in the final object
         /// because of the functional nature of the API.
         /// </summary>
         /// <param name="initializer"></param>
+        [PrivateApi]
         protected void InitAttributes(Action initializer)
         {
-            var before = TagIsFluid;
-            TagIsFluid = false; // necessary, to not generate new objects during init
+            var before = TagIsImmutable;
+            TagIsImmutable = false; // necessary, to not generate new objects during init
             initializer();
-            TagIsFluid = before;
+            TagIsImmutable = before;
         }
 
         /// <summary>
@@ -151,7 +152,7 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Add(params object[] children)
         {
-            var newChildren = TagIsFluid ? new ChildTags(TagChildren) : TagChildren;
+            var newChildren = TagIsImmutable ? new ChildTags(TagChildren) : TagChildren;
             newChildren.Add(children);
             return CloneIfFunctional(new CloneChanges { Children = newChildren });
         }
@@ -166,6 +167,9 @@ namespace ToSic.Razor.Markup
 
         [PrivateApi("WIP v4 - should be exclusively fluid!")]
         public T WithOptions(TagOptions options) => CloneIfFunctional(new CloneChanges { Options = options });
+
+        /// <inheritdoc />
+        public IHtmlTag AsHtmlTag() => this;
 
 
         [PrivateApi("Explicit implementation for when this tag is generic without known specific type")]

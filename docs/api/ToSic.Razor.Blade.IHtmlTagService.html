@@ -520,7 +520,25 @@
   <h1 id="ToSic_Razor_Blade_IHtmlTagService" data-uid="ToSic.Razor.Blade.IHtmlTagService" class="text-break">Interface IHtmlTagService
   </h1>
   <div class="markdown level0 summary"><p>The service to generate HTML Tags.</p>
+<div class="TIP"><h5>Tip</h5><p>This is the new, recommended way of generating tags, as it&apos;s better and <strong>functional</strong></p>
 </div>
+<div class="WARNING"><h5>Warning</h5><p>This looks almost the same as the static <code>ToSic.Razor.Blade.Tag</code> but there is a crucial difference
+The APIs return <strong>functional</strong> <code>IHtmlTag</code> objects.
+This is safer and more future proof, but you may run into surprises.</p>
+</div>
+<p>Example:</p>
+<pre><code class="lang-c#">// Old Tag API - these two objects will be the same
+var tagOld = ToSic.Razor.Blade.Tag.Div();
+var tagOldWithId = tagOld.Id(...).Style(...).Class(...);
+// now tagOld and tagOldWithId are both the same objects with all changes applied
+
+// New API - assumes tagSvc is IHtmlTagService
+// these two objects will NOT be the same
+var tag = tagSvc.Div();
+var tagWithId = tag.Id(...).Style(...).Class(...);
+// now tag is still an empty div-tag
+// while tagWithId is the tag wth everything set on 
+</code></pre></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ToSic.Razor.Blade.html">ToSic.Razor.Blade</a></h6>
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
@@ -529,7 +547,10 @@
     <pre><code class="lang-csharp hljs">public interface IHtmlTagService</code></pre>
   </div>
   <h5 id="ToSic_Razor_Blade_IHtmlTagService_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>It intentionally uses the term &quot;Service&quot; in the end (different from <a class="xref" href="ToSic.Razor.Blade.IScrub.html">IScrub</a> to prevent confusion with <a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a>.</p>
+  <div class="markdown level0 remarks"><ul>
+<li>Introduced in v4.0</li>
+<li>It intentionally uses the term &quot;Service&quot; in the end (different from <a class="xref" href="ToSic.Razor.Blade.IScrub.html">IScrub</a> to prevent confusion with <a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a>.</li>
+</ul>
 </div>
   <h3 id="methods">Methods
   </h3>
