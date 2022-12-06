@@ -12,7 +12,7 @@ namespace ToSic.Razor.Markup
 
         public bool TagIsReadOnly { get; set; } = false;
 
-        private TagBase(): this(null, null, null, null, null, null) { }
+        private TagBase(): this(null, null) { }
 
         protected internal TagBase(TagBase original = null,
             string name = null,
@@ -43,6 +43,18 @@ namespace ToSic.Razor.Markup
 
         #endregion
 
+        #region Changes
+
+        protected void ApplyChanges(CloneChanges changes)
+        {
+            if (changes.Options != null) TagOptions = changes.Options;
+            if (changes.Attributes != null) TagAttributes = changes.Attributes;
+            if (changes.Children != null) TagChildren = changes.Children;
+
+        }
+
+        #endregion
+
         internal static TagBase Text(string text)
             => new TagBase { TagOverride = text };
 
@@ -53,7 +65,8 @@ namespace ToSic.Razor.Markup
         /// TagBase serialization options, like what quotes to use
         /// If null (allowed), will use defaults.
         /// </summary>
-        internal virtual TagOptions TagOptions { get; /*set;*/ }
+        /// <remarks>Set may only be called once, on ApplyChanges</remarks>
+        internal virtual TagOptions TagOptions { get; private set; }
 
         /// <summary>
         /// Helper to ensure that both strings/tags can be passed around and added to list

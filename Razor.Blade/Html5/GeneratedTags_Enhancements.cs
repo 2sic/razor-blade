@@ -9,9 +9,6 @@ namespace ToSic.Razor.Html5
         {
             this.Title(title);
         }
-
-        // temp 2dm
-        //public Abbr Title(string title) => this.InternalTitle(title);
     }
 
     public partial class Bdo

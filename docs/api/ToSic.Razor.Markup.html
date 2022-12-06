@@ -536,7 +536,11 @@ You usually won&#39;t need to program with this directly.</p>
       <h4><a class="xref" href="ToSic.Razor.Markup.AttributeListBase.html">AttributeListBase</a></h4>
       <section></section>
       <h4><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></h4>
-      <section></section>
+      <section><p>Configure how attributes will be serialized.
+It&apos;s a read-only object to ensure fluid APIs.
+Properties cannot be modified.
+To modify a property, create a new one to clone the settings of the previous.</p>
+</section>
       <h4><a class="xref" href="ToSic.Razor.Markup.ChildTags.html">ChildTags</a></h4>
       <section></section>
       <h4><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag&lt;T&gt;</a></h4>
@@ -553,7 +557,8 @@ This allows you to do things like <pre><code>Div().Id(&quot;myId&quot;).Class(&q
       <section><p>An empty tag just containing more tags - like a <a class="xref" href="ToSic.Razor.Markup.TagCustom.html">TagCustom</a> but explicitly meant to not be a tag itself</p>
 </section>
       <h4><a class="xref" href="ToSic.Razor.Markup.TagOptions.html">TagOptions</a></h4>
-      <section></section>
+      <section><p>Options which determine how the tag is to be generated / rendered.</p>
+</section>
 </article>
           </div>
           

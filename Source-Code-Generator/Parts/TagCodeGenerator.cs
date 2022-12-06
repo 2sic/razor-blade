@@ -41,6 +41,8 @@ namespace SourceCodeGenerator.Parts
     {{
     {Constructor}
     {ConstructorWithParams}
+    {ConstructorForClone2}
+    {CloneWithChanges2}
     {Attributes}
     }}";
 
@@ -59,6 +61,20 @@ namespace SourceCodeGenerator.Parts
     internal {ClassName}(params object[] {ContentParamName}) : base(""{TagName}""{TagOptionsWithExplicitNull}, {ContentParamName})
     {{
     }}";
+
+        #region Fluid Cloning
+
+        
+        public string ConstructorForClone => $@"
+    private {ClassName}({ClassName} original, ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
+      : base(original, children, attributes, options) {{ }}";
+        public string CloneWithChanges => $@"
+    internal override {ClassName} CwC(ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
+      => new {ClassName}(this, children, attributes, options);";
+
+        public string ConstructorForClone2 => $@"private {ClassName}({ClassName} original, CloneChanges changes) : base(original, changes) {{ }}";
+        public string CloneWithChanges2 => $@"internal override {ClassName} CwC(CloneChanges changes) => new {ClassName}(this, changes);";
+        #endregion
 
         public string ConstructorParameters => Standalone
             ? ""

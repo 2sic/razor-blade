@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 18:50
+// Created 06.12.2022 21:03
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -52,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Area(params object[] content) : base("area", null, content)
     {
     }
+    private Area(Area original, CloneChanges changes) : base(original, changes) { }
+    internal override Area CwC(CloneChanges changes) => new Area(this, changes);
     
     }
 
@@ -83,6 +85,8 @@ namespace ToSic.Razor.Html5
     internal Canvas(params object[] content) : base("canvas", null, content)
     {
     }
+    private Canvas(Canvas original, CloneChanges changes) : base(original, changes) { }
+    internal override Canvas CwC(CloneChanges changes) => new Canvas(this, changes);
     
     /// <summary>
     /// Set the height attribute on the &lt;canvas&gt; tag 
@@ -150,6 +154,8 @@ namespace ToSic.Razor.Html5
     internal Img(params object[] content) : base("img", new TagOptions(close: false), content)
     {
     }
+    private Img(Img original, CloneChanges changes) : base(original, changes) { }
+    internal override Img CwC(CloneChanges changes) => new Img(this, changes);
     
     /// <summary>
     /// Set the alt attribute on the &lt;img&gt; tag 
@@ -306,6 +312,8 @@ namespace ToSic.Razor.Html5
     internal Map(params object[] content) : base("map", null, content)
     {
     }
+    private Map(Map original, CloneChanges changes) : base(original, changes) { }
+    internal override Map CwC(CloneChanges changes) => new Map(this, changes);
     
     /// <summary>
     /// Set the name attribute on the &lt;map&gt; tag 
@@ -348,6 +356,8 @@ namespace ToSic.Razor.Html5
     internal Picture(params object[] content) : base("picture", null, content)
     {
     }
+    private Picture(Picture original, CloneChanges changes) : base(original, changes) { }
+    internal override Picture CwC(CloneChanges changes) => new Picture(this, changes);
     
     }
 
@@ -379,6 +389,8 @@ namespace ToSic.Razor.Html5
     internal Svg(params object[] content) : base("svg", null, content)
     {
     }
+    private Svg(Svg original, CloneChanges changes) : base(original, changes) { }
+    internal override Svg CwC(CloneChanges changes) => new Svg(this, changes);
     
     /// <summary>
     /// Set the height attribute on the &lt;svg&gt; tag 

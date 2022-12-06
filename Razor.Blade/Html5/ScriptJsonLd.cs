@@ -1,4 +1,5 @@
-﻿using ToSic.Razor.Wip;
+﻿using ToSic.Razor.Markup;
+using ToSic.Razor.Wip;
 
 namespace ToSic.Razor.Html5
 {
@@ -25,6 +26,14 @@ namespace ToSic.Razor.Html5
         /// </summary>
         /// <param name="content">an object which will be json serialized</param>
         public ScriptJsonLd(object content)
-            : this(ToSic.Razor.Internals.Html.ToJsonOrErrorMessage(content)) {}
+            : this(Internals.Html.ToJsonOrErrorMessage(content)) {}
+
+        private ScriptJsonLd(ScriptJsonLd original, CloneChanges changes) : base(original, changes) { }
+
+        // TODO: THIS MUST RETURN THE SAME BASE TYPE AS
+        // THE ORIGINAL - TEST/VERIFY IF THE FINAL CONVERSION ENDS UP WORKING
+        // SINCE THE real CwC return a T-type
+        internal override Script CwC(CloneChanges changes) => new ScriptJsonLd(this, changes);
+
     }
 }

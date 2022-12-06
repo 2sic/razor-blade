@@ -9,7 +9,7 @@ namespace ToSic.Razor.Markup
     {
         public ChildTags(params object[] children)
         {
-            if (children.Length > 0)
+            if (children?.Length > 0)
                 Add(children);
         }
 

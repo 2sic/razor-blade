@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 18:50
+// Created 06.12.2022 21:03
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -52,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Audio(params object[] content) : base("audio", null, content)
     {
     }
+    private Audio(Audio original, CloneChanges changes) : base(original, changes) { }
+    internal override Audio CwC(CloneChanges changes) => new Audio(this, changes);
     
     /// <summary>
     /// Set the autoplay attribute on the &lt;audio&gt; tag 
@@ -178,6 +180,8 @@ namespace ToSic.Razor.Html5
     internal Source(params object[] content) : base("source", new TagOptions(close: false), content)
     {
     }
+    private Source(Source original, CloneChanges changes) : base(original, changes) { }
+    internal override Source CwC(CloneChanges changes) => new Source(this, changes);
     
     /// <summary>
     /// Set the src attribute on the &lt;source&gt; tag 
@@ -276,6 +280,8 @@ namespace ToSic.Razor.Html5
     internal Track(params object[] content) : base("track", new TagOptions(close: false), content)
     {
     }
+    private Track(Track original, CloneChanges changes) : base(original, changes) { }
+    internal override Track CwC(CloneChanges changes) => new Track(this, changes);
     
     /// <summary>
     /// Set the default attribute on the &lt;track&gt; tag 
@@ -370,6 +376,8 @@ namespace ToSic.Razor.Html5
     internal Video(params object[] content) : base("video", null, content)
     {
     }
+    private Video(Video original, CloneChanges changes) : base(original, changes) { }
+    internal override Video CwC(CloneChanges changes) => new Video(this, changes);
     
     /// <summary>
     /// Set the autoplay attribute on the &lt;video&gt; tag 

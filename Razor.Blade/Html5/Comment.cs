@@ -1,4 +1,6 @@
 ﻿
+using ToSic.Razor.Markup;
+
 namespace ToSic.Razor.Html5
 {
     /// <summary>
@@ -10,5 +12,9 @@ namespace ToSic.Razor.Html5
 
         internal Comment(string content = null) : base(string.Format(Template, content))
         { }
+
+        private Comment(Comment original, CloneChanges changes) : base(original, changes) { }
+
+        internal override Comment CwC(CloneChanges changes) => new Comment(this, changes);
     }
 }

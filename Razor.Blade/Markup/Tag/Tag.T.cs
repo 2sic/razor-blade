@@ -31,25 +31,32 @@ namespace ToSic.Razor.Markup
             : base(original: original, name: null, tagOverride: null, children: children, attributes: attributes, options: options)
         { }
 
+        /// <summary>
+        /// Special constructor just for cloning with changes
+        /// </summary>
+        /// <param name="original"></param>
+        protected internal Tag(TagBase original, CloneChanges changes)
+            : base(original: original, name: null, tagOverride: null, children: changes.Children, attributes: changes.Attributes, options: changes.Options)
+        { }
+
         #endregion
 
         #region Self-Clone
 
         /// <summary>
-        /// Clone if fluid...
+        /// Clone / change if fluid... otherwise just change
         /// </summary>
-        internal T CiF()
+        internal T CiF(CloneChanges changes)
         {
+            if (TagIsReadOnly) return CwC(changes) as T;
+            ApplyChanges(changes);
             return this as T;
         }
-
+        
         /// <summary>
         /// Clone with Changes
         /// </summary>
-        internal virtual T CwC(ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
-        {
-            return this as T;
-        }
+        internal abstract T CwC(CloneChanges changes);
 
         #endregion
 
@@ -157,7 +164,8 @@ namespace ToSic.Razor.Markup
         {
             // TODO
             //TagOptions = options;
-            return this as T;
+            return CiF(new CloneChanges { Options = options });
+            //return this as T;
         }
 
         [PrivateApi("Explicit implementation for when this tag is generic without known specific type")]

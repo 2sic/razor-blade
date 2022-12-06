@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 18:50
+// Created 06.12.2022 21:03
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -52,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Base(params object[] content) : base("base", new TagOptions(close: false), content)
     {
     }
+    private Base(Base original, CloneChanges changes) : base(original, changes) { }
+    internal override Base CwC(CloneChanges changes) => new Base(this, changes);
     
     /// <summary>
     /// Set the href attribute on the &lt;base&gt; tag 
@@ -106,6 +108,8 @@ namespace ToSic.Razor.Html5
     internal Head(params object[] content) : base("head", null, content)
     {
     }
+    private Head(Head original, CloneChanges changes) : base(original, changes) { }
+    internal override Head CwC(CloneChanges changes) => new Head(this, changes);
     
     }
 
@@ -137,6 +141,8 @@ namespace ToSic.Razor.Html5
     internal Meta(params object[] content) : base("meta", new TagOptions(close: false), content)
     {
     }
+    private Meta(Meta original, CloneChanges changes) : base(original, changes) { }
+    internal override Meta CwC(CloneChanges changes) => new Meta(this, changes);
     
     /// <summary>
     /// Set the charset attribute on the &lt;meta&gt; tag 

@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 18:50
+// Created 06.12.2022 21:03
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -52,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Iframe(params object[] content) : base("iframe", new TagOptions(close: false), content)
     {
     }
+    private Iframe(Iframe original, CloneChanges changes) : base(original, changes) { }
+    internal override Iframe CwC(CloneChanges changes) => new Iframe(this, changes);
     
     /// <summary>
     /// Set the height attribute on the &lt;iframe&gt; tag 

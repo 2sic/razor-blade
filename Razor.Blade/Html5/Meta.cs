@@ -1,5 +1,4 @@
-﻿using ToSic.Razor.Blade;
-using ToSic.Razor.Markup;
+﻿using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Html5
 {
@@ -11,12 +10,10 @@ namespace ToSic.Razor.Html5
             if (content != null) Content(content);
         }
 
-        private Meta(Meta original, ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
-            : base(original, children, attributes, options) { }
+        //private Meta(Meta original, CloneChanges changes) : base(original, changes) { }
 
-        /// <inheritdoc />
-        internal override Meta CwC(ChildTags children = null, AttributeList attributes = null, TagOptions options = null) 
-            => new Meta(this, children, attributes, options);
+        /////// <inheritdoc />
+        //internal override Meta CwC(CloneChanges changes) => new Meta(this, changes);
     }
 
     public class MetaOg : Meta
@@ -28,6 +25,14 @@ namespace ToSic.Razor.Html5
             if(property != null) Property(property);
             if(content != null) Content(content);
         }
+
+        private MetaOg(MetaOg original, CloneChanges changes) : base(original, changes) { }
+
+        // TODO: THIS MUST RETURN THE SAME BASE TYPE AS
+        // THE ORIGINAL - TEST/VERIFY IF THE FINAL CONVERSION ENDS UP WORKING
+        // SINCE THE real CwC return a T-type
+        internal override Meta CwC(CloneChanges changes) => new MetaOg(this, changes);
+
         public MetaOg Property(string value)
         {
             if (!value.ToLowerInvariant().StartsWith(Prefix))

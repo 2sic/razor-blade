@@ -124,6 +124,7 @@
 <li>Created a new interface <code>IHtmlTag</code> which is supported by all generated code, and ensures you have methods such as <code>Add(...)</code> or <code>Wrap(...)</code> when using any tag generically.<br>It is available on <code>ToSic.Razor.Blade</code> so you don&#39;t need to add more namespaces</li>
 <li>.net Core build now requires .net6 (previously .net5)</li>
 <li>Removed the <code>StartUp.RegisterToJson(...)</code> method which was used at StartUp in special cases to register alternate json-serializer</li>
+<li>The <code>AttributeOptions</code> and <code>TagOptions</code> were made read-only for reliable fluid APIs. This is kind of a <strong>breaking change</strong> but we believe it won&#39;t affect anybody</li>
 </ul>
 <h2 id="version-3">Version 3</h2>
 <h3 id="version-30-2019-10-21">Version 3.0 (2019-10-21)</h3>

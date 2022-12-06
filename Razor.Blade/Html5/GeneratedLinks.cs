@@ -7,7 +7,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 06.12.2022 18:50
+// Created 06.12.2022 21:03
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -52,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal A(params object[] content) : base("a", null, content)
     {
     }
+    private A(A original, CloneChanges changes) : base(original, changes) { }
+    internal override A CwC(CloneChanges changes) => new A(this, changes);
     
     /// <summary>
     /// Set the download attribute on the &lt;a&gt; tag 
@@ -172,6 +174,8 @@ namespace ToSic.Razor.Html5
     internal Link(params object[] content) : base("link", new TagOptions(close: false), content)
     {
     }
+    private Link(Link original, CloneChanges changes) : base(original, changes) { }
+    internal override Link CwC(CloneChanges changes) => new Link(this, changes);
     
     /// <summary>
     /// Set the crossorigin attribute on the &lt;link&gt; tag 
@@ -270,6 +274,8 @@ namespace ToSic.Razor.Html5
     internal Nav(params object[] content) : base("nav", null, content)
     {
     }
+    private Nav(Nav original, CloneChanges changes) : base(original, changes) { }
+    internal override Nav CwC(CloneChanges changes) => new Nav(this, changes);
     
     }
 }

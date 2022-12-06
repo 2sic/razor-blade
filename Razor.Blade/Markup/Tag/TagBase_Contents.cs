@@ -7,7 +7,8 @@ namespace ToSic.Razor.Markup
 {
     public partial class TagBase: IEnumerable<ITag>
     {
-        public ChildTags TagChildren { get; } = new ChildTags();
+        /// <remarks>Set may only be called once, on ApplyChanges</remarks>
+        public ChildTags TagChildren { get; private set; }
 
         /// <summary>
         /// The contents of this tag
