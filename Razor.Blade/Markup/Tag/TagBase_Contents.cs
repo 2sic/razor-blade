@@ -26,7 +26,7 @@ namespace ToSic.Razor.Markup
         /// so no attributes, no content etc.
         /// </summary>
         /// <remarks>Must be null to be deactivated</remarks>
-        internal string TagOverride { get; set; }
+        internal string TagOverride { get; }
 
         /// <inheritdoc />
         [PrivateApi]

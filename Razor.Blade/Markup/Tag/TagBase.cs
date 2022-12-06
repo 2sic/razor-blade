@@ -10,14 +10,14 @@ namespace ToSic.Razor.Markup
     {
         #region Constructors
 
-        internal bool DefaultTagIsReadOnly = false;
+        internal bool DefaultTagIsFluid = false;
 
-        public bool TagIsReadOnly { get; }
+        public bool TagIsFluid { get; }
 
-        private TagBase(): this(null, null) { }
+        private TagBase(): this(null) { }
 
         protected internal TagBase(TagBase original = null,
-            bool? tagIsReadOnly = null,
+            bool? fluid = null,
             string name = null,
             string tagOverride = null,
             ChildTags children = null,
@@ -25,7 +25,7 @@ namespace ToSic.Razor.Markup
             TagOptions options = null)
         {
             // By default tags should not be readonly
-            TagIsReadOnly = tagIsReadOnly ?? original?.TagIsReadOnly ?? DefaultTagIsReadOnly;
+            TagIsFluid = fluid ?? original?.TagIsFluid ?? DefaultTagIsFluid;
 
             // TagOptions is allowed to be null
             TagOptions = options ?? original?.TagOptions;
@@ -62,7 +62,7 @@ namespace ToSic.Razor.Markup
         #endregion
 
         internal static TagBase Text(string text)
-            => new TagBase { TagOverride = text };
+            => new TagBase(tagOverride: text);
 
         /// <inheritdoc/>
         public string TagName { get; }

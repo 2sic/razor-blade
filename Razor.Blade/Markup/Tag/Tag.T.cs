@@ -20,16 +20,17 @@ namespace ToSic.Razor.Markup
         protected Tag(string name, TagOptions options, object[] content) 
             : base(name: name, options: options, children: new ChildTags(content)) { }
 
-        /// <summary>
-        /// Special constructor just for cloning with changes
-        /// </summary>
-        /// <param name="original"></param>
-        /// <param name="children"></param>
-        /// <param name="attributes"></param>
-        /// <param name="options"></param>
-        protected internal Tag(TagBase original, ChildTags children = null, AttributeList attributes = null, TagOptions options = null)
-            : base(original: original, name: null, tagOverride: null, children: children, attributes: attributes, options: options)
-        { }
+        // new constructors
+
+        protected Tag(bool fluid, string name = null, TagOptions options = null)
+            : base(name: name, options: options) { }
+
+        protected Tag(bool fluid, string name, object content, TagOptions options = null)
+            : base(name: name, options: options, children: new ChildTags(content)) { }
+
+        protected Tag(bool fluid, string name, TagOptions options, object[] content) 
+            : base(name: name, options: options, children: new ChildTags(content)) { }
+
 
         /// <summary>
         /// Special constructor just for cloning with changes
@@ -48,7 +49,7 @@ namespace ToSic.Razor.Markup
         /// </summary>
         internal T CiF(CloneChanges changes)
         {
-            if (TagIsReadOnly) return CwC(changes) as T;
+            if (TagIsFluid) return CwC(changes) as T;
             ApplyChanges(changes);
             return this as T;
         }
