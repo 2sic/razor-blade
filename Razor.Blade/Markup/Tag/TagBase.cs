@@ -18,12 +18,6 @@ namespace ToSic.Razor.Markup
                 TagName = name;
         }
 
-        //protected internal TagBase(string name, object content, TagOptions options = null) : this(name, options)
-        //{
-        //    if (content != null)
-        //        TagChildren.Replace(content);
-        //}
-
         protected internal TagBase(string name, TagOptions options, params object[] content) : this(name, options)
         {
             if(content?.Length > 0)

@@ -14,8 +14,8 @@ namespace ToSic.Razor.Blade
         /// <param name="name">tag name</param>
         /// <param name="content">optional content to place within the tag - can be a string or other tags</param>
         /// <returns>HtmlString of the tag, so you can use it directly with @TagBase.TagStart(...) in your razor</returns>
-        public static Markup.TagCustom Custom(string name, params object[] content)
-            => new Markup.TagCustom(name, options: null, content: content);
+        public static TagCustom Custom(string name, params object[] content)
+            => new TagCustom(name, options: null, content: content);
 
         /// <summary>
         /// Simple tag creator for raw source code which doesn't have another tag around it.
@@ -24,8 +24,8 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="content"></param>
         /// <returns></returns>
-        public static Markup.TagCustom RawHtml(params object[] content)
-            => new Markup.TagList(options: null, content);
+        public static TagCustom RawHtml(params object[] content)
+            => new TagList(options: null, content);
 
         /// <summary>
         /// Simple tag creator for tags inside it - the wrapper doesn't exist.
@@ -34,7 +34,7 @@ namespace ToSic.Razor.Blade
         /// <param name="content"></param>
         /// <returns></returns>
         /// <remarks>Added in v03.08</remarks>
-        public static Markup.TagList TagList(params object[] content)
-            => new Markup.TagList(options:null, content);
+        public static TagList TagList(params object[] content)
+            => new TagList(options:null, content);
     }
 }

@@ -3,7 +3,6 @@ using HtmlString = System.Web.HtmlString;
 #else
 using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
 #endif
-//using ToSic.Razor.Markup;
 
 
 namespace ToSic.Razor.Markup
@@ -13,6 +12,7 @@ namespace ToSic.Razor.Markup
         #region .Open and .Close
 
         public HtmlString TagStart => new HtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
+
         public HtmlString TagEnd => new HtmlString(TagBuilder.Close(TagName));
 
         #endregion
