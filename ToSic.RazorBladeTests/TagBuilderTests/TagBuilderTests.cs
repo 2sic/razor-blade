@@ -37,13 +37,13 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         public void ContentWithInvalidClosing()
         {
             Is("<p>...</p>",
-                new TagCustom("p", new TagOptions { SelfClose = true }) { TagContents = "..." });
+                new TagCustom("p", new TagOptions(selfClose: true )) { TagContents = "..." });
 
             Is("<p>...</p>",
-                new TagCustom("p", new TagOptions { Close = false })
+                new TagCustom("p", new TagOptions(close: false ))
                 { TagContents = "..." });
 
-            Is("<p>...</p>", new TagCustom("p", new TagOptions { Close = false, SelfClose = true })
+            Is("<p>...</p>", new TagCustom("p", new TagOptions (close: false, selfClose: true ))
             { TagContents = "..." });
         }
 
@@ -82,24 +82,23 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         [TestMethod]
         public void TagWithSelfClose()
             => Is("<p/>",
-                new TagCustom("p", options: new TagOptions { SelfClose = true })
+                new TagCustom("p", options: new TagOptions (selfClose: true))
                     );
 
         [TestMethod]
         public void TagsWithIdAndClassesSelfClose()
             => Is("<p id='myId' class='my-class float-right'/>",
-                new TagCustom("p", new TagOptions { SelfClose = true }).Id("myId").Class("my-class float-right"));
+                new TagCustom("p", new TagOptions (selfClose: true)).Id("myId").Class("my-class float-right"));
 
 
         [TestMethod]
         public void TagsWithClassIdAndAttributeListOptionsQuote()
             => Is("<p id=\"myId\" class=\"my-class float-right\" data=\"xyz\" kitchen=\"black\"></p>",
-                new TagCustom("p", options: new TagOptions(new AttributeOptions { Quote = "\"" }))
+                new TagCustom("p", options: new TagOptions(attributeOptions: new AttributeOptions(quote: "\"")))
                     .Id("myId").Class("my-class float-right")
                     .Attr("data", "xyz")
                     .Attr("kitchen", "black")
-
-                );
+            );
 
     }
 }

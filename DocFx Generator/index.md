@@ -1,7 +1,7 @@
 
 <img src="images/logos/razor-blade-logo.png" width="100%">
 
-# **API Docs of _RazorBlade 3.09_**
+# **API Docs of _RazorBlade 4.00_**
 
 These docs are meant for programmers using [RazorBlade](https://github.com/2sic/razor-blade). These will usually be people working with C# and Razor, MVC etc.
 
@@ -86,6 +86,6 @@ _Note that HTML whitespace like `&nbsp;` will also be treated as empty, unless y
 
 ## Nice to Know
 
-1. **RazorBlade** has 300 unit tests to make it rock-solid!
-1. The last update was February 2022 when we released v3.09
+1. **RazorBlade** has 340 unit tests to make it rock-solid!
+1. The last update was December 2022 when we released v4.00
 1. See the [Change Log](articles/changelog.md)

@@ -5,7 +5,8 @@
         /// <summary>
         /// All attributes of this tag
         /// </summary>
+        /// <remarks>Set may only be called once, on ApplyChanges</remarks>
         /// <inheritdoc/>
-        public AttributeList TagAttributes { get; } = new AttributeList();
+        public AttributeList TagAttributes { get; private set; }
     }
 }

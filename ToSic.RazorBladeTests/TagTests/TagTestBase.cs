@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Newtonsoft.Json;
 using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
@@ -10,14 +9,7 @@ using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
 namespace ToSic.RazorBladeTests.TagTests
 {
     public class TagTestBase
-
     {
-        public TagTestBase()
-        {
-            // setup use of Newtonsoft.Json for serialization to
-            // ensure same behavior in tests as in 2sxc
-            Razor.StartUp.StartUp.RegisterToJson(JsonConvert.SerializeObject);
-        }
 
         public void Is(string expected, TagBase result, string message = null)
         {
@@ -58,5 +50,8 @@ namespace ToSic.RazorBladeTests.TagTests
         /// </summary>
         /// <returns></returns>
         internal Div TestDiv() => Tag.Div();
+
+        internal TagCustom Custom(string name) => new(name);
+        internal TagCustom Custom(string name, TagOptions options) => new(name, options);
     }
 }

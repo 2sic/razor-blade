@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -47,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Audio(params object[] content) : base("audio", null, content)
     {
     }
+    private Audio(Audio original, CloneChanges changes) : base(original, changes) { }
+    internal override Audio CwC(CloneChanges changes) => new Audio(this, changes);
     
     /// <summary>
     /// Set the autoplay attribute on the &lt;audio&gt; tag 
@@ -158,7 +165,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;source&gt; tag with optional contents
     /// </summary>
     
-    internal Source() : base("source", new TagOptions { Close = false })
+    internal Source() : base("source", new TagOptions(close: false))
     {
     }
     
@@ -170,9 +177,11 @@ namespace ToSic.Razor.Html5
     /// A Source object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Source(params object[] content) : base("source", new TagOptions { Close = false }, content)
+    internal Source(params object[] content) : base("source", new TagOptions(close: false), content)
     {
     }
+    private Source(Source original, CloneChanges changes) : base(original, changes) { }
+    internal override Source CwC(CloneChanges changes) => new Source(this, changes);
     
     /// <summary>
     /// Set the src attribute on the &lt;source&gt; tag 
@@ -256,7 +265,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;track&gt; tag with optional contents
     /// </summary>
     
-    internal Track() : base("track", new TagOptions { Close = false })
+    internal Track() : base("track", new TagOptions(close: false))
     {
     }
     
@@ -268,9 +277,11 @@ namespace ToSic.Razor.Html5
     /// A Track object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Track(params object[] content) : base("track", new TagOptions { Close = false }, content)
+    internal Track(params object[] content) : base("track", new TagOptions(close: false), content)
     {
     }
+    private Track(Track original, CloneChanges changes) : base(original, changes) { }
+    internal override Track CwC(CloneChanges changes) => new Track(this, changes);
     
     /// <summary>
     /// Set the default attribute on the &lt;track&gt; tag 
@@ -365,6 +376,8 @@ namespace ToSic.Razor.Html5
     internal Video(params object[] content) : base("video", null, content)
     {
     }
+    private Video(Video original, CloneChanges changes) : base(original, changes) { }
+    internal override Video CwC(CloneChanges changes) => new Video(this, changes);
     
     /// <summary>
     /// Set the autoplay attribute on the &lt;video&gt; tag 

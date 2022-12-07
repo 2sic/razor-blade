@@ -10,11 +10,12 @@
         protected internal TagCustom(string name = null, TagOptions options = null)
             : base(name, options) { }
 
-        protected internal TagCustom(string name, object content, TagOptions options = null)
-            : base(name, content, options) { }
-
         protected internal TagCustom(string name, TagOptions options, object[] content)
             : base(name, options, content) { }
+
+        private TagCustom(TagCustom original, CloneChanges changes) : base(original, changes) { }
+
+        internal override TagCustom CwC(CloneChanges changes) => new TagCustom(this, changes);
 
         #endregion
 

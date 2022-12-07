@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class Script
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Script
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,7 +99,10 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
@@ -528,9 +531,10 @@
     <div class="level4"><span class="xref">Script</span></div>
       <div class="level5"><a class="xref" href="ToSic.Razor.Html5.ScriptJsonLd.html">ScriptJsonLd</a></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
+    <div><span class="xref">System.Web.IHtmlString</span></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a></div>
     <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
@@ -568,6 +572,15 @@
       <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Wrap_System_Object___">Tag&lt;Script&gt;.Wrap(Object[])</a>
     </div>
     <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_AsHtmlTag">Tag&lt;Script&gt;.AsHtmlTag()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsImmutable">TagBase.TagIsImmutable</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ApplyChanges_ToSic_Razor_Markup_CloneChanges_">TagBase.ApplyChanges(CloneChanges)</a>
+    </div>
+    <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName">TagBase.TagName</a>
     </div>
     <div>
@@ -593,8 +606,48 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Html5_Script_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Script : Tag&lt;Script&gt;, IHtmlContent, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Script : Tag&lt;Script&gt;, IHtmlString, IHtmlTag, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script__ctor_ToSic_Razor_Html5_ScriptJsonLd_ToSic_Razor_Markup_CloneChanges_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.%23ctor(ToSic.Razor.Html5.ScriptJsonLd%2CToSic.Razor.Markup.CloneChanges)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/ScriptJsonLd.cs/#L48">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Html5_Script__ctor_" data-uid="ToSic.Razor.Html5.Script.#ctor*"></a>
+  <h4 id="ToSic_Razor_Html5_Script__ctor_ToSic_Razor_Html5_ScriptJsonLd_ToSic_Razor_Markup_CloneChanges_" data-uid="ToSic.Razor.Html5.Script.#ctor(ToSic.Razor.Html5.ScriptJsonLd,ToSic.Razor.Markup.CloneChanges)">Script(ScriptJsonLd, CloneChanges)</h4>
+  <div class="markdown level1 summary"><p>Very special internal overload to allow Icons to replicate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Script(ScriptJsonLd original, CloneChanges changes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Html5.ScriptJsonLd.html">ScriptJsonLd</a></td>
+        <td><span class="parametername">original</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ToSic.Razor.Markup.CloneChanges</span></td>
+        <td><span class="parametername">changes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -602,7 +655,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script_Async.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.Async%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L363">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L378">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Script_Async_" data-uid="ToSic.Razor.Html5.Script.Async*"></a>
   <h4 id="ToSic_Razor_Html5_Script_Async" data-uid="ToSic.Razor.Html5.Script.Async">Async()</h4>
@@ -634,7 +687,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script_Async_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.Async(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L354">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L369">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Script_Async_" data-uid="ToSic.Razor.Html5.Script.Async*"></a>
   <h4 id="ToSic_Razor_Html5_Script_Async_System_String_" data-uid="ToSic.Razor.Html5.Script.Async(System.String)">Async(String)</h4>
@@ -685,7 +738,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script_Charset_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.Charset(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L372">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L387">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Script_Charset_" data-uid="ToSic.Razor.Html5.Script.Charset*"></a>
   <h4 id="ToSic_Razor_Html5_Script_Charset_System_String_" data-uid="ToSic.Razor.Html5.Script.Charset(System.String)">Charset(String)</h4>
@@ -736,7 +789,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script_Defer.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.Defer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L392">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L407">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Script_Defer_" data-uid="ToSic.Razor.Html5.Script.Defer*"></a>
   <h4 id="ToSic_Razor_Html5_Script_Defer" data-uid="ToSic.Razor.Html5.Script.Defer">Defer()</h4>
@@ -768,7 +821,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script_Defer_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.Defer(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L383">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L398">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Script_Defer_" data-uid="ToSic.Razor.Html5.Script.Defer*"></a>
   <h4 id="ToSic_Razor_Html5_Script_Defer_System_String_" data-uid="ToSic.Razor.Html5.Script.Defer(System.String)">Defer(String)</h4>
@@ -819,7 +872,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script_Src_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.Src(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L402">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L417">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Script_Src_" data-uid="ToSic.Razor.Html5.Script.Src*"></a>
   <h4 id="ToSic_Razor_Html5_Script_Src_System_String_" data-uid="ToSic.Razor.Html5.Script.Src(System.String)">Src(String)</h4>
@@ -871,7 +924,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script_Type_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script.Type(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L413">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L428">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Script_Type_" data-uid="ToSic.Razor.Html5.Script.Type*"></a>
   <h4 id="ToSic_Razor_Html5_Script_Type_System_String_" data-uid="ToSic.Razor.Html5.Script.Type(System.String)">Type(String)</h4>
@@ -919,7 +972,10 @@ If called multiple times, later values replace the previous value.</p>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
+      <span class="xref">System.Web.IHtmlString</span>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a>
   </div>
   <div>
       <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
@@ -941,7 +997,7 @@ If called multiple times, later values replace the previous value.</p>
                     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Script.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Script%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedScripts.cs/#L325" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/ScriptJsonLd.cs/#L43" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

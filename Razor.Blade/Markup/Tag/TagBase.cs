@@ -1,4 +1,7 @@
 ﻿
+using ToSic.Razor.Blade;
+using ToSic.Razor.Internals.Documentation;
+
 namespace ToSic.Razor.Markup
 {
     /// <summary>
@@ -7,43 +10,68 @@ namespace ToSic.Razor.Markup
     public partial class TagBase : ITag
     {
         #region Constructors
-        private TagBase() { }
 
-        protected internal TagBase(string name = null, TagOptions options = null)
+        internal const bool DefaultTagIsImmutable = true;
+
+        /// <summary>
+        /// Special - protected set - todo document
+        /// </summary>
+        [InternalApi_DoNotUse_MayChangeWithoutNotice]
+        public bool TagIsImmutable { get; internal set; } = DefaultTagIsImmutable;
+
+        protected internal TagBase(TagBase original = null,
+            string name = null,
+            string tagOverride = null,
+            ChildTags children = null,
+            AttributeList attributes = null,
+            TagOptions options = null)
         {
-            TagOptions = options;
-            if (name?.Contains("<") ?? false)
-                TagOverride = name;
-            else
-                TagName = name;
+            // TagOptions is allowed to be null
+            TagOptions = options ?? original?.TagOptions;
+
+            // TagOverride is allowed to be null
+            TagOverride = tagOverride ?? original?.TagOverride;
+
+            // Only set the name, if TagOverride is null - as it shouldn't both exist
+            if (TagOverride == null)
+            {
+                if (name?.Contains("<") ?? false)
+                    TagOverride = name;
+                else
+                    TagName = name ?? original?.TagName;
+            }
+
+            // Children and Attributes may never be null
+            TagChildren = children ?? original?.TagChildren ?? new ChildTags();
+            TagAttributes = attributes ?? original?.TagAttributes ?? new AttributeList();
         }
 
-        //protected internal TagBase(string name, object content, TagOptions options = null) : this(name, options)
-        //{
-        //    if (content != null)
-        //        TagChildren.Replace(content);
-        //}
+        #endregion
 
-        protected internal TagBase(string name, TagOptions options, params object[] content) : this(name, options)
+        #region Changes
+
+        protected void ApplyChanges(CloneChanges changes)
         {
-            if(content?.Length > 0)
-                TagChildren.Replace(content);
+            if (changes.Options != null) TagOptions = changes.Options;
+            if (changes.Attributes != null) TagAttributes = changes.Attributes;
+            if (changes.Children != null) TagChildren = changes.Children;
+
         }
+
         #endregion
 
         internal static TagBase Text(string text)
-            => new TagBase { TagOverride = text };
+            => new TagBase(tagOverride: text);
 
         /// <inheritdoc/>
         public string TagName { get; }
 
         /// <summary>
         /// TagBase serialization options, like what quotes to use
-        /// If null, will use defaults
+        /// If null (allowed), will use defaults.
         /// </summary>
-        internal TagOptions TagOptions;
-
-        private TagOptions RealOptions => TagOptions.UseOrCreate(TagOptions);
+        /// <remarks>Set may only be called once, on ApplyChanges</remarks>
+        internal virtual TagOptions TagOptions { get; private set; }
 
         /// <summary>
         /// Helper to ensure that both strings/tags can be passed around and added to list
@@ -60,11 +88,10 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// Gets the HTML encoded value.
         /// </summary>
-        public override string ToString() => ToString(RealOptions);
+        public override string ToString() => ToString(TagOptions);
 
-        internal string ToString(TagOptions options)
-            => TagOverride
-               ?? TagBuilder.Tag(TagName, TagAttributes, TagContents, options);
+        internal string ToString(TagOptions optionsOrNull)
+            => TagOverride ?? TagBuilder.Tag(TagName, TagAttributes, TagContents, optionsOrNull);
 
     }
 }

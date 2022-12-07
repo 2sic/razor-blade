@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using ToSic.Razor.Internals;
 using ToSic.Razor.Internals.Documentation;
 using ToSic.Razor.Markup;
@@ -14,6 +15,7 @@ namespace ToSic.Razor.Interfaces
     /// Because of this we strongly recommend against using it. We assume this interface is actually not used anywhere, so don't start now :).
     /// Use the Connect.Koi implementation instead. 
     /// </remarks>
+    [Obsolete("Do not use any more, doesn't scale well in newer .net frameworks")]
     [PrivateApi]
     public interface IHtmlPage
     {

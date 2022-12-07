@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Namespace ToSic.Razor.Blade
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace ToSic.Razor.Blade
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,7 +99,10 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
@@ -527,10 +530,6 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="ToSic.Razor.Blade.HtmlPage.html">HtmlPage</a></h4>
-      <section><p>Access the surrounding page and read/modify some properties, 
-and add various kinds of headers to the &lt;head&gt; of the current page.</p>
-</section>
       <h4><a class="xref" href="ToSic.Razor.Blade.Tag.html">Tag</a></h4>
       <section><p>Helper to quickly generate <em>all</em> HTML5 tags with a <strong>Tag.Img()</strong> or <strong>Tag.Table()</strong> syntax.
 This is the easiest and safest way to use in in Razor templates because you won&apos;t have naming issues etc.
@@ -553,6 +552,30 @@ The objects are smart - for example this will automatically uri-encode 😎</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
+      <h4><a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a></h4>
+      <section><p>Public interface for all Html5Tags</p>
+</section>
+      <h4><a class="xref" href="ToSic.Razor.Blade.IHtmlTagService.html">IHtmlTagService</a></h4>
+      <section><p>The service to generate HTML Tags.</p>
+<div class="TIP"><h5>Tip</h5><p>This is the new, recommended way of generating tags, as it&apos;s better and <strong>functional</strong></p>
+</div>
+<div class="WARNING"><h5>Warning</h5><p>This looks almost the same as the static <code>ToSic.Razor.Blade.Tag</code> but there is a crucial difference
+The APIs return <strong>functional</strong> <code>IHtmlTag</code> objects.
+This is safer and more future proof, but you may run into surprises.</p>
+</div>
+<p>Example:</p>
+<pre><code class="lang-c#">// Old Tag API - these two objects will be the same
+var tagOld = ToSic.Razor.Blade.Tag.Div();
+var tagOldWithId = tagOld.Id(...).Style(...).Class(...);
+// now tagOld and tagOldWithId are both the same objects with all changes applied
+
+// New API - assumes tagSvc is IHtmlTagService
+// these two objects will NOT be the same
+var tag = tagSvc.Div();
+var tagWithId = tag.Id(...).Style(...).Class(...);
+// now tag is still an empty div-tag
+// while tagWithId is the tag wth everything set on 
+</code></pre></section>
       <h4><a class="xref" href="ToSic.Razor.Blade.IScrub.html">IScrub</a></h4>
       <section><p>IScrub helps wash/clean html from things you want removed. It can take care of all tags, just specific tags or certain attributes.</p>
 <p>Note that it is implemented as an interface, so you must use <strong>Dependency Injection</strong> to get it. </p>

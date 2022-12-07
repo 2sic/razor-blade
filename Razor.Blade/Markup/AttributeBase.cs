@@ -1,4 +1,6 @@
-﻿namespace ToSic.Razor.Markup
+﻿using ToSic.Razor.Blade;
+
+namespace ToSic.Razor.Markup
 {
     public class AttributeBase: ToHtmlHybridBase
     {

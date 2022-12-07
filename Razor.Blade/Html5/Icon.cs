@@ -4,7 +4,7 @@ using ToSic.Razor.Markup;
 namespace ToSic.Razor.Html5
 {
     /// <summary>
-    /// Generate a standard HTML5 &lt;link&gt; tag with properties an icon needs
+    /// Generate a standard HTML5 `link` tag with properties an icon needs
     /// </summary>
     public class Icon : Link
     {
@@ -13,6 +13,9 @@ namespace ToSic.Razor.Html5
         public static readonly string RootFavicon = "/favicon.ico";
         public static readonly string RelShortcut = "shortcut icon";
         public static readonly string RelApple = "apple-touch-icon";
+
+        // TODO: TEMP UNTIL we have better constructors
+        internal override TagOptions TagOptions => new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
 
         /// <summary>
         /// Generate an icon 
@@ -24,16 +27,35 @@ namespace ToSic.Razor.Html5
         /// <returns></returns>
         public Icon(string path, string rel = null, int size = SizeUndefined, string type = null)
         {
+            // TODO: GET INTO CONTSTRUCTOR
             // override empty attributes
-            TagOptions = new TagOptions(new AttributeOptions {KeepEmpty = false}) {Close = false};
+            //TagOptions = new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
 
-            Rel(rel ?? RelIcon);
-            Sizes(size == SizeUndefined ? "" : $"{size}x{size}");
-            Type(type ?? Mime.DetectImageMime(path));
-            Href(path);
+            InitAttributes(() =>
+            {
+                Rel(rel ?? RelIcon);
+                Sizes(size == SizeUndefined ? "" : $"{size}x{size}");
+                Type(type ?? Mime.DetectImageMime(path));
+                Href(path);
+            });
         }
 
         public Icon Sizes(string value) => this.Attr("sizes", value, null) as Icon;
 
+        private Icon(Icon original, CloneChanges changes) : base(original, changes) { }
+
+        // TODO: THIS MUST RETURN THE SAME BASE TYPE AS
+        // THE ORIGINAL - TEST/VERIFY IF THE FINAL CONVERSION ENDS UP WORKING
+        // SINCE THE real CwC return a T-type
+        internal override Link CwC(CloneChanges changes) => new Icon(this, changes);
+
+    }
+
+    public partial class Link
+    {
+        /// <summary>
+        /// Very special internal overload to allow Icons to replicate
+        /// </summary>
+        protected Link(Icon original, CloneChanges changes) : base(original, changes) { }
     }
 }

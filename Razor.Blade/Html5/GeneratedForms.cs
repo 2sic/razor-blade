@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -47,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Button(params object[] content) : base("button", null, content)
     {
     }
+    private Button(Button original, CloneChanges changes) : base(original, changes) { }
+    internal override Button CwC(CloneChanges changes) => new Button(this, changes);
     
     /// <summary>
     /// Set the autofocus attribute on the &lt;button&gt; tag 
@@ -220,6 +227,8 @@ namespace ToSic.Razor.Html5
     internal Datalist(params object[] content) : base("datalist", null, content)
     {
     }
+    private Datalist(Datalist original, CloneChanges changes) : base(original, changes) { }
+    internal override Datalist CwC(CloneChanges changes) => new Datalist(this, changes);
     
     }
 
@@ -251,6 +260,8 @@ namespace ToSic.Razor.Html5
     internal Fieldset(params object[] content) : base("fieldset", null, content)
     {
     }
+    private Fieldset(Fieldset original, CloneChanges changes) : base(original, changes) { }
+    internal override Fieldset CwC(CloneChanges changes) => new Fieldset(this, changes);
     
     /// <summary>
     /// Set the disabled attribute on the &lt;fieldset&gt; tag 
@@ -322,6 +333,8 @@ namespace ToSic.Razor.Html5
     internal Form(params object[] content) : base("form", null, content)
     {
     }
+    private Form(Form original, CloneChanges changes) : base(original, changes) { }
+    internal override Form CwC(CloneChanges changes) => new Form(this, changes);
     
     /// <summary>
     /// Set the accept-charset attribute on the &lt;form&gt; tag 
@@ -433,7 +446,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;input&gt; tag with optional contents
     /// </summary>
     
-    internal Input() : base("input", new TagOptions { Close = false })
+    internal Input() : base("input", new TagOptions(close: false))
     {
     }
     
@@ -445,9 +458,11 @@ namespace ToSic.Razor.Html5
     /// A Input object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Input(params object[] content) : base("input", new TagOptions { Close = false }, content)
+    internal Input(params object[] content) : base("input", new TagOptions(close: false), content)
     {
     }
+    private Input(Input original, CloneChanges changes) : base(original, changes) { }
+    internal override Input CwC(CloneChanges changes) => new Input(this, changes);
     
     /// <summary>
     /// Set the accept attribute on the &lt;input&gt; tag 
@@ -859,6 +874,8 @@ namespace ToSic.Razor.Html5
     internal Label(params object[] content) : base("label", null, content)
     {
     }
+    private Label(Label original, CloneChanges changes) : base(original, changes) { }
+    internal override Label CwC(CloneChanges changes) => new Label(this, changes);
     
     /// <summary>
     /// Set the for attribute on the &lt;label&gt; tag 
@@ -912,6 +929,8 @@ namespace ToSic.Razor.Html5
     internal Legend(params object[] content) : base("legend", null, content)
     {
     }
+    private Legend(Legend original, CloneChanges changes) : base(original, changes) { }
+    internal override Legend CwC(CloneChanges changes) => new Legend(this, changes);
     
     }
 
@@ -943,6 +962,8 @@ namespace ToSic.Razor.Html5
     internal Optgroup(params object[] content) : base("optgroup", null, content)
     {
     }
+    private Optgroup(Optgroup original, CloneChanges changes) : base(original, changes) { }
+    internal override Optgroup CwC(CloneChanges changes) => new Optgroup(this, changes);
     
     /// <summary>
     /// Set the disabled attribute on the &lt;optgroup&gt; tag 
@@ -1003,6 +1024,8 @@ namespace ToSic.Razor.Html5
     internal Option(params object[] content) : base("option", null, content)
     {
     }
+    private Option(Option original, CloneChanges changes) : base(original, changes) { }
+    internal override Option CwC(CloneChanges changes) => new Option(this, changes);
     
     /// <summary>
     /// Set the disabled attribute on the &lt;option&gt; tag 
@@ -1092,6 +1115,8 @@ namespace ToSic.Razor.Html5
     internal Output(params object[] content) : base("output", null, content)
     {
     }
+    private Output(Output original, CloneChanges changes) : base(original, changes) { }
+    internal override Output CwC(CloneChanges changes) => new Output(this, changes);
     
     /// <summary>
     /// Set the for attribute on the &lt;output&gt; tag 
@@ -1156,6 +1181,8 @@ namespace ToSic.Razor.Html5
     internal Select(params object[] content) : base("select", null, content)
     {
     }
+    private Select(Select original, CloneChanges changes) : base(original, changes) { }
+    internal override Select CwC(CloneChanges changes) => new Select(this, changes);
     
     /// <summary>
     /// Set the autofocus attribute on the &lt;select&gt; tag 
@@ -1292,6 +1319,8 @@ namespace ToSic.Razor.Html5
     internal Textarea(params object[] content) : base("textarea", null, content)
     {
     }
+    private Textarea(Textarea original, CloneChanges changes) : base(original, changes) { }
+    internal override Textarea CwC(CloneChanges changes) => new Textarea(this, changes);
     
     /// <summary>
     /// Set the autofocus attribute on the &lt;textarea&gt; tag 

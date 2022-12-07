@@ -7,10 +7,6 @@
     {
         #region Constructors
 
-        public TagList(TagOptions options = null) : base(null, options) { }
-
-        public TagList(object content, TagOptions options = null) : base(null, content, options) { }
-
         public TagList(TagOptions options, object[] content) : base(null, options, content) { }
 
         #endregion

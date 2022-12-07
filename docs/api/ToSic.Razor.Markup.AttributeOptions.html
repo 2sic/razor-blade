@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class AttributeOptions
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AttributeOptions
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,7 +99,10 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
@@ -516,7 +519,11 @@
   
   <h1 id="ToSic_Razor_Markup_AttributeOptions" data-uid="ToSic.Razor.Markup.AttributeOptions" class="text-break">Class AttributeOptions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Configure how attributes will be serialized.
+It&apos;s a read-only object to ensure fluid APIs.
+Properties cannot be modified.
+To modify a property, create a new one to clone the settings of the previous.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -529,17 +536,105 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class AttributeOptions</code></pre>
   </div>
+  <h5 id="ToSic_Razor_Markup_AttributeOptions_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>In v4.0 it was changed to be read-only for reliably fluid APIs. </p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions__ctor_ToSic_Razor_Markup_AttributeOptions_System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.%23ctor(ToSic.Razor.Markup.AttributeOptions%2CSystem.String%2CSystem.Nullable%7BSystem.Boolean%7D%2CSystem.Nullable%7BSystem.Boolean%7D%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L40">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Markup_AttributeOptions__ctor_" data-uid="ToSic.Razor.Markup.AttributeOptions.#ctor*"></a>
+  <h4 id="ToSic_Razor_Markup_AttributeOptions__ctor_ToSic_Razor_Markup_AttributeOptions_System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__" data-uid="ToSic.Razor.Markup.AttributeOptions.#ctor(ToSic.Razor.Markup.AttributeOptions,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean})">AttributeOptions(AttributeOptions, String, Nullable&lt;Boolean&gt;, Nullable&lt;Boolean&gt;, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AttributeOptions(AttributeOptions original = null, string quote = null, bool? encodeQuotes = null, bool? keepEmpty = null, bool? dropValueIfNull = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
+        <td><span class="parametername">original</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">quote</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">encodeQuotes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">keepEmpty</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">dropValueIfNull</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_DefaultDropValueIfNull.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.DefaultDropValueIfNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L34">View Source</a>
+  </span>
+  <h4 id="ToSic_Razor_Markup_AttributeOptions_DefaultDropValueIfNull" data-uid="ToSic.Razor.Markup.AttributeOptions.DefaultDropValueIfNull">DefaultDropValueIfNull</h4>
+  <div class="markdown level1 summary"><p>By default a null-value will result in an attribute-name only. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const bool DefaultDropValueIfNull = true</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_DefaultEncodeQuotes.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.DefaultEncodeQuotes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L5">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L19">View Source</a>
   </span>
   <h4 id="ToSic_Razor_Markup_AttributeOptions_DefaultEncodeQuotes" data-uid="ToSic.Razor.Markup.AttributeOptions.DefaultEncodeQuotes">DefaultEncodeQuotes</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>By default quotes will not be encoded if this results in valid html.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -562,17 +657,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_DefaultKeepEmptyAttributes.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.DefaultKeepEmptyAttributes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_DefaultKeepEmpty.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.DefaultKeepEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L6">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L24">View Source</a>
   </span>
-  <h4 id="ToSic_Razor_Markup_AttributeOptions_DefaultKeepEmptyAttributes" data-uid="ToSic.Razor.Markup.AttributeOptions.DefaultKeepEmptyAttributes">DefaultKeepEmptyAttributes</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ToSic_Razor_Markup_AttributeOptions_DefaultKeepEmpty" data-uid="ToSic.Razor.Markup.AttributeOptions.DefaultKeepEmpty">DefaultKeepEmpty</h4>
+  <div class="markdown level1 summary"><p>By default, empty attributes are preserved.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const bool DefaultKeepEmptyAttributes = true</code></pre>
+    <pre><code class="lang-csharp hljs">public const bool DefaultKeepEmpty = true</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -594,10 +690,11 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_DefaultQuote.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.DefaultQuote%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L7">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L29">View Source</a>
   </span>
   <h4 id="ToSic_Razor_Markup_AttributeOptions_DefaultQuote" data-uid="ToSic.Razor.Markup.AttributeOptions.DefaultQuote">DefaultQuote</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>By default, use the <code>&amp;apos;</code> quote for attributes since it allows for storing json in attributes which is fairly common.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -618,35 +715,6 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_DefaultValueIfNull.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.DefaultValueIfNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L8">View Source</a>
-  </span>
-  <h4 id="ToSic_Razor_Markup_AttributeOptions_DefaultValueIfNull" data-uid="ToSic.Razor.Markup.AttributeOptions.DefaultValueIfNull">DefaultValueIfNull</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const bool DefaultValueIfNull = true</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -654,15 +722,17 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_DropValueIfNull.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.DropValueIfNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L25">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L69">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_AttributeOptions_DropValueIfNull_" data-uid="ToSic.Razor.Markup.AttributeOptions.DropValueIfNull*"></a>
   <h4 id="ToSic_Razor_Markup_AttributeOptions_DropValueIfNull" data-uid="ToSic.Razor.Markup.AttributeOptions.DropValueIfNull">DropValueIfNull</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Drop the value part of the attribute if the value would be null.
+When true, <code>name=null</code> will result in <code>name</code> - when false it will be <code>name=&amp;apos;&amp;apos;</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool DropValueIfNull { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool DropValueIfNull { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -684,7 +754,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_EncodeQuotes.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.EncodeQuotes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L18">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L58">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_AttributeOptions_EncodeQuotes_" data-uid="ToSic.Razor.Markup.AttributeOptions.EncodeQuotes*"></a>
   <h4 id="ToSic_Razor_Markup_AttributeOptions_EncodeQuotes" data-uid="ToSic.Razor.Markup.AttributeOptions.EncodeQuotes">EncodeQuotes</h4>
@@ -693,7 +763,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool EncodeQuotes { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool EncodeQuotes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -715,16 +785,16 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_KeepEmpty.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.KeepEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L23">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L63">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_AttributeOptions_KeepEmpty_" data-uid="ToSic.Razor.Markup.AttributeOptions.KeepEmpty*"></a>
   <h4 id="ToSic_Razor_Markup_AttributeOptions_KeepEmpty" data-uid="ToSic.Razor.Markup.AttributeOptions.KeepEmpty">KeepEmpty</h4>
-  <div class="markdown level1 summary"><p>Place empty attributes on the tag anyhow</p>
+  <div class="markdown level1 summary"><p>Place empty attributes on the tag anyhow.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool KeepEmpty { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool KeepEmpty { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -746,7 +816,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions_Quote.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions.Quote%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L13">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L53">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_AttributeOptions_Quote_" data-uid="ToSic.Razor.Markup.AttributeOptions.Quote*"></a>
   <h4 id="ToSic_Razor_Markup_AttributeOptions_Quote" data-uid="ToSic.Razor.Markup.AttributeOptions.Quote">Quote</h4>
@@ -755,7 +825,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Quote { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Quote { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -783,7 +853,7 @@
                     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_AttributeOptions.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.AttributeOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/AttributeOptions.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

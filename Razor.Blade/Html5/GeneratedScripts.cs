@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -47,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Embed(params object[] content) : base("embed", null, content)
     {
     }
+    private Embed(Embed original, CloneChanges changes) : base(original, changes) { }
+    internal override Embed CwC(CloneChanges changes) => new Embed(this, changes);
     
     /// <summary>
     /// Set the height attribute on the &lt;embed&gt; tag 
@@ -137,6 +144,8 @@ namespace ToSic.Razor.Html5
     internal Noscript(params object[] content) : base("noscript", null, content)
     {
     }
+    private Noscript(Noscript original, CloneChanges changes) : base(original, changes) { }
+    internal override Noscript CwC(CloneChanges changes) => new Noscript(this, changes);
     
     }
 
@@ -168,6 +177,8 @@ namespace ToSic.Razor.Html5
     internal Object(params object[] content) : base("object", null, content)
     {
     }
+    private Object(Object original, CloneChanges changes) : base(original, changes) { }
+    internal override Object CwC(CloneChanges changes) => new Object(this, changes);
     
     /// <summary>
     /// Set the data attribute on the &lt;object&gt; tag 
@@ -291,6 +302,8 @@ namespace ToSic.Razor.Html5
     internal Param(params object[] content) : base("param", null, content)
     {
     }
+    private Param(Param original, CloneChanges changes) : base(original, changes) { }
+    internal override Param CwC(CloneChanges changes) => new Param(this, changes);
     
     /// <summary>
     /// Set the name attribute on the &lt;param&gt; tag 
@@ -344,6 +357,8 @@ namespace ToSic.Razor.Html5
     internal Script(params object[] content) : base("script", null, content)
     {
     }
+    private Script(Script original, CloneChanges changes) : base(original, changes) { }
+    internal override Script CwC(CloneChanges changes) => new Script(this, changes);
     
     /// <summary>
     /// Set the async attribute on the &lt;script&gt; tag 

@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -32,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;br&gt; tag with optional contents
     /// </summary>
     
-    internal Br() : base("br", new TagOptions { Close = false })
+    internal Br() : base("br", new TagOptions(close: false))
     {
     }
     
@@ -44,9 +49,11 @@ namespace ToSic.Razor.Html5
     /// A Br object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Br(params object[] content) : base("br", new TagOptions { Close = false }, content)
+    internal Br(params object[] content) : base("br", new TagOptions(close: false), content)
     {
     }
+    private Br(Br original, CloneChanges changes) : base(original, changes) { }
+    internal override Br CwC(CloneChanges changes) => new Br(this, changes);
     
     }
 
@@ -78,6 +85,8 @@ namespace ToSic.Razor.Html5
     internal Dd(params object[] content) : base("dd", null, content)
     {
     }
+    private Dd(Dd original, CloneChanges changes) : base(original, changes) { }
+    internal override Dd CwC(CloneChanges changes) => new Dd(this, changes);
     
     }
 
@@ -109,6 +118,8 @@ namespace ToSic.Razor.Html5
     internal Dl(params object[] content) : base("dl", null, content)
     {
     }
+    private Dl(Dl original, CloneChanges changes) : base(original, changes) { }
+    internal override Dl CwC(CloneChanges changes) => new Dl(this, changes);
     
     }
 
@@ -140,6 +151,8 @@ namespace ToSic.Razor.Html5
     internal Dt(params object[] content) : base("dt", null, content)
     {
     }
+    private Dt(Dt original, CloneChanges changes) : base(original, changes) { }
+    internal override Dt CwC(CloneChanges changes) => new Dt(this, changes);
     
     }
 
@@ -171,6 +184,8 @@ namespace ToSic.Razor.Html5
     internal H1(params object[] content) : base("h1", null, content)
     {
     }
+    private H1(H1 original, CloneChanges changes) : base(original, changes) { }
+    internal override H1 CwC(CloneChanges changes) => new H1(this, changes);
     
     }
 
@@ -202,6 +217,8 @@ namespace ToSic.Razor.Html5
     internal H2(params object[] content) : base("h2", null, content)
     {
     }
+    private H2(H2 original, CloneChanges changes) : base(original, changes) { }
+    internal override H2 CwC(CloneChanges changes) => new H2(this, changes);
     
     }
 
@@ -233,6 +250,8 @@ namespace ToSic.Razor.Html5
     internal H3(params object[] content) : base("h3", null, content)
     {
     }
+    private H3(H3 original, CloneChanges changes) : base(original, changes) { }
+    internal override H3 CwC(CloneChanges changes) => new H3(this, changes);
     
     }
 
@@ -264,6 +283,8 @@ namespace ToSic.Razor.Html5
     internal H4(params object[] content) : base("h4", null, content)
     {
     }
+    private H4(H4 original, CloneChanges changes) : base(original, changes) { }
+    internal override H4 CwC(CloneChanges changes) => new H4(this, changes);
     
     }
 
@@ -295,6 +316,8 @@ namespace ToSic.Razor.Html5
     internal H5(params object[] content) : base("h5", null, content)
     {
     }
+    private H5(H5 original, CloneChanges changes) : base(original, changes) { }
+    internal override H5 CwC(CloneChanges changes) => new H5(this, changes);
     
     }
 
@@ -326,6 +349,8 @@ namespace ToSic.Razor.Html5
     internal H6(params object[] content) : base("h6", null, content)
     {
     }
+    private H6(H6 original, CloneChanges changes) : base(original, changes) { }
+    internal override H6 CwC(CloneChanges changes) => new H6(this, changes);
     
     }
 
@@ -342,7 +367,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;hr&gt; tag with optional contents
     /// </summary>
     
-    internal Hr() : base("hr", new TagOptions { Close = false })
+    internal Hr() : base("hr", new TagOptions(close: false))
     {
     }
     
@@ -354,9 +379,11 @@ namespace ToSic.Razor.Html5
     /// A Hr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Hr(params object[] content) : base("hr", new TagOptions { Close = false }, content)
+    internal Hr(params object[] content) : base("hr", new TagOptions(close: false), content)
     {
     }
+    private Hr(Hr original, CloneChanges changes) : base(original, changes) { }
+    internal override Hr CwC(CloneChanges changes) => new Hr(this, changes);
     
     }
 
@@ -388,6 +415,8 @@ namespace ToSic.Razor.Html5
     internal Li(params object[] content) : base("li", null, content)
     {
     }
+    private Li(Li original, CloneChanges changes) : base(original, changes) { }
+    internal override Li CwC(CloneChanges changes) => new Li(this, changes);
     
     }
 
@@ -419,6 +448,8 @@ namespace ToSic.Razor.Html5
     internal Ol(params object[] content) : base("ol", null, content)
     {
     }
+    private Ol(Ol original, CloneChanges changes) : base(original, changes) { }
+    internal override Ol CwC(CloneChanges changes) => new Ol(this, changes);
     
     }
 
@@ -450,6 +481,8 @@ namespace ToSic.Razor.Html5
     internal P(params object[] content) : base("p", null, content)
     {
     }
+    private P(P original, CloneChanges changes) : base(original, changes) { }
+    internal override P CwC(CloneChanges changes) => new P(this, changes);
     
     }
 
@@ -481,6 +514,8 @@ namespace ToSic.Razor.Html5
     internal Ul(params object[] content) : base("ul", null, content)
     {
     }
+    private Ul(Ul original, CloneChanges changes) : base(original, changes) { }
+    internal override Ul CwC(CloneChanges changes) => new Ul(this, changes);
     
     }
 
@@ -497,7 +532,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;wbr&gt; tag with optional contents
     /// </summary>
     
-    internal Wbr() : base("wbr", new TagOptions { Close = false })
+    internal Wbr() : base("wbr", new TagOptions(close: false))
     {
     }
     
@@ -509,9 +544,11 @@ namespace ToSic.Razor.Html5
     /// A Wbr object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Wbr(params object[] content) : base("wbr", new TagOptions { Close = false }, content)
+    internal Wbr(params object[] content) : base("wbr", new TagOptions(close: false), content)
     {
     }
+    private Wbr(Wbr original, CloneChanges changes) : base(original, changes) { }
+    internal override Wbr CwC(CloneChanges changes) => new Wbr(this, changes);
     
     }
 }

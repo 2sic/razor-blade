@@ -82,7 +82,7 @@ namespace ToSic.Razor.Dnn
         /// Generate and add a json-ld header, by serializing an object
         /// </summary>
         /// <param name="jsonObject"></param>
-        public void AddJsonLd(object jsonObject) 
+        public void AddJsonLd(object jsonObject)
             => AddToHead(new ScriptJsonLd(jsonObject));
 
         private void EnsureFieldVisibleAndSetValueAgain(string id, string value)

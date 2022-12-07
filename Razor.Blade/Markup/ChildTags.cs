@@ -7,60 +7,55 @@ namespace ToSic.Razor.Markup
 {
     public class ChildTags: List<TagBase>
     {
+        public ChildTags(params object[] children)
+        {
+            if (children?.Length > 0)
+                Add(children);
+        }
+
+        public ChildTags(ChildTags original)
+        {
+            base.AddRange(original);
+        }
+
         public void Add(params object[] children)
         {
+            if (children == null || children.Length == 0) return;
+
+            if (children.Length == 1)
+            {
+                var first = children.First();
+                if (first == null) return;
+                // Strings, TagBase and any list are now IEnumerable
+                if (first is IEnumerable innerList)
+                {
+                    // Handle null, string, or single TagBase object
+                    // Note that TagBase objects also report as being IEnumerable
+                    if (AddOrSkipNullOrTagBase(innerList)) return;
+
+                    // it was not a TagBase, string or null, but an IEnumerable
+                    // Unwrap and continue normal
+                    children = innerList.Cast<object>().ToArray();
+                }
+            }
             // Untangle deeper objects if necessary
             // This is because child could be
             // - a single item
             // - an array of items - like a string[]
-            // - an array with a single item - which itself is an ienumerable
-
-            var child = children;
-
-            // 2022-06-29 v3.14 - shouldn't be used any more, as it's always an array now
-            //// Handle null, string, or single TagBase object
-            //if (AddOrSkipNullOrTagBase(child)) return;
-
-            // 1. Check for IEnumerable, but make sure we don't pick up strings
-
-            //// This doesn't process it yet, just ensures that in case it's an array/list of real items, that it is unwrapped
-            //if (!(child is string) && child is IEnumerable childEnum)
-            //{
-            //    var tempList = childEnum.Cast<object>().ToList();
-            //    if (!tempList.Any()) return;
-
-            //    // If it has exactly one item, it's probably an array/enumerable in an array, so unwrap
-            //    if (tempList.Count == 1)
-            //    {
-            //        // Changes the 'child' for further processing if it's an accidental array which itself contains 1 IEnumerable<TagBase> for later on
-            //        child = tempList.First();
-            //        // Handle null, string, or single TagBase object
-            //        if (AddOrSkipNullOrTagBase(child)) return;
-            //    }
-            //}
-
+            // - an array with a single item - which itself is an IEnumerable
 
             // 2. Import a TagBase list
             // if it's a classic tag list - everything is ok
             // This could also be the result of processing #1 before
-            if (child is IEnumerable<TagBase> list)
+            if (children is IEnumerable<TagBase> list)
             {
                 AddRange(list);
                 return;
             }
 
-            // otherwise check if it's a list, but exclude strings,
-            // because otherwise it will try to enumerate each character
-            // 2022-06-29 v3.14 - shouldn't be used any more, as it's always an array now
-            if (/*!(child is string) &&*/ child is IEnumerable nonTagList)
-            {
-                foreach (var item in nonTagList)
-                    base.Add(TagBase.EnsureTag(item));
-                return;
-            }
-            
-            // last case: Used to be (before 2022) string or tag, just add (after 2022) - will probably never be hit
-            base.Add(TagBase.EnsureTag(child));
+            // otherwise handle it since it's just an array of different objects
+            foreach (var item in children)
+                base.Add(TagBase.EnsureTag(item));
         }
 
         private bool AddOrSkipNullOrTagBase(object child)
@@ -90,11 +85,11 @@ namespace ToSic.Razor.Markup
             Add(children);
         }
 
-        internal string Build(TagOptions options)
+        internal string Build(TagOptions optionsOrNull)
         {
-            if (!this.Any())
-                return "";
-            return string.Join("", this.Select(c => c.ToString(c.TagOptions ?? options)));
+            if (!this.Any()) return "";
+            if (optionsOrNull == null) optionsOrNull = TagOptions.DefaultOptions;
+            return string.Join("", this.Select(c => c.ToString(c.TagOptions ?? optionsOrNull)));
         }
 
     }

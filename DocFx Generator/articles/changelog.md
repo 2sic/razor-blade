@@ -2,6 +2,22 @@
 
 # RazorBlade ChangeLog
 
+## Version 4
+
+### Version 4.0 (2022-12)
+
+* Created a new interface [`IHtmlTag`](xref:ToSic.Razor.Blade.IHtmlTag) which is supported by all generated code, and ensures you have methods such as `Add(...)` or `Wrap(...)` when using any tag generically.  
+  It is available on `ToSic.Razor.Blade` so you don't need to add more namespaces
+* Create a new `ToSic.Razor.Blade.IHtmlTagService` which provides the same functionality as the static `Blade.Tag` API, but with immutable objects (see below)
+* All generated tags like `Div`, `H2` etc. can now be immutable.
+  * The existing `ToSic.Razor.Blade.Tag.TAGNAME(...)` apis continue to deliver mutable objects (like before)
+  * The new `IHtmlTagService` provides immutable objects. This can lead to surprising effects when migrating existing code, so that should best continue to use the old `Blade.Tag...`
+* .net Core build now requires .net6 (previously .net5)
+* Removed the `StartUp.RegisterToJson(...)` method which was used at StartUp in special cases to register alternate json-serializer
+* The `AttributeOptions` and `TagOptions` were made read-only for reliable fluid / immutable APIs.
+  This is kind of a **breaking change** but we believe it won't affect anybody.
+  since it was basically an internal API which nobody used outside of this.
+
 ## Version 3
 
 ### Version 3.0 (2019-10-21)
@@ -11,15 +27,15 @@ Released V3 which was a complete rework and had a new root namespace.
 1. Created website with full API documentation [Razor-Blade.net](https://razor-blade.net)
 1. Created all Html5 tags and quick-accessor using Tag.xxx
 
-**Breaking Changes**
+#### Breaking Changes
 
-We really hate to introduce breaking changes, but 3.0 was a good opportunity for this. 
+We really hate to introduce breaking changes, but 3.0 was a good opportunity for this.
 
-1. Renamed everything to use the namespace `ToSic.Razor.Blade` from previously `Connect.Razor.Blade`. This was improtant, because we decided to release RazorBlade as a NuGet package, and the previous namespace `Connect` didn't make any sense. 
+1. Renamed everything to use the namespace `ToSic.Razor.Blade` from previously `Connect.Razor.Blade`. This was improtant, because we decided to release RazorBlade as a NuGet package, and the previous namespace `Connect` didn't make any sense.
 1. Renamed the DLL to be in-line with the changes, which also means that previous code still works, because the new namespace can run side-by-side with the previous one
 1. Reorganized some internal APIs, so they won't disturb in public documentation
-1. Modified the `Text.First()` method so it could now take an unlimited amount of strings to pick the first one. 
-1. Moved primary repo in Github to [2sic](https://github.com/2sic/razor-blade) 
+1. Modified the `Text.First()` method so it could now take an unlimited amount of strings to pick the first one.
+1. Moved primary repo in Github to [2sic](https://github.com/2sic/razor-blade)
 
 ### V3.01 2019-12
 
@@ -38,6 +54,12 @@ Minor fixes / changes which required a version bump.
 
 1. Created `Tag.RawHtml(...)`
 1. `Tag.Attr(...)` now can also accept ITag values like prepared attributes
+1. Various null-checks/bugfixes
+1. Operators to enable adding Tags like `Tag.P() + Tag.Div()`
+1. Adding tag contents with IEnumerable (previously only Arrays worked)
+1. Fix Json serialization for Oqtane (previously internal ToJson only worked in .net 451)
+1. Will probably be bundled with 2sxc 12.05
+1. Removed the `IHtmlPage` interface from the docs as it shouldn't be used any more
 
 ### V3.08 2022-01
 
@@ -57,7 +79,7 @@ Minor fixes / changes which required a version bump.
 
 1. Minor bugfixes and clean-up of tests
 
---- 
+---
 
 ## Version 2
 
@@ -74,7 +96,7 @@ Minor fixes / changes which required a version bump.
 
 1. Released first draft of Fluent Tag API which was later brought to final in 3.0
 
---- 
+---
 
 ## Version 1
 

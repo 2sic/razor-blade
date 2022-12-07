@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -47,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Abbr(params object[] content) : base("abbr", null, content)
     {
     }
+    private Abbr(Abbr original, CloneChanges changes) : base(original, changes) { }
+    internal override Abbr CwC(CloneChanges changes) => new Abbr(this, changes);
     
     }
 
@@ -78,6 +85,8 @@ namespace ToSic.Razor.Html5
     internal Address(params object[] content) : base("address", null, content)
     {
     }
+    private Address(Address original, CloneChanges changes) : base(original, changes) { }
+    internal override Address CwC(CloneChanges changes) => new Address(this, changes);
     
     }
 
@@ -109,6 +118,8 @@ namespace ToSic.Razor.Html5
     internal B(params object[] content) : base("b", null, content)
     {
     }
+    private B(B original, CloneChanges changes) : base(original, changes) { }
+    internal override B CwC(CloneChanges changes) => new B(this, changes);
     
     }
 
@@ -140,6 +151,8 @@ namespace ToSic.Razor.Html5
     internal Bdi(params object[] content) : base("bdi", null, content)
     {
     }
+    private Bdi(Bdi original, CloneChanges changes) : base(original, changes) { }
+    internal override Bdi CwC(CloneChanges changes) => new Bdi(this, changes);
     
     }
 
@@ -171,6 +184,8 @@ namespace ToSic.Razor.Html5
     internal Bdo(params object[] content) : base("bdo", null, content)
     {
     }
+    private Bdo(Bdo original, CloneChanges changes) : base(original, changes) { }
+    internal override Bdo CwC(CloneChanges changes) => new Bdo(this, changes);
     
     /// <summary>
     /// Set the dir attribute on the &lt;bdo&gt; tag 
@@ -213,6 +228,8 @@ namespace ToSic.Razor.Html5
     internal Blockquote(params object[] content) : base("blockquote", null, content)
     {
     }
+    private Blockquote(Blockquote original, CloneChanges changes) : base(original, changes) { }
+    internal override Blockquote CwC(CloneChanges changes) => new Blockquote(this, changes);
     
     /// <summary>
     /// Set the cite attribute on the &lt;blockquote&gt; tag 
@@ -255,6 +272,8 @@ namespace ToSic.Razor.Html5
     internal Cite(params object[] content) : base("cite", null, content)
     {
     }
+    private Cite(Cite original, CloneChanges changes) : base(original, changes) { }
+    internal override Cite CwC(CloneChanges changes) => new Cite(this, changes);
     
     }
 
@@ -286,6 +305,8 @@ namespace ToSic.Razor.Html5
     internal Code(params object[] content) : base("code", null, content)
     {
     }
+    private Code(Code original, CloneChanges changes) : base(original, changes) { }
+    internal override Code CwC(CloneChanges changes) => new Code(this, changes);
     
     }
 
@@ -317,6 +338,8 @@ namespace ToSic.Razor.Html5
     internal Del(params object[] content) : base("del", null, content)
     {
     }
+    private Del(Del original, CloneChanges changes) : base(original, changes) { }
+    internal override Del CwC(CloneChanges changes) => new Del(this, changes);
     
     /// <summary>
     /// Set the cite attribute on the &lt;del&gt; tag 
@@ -377,6 +400,8 @@ namespace ToSic.Razor.Html5
     internal Dfn(params object[] content) : base("dfn", null, content)
     {
     }
+    private Dfn(Dfn original, CloneChanges changes) : base(original, changes) { }
+    internal override Dfn CwC(CloneChanges changes) => new Dfn(this, changes);
     
     }
 
@@ -408,6 +433,8 @@ namespace ToSic.Razor.Html5
     internal Em(params object[] content) : base("em", null, content)
     {
     }
+    private Em(Em original, CloneChanges changes) : base(original, changes) { }
+    internal override Em CwC(CloneChanges changes) => new Em(this, changes);
     
     }
 
@@ -439,6 +466,8 @@ namespace ToSic.Razor.Html5
     internal Figcaption(params object[] content) : base("figcaption", null, content)
     {
     }
+    private Figcaption(Figcaption original, CloneChanges changes) : base(original, changes) { }
+    internal override Figcaption CwC(CloneChanges changes) => new Figcaption(this, changes);
     
     }
 
@@ -470,6 +499,8 @@ namespace ToSic.Razor.Html5
     internal Figure(params object[] content) : base("figure", null, content)
     {
     }
+    private Figure(Figure original, CloneChanges changes) : base(original, changes) { }
+    internal override Figure CwC(CloneChanges changes) => new Figure(this, changes);
     
     }
 
@@ -501,6 +532,8 @@ namespace ToSic.Razor.Html5
     internal I(params object[] content) : base("i", null, content)
     {
     }
+    private I(I original, CloneChanges changes) : base(original, changes) { }
+    internal override I CwC(CloneChanges changes) => new I(this, changes);
     
     }
 
@@ -532,6 +565,8 @@ namespace ToSic.Razor.Html5
     internal Ins(params object[] content) : base("ins", null, content)
     {
     }
+    private Ins(Ins original, CloneChanges changes) : base(original, changes) { }
+    internal override Ins CwC(CloneChanges changes) => new Ins(this, changes);
     
     /// <summary>
     /// Set the cite attribute on the &lt;ins&gt; tag 
@@ -592,6 +627,8 @@ namespace ToSic.Razor.Html5
     internal Kbd(params object[] content) : base("kbd", null, content)
     {
     }
+    private Kbd(Kbd original, CloneChanges changes) : base(original, changes) { }
+    internal override Kbd CwC(CloneChanges changes) => new Kbd(this, changes);
     
     }
 
@@ -623,6 +660,8 @@ namespace ToSic.Razor.Html5
     internal Mark(params object[] content) : base("mark", null, content)
     {
     }
+    private Mark(Mark original, CloneChanges changes) : base(original, changes) { }
+    internal override Mark CwC(CloneChanges changes) => new Mark(this, changes);
     
     }
 
@@ -654,6 +693,8 @@ namespace ToSic.Razor.Html5
     internal Meter(params object[] content) : base("meter", null, content)
     {
     }
+    private Meter(Meter original, CloneChanges changes) : base(original, changes) { }
+    internal override Meter CwC(CloneChanges changes) => new Meter(this, changes);
     
     /// <summary>
     /// Set the form attribute on the &lt;meter&gt; tag 
@@ -762,6 +803,8 @@ namespace ToSic.Razor.Html5
     internal Pre(params object[] content) : base("pre", null, content)
     {
     }
+    private Pre(Pre original, CloneChanges changes) : base(original, changes) { }
+    internal override Pre CwC(CloneChanges changes) => new Pre(this, changes);
     
     }
 
@@ -793,6 +836,8 @@ namespace ToSic.Razor.Html5
     internal Progress(params object[] content) : base("progress", null, content)
     {
     }
+    private Progress(Progress original, CloneChanges changes) : base(original, changes) { }
+    internal override Progress CwC(CloneChanges changes) => new Progress(this, changes);
     
     /// <summary>
     /// Set the max attribute on the &lt;progress&gt; tag 
@@ -846,6 +891,8 @@ namespace ToSic.Razor.Html5
     internal Q(params object[] content) : base("q", null, content)
     {
     }
+    private Q(Q original, CloneChanges changes) : base(original, changes) { }
+    internal override Q CwC(CloneChanges changes) => new Q(this, changes);
     
     /// <summary>
     /// Set the cite attribute on the &lt;q&gt; tag 
@@ -888,6 +935,8 @@ namespace ToSic.Razor.Html5
     internal Rp(params object[] content) : base("rp", null, content)
     {
     }
+    private Rp(Rp original, CloneChanges changes) : base(original, changes) { }
+    internal override Rp CwC(CloneChanges changes) => new Rp(this, changes);
     
     }
 
@@ -919,6 +968,8 @@ namespace ToSic.Razor.Html5
     internal Rt(params object[] content) : base("rt", null, content)
     {
     }
+    private Rt(Rt original, CloneChanges changes) : base(original, changes) { }
+    internal override Rt CwC(CloneChanges changes) => new Rt(this, changes);
     
     }
 
@@ -950,6 +1001,8 @@ namespace ToSic.Razor.Html5
     internal Ruby(params object[] content) : base("ruby", null, content)
     {
     }
+    private Ruby(Ruby original, CloneChanges changes) : base(original, changes) { }
+    internal override Ruby CwC(CloneChanges changes) => new Ruby(this, changes);
     
     }
 
@@ -981,6 +1034,8 @@ namespace ToSic.Razor.Html5
     internal S(params object[] content) : base("s", null, content)
     {
     }
+    private S(S original, CloneChanges changes) : base(original, changes) { }
+    internal override S CwC(CloneChanges changes) => new S(this, changes);
     
     }
 
@@ -1012,6 +1067,8 @@ namespace ToSic.Razor.Html5
     internal Samp(params object[] content) : base("samp", null, content)
     {
     }
+    private Samp(Samp original, CloneChanges changes) : base(original, changes) { }
+    internal override Samp CwC(CloneChanges changes) => new Samp(this, changes);
     
     }
 
@@ -1043,6 +1100,8 @@ namespace ToSic.Razor.Html5
     internal Small(params object[] content) : base("small", null, content)
     {
     }
+    private Small(Small original, CloneChanges changes) : base(original, changes) { }
+    internal override Small CwC(CloneChanges changes) => new Small(this, changes);
     
     }
 
@@ -1074,6 +1133,8 @@ namespace ToSic.Razor.Html5
     internal Strong(params object[] content) : base("strong", null, content)
     {
     }
+    private Strong(Strong original, CloneChanges changes) : base(original, changes) { }
+    internal override Strong CwC(CloneChanges changes) => new Strong(this, changes);
     
     }
 
@@ -1105,6 +1166,8 @@ namespace ToSic.Razor.Html5
     internal Sub(params object[] content) : base("sub", null, content)
     {
     }
+    private Sub(Sub original, CloneChanges changes) : base(original, changes) { }
+    internal override Sub CwC(CloneChanges changes) => new Sub(this, changes);
     
     }
 
@@ -1136,6 +1199,8 @@ namespace ToSic.Razor.Html5
     internal Sup(params object[] content) : base("sup", null, content)
     {
     }
+    private Sup(Sup original, CloneChanges changes) : base(original, changes) { }
+    internal override Sup CwC(CloneChanges changes) => new Sup(this, changes);
     
     }
 
@@ -1167,6 +1232,8 @@ namespace ToSic.Razor.Html5
     internal Template(params object[] content) : base("template", null, content)
     {
     }
+    private Template(Template original, CloneChanges changes) : base(original, changes) { }
+    internal override Template CwC(CloneChanges changes) => new Template(this, changes);
     
     }
 
@@ -1198,6 +1265,8 @@ namespace ToSic.Razor.Html5
     internal Time(params object[] content) : base("time", null, content)
     {
     }
+    private Time(Time original, CloneChanges changes) : base(original, changes) { }
+    internal override Time CwC(CloneChanges changes) => new Time(this, changes);
     
     /// <summary>
     /// Set the datetime attribute on the &lt;time&gt; tag 
@@ -1247,6 +1316,8 @@ namespace ToSic.Razor.Html5
     internal U(params object[] content) : base("u", null, content)
     {
     }
+    private U(U original, CloneChanges changes) : base(original, changes) { }
+    internal override U CwC(CloneChanges changes) => new U(this, changes);
     
     }
 
@@ -1278,6 +1349,8 @@ namespace ToSic.Razor.Html5
     internal Var(params object[] content) : base("var", null, content)
     {
     }
+    private Var(Var original, CloneChanges changes) : base(original, changes) { }
+    internal override Var CwC(CloneChanges changes) => new Var(this, changes);
     
     }
 }

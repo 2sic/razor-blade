@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class TagOptions
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TagOptions
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,7 +99,10 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
@@ -516,7 +519,8 @@
   
   <h1 id="ToSic_Razor_Markup_TagOptions" data-uid="ToSic.Razor.Markup.TagOptions" class="text-break">Class TagOptions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Options which determine how the tag is to be generated / rendered.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -529,22 +533,40 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class TagOptions</code></pre>
   </div>
+  <h5 id="ToSic_Razor_Markup_TagOptions_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>In v4.0 it was changed to be read-only for reliably fluid APIs. </p>
+</div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions__ctor_ToSic_Razor_Markup_AttributeOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.%23ctor(ToSic.Razor.Markup.AttributeOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions__ctor.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L16">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L38">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagOptions__ctor_" data-uid="ToSic.Razor.Markup.TagOptions.#ctor*"></a>
-  <h4 id="ToSic_Razor_Markup_TagOptions__ctor_ToSic_Razor_Markup_AttributeOptions_" data-uid="ToSic.Razor.Markup.TagOptions.#ctor(ToSic.Razor.Markup.AttributeOptions)">TagOptions(AttributeOptions)</h4>
+  <h4 id="ToSic_Razor_Markup_TagOptions__ctor" data-uid="ToSic.Razor.Markup.TagOptions.#ctor">TagOptions()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TagOptions(AttributeOptions attributeOptions = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public TagOptions()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions__ctor_ToSic_Razor_Markup_TagOptions_ToSic_Razor_Markup_AttributeOptions_System_Nullable_System_Boolean__System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.%23ctor(ToSic.Razor.Markup.TagOptions%2CToSic.Razor.Markup.AttributeOptions%2CSystem.Nullable%7BSystem.Boolean%7D%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L40">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Markup_TagOptions__ctor_" data-uid="ToSic.Razor.Markup.TagOptions.#ctor*"></a>
+  <h4 id="ToSic_Razor_Markup_TagOptions__ctor_ToSic_Razor_Markup_TagOptions_ToSic_Razor_Markup_AttributeOptions_System_Nullable_System_Boolean__System_Nullable_System_Boolean__" data-uid="ToSic.Razor.Markup.TagOptions.#ctor(ToSic.Razor.Markup.TagOptions,ToSic.Razor.Markup.AttributeOptions,System.Nullable{System.Boolean},System.Nullable{System.Boolean})">TagOptions(TagOptions, AttributeOptions, Nullable&lt;Boolean&gt;, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TagOptions(TagOptions original = null, AttributeOptions attributeOptions = null, bool? close = null, bool? selfClose = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -557,8 +579,23 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.TagOptions.html">TagOptions</a></td>
+        <td><span class="parametername">original</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
         <td><span class="parametername">attributeOptions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">close</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">selfClose</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -570,10 +607,11 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions_DefaultClose.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.DefaultClose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L5">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L14">View Source</a>
   </span>
   <h4 id="ToSic_Razor_Markup_TagOptions_DefaultClose" data-uid="ToSic.Razor.Markup.TagOptions.DefaultClose">DefaultClose</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>By default, all tags close.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -596,13 +634,43 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions_DefaultOptions.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.DefaultOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L55">View Source</a>
+  </span>
+  <h4 id="ToSic_Razor_Markup_TagOptions_DefaultOptions" data-uid="ToSic.Razor.Markup.TagOptions.DefaultOptions">DefaultOptions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TagOptions DefaultOptions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.TagOptions.html">TagOptions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions_DefaultSelfCloseIfNoContent.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.DefaultSelfCloseIfNoContent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L6">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L19">View Source</a>
   </span>
   <h4 id="ToSic_Razor_Markup_TagOptions_DefaultSelfCloseIfNoContent" data-uid="ToSic.Razor.Markup.TagOptions.DefaultSelfCloseIfNoContent">DefaultSelfCloseIfNoContent</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>By default, tags without content don&apos;t self close - they add a separate close-tag.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -630,7 +698,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions_Attribute.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.Attribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L14">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L36">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagOptions_Attribute_" data-uid="ToSic.Razor.Markup.TagOptions.Attribute*"></a>
   <h4 id="ToSic_Razor_Markup_TagOptions_Attribute" data-uid="ToSic.Razor.Markup.TagOptions.Attribute">Attribute</h4>
@@ -660,15 +728,16 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions_Close.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.Close%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L9">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L27">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagOptions_Close_" data-uid="ToSic.Razor.Markup.TagOptions.Close*"></a>
   <h4 id="ToSic_Razor_Markup_TagOptions_Close" data-uid="ToSic.Razor.Markup.TagOptions.Close">Close</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if this tag will close - eg. <code>img</code> or <code>br</code> tags don&apos;t close</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Close { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Close { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -690,15 +759,17 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions_SelfClose.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions.SelfClose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L10">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L33">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_TagOptions_SelfClose_" data-uid="ToSic.Razor.Markup.TagOptions.SelfClose*"></a>
   <h4 id="ToSic_Razor_Markup_TagOptions_SelfClose" data-uid="ToSic.Razor.Markup.TagOptions.SelfClose">SelfClose</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if this tag self-closes, like an HTML4 br tag.
+Not really in use in HTML5</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SelfClose { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SelfClose { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -726,7 +797,7 @@
                     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_TagOptions.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.TagOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/TagOptions.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

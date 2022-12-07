@@ -17,8 +17,8 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
             };
             Assert.AreEqual("Name='Daniel' Age='unknown'",
                 new AttributeListBase(attributes).ToString());
-            Assert.AreEqual("Name=\"Daniel\" Age=\"unknown\"", 
-                new AttributeListBase(attributes, new AttributeOptions { Quote = "\""}).ToString());
+            Assert.AreEqual("Name=\"Daniel\" Age=\"unknown\"",
+                new AttributeListBase(attributes, new AttributeOptions(quote: "\"")).ToString());
         }
 
         private Dictionary<string, object> AttributeObjects = new Dictionary<string, object>
@@ -37,9 +37,9 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         [TestMethod]
         public void ObjectsDoubleQuote()
         {
-             Assert.AreEqual("Name=\"Daniel\" Profile=\"{&quot;Age&quot;:17}\"",
-                new AttributeListBase(AttributeObjects, new AttributeOptions { Quote = "\""}).ToString());
-       }
+            Assert.AreEqual("Name=\"Daniel\" Profile=\"{&quot;Age&quot;:17}\"",
+                new AttributeListBase(AttributeObjects, new AttributeOptions(quote: "\"")).ToString());
+        }
 
         [TestMethod]
         public void AddSameAttribute()

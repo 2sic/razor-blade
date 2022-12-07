@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>RazorBlade ChangeLog | RazorBlade 3 </title>
+    <title>RazorBlade ChangeLog | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="RazorBlade ChangeLog | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+    <meta name="title" content="RazorBlade ChangeLog | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -117,6 +117,22 @@
 
 <p><img src="/images/logos/razor-blade-logo.png" width="100%"></p>
 <h1 id="razorblade-changelog">RazorBlade ChangeLog</h1>
+<h2 id="version-4">Version 4</h2>
+<h3 id="version-40-2022-12">Version 4.0 (2022-12)</h3>
+<ul>
+<li>Created a new interface <a class="xref" href="../api/ToSic.Razor.Blade.IHtmlTag.html"><code>IHtmlTag</code></a> which is supported by all generated code, and ensures you have methods such as <code>Add(...)</code> or <code>Wrap(...)</code> when using any tag generically.<br>It is available on <code>ToSic.Razor.Blade</code> so you don&#39;t need to add more namespaces</li>
+<li>Create a new <code>ToSic.Razor.Blade.IHtmlTagService</code> which provides the same functionality as the static <code>Blade.Tag</code> API, but with immutable objects (see below)</li>
+<li>All generated tags like <code>Div</code>, <code>H2</code> etc. can now be immutable.<ul>
+<li>The existing <code>ToSic.Razor.Blade.Tag.TAGNAME(...)</code> apis continue to deliver mutable objects (like before)</li>
+<li>The new <code>IHtmlTagService</code> provides immutable objects. This can lead to surprising effects when migrating existing code, so that should best continue to use the old <code>Blade.Tag...</code></li>
+</ul>
+</li>
+<li>.net Core build now requires .net6 (previously .net5)</li>
+<li>Removed the <code>StartUp.RegisterToJson(...)</code> method which was used at StartUp in special cases to register alternate json-serializer</li>
+<li>The <code>AttributeOptions</code> and <code>TagOptions</code> were made read-only for reliable fluid / immutable APIs.
+This is kind of a <strong>breaking change</strong> but we believe it won&#39;t affect anybody.
+since it was basically an internal API which nobody used outside of this.</li>
+</ul>
 <h2 id="version-3">Version 3</h2>
 <h3 id="version-30-2019-10-21">Version 3.0 (2019-10-21)</h3>
 <p>Released V3 which was a complete rework and had a new root namespace.</p>
@@ -124,14 +140,14 @@
 <li>Created website with full API documentation <a href="https://razor-blade.net">Razor-Blade.net</a></li>
 <li>Created all Html5 tags and quick-accessor using Tag.xxx</li>
 </ol>
-<p><strong>Breaking Changes</strong></p>
-<p>We really hate to introduce breaking changes, but 3.0 was a good opportunity for this. </p>
+<h4 id="breaking-changes">Breaking Changes</h4>
+<p>We really hate to introduce breaking changes, but 3.0 was a good opportunity for this.</p>
 <ol>
-<li>Renamed everything to use the namespace <code>ToSic.Razor.Blade</code> from previously <code>Connect.Razor.Blade</code>. This was improtant, because we decided to release RazorBlade as a NuGet package, and the previous namespace <code>Connect</code> didn&#39;t make any sense. </li>
+<li>Renamed everything to use the namespace <code>ToSic.Razor.Blade</code> from previously <code>Connect.Razor.Blade</code>. This was improtant, because we decided to release RazorBlade as a NuGet package, and the previous namespace <code>Connect</code> didn&#39;t make any sense.</li>
 <li>Renamed the DLL to be in-line with the changes, which also means that previous code still works, because the new namespace can run side-by-side with the previous one</li>
 <li>Reorganized some internal APIs, so they won&#39;t disturb in public documentation</li>
-<li>Modified the <code>Text.First()</code> method so it could now take an unlimited amount of strings to pick the first one. </li>
-<li>Moved primary repo in Github to <a href="https://github.com/2sic/razor-blade">2sic</a> </li>
+<li>Modified the <code>Text.First()</code> method so it could now take an unlimited amount of strings to pick the first one.</li>
+<li>Moved primary repo in Github to <a href="https://github.com/2sic/razor-blade">2sic</a></li>
 </ol>
 <h3 id="v301-2019-12">V3.01 2019-12</h3>
 <p>Minor fixes / changes which required a version bump.</p>
@@ -148,6 +164,12 @@
 <ol>
 <li>Created <code>Tag.RawHtml(...)</code></li>
 <li><code>Tag.Attr(...)</code> now can also accept ITag values like prepared attributes</li>
+<li>Various null-checks/bugfixes</li>
+<li>Operators to enable adding Tags like <code>Tag.P() + Tag.Div()</code></li>
+<li>Adding tag contents with IEnumerable (previously only Arrays worked)</li>
+<li>Fix Json serialization for Oqtane (previously internal ToJson only worked in .net 451)</li>
+<li>Will probably be bundled with 2sxc 12.05</li>
+<li>Removed the <code>IHtmlPage</code> interface from the docs as it shouldn&#39;t be used any more</li>
 </ol>
 <h3 id="v308-2022-01">V3.08 2022-01</h3>
 <ol>

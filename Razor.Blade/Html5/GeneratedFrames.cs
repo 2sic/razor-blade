@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -32,7 +37,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;iframe&gt; tag with optional contents
     /// </summary>
     
-    internal Iframe() : base("iframe", new TagOptions { Close = false })
+    internal Iframe() : base("iframe", new TagOptions(close: false))
     {
     }
     
@@ -44,9 +49,11 @@ namespace ToSic.Razor.Html5
     /// A Iframe object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Iframe(params object[] content) : base("iframe", new TagOptions { Close = false }, content)
+    internal Iframe(params object[] content) : base("iframe", new TagOptions(close: false), content)
     {
     }
+    private Iframe(Iframe original, CloneChanges changes) : base(original, changes) { }
+    internal override Iframe CwC(CloneChanges changes) => new Iframe(this, changes);
     
     /// <summary>
     /// Set the height attribute on the &lt;iframe&gt; tag 

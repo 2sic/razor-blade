@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using ToSic.Razor.Dnn;
 using ToSic.Razor.Internals;
+using ToSic.Razor.Internals.Documentation;
 
 // ReSharper disable UnusedMember.Global
 
@@ -15,6 +16,7 @@ namespace ToSic.Razor.Blade
     /// This is now obsolete. The concept doesn't scale with Blazor (.net core), so we recommend you use the newer ToSic.Sxc.Web.IPageService instead.
     /// </remarks>
     [Obsolete("This used to be a good idea, but doesn't scale well with blazor. Please use the newer ToSic.Sxc.Web.IPageService instead.")]
+    [PrivateApi("Hide from docs to prevent usage")]
     public static class HtmlPage
     {
         public static Interfaces.IHtmlPage GetPage() => new DnnHtmlPage();

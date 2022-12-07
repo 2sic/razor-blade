@@ -20,10 +20,12 @@ namespace SourceCodeGenerator.Parts
             ClassName = FirstCharToUpper(tagName);
         }
 
+        public bool Fluid = false;
+
         public string Code() => Comment() + Class;
 
         private string TagOptions => Standalone
-            ? ", new TagOptions { Close = false }"
+            ? ", new TagOptions(close: false)"
             : string.Empty;
 
         private string TagOptionsWithExplicitNull => TagOptions == string.Empty ? ", null" : TagOptions;
@@ -41,6 +43,8 @@ namespace SourceCodeGenerator.Parts
     {{
     {Constructor}
     {ConstructorWithParams}
+    {ConstructorForClone}
+    {CloneWithChanges}
     {Attributes}
     }}";
 
@@ -60,17 +64,29 @@ namespace SourceCodeGenerator.Parts
     {{
     }}";
 
-        public string ConstructorParameters => Standalone
+        #region Fluid Cloning
+
+        public string ConstructorForClone => $@"private {ClassName}({ClassName} original, CloneChanges changes) : base(original, changes) {{ }}";
+        public string CloneWithChanges => $@"internal override {ClassName} CwC(CloneChanges changes) => new {ClassName}(this, changes);";
+        #endregion
+
+        public string ConstructorParameters =>
+            // "bool fluid" +
+            (Standalone
             ? ""
-            : "object content = null";
+            : "object content = null");
 
-        public string CallParameters(bool chain = true) => Standalone ? "" : ((chain ? ", " : "") + "content");
+        public string CallParameters(bool chain = true) => Standalone ? "" : (chain ? ", " : "") + "content";
 
 
+        /// <summary>
+        /// The first parameter ensures that it's not fluid = false
+        /// </summary>
         public string BaseCall => $"base(\"{TagName}\"{CallParameters(true)}{TagOptions})";
 
         public string Attributes => string.Join("", Properties.Select(p => p.Code(this)));
 
+        #region Quick Access - ToSic.Razor.Blade.Tag.xxx
 
         public string QuickAccessCode => $@"{Comment(ContentParamName)}
     /// <code>
@@ -81,6 +97,26 @@ Standalone ? "" : $@"
     /// </code>
     {QuickAccessWithParams}";
 
-        public string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
+        private string QuickAccessWithParams => $"public static {ClassName} {ClassName}(params object[] content) => new {ClassName}(content) {{ TagIsImmutable = false }};";
+
+        #endregion
+
+        #region HtmlTagService & Interface
+
+        public string HtmlTagServiceCode => $@"
+    /// <inheritdoc />
+    public {ClassName} {ClassName}(params object[] content) => new {ClassName}(true, content);";
+
+        public string HtmlTagServiceInterfaceCode => $@"{Comment(ContentParamName)}
+    /// <code>
+    /// // This assumes that `tagSvc` was previously retrieved from dependency injection
+    /// var {ClassName.ToLower()} = tagSvc.{ClassName}();{(
+Standalone ? "" : $@"
+    /// var {ClassName.ToLower()}2 = tagSvc.{ClassName}(""hello there"");"
+    )}
+    /// </code>
+    {ClassName} {ClassName}(params object[] content);";
+
+        #endregion
     }
 }

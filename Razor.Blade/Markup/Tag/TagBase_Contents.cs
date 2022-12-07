@@ -1,20 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ToSic.Razor.Blade;
 using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
 {
     public partial class TagBase: IEnumerable<ITag>
     {
-        public ChildTags TagChildren => _children ?? (_children = new ChildTags());
-        private ChildTags _children;
+        /// <remarks>Set may only be called once, on ApplyChanges</remarks>
+        public ChildTags TagChildren { get; private set; }
 
         /// <summary>
         /// The contents of this tag
         /// </summary>
         public string TagContents
         {
-            get => TagChildren.Build(RealOptions);
+            get => TagChildren.Build(TagOptions);
             set => TagChildren.Replace(value);
         }
 
@@ -25,7 +26,7 @@ namespace ToSic.Razor.Markup
         /// so no attributes, no content etc.
         /// </summary>
         /// <remarks>Must be null to be deactivated</remarks>
-        internal string TagOverride;
+        internal string TagOverride { get; }
 
         /// <inheritdoc />
         [PrivateApi]

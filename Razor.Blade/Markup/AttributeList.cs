@@ -11,13 +11,17 @@ namespace ToSic.Razor.Markup
 {
     public class AttributeList: AttributeListBase, IHtmlString
     {
+        public AttributeList(AttributeList original): base(original)
+        {
+        }
+
         public AttributeList(AttributeOptions options = null): base(options) { }
 
-        public AttributeList(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null)
-            : base(attributes, options)  { }
+        //public AttributeList(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null)
+        //    : base(attributes, options)  { }
         
-        public AttributeList(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null)
-            :base(attributes, options) { }
+        //public AttributeList(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null)
+        //    :base(attributes, options) { }
 
 
         #region ToString and ToHtml for all interfaces

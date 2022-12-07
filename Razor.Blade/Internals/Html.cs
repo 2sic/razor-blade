@@ -30,9 +30,10 @@ namespace ToSic.Razor.Internals
 
         internal static string ToJson(object jsonObject)
         {
+            // 2022-12-06 2dm - removed in v4, not used in 2sxc any more
             // First - try if the environment had provided an Delegate for this
-            if (ObjToJsonString != null)
-                return ObjToJsonString(jsonObject);
+            //if (ObjToJsonString != null)
+            //    return ObjToJsonString(jsonObject);
 #if NETFRAMEWORK
             return new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(jsonObject);
 #elif NETCOREAPP
@@ -44,11 +45,12 @@ namespace ToSic.Razor.Internals
 #endif
         }
 
-        /// <summary>
-        /// Special function to create Json which would be provided from external at start-up.
-        /// This is to ensure .net standard2 can have a ToJson even if .net standard2 would otherwise need more dependencies.
-        /// </summary>
-        internal static Func<object, string> ObjToJsonString;
+        // 2022-12-06 2dm - removed in v4, not used in 2sxc any more
+        ///// <summary>
+        ///// Special function to create Json which would be provided from external at start-up.
+        ///// This is to ensure .net standard2 can have a ToJson even if .net standard2 would otherwise need more dependencies.
+        ///// </summary>
+        //internal static Func<object, string> ObjToJsonString;
 
         internal const string SerializationErrorIntro = "Error: could not convert object to json - ";
 

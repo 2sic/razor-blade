@@ -22,11 +22,11 @@ namespace ToSic.RazorBladeTests.HtmlTagsTests
         public void H1To6WithContent()
         {
             Is("<h1>title</h1>", new H1("title"));
-            Is("<h2>title</h2>", new H2("title"));
-            Is("<h3>title</h3>", new H3("title"));
-            Is("<h4>title</h4>", new H4("title"));
-            Is("<h5>title</h5>", new H5("title"));
-            Is("<h6>title</h6>", new H6("title"));
+            Is("<h2>title</h2>", new H2( "title"));
+            Is("<h3>title</h3>", new H3( "title"));
+            Is("<h4>title</h4>", new H4( "title"));
+            Is("<h5>title</h5>", new H5( "title"));
+            Is("<h6>title</h6>", new H6( "title"));
         }
     }
 

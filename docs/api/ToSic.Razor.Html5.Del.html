@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class Del
-   | RazorBlade 3 </title>
+   | RazorBlade 4 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Del
-   | RazorBlade 3 ">
-    <meta name="generator" content="docfx 2.59.0.0">
+   | RazorBlade 4 ">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,7 +99,10 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToSic.Razor.Blade.HtmlPage.html" title="HtmlPage" class="">HtmlPage</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
@@ -527,9 +530,10 @@
     <div class="level3"><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag</a>&lt;<a class="xref" href="ToSic.Razor.Html5.Del.html">Del</a>&gt;</div>
     <div class="level4"><span class="xref">Del</span></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></div>
+    <div><span class="xref">System.Web.IHtmlString</span></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a></div>
     <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
@@ -567,6 +571,15 @@
       <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Wrap_System_Object___">Tag&lt;Del&gt;.Wrap(Object[])</a>
     </div>
     <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_AsHtmlTag">Tag&lt;Del&gt;.AsHtmlTag()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsImmutable">TagBase.TagIsImmutable</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ApplyChanges_ToSic_Razor_Markup_CloneChanges_">TagBase.ApplyChanges(CloneChanges)</a>
+    </div>
+    <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName">TagBase.TagName</a>
     </div>
     <div>
@@ -592,7 +605,7 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Html5_Del_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Del : Tag&lt;Del&gt;, IHtmlContent, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Del : Tag&lt;Del&gt;, IHtmlString, IHtmlTag, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -601,7 +614,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Del_Cite_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Del.Cite(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L327">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L350">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Del_Cite_" data-uid="ToSic.Razor.Html5.Del.Cite*"></a>
   <h4 id="ToSic_Razor_Html5_Del_Cite_System_String_" data-uid="ToSic.Razor.Html5.Del.Cite(System.String)">Cite(String)</h4>
@@ -652,7 +665,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Del_Datetime_System_DateTime_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Del.Datetime(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L347">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L370">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Del_Datetime_" data-uid="ToSic.Razor.Html5.Del.Datetime*"></a>
   <h4 id="ToSic_Razor_Html5_Del_Datetime_System_DateTime_" data-uid="ToSic.Razor.Html5.Del.Datetime(System.DateTime)">Datetime(DateTime)</h4>
@@ -703,7 +716,7 @@ If called multiple times, later values replace the previous value.</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Del_Datetime_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Del.Datetime(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L338">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L361">View Source</a>
   </span>
   <a id="ToSic_Razor_Html5_Del_Datetime_" data-uid="ToSic.Razor.Html5.Del.Datetime*"></a>
   <h4 id="ToSic_Razor_Html5_Del_Datetime_System_String_" data-uid="ToSic.Razor.Html5.Del.Datetime(System.String)">Datetime(String)</h4>
@@ -751,7 +764,10 @@ If called multiple times, later values replace the previous value.</p>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span>
+      <span class="xref">System.Web.IHtmlString</span>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a>
   </div>
   <div>
       <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>
@@ -773,7 +789,7 @@ If called multiple times, later values replace the previous value.</p>
                     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Html5_Del.md&amp;value=---%0Auid%3A%20ToSic.Razor.Html5.Del%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L298" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Html5/GeneratedFormatting.cs/#L319" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

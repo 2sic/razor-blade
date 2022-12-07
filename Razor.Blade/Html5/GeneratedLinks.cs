@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -47,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal A(params object[] content) : base("a", null, content)
     {
     }
+    private A(A original, CloneChanges changes) : base(original, changes) { }
+    internal override A CwC(CloneChanges changes) => new A(this, changes);
     
     /// <summary>
     /// Set the download attribute on the &lt;a&gt; tag 
@@ -152,7 +159,7 @@ namespace ToSic.Razor.Html5
     /// Generate an &lt;link&gt; tag with optional contents
     /// </summary>
     
-    internal Link() : base("link", new TagOptions { Close = false })
+    internal Link() : base("link", new TagOptions(close: false))
     {
     }
     
@@ -164,9 +171,11 @@ namespace ToSic.Razor.Html5
     /// A Link object with all the attributes available in that tag
     /// </returns>
     /// <param name="content">one or more objects (strings or tags) which will be inside the tag</param>
-    internal Link(params object[] content) : base("link", new TagOptions { Close = false }, content)
+    internal Link(params object[] content) : base("link", new TagOptions(close: false), content)
     {
     }
+    private Link(Link original, CloneChanges changes) : base(original, changes) { }
+    internal override Link CwC(CloneChanges changes) => new Link(this, changes);
     
     /// <summary>
     /// Set the crossorigin attribute on the &lt;link&gt; tag 
@@ -265,6 +274,8 @@ namespace ToSic.Razor.Html5
     internal Nav(params object[] content) : base("nav", null, content)
     {
     }
+    private Nav(Nav original, CloneChanges changes) : base(original, changes) { }
+    internal override Nav CwC(CloneChanges changes) => new Nav(this, changes);
     
     }
 }

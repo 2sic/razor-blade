@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -47,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Article(params object[] content) : base("article", null, content)
     {
     }
+    private Article(Article original, CloneChanges changes) : base(original, changes) { }
+    internal override Article CwC(CloneChanges changes) => new Article(this, changes);
     
     }
 
@@ -78,6 +85,8 @@ namespace ToSic.Razor.Html5
     internal Aside(params object[] content) : base("aside", null, content)
     {
     }
+    private Aside(Aside original, CloneChanges changes) : base(original, changes) { }
+    internal override Aside CwC(CloneChanges changes) => new Aside(this, changes);
     
     }
 
@@ -109,6 +118,8 @@ namespace ToSic.Razor.Html5
     internal Data(params object[] content) : base("data", null, content)
     {
     }
+    private Data(Data original, CloneChanges changes) : base(original, changes) { }
+    internal override Data CwC(CloneChanges changes) => new Data(this, changes);
     
     /// <summary>
     /// Set the open attribute on the &lt;data&gt; tag 
@@ -158,6 +169,8 @@ namespace ToSic.Razor.Html5
     internal Details(params object[] content) : base("details", null, content)
     {
     }
+    private Details(Details original, CloneChanges changes) : base(original, changes) { }
+    internal override Details CwC(CloneChanges changes) => new Details(this, changes);
     
     /// <summary>
     /// Set the open attribute on the &lt;details&gt; tag 
@@ -207,6 +220,8 @@ namespace ToSic.Razor.Html5
     internal Dialog(params object[] content) : base("dialog", null, content)
     {
     }
+    private Dialog(Dialog original, CloneChanges changes) : base(original, changes) { }
+    internal override Dialog CwC(CloneChanges changes) => new Dialog(this, changes);
     
     /// <summary>
     /// Set the open attribute on the &lt;dialog&gt; tag 
@@ -256,6 +271,8 @@ namespace ToSic.Razor.Html5
     internal Div(params object[] content) : base("div", null, content)
     {
     }
+    private Div(Div original, CloneChanges changes) : base(original, changes) { }
+    internal override Div CwC(CloneChanges changes) => new Div(this, changes);
     
     }
 
@@ -287,6 +304,8 @@ namespace ToSic.Razor.Html5
     internal Footer(params object[] content) : base("footer", null, content)
     {
     }
+    private Footer(Footer original, CloneChanges changes) : base(original, changes) { }
+    internal override Footer CwC(CloneChanges changes) => new Footer(this, changes);
     
     }
 
@@ -318,6 +337,8 @@ namespace ToSic.Razor.Html5
     internal Header(params object[] content) : base("header", null, content)
     {
     }
+    private Header(Header original, CloneChanges changes) : base(original, changes) { }
+    internal override Header CwC(CloneChanges changes) => new Header(this, changes);
     
     }
 
@@ -349,6 +370,8 @@ namespace ToSic.Razor.Html5
     internal Main(params object[] content) : base("main", null, content)
     {
     }
+    private Main(Main original, CloneChanges changes) : base(original, changes) { }
+    internal override Main CwC(CloneChanges changes) => new Main(this, changes);
     
     }
 
@@ -380,6 +403,8 @@ namespace ToSic.Razor.Html5
     internal Section(params object[] content) : base("section", null, content)
     {
     }
+    private Section(Section original, CloneChanges changes) : base(original, changes) { }
+    internal override Section CwC(CloneChanges changes) => new Section(this, changes);
     
     }
 
@@ -411,6 +436,8 @@ namespace ToSic.Razor.Html5
     internal Span(params object[] content) : base("span", null, content)
     {
     }
+    private Span(Span original, CloneChanges changes) : base(original, changes) { }
+    internal override Span CwC(CloneChanges changes) => new Span(this, changes);
     
     }
 
@@ -442,6 +469,8 @@ namespace ToSic.Razor.Html5
     internal Style(params object[] content) : base("style", null, content)
     {
     }
+    private Style(Style original, CloneChanges changes) : base(original, changes) { }
+    internal override Style CwC(CloneChanges changes) => new Style(this, changes);
     
     /// <summary>
     /// Set the media attribute on the &lt;style&gt; tag 
@@ -495,6 +524,8 @@ namespace ToSic.Razor.Html5
     internal Summary(params object[] content) : base("summary", null, content)
     {
     }
+    private Summary(Summary original, CloneChanges changes) : base(original, changes) { }
+    internal override Summary CwC(CloneChanges changes) => new Summary(this, changes);
     
     }
 }

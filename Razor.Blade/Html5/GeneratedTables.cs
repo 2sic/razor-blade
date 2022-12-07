@@ -1,11 +1,13 @@
 using System;
 using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 04.12.2019 11:53
+// Created 07.12.2022 00:28
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -16,6 +18,9 @@ using ToSic.Razor.Markup;
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Global
+
+
+
 namespace ToSic.Razor.Html5
 {
 
@@ -47,6 +52,8 @@ namespace ToSic.Razor.Html5
     internal Caption(params object[] content) : base("caption", null, content)
     {
     }
+    private Caption(Caption original, CloneChanges changes) : base(original, changes) { }
+    internal override Caption CwC(CloneChanges changes) => new Caption(this, changes);
     
     }
 
@@ -78,6 +85,8 @@ namespace ToSic.Razor.Html5
     internal Col(params object[] content) : base("col", null, content)
     {
     }
+    private Col(Col original, CloneChanges changes) : base(original, changes) { }
+    internal override Col CwC(CloneChanges changes) => new Col(this, changes);
     
     /// <summary>
     /// Set the span attribute on the &lt;col&gt; tag 
@@ -127,6 +136,8 @@ namespace ToSic.Razor.Html5
     internal Colgroup(params object[] content) : base("colgroup", null, content)
     {
     }
+    private Colgroup(Colgroup original, CloneChanges changes) : base(original, changes) { }
+    internal override Colgroup CwC(CloneChanges changes) => new Colgroup(this, changes);
     
     /// <summary>
     /// Set the span attribute on the &lt;colgroup&gt; tag 
@@ -176,6 +187,8 @@ namespace ToSic.Razor.Html5
     internal Table(params object[] content) : base("table", null, content)
     {
     }
+    private Table(Table original, CloneChanges changes) : base(original, changes) { }
+    internal override Table CwC(CloneChanges changes) => new Table(this, changes);
     
     }
 
@@ -207,6 +220,8 @@ namespace ToSic.Razor.Html5
     internal Tbody(params object[] content) : base("tbody", null, content)
     {
     }
+    private Tbody(Tbody original, CloneChanges changes) : base(original, changes) { }
+    internal override Tbody CwC(CloneChanges changes) => new Tbody(this, changes);
     
     }
 
@@ -238,6 +253,8 @@ namespace ToSic.Razor.Html5
     internal Td(params object[] content) : base("td", null, content)
     {
     }
+    private Td(Td original, CloneChanges changes) : base(original, changes) { }
+    internal override Td CwC(CloneChanges changes) => new Td(this, changes);
     
     /// <summary>
     /// Set the colspan attribute on the &lt;td&gt; tag 
@@ -316,6 +333,8 @@ namespace ToSic.Razor.Html5
     internal Tfoot(params object[] content) : base("tfoot", null, content)
     {
     }
+    private Tfoot(Tfoot original, CloneChanges changes) : base(original, changes) { }
+    internal override Tfoot CwC(CloneChanges changes) => new Tfoot(this, changes);
     
     }
 
@@ -347,6 +366,8 @@ namespace ToSic.Razor.Html5
     internal Th(params object[] content) : base("th", null, content)
     {
     }
+    private Th(Th original, CloneChanges changes) : base(original, changes) { }
+    internal override Th CwC(CloneChanges changes) => new Th(this, changes);
     
     /// <summary>
     /// Set the abbr attribute on the &lt;th&gt; tag 
@@ -458,6 +479,8 @@ namespace ToSic.Razor.Html5
     internal Thead(params object[] content) : base("thead", null, content)
     {
     }
+    private Thead(Thead original, CloneChanges changes) : base(original, changes) { }
+    internal override Thead CwC(CloneChanges changes) => new Thead(this, changes);
     
     }
 
@@ -489,6 +512,8 @@ namespace ToSic.Razor.Html5
     internal Tr(params object[] content) : base("tr", null, content)
     {
     }
+    private Tr(Tr original, CloneChanges changes) : base(original, changes) { }
+    internal override Tr CwC(CloneChanges changes) => new Tr(this, changes);
     
     }
 }
