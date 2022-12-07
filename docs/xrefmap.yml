@@ -2090,77 +2090,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.IScrub.Styles
   nameWithType: IScrub.Styles
-- uid: ToSic.Razor.Blade.ITag
-  name: ITag
-  href: api/ToSic.Razor.Blade.ITag.html
-  commentId: T:ToSic.Razor.Blade.ITag
-  fullName: ToSic.Razor.Blade.ITag
-  nameWithType: ITag
-- uid: ToSic.Razor.Blade.ITag.TagAttributes
-  name: TagAttributes
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagAttributes
-  commentId: P:ToSic.Razor.Blade.ITag.TagAttributes
-  fullName: ToSic.Razor.Blade.ITag.TagAttributes
-  nameWithType: ITag.TagAttributes
-- uid: ToSic.Razor.Blade.ITag.TagAttributes*
-  name: TagAttributes
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagAttributes_
-  commentId: Overload:ToSic.Razor.Blade.ITag.TagAttributes
-  isSpec: "True"
-  fullName: ToSic.Razor.Blade.ITag.TagAttributes
-  nameWithType: ITag.TagAttributes
-- uid: ToSic.Razor.Blade.ITag.TagEnd
-  name: TagEnd
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagEnd
-  commentId: P:ToSic.Razor.Blade.ITag.TagEnd
-  fullName: ToSic.Razor.Blade.ITag.TagEnd
-  nameWithType: ITag.TagEnd
-- uid: ToSic.Razor.Blade.ITag.TagEnd*
-  name: TagEnd
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagEnd_
-  commentId: Overload:ToSic.Razor.Blade.ITag.TagEnd
-  isSpec: "True"
-  fullName: ToSic.Razor.Blade.ITag.TagEnd
-  nameWithType: ITag.TagEnd
-- uid: ToSic.Razor.Blade.ITag.TagName
-  name: TagName
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagName
-  commentId: P:ToSic.Razor.Blade.ITag.TagName
-  fullName: ToSic.Razor.Blade.ITag.TagName
-  nameWithType: ITag.TagName
-- uid: ToSic.Razor.Blade.ITag.TagName*
-  name: TagName
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagName_
-  commentId: Overload:ToSic.Razor.Blade.ITag.TagName
-  isSpec: "True"
-  fullName: ToSic.Razor.Blade.ITag.TagName
-  nameWithType: ITag.TagName
-- uid: ToSic.Razor.Blade.ITag.TagStart
-  name: TagStart
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagStart
-  commentId: P:ToSic.Razor.Blade.ITag.TagStart
-  fullName: ToSic.Razor.Blade.ITag.TagStart
-  nameWithType: ITag.TagStart
-- uid: ToSic.Razor.Blade.ITag.TagStart*
-  name: TagStart
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_TagStart_
-  commentId: Overload:ToSic.Razor.Blade.ITag.TagStart
-  isSpec: "True"
-  fullName: ToSic.Razor.Blade.ITag.TagStart
-  nameWithType: ITag.TagStart
-- uid: ToSic.Razor.Blade.ITag.ToString
-  name: ToString()
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_ToString
-  commentId: M:ToSic.Razor.Blade.ITag.ToString
-  fullName: ToSic.Razor.Blade.ITag.ToString()
-  nameWithType: ITag.ToString()
-- uid: ToSic.Razor.Blade.ITag.ToString*
-  name: ToString
-  href: api/ToSic.Razor.Blade.ITag.html#ToSic_Razor_Blade_ITag_ToString_
-  commentId: Overload:ToSic.Razor.Blade.ITag.ToString
-  isSpec: "True"
-  fullName: ToSic.Razor.Blade.ITag.ToString
-  nameWithType: ITag.ToString
 - uid: ToSic.Razor.Blade.Tag
   name: Tag
   href: api/ToSic.Razor.Blade.Tag.html
@@ -8314,6 +8243,77 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.ChildTags.Replace
   nameWithType: ChildTags.Replace
+- uid: ToSic.Razor.Markup.ITag
+  name: ITag
+  href: api/ToSic.Razor.Markup.ITag.html
+  commentId: T:ToSic.Razor.Markup.ITag
+  fullName: ToSic.Razor.Markup.ITag
+  nameWithType: ITag
+- uid: ToSic.Razor.Markup.ITag.TagAttributes
+  name: TagAttributes
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagAttributes
+  commentId: P:ToSic.Razor.Markup.ITag.TagAttributes
+  fullName: ToSic.Razor.Markup.ITag.TagAttributes
+  nameWithType: ITag.TagAttributes
+- uid: ToSic.Razor.Markup.ITag.TagAttributes*
+  name: TagAttributes
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagAttributes_
+  commentId: Overload:ToSic.Razor.Markup.ITag.TagAttributes
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ITag.TagAttributes
+  nameWithType: ITag.TagAttributes
+- uid: ToSic.Razor.Markup.ITag.TagEnd
+  name: TagEnd
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagEnd
+  commentId: P:ToSic.Razor.Markup.ITag.TagEnd
+  fullName: ToSic.Razor.Markup.ITag.TagEnd
+  nameWithType: ITag.TagEnd
+- uid: ToSic.Razor.Markup.ITag.TagEnd*
+  name: TagEnd
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagEnd_
+  commentId: Overload:ToSic.Razor.Markup.ITag.TagEnd
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ITag.TagEnd
+  nameWithType: ITag.TagEnd
+- uid: ToSic.Razor.Markup.ITag.TagName
+  name: TagName
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagName
+  commentId: P:ToSic.Razor.Markup.ITag.TagName
+  fullName: ToSic.Razor.Markup.ITag.TagName
+  nameWithType: ITag.TagName
+- uid: ToSic.Razor.Markup.ITag.TagName*
+  name: TagName
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagName_
+  commentId: Overload:ToSic.Razor.Markup.ITag.TagName
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ITag.TagName
+  nameWithType: ITag.TagName
+- uid: ToSic.Razor.Markup.ITag.TagStart
+  name: TagStart
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagStart
+  commentId: P:ToSic.Razor.Markup.ITag.TagStart
+  fullName: ToSic.Razor.Markup.ITag.TagStart
+  nameWithType: ITag.TagStart
+- uid: ToSic.Razor.Markup.ITag.TagStart*
+  name: TagStart
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagStart_
+  commentId: Overload:ToSic.Razor.Markup.ITag.TagStart
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ITag.TagStart
+  nameWithType: ITag.TagStart
+- uid: ToSic.Razor.Markup.ITag.ToString
+  name: ToString()
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_ToString
+  commentId: M:ToSic.Razor.Markup.ITag.ToString
+  fullName: ToSic.Razor.Markup.ITag.ToString()
+  nameWithType: ITag.ToString()
+- uid: ToSic.Razor.Markup.ITag.ToString*
+  name: ToString
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_ToString_
+  commentId: Overload:ToSic.Razor.Markup.ITag.ToString
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ITag.ToString
+  nameWithType: ITag.ToString
 - uid: ToSic.Razor.Markup.Tag`1
   name: Tag<T>
   href: api/ToSic.Razor.Markup.Tag-1.html
@@ -8691,19 +8691,19 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.TagEnd
   nameWithType: TagBase.TagEnd
-- uid: ToSic.Razor.Markup.TagBase.TagIsFluid
-  name: TagIsFluid
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsFluid
-  commentId: P:ToSic.Razor.Markup.TagBase.TagIsFluid
-  fullName: ToSic.Razor.Markup.TagBase.TagIsFluid
-  nameWithType: TagBase.TagIsFluid
-- uid: ToSic.Razor.Markup.TagBase.TagIsFluid*
-  name: TagIsFluid
-  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsFluid_
-  commentId: Overload:ToSic.Razor.Markup.TagBase.TagIsFluid
+- uid: ToSic.Razor.Markup.TagBase.TagIsImmutable
+  name: TagIsImmutable
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsImmutable
+  commentId: P:ToSic.Razor.Markup.TagBase.TagIsImmutable
+  fullName: ToSic.Razor.Markup.TagBase.TagIsImmutable
+  nameWithType: TagBase.TagIsImmutable
+- uid: ToSic.Razor.Markup.TagBase.TagIsImmutable*
+  name: TagIsImmutable
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagIsImmutable_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagIsImmutable
   isSpec: "True"
-  fullName: ToSic.Razor.Markup.TagBase.TagIsFluid
-  nameWithType: TagBase.TagIsFluid
+  fullName: ToSic.Razor.Markup.TagBase.TagIsImmutable
+  nameWithType: TagBase.TagIsImmutable
 - uid: ToSic.Razor.Markup.TagBase.TagName
   name: TagName
   href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName

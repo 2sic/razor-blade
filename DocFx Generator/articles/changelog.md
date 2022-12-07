@@ -6,13 +6,17 @@
 
 ### Version 4.0 (2022-12)
 
-* Moved `ITag` Interface from `ToSic.Razor.Markup` to `ToSic.Razor.Blade` to make it easier to use in code.  
-  **IMPORTANT** this could be a **breaking change** if you were referencing ITag in _compiled_ (dll) source code
-* Created a new interface `IHtmlTag` which is supported by all generated code, and ensures you have methods such as `Add(...)` or `Wrap(...)` when using any tag generically.  
+* Created a new interface [`IHtmlTag`](xref:ToSic.Razor.Blade.IHtmlTag) which is supported by all generated code, and ensures you have methods such as `Add(...)` or `Wrap(...)` when using any tag generically.  
   It is available on `ToSic.Razor.Blade` so you don't need to add more namespaces
+* Create a new `ToSic.Razor.Blade.IHtmlTagService` which provides the same functionality as the static `Blade.Tag` API, but with immutable objects (see below)
+* All generated tags like `Div`, `H2` etc. can now be immutable.
+	* The existing `ToSic.Razor.Blade.Tag.TAGNAME(...)` apis continue to deliver mutable objects (like before)
+	* The new `IHtmlTagService` provides immutable objects. This can lead to surprising effects when migrating existing code, so that should best continue to use the old `Blade.Tag...`
 * .net Core build now requires .net6 (previously .net5)
 * Removed the `StartUp.RegisterToJson(...)` method which was used at StartUp in special cases to register alternate json-serializer
-* The `AttributeOptions` and `TagOptions` were made read-only for reliable fluid APIs. This is kind of a **breaking change** but we believe it won't affect anybody
+* The `AttributeOptions` and `TagOptions` were made read-only for reliable fluid / immutable APIs.
+	This is kind of a **breaking change** but we believe it won't affect anybody.
+	since it was basically an internal API which nobody used outside of this.
 
 ## Version 3
 

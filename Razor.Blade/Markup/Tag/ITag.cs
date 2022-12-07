@@ -4,9 +4,8 @@ using HtmlString = System.Web.HtmlString;
 using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
 #endif
 using System.Collections.Generic;
-using ToSic.Razor.Markup;
 
-namespace ToSic.Razor.Blade
+namespace ToSic.Razor.Markup
 {
     /// <summary>
     /// Standardizes what Tag-objects can do - valid for all Html and Svg tags.

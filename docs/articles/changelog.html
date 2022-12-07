@@ -120,11 +120,18 @@
 <h2 id="version-4">Version 4</h2>
 <h3 id="version-40-2022-12">Version 4.0 (2022-12)</h3>
 <ul>
-<li>Moved <code>ITag</code> Interface from <code>ToSic.Razor.Markup</code> to <code>ToSic.Razor.Blade</code> to make it easier to use in code.<br><strong>IMPORTANT</strong> this could be a <strong>breaking change</strong> if you were referencing ITag in <em>compiled</em> (dll) source code</li>
-<li>Created a new interface <code>IHtmlTag</code> which is supported by all generated code, and ensures you have methods such as <code>Add(...)</code> or <code>Wrap(...)</code> when using any tag generically.<br>It is available on <code>ToSic.Razor.Blade</code> so you don&#39;t need to add more namespaces</li>
+<li>Created a new interface <a class="xref" href="../api/ToSic.Razor.Blade.IHtmlTag.html"><code>IHtmlTag</code></a> which is supported by all generated code, and ensures you have methods such as <code>Add(...)</code> or <code>Wrap(...)</code> when using any tag generically.<br>It is available on <code>ToSic.Razor.Blade</code> so you don&#39;t need to add more namespaces</li>
+<li>Create a new <code>ToSic.Razor.Blade.IHtmlTagService</code> which provides the same functionality as the static <code>Blade.Tag</code> API, but with immutable objects (see below)</li>
+<li>All generated tags like <code>Div</code>, <code>H2</code> etc. can now be immutable.<ul>
+<li>The existing <code>ToSic.Razor.Blade.Tag.TAGNAME(...)</code> apis continue to deliver mutable objects (like before)</li>
+<li>The new <code>IHtmlTagService</code> provides immutable objects. This can lead to surprising effects when migrating existing code, so that should best continue to use the old <code>Blade.Tag...</code></li>
+</ul>
+</li>
 <li>.net Core build now requires .net6 (previously .net5)</li>
 <li>Removed the <code>StartUp.RegisterToJson(...)</code> method which was used at StartUp in special cases to register alternate json-serializer</li>
-<li>The <code>AttributeOptions</code> and <code>TagOptions</code> were made read-only for reliable fluid APIs. This is kind of a <strong>breaking change</strong> but we believe it won&#39;t affect anybody</li>
+<li>The <code>AttributeOptions</code> and <code>TagOptions</code> were made read-only for reliable fluid / immutable APIs.
+  This is kind of a <strong>breaking change</strong> but we believe it won&#39;t affect anybody.
+  since it was basically an internal API which nobody used outside of this.</li>
 </ul>
 <h2 id="version-3">Version 3</h2>
 <h3 id="version-30-2019-10-21">Version 3.0 (2019-10-21)</h3>
