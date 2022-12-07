@@ -1,8 +1,8 @@
 <img src="docs/assets/razor-blade-logo.png" width="100%">
 
-# Razor Blade 3.10
+# Razor Blade 4.00
 
-A library of common functions for Razor, to lighten Razor templates and make work easier. 
+A library of common functions for Razor, to lighten Razor templates and make work easier.
 
 ## Documentation and Tutorials
 
@@ -87,15 +87,15 @@ This is a short summary of the most used variations of the helpers. Further deta
   `Tags.Encode(...)`, `Tags.Decode(...)` etc.
 
 1. **Tag** - see [Fluent API](https://razor-blade.net/articles/fluent-tag-api.html) and [Tag API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Tag.html)  
-  contains `Tag.A(...)` up to `Tag.Wbr(...)` (all knows Html5 tags),   
-  `Tag.Tag(...)` for all custom tags and `Tag.Attribute(...)` 
+  contains `Tag.A(...)` up to `Tag.Wbr(...)` (all knows Html5 tags),
+  `Tag.Tag(...)` for all custom tags and `Tag.Attribute(...)`
 
 2. **Text** - see [API docs](https://razor-blade.net/api/ToSic.Razor.Blade.Text.html)  
   `Text.Crop(string, length)`, `Text.Ellipsis(value, length)`,  
   `Text.Has(value)`, `Text.First(value, value[, moreValues, ...])`, `Text.Zip(value)`, ...
 
 3. **HtmlPage** - see [detailed docs](https://razor-blade.net/api/ToSic.Razor.Blade.HtmlPage.html)  
-    1. get/set `HtmlPage.Title`, `HtmlPage.Description`, `HtmlPage.Keywords` 
+    1. get/set `HtmlPage.Title`, `HtmlPage.Description`, `HtmlPage.Keywords`
     1. `HtmlPage.AddBase()`, `HtmlPage.AddBase(url)` - set automatic base tag
     1. `HtmlPage.AddMeta(name, content)` add a meta-tag to the header
     1. `HtmlPage.AddJsonLd(string|object)` create a [Json-LD header](https://en.wikipedia.org/wiki/JSON-LD) see also [google guideline](https://developers.google.com/search/docs/guides/intro-structured-data)
@@ -105,7 +105,6 @@ This is a short summary of the most used variations of the helpers. Further deta
     1. `HtmlPage.AddIcon(path)` add an icon (favicon) to the page _v2.1_
     1. `HtmlPage.AddIconSet(path)` add a few icon headers to the page according to best practices _v2.1_
     1. `GetPage()` get an object with the same commands as HtmlPage, but a bit faster _v2.2_
-
 
 ## Work in Progress v3.1+ (WIP / in discussion)
 
@@ -132,12 +131,6 @@ Here you can also find [scrapped ideas](scrapped.md).
 
 Please also read the [conventions](conventions.md) so we can work on this together.
 
-## History
+## History / Change Log
 
-* v03.07 2021-09-19
-    1. Various null-checks/bugfixes
-    1. Operators to enable adding Tags like `Tag.P() + Tag.Div()`
-    1. Adding tag contents with IEnumerable (previously only Arrays worked)
-    1. Fix Json serialization for Oqtane (previously internal ToJson only worked in .net 451)
-    1. Will probably be bundled with 2sxc 12.05
-    1. Removed the `IHtmlPage` interface from the docs as it shouldn't be used any more
+👉🏽 See [Change Log](https://razor-blade.net/articles/changelog.html)

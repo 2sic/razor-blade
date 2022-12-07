@@ -130,8 +130,8 @@
 <li>.net Core build now requires .net6 (previously .net5)</li>
 <li>Removed the <code>StartUp.RegisterToJson(...)</code> method which was used at StartUp in special cases to register alternate json-serializer</li>
 <li>The <code>AttributeOptions</code> and <code>TagOptions</code> were made read-only for reliable fluid / immutable APIs.
-  This is kind of a <strong>breaking change</strong> but we believe it won&#39;t affect anybody.
-  since it was basically an internal API which nobody used outside of this.</li>
+This is kind of a <strong>breaking change</strong> but we believe it won&#39;t affect anybody.
+since it was basically an internal API which nobody used outside of this.</li>
 </ul>
 <h2 id="version-3">Version 3</h2>
 <h3 id="version-30-2019-10-21">Version 3.0 (2019-10-21)</h3>
@@ -140,14 +140,14 @@
 <li>Created website with full API documentation <a href="https://razor-blade.net">Razor-Blade.net</a></li>
 <li>Created all Html5 tags and quick-accessor using Tag.xxx</li>
 </ol>
-<p><strong>Breaking Changes</strong></p>
-<p>We really hate to introduce breaking changes, but 3.0 was a good opportunity for this. </p>
+<h4 id="breaking-changes">Breaking Changes</h4>
+<p>We really hate to introduce breaking changes, but 3.0 was a good opportunity for this.</p>
 <ol>
-<li>Renamed everything to use the namespace <code>ToSic.Razor.Blade</code> from previously <code>Connect.Razor.Blade</code>. This was improtant, because we decided to release RazorBlade as a NuGet package, and the previous namespace <code>Connect</code> didn&#39;t make any sense. </li>
+<li>Renamed everything to use the namespace <code>ToSic.Razor.Blade</code> from previously <code>Connect.Razor.Blade</code>. This was improtant, because we decided to release RazorBlade as a NuGet package, and the previous namespace <code>Connect</code> didn&#39;t make any sense.</li>
 <li>Renamed the DLL to be in-line with the changes, which also means that previous code still works, because the new namespace can run side-by-side with the previous one</li>
 <li>Reorganized some internal APIs, so they won&#39;t disturb in public documentation</li>
-<li>Modified the <code>Text.First()</code> method so it could now take an unlimited amount of strings to pick the first one. </li>
-<li>Moved primary repo in Github to <a href="https://github.com/2sic/razor-blade">2sic</a> </li>
+<li>Modified the <code>Text.First()</code> method so it could now take an unlimited amount of strings to pick the first one.</li>
+<li>Moved primary repo in Github to <a href="https://github.com/2sic/razor-blade">2sic</a></li>
 </ol>
 <h3 id="v301-2019-12">V3.01 2019-12</h3>
 <p>Minor fixes / changes which required a version bump.</p>
@@ -164,6 +164,12 @@
 <ol>
 <li>Created <code>Tag.RawHtml(...)</code></li>
 <li><code>Tag.Attr(...)</code> now can also accept ITag values like prepared attributes</li>
+<li>Various null-checks/bugfixes</li>
+<li>Operators to enable adding Tags like <code>Tag.P() + Tag.Div()</code></li>
+<li>Adding tag contents with IEnumerable (previously only Arrays worked)</li>
+<li>Fix Json serialization for Oqtane (previously internal ToJson only worked in .net 451)</li>
+<li>Will probably be bundled with 2sxc 12.05</li>
+<li>Removed the <code>IHtmlPage</code> interface from the docs as it shouldn&#39;t be used any more</li>
 </ol>
 <h3 id="v308-2022-01">V3.08 2022-01</h3>
 <ol>
