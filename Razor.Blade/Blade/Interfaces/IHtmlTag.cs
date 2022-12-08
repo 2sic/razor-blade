@@ -9,11 +9,6 @@ namespace ToSic.Razor.Blade
     public interface IHtmlTag: ITag
     {
         /// <summary>
-        /// List of child tags inside this tag.
-        /// </summary>
-        TagChildren TagChildren { get; }
-
-        /// <summary>
         /// Quickly add an attribute
         /// it always returns the tag itself again, allowing chaining of multiple add-calls
         /// </summary>

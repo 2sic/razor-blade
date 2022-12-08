@@ -1,6 +1,6 @@
 ﻿namespace ToSic.Razor.Markup
 {
-    public class Attribute: DotNetHtmlString
+    public class Attribute: RawHtmlString
     {
         /// <summary>
         /// Create an attribute, which can then generated into a name='value' output

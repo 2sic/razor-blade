@@ -6,7 +6,6 @@ namespace ToSic.Razor.Markup
 {
     public partial class TagChildren
     {
-
         private static IReadOnlyCollection<TagBase> Add(IReadOnlyCollection<TagBase> list, params object[] children)
         {
             if (children == null || children.Length == 0) return list;
@@ -29,11 +28,6 @@ namespace ToSic.Razor.Markup
                     children = innerList.Cast<object>().ToArray();
                 }
             }
-            // Untangle deeper objects if necessary
-            // This is because child could be
-            // - a single item
-            // - an array of items - like a string[]
-            // - an array with a single item - which itself is an IEnumerable
 
             // 2. Import a TagBase list
             // if it's a classic tag list - everything is ok
@@ -46,7 +40,10 @@ namespace ToSic.Razor.Markup
 
             // otherwise handle it since it's just an array of different objects
             foreach (var item in children)
-                newList.Add(TagBase.EnsureTag(item));
+            {
+                var childTag = TagBase.EnsureTag(item);
+                if (childTag != null) newList.Add(childTag);
+            }
             return newList;
         }
 
@@ -55,20 +52,12 @@ namespace ToSic.Razor.Markup
             // Prevent null problems on further type checks
             if (child is null) return true;
 
-            // Do this early on, because all TagBase are now Enumerable (03.08) so they would otherwise get wrong positives
-            if (child is TagBase tbChild)
-            {
-                newList.Add(tbChild);
-                return true;
-            }
+            // It's a real thing, check if we can add...
+            var realTag = TagBase.EnsureTag(child);
+            if (realTag == null) return false;
 
-            if (IsStringOrHtmlString(child, out var childString))
-            {
-                newList.Add(TagBase.EnsureTag(childString));
-                return true;
-            }
-
-            return false;
+            newList.Add(realTag);
+            return true;
         }
 
     }

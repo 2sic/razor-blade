@@ -465,19 +465,10 @@
                             <a href="ToSic.Razor.Markup.Attribute.html" title="Attribute" class="">Attribute</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.AttributeBase.html" title="AttributeBase" class="">AttributeBase</a>
-                          </li>
-                          <li class="">
-                            <a href="ToSic.Razor.Markup.AttributeList.html" title="AttributeList" class="">AttributeList</a>
-                          </li>
-                          <li class="">
-                            <a href="ToSic.Razor.Markup.AttributeListBase.html" title="AttributeListBase" class="">AttributeListBase</a>
-                          </li>
-                          <li class="">
                             <a href="ToSic.Razor.Markup.AttributeOptions.html" title="AttributeOptions" class="">AttributeOptions</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.ChildTags.html" title="ChildTags" class="">ChildTags</a>
+                            <a href="ToSic.Razor.Markup.Attributes.html" title="Attributes" class="">Attributes</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Markup.ITag.html" title="ITag" class="">ITag</a>
@@ -489,6 +480,9 @@
                             <a href="ToSic.Razor.Markup.TagBase.html" title="TagBase" class="">TagBase</a>
                           </li>
                           <li class="">
+                            <a href="ToSic.Razor.Markup.TagChildren.html" title="TagChildren" class="">TagChildren</a>
+                          </li>
+                          <li class="">
                             <a href="ToSic.Razor.Markup.TagCustom.html" title="TagCustom" class="">TagCustom</a>
                           </li>
                           <li class="">
@@ -496,6 +490,9 @@
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Markup.TagOptions.html" title="TagOptions" class="">TagOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Markup.TagText.html" title="TagText" class="">TagText</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -528,6 +525,9 @@
       <a class="xref" href="ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagAttributes">ITag.TagAttributes</a>
     </div>
     <div>
+      <a class="xref" href="ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagChildren">ITag.TagChildren</a>
+    </div>
+    <div>
       <a class="xref" href="ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagName">ITag.TagName</a>
     </div>
     <div>
@@ -549,70 +549,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IHtmlTag : ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_TagChildren.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.TagChildren%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L13">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_IHtmlTag_TagChildren_" data-uid="ToSic.Razor.Blade.IHtmlTag.TagChildren*"></a>
-  <h4 id="ToSic_Razor_Blade_IHtmlTag_TagChildren" data-uid="ToSic.Razor.Blade.IHtmlTag.TagChildren">TagChildren</h4>
-  <div class="markdown level1 summary"><p>List of child tags inside this tag.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ChildTags TagChildren { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ToSic.Razor.Markup.ChildTags.html">ChildTags</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_TagContents.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.TagContents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L18">View Source</a>
-  </span>
-  <a id="ToSic_Razor_Blade_IHtmlTag_TagContents_" data-uid="ToSic.Razor.Blade.IHtmlTag.TagContents*"></a>
-  <h4 id="ToSic_Razor_Blade_IHtmlTag_TagContents" data-uid="ToSic.Razor.Blade.IHtmlTag.TagContents">TagContents</h4>
-  <div class="markdown level1 summary"><p>The contents of this tag.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string TagContents { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -620,7 +556,7 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Add_System_Object___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Add(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L86">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L77">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Add_" data-uid="ToSic.Razor.Blade.IHtmlTag.Add*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Add_System_Object___" data-uid="ToSic.Razor.Blade.IHtmlTag.Add(System.Object[])">Add(Object[])</h4>
@@ -671,7 +607,7 @@ If you want to replace the contents, use Wrap() instead</p>
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_AsHtmlTag.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.AsHtmlTag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L104">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L95">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_AsHtmlTag_" data-uid="ToSic.Razor.Blade.IHtmlTag.AsHtmlTag*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_AsHtmlTag" data-uid="ToSic.Razor.Blade.IHtmlTag.AsHtmlTag">AsHtmlTag()</h4>
@@ -705,7 +641,7 @@ So just run AsHtmlTag() so it becomes a more generic object but still has all th
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Attr_System_Object_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Attr(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L36">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L27">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Attr_" data-uid="ToSic.Razor.Blade.IHtmlTag.Attr*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Attr_System_Object_" data-uid="ToSic.Razor.Blade.IHtmlTag.Attr(System.Object)">Attr(Object)</h4>
@@ -756,7 +692,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Attr_System_String_System_Object_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Attr(System.String%2CSystem.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L28">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L19">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Attr_" data-uid="ToSic.Razor.Blade.IHtmlTag.Attr*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Attr_System_String_System_Object_System_String_" data-uid="ToSic.Razor.Blade.IHtmlTag.Attr(System.String,System.Object,System.String)">Attr(String, Object, String)</h4>
@@ -819,7 +755,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Class_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Class(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L48">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L39">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Class_" data-uid="ToSic.Razor.Blade.IHtmlTag.Class*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Class_System_String_" data-uid="ToSic.Razor.Blade.IHtmlTag.Class(System.String)">Class(String)</h4>
@@ -868,7 +804,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Data_System_String_System_Object_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Data(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L70">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L61">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Data_" data-uid="ToSic.Razor.Blade.IHtmlTag.Data*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Data_System_String_System_Object_" data-uid="ToSic.Razor.Blade.IHtmlTag.Data(System.String,System.Object)">Data(String, Object)</h4>
@@ -924,7 +860,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Id_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Id(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L42">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L33">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Id_" data-uid="ToSic.Razor.Blade.IHtmlTag.Id*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Id_System_String_" data-uid="ToSic.Razor.Blade.IHtmlTag.Id(System.String)">Id(String)</h4>
@@ -973,7 +909,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_On_System_String_System_Object_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.On(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L78">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L69">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_On_" data-uid="ToSic.Razor.Blade.IHtmlTag.On*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_On_System_String_System_Object_" data-uid="ToSic.Razor.Blade.IHtmlTag.On(System.String,System.Object)">On(String, Object)</h4>
@@ -1029,7 +965,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Style_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Style(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L55">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L46">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Style_" data-uid="ToSic.Razor.Blade.IHtmlTag.Style*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Style_System_String_" data-uid="ToSic.Razor.Blade.IHtmlTag.Style(System.String)">Style(String)</h4>
@@ -1079,7 +1015,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Title_System_String_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Title(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L62">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L53">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Title_" data-uid="ToSic.Razor.Blade.IHtmlTag.Title*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Title_System_String_" data-uid="ToSic.Razor.Blade.IHtmlTag.Title(System.String)">Title(String)</h4>
@@ -1129,7 +1065,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag_Wrap_System_Object___.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag.Wrap(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L93">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L84">View Source</a>
   </span>
   <a id="ToSic_Razor_Blade_IHtmlTag_Wrap_" data-uid="ToSic.Razor.Blade.IHtmlTag.Wrap*"></a>
   <h4 id="ToSic_Razor_Blade_IHtmlTag_Wrap_System_Object___" data-uid="ToSic.Razor.Blade.IHtmlTag.Wrap(System.Object[])">Wrap(Object[])</h4>
@@ -1185,7 +1121,7 @@ it always returns the tag itself again, allowing chaining of multiple add-calls<
                     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Blade_IHtmlTag.md&amp;value=---%0Auid%3A%20ToSic.Razor.Blade.IHtmlTag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Blade/Interfaces/IHtmlTag.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

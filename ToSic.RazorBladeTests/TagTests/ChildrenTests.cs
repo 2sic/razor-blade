@@ -139,7 +139,7 @@ namespace ToSic.RazorBladeTests.TagTests
             tag = tag.WithOptions(new(attributeOptions: new(quote: "\"")));
             var span = new Span().Id("spn").Add(new Div());
             tag.Add(span);
-            AreEqual("<div id=\"27\"><span id=\"spn\"><div></div></span></div>", tag.ToString());
+            AreEqual("<div id=\"27\"><span id='spn'><div></div></span></div>", tag.ToString());
         }
 
         [TestMethod]

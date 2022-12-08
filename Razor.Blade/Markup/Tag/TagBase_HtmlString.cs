@@ -1,13 +1,13 @@
 ﻿
 namespace ToSic.Razor.Markup
 {
-    public partial class TagBase: DotNetHtmlString
+    public partial class TagBase: RawHtmlString
     {
         #region .Open and .Close
 
-        public DotNetHtmlString TagStart => new DotNetHtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
+        public RawHtmlString TagStart => new RawHtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
 
-        public DotNetHtmlString TagEnd => new DotNetHtmlString(TagBuilder.Close(TagName));
+        public RawHtmlString TagEnd => new RawHtmlString(TagBuilder.Close(TagName));
 
         #endregion
     }

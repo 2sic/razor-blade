@@ -26,7 +26,7 @@ namespace ToSic.RazorBladeTests.TagTests
         public void Text()
         {
             var text = "div";
-            Is(text, TagBase.Text(text));
+            Is(text, new TagText(text));
         }
     }
 

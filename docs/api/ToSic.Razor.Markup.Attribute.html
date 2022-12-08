@@ -465,19 +465,10 @@
                             <a href="ToSic.Razor.Markup.Attribute.html" title="Attribute" class="active">Attribute</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.AttributeBase.html" title="AttributeBase" class="">AttributeBase</a>
-                          </li>
-                          <li class="">
-                            <a href="ToSic.Razor.Markup.AttributeList.html" title="AttributeList" class="">AttributeList</a>
-                          </li>
-                          <li class="">
-                            <a href="ToSic.Razor.Markup.AttributeListBase.html" title="AttributeListBase" class="">AttributeListBase</a>
-                          </li>
-                          <li class="">
                             <a href="ToSic.Razor.Markup.AttributeOptions.html" title="AttributeOptions" class="">AttributeOptions</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Markup.ChildTags.html" title="ChildTags" class="">ChildTags</a>
+                            <a href="ToSic.Razor.Markup.Attributes.html" title="Attributes" class="">Attributes</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Markup.ITag.html" title="ITag" class="">ITag</a>
@@ -489,6 +480,9 @@
                             <a href="ToSic.Razor.Markup.TagBase.html" title="TagBase" class="">TagBase</a>
                           </li>
                           <li class="">
+                            <a href="ToSic.Razor.Markup.TagChildren.html" title="TagChildren" class="">TagChildren</a>
+                          </li>
+                          <li class="">
                             <a href="ToSic.Razor.Markup.TagCustom.html" title="TagCustom" class="">TagCustom</a>
                           </li>
                           <li class="">
@@ -496,6 +490,9 @@
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Markup.TagOptions.html" title="TagOptions" class="">TagOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="ToSic.Razor.Markup.TagText.html" title="TagText" class="">TagText</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -519,40 +516,23 @@
   
   <h1 id="ToSic_Razor_Markup_Attribute" data-uid="ToSic.Razor.Markup.Attribute" class="text-break">Class Attribute
   </h1>
-  <div class="markdown level0 summary"><p>Describes an attribute on an HTML tag. You usually won&apos;t need this API. </p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ToSic.Razor.Markup.ToHtmlHybridBase</span></div>
-    <div class="level2"><a class="xref" href="ToSic.Razor.Markup.AttributeBase.html">AttributeBase</a></div>
-    <div class="level3"><span class="xref">Attribute</span></div>
+    <div class="level1"><span class="xref">ToSic.Razor.Markup.RawHtmlString</span></div>
+    <div class="level2"><span class="xref">Attribute</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">System.Web.IHtmlString</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_Name">AttributeBase.Name</a>
-    </div>
-    <div>
-      <a class="xref" href="ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_Value">AttributeBase.Value</a>
-    </div>
-    <div>
-      <a class="xref" href="ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_Options">AttributeBase.Options</a>
-    </div>
-    <div>
-      <a class="xref" href="ToSic.Razor.Markup.AttributeBase.html#ToSic_Razor_Markup_AttributeBase_ToString">AttributeBase.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ToSic.Razor.Markup.html">ToSic.Razor.Markup</a></h6>
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Markup_Attribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Attribute : AttributeBase, IHtmlString</code></pre>
+    <pre><code class="lang-csharp hljs">public class Attribute : RawHtmlString, IHtmlString</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -561,11 +541,12 @@
     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_Attribute__ctor_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Attribute.%23ctor(System.String%2CSystem.Object%2CToSic.Razor.Markup.AttributeOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L8">View Source</a>
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L11">View Source</a>
   </span>
   <a id="ToSic_Razor_Markup_Attribute__ctor_" data-uid="ToSic.Razor.Markup.Attribute.#ctor*"></a>
   <h4 id="ToSic_Razor_Markup_Attribute__ctor_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_" data-uid="ToSic.Razor.Markup.Attribute.#ctor(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)">Attribute(String, Object, AttributeOptions)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create an attribute, which can then generated into a name=&apos;value&apos; output</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -584,20 +565,151 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>The attribute name, can also be a prepared attribute. So you can pass in &quot;id&quot; or &quot;id=&apos;27&apos;&quot;</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value, if the initial name was really only a name. If it&apos;s an object, it will be json serialized</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
         <td><span class="parametername">options</span></td>
+        <td><p>Options how the attribute will be generated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_Attribute_Name.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Attribute.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L30">View Source</a>
+  </span>
+  <h4 id="ToSic_Razor_Markup_Attribute_Name" data-uid="ToSic.Razor.Markup.Attribute.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Attribute name
+is null, if a prepared attribute was added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly string Name</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_Attribute_Options.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Attribute.Options%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L37">View Source</a>
+  </span>
+  <h4 id="ToSic_Razor_Markup_Attribute_Options" data-uid="ToSic.Razor.Markup.Attribute.Options">Options</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AttributeOptions Options</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ToSic.Razor.Markup.AttributeOptions.html">AttributeOptions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_Attribute_Value.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Attribute.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L36">View Source</a>
+  </span>
+  <h4 id="ToSic_Razor_Markup_Attribute_Value" data-uid="ToSic.Razor.Markup.Attribute.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Attribute value
+can be null if a prepared attribute was added, or no value specified</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly object Value</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_Attribute_ToString.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Attribute.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L42">View Source</a>
+  </span>
+  <a id="ToSic_Razor_Markup_Attribute_ToString_" data-uid="ToSic.Razor.Markup.Attribute.ToString*"></a>
+  <h4 id="ToSic_Razor_Markup_Attribute_ToString" data-uid="ToSic.Razor.Markup.Attribute.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Gets the HTML encoded string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">ToSic.Razor.Markup.RawHtmlString.ToString()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.Web.IHtmlString</span>
@@ -613,7 +725,7 @@
                     <a href="https://github.com/2sic/razor-blade/new/develop/apiSpec/new?filename=ToSic_Razor_Markup_Attribute.md&amp;value=---%0Auid%3A%20ToSic.Razor.Markup.Attribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic/razor-blade/blob/develop/Razor.Blade/Markup/Attribute.cs/#L3" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

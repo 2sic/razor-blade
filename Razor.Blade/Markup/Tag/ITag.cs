@@ -13,6 +13,11 @@ namespace ToSic.Razor.Markup
         Attributes TagAttributes { get; }
 
         /// <summary>
+        /// List of child tags inside this tag.
+        /// </summary>
+        TagChildren TagChildren { get; }
+
+        /// <summary>
         /// The tag name
         /// </summary>
         string TagName { get; }
@@ -24,8 +29,8 @@ namespace ToSic.Razor.Markup
 
         #region .Open and .Close
 
-        DotNetHtmlString TagStart {get; }
-        DotNetHtmlString TagEnd { get; }
+        RawHtmlString TagStart {get; }
+        RawHtmlString TagEnd { get; }
 
         #endregion
     }

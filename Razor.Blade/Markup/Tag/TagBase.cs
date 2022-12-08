@@ -5,7 +5,7 @@ namespace ToSic.Razor.Markup
     /// <summary>
     /// A generic tag object - used to create any kind of tag
     /// </summary>
-    public partial class TagBase : ITag
+    public abstract partial class TagBase : ITag
     {
         #region Constructors
 
@@ -68,9 +68,6 @@ namespace ToSic.Razor.Markup
 
         #endregion
 
-        internal static TagBase Text(string text)
-            => new TagBase(tagOverride: text);
-
         /// <inheritdoc/>
         public string TagName { get; }
 
@@ -86,12 +83,10 @@ namespace ToSic.Razor.Markup
         /// <param name="child"></param>
         /// <returns></returns>
         [PrivateApi]
-        internal static TagBase EnsureTag(object child)
-        {
-            if (IsStringOrHtmlString(child, out var s)) return Text(s);
-            if (child is TagBase tag) return tag;
-            return new TagBase();
-        }
+        internal static TagBase EnsureTag(object child) =>
+            IsStringOrHtmlString(child, out var s) 
+                ? new TagText(s) 
+                : child as TagBase; // returns the child or null
 
         /// <summary>
         /// Gets the HTML encoded value.

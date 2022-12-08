@@ -9,12 +9,6 @@ namespace ToSic.Razor.Markup
         /// <remarks>Set may only be called once, on ApplyChanges</remarks>
         public TagChildren TagChildren { get; private set; }
 
-        ///// <summary>
-        ///// The contents of this tag as string, read-only,...
-        ///// </summary>
-        //[PrivateApi("probably shouldn't be public, maybe remove some day")]
-        //public string TagContents => TagChildren.ToString();
-
         // set => TagChildren.Replace(value);
         /// <summary>
         /// A full override of the internal mechanisms of this tag
