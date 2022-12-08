@@ -63,8 +63,8 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Attr(string name, object value = null, string appendSeparator = null)
         {
-            var newList = GetOrCloneAttributeList();
-            newList.Add(name, value, appendSeparator);
+            var newList = GetOrCloneAttributeList()
+                .Add(name, value, appendSeparator);
             return CloneIfFunctional(new CloneChanges { Attributes = newList });
         }
 
@@ -77,8 +77,8 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Attr(object nameWithValue)
         {
-            var newList = GetOrCloneAttributeList();
-            newList.AddObject(nameWithValue);
+            var newList = GetOrCloneAttributeList()
+                .AddObject(nameWithValue);
             return CloneIfFunctional(new CloneChanges { Attributes = newList });
         }
 
