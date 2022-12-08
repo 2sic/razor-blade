@@ -11,7 +11,7 @@ namespace ToSic.Razor.Blade
         /// <summary>
         /// List of child tags inside this tag.
         /// </summary>
-        ChildTags TagChildren { get; }
+        TagChildren TagChildren { get; }
 
         /// <summary>
         /// Quickly add an attribute

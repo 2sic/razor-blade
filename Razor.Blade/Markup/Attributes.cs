@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ToSic.Razor.Markup
 {
-    public partial class Attributes: ToHtmlHybridBase
+    public partial class Attributes: DotNetHtmlString
     {
         #region constructors
 

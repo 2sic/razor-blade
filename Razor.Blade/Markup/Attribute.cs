@@ -1,6 +1,6 @@
 ﻿namespace ToSic.Razor.Markup
 {
-    public class Attribute: ToHtmlHybridBase
+    public class Attribute: DotNetHtmlString
     {
         /// <summary>
         /// Create an attribute, which can then generated into a name='value' output
@@ -10,12 +10,13 @@
         /// <param name="options">Options how the attribute will be generated</param>
         public Attribute(string name, object value = null, AttributeOptions options = null)
         {
+            // If name is a full attribute with value, just put it all in the final prepared string
+            // and don't set name/value
             if (name?.IndexOf("=") > 0)
                 _prepared = name;
             else
             {
                 Name = name;
-                // if (value is ITag htmlValue) value = htmlValue.ToString();
                 Value = value is ITag htmlValue ? htmlValue.ToString() : value;
             }
 

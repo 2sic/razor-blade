@@ -7,13 +7,13 @@ namespace ToSic.Razor.Markup
     public partial class TagBase: IEnumerable<ITag>
     {
         /// <remarks>Set may only be called once, on ApplyChanges</remarks>
-        public ChildTags TagChildren { get; private set; }
+        public TagChildren TagChildren { get; private set; }
 
-        /// <summary>
-        /// The contents of this tag as string, read-only,...
-        /// </summary>
-        [PrivateApi("probably shouldn't be public, maybe remove some day")]
-        public string TagContents => TagChildren.Build(TagOptions);
+        ///// <summary>
+        ///// The contents of this tag as string, read-only,...
+        ///// </summary>
+        //[PrivateApi("probably shouldn't be public, maybe remove some day")]
+        //public string TagContents => TagChildren.ToString();
 
         // set => TagChildren.Replace(value);
         /// <summary>
@@ -27,10 +27,10 @@ namespace ToSic.Razor.Markup
 
         /// <inheritdoc />
         [PrivateApi]
-        IEnumerator<ITag> IEnumerable<ITag>.GetEnumerator() => TagChildren.GetEnumerator();
+        IEnumerator<ITag> IEnumerable<ITag>.GetEnumerator() => TagChildren.List.GetEnumerator();
 
         /// <inheritdoc />
         [PrivateApi]
-        public IEnumerator GetEnumerator() => TagChildren.GetEnumerator();
+        public IEnumerator GetEnumerator() => TagChildren.List.GetEnumerator();
     }
 }

@@ -22,7 +22,8 @@ namespace ToSic.Razor.Markup
         protected internal TagBase(TagBase original = null,
             string name = null,
             string tagOverride = null,
-            ChildTags children = null,
+            TagChildren children = null,
+            object[] content = null,
             Attributes attributes = null,
             TagOptions options = null)
         {
@@ -42,7 +43,9 @@ namespace ToSic.Razor.Markup
             }
 
             // Children and Attributes may never be null
-            TagChildren = children ?? original?.TagChildren ?? new ChildTags();
+            TagChildren = content != null
+                ? new TagChildren(this, content)
+                : children ?? original?.TagChildren ?? new TagChildren(this);
             TagAttributes = attributes ?? original?.TagAttributes ?? new Attributes();
         }
 
@@ -97,7 +100,7 @@ namespace ToSic.Razor.Markup
 
         [PrivateApi]
         internal string ToString(TagOptions optionsOrNull)
-            => TagOverride ?? TagBuilder.Tag(TagName, TagAttributes, TagContents, optionsOrNull);
+            => TagOverride ?? TagBuilder.Tag(TagName, TagAttributes, TagChildren.ToString(), optionsOrNull);
 
     }
 }

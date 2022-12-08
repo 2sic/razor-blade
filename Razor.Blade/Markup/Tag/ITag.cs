@@ -1,9 +1,4 @@
-﻿#if NETFRAMEWORK
-using HtmlString = System.Web.HtmlString;
-#else
-using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
-#endif
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace ToSic.Razor.Markup
 {
@@ -29,8 +24,8 @@ namespace ToSic.Razor.Markup
 
         #region .Open and .Close
 
-        HtmlString TagStart {get; }
-        HtmlString TagEnd { get; }
+        DotNetHtmlString TagStart {get; }
+        DotNetHtmlString TagEnd { get; }
 
         #endregion
     }
