@@ -16,11 +16,13 @@ namespace ToSic.Razor.Markup
             : base(name: name, options: options) { }
 
         protected Tag(string name, object content, TagOptions options = null)
-            : base(name: name, options: options, children: new ChildTags(content)) { }
+            : base(name: name, options: options, content: new [] { content }) { }
 
         protected Tag(string name, TagOptions options, object[] content) 
-            : base(name: name, options: options, children: new ChildTags(content)) { }
+            : base(name: name, options: options, content: content) { }
 
+        protected Tag(string name, string tagOverride, TagOptions options = null) 
+            : base(name: name, options: options, tagOverride: tagOverride ) { }
 
         /// <summary>
         /// Special constructor just for cloning with changes
@@ -39,7 +41,7 @@ namespace ToSic.Razor.Markup
         /// </summary>
         internal T CloneIfFunctional(CloneChanges changes)
         {
-            if (TagIsImmutable) return CwC(changes);
+            if (IsImmutable) return CwC(changes);
             ApplyChanges(changes);
             return (T) this;
         }
@@ -61,8 +63,8 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Attr(string name, object value = null, string appendSeparator = null)
         {
-            var newList = GetOrCloneAttributeList();
-            newList.Add(name, value, appendSeparator);
+            var newList = GetOrCloneAttributeList()
+                .Add(name, value, appendSeparator);
             return CloneIfFunctional(new CloneChanges { Attributes = newList });
         }
 
@@ -75,12 +77,12 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Attr(object nameWithValue)
         {
-            var newList = GetOrCloneAttributeList();
-            newList.AddObject(nameWithValue);
+            var newList = GetOrCloneAttributeList()
+                .AddObject(nameWithValue);
             return CloneIfFunctional(new CloneChanges { Attributes = newList });
         }
 
-        private AttributeList GetOrCloneAttributeList() => TagIsImmutable ? new AttributeList(TagAttributes) : TagAttributes;
+        private Attributes GetOrCloneAttributeList() => IsImmutable ? new Attributes(TagAttributes) : TagAttributes;
 
         /// <summary>
         /// Special initializer of attributes, because otherwise attributes will not be available in the final object
@@ -90,10 +92,10 @@ namespace ToSic.Razor.Markup
         [PrivateApi]
         protected void InitAttributes(Action initializer)
         {
-            var before = TagIsImmutable;
-            TagIsImmutable = false; // necessary, to not generate new objects during init
+            var before = IsImmutable;
+            IsImmutable = false; // necessary, to not generate new objects during init
             initializer();
-            TagIsImmutable = before;
+            IsImmutable = before;
         }
 
         /// <summary>
@@ -152,8 +154,8 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Add(params object[] children)
         {
-            var newChildren = TagIsImmutable ? new ChildTags(TagChildren) : TagChildren;
-            newChildren.Add(children);
+            var newChildren = (IsImmutable ? new TagChildren(TagChildren) : TagChildren)
+                .Add(children);
             return CloneIfFunctional(new CloneChanges { Children = newChildren });
         }
 
@@ -163,7 +165,8 @@ namespace ToSic.Razor.Markup
         /// </summary>
         /// <param name="content">a variable amount of tags / strings to add to the contents of this tag</param>
         /// <returns></returns>
-        public T Wrap(params object[] content) => CloneIfFunctional(new CloneChanges { Children = new ChildTags(content) });
+        public T Wrap(params object[] content) 
+            => CloneIfFunctional(new CloneChanges { Children = new TagChildren(this, content) });
 
         [PrivateApi("WIP v4 - should be exclusively fluid!")]
         public T WithOptions(TagOptions options) => CloneIfFunctional(new CloneChanges { Options = options });

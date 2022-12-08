@@ -1,4 +1,5 @@
-﻿using ToSic.Razor.Markup;
+﻿using ToSic.Razor.Internals.Documentation;
+using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Blade
 {
@@ -7,16 +8,6 @@ namespace ToSic.Razor.Blade
     /// </summary>
     public interface IHtmlTag: ITag
     {
-        /// <summary>
-        /// List of child tags inside this tag.
-        /// </summary>
-        ChildTags TagChildren { get; }
-
-        /// <summary>
-        /// The contents of this tag.
-        /// </summary>
-        string TagContents { get; set; }
-
         /// <summary>
         /// Quickly add an attribute
         /// it always returns the tag itself again, allowing chaining of multiple add-calls

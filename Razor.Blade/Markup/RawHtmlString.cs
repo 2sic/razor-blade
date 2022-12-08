@@ -9,11 +9,22 @@ using ToSic.Razor.Internals.Documentation;
 namespace ToSic.Razor.Markup
 {
     /// <summary>
-    /// ToString and ToHtml for all interfaces
+    /// Cross platform (.net core and framework) HTML string implementation
     /// </summary>
     [PrivateApi]
-    public abstract class ToHtmlHybridBase: IHtmlString
+    public class RawHtmlString: IHtmlString
     {
+        internal RawHtmlString(string value) => _value = value;
+
+        protected RawHtmlString() => _value = "";
+        private readonly string _value;
+
+        /// <summary>
+        /// Standard ToString overload - used when concatenating strings.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString() => _value;
+
 #if NETFRAMEWORK
         /// <summary>
         /// This is the serialization for the old-style asp.net razor

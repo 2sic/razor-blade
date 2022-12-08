@@ -1,19 +1,13 @@
-﻿#if NETFRAMEWORK
-using HtmlString = System.Web.HtmlString;
-#else
-using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
-#endif
-
-
+﻿
 namespace ToSic.Razor.Markup
 {
-    public partial class TagBase: ToHtmlHybridBase
+    public partial class TagBase: RawHtmlString
     {
         #region .Open and .Close
 
-        public HtmlString TagStart => new HtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
+        public RawHtmlString TagStart => new RawHtmlString(TagBuilder.Open(TagName, TagAttributes, TagOptions));
 
-        public HtmlString TagEnd => new HtmlString(TagBuilder.Close(TagName));
+        public RawHtmlString TagEnd => new RawHtmlString(TagBuilder.Close(TagName));
 
         #endregion
     }

@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using ToSic.Razor.Blade;
 using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
@@ -8,17 +7,9 @@ namespace ToSic.Razor.Markup
     public partial class TagBase: IEnumerable<ITag>
     {
         /// <remarks>Set may only be called once, on ApplyChanges</remarks>
-        public ChildTags TagChildren { get; private set; }
+        public TagChildren TagChildren { get; private set; }
 
-        /// <summary>
-        /// The contents of this tag
-        /// </summary>
-        public string TagContents
-        {
-            get => TagChildren.Build(TagOptions);
-            set => TagChildren.Replace(value);
-        }
-
+        // set => TagChildren.Replace(value);
         /// <summary>
         /// A full override of the internal mechanisms of this tag
         /// It's usually used to create very special tags like comments
@@ -30,10 +21,10 @@ namespace ToSic.Razor.Markup
 
         /// <inheritdoc />
         [PrivateApi]
-        IEnumerator<ITag> IEnumerable<ITag>.GetEnumerator() => TagChildren.GetEnumerator();
+        IEnumerator<ITag> IEnumerable<ITag>.GetEnumerator() => TagChildren.List.GetEnumerator();
 
         /// <inheritdoc />
         [PrivateApi]
-        public IEnumerator GetEnumerator() => TagChildren.GetEnumerator();
+        public IEnumerator GetEnumerator() => TagChildren.List.GetEnumerator();
     }
 }

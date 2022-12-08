@@ -5,8 +5,8 @@ namespace ToSic.Razor.Markup
     [PrivateApi]
     public class CloneChanges
     {
-        internal ChildTags Children;
-        internal AttributeList Attributes;
+        internal TagChildren Children;
+        internal Attributes Attributes;
         internal TagOptions Options;
     }
 }

@@ -111,7 +111,7 @@ namespace ToSic.RazorBladeTests.InternalTests
         public void SrcSetMultiline()
         {
             var original = "something.jpg?x=1&y=z 1x,\nsomething.jpg?x=1&y=z 2x";
-            Assert.AreEqual(original, EncodeSrcSetTestAccessor(original));
+            Assert.AreEqual(original.Replace("\n", ""), EncodeSrcSetTestAccessor(original));
         }
     }
 }

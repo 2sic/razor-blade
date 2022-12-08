@@ -1,9 +1,4 @@
-﻿#if NETFRAMEWORK
-using HtmlString = System.Web.HtmlString;
-#else
-using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
-#endif
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace ToSic.Razor.Markup
 {
@@ -15,7 +10,12 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// All attributes of this tag
         /// </summary>
-        AttributeList TagAttributes { get; }
+        Attributes TagAttributes { get; }
+
+        /// <summary>
+        /// List of child tags inside this tag.
+        /// </summary>
+        TagChildren TagChildren { get; }
 
         /// <summary>
         /// The tag name
@@ -29,8 +29,8 @@ namespace ToSic.Razor.Markup
 
         #region .Open and .Close
 
-        HtmlString TagStart {get; }
-        HtmlString TagEnd { get; }
+        RawHtmlString TagStart {get; }
+        RawHtmlString TagEnd { get; }
 
         #endregion
     }

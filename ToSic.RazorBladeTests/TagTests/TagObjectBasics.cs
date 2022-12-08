@@ -11,7 +11,7 @@ namespace ToSic.RazorBladeTests.TagTests
         {
             Is("<div></div>", new TagCustom("div"));
             Is("<strong></strong>", new TagCustom( "strong"));
-            Is("<strong>...</strong>", new TagCustom("strong"){ TagContents = "..."});
+            Is("<strong>...</strong>", new TagCustom("strong").Wrap("..."));
         }
     }
 }

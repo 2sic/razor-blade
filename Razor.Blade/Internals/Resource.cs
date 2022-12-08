@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ToSic.Razor.Internals
+﻿namespace ToSic.Razor.Internals
 {
     /// <summary>
     /// Describes a resource
