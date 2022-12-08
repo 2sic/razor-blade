@@ -54,7 +54,7 @@ namespace ToSic.RazorBladeTests.TagTests
         [TestMethod]
         public void MixedChildrenNonFluidButAsIf()
         {
-            var tag = new Div() {TagIsImmutable = false};
+            var tag = new Div() {IsImmutable = false};
             var withSpan = tag.Add(new Span());
             AreEqual("<div><span></span></div>", withSpan.ToString());
             var withText = withSpan.Add("razor-blade");
@@ -66,7 +66,7 @@ namespace ToSic.RazorBladeTests.TagTests
         [TestMethod]
         public void MixedChildrenNonFluid()
         {
-            var tag = new Div() {TagIsImmutable = false};
+            var tag = new Div() {IsImmutable = false};
             var withSpan = tag.Add(new Span());
             AreEqual("<div><span></span></div>", withSpan.ToString());
             var withText = withSpan.Add("razor-blade");
@@ -88,10 +88,10 @@ namespace ToSic.RazorBladeTests.TagTests
         [TestMethod]
         public void SetContent()
         {
-            var tag = new Div() {TagIsImmutable = false};
+            var tag = new Div() { IsImmutable = false };
             tag.Add(new Span());
             AreEqual("<div><span></span></div>", tag.ToString());
-            tag.TagContents = "razor-blade";
+            tag.Wrap("razor-blade");
             AreEqual("<div>razor-blade</div>", tag.ToString());
         }
 
@@ -101,8 +101,10 @@ namespace ToSic.RazorBladeTests.TagTests
             var tag = new Div(new Span());
             AreEqual("<div><span></span></div>", tag.ToString());
 
-            tag.TagContents = "razor-blade";
+            tag = tag.Wrap("razor-blade");
             AreEqual("<div>razor-blade</div>", tag.ToString());
+            tag = new Div(new Span("razor-blade"));
+            AreEqual("<div><span>razor-blade</span></div>", tag.ToString());
 
             tag = new(new Span(), new Span(), "hello");
         }
@@ -112,7 +114,7 @@ namespace ToSic.RazorBladeTests.TagTests
         public void SubChildren()
         {
             var tag = new Div();
-            var span = new Span().Add(new Div() { TagIsImmutable = false });
+            var span = new Span().Add(new Div() { IsImmutable = false });
             tag = tag.Add(span);
             AreEqual("<div><span><div></div></span></div>", tag.ToString());
             tag = tag.Add(span);
@@ -122,7 +124,7 @@ namespace ToSic.RazorBladeTests.TagTests
         [TestMethod]
         public void SubChildrenAndText()
         {
-            var tag = new Div() { TagIsImmutable = false};
+            var tag = new Div() { IsImmutable = false};
             var span = new Span().Add(new Div());
             tag.Add(span);
             AreEqual("<div><span><div></div></span></div>", tag.ToString());
@@ -133,7 +135,7 @@ namespace ToSic.RazorBladeTests.TagTests
         [TestMethod]
         public void SubChildrenPreserveOptions()
         {
-            var tag = new Div() { TagIsImmutable = false }.Id("27");
+            var tag = new Div() { IsImmutable = false }.Id("27");
             tag = tag.WithOptions(new(attributeOptions: new(quote: "\"")));
             var span = new Span().Id("spn").Add(new Div());
             tag.Add(span);
@@ -145,7 +147,7 @@ namespace ToSic.RazorBladeTests.TagTests
         {
             var tag = new Div().Id("27");
             tag = tag.WithOptions(new(attributeOptions: new(quote: "\"")));
-            var span = new Span() { TagIsImmutable = false }.Id("spn").Add(new Div());
+            var span = new Span() { IsImmutable = false }.Id("spn").Add(new Div());
             span = span.WithOptions(TagOptions.DefaultOptions);
             tag = tag.Add(span);
             AreEqual("<div id=\"27\"><span id='spn'><div></div></span></div>", tag.ToString());

@@ -15,7 +15,7 @@ namespace ToSic.Razor.Markup
         /// <summary>
         /// All attributes of this tag
         /// </summary>
-        AttributeList TagAttributes { get; }
+        Attributes TagAttributes { get; }
 
         /// <summary>
         /// The tag name

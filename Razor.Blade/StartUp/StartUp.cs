@@ -1,9 +1,6 @@
-﻿using System;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using ToSic.Razor.Blade;
-using ToSic.Razor.Internals;
-using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.StartUp
 {

@@ -1,6 +1,4 @@
-﻿
-using ToSic.Razor.Blade;
-using ToSic.Razor.Internals.Documentation;
+﻿using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
 {
@@ -14,16 +12,18 @@ namespace ToSic.Razor.Markup
         internal const bool DefaultTagIsImmutable = true;
 
         /// <summary>
-        /// Special - protected set - todo document
+        /// Special: Determines if the object is immutable.
+        /// If this is true (new mode), then any call to adding attributes or content will return a _new_ object.
+        /// If it is false (classic mode) then any call to change something actually changes the current object and returns it.
         /// </summary>
         [InternalApi_DoNotUse_MayChangeWithoutNotice]
-        public bool TagIsImmutable { get; internal set; } = DefaultTagIsImmutable;
+        public bool IsImmutable { get; internal set; } = DefaultTagIsImmutable;
 
         protected internal TagBase(TagBase original = null,
             string name = null,
             string tagOverride = null,
             ChildTags children = null,
-            AttributeList attributes = null,
+            Attributes attributes = null,
             TagOptions options = null)
         {
             // TagOptions is allowed to be null
@@ -43,8 +43,14 @@ namespace ToSic.Razor.Markup
 
             // Children and Attributes may never be null
             TagChildren = children ?? original?.TagChildren ?? new ChildTags();
-            TagAttributes = attributes ?? original?.TagAttributes ?? new AttributeList();
+            TagAttributes = attributes ?? original?.TagAttributes ?? new Attributes();
         }
+
+        #endregion
+
+        #region Custom Processing of new Content
+
+        protected virtual object PreProcessNewChild(object newChild) => newChild;
 
         #endregion
 
@@ -55,7 +61,6 @@ namespace ToSic.Razor.Markup
             if (changes.Options != null) TagOptions = changes.Options;
             if (changes.Attributes != null) TagAttributes = changes.Attributes;
             if (changes.Children != null) TagChildren = changes.Children;
-
         }
 
         #endregion
@@ -70,7 +75,6 @@ namespace ToSic.Razor.Markup
         /// TagBase serialization options, like what quotes to use
         /// If null (allowed), will use defaults.
         /// </summary>
-        /// <remarks>Set may only be called once, on ApplyChanges</remarks>
         internal virtual TagOptions TagOptions { get; private set; }
 
         /// <summary>
@@ -78,6 +82,7 @@ namespace ToSic.Razor.Markup
         /// </summary>
         /// <param name="child"></param>
         /// <returns></returns>
+        [PrivateApi]
         internal static TagBase EnsureTag(object child)
         {
             if (IsStringOrHtmlString(child, out var s)) return Text(s);
@@ -90,6 +95,7 @@ namespace ToSic.Razor.Markup
         /// </summary>
         public override string ToString() => ToString(TagOptions);
 
+        [PrivateApi]
         internal string ToString(TagOptions optionsOrNull)
             => TagOverride ?? TagBuilder.Tag(TagName, TagAttributes, TagContents, optionsOrNull);
 

@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using ToSic.Razor.Blade;
 using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
@@ -11,14 +10,12 @@ namespace ToSic.Razor.Markup
         public ChildTags TagChildren { get; private set; }
 
         /// <summary>
-        /// The contents of this tag
+        /// The contents of this tag as string, read-only,...
         /// </summary>
-        public string TagContents
-        {
-            get => TagChildren.Build(TagOptions);
-            set => TagChildren.Replace(value);
-        }
+        [PrivateApi("probably shouldn't be public, maybe remove some day")]
+        public string TagContents => TagChildren.Build(TagOptions);
 
+        // set => TagChildren.Replace(value);
         /// <summary>
         /// A full override of the internal mechanisms of this tag
         /// It's usually used to create very special tags like comments

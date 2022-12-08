@@ -21,31 +21,21 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         public void Content()
         {
             // ReSharper disable once RedundantArgumentDefaultValue
-            Is("<p></p>",
-                new TagCustom("p") { TagContents = null });
-            Is("<em></em>",
-                new TagCustom("em") { TagContents = "" });
-            Is("<p> </p>",
-                new TagCustom("p") { TagContents = " " });
-            Is("<p>...</p>",
-                new TagCustom("p") { TagContents = "..." });
-            Is("<p>many\nlines</p>",
-                new TagCustom("p") { TagContents = "many\nlines" });
+            Is("<p></p>", new TagCustom("p").Wrap(null));
+            Is("<em></em>", new TagCustom("em").Wrap(""));
+            Is("<p> </p>", new TagCustom("p").Wrap(" "));
+            Is("<p>...</p>", new TagCustom("p").Wrap("..."));
+            Is("<p>many\nlines</p>", new TagCustom("p").Wrap("many\nlines"));
         }
 
+        [DataRow("<p>...</p>", "p", "...", null, true)]
+        [DataRow("<p>...</p>", "p", "...", false, null)]
+        [DataRow("<p>...</p>", "p", "...", false, true)]
+        [DataRow("<p>", "p", "", false, true)]
+        [DataRow("<p>", "p", null, false, true)]
         [TestMethod]
-        public void ContentWithInvalidClosing()
-        {
-            Is("<p>...</p>",
-                new TagCustom("p", new TagOptions(selfClose: true )) { TagContents = "..." });
-
-            Is("<p>...</p>",
-                new TagCustom("p", new TagOptions(close: false ))
-                { TagContents = "..." });
-
-            Is("<p>...</p>", new TagCustom("p", new TagOptions (close: false, selfClose: true ))
-            { TagContents = "..." });
-        }
+        public void ContentWithInvalidClosing(string expected, string tag, string content, bool? close, bool? selfClose, string? message = null) 
+            => Is(expected, new TagCustom(tag, new(close: close, selfClose: selfClose)).Wrap(content), message);
 
 
         [TestMethod]
@@ -82,19 +72,19 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         [TestMethod]
         public void TagWithSelfClose()
             => Is("<p/>",
-                new TagCustom("p", options: new TagOptions (selfClose: true))
+                new TagCustom("p", options: new(selfClose: true))
                     );
 
         [TestMethod]
         public void TagsWithIdAndClassesSelfClose()
             => Is("<p id='myId' class='my-class float-right'/>",
-                new TagCustom("p", new TagOptions (selfClose: true)).Id("myId").Class("my-class float-right"));
+                new TagCustom("p", new(selfClose: true)).Id("myId").Class("my-class float-right"));
 
 
         [TestMethod]
         public void TagsWithClassIdAndAttributeListOptionsQuote()
             => Is("<p id=\"myId\" class=\"my-class float-right\" data=\"xyz\" kitchen=\"black\"></p>",
-                new TagCustom("p", options: new TagOptions(attributeOptions: new AttributeOptions(quote: "\"")))
+                new TagCustom("p", options: new(attributeOptions: new(quote: "\"")))
                     .Id("myId").Class("my-class float-right")
                     .Attr("data", "xyz")
                     .Attr("kitchen", "black")

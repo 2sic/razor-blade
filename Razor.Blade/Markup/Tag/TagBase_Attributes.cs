@@ -7,6 +7,6 @@
         /// </summary>
         /// <remarks>Set may only be called once, on ApplyChanges</remarks>
         /// <inheritdoc/>
-        public AttributeList TagAttributes { get; private set; }
+        public Attributes TagAttributes { get; private set; }
     }
 }

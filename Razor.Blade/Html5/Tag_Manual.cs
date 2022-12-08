@@ -5,6 +5,6 @@ namespace ToSic.Razor.Blade
 {
     public static partial class Tag
     {
-        public static Comment Comment(string content = null) => new Comment(content) { TagIsImmutable = false };
+        public static Comment Comment(string content = null) => new Comment(content) { IsImmutable = false };
     }
 }

@@ -6,7 +6,7 @@
         /// Generate an html tag as a string for further processing
         /// </summary>
         internal static string Tag(string name,
-            AttributeList attributes,
+            Attributes attributes,
             string content,
             TagOptions optionsOrNull)
         {
@@ -24,7 +24,7 @@
 
         internal static string Open(
             string name,
-            AttributeList attributes,
+            Attributes attributes,
             TagOptions options)
         {
             if (string.IsNullOrWhiteSpace(name))

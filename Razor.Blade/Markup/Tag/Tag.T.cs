@@ -21,6 +21,8 @@ namespace ToSic.Razor.Markup
         protected Tag(string name, TagOptions options, object[] content) 
             : base(name: name, options: options, children: new ChildTags(content)) { }
 
+        protected Tag(string name, string tagOverride, TagOptions options = null) 
+            : base(name: name, options: options, tagOverride: tagOverride ) { }
 
         /// <summary>
         /// Special constructor just for cloning with changes
@@ -39,7 +41,7 @@ namespace ToSic.Razor.Markup
         /// </summary>
         internal T CloneIfFunctional(CloneChanges changes)
         {
-            if (TagIsImmutable) return CwC(changes);
+            if (IsImmutable) return CwC(changes);
             ApplyChanges(changes);
             return (T) this;
         }
@@ -80,7 +82,7 @@ namespace ToSic.Razor.Markup
             return CloneIfFunctional(new CloneChanges { Attributes = newList });
         }
 
-        private AttributeList GetOrCloneAttributeList() => TagIsImmutable ? new AttributeList(TagAttributes) : TagAttributes;
+        private Attributes GetOrCloneAttributeList() => IsImmutable ? new Attributes(TagAttributes) : TagAttributes;
 
         /// <summary>
         /// Special initializer of attributes, because otherwise attributes will not be available in the final object
@@ -90,10 +92,10 @@ namespace ToSic.Razor.Markup
         [PrivateApi]
         protected void InitAttributes(Action initializer)
         {
-            var before = TagIsImmutable;
-            TagIsImmutable = false; // necessary, to not generate new objects during init
+            var before = IsImmutable;
+            IsImmutable = false; // necessary, to not generate new objects during init
             initializer();
-            TagIsImmutable = before;
+            IsImmutable = before;
         }
 
         /// <summary>
@@ -152,7 +154,7 @@ namespace ToSic.Razor.Markup
         /// <returns></returns>
         public T Add(params object[] children)
         {
-            var newChildren = TagIsImmutable ? new ChildTags(TagChildren) : TagChildren;
+            var newChildren = IsImmutable ? new ChildTags(TagChildren) : TagChildren;
             newChildren.Add(children);
             return CloneIfFunctional(new CloneChanges { Children = newChildren });
         }

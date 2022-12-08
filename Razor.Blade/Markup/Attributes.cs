@@ -1,34 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using static System.StringComparison;
 
 namespace ToSic.Razor.Markup
 {
-    public class AttributeListBase: List<AttributeBase>
+    public class Attributes: ToHtmlHybridBase
     {
         #region constructors
 
-        public AttributeListBase(AttributeOptions options = null) => Options = options;
-
-        public AttributeListBase(AttributeListBase original) : this(original.Options)
+        public Attributes(AttributeOptions options = null, IEnumerable<Attribute> list = null, IEnumerable<Attribute> additions = null)
         {
-            foreach (var attribute in original) 
-                Add(attribute);
+            Options = options;
+            var newList = list?.ToList() ?? new List<Attribute>();
+            if (additions != null) newList.AddRange(additions);
+            List = newList;
         }
 
-        public AttributeListBase(IEnumerable<KeyValuePair<string, string>> attributes, AttributeOptions options = null): this(options)
-        {
-            if (attributes == null) return;
-            foreach (var pair in attributes)
-                Add(new AttributeBase(pair.Key, pair.Value));
-        }
+        public Attributes(Attributes original, AttributeOptions options = null)
+            : this(options ?? original.Options, original.List) { }
 
-        public AttributeListBase(IEnumerable<KeyValuePair<string, object>> attributes, AttributeOptions options = null): this(options)
-        {
-            if (attributes == null) return;
-            foreach (var pair in attributes)
-                Add(new AttributeBase(pair.Key, pair.Value));
-        }
+        #endregion
+
+        #region List / IEnumerable
+
+        public List<Attribute> List { get; }
 
         #endregion
 
@@ -42,9 +37,19 @@ namespace ToSic.Razor.Markup
         /// This must have another name than Add, because otherwise it collides with List.Add
         /// </summary>
         /// <param name="nameOrValue"></param>
-        internal void AddObject(object nameOrValue) => Add(nameOrValue?.ToString());
+        internal Attributes AddObject(object nameOrValue)
+        {
+            Add(nameOrValue?.ToString());
+            return this;
+        }
 
-        public void Add(string name, object value = null, string appendSeparator = null)
+        internal Attributes Add(string name, object value = null, string appendSeparator = null)
+        {
+            Add(List, name, value, appendSeparator);
+            return this;
+        }
+
+        internal static void Add(List<Attribute> list, string name, object value = null, string appendSeparator = null)
         {
             // bad entry, skip
             if (string.IsNullOrEmpty(name)) return;
@@ -54,25 +59,30 @@ namespace ToSic.Razor.Markup
             // pre-built entry, use that
             if (name.Contains("="))
             {
-                Add(new AttributeBase(name));
+                list.Add(new Attribute(name));
                 return;
             }
 
             // check if it has already been added
             // ignore case, as attributes are not case-sensitive
-            var attrib = this.FirstOrDefault(a => string.Equals(a.Name, name, StringComparison.InvariantCultureIgnoreCase));
+            var attrib = list.FirstOrDefault(a => string.Equals(a.Name, name, InvariantCultureIgnoreCase));
 
             // if found, try to remove or append
             if (attrib == null)
-                Add(new AttributeBase(name, value));
+                list.Add(new Attribute(name, value));
             else
-                ReplaceOrAppendValue(attrib, value, replace, appendSeparator);
+            {
+                var newAttrib = ReplaceOrAppendValue(attrib, value, replace, appendSeparator);
+                var oldIdx = list.FindIndex(li => li == attrib);
+                list.Remove(attrib);
+                list.Insert(oldIdx, newAttrib);
+            }
         }
 
         public void AddUrl(string name, object value = null, string appendSeparator = null) 
             => Add(name, TagBase.UriEncode(value?.ToString()), appendSeparator);
 
-        private static void ReplaceOrAppendValue(AttributeBase attrib, object value, bool replace, string separator)
+        private static Attribute ReplaceOrAppendValue(Attribute attrib, object value, bool replace, string separator)
         {
             var maybeStr = attrib.Value as string;
             // check if we can actually append
@@ -81,9 +91,10 @@ namespace ToSic.Razor.Markup
                 replace = string.IsNullOrEmpty(maybeStr)
                           || string.IsNullOrEmpty(value as string);
 
-            attrib.Value = replace
+            var newValue = replace
                 ? value
                 : maybeStr + separator + value;
+            return new Attribute(attrib.Name, newValue);
         }
 
 
@@ -97,7 +108,7 @@ namespace ToSic.Razor.Markup
         {
             var options = AttributeOptions.UseOrCreate(Options);
             return string.Join(" ",
-                this.Select(a =>
+                List.Select(a =>
                     {
                         if (a.Options == null) a.Options = options;
                         return a.ToString();

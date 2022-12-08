@@ -31,11 +31,13 @@ namespace ToSic.Razor.Html5
 
         private MetaOg(MetaOg original, CloneChanges changes) : base(original, changes) { }
 
-        // TODO: THIS MUST RETURN THE SAME BASE TYPE AS
-        // THE ORIGINAL - TEST/VERIFY IF THE FINAL CONVERSION ENDS UP WORKING
-        // SINCE THE real CwC return a T-type
         internal override Meta CwC(CloneChanges changes) => new MetaOg(this, changes);
 
+        /// <summary>
+        /// Set the `property` attribute
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public MetaOg Property(string value)
         {
             if (!value.ToLowerInvariant().StartsWith(Prefix))
@@ -43,8 +45,12 @@ namespace ToSic.Razor.Html5
             return Attr("property", value) as MetaOg;
         }
 
-        public new MetaOg Content(string value) 
-            => Attr("content", value) as MetaOg;
+        /// <summary>
+        /// Add the `content` attribute
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public new MetaOg Content(string value) => Attr("content", value) as MetaOg;
    }
     
 }
