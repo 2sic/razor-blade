@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ToSic.Razor.Blade;
 
 namespace ToSic.Razor.Markup
 {
@@ -7,23 +8,23 @@ namespace ToSic.Razor.Markup
     {
         #region Constructor and List
 
-        public TagChildren(TagBase parent, IEnumerable<TagBase> list = null, IEnumerable<TagBase> additions = null)
+        public TagChildren(TagBase parent, IEnumerable<IHtmlTag> list = null, IEnumerable<IHtmlTag> additions = null)
         {
             _parent = parent;
-            var newList = list?.ToList() ?? new List<TagBase>();
+            var newList = list?.ToList() ?? new List<IHtmlTag>();
             if (additions != null) newList.AddRange(additions);
             List = newList.AsReadOnly();
         }
 
         public TagChildren(TagChildren original): this(original._parent, original.List) { }
 
-        internal readonly IReadOnlyCollection<TagBase> List;
+        internal readonly IReadOnlyCollection<IHtmlTag> List;
 
         private readonly TagBase _parent;
 
         #endregion
 
-        public TagChildren(TagBase parent, params object[] children): this(parent, Add(new List<TagBase>(), children))
+        public TagChildren(TagBase parent, params object[] children): this(parent, Add(new List<IHtmlTag>(), children))
         {
         }
 

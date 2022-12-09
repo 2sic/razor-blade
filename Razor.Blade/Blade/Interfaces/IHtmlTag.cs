@@ -92,6 +92,7 @@ namespace ToSic.Razor.Blade
         /// So just run AsHtmlTag() so it becomes a more generic object but still has all the common Id, Class, Wrap etc.
         /// </summary>
         /// <returns></returns>
+        [PrivateApi("not sure if this is useful")]
         IHtmlTag AsHtmlTag();
     }
 }

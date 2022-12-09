@@ -1,10 +1,14 @@
+using System;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
-
+using ToSic.Razor.Internals;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 07.12.2022 00:28
+// Created 09.12.2022 16:48
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -70,7 +74,7 @@ namespace ToSic.Razor.Html5
     /// <param name="value">what should be in href='...'.
     /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a A object to enable fluid command chaining</returns>
-        public A Href(string value) => this.Attr("href", UriEncode(value));
+        public A Href(string value) => this.Attr("href", UriHelpers.UriEncode(value));
 
 
 
@@ -192,7 +196,7 @@ namespace ToSic.Razor.Html5
     /// <param name="value">what should be in href='...'.
     /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Link object to enable fluid command chaining</returns>
-        public Link Href(string value) => this.Attr("href", UriEncode(value));
+        public Link Href(string value) => this.Attr("href", UriHelpers.UriEncode(value));
 
 
 

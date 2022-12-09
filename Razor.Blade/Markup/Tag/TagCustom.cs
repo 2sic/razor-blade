@@ -13,7 +13,8 @@
         protected internal TagCustom(string name, TagOptions options, object[] content)
             : base(name, options, content) { }
 
-        private TagCustom(TagCustom original, CloneChanges changes) : base(original, changes) { }
+        private TagCustom(TagCustom original, CloneChanges changes)
+            : base(original, changes) { }
 
         internal override TagCustom CwC(CloneChanges changes) => new TagCustom(this, changes);
 

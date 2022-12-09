@@ -1,4 +1,5 @@
-﻿using ToSic.Razor.Internals.Mime;
+﻿using ToSic.Razor.Internals.Documentation;
+using ToSic.Razor.Internals.Mime;
 using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Html5
@@ -14,7 +15,8 @@ namespace ToSic.Razor.Html5
         public static readonly string RelShortcut = "shortcut icon";
         public static readonly string RelApple = "apple-touch-icon";
 
-        internal override TagOptions TagOptions => new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
+        [PrivateApi]
+        public override TagOptions TagOptions => new TagOptions(attributeOptions: new AttributeOptions(keepEmpty: false), close: false);
 
         /// <summary>
         /// Generate an icon 

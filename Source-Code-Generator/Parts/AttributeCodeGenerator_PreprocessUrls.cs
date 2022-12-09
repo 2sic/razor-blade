@@ -9,9 +9,9 @@ namespace SourceCodeGenerator.Parts
         private string ValuePreprocessor(string valueName)
         {
             return IsUrlAttribute 
-                ? $"UriEncode({valueName})" 
+                ? $"UriHelpers.UriEncode({valueName})" 
                 : IsSrcSetAttribute 
-                    ? $"UriEncodeSrcSet({valueName})" 
+                    ? $"UriHelpers.UriEncodeSrcSet({valueName})" 
                     : valueName;
         }
 

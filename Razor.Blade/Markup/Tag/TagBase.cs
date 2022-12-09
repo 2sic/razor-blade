@@ -1,4 +1,5 @@
-﻿using ToSic.Razor.Internals.Documentation;
+﻿using ToSic.Razor.Blade;
+using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
 {
@@ -75,7 +76,7 @@ namespace ToSic.Razor.Markup
         /// TagBase serialization options, like what quotes to use
         /// If null (allowed), will use defaults.
         /// </summary>
-        internal virtual TagOptions TagOptions { get; private set; }
+        public virtual TagOptions TagOptions { get; private set; }
 
         /// <summary>
         /// Helper to ensure that both strings/tags can be passed around and added to list
@@ -83,10 +84,10 @@ namespace ToSic.Razor.Markup
         /// <param name="child"></param>
         /// <returns></returns>
         [PrivateApi]
-        internal static TagBase EnsureTag(object child) =>
+        internal static IHtmlTag EnsureTag(object child) =>
             IsStringOrHtmlString(child, out var s) 
                 ? new TagText(s) 
-                : child as TagBase; // returns the child or null
+                : child as IHtmlTag; // returns the child or null
 
         /// <summary>
         /// Gets the HTML encoded value.
@@ -94,7 +95,7 @@ namespace ToSic.Razor.Markup
         public override string ToString() => ToString(TagOptions);
 
         [PrivateApi]
-        internal string ToString(TagOptions optionsOrNull)
+        public string ToString(TagOptions optionsOrNull)
             => TagOverride ?? TagBuilder.Tag(TagName, TagAttributes, TagChildren.ToString(), optionsOrNull);
 
     }

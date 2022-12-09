@@ -29,19 +29,6 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.IHtmlTag.Add
   nameWithType: IHtmlTag.Add
-- uid: ToSic.Razor.Blade.IHtmlTag.AsHtmlTag
-  name: AsHtmlTag()
-  href: api/ToSic.Razor.Blade.IHtmlTag.html#ToSic_Razor_Blade_IHtmlTag_AsHtmlTag
-  commentId: M:ToSic.Razor.Blade.IHtmlTag.AsHtmlTag
-  fullName: ToSic.Razor.Blade.IHtmlTag.AsHtmlTag()
-  nameWithType: IHtmlTag.AsHtmlTag()
-- uid: ToSic.Razor.Blade.IHtmlTag.AsHtmlTag*
-  name: AsHtmlTag
-  href: api/ToSic.Razor.Blade.IHtmlTag.html#ToSic_Razor_Blade_IHtmlTag_AsHtmlTag_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTag.AsHtmlTag
-  isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTag.AsHtmlTag
-  nameWithType: IHtmlTag.AsHtmlTag
 - uid: ToSic.Razor.Blade.IHtmlTag.Attr(System.Object)
   name: Attr(Object)
   href: api/ToSic.Razor.Blade.IHtmlTag.html#ToSic_Razor_Blade_IHtmlTag_Attr_System_Object_
@@ -8207,6 +8194,19 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.ITag.TagName
   nameWithType: ITag.TagName
+- uid: ToSic.Razor.Markup.ITag.TagOptions
+  name: TagOptions
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagOptions
+  commentId: P:ToSic.Razor.Markup.ITag.TagOptions
+  fullName: ToSic.Razor.Markup.ITag.TagOptions
+  nameWithType: ITag.TagOptions
+- uid: ToSic.Razor.Markup.ITag.TagOptions*
+  name: TagOptions
+  href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagOptions_
+  commentId: Overload:ToSic.Razor.Markup.ITag.TagOptions
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.ITag.TagOptions
+  nameWithType: ITag.TagOptions
 - uid: ToSic.Razor.Markup.ITag.TagStart
   name: TagStart
   href: api/ToSic.Razor.Markup.ITag.html#ToSic_Razor_Markup_ITag_TagStart
@@ -8242,6 +8242,14 @@ references:
   fullName.vb: ToSic.Razor.Markup.Tag(Of T)
   nameWithType: Tag<T>
   nameWithType.vb: Tag(Of T)
+- uid: ToSic.Razor.Markup.Tag`1.#ctor(System.Boolean,System.String,ToSic.Razor.Markup.TagOptions)
+  name: Tag(Boolean, String, TagOptions)
+  href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_System_Boolean_System_String_ToSic_Razor_Markup_TagOptions_
+  commentId: M:ToSic.Razor.Markup.Tag`1.#ctor(System.Boolean,System.String,ToSic.Razor.Markup.TagOptions)
+  fullName: ToSic.Razor.Markup.Tag<T>.Tag(System.Boolean, System.String, ToSic.Razor.Markup.TagOptions)
+  fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(System.Boolean, System.String, ToSic.Razor.Markup.TagOptions)
+  nameWithType: Tag<T>.Tag(Boolean, String, TagOptions)
+  nameWithType.vb: Tag(Of T).Tag(Boolean, String, TagOptions)
 - uid: ToSic.Razor.Markup.Tag`1.#ctor(System.String,System.Object,ToSic.Razor.Markup.TagOptions)
   name: Tag(String, Object, TagOptions)
   href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_System_String_System_Object_ToSic_Razor_Markup_TagOptions_
@@ -8250,14 +8258,6 @@ references:
   fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(System.String, System.Object, ToSic.Razor.Markup.TagOptions)
   nameWithType: Tag<T>.Tag(String, Object, TagOptions)
   nameWithType.vb: Tag(Of T).Tag(String, Object, TagOptions)
-- uid: ToSic.Razor.Markup.Tag`1.#ctor(System.String,System.String,ToSic.Razor.Markup.TagOptions)
-  name: Tag(String, String, TagOptions)
-  href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_System_String_System_String_ToSic_Razor_Markup_TagOptions_
-  commentId: M:ToSic.Razor.Markup.Tag`1.#ctor(System.String,System.String,ToSic.Razor.Markup.TagOptions)
-  fullName: ToSic.Razor.Markup.Tag<T>.Tag(System.String, System.String, ToSic.Razor.Markup.TagOptions)
-  fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(System.String, System.String, ToSic.Razor.Markup.TagOptions)
-  nameWithType: Tag<T>.Tag(String, String, TagOptions)
-  nameWithType.vb: Tag(Of T).Tag(String, String, TagOptions)
 - uid: ToSic.Razor.Markup.Tag`1.#ctor(System.String,ToSic.Razor.Markup.TagOptions)
   name: Tag(String, TagOptions)
   href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_System_String_ToSic_Razor_Markup_TagOptions_
@@ -8275,14 +8275,15 @@ references:
   fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(System.String, ToSic.Razor.Markup.TagOptions, System.Object())
   nameWithType: Tag<T>.Tag(String, TagOptions, Object[])
   nameWithType.vb: Tag(Of T).Tag(String, TagOptions, Object())
-- uid: ToSic.Razor.Markup.Tag`1.#ctor(ToSic.Razor.Markup.TagBase,ToSic.Razor.Markup.CloneChanges)
-  name: Tag(TagBase, CloneChanges)
-  href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_ToSic_Razor_Markup_TagBase_ToSic_Razor_Markup_CloneChanges_
-  commentId: M:ToSic.Razor.Markup.Tag`1.#ctor(ToSic.Razor.Markup.TagBase,ToSic.Razor.Markup.CloneChanges)
-  fullName: ToSic.Razor.Markup.Tag<T>.Tag(ToSic.Razor.Markup.TagBase, ToSic.Razor.Markup.CloneChanges)
-  fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(ToSic.Razor.Markup.TagBase, ToSic.Razor.Markup.CloneChanges)
-  nameWithType: Tag<T>.Tag(TagBase, CloneChanges)
-  nameWithType.vb: Tag(Of T).Tag(TagBase, CloneChanges)
+- uid: ToSic.Razor.Markup.Tag`1.#ctor(ToSic.Razor.Markup.Tag{`0},ToSic.Razor.Markup.CloneChanges)
+  name: Tag(Tag<T>, CloneChanges)
+  href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_ToSic_Razor_Markup_Tag__0__ToSic_Razor_Markup_CloneChanges_
+  commentId: M:ToSic.Razor.Markup.Tag`1.#ctor(ToSic.Razor.Markup.Tag{`0},ToSic.Razor.Markup.CloneChanges)
+  name.vb: Tag(Tag(Of T), CloneChanges)
+  fullName: ToSic.Razor.Markup.Tag<T>.Tag(ToSic.Razor.Markup.Tag<T>, ToSic.Razor.Markup.CloneChanges)
+  fullName.vb: ToSic.Razor.Markup.Tag(Of T).Tag(ToSic.Razor.Markup.Tag(Of T), ToSic.Razor.Markup.CloneChanges)
+  nameWithType: Tag<T>.Tag(Tag<T>, CloneChanges)
+  nameWithType.vb: Tag(Of T).Tag(Tag(Of T), CloneChanges)
 - uid: ToSic.Razor.Markup.Tag`1.#ctor*
   name: Tag
   href: api/ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1__ctor_
@@ -8647,6 +8648,19 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Markup.TagBase.TagName
   nameWithType: TagBase.TagName
+- uid: ToSic.Razor.Markup.TagBase.TagOptions
+  name: TagOptions
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagOptions
+  commentId: P:ToSic.Razor.Markup.TagBase.TagOptions
+  fullName: ToSic.Razor.Markup.TagBase.TagOptions
+  nameWithType: TagBase.TagOptions
+- uid: ToSic.Razor.Markup.TagBase.TagOptions*
+  name: TagOptions
+  href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagOptions_
+  commentId: Overload:ToSic.Razor.Markup.TagBase.TagOptions
+  isSpec: "True"
+  fullName: ToSic.Razor.Markup.TagBase.TagOptions
+  nameWithType: TagBase.TagOptions
 - uid: ToSic.Razor.Markup.TagBase.TagStart
   name: TagStart
   href: api/ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagStart
@@ -8679,15 +8693,15 @@ references:
   commentId: T:ToSic.Razor.Markup.TagChildren
   fullName: ToSic.Razor.Markup.TagChildren
   nameWithType: TagChildren
-- uid: ToSic.Razor.Markup.TagChildren.#ctor(ToSic.Razor.Markup.TagBase,System.Collections.Generic.IEnumerable{ToSic.Razor.Markup.TagBase},System.Collections.Generic.IEnumerable{ToSic.Razor.Markup.TagBase})
-  name: TagChildren(TagBase, IEnumerable<TagBase>, IEnumerable<TagBase>)
-  href: api/ToSic.Razor.Markup.TagChildren.html#ToSic_Razor_Markup_TagChildren__ctor_ToSic_Razor_Markup_TagBase_System_Collections_Generic_IEnumerable_ToSic_Razor_Markup_TagBase__System_Collections_Generic_IEnumerable_ToSic_Razor_Markup_TagBase__
-  commentId: M:ToSic.Razor.Markup.TagChildren.#ctor(ToSic.Razor.Markup.TagBase,System.Collections.Generic.IEnumerable{ToSic.Razor.Markup.TagBase},System.Collections.Generic.IEnumerable{ToSic.Razor.Markup.TagBase})
-  name.vb: TagChildren(TagBase, IEnumerable(Of TagBase), IEnumerable(Of TagBase))
-  fullName: ToSic.Razor.Markup.TagChildren.TagChildren(ToSic.Razor.Markup.TagBase, System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.TagBase>, System.Collections.Generic.IEnumerable<ToSic.Razor.Markup.TagBase>)
-  fullName.vb: ToSic.Razor.Markup.TagChildren.TagChildren(ToSic.Razor.Markup.TagBase, System.Collections.Generic.IEnumerable(Of ToSic.Razor.Markup.TagBase), System.Collections.Generic.IEnumerable(Of ToSic.Razor.Markup.TagBase))
-  nameWithType: TagChildren.TagChildren(TagBase, IEnumerable<TagBase>, IEnumerable<TagBase>)
-  nameWithType.vb: TagChildren.TagChildren(TagBase, IEnumerable(Of TagBase), IEnumerable(Of TagBase))
+- uid: ToSic.Razor.Markup.TagChildren.#ctor(ToSic.Razor.Markup.TagBase,System.Collections.Generic.IEnumerable{ToSic.Razor.Blade.IHtmlTag},System.Collections.Generic.IEnumerable{ToSic.Razor.Blade.IHtmlTag})
+  name: TagChildren(TagBase, IEnumerable<IHtmlTag>, IEnumerable<IHtmlTag>)
+  href: api/ToSic.Razor.Markup.TagChildren.html#ToSic_Razor_Markup_TagChildren__ctor_ToSic_Razor_Markup_TagBase_System_Collections_Generic_IEnumerable_ToSic_Razor_Blade_IHtmlTag__System_Collections_Generic_IEnumerable_ToSic_Razor_Blade_IHtmlTag__
+  commentId: M:ToSic.Razor.Markup.TagChildren.#ctor(ToSic.Razor.Markup.TagBase,System.Collections.Generic.IEnumerable{ToSic.Razor.Blade.IHtmlTag},System.Collections.Generic.IEnumerable{ToSic.Razor.Blade.IHtmlTag})
+  name.vb: TagChildren(TagBase, IEnumerable(Of IHtmlTag), IEnumerable(Of IHtmlTag))
+  fullName: ToSic.Razor.Markup.TagChildren.TagChildren(ToSic.Razor.Markup.TagBase, System.Collections.Generic.IEnumerable<ToSic.Razor.Blade.IHtmlTag>, System.Collections.Generic.IEnumerable<ToSic.Razor.Blade.IHtmlTag>)
+  fullName.vb: ToSic.Razor.Markup.TagChildren.TagChildren(ToSic.Razor.Markup.TagBase, System.Collections.Generic.IEnumerable(Of ToSic.Razor.Blade.IHtmlTag), System.Collections.Generic.IEnumerable(Of ToSic.Razor.Blade.IHtmlTag))
+  nameWithType: TagChildren.TagChildren(TagBase, IEnumerable<IHtmlTag>, IEnumerable<IHtmlTag>)
+  nameWithType.vb: TagChildren.TagChildren(TagBase, IEnumerable(Of IHtmlTag), IEnumerable(Of IHtmlTag))
 - uid: ToSic.Razor.Markup.TagChildren.#ctor(ToSic.Razor.Markup.TagBase,System.Object[])
   name: TagChildren(TagBase, Object[])
   href: api/ToSic.Razor.Markup.TagChildren.html#ToSic_Razor_Markup_TagChildren__ctor_ToSic_Razor_Markup_TagBase_System_Object___

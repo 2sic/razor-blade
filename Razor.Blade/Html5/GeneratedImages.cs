@@ -1,10 +1,14 @@
+using System;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
-
+using ToSic.Razor.Internals;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 07.12.2022 00:28
+// Created 09.12.2022 16:48
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -223,7 +227,7 @@ namespace ToSic.Razor.Html5
     /// <param name="value">what should be in src='...'.
     /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Src(string value) => this.Attr("src", UriEncode(value));
+        public Img Src(string value) => this.Attr("src", UriHelpers.UriEncode(value));
 
 
 
@@ -235,7 +239,7 @@ namespace ToSic.Razor.Html5
     /// <param name="value">what should be in srcset='...'.
     /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Srcset(string value) => this.Attr("srcset", UriEncodeSrcSet(value), ",");
+        public Img Srcset(string value) => this.Attr("srcset", UriHelpers.UriEncodeSrcSet(value), ",");
 
 
 
@@ -247,7 +251,7 @@ namespace ToSic.Razor.Html5
     /// <param name="name">image name</param>
     /// <param name="multiplier">what the images is for - numbers below 8 are used for resolution densities, larger numbers for pixel widths</param>  
     /// <returns>a Img object to enable fluid command chaining</returns>
-        public Img Srcset(string name, int multiplier) => this.Attr("srcset", UriEncode(name) + " " + multiplier + (multiplier > 8 ? "w" : "x"), ",");
+        public Img Srcset(string name, int multiplier) => this.Attr("srcset", UriHelpers.UriEncode(name) + " " + multiplier + (multiplier > 8 ? "w" : "x"), ",");
 
 
     /// <summary>

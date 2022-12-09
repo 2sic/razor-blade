@@ -8,6 +8,7 @@ namespace SourceCodeGenerator.Generator
 using ToSic.Razor.Blade;
 using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
+using ToSic.Razor.Internals;
 using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
