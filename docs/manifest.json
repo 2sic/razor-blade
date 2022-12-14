@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/changelog.html",
-          "hash": "xXb3Qc5JRar5wT5Kk2+zKIX3jjbd5zMniz/EDM4JlOI="
+          "hash": "qAEIMp9OeOrTSCsvglYQgck/3INCU1LoWvYdqmvd3cU="
         }
       },
       "is_incremental": false,
@@ -1776,23 +1776,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 7
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 137,
-          "skipped_file_count": 13
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
