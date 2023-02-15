@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ToSic.Razor")]
-[assembly: AssemblyCopyright("Copyright (MIT) © 2022 by 2sic")]
+[assembly: AssemblyCopyright("Copyright (MIT) © 2023 by 2sic")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,5 +30,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("03.13.0.00")]
-[assembly: AssemblyFileVersion("03.13.0.00")]
+[assembly: AssemblyVersion("04.01.00.00")]
+[assembly: AssemblyFileVersion("04.01.00.00")]

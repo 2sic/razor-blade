@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="ToSic.RazorBlade" type="Library" version="04.00.00">
+    <package name="ToSic.RazorBlade" type="Library" version="04.01.00">
       <friendlyName>2sic RazorBlade</friendlyName>
       <description>2sic RazorBlade</description>
       <iconFile>icon.png</iconFile>
@@ -14,7 +14,7 @@
       <releaseNotes src="razorblade\ReleaseNotes.txt"></releaseNotes>
       <azureCompatible>true</azureCompatible>
       <dependencies>
-        <dependency type="CoreVersion">07.00.02</dependency>
+        <dependency type="CoreVersion">09.06.01</dependency>
       </dependencies>
 
       <components>
