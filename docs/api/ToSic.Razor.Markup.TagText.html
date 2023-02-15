@@ -523,17 +523,52 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ToSic.Razor.Markup.RawHtmlString</span></div>
     <div class="level2"><a class="xref" href="ToSic.Razor.Markup.TagBase.html">TagBase</a></div>
-    <div class="level3"><span class="xref">TagText</span></div>
+    <div class="level3"><a class="xref" href="ToSic.Razor.Markup.Tag-1.html">Tag</a>&lt;<a class="xref" href="ToSic.Razor.Markup.TagText.html">TagText</a>&gt;</div>
+    <div class="level4"><span class="xref">TagText</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">System.Web.IHtmlString</span></div>
+    <div><a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a></div>
     <div><a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a></div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Attr_System_String_System_Object_System_String_">Tag&lt;TagText&gt;.Attr(String, Object, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Attr_System_Object_">Tag&lt;TagText&gt;.Attr(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Id_System_String_">Tag&lt;TagText&gt;.Id(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Class_System_String_">Tag&lt;TagText&gt;.Class(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Style_System_String_">Tag&lt;TagText&gt;.Style(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Title_System_String_">Tag&lt;TagText&gt;.Title(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Data_System_String_System_Object_">Tag&lt;TagText&gt;.Data(String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_On_System_String_System_Object_">Tag&lt;TagText&gt;.On(String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Add_System_Object___">Tag&lt;TagText&gt;.Add(Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_Wrap_System_Object___">Tag&lt;TagText&gt;.Wrap(Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.Tag-1.html#ToSic_Razor_Markup_Tag_1_AsHtmlTag">Tag&lt;TagText&gt;.AsHtmlTag()</a>
+    </div>
     <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_IsImmutable">TagBase.IsImmutable</a>
     </div>
@@ -545,6 +580,9 @@
     </div>
     <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagName">TagBase.TagName</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_TagOptions">TagBase.TagOptions</a>
     </div>
     <div>
       <a class="xref" href="ToSic.Razor.Markup.TagBase.html#ToSic_Razor_Markup_TagBase_ToString">TagBase.ToString()</a>
@@ -566,7 +604,7 @@
   <h6><strong>Assembly</strong>: ToSic.Razor.dll</h6>
   <h5 id="ToSic_Razor_Markup_TagText_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TagText : TagBase, IHtmlString, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TagText : Tag&lt;TagText&gt;, IHtmlString, IHtmlTag, ITag, IEnumerable&lt;ITag&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -605,6 +643,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.Web.IHtmlString</span>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a>
   </div>
   <div>
       <a class="xref" href="ToSic.Razor.Markup.ITag.html">ITag</a>

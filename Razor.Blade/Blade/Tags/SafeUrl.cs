@@ -1,10 +1,4 @@
-﻿#if NETFRAMEWORK
-using HtmlString = System.Web.HtmlString;
-#else
-//using IHtmlString = Microsoft.AspNetCore.Html.IHtmlContent;
-using HtmlString = Microsoft.AspNetCore.Html.HtmlString;
-//using HtmlEncoder = System.Text.Encodings.Web.HtmlEncoder;
-#endif
+﻿using ToSic.Razor.Internals;
 using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Blade
@@ -17,6 +11,6 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="url"></param>
         /// <returns></returns>
-        public static HtmlString SafeUrl(string url) => new HtmlString(TagBase.UriEncode(url));
+        public static RawHtmlString SafeUrl(string url) => new RawHtmlString(UriHelpers.UriEncode(url));
     }
 }

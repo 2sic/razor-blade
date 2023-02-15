@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using ToSic.Razor.Blade;
 
 namespace ToSic.Razor.Markup
 {
     public partial class TagChildren
     {
-        private static IReadOnlyCollection<TagBase> Add(IReadOnlyCollection<TagBase> list, params object[] children)
+        private static IReadOnlyCollection<IHtmlTag> Add(IReadOnlyCollection<IHtmlTag> list, params object[] children)
         {
             if (children == null || children.Length == 0) return list;
 
-            var newList = new List<TagBase>(list);
+            var newList = new List<IHtmlTag>(list);
 
             if (children.Length == 1)
             {
@@ -32,7 +33,7 @@ namespace ToSic.Razor.Markup
             // 2. Import a TagBase list
             // if it's a classic tag list - everything is ok
             // This could also be the result of processing #1 before
-            if (children is IEnumerable<TagBase> childList)
+            if (children is IEnumerable<IHtmlTag> childList)
             {
                 newList.AddRange(childList);
                 return newList;
@@ -47,7 +48,7 @@ namespace ToSic.Razor.Markup
             return newList;
         }
 
-        private static bool AddOrSkipNullOrTagBase(List<TagBase> newList, object child)
+        private static bool AddOrSkipNullOrTagBase(List<IHtmlTag> newList, object child)
         {
             // Prevent null problems on further type checks
             if (child is null) return true;

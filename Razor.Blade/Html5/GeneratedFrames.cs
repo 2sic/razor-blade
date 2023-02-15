@@ -1,10 +1,14 @@
+using System;
+using ToSic.Razor.Blade;
+using ToSic.Razor.Html5;
 using ToSic.Razor.Markup;
-
+using ToSic.Razor.Internals;
+using ToSic.Razor.Internals.Documentation;
 // ****
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 07.12.2022 00:28
+// Created 09.12.2022 16:48
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -99,7 +103,7 @@ namespace ToSic.Razor.Html5
     /// <param name="value">what should be in src='...'.
     /// If called multiple times, later values replace the previous value.</param>
     /// <returns>a Iframe object to enable fluid command chaining</returns>
-        public Iframe Src(string value) => this.Attr("src", UriEncode(value));
+        public Iframe Src(string value) => this.Attr("src", UriHelpers.UriEncode(value));
 
 
 

@@ -21,14 +21,14 @@ namespace ToSic.Razor.Markup
         protected Tag(string name, TagOptions options, object[] content) 
             : base(name: name, options: options, content: content) { }
 
-        protected Tag(string name, string tagOverride, TagOptions options = null) 
-            : base(name: name, options: options, tagOverride: tagOverride ) { }
+        protected Tag(bool dummyForConstructor, string tagOverride, TagOptions options = null) 
+            : base(options: options, tagOverride: tagOverride ) { }
 
         /// <summary>
         /// Special constructor just for cloning with changes
         /// </summary>
         /// <param name="original"></param>
-        protected internal Tag(TagBase original, CloneChanges changes)
+        protected internal Tag(Tag<T> original, CloneChanges changes)
             : base(original: original, name: null, tagOverride: null, children: changes.Children, attributes: changes.Attributes, options: changes.Options)
         { }
 

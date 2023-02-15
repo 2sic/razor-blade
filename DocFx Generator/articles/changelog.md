@@ -17,6 +17,7 @@
 * The `AttributeOptions` and `TagOptions` were made read-only for reliable fluid / immutable APIs.
   This is kind of a **breaking change** but we believe it won't affect anybody.
   since it was basically an internal API which nobody used outside of this.
+* Changed minimum requirement on `Razor.Blade.Dnn` to be DNN 9.6.1
 
 ## Version 3
 

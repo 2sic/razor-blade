@@ -10,21 +10,11 @@ namespace ToSic.RazorBladeTests.TagTests
 {
     public class TagTestBase
     {
+        public void Is<T>(string expected, T result, string? message = null) where T: Tag<T>
+            => Is(expected, result.ToString(), message);
 
-        public void Is(string expected, TagBase result, string? message = null)
-        {
-            Is(expected, result.ToString(), message);
-            //Assert.AreEqual(expected, result.ToString(), message);
-        }
-
-        public void Is(string expected, IHtmlString result, string? message = null)
-        {
-            //var resultStr = result.ToString();
-            //int index = expected.Zip(resultStr, (c1, c2) => c1 == c2).TakeWhile(b => b).Count() + 1;
-
-            //Assert.AreEqual(expected, resultStr, message + $"(pos: {index}");
-            Is(expected, result.ToString(), message);
-        }
+        public void Is(string expected, IHtmlString result, string? message = null) 
+            => Is(expected, result.ToString(), message);
 
         private void Is(string expected, string result, string? message = null)
         {

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ToSic.Razor.Internals.Documentation;
 
 namespace ToSic.Razor.Markup
 {
@@ -18,6 +19,11 @@ namespace ToSic.Razor.Markup
         TagChildren TagChildren { get; }
 
         /// <summary>
+        /// The options which determine how the tag will be generated.
+        /// </summary>
+        TagOptions TagOptions { get; }
+
+        /// <summary>
         /// The tag name
         /// </summary>
         string TagName { get; }
@@ -26,6 +32,14 @@ namespace ToSic.Razor.Markup
         /// Gets the HTML encoded value.
         /// </summary>
         string ToString();
+
+        /// <summary>
+        /// ToString with custom options how to get it done.
+        /// </summary>
+        /// <param name="optionsOrNull"></param>
+        /// <returns></returns>
+        [PrivateApi]
+        string ToString(TagOptions optionsOrNull);
 
         #region .Open and .Close
 

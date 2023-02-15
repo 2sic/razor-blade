@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ToSic.Razor.Internals;
 
 namespace ToSic.Razor.Markup
 {
@@ -45,7 +46,7 @@ namespace ToSic.Razor.Markup
         internal Attributes AddObject(object nameOrValue) => Add(nameOrValue?.ToString());
 
         public Attributes AddUrl(string name, object value = null, string appendSeparator = null)
-            => Add(name, TagBase.UriEncode(value?.ToString()), appendSeparator);
+            => Add(name, UriHelpers.UriEncode(value?.ToString()), appendSeparator);
         
 
         /// <summary>
