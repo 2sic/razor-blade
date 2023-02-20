@@ -105,7 +105,7 @@ Standalone ? "" : $@"
 
         public string HtmlTagServiceCode => $@"
     /// <inheritdoc />
-    public {ClassName} {ClassName}(params object[] content) => new {ClassName}(true, content);";
+    public {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
 
         public string HtmlTagServiceInterfaceCode => $@"{Comment(ContentParamName)}
     /// <code>

@@ -11,10 +11,10 @@ namespace SourceCodeGenerator.Generator
         /// <summary>
         /// Target path to store generated code in
         /// </summary>
-        public const string GeneratedTargetPath = @"C:\Projects\razor-blades\Razor.Blade\Html5\";
+        public const string GeneratedTargetPath = @"C:\Projects\razor-blade\Razor.Blade\Html5\";
         
 
-        public const string PathForTagService = @"C:\Projects\razor-blades\Razor.Blade\Blade\HtmlTagService\";
+        public const string PathForTagService = @"C:\Projects\razor-blade\Razor.Blade\Blade\HtmlTagService\";
 
         public static void GenerateFormatting()
         {

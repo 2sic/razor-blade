@@ -8,7 +8,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 09.12.2022 16:48
+// Created 20.2.2023. 11:37
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -28,324 +28,324 @@ namespace ToSic.Razor.Blade
     {
         
     /// <inheritdoc />
-    public A A(params object[] content) => new A(true, content);
+    public A A(params object[] content) => new A(content);
 
     /// <inheritdoc />
-    public Abbr Abbr(params object[] content) => new Abbr(true, content);
+    public Abbr Abbr(params object[] content) => new Abbr(content);
 
     /// <inheritdoc />
-    public Address Address(params object[] content) => new Address(true, content);
+    public Address Address(params object[] content) => new Address(content);
 
     /// <inheritdoc />
-    public Area Area(params object[] content) => new Area(true, content);
+    public Area Area(params object[] content) => new Area(content);
 
     /// <inheritdoc />
-    public Article Article(params object[] content) => new Article(true, content);
+    public Article Article(params object[] content) => new Article(content);
 
     /// <inheritdoc />
-    public Aside Aside(params object[] content) => new Aside(true, content);
+    public Aside Aside(params object[] content) => new Aside(content);
 
     /// <inheritdoc />
-    public Audio Audio(params object[] content) => new Audio(true, content);
+    public Audio Audio(params object[] content) => new Audio(content);
 
     /// <inheritdoc />
-    public B B(params object[] content) => new B(true, content);
+    public B B(params object[] content) => new B(content);
 
     /// <inheritdoc />
-    public Base Base(params object[] content) => new Base(true, content);
+    public Base Base(params object[] content) => new Base(content);
 
     /// <inheritdoc />
-    public Bdi Bdi(params object[] content) => new Bdi(true, content);
+    public Bdi Bdi(params object[] content) => new Bdi(content);
 
     /// <inheritdoc />
-    public Bdo Bdo(params object[] content) => new Bdo(true, content);
+    public Bdo Bdo(params object[] content) => new Bdo(content);
 
     /// <inheritdoc />
-    public Blockquote Blockquote(params object[] content) => new Blockquote(true, content);
+    public Blockquote Blockquote(params object[] content) => new Blockquote(content);
 
     /// <inheritdoc />
-    public Br Br(params object[] content) => new Br(true, content);
+    public Br Br(params object[] content) => new Br(content);
 
     /// <inheritdoc />
-    public Button Button(params object[] content) => new Button(true, content);
+    public Button Button(params object[] content) => new Button(content);
 
     /// <inheritdoc />
-    public Canvas Canvas(params object[] content) => new Canvas(true, content);
+    public Canvas Canvas(params object[] content) => new Canvas(content);
 
     /// <inheritdoc />
-    public Caption Caption(params object[] content) => new Caption(true, content);
+    public Caption Caption(params object[] content) => new Caption(content);
 
     /// <inheritdoc />
-    public Cite Cite(params object[] content) => new Cite(true, content);
+    public Cite Cite(params object[] content) => new Cite(content);
 
     /// <inheritdoc />
-    public Code Code(params object[] content) => new Code(true, content);
+    public Code Code(params object[] content) => new Code(content);
 
     /// <inheritdoc />
-    public Col Col(params object[] content) => new Col(true, content);
+    public Col Col(params object[] content) => new Col(content);
 
     /// <inheritdoc />
-    public Colgroup Colgroup(params object[] content) => new Colgroup(true, content);
+    public Colgroup Colgroup(params object[] content) => new Colgroup(content);
 
     /// <inheritdoc />
-    public Data Data(params object[] content) => new Data(true, content);
+    public Data Data(params object[] content) => new Data(content);
 
     /// <inheritdoc />
-    public Datalist Datalist(params object[] content) => new Datalist(true, content);
+    public Datalist Datalist(params object[] content) => new Datalist(content);
 
     /// <inheritdoc />
-    public Dd Dd(params object[] content) => new Dd(true, content);
+    public Dd Dd(params object[] content) => new Dd(content);
 
     /// <inheritdoc />
-    public Del Del(params object[] content) => new Del(true, content);
+    public Del Del(params object[] content) => new Del(content);
 
     /// <inheritdoc />
-    public Details Details(params object[] content) => new Details(true, content);
+    public Details Details(params object[] content) => new Details(content);
 
     /// <inheritdoc />
-    public Dfn Dfn(params object[] content) => new Dfn(true, content);
+    public Dfn Dfn(params object[] content) => new Dfn(content);
 
     /// <inheritdoc />
-    public Dialog Dialog(params object[] content) => new Dialog(true, content);
+    public Dialog Dialog(params object[] content) => new Dialog(content);
 
     /// <inheritdoc />
-    public Div Div(params object[] content) => new Div(true, content);
+    public Div Div(params object[] content) => new Div(content);
 
     /// <inheritdoc />
-    public Dl Dl(params object[] content) => new Dl(true, content);
+    public Dl Dl(params object[] content) => new Dl(content);
 
     /// <inheritdoc />
-    public Dt Dt(params object[] content) => new Dt(true, content);
+    public Dt Dt(params object[] content) => new Dt(content);
 
     /// <inheritdoc />
-    public Em Em(params object[] content) => new Em(true, content);
+    public Em Em(params object[] content) => new Em(content);
 
     /// <inheritdoc />
-    public Embed Embed(params object[] content) => new Embed(true, content);
+    public Embed Embed(params object[] content) => new Embed(content);
 
     /// <inheritdoc />
-    public Fieldset Fieldset(params object[] content) => new Fieldset(true, content);
+    public Fieldset Fieldset(params object[] content) => new Fieldset(content);
 
     /// <inheritdoc />
-    public Figcaption Figcaption(params object[] content) => new Figcaption(true, content);
+    public Figcaption Figcaption(params object[] content) => new Figcaption(content);
 
     /// <inheritdoc />
-    public Figure Figure(params object[] content) => new Figure(true, content);
+    public Figure Figure(params object[] content) => new Figure(content);
 
     /// <inheritdoc />
-    public Footer Footer(params object[] content) => new Footer(true, content);
+    public Footer Footer(params object[] content) => new Footer(content);
 
     /// <inheritdoc />
-    public Form Form(params object[] content) => new Form(true, content);
+    public Form Form(params object[] content) => new Form(content);
 
     /// <inheritdoc />
-    public H1 H1(params object[] content) => new H1(true, content);
+    public H1 H1(params object[] content) => new H1(content);
 
     /// <inheritdoc />
-    public H2 H2(params object[] content) => new H2(true, content);
+    public H2 H2(params object[] content) => new H2(content);
 
     /// <inheritdoc />
-    public H3 H3(params object[] content) => new H3(true, content);
+    public H3 H3(params object[] content) => new H3(content);
 
     /// <inheritdoc />
-    public H4 H4(params object[] content) => new H4(true, content);
+    public H4 H4(params object[] content) => new H4(content);
 
     /// <inheritdoc />
-    public H5 H5(params object[] content) => new H5(true, content);
+    public H5 H5(params object[] content) => new H5(content);
 
     /// <inheritdoc />
-    public H6 H6(params object[] content) => new H6(true, content);
+    public H6 H6(params object[] content) => new H6(content);
 
     /// <inheritdoc />
-    public Head Head(params object[] content) => new Head(true, content);
+    public Head Head(params object[] content) => new Head(content);
 
     /// <inheritdoc />
-    public Header Header(params object[] content) => new Header(true, content);
+    public Header Header(params object[] content) => new Header(content);
 
     /// <inheritdoc />
-    public Hr Hr(params object[] content) => new Hr(true, content);
+    public Hr Hr(params object[] content) => new Hr(content);
 
     /// <inheritdoc />
-    public I I(params object[] content) => new I(true, content);
+    public I I(params object[] content) => new I(content);
 
     /// <inheritdoc />
-    public Iframe Iframe(params object[] content) => new Iframe(true, content);
+    public Iframe Iframe(params object[] content) => new Iframe(content);
 
     /// <inheritdoc />
-    public Img Img(params object[] content) => new Img(true, content);
+    public Img Img(params object[] content) => new Img(content);
 
     /// <inheritdoc />
-    public Input Input(params object[] content) => new Input(true, content);
+    public Input Input(params object[] content) => new Input(content);
 
     /// <inheritdoc />
-    public Ins Ins(params object[] content) => new Ins(true, content);
+    public Ins Ins(params object[] content) => new Ins(content);
 
     /// <inheritdoc />
-    public Kbd Kbd(params object[] content) => new Kbd(true, content);
+    public Kbd Kbd(params object[] content) => new Kbd(content);
 
     /// <inheritdoc />
-    public Label Label(params object[] content) => new Label(true, content);
+    public Label Label(params object[] content) => new Label(content);
 
     /// <inheritdoc />
-    public Legend Legend(params object[] content) => new Legend(true, content);
+    public Legend Legend(params object[] content) => new Legend(content);
 
     /// <inheritdoc />
-    public Li Li(params object[] content) => new Li(true, content);
+    public Li Li(params object[] content) => new Li(content);
 
     /// <inheritdoc />
-    public Link Link(params object[] content) => new Link(true, content);
+    public Link Link(params object[] content) => new Link(content);
 
     /// <inheritdoc />
-    public Main Main(params object[] content) => new Main(true, content);
+    public Main Main(params object[] content) => new Main(content);
 
     /// <inheritdoc />
-    public Map Map(params object[] content) => new Map(true, content);
+    public Map Map(params object[] content) => new Map(content);
 
     /// <inheritdoc />
-    public Mark Mark(params object[] content) => new Mark(true, content);
+    public Mark Mark(params object[] content) => new Mark(content);
 
     /// <inheritdoc />
-    public Meta Meta(params object[] content) => new Meta(true, content);
+    public Meta Meta(params object[] content) => new Meta(content);
 
     /// <inheritdoc />
-    public Meter Meter(params object[] content) => new Meter(true, content);
+    public Meter Meter(params object[] content) => new Meter(content);
 
     /// <inheritdoc />
-    public Nav Nav(params object[] content) => new Nav(true, content);
+    public Nav Nav(params object[] content) => new Nav(content);
 
     /// <inheritdoc />
-    public Noscript Noscript(params object[] content) => new Noscript(true, content);
+    public Noscript Noscript(params object[] content) => new Noscript(content);
 
     /// <inheritdoc />
-    public Object Object(params object[] content) => new Object(true, content);
+    public Object Object(params object[] content) => new Object(content);
 
     /// <inheritdoc />
-    public Ol Ol(params object[] content) => new Ol(true, content);
+    public Ol Ol(params object[] content) => new Ol(content);
 
     /// <inheritdoc />
-    public Optgroup Optgroup(params object[] content) => new Optgroup(true, content);
+    public Optgroup Optgroup(params object[] content) => new Optgroup(content);
 
     /// <inheritdoc />
-    public Option Option(params object[] content) => new Option(true, content);
+    public Option Option(params object[] content) => new Option(content);
 
     /// <inheritdoc />
-    public Output Output(params object[] content) => new Output(true, content);
+    public Output Output(params object[] content) => new Output(content);
 
     /// <inheritdoc />
-    public P P(params object[] content) => new P(true, content);
+    public P P(params object[] content) => new P(content);
 
     /// <inheritdoc />
-    public Param Param(params object[] content) => new Param(true, content);
+    public Param Param(params object[] content) => new Param(content);
 
     /// <inheritdoc />
-    public Picture Picture(params object[] content) => new Picture(true, content);
+    public Picture Picture(params object[] content) => new Picture(content);
 
     /// <inheritdoc />
-    public Pre Pre(params object[] content) => new Pre(true, content);
+    public Pre Pre(params object[] content) => new Pre(content);
 
     /// <inheritdoc />
-    public Progress Progress(params object[] content) => new Progress(true, content);
+    public Progress Progress(params object[] content) => new Progress(content);
 
     /// <inheritdoc />
-    public Q Q(params object[] content) => new Q(true, content);
+    public Q Q(params object[] content) => new Q(content);
 
     /// <inheritdoc />
-    public Rp Rp(params object[] content) => new Rp(true, content);
+    public Rp Rp(params object[] content) => new Rp(content);
 
     /// <inheritdoc />
-    public Rt Rt(params object[] content) => new Rt(true, content);
+    public Rt Rt(params object[] content) => new Rt(content);
 
     /// <inheritdoc />
-    public Ruby Ruby(params object[] content) => new Ruby(true, content);
+    public Ruby Ruby(params object[] content) => new Ruby(content);
 
     /// <inheritdoc />
-    public S S(params object[] content) => new S(true, content);
+    public S S(params object[] content) => new S(content);
 
     /// <inheritdoc />
-    public Samp Samp(params object[] content) => new Samp(true, content);
+    public Samp Samp(params object[] content) => new Samp(content);
 
     /// <inheritdoc />
-    public Script Script(params object[] content) => new Script(true, content);
+    public Script Script(params object[] content) => new Script(content);
 
     /// <inheritdoc />
-    public Section Section(params object[] content) => new Section(true, content);
+    public Section Section(params object[] content) => new Section(content);
 
     /// <inheritdoc />
-    public Select Select(params object[] content) => new Select(true, content);
+    public Select Select(params object[] content) => new Select(content);
 
     /// <inheritdoc />
-    public Small Small(params object[] content) => new Small(true, content);
+    public Small Small(params object[] content) => new Small(content);
 
     /// <inheritdoc />
-    public Source Source(params object[] content) => new Source(true, content);
+    public Source Source(params object[] content) => new Source(content);
 
     /// <inheritdoc />
-    public Span Span(params object[] content) => new Span(true, content);
+    public Span Span(params object[] content) => new Span(content);
 
     /// <inheritdoc />
-    public Strong Strong(params object[] content) => new Strong(true, content);
+    public Strong Strong(params object[] content) => new Strong(content);
 
     /// <inheritdoc />
-    public Style Style(params object[] content) => new Style(true, content);
+    public Style Style(params object[] content) => new Style(content);
 
     /// <inheritdoc />
-    public Sub Sub(params object[] content) => new Sub(true, content);
+    public Sub Sub(params object[] content) => new Sub(content);
 
     /// <inheritdoc />
-    public Summary Summary(params object[] content) => new Summary(true, content);
+    public Summary Summary(params object[] content) => new Summary(content);
 
     /// <inheritdoc />
-    public Sup Sup(params object[] content) => new Sup(true, content);
+    public Sup Sup(params object[] content) => new Sup(content);
 
     /// <inheritdoc />
-    public Svg Svg(params object[] content) => new Svg(true, content);
+    public Svg Svg(params object[] content) => new Svg(content);
 
     /// <inheritdoc />
-    public Table Table(params object[] content) => new Table(true, content);
+    public Table Table(params object[] content) => new Table(content);
 
     /// <inheritdoc />
-    public Tbody Tbody(params object[] content) => new Tbody(true, content);
+    public Tbody Tbody(params object[] content) => new Tbody(content);
 
     /// <inheritdoc />
-    public Td Td(params object[] content) => new Td(true, content);
+    public Td Td(params object[] content) => new Td(content);
 
     /// <inheritdoc />
-    public Template Template(params object[] content) => new Template(true, content);
+    public Template Template(params object[] content) => new Template(content);
 
     /// <inheritdoc />
-    public Textarea Textarea(params object[] content) => new Textarea(true, content);
+    public Textarea Textarea(params object[] content) => new Textarea(content);
 
     /// <inheritdoc />
-    public Tfoot Tfoot(params object[] content) => new Tfoot(true, content);
+    public Tfoot Tfoot(params object[] content) => new Tfoot(content);
 
     /// <inheritdoc />
-    public Th Th(params object[] content) => new Th(true, content);
+    public Th Th(params object[] content) => new Th(content);
 
     /// <inheritdoc />
-    public Thead Thead(params object[] content) => new Thead(true, content);
+    public Thead Thead(params object[] content) => new Thead(content);
 
     /// <inheritdoc />
-    public Time Time(params object[] content) => new Time(true, content);
+    public Time Time(params object[] content) => new Time(content);
 
     /// <inheritdoc />
-    public Tr Tr(params object[] content) => new Tr(true, content);
+    public Tr Tr(params object[] content) => new Tr(content);
 
     /// <inheritdoc />
-    public Track Track(params object[] content) => new Track(true, content);
+    public Track Track(params object[] content) => new Track(content);
 
     /// <inheritdoc />
-    public U U(params object[] content) => new U(true, content);
+    public U U(params object[] content) => new U(content);
 
     /// <inheritdoc />
-    public Ul Ul(params object[] content) => new Ul(true, content);
+    public Ul Ul(params object[] content) => new Ul(content);
 
     /// <inheritdoc />
-    public Var Var(params object[] content) => new Var(true, content);
+    public Var Var(params object[] content) => new Var(content);
 
     /// <inheritdoc />
-    public Video Video(params object[] content) => new Video(true, content);
+    public Video Video(params object[] content) => new Video(content);
 
     /// <inheritdoc />
-    public Wbr Wbr(params object[] content) => new Wbr(true, content);
+    public Wbr Wbr(params object[] content) => new Wbr(content);
     }
 }
