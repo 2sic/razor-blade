@@ -2,7 +2,7 @@
 
 namespace ToSic.Razor.Blade
 {
-    public partial class HtmlTagServiceImplementation
+    public partial class HtmlTagsServiceImplementation
     {
         /// <inheritdoc />
         public MetaOg MetaOg(string property = null, string content = null) => new MetaOg(property, content);

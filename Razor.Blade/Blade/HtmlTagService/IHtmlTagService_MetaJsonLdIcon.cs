@@ -2,7 +2,7 @@
 
 namespace ToSic.Razor.Blade
 {
-    public partial interface IHtmlTagService
+    public partial interface IHtmlTagsService
     {
         /// <summary>
         /// Generate a open-graph Meta tag.

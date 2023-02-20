@@ -3,7 +3,7 @@ using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Blade
 {
-    public partial interface IHtmlTagService
+    public partial interface IHtmlTagsService
     {
         /// <summary>
         /// Create a HTML comment with something inside. 

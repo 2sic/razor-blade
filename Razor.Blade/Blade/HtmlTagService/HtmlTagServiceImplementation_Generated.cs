@@ -24,7 +24,7 @@ using ToSic.Razor.Internals.Documentation;
 // ReSharper disable once CheckNamespace
 namespace ToSic.Razor.Blade
 {
-    public partial class HtmlTagServiceImplementation
+    public partial class HtmlTagsServiceImplementation
     {
         
     /// <inheritdoc />

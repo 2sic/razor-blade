@@ -3,7 +3,7 @@
 namespace ToSic.Razor.Blade
 {
     [PrivateApi("Hide implementation")]
-    public partial class HtmlTagServiceImplementation: IHtmlTagService
+    public partial class HtmlTagsServiceImplementation: IHtmlTagsService
     {
     }
 }

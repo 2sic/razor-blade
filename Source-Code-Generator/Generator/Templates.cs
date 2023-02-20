@@ -60,12 +60,12 @@ namespace ToSic.Razor.Blade
 
         public static CodeFileSpecs HtmlTagsImplementation = new CodeFileSpecs
         {
-            FileName = "HtmlTagServiceImplementation_Generated.cs",
+            FileName = "HtmlTagsServiceImplementation_Generated.cs",
             Wrapper = Intro + @"
 // ReSharper disable once CheckNamespace
 namespace ToSic.Razor.Blade
 {
-    public partial class HtmlTagServiceImplementation
+    public partial class HtmlTagsServiceImplementation
     {
         {Contents}
     }
@@ -76,12 +76,12 @@ namespace ToSic.Razor.Blade
 
         public static CodeFileSpecs IHtmlTags => new CodeFileSpecs
         {
-            FileName = "IHtmlTagService_Generated.cs",
+            FileName = "IHtmlTagsService_Generated.cs",
             Wrapper = Intro + @"
 // ReSharper disable once CheckNamespace
 namespace ToSic.Razor.Blade
 {
-    public partial interface IHtmlTagService
+    public partial interface IHtmlTagsService
     {
         {Contents}
     }

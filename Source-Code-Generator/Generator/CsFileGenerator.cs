@@ -14,7 +14,7 @@ namespace SourceCodeGenerator.Generator
         public const string GeneratedTargetPath = @"C:\Projects\razor-blade\Razor.Blade\Html5\";
         
 
-        public const string PathForTagService = @"C:\Projects\razor-blade\Razor.Blade\Blade\HtmlTagService\";
+        public const string PathForTagService = @"C:\Projects\razor-blade\Razor.Blade\Blade\HtmlTagsService\";
 
         public static void GenerateFormatting()
         {
@@ -33,17 +33,17 @@ namespace SourceCodeGenerator.Generator
             var qaFile = GeneratedTargetPath + specs.FileName;
             ReplaceFile(qaFile, quickAccess);
 
-            // Generate HtmlTagService
+            // Generate HtmlTagsService
             specs = Templates.HtmlTagsImplementation;
-            var htmlTagService = GenerateHtmlTagService(specs);
+            var HtmlTagsService = GenerateHtmlTagsService(specs);
             var htFile = PathForTagService + specs.FileName;
-            ReplaceFile(htFile, htmlTagService);
+            ReplaceFile(htFile, HtmlTagsService);
 
-            // Generate IHtmlTagService
+            // Generate IHtmlTagsService
             specs = Templates.IHtmlTags;
-            htmlTagService = GenerateHtmlTagServiceInterface(specs);
+            HtmlTagsService = GenerateHtmlTagsServiceInterface(specs);
             htFile = PathForTagService + Templates.IHtmlTags.FileName;
-            ReplaceFile(htFile, htmlTagService);
+            ReplaceFile(htFile, HtmlTagsService);
         }
 
         /// <summary>
@@ -81,15 +81,15 @@ namespace SourceCodeGenerator.Generator
             var template = specs.Wrapper.Replace("{Contents}", string.Join("\n", list));
             return template;
         }
-        private static string GenerateHtmlTagService(CodeFileSpecs specs)
+        private static string GenerateHtmlTagsService(CodeFileSpecs specs)
         {
-            var list = CommandsList().Select(c => c.HtmlTagServiceCode);
+            var list = CommandsList().Select(c => c.HtmlTagsServiceCode);
             var template = specs.Wrapper.Replace("{Contents}", string.Join("\n", list));
             return template;
         }
-        private static string GenerateHtmlTagServiceInterface(CodeFileSpecs specs)
+        private static string GenerateHtmlTagsServiceInterface(CodeFileSpecs specs)
         {
-            var list = CommandsList().Select(c => c.HtmlTagServiceInterfaceCode);
+            var list = CommandsList().Select(c => c.HtmlTagsServiceInterfaceCode);
             var template =  specs.Wrapper.Replace("{Contents}", string.Join("\n", list));
             return template;
         }

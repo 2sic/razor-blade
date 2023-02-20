@@ -18,7 +18,7 @@
     /// var tagOldWithId = tagOld.Id(...).Style(...).Class(...);
     /// // now tagOld and tagOldWithId are both the same objects with all changes applied
     ///
-    /// // New API - assumes tagSvc is IHtmlTagService
+    /// // New API - assumes tagSvc is IHtmlTagsService
     /// // these two objects will NOT be the same
     /// var tag = tagSvc.Div();
     /// var tagWithId = tag.Id(...).Style(...).Class(...);
@@ -30,7 +30,7 @@
     /// * Introduced in v4.0
     /// * It intentionally uses the term "Service" in the end (different from <see cref="IScrub"/> to prevent confusion with <see cref="IHtmlTag"/>.
     /// </remarks>
-    public partial interface IHtmlTagService
+    public partial interface IHtmlTagsService
     {
 
     }
