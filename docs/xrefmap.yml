@@ -142,1849 +142,1849 @@ references:
   isSpec: "True"
   fullName: ToSic.Razor.Blade.IHtmlTag.Wrap
   nameWithType: IHtmlTag.Wrap
-- uid: ToSic.Razor.Blade.IHtmlTagService
-  name: IHtmlTagService
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html
-  commentId: T:ToSic.Razor.Blade.IHtmlTagService
-  fullName: ToSic.Razor.Blade.IHtmlTagService
-  nameWithType: IHtmlTagService
-- uid: ToSic.Razor.Blade.IHtmlTagService.A(System.Object[])
+- uid: ToSic.Razor.Blade.IHtmlTagsService
+  name: IHtmlTagsService
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html
+  commentId: T:ToSic.Razor.Blade.IHtmlTagsService
+  fullName: ToSic.Razor.Blade.IHtmlTagsService
+  nameWithType: IHtmlTagsService
+- uid: ToSic.Razor.Blade.IHtmlTagsService.A(System.Object[])
   name: A(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_A_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.A(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_A_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.A(System.Object[])
   name.vb: A(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.A(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.A(System.Object())
-  nameWithType: IHtmlTagService.A(Object[])
-  nameWithType.vb: IHtmlTagService.A(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.A*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.A(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.A(System.Object())
+  nameWithType: IHtmlTagsService.A(Object[])
+  nameWithType.vb: IHtmlTagsService.A(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.A*
   name: A
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_A_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.A
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_A_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.A
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.A
-  nameWithType: IHtmlTagService.A
-- uid: ToSic.Razor.Blade.IHtmlTagService.Abbr(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.A
+  nameWithType: IHtmlTagsService.A
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Abbr(System.Object[])
   name: Abbr(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Abbr_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Abbr(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Abbr_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Abbr(System.Object[])
   name.vb: Abbr(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Abbr(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Abbr(System.Object())
-  nameWithType: IHtmlTagService.Abbr(Object[])
-  nameWithType.vb: IHtmlTagService.Abbr(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Abbr*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Abbr(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Abbr(System.Object())
+  nameWithType: IHtmlTagsService.Abbr(Object[])
+  nameWithType.vb: IHtmlTagsService.Abbr(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Abbr*
   name: Abbr
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Abbr_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Abbr
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Abbr_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Abbr
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Abbr
-  nameWithType: IHtmlTagService.Abbr
-- uid: ToSic.Razor.Blade.IHtmlTagService.Address(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Abbr
+  nameWithType: IHtmlTagsService.Abbr
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Address(System.Object[])
   name: Address(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Address_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Address(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Address_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Address(System.Object[])
   name.vb: Address(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Address(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Address(System.Object())
-  nameWithType: IHtmlTagService.Address(Object[])
-  nameWithType.vb: IHtmlTagService.Address(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Address*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Address(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Address(System.Object())
+  nameWithType: IHtmlTagsService.Address(Object[])
+  nameWithType.vb: IHtmlTagsService.Address(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Address*
   name: Address
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Address_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Address
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Address_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Address
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Address
-  nameWithType: IHtmlTagService.Address
-- uid: ToSic.Razor.Blade.IHtmlTagService.Area(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Address
+  nameWithType: IHtmlTagsService.Address
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Area(System.Object[])
   name: Area(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Area_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Area(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Area_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Area(System.Object[])
   name.vb: Area(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Area(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Area(System.Object())
-  nameWithType: IHtmlTagService.Area(Object[])
-  nameWithType.vb: IHtmlTagService.Area(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Area*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Area(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Area(System.Object())
+  nameWithType: IHtmlTagsService.Area(Object[])
+  nameWithType.vb: IHtmlTagsService.Area(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Area*
   name: Area
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Area_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Area
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Area_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Area
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Area
-  nameWithType: IHtmlTagService.Area
-- uid: ToSic.Razor.Blade.IHtmlTagService.Article(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Area
+  nameWithType: IHtmlTagsService.Area
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Article(System.Object[])
   name: Article(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Article_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Article(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Article_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Article(System.Object[])
   name.vb: Article(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Article(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Article(System.Object())
-  nameWithType: IHtmlTagService.Article(Object[])
-  nameWithType.vb: IHtmlTagService.Article(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Article*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Article(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Article(System.Object())
+  nameWithType: IHtmlTagsService.Article(Object[])
+  nameWithType.vb: IHtmlTagsService.Article(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Article*
   name: Article
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Article_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Article
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Article_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Article
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Article
-  nameWithType: IHtmlTagService.Article
-- uid: ToSic.Razor.Blade.IHtmlTagService.Aside(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Article
+  nameWithType: IHtmlTagsService.Article
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Aside(System.Object[])
   name: Aside(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Aside_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Aside(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Aside_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Aside(System.Object[])
   name.vb: Aside(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Aside(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Aside(System.Object())
-  nameWithType: IHtmlTagService.Aside(Object[])
-  nameWithType.vb: IHtmlTagService.Aside(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Aside*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Aside(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Aside(System.Object())
+  nameWithType: IHtmlTagsService.Aside(Object[])
+  nameWithType.vb: IHtmlTagsService.Aside(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Aside*
   name: Aside
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Aside_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Aside
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Aside_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Aside
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Aside
-  nameWithType: IHtmlTagService.Aside
-- uid: ToSic.Razor.Blade.IHtmlTagService.Attr(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Aside
+  nameWithType: IHtmlTagsService.Aside
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Attr(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
   name: Attr(String, Object, AttributeOptions)
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Attr_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Attr(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Attr(System.String, System.Object, ToSic.Razor.Markup.AttributeOptions)
-  nameWithType: IHtmlTagService.Attr(String, Object, AttributeOptions)
-- uid: ToSic.Razor.Blade.IHtmlTagService.Attr(System.String,System.String,ToSic.Razor.Markup.AttributeOptions)
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Attr_System_String_System_Object_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Attr(System.String,System.Object,ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Attr(System.String, System.Object, ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: IHtmlTagsService.Attr(String, Object, AttributeOptions)
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Attr(System.String,System.String,ToSic.Razor.Markup.AttributeOptions)
   name: Attr(String, String, AttributeOptions)
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Attr_System_String_System_String_ToSic_Razor_Markup_AttributeOptions_
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Attr(System.String,System.String,ToSic.Razor.Markup.AttributeOptions)
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Attr(System.String, System.String, ToSic.Razor.Markup.AttributeOptions)
-  nameWithType: IHtmlTagService.Attr(String, String, AttributeOptions)
-- uid: ToSic.Razor.Blade.IHtmlTagService.Attr*
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Attr_System_String_System_String_ToSic_Razor_Markup_AttributeOptions_
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Attr(System.String,System.String,ToSic.Razor.Markup.AttributeOptions)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Attr(System.String, System.String, ToSic.Razor.Markup.AttributeOptions)
+  nameWithType: IHtmlTagsService.Attr(String, String, AttributeOptions)
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Attr*
   name: Attr
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Attr_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Attr
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Attr_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Attr
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Attr
-  nameWithType: IHtmlTagService.Attr
-- uid: ToSic.Razor.Blade.IHtmlTagService.Audio(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Attr
+  nameWithType: IHtmlTagsService.Attr
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Audio(System.Object[])
   name: Audio(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Audio_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Audio(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Audio_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Audio(System.Object[])
   name.vb: Audio(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Audio(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Audio(System.Object())
-  nameWithType: IHtmlTagService.Audio(Object[])
-  nameWithType.vb: IHtmlTagService.Audio(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Audio*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Audio(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Audio(System.Object())
+  nameWithType: IHtmlTagsService.Audio(Object[])
+  nameWithType.vb: IHtmlTagsService.Audio(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Audio*
   name: Audio
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Audio_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Audio
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Audio_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Audio
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Audio
-  nameWithType: IHtmlTagService.Audio
-- uid: ToSic.Razor.Blade.IHtmlTagService.B(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Audio
+  nameWithType: IHtmlTagsService.Audio
+- uid: ToSic.Razor.Blade.IHtmlTagsService.B(System.Object[])
   name: B(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_B_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.B(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_B_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.B(System.Object[])
   name.vb: B(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.B(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.B(System.Object())
-  nameWithType: IHtmlTagService.B(Object[])
-  nameWithType.vb: IHtmlTagService.B(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.B*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.B(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.B(System.Object())
+  nameWithType: IHtmlTagsService.B(Object[])
+  nameWithType.vb: IHtmlTagsService.B(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.B*
   name: B
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_B_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.B
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_B_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.B
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.B
-  nameWithType: IHtmlTagService.B
-- uid: ToSic.Razor.Blade.IHtmlTagService.Base(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.B
+  nameWithType: IHtmlTagsService.B
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Base(System.Object[])
   name: Base(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Base_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Base(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Base_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Base(System.Object[])
   name.vb: Base(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Base(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Base(System.Object())
-  nameWithType: IHtmlTagService.Base(Object[])
-  nameWithType.vb: IHtmlTagService.Base(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Base*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Base(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Base(System.Object())
+  nameWithType: IHtmlTagsService.Base(Object[])
+  nameWithType.vb: IHtmlTagsService.Base(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Base*
   name: Base
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Base_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Base
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Base_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Base
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Base
-  nameWithType: IHtmlTagService.Base
-- uid: ToSic.Razor.Blade.IHtmlTagService.Bdi(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Base
+  nameWithType: IHtmlTagsService.Base
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Bdi(System.Object[])
   name: Bdi(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Bdi_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Bdi(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Bdi_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Bdi(System.Object[])
   name.vb: Bdi(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Bdi(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Bdi(System.Object())
-  nameWithType: IHtmlTagService.Bdi(Object[])
-  nameWithType.vb: IHtmlTagService.Bdi(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Bdi*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Bdi(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Bdi(System.Object())
+  nameWithType: IHtmlTagsService.Bdi(Object[])
+  nameWithType.vb: IHtmlTagsService.Bdi(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Bdi*
   name: Bdi
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Bdi_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Bdi
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Bdi_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Bdi
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Bdi
-  nameWithType: IHtmlTagService.Bdi
-- uid: ToSic.Razor.Blade.IHtmlTagService.Bdo(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Bdi
+  nameWithType: IHtmlTagsService.Bdi
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Bdo(System.Object[])
   name: Bdo(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Bdo_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Bdo(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Bdo_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Bdo(System.Object[])
   name.vb: Bdo(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Bdo(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Bdo(System.Object())
-  nameWithType: IHtmlTagService.Bdo(Object[])
-  nameWithType.vb: IHtmlTagService.Bdo(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Bdo*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Bdo(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Bdo(System.Object())
+  nameWithType: IHtmlTagsService.Bdo(Object[])
+  nameWithType.vb: IHtmlTagsService.Bdo(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Bdo*
   name: Bdo
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Bdo_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Bdo
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Bdo_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Bdo
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Bdo
-  nameWithType: IHtmlTagService.Bdo
-- uid: ToSic.Razor.Blade.IHtmlTagService.Blockquote(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Bdo
+  nameWithType: IHtmlTagsService.Bdo
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Blockquote(System.Object[])
   name: Blockquote(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Blockquote_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Blockquote(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Blockquote_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Blockquote(System.Object[])
   name.vb: Blockquote(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Blockquote(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Blockquote(System.Object())
-  nameWithType: IHtmlTagService.Blockquote(Object[])
-  nameWithType.vb: IHtmlTagService.Blockquote(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Blockquote*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Blockquote(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Blockquote(System.Object())
+  nameWithType: IHtmlTagsService.Blockquote(Object[])
+  nameWithType.vb: IHtmlTagsService.Blockquote(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Blockquote*
   name: Blockquote
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Blockquote_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Blockquote
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Blockquote_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Blockquote
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Blockquote
-  nameWithType: IHtmlTagService.Blockquote
-- uid: ToSic.Razor.Blade.IHtmlTagService.Br(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Blockquote
+  nameWithType: IHtmlTagsService.Blockquote
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Br(System.Object[])
   name: Br(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Br_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Br(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Br_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Br(System.Object[])
   name.vb: Br(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Br(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Br(System.Object())
-  nameWithType: IHtmlTagService.Br(Object[])
-  nameWithType.vb: IHtmlTagService.Br(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Br*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Br(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Br(System.Object())
+  nameWithType: IHtmlTagsService.Br(Object[])
+  nameWithType.vb: IHtmlTagsService.Br(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Br*
   name: Br
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Br_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Br
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Br_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Br
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Br
-  nameWithType: IHtmlTagService.Br
-- uid: ToSic.Razor.Blade.IHtmlTagService.Button(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Br
+  nameWithType: IHtmlTagsService.Br
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Button(System.Object[])
   name: Button(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Button_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Button(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Button_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Button(System.Object[])
   name.vb: Button(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Button(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Button(System.Object())
-  nameWithType: IHtmlTagService.Button(Object[])
-  nameWithType.vb: IHtmlTagService.Button(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Button*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Button(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Button(System.Object())
+  nameWithType: IHtmlTagsService.Button(Object[])
+  nameWithType.vb: IHtmlTagsService.Button(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Button*
   name: Button
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Button_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Button
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Button_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Button
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Button
-  nameWithType: IHtmlTagService.Button
-- uid: ToSic.Razor.Blade.IHtmlTagService.Canvas(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Button
+  nameWithType: IHtmlTagsService.Button
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Canvas(System.Object[])
   name: Canvas(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Canvas_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Canvas(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Canvas_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Canvas(System.Object[])
   name.vb: Canvas(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Canvas(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Canvas(System.Object())
-  nameWithType: IHtmlTagService.Canvas(Object[])
-  nameWithType.vb: IHtmlTagService.Canvas(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Canvas*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Canvas(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Canvas(System.Object())
+  nameWithType: IHtmlTagsService.Canvas(Object[])
+  nameWithType.vb: IHtmlTagsService.Canvas(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Canvas*
   name: Canvas
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Canvas_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Canvas
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Canvas_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Canvas
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Canvas
-  nameWithType: IHtmlTagService.Canvas
-- uid: ToSic.Razor.Blade.IHtmlTagService.Caption(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Canvas
+  nameWithType: IHtmlTagsService.Canvas
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Caption(System.Object[])
   name: Caption(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Caption_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Caption(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Caption_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Caption(System.Object[])
   name.vb: Caption(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Caption(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Caption(System.Object())
-  nameWithType: IHtmlTagService.Caption(Object[])
-  nameWithType.vb: IHtmlTagService.Caption(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Caption*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Caption(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Caption(System.Object())
+  nameWithType: IHtmlTagsService.Caption(Object[])
+  nameWithType.vb: IHtmlTagsService.Caption(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Caption*
   name: Caption
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Caption_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Caption
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Caption_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Caption
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Caption
-  nameWithType: IHtmlTagService.Caption
-- uid: ToSic.Razor.Blade.IHtmlTagService.Cite(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Caption
+  nameWithType: IHtmlTagsService.Caption
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Cite(System.Object[])
   name: Cite(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Cite_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Cite(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Cite_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Cite(System.Object[])
   name.vb: Cite(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Cite(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Cite(System.Object())
-  nameWithType: IHtmlTagService.Cite(Object[])
-  nameWithType.vb: IHtmlTagService.Cite(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Cite*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Cite(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Cite(System.Object())
+  nameWithType: IHtmlTagsService.Cite(Object[])
+  nameWithType.vb: IHtmlTagsService.Cite(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Cite*
   name: Cite
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Cite_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Cite
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Cite_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Cite
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Cite
-  nameWithType: IHtmlTagService.Cite
-- uid: ToSic.Razor.Blade.IHtmlTagService.Code(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Cite
+  nameWithType: IHtmlTagsService.Cite
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Code(System.Object[])
   name: Code(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Code_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Code(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Code_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Code(System.Object[])
   name.vb: Code(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Code(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Code(System.Object())
-  nameWithType: IHtmlTagService.Code(Object[])
-  nameWithType.vb: IHtmlTagService.Code(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Code*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Code(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Code(System.Object())
+  nameWithType: IHtmlTagsService.Code(Object[])
+  nameWithType.vb: IHtmlTagsService.Code(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Code*
   name: Code
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Code_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Code
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Code_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Code
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Code
-  nameWithType: IHtmlTagService.Code
-- uid: ToSic.Razor.Blade.IHtmlTagService.Col(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Code
+  nameWithType: IHtmlTagsService.Code
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Col(System.Object[])
   name: Col(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Col_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Col(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Col_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Col(System.Object[])
   name.vb: Col(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Col(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Col(System.Object())
-  nameWithType: IHtmlTagService.Col(Object[])
-  nameWithType.vb: IHtmlTagService.Col(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Col*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Col(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Col(System.Object())
+  nameWithType: IHtmlTagsService.Col(Object[])
+  nameWithType.vb: IHtmlTagsService.Col(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Col*
   name: Col
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Col_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Col
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Col_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Col
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Col
-  nameWithType: IHtmlTagService.Col
-- uid: ToSic.Razor.Blade.IHtmlTagService.Colgroup(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Col
+  nameWithType: IHtmlTagsService.Col
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Colgroup(System.Object[])
   name: Colgroup(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Colgroup_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Colgroup(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Colgroup_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Colgroup(System.Object[])
   name.vb: Colgroup(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Colgroup(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Colgroup(System.Object())
-  nameWithType: IHtmlTagService.Colgroup(Object[])
-  nameWithType.vb: IHtmlTagService.Colgroup(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Colgroup*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Colgroup(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Colgroup(System.Object())
+  nameWithType: IHtmlTagsService.Colgroup(Object[])
+  nameWithType.vb: IHtmlTagsService.Colgroup(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Colgroup*
   name: Colgroup
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Colgroup_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Colgroup
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Colgroup_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Colgroup
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Colgroup
-  nameWithType: IHtmlTagService.Colgroup
-- uid: ToSic.Razor.Blade.IHtmlTagService.Comment(System.String)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Colgroup
+  nameWithType: IHtmlTagsService.Colgroup
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Comment(System.String)
   name: Comment(String)
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Comment_System_String_
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Comment(System.String)
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Comment(System.String)
-  nameWithType: IHtmlTagService.Comment(String)
-- uid: ToSic.Razor.Blade.IHtmlTagService.Comment*
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Comment_System_String_
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Comment(System.String)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Comment(System.String)
+  nameWithType: IHtmlTagsService.Comment(String)
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Comment*
   name: Comment
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Comment_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Comment
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Comment_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Comment
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Comment
-  nameWithType: IHtmlTagService.Comment
-- uid: ToSic.Razor.Blade.IHtmlTagService.Custom(System.String,System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Comment
+  nameWithType: IHtmlTagsService.Comment
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Custom(System.String,System.Object[])
   name: Custom(String, Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Custom_System_String_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Custom(System.String,System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Custom_System_String_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Custom(System.String,System.Object[])
   name.vb: Custom(String, Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Custom(System.String, System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Custom(System.String, System.Object())
-  nameWithType: IHtmlTagService.Custom(String, Object[])
-  nameWithType.vb: IHtmlTagService.Custom(String, Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Custom*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Custom(System.String, System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Custom(System.String, System.Object())
+  nameWithType: IHtmlTagsService.Custom(String, Object[])
+  nameWithType.vb: IHtmlTagsService.Custom(String, Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Custom*
   name: Custom
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Custom_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Custom
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Custom_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Custom
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Custom
-  nameWithType: IHtmlTagService.Custom
-- uid: ToSic.Razor.Blade.IHtmlTagService.Data(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Custom
+  nameWithType: IHtmlTagsService.Custom
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Data(System.Object[])
   name: Data(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Data_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Data(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Data_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Data(System.Object[])
   name.vb: Data(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Data(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Data(System.Object())
-  nameWithType: IHtmlTagService.Data(Object[])
-  nameWithType.vb: IHtmlTagService.Data(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Data*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Data(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Data(System.Object())
+  nameWithType: IHtmlTagsService.Data(Object[])
+  nameWithType.vb: IHtmlTagsService.Data(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Data*
   name: Data
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Data_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Data
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Data_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Data
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Data
-  nameWithType: IHtmlTagService.Data
-- uid: ToSic.Razor.Blade.IHtmlTagService.Datalist(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Data
+  nameWithType: IHtmlTagsService.Data
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Datalist(System.Object[])
   name: Datalist(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Datalist_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Datalist(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Datalist_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Datalist(System.Object[])
   name.vb: Datalist(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Datalist(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Datalist(System.Object())
-  nameWithType: IHtmlTagService.Datalist(Object[])
-  nameWithType.vb: IHtmlTagService.Datalist(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Datalist*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Datalist(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Datalist(System.Object())
+  nameWithType: IHtmlTagsService.Datalist(Object[])
+  nameWithType.vb: IHtmlTagsService.Datalist(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Datalist*
   name: Datalist
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Datalist_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Datalist
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Datalist_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Datalist
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Datalist
-  nameWithType: IHtmlTagService.Datalist
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dd(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Datalist
+  nameWithType: IHtmlTagsService.Datalist
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dd(System.Object[])
   name: Dd(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dd_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Dd(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dd_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Dd(System.Object[])
   name.vb: Dd(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dd(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Dd(System.Object())
-  nameWithType: IHtmlTagService.Dd(Object[])
-  nameWithType.vb: IHtmlTagService.Dd(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dd*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dd(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Dd(System.Object())
+  nameWithType: IHtmlTagsService.Dd(Object[])
+  nameWithType.vb: IHtmlTagsService.Dd(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dd*
   name: Dd
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dd_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Dd
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dd_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Dd
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dd
-  nameWithType: IHtmlTagService.Dd
-- uid: ToSic.Razor.Blade.IHtmlTagService.Del(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dd
+  nameWithType: IHtmlTagsService.Dd
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Del(System.Object[])
   name: Del(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Del_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Del(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Del_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Del(System.Object[])
   name.vb: Del(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Del(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Del(System.Object())
-  nameWithType: IHtmlTagService.Del(Object[])
-  nameWithType.vb: IHtmlTagService.Del(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Del*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Del(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Del(System.Object())
+  nameWithType: IHtmlTagsService.Del(Object[])
+  nameWithType.vb: IHtmlTagsService.Del(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Del*
   name: Del
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Del_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Del
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Del_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Del
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Del
-  nameWithType: IHtmlTagService.Del
-- uid: ToSic.Razor.Blade.IHtmlTagService.Details(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Del
+  nameWithType: IHtmlTagsService.Del
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Details(System.Object[])
   name: Details(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Details_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Details(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Details_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Details(System.Object[])
   name.vb: Details(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Details(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Details(System.Object())
-  nameWithType: IHtmlTagService.Details(Object[])
-  nameWithType.vb: IHtmlTagService.Details(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Details*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Details(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Details(System.Object())
+  nameWithType: IHtmlTagsService.Details(Object[])
+  nameWithType.vb: IHtmlTagsService.Details(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Details*
   name: Details
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Details_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Details
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Details_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Details
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Details
-  nameWithType: IHtmlTagService.Details
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dfn(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Details
+  nameWithType: IHtmlTagsService.Details
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dfn(System.Object[])
   name: Dfn(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dfn_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Dfn(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dfn_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Dfn(System.Object[])
   name.vb: Dfn(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dfn(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Dfn(System.Object())
-  nameWithType: IHtmlTagService.Dfn(Object[])
-  nameWithType.vb: IHtmlTagService.Dfn(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dfn*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dfn(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Dfn(System.Object())
+  nameWithType: IHtmlTagsService.Dfn(Object[])
+  nameWithType.vb: IHtmlTagsService.Dfn(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dfn*
   name: Dfn
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dfn_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Dfn
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dfn_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Dfn
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dfn
-  nameWithType: IHtmlTagService.Dfn
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dialog(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dfn
+  nameWithType: IHtmlTagsService.Dfn
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dialog(System.Object[])
   name: Dialog(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dialog_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Dialog(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dialog_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Dialog(System.Object[])
   name.vb: Dialog(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dialog(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Dialog(System.Object())
-  nameWithType: IHtmlTagService.Dialog(Object[])
-  nameWithType.vb: IHtmlTagService.Dialog(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dialog*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dialog(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Dialog(System.Object())
+  nameWithType: IHtmlTagsService.Dialog(Object[])
+  nameWithType.vb: IHtmlTagsService.Dialog(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dialog*
   name: Dialog
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dialog_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Dialog
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dialog_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Dialog
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dialog
-  nameWithType: IHtmlTagService.Dialog
-- uid: ToSic.Razor.Blade.IHtmlTagService.Div(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dialog
+  nameWithType: IHtmlTagsService.Dialog
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Div(System.Object[])
   name: Div(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Div_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Div(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Div_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Div(System.Object[])
   name.vb: Div(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Div(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Div(System.Object())
-  nameWithType: IHtmlTagService.Div(Object[])
-  nameWithType.vb: IHtmlTagService.Div(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Div*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Div(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Div(System.Object())
+  nameWithType: IHtmlTagsService.Div(Object[])
+  nameWithType.vb: IHtmlTagsService.Div(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Div*
   name: Div
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Div_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Div
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Div_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Div
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Div
-  nameWithType: IHtmlTagService.Div
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dl(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Div
+  nameWithType: IHtmlTagsService.Div
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dl(System.Object[])
   name: Dl(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dl_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Dl(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dl_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Dl(System.Object[])
   name.vb: Dl(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dl(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Dl(System.Object())
-  nameWithType: IHtmlTagService.Dl(Object[])
-  nameWithType.vb: IHtmlTagService.Dl(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dl*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dl(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Dl(System.Object())
+  nameWithType: IHtmlTagsService.Dl(Object[])
+  nameWithType.vb: IHtmlTagsService.Dl(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dl*
   name: Dl
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dl_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Dl
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dl_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Dl
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dl
-  nameWithType: IHtmlTagService.Dl
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dt(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dl
+  nameWithType: IHtmlTagsService.Dl
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dt(System.Object[])
   name: Dt(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dt_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Dt(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dt_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Dt(System.Object[])
   name.vb: Dt(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dt(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Dt(System.Object())
-  nameWithType: IHtmlTagService.Dt(Object[])
-  nameWithType.vb: IHtmlTagService.Dt(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Dt*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dt(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Dt(System.Object())
+  nameWithType: IHtmlTagsService.Dt(Object[])
+  nameWithType.vb: IHtmlTagsService.Dt(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Dt*
   name: Dt
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Dt_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Dt
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Dt_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Dt
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Dt
-  nameWithType: IHtmlTagService.Dt
-- uid: ToSic.Razor.Blade.IHtmlTagService.Em(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Dt
+  nameWithType: IHtmlTagsService.Dt
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Em(System.Object[])
   name: Em(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Em_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Em(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Em_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Em(System.Object[])
   name.vb: Em(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Em(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Em(System.Object())
-  nameWithType: IHtmlTagService.Em(Object[])
-  nameWithType.vb: IHtmlTagService.Em(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Em*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Em(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Em(System.Object())
+  nameWithType: IHtmlTagsService.Em(Object[])
+  nameWithType.vb: IHtmlTagsService.Em(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Em*
   name: Em
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Em_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Em
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Em_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Em
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Em
-  nameWithType: IHtmlTagService.Em
-- uid: ToSic.Razor.Blade.IHtmlTagService.Embed(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Em
+  nameWithType: IHtmlTagsService.Em
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Embed(System.Object[])
   name: Embed(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Embed_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Embed(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Embed_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Embed(System.Object[])
   name.vb: Embed(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Embed(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Embed(System.Object())
-  nameWithType: IHtmlTagService.Embed(Object[])
-  nameWithType.vb: IHtmlTagService.Embed(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Embed*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Embed(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Embed(System.Object())
+  nameWithType: IHtmlTagsService.Embed(Object[])
+  nameWithType.vb: IHtmlTagsService.Embed(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Embed*
   name: Embed
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Embed_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Embed
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Embed_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Embed
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Embed
-  nameWithType: IHtmlTagService.Embed
-- uid: ToSic.Razor.Blade.IHtmlTagService.Fieldset(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Embed
+  nameWithType: IHtmlTagsService.Embed
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Fieldset(System.Object[])
   name: Fieldset(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Fieldset_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Fieldset(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Fieldset_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Fieldset(System.Object[])
   name.vb: Fieldset(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Fieldset(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Fieldset(System.Object())
-  nameWithType: IHtmlTagService.Fieldset(Object[])
-  nameWithType.vb: IHtmlTagService.Fieldset(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Fieldset*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Fieldset(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Fieldset(System.Object())
+  nameWithType: IHtmlTagsService.Fieldset(Object[])
+  nameWithType.vb: IHtmlTagsService.Fieldset(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Fieldset*
   name: Fieldset
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Fieldset_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Fieldset
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Fieldset_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Fieldset
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Fieldset
-  nameWithType: IHtmlTagService.Fieldset
-- uid: ToSic.Razor.Blade.IHtmlTagService.Figcaption(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Fieldset
+  nameWithType: IHtmlTagsService.Fieldset
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Figcaption(System.Object[])
   name: Figcaption(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Figcaption_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Figcaption(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Figcaption_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Figcaption(System.Object[])
   name.vb: Figcaption(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Figcaption(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Figcaption(System.Object())
-  nameWithType: IHtmlTagService.Figcaption(Object[])
-  nameWithType.vb: IHtmlTagService.Figcaption(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Figcaption*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Figcaption(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Figcaption(System.Object())
+  nameWithType: IHtmlTagsService.Figcaption(Object[])
+  nameWithType.vb: IHtmlTagsService.Figcaption(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Figcaption*
   name: Figcaption
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Figcaption_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Figcaption
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Figcaption_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Figcaption
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Figcaption
-  nameWithType: IHtmlTagService.Figcaption
-- uid: ToSic.Razor.Blade.IHtmlTagService.Figure(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Figcaption
+  nameWithType: IHtmlTagsService.Figcaption
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Figure(System.Object[])
   name: Figure(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Figure_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Figure(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Figure_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Figure(System.Object[])
   name.vb: Figure(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Figure(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Figure(System.Object())
-  nameWithType: IHtmlTagService.Figure(Object[])
-  nameWithType.vb: IHtmlTagService.Figure(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Figure*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Figure(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Figure(System.Object())
+  nameWithType: IHtmlTagsService.Figure(Object[])
+  nameWithType.vb: IHtmlTagsService.Figure(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Figure*
   name: Figure
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Figure_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Figure
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Figure_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Figure
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Figure
-  nameWithType: IHtmlTagService.Figure
-- uid: ToSic.Razor.Blade.IHtmlTagService.Footer(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Figure
+  nameWithType: IHtmlTagsService.Figure
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Footer(System.Object[])
   name: Footer(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Footer_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Footer(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Footer_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Footer(System.Object[])
   name.vb: Footer(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Footer(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Footer(System.Object())
-  nameWithType: IHtmlTagService.Footer(Object[])
-  nameWithType.vb: IHtmlTagService.Footer(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Footer*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Footer(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Footer(System.Object())
+  nameWithType: IHtmlTagsService.Footer(Object[])
+  nameWithType.vb: IHtmlTagsService.Footer(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Footer*
   name: Footer
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Footer_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Footer
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Footer_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Footer
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Footer
-  nameWithType: IHtmlTagService.Footer
-- uid: ToSic.Razor.Blade.IHtmlTagService.Form(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Footer
+  nameWithType: IHtmlTagsService.Footer
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Form(System.Object[])
   name: Form(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Form_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Form(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Form_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Form(System.Object[])
   name.vb: Form(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Form(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Form(System.Object())
-  nameWithType: IHtmlTagService.Form(Object[])
-  nameWithType.vb: IHtmlTagService.Form(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Form*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Form(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Form(System.Object())
+  nameWithType: IHtmlTagsService.Form(Object[])
+  nameWithType.vb: IHtmlTagsService.Form(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Form*
   name: Form
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Form_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Form
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Form_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Form
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Form
-  nameWithType: IHtmlTagService.Form
-- uid: ToSic.Razor.Blade.IHtmlTagService.H1(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Form
+  nameWithType: IHtmlTagsService.Form
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H1(System.Object[])
   name: H1(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H1_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.H1(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H1_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.H1(System.Object[])
   name.vb: H1(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H1(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.H1(System.Object())
-  nameWithType: IHtmlTagService.H1(Object[])
-  nameWithType.vb: IHtmlTagService.H1(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.H1*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H1(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.H1(System.Object())
+  nameWithType: IHtmlTagsService.H1(Object[])
+  nameWithType.vb: IHtmlTagsService.H1(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H1*
   name: H1
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H1_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.H1
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H1_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.H1
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H1
-  nameWithType: IHtmlTagService.H1
-- uid: ToSic.Razor.Blade.IHtmlTagService.H2(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H1
+  nameWithType: IHtmlTagsService.H1
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H2(System.Object[])
   name: H2(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H2_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.H2(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H2_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.H2(System.Object[])
   name.vb: H2(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H2(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.H2(System.Object())
-  nameWithType: IHtmlTagService.H2(Object[])
-  nameWithType.vb: IHtmlTagService.H2(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.H2*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H2(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.H2(System.Object())
+  nameWithType: IHtmlTagsService.H2(Object[])
+  nameWithType.vb: IHtmlTagsService.H2(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H2*
   name: H2
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H2_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.H2
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H2_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.H2
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H2
-  nameWithType: IHtmlTagService.H2
-- uid: ToSic.Razor.Blade.IHtmlTagService.H3(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H2
+  nameWithType: IHtmlTagsService.H2
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H3(System.Object[])
   name: H3(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H3_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.H3(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H3_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.H3(System.Object[])
   name.vb: H3(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H3(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.H3(System.Object())
-  nameWithType: IHtmlTagService.H3(Object[])
-  nameWithType.vb: IHtmlTagService.H3(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.H3*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H3(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.H3(System.Object())
+  nameWithType: IHtmlTagsService.H3(Object[])
+  nameWithType.vb: IHtmlTagsService.H3(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H3*
   name: H3
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H3_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.H3
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H3_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.H3
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H3
-  nameWithType: IHtmlTagService.H3
-- uid: ToSic.Razor.Blade.IHtmlTagService.H4(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H3
+  nameWithType: IHtmlTagsService.H3
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H4(System.Object[])
   name: H4(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H4_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.H4(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H4_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.H4(System.Object[])
   name.vb: H4(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H4(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.H4(System.Object())
-  nameWithType: IHtmlTagService.H4(Object[])
-  nameWithType.vb: IHtmlTagService.H4(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.H4*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H4(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.H4(System.Object())
+  nameWithType: IHtmlTagsService.H4(Object[])
+  nameWithType.vb: IHtmlTagsService.H4(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H4*
   name: H4
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H4_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.H4
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H4_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.H4
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H4
-  nameWithType: IHtmlTagService.H4
-- uid: ToSic.Razor.Blade.IHtmlTagService.H5(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H4
+  nameWithType: IHtmlTagsService.H4
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H5(System.Object[])
   name: H5(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H5_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.H5(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H5_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.H5(System.Object[])
   name.vb: H5(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H5(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.H5(System.Object())
-  nameWithType: IHtmlTagService.H5(Object[])
-  nameWithType.vb: IHtmlTagService.H5(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.H5*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H5(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.H5(System.Object())
+  nameWithType: IHtmlTagsService.H5(Object[])
+  nameWithType.vb: IHtmlTagsService.H5(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H5*
   name: H5
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H5_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.H5
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H5_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.H5
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H5
-  nameWithType: IHtmlTagService.H5
-- uid: ToSic.Razor.Blade.IHtmlTagService.H6(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H5
+  nameWithType: IHtmlTagsService.H5
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H6(System.Object[])
   name: H6(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H6_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.H6(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H6_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.H6(System.Object[])
   name.vb: H6(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H6(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.H6(System.Object())
-  nameWithType: IHtmlTagService.H6(Object[])
-  nameWithType.vb: IHtmlTagService.H6(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.H6*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H6(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.H6(System.Object())
+  nameWithType: IHtmlTagsService.H6(Object[])
+  nameWithType.vb: IHtmlTagsService.H6(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.H6*
   name: H6
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_H6_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.H6
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_H6_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.H6
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.H6
-  nameWithType: IHtmlTagService.H6
-- uid: ToSic.Razor.Blade.IHtmlTagService.Head(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.H6
+  nameWithType: IHtmlTagsService.H6
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Head(System.Object[])
   name: Head(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Head_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Head(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Head_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Head(System.Object[])
   name.vb: Head(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Head(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Head(System.Object())
-  nameWithType: IHtmlTagService.Head(Object[])
-  nameWithType.vb: IHtmlTagService.Head(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Head*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Head(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Head(System.Object())
+  nameWithType: IHtmlTagsService.Head(Object[])
+  nameWithType.vb: IHtmlTagsService.Head(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Head*
   name: Head
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Head_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Head
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Head_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Head
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Head
-  nameWithType: IHtmlTagService.Head
-- uid: ToSic.Razor.Blade.IHtmlTagService.Header(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Head
+  nameWithType: IHtmlTagsService.Head
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Header(System.Object[])
   name: Header(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Header_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Header(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Header_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Header(System.Object[])
   name.vb: Header(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Header(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Header(System.Object())
-  nameWithType: IHtmlTagService.Header(Object[])
-  nameWithType.vb: IHtmlTagService.Header(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Header*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Header(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Header(System.Object())
+  nameWithType: IHtmlTagsService.Header(Object[])
+  nameWithType.vb: IHtmlTagsService.Header(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Header*
   name: Header
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Header_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Header
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Header_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Header
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Header
-  nameWithType: IHtmlTagService.Header
-- uid: ToSic.Razor.Blade.IHtmlTagService.Hr(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Header
+  nameWithType: IHtmlTagsService.Header
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Hr(System.Object[])
   name: Hr(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Hr_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Hr(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Hr_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Hr(System.Object[])
   name.vb: Hr(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Hr(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Hr(System.Object())
-  nameWithType: IHtmlTagService.Hr(Object[])
-  nameWithType.vb: IHtmlTagService.Hr(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Hr*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Hr(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Hr(System.Object())
+  nameWithType: IHtmlTagsService.Hr(Object[])
+  nameWithType.vb: IHtmlTagsService.Hr(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Hr*
   name: Hr
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Hr_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Hr
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Hr_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Hr
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Hr
-  nameWithType: IHtmlTagService.Hr
-- uid: ToSic.Razor.Blade.IHtmlTagService.I(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Hr
+  nameWithType: IHtmlTagsService.Hr
+- uid: ToSic.Razor.Blade.IHtmlTagsService.I(System.Object[])
   name: I(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_I_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.I(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_I_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.I(System.Object[])
   name.vb: I(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.I(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.I(System.Object())
-  nameWithType: IHtmlTagService.I(Object[])
-  nameWithType.vb: IHtmlTagService.I(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.I*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.I(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.I(System.Object())
+  nameWithType: IHtmlTagsService.I(Object[])
+  nameWithType.vb: IHtmlTagsService.I(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.I*
   name: I
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_I_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.I
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_I_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.I
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.I
-  nameWithType: IHtmlTagService.I
-- uid: ToSic.Razor.Blade.IHtmlTagService.Icon(System.String,System.String,System.Int32,System.String)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.I
+  nameWithType: IHtmlTagsService.I
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Icon(System.String,System.String,System.Int32,System.String)
   name: Icon(String, String, Int32, String)
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Icon_System_String_System_String_System_Int32_System_String_
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Icon(System.String,System.String,System.Int32,System.String)
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Icon(System.String, System.String, System.Int32, System.String)
-  nameWithType: IHtmlTagService.Icon(String, String, Int32, String)
-- uid: ToSic.Razor.Blade.IHtmlTagService.Icon*
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Icon_System_String_System_String_System_Int32_System_String_
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Icon(System.String,System.String,System.Int32,System.String)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Icon(System.String, System.String, System.Int32, System.String)
+  nameWithType: IHtmlTagsService.Icon(String, String, Int32, String)
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Icon*
   name: Icon
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Icon_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Icon
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Icon_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Icon
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Icon
-  nameWithType: IHtmlTagService.Icon
-- uid: ToSic.Razor.Blade.IHtmlTagService.Iframe(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Icon
+  nameWithType: IHtmlTagsService.Icon
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Iframe(System.Object[])
   name: Iframe(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Iframe_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Iframe(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Iframe_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Iframe(System.Object[])
   name.vb: Iframe(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Iframe(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Iframe(System.Object())
-  nameWithType: IHtmlTagService.Iframe(Object[])
-  nameWithType.vb: IHtmlTagService.Iframe(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Iframe*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Iframe(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Iframe(System.Object())
+  nameWithType: IHtmlTagsService.Iframe(Object[])
+  nameWithType.vb: IHtmlTagsService.Iframe(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Iframe*
   name: Iframe
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Iframe_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Iframe
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Iframe_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Iframe
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Iframe
-  nameWithType: IHtmlTagService.Iframe
-- uid: ToSic.Razor.Blade.IHtmlTagService.Img(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Iframe
+  nameWithType: IHtmlTagsService.Iframe
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Img(System.Object[])
   name: Img(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Img_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Img(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Img_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Img(System.Object[])
   name.vb: Img(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Img(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Img(System.Object())
-  nameWithType: IHtmlTagService.Img(Object[])
-  nameWithType.vb: IHtmlTagService.Img(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Img*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Img(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Img(System.Object())
+  nameWithType: IHtmlTagsService.Img(Object[])
+  nameWithType.vb: IHtmlTagsService.Img(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Img*
   name: Img
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Img_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Img
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Img_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Img
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Img
-  nameWithType: IHtmlTagService.Img
-- uid: ToSic.Razor.Blade.IHtmlTagService.Input(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Img
+  nameWithType: IHtmlTagsService.Img
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Input(System.Object[])
   name: Input(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Input_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Input(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Input_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Input(System.Object[])
   name.vb: Input(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Input(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Input(System.Object())
-  nameWithType: IHtmlTagService.Input(Object[])
-  nameWithType.vb: IHtmlTagService.Input(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Input*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Input(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Input(System.Object())
+  nameWithType: IHtmlTagsService.Input(Object[])
+  nameWithType.vb: IHtmlTagsService.Input(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Input*
   name: Input
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Input_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Input
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Input_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Input
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Input
-  nameWithType: IHtmlTagService.Input
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ins(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Input
+  nameWithType: IHtmlTagsService.Input
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ins(System.Object[])
   name: Ins(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ins_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Ins(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ins_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Ins(System.Object[])
   name.vb: Ins(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ins(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Ins(System.Object())
-  nameWithType: IHtmlTagService.Ins(Object[])
-  nameWithType.vb: IHtmlTagService.Ins(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ins*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ins(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Ins(System.Object())
+  nameWithType: IHtmlTagsService.Ins(Object[])
+  nameWithType.vb: IHtmlTagsService.Ins(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ins*
   name: Ins
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ins_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Ins
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ins_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Ins
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ins
-  nameWithType: IHtmlTagService.Ins
-- uid: ToSic.Razor.Blade.IHtmlTagService.Kbd(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ins
+  nameWithType: IHtmlTagsService.Ins
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Kbd(System.Object[])
   name: Kbd(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Kbd_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Kbd(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Kbd_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Kbd(System.Object[])
   name.vb: Kbd(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Kbd(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Kbd(System.Object())
-  nameWithType: IHtmlTagService.Kbd(Object[])
-  nameWithType.vb: IHtmlTagService.Kbd(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Kbd*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Kbd(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Kbd(System.Object())
+  nameWithType: IHtmlTagsService.Kbd(Object[])
+  nameWithType.vb: IHtmlTagsService.Kbd(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Kbd*
   name: Kbd
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Kbd_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Kbd
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Kbd_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Kbd
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Kbd
-  nameWithType: IHtmlTagService.Kbd
-- uid: ToSic.Razor.Blade.IHtmlTagService.Label(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Kbd
+  nameWithType: IHtmlTagsService.Kbd
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Label(System.Object[])
   name: Label(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Label_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Label(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Label_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Label(System.Object[])
   name.vb: Label(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Label(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Label(System.Object())
-  nameWithType: IHtmlTagService.Label(Object[])
-  nameWithType.vb: IHtmlTagService.Label(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Label*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Label(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Label(System.Object())
+  nameWithType: IHtmlTagsService.Label(Object[])
+  nameWithType.vb: IHtmlTagsService.Label(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Label*
   name: Label
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Label_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Label
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Label_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Label
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Label
-  nameWithType: IHtmlTagService.Label
-- uid: ToSic.Razor.Blade.IHtmlTagService.Legend(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Label
+  nameWithType: IHtmlTagsService.Label
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Legend(System.Object[])
   name: Legend(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Legend_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Legend(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Legend_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Legend(System.Object[])
   name.vb: Legend(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Legend(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Legend(System.Object())
-  nameWithType: IHtmlTagService.Legend(Object[])
-  nameWithType.vb: IHtmlTagService.Legend(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Legend*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Legend(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Legend(System.Object())
+  nameWithType: IHtmlTagsService.Legend(Object[])
+  nameWithType.vb: IHtmlTagsService.Legend(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Legend*
   name: Legend
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Legend_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Legend
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Legend_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Legend
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Legend
-  nameWithType: IHtmlTagService.Legend
-- uid: ToSic.Razor.Blade.IHtmlTagService.Li(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Legend
+  nameWithType: IHtmlTagsService.Legend
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Li(System.Object[])
   name: Li(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Li_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Li(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Li_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Li(System.Object[])
   name.vb: Li(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Li(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Li(System.Object())
-  nameWithType: IHtmlTagService.Li(Object[])
-  nameWithType.vb: IHtmlTagService.Li(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Li*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Li(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Li(System.Object())
+  nameWithType: IHtmlTagsService.Li(Object[])
+  nameWithType.vb: IHtmlTagsService.Li(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Li*
   name: Li
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Li_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Li
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Li_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Li
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Li
-  nameWithType: IHtmlTagService.Li
-- uid: ToSic.Razor.Blade.IHtmlTagService.Link(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Li
+  nameWithType: IHtmlTagsService.Li
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Link(System.Object[])
   name: Link(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Link_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Link(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Link_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Link(System.Object[])
   name.vb: Link(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Link(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Link(System.Object())
-  nameWithType: IHtmlTagService.Link(Object[])
-  nameWithType.vb: IHtmlTagService.Link(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Link*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Link(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Link(System.Object())
+  nameWithType: IHtmlTagsService.Link(Object[])
+  nameWithType.vb: IHtmlTagsService.Link(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Link*
   name: Link
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Link_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Link
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Link_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Link
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Link
-  nameWithType: IHtmlTagService.Link
-- uid: ToSic.Razor.Blade.IHtmlTagService.Main(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Link
+  nameWithType: IHtmlTagsService.Link
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Main(System.Object[])
   name: Main(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Main_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Main(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Main_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Main(System.Object[])
   name.vb: Main(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Main(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Main(System.Object())
-  nameWithType: IHtmlTagService.Main(Object[])
-  nameWithType.vb: IHtmlTagService.Main(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Main*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Main(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Main(System.Object())
+  nameWithType: IHtmlTagsService.Main(Object[])
+  nameWithType.vb: IHtmlTagsService.Main(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Main*
   name: Main
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Main_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Main
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Main_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Main
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Main
-  nameWithType: IHtmlTagService.Main
-- uid: ToSic.Razor.Blade.IHtmlTagService.Map(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Main
+  nameWithType: IHtmlTagsService.Main
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Map(System.Object[])
   name: Map(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Map_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Map(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Map_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Map(System.Object[])
   name.vb: Map(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Map(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Map(System.Object())
-  nameWithType: IHtmlTagService.Map(Object[])
-  nameWithType.vb: IHtmlTagService.Map(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Map*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Map(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Map(System.Object())
+  nameWithType: IHtmlTagsService.Map(Object[])
+  nameWithType.vb: IHtmlTagsService.Map(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Map*
   name: Map
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Map_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Map
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Map_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Map
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Map
-  nameWithType: IHtmlTagService.Map
-- uid: ToSic.Razor.Blade.IHtmlTagService.Mark(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Map
+  nameWithType: IHtmlTagsService.Map
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Mark(System.Object[])
   name: Mark(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Mark_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Mark(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Mark_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Mark(System.Object[])
   name.vb: Mark(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Mark(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Mark(System.Object())
-  nameWithType: IHtmlTagService.Mark(Object[])
-  nameWithType.vb: IHtmlTagService.Mark(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Mark*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Mark(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Mark(System.Object())
+  nameWithType: IHtmlTagsService.Mark(Object[])
+  nameWithType.vb: IHtmlTagsService.Mark(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Mark*
   name: Mark
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Mark_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Mark
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Mark_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Mark
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Mark
-  nameWithType: IHtmlTagService.Mark
-- uid: ToSic.Razor.Blade.IHtmlTagService.Meta(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Mark
+  nameWithType: IHtmlTagsService.Mark
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Meta(System.Object[])
   name: Meta(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Meta_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Meta(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Meta_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Meta(System.Object[])
   name.vb: Meta(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Meta(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Meta(System.Object())
-  nameWithType: IHtmlTagService.Meta(Object[])
-  nameWithType.vb: IHtmlTagService.Meta(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Meta*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Meta(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Meta(System.Object())
+  nameWithType: IHtmlTagsService.Meta(Object[])
+  nameWithType.vb: IHtmlTagsService.Meta(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Meta*
   name: Meta
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Meta_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Meta
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Meta_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Meta
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Meta
-  nameWithType: IHtmlTagService.Meta
-- uid: ToSic.Razor.Blade.IHtmlTagService.MetaOg(System.String,System.String)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Meta
+  nameWithType: IHtmlTagsService.Meta
+- uid: ToSic.Razor.Blade.IHtmlTagsService.MetaOg(System.String,System.String)
   name: MetaOg(String, String)
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_MetaOg_System_String_System_String_
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.MetaOg(System.String,System.String)
-  fullName: ToSic.Razor.Blade.IHtmlTagService.MetaOg(System.String, System.String)
-  nameWithType: IHtmlTagService.MetaOg(String, String)
-- uid: ToSic.Razor.Blade.IHtmlTagService.MetaOg*
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_MetaOg_System_String_System_String_
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.MetaOg(System.String,System.String)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.MetaOg(System.String, System.String)
+  nameWithType: IHtmlTagsService.MetaOg(String, String)
+- uid: ToSic.Razor.Blade.IHtmlTagsService.MetaOg*
   name: MetaOg
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_MetaOg_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.MetaOg
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_MetaOg_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.MetaOg
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.MetaOg
-  nameWithType: IHtmlTagService.MetaOg
-- uid: ToSic.Razor.Blade.IHtmlTagService.Meter(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.MetaOg
+  nameWithType: IHtmlTagsService.MetaOg
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Meter(System.Object[])
   name: Meter(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Meter_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Meter(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Meter_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Meter(System.Object[])
   name.vb: Meter(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Meter(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Meter(System.Object())
-  nameWithType: IHtmlTagService.Meter(Object[])
-  nameWithType.vb: IHtmlTagService.Meter(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Meter*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Meter(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Meter(System.Object())
+  nameWithType: IHtmlTagsService.Meter(Object[])
+  nameWithType.vb: IHtmlTagsService.Meter(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Meter*
   name: Meter
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Meter_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Meter
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Meter_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Meter
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Meter
-  nameWithType: IHtmlTagService.Meter
-- uid: ToSic.Razor.Blade.IHtmlTagService.Nav(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Meter
+  nameWithType: IHtmlTagsService.Meter
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Nav(System.Object[])
   name: Nav(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Nav_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Nav(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Nav_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Nav(System.Object[])
   name.vb: Nav(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Nav(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Nav(System.Object())
-  nameWithType: IHtmlTagService.Nav(Object[])
-  nameWithType.vb: IHtmlTagService.Nav(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Nav*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Nav(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Nav(System.Object())
+  nameWithType: IHtmlTagsService.Nav(Object[])
+  nameWithType.vb: IHtmlTagsService.Nav(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Nav*
   name: Nav
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Nav_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Nav
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Nav_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Nav
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Nav
-  nameWithType: IHtmlTagService.Nav
-- uid: ToSic.Razor.Blade.IHtmlTagService.Noscript(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Nav
+  nameWithType: IHtmlTagsService.Nav
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Noscript(System.Object[])
   name: Noscript(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Noscript_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Noscript(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Noscript_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Noscript(System.Object[])
   name.vb: Noscript(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Noscript(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Noscript(System.Object())
-  nameWithType: IHtmlTagService.Noscript(Object[])
-  nameWithType.vb: IHtmlTagService.Noscript(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Noscript*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Noscript(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Noscript(System.Object())
+  nameWithType: IHtmlTagsService.Noscript(Object[])
+  nameWithType.vb: IHtmlTagsService.Noscript(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Noscript*
   name: Noscript
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Noscript_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Noscript
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Noscript_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Noscript
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Noscript
-  nameWithType: IHtmlTagService.Noscript
-- uid: ToSic.Razor.Blade.IHtmlTagService.Object(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Noscript
+  nameWithType: IHtmlTagsService.Noscript
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Object(System.Object[])
   name: Object(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Object_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Object(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Object_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Object(System.Object[])
   name.vb: Object(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Object(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Object(System.Object())
-  nameWithType: IHtmlTagService.Object(Object[])
-  nameWithType.vb: IHtmlTagService.Object(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Object*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Object(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Object(System.Object())
+  nameWithType: IHtmlTagsService.Object(Object[])
+  nameWithType.vb: IHtmlTagsService.Object(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Object*
   name: Object
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Object_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Object
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Object_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Object
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Object
-  nameWithType: IHtmlTagService.Object
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ol(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Object
+  nameWithType: IHtmlTagsService.Object
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ol(System.Object[])
   name: Ol(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ol_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Ol(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ol_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Ol(System.Object[])
   name.vb: Ol(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ol(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Ol(System.Object())
-  nameWithType: IHtmlTagService.Ol(Object[])
-  nameWithType.vb: IHtmlTagService.Ol(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ol*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ol(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Ol(System.Object())
+  nameWithType: IHtmlTagsService.Ol(Object[])
+  nameWithType.vb: IHtmlTagsService.Ol(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ol*
   name: Ol
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ol_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Ol
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ol_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Ol
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ol
-  nameWithType: IHtmlTagService.Ol
-- uid: ToSic.Razor.Blade.IHtmlTagService.Optgroup(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ol
+  nameWithType: IHtmlTagsService.Ol
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Optgroup(System.Object[])
   name: Optgroup(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Optgroup_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Optgroup(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Optgroup_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Optgroup(System.Object[])
   name.vb: Optgroup(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Optgroup(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Optgroup(System.Object())
-  nameWithType: IHtmlTagService.Optgroup(Object[])
-  nameWithType.vb: IHtmlTagService.Optgroup(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Optgroup*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Optgroup(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Optgroup(System.Object())
+  nameWithType: IHtmlTagsService.Optgroup(Object[])
+  nameWithType.vb: IHtmlTagsService.Optgroup(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Optgroup*
   name: Optgroup
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Optgroup_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Optgroup
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Optgroup_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Optgroup
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Optgroup
-  nameWithType: IHtmlTagService.Optgroup
-- uid: ToSic.Razor.Blade.IHtmlTagService.Option(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Optgroup
+  nameWithType: IHtmlTagsService.Optgroup
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Option(System.Object[])
   name: Option(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Option_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Option(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Option_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Option(System.Object[])
   name.vb: Option(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Option(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Option(System.Object())
-  nameWithType: IHtmlTagService.Option(Object[])
-  nameWithType.vb: IHtmlTagService.Option(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Option*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Option(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Option(System.Object())
+  nameWithType: IHtmlTagsService.Option(Object[])
+  nameWithType.vb: IHtmlTagsService.Option(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Option*
   name: Option
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Option_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Option
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Option_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Option
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Option
-  nameWithType: IHtmlTagService.Option
-- uid: ToSic.Razor.Blade.IHtmlTagService.Output(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Option
+  nameWithType: IHtmlTagsService.Option
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Output(System.Object[])
   name: Output(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Output_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Output(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Output_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Output(System.Object[])
   name.vb: Output(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Output(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Output(System.Object())
-  nameWithType: IHtmlTagService.Output(Object[])
-  nameWithType.vb: IHtmlTagService.Output(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Output*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Output(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Output(System.Object())
+  nameWithType: IHtmlTagsService.Output(Object[])
+  nameWithType.vb: IHtmlTagsService.Output(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Output*
   name: Output
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Output_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Output
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Output_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Output
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Output
-  nameWithType: IHtmlTagService.Output
-- uid: ToSic.Razor.Blade.IHtmlTagService.P(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Output
+  nameWithType: IHtmlTagsService.Output
+- uid: ToSic.Razor.Blade.IHtmlTagsService.P(System.Object[])
   name: P(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_P_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.P(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_P_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.P(System.Object[])
   name.vb: P(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.P(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.P(System.Object())
-  nameWithType: IHtmlTagService.P(Object[])
-  nameWithType.vb: IHtmlTagService.P(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.P*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.P(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.P(System.Object())
+  nameWithType: IHtmlTagsService.P(Object[])
+  nameWithType.vb: IHtmlTagsService.P(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.P*
   name: P
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_P_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.P
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_P_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.P
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.P
-  nameWithType: IHtmlTagService.P
-- uid: ToSic.Razor.Blade.IHtmlTagService.Param(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.P
+  nameWithType: IHtmlTagsService.P
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Param(System.Object[])
   name: Param(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Param_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Param(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Param_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Param(System.Object[])
   name.vb: Param(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Param(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Param(System.Object())
-  nameWithType: IHtmlTagService.Param(Object[])
-  nameWithType.vb: IHtmlTagService.Param(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Param*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Param(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Param(System.Object())
+  nameWithType: IHtmlTagsService.Param(Object[])
+  nameWithType.vb: IHtmlTagsService.Param(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Param*
   name: Param
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Param_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Param
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Param_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Param
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Param
-  nameWithType: IHtmlTagService.Param
-- uid: ToSic.Razor.Blade.IHtmlTagService.Picture(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Param
+  nameWithType: IHtmlTagsService.Param
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Picture(System.Object[])
   name: Picture(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Picture_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Picture(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Picture_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Picture(System.Object[])
   name.vb: Picture(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Picture(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Picture(System.Object())
-  nameWithType: IHtmlTagService.Picture(Object[])
-  nameWithType.vb: IHtmlTagService.Picture(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Picture*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Picture(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Picture(System.Object())
+  nameWithType: IHtmlTagsService.Picture(Object[])
+  nameWithType.vb: IHtmlTagsService.Picture(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Picture*
   name: Picture
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Picture_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Picture
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Picture_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Picture
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Picture
-  nameWithType: IHtmlTagService.Picture
-- uid: ToSic.Razor.Blade.IHtmlTagService.Pre(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Picture
+  nameWithType: IHtmlTagsService.Picture
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Pre(System.Object[])
   name: Pre(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Pre_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Pre(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Pre_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Pre(System.Object[])
   name.vb: Pre(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Pre(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Pre(System.Object())
-  nameWithType: IHtmlTagService.Pre(Object[])
-  nameWithType.vb: IHtmlTagService.Pre(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Pre*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Pre(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Pre(System.Object())
+  nameWithType: IHtmlTagsService.Pre(Object[])
+  nameWithType.vb: IHtmlTagsService.Pre(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Pre*
   name: Pre
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Pre_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Pre
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Pre_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Pre
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Pre
-  nameWithType: IHtmlTagService.Pre
-- uid: ToSic.Razor.Blade.IHtmlTagService.Progress(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Pre
+  nameWithType: IHtmlTagsService.Pre
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Progress(System.Object[])
   name: Progress(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Progress_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Progress(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Progress_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Progress(System.Object[])
   name.vb: Progress(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Progress(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Progress(System.Object())
-  nameWithType: IHtmlTagService.Progress(Object[])
-  nameWithType.vb: IHtmlTagService.Progress(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Progress*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Progress(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Progress(System.Object())
+  nameWithType: IHtmlTagsService.Progress(Object[])
+  nameWithType.vb: IHtmlTagsService.Progress(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Progress*
   name: Progress
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Progress_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Progress
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Progress_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Progress
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Progress
-  nameWithType: IHtmlTagService.Progress
-- uid: ToSic.Razor.Blade.IHtmlTagService.Q(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Progress
+  nameWithType: IHtmlTagsService.Progress
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Q(System.Object[])
   name: Q(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Q_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Q(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Q_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Q(System.Object[])
   name.vb: Q(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Q(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Q(System.Object())
-  nameWithType: IHtmlTagService.Q(Object[])
-  nameWithType.vb: IHtmlTagService.Q(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Q*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Q(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Q(System.Object())
+  nameWithType: IHtmlTagsService.Q(Object[])
+  nameWithType.vb: IHtmlTagsService.Q(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Q*
   name: Q
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Q_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Q
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Q_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Q
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Q
-  nameWithType: IHtmlTagService.Q
-- uid: ToSic.Razor.Blade.IHtmlTagService.RawHtml(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Q
+  nameWithType: IHtmlTagsService.Q
+- uid: ToSic.Razor.Blade.IHtmlTagsService.RawHtml(System.Object[])
   name: RawHtml(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_RawHtml_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.RawHtml(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_RawHtml_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.RawHtml(System.Object[])
   name.vb: RawHtml(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.RawHtml(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.RawHtml(System.Object())
-  nameWithType: IHtmlTagService.RawHtml(Object[])
-  nameWithType.vb: IHtmlTagService.RawHtml(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.RawHtml*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.RawHtml(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.RawHtml(System.Object())
+  nameWithType: IHtmlTagsService.RawHtml(Object[])
+  nameWithType.vb: IHtmlTagsService.RawHtml(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.RawHtml*
   name: RawHtml
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_RawHtml_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.RawHtml
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_RawHtml_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.RawHtml
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.RawHtml
-  nameWithType: IHtmlTagService.RawHtml
-- uid: ToSic.Razor.Blade.IHtmlTagService.Rp(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.RawHtml
+  nameWithType: IHtmlTagsService.RawHtml
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Rp(System.Object[])
   name: Rp(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Rp_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Rp(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Rp_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Rp(System.Object[])
   name.vb: Rp(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Rp(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Rp(System.Object())
-  nameWithType: IHtmlTagService.Rp(Object[])
-  nameWithType.vb: IHtmlTagService.Rp(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Rp*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Rp(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Rp(System.Object())
+  nameWithType: IHtmlTagsService.Rp(Object[])
+  nameWithType.vb: IHtmlTagsService.Rp(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Rp*
   name: Rp
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Rp_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Rp
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Rp_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Rp
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Rp
-  nameWithType: IHtmlTagService.Rp
-- uid: ToSic.Razor.Blade.IHtmlTagService.Rt(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Rp
+  nameWithType: IHtmlTagsService.Rp
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Rt(System.Object[])
   name: Rt(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Rt_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Rt(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Rt_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Rt(System.Object[])
   name.vb: Rt(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Rt(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Rt(System.Object())
-  nameWithType: IHtmlTagService.Rt(Object[])
-  nameWithType.vb: IHtmlTagService.Rt(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Rt*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Rt(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Rt(System.Object())
+  nameWithType: IHtmlTagsService.Rt(Object[])
+  nameWithType.vb: IHtmlTagsService.Rt(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Rt*
   name: Rt
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Rt_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Rt
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Rt_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Rt
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Rt
-  nameWithType: IHtmlTagService.Rt
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ruby(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Rt
+  nameWithType: IHtmlTagsService.Rt
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ruby(System.Object[])
   name: Ruby(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ruby_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Ruby(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ruby_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Ruby(System.Object[])
   name.vb: Ruby(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ruby(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Ruby(System.Object())
-  nameWithType: IHtmlTagService.Ruby(Object[])
-  nameWithType.vb: IHtmlTagService.Ruby(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ruby*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ruby(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Ruby(System.Object())
+  nameWithType: IHtmlTagsService.Ruby(Object[])
+  nameWithType.vb: IHtmlTagsService.Ruby(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ruby*
   name: Ruby
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ruby_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Ruby
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ruby_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Ruby
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ruby
-  nameWithType: IHtmlTagService.Ruby
-- uid: ToSic.Razor.Blade.IHtmlTagService.S(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ruby
+  nameWithType: IHtmlTagsService.Ruby
+- uid: ToSic.Razor.Blade.IHtmlTagsService.S(System.Object[])
   name: S(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_S_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.S(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_S_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.S(System.Object[])
   name.vb: S(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.S(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.S(System.Object())
-  nameWithType: IHtmlTagService.S(Object[])
-  nameWithType.vb: IHtmlTagService.S(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.S*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.S(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.S(System.Object())
+  nameWithType: IHtmlTagsService.S(Object[])
+  nameWithType.vb: IHtmlTagsService.S(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.S*
   name: S
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_S_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.S
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_S_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.S
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.S
-  nameWithType: IHtmlTagService.S
-- uid: ToSic.Razor.Blade.IHtmlTagService.Samp(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.S
+  nameWithType: IHtmlTagsService.S
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Samp(System.Object[])
   name: Samp(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Samp_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Samp(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Samp_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Samp(System.Object[])
   name.vb: Samp(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Samp(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Samp(System.Object())
-  nameWithType: IHtmlTagService.Samp(Object[])
-  nameWithType.vb: IHtmlTagService.Samp(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Samp*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Samp(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Samp(System.Object())
+  nameWithType: IHtmlTagsService.Samp(Object[])
+  nameWithType.vb: IHtmlTagsService.Samp(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Samp*
   name: Samp
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Samp_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Samp
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Samp_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Samp
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Samp
-  nameWithType: IHtmlTagService.Samp
-- uid: ToSic.Razor.Blade.IHtmlTagService.Script(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Samp
+  nameWithType: IHtmlTagsService.Samp
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Script(System.Object[])
   name: Script(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Script_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Script(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Script_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Script(System.Object[])
   name.vb: Script(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Script(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Script(System.Object())
-  nameWithType: IHtmlTagService.Script(Object[])
-  nameWithType.vb: IHtmlTagService.Script(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Script*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Script(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Script(System.Object())
+  nameWithType: IHtmlTagsService.Script(Object[])
+  nameWithType.vb: IHtmlTagsService.Script(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Script*
   name: Script
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Script_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Script
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Script_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Script
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Script
-  nameWithType: IHtmlTagService.Script
-- uid: ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd(System.Object)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Script
+  nameWithType: IHtmlTagsService.Script
+- uid: ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd(System.Object)
   name: ScriptJsonLd(Object)
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_ScriptJsonLd_System_Object_
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd(System.Object)
-  fullName: ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd(System.Object)
-  nameWithType: IHtmlTagService.ScriptJsonLd(Object)
-- uid: ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd(System.String)
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_ScriptJsonLd_System_Object_
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd(System.Object)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd(System.Object)
+  nameWithType: IHtmlTagsService.ScriptJsonLd(Object)
+- uid: ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd(System.String)
   name: ScriptJsonLd(String)
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_ScriptJsonLd_System_String_
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd(System.String)
-  fullName: ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd(System.String)
-  nameWithType: IHtmlTagService.ScriptJsonLd(String)
-- uid: ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd*
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_ScriptJsonLd_System_String_
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd(System.String)
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd(System.String)
+  nameWithType: IHtmlTagsService.ScriptJsonLd(String)
+- uid: ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd*
   name: ScriptJsonLd
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_ScriptJsonLd_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_ScriptJsonLd_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.ScriptJsonLd
-  nameWithType: IHtmlTagService.ScriptJsonLd
-- uid: ToSic.Razor.Blade.IHtmlTagService.Section(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.ScriptJsonLd
+  nameWithType: IHtmlTagsService.ScriptJsonLd
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Section(System.Object[])
   name: Section(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Section_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Section(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Section_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Section(System.Object[])
   name.vb: Section(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Section(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Section(System.Object())
-  nameWithType: IHtmlTagService.Section(Object[])
-  nameWithType.vb: IHtmlTagService.Section(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Section*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Section(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Section(System.Object())
+  nameWithType: IHtmlTagsService.Section(Object[])
+  nameWithType.vb: IHtmlTagsService.Section(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Section*
   name: Section
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Section_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Section
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Section_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Section
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Section
-  nameWithType: IHtmlTagService.Section
-- uid: ToSic.Razor.Blade.IHtmlTagService.Select(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Section
+  nameWithType: IHtmlTagsService.Section
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Select(System.Object[])
   name: Select(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Select_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Select(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Select_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Select(System.Object[])
   name.vb: Select(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Select(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Select(System.Object())
-  nameWithType: IHtmlTagService.Select(Object[])
-  nameWithType.vb: IHtmlTagService.Select(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Select*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Select(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Select(System.Object())
+  nameWithType: IHtmlTagsService.Select(Object[])
+  nameWithType.vb: IHtmlTagsService.Select(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Select*
   name: Select
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Select_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Select
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Select_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Select
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Select
-  nameWithType: IHtmlTagService.Select
-- uid: ToSic.Razor.Blade.IHtmlTagService.Small(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Select
+  nameWithType: IHtmlTagsService.Select
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Small(System.Object[])
   name: Small(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Small_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Small(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Small_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Small(System.Object[])
   name.vb: Small(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Small(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Small(System.Object())
-  nameWithType: IHtmlTagService.Small(Object[])
-  nameWithType.vb: IHtmlTagService.Small(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Small*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Small(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Small(System.Object())
+  nameWithType: IHtmlTagsService.Small(Object[])
+  nameWithType.vb: IHtmlTagsService.Small(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Small*
   name: Small
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Small_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Small
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Small_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Small
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Small
-  nameWithType: IHtmlTagService.Small
-- uid: ToSic.Razor.Blade.IHtmlTagService.Source(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Small
+  nameWithType: IHtmlTagsService.Small
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Source(System.Object[])
   name: Source(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Source_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Source(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Source_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Source(System.Object[])
   name.vb: Source(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Source(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Source(System.Object())
-  nameWithType: IHtmlTagService.Source(Object[])
-  nameWithType.vb: IHtmlTagService.Source(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Source*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Source(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Source(System.Object())
+  nameWithType: IHtmlTagsService.Source(Object[])
+  nameWithType.vb: IHtmlTagsService.Source(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Source*
   name: Source
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Source_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Source
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Source_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Source
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Source
-  nameWithType: IHtmlTagService.Source
-- uid: ToSic.Razor.Blade.IHtmlTagService.Span(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Source
+  nameWithType: IHtmlTagsService.Source
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Span(System.Object[])
   name: Span(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Span_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Span(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Span_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Span(System.Object[])
   name.vb: Span(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Span(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Span(System.Object())
-  nameWithType: IHtmlTagService.Span(Object[])
-  nameWithType.vb: IHtmlTagService.Span(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Span*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Span(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Span(System.Object())
+  nameWithType: IHtmlTagsService.Span(Object[])
+  nameWithType.vb: IHtmlTagsService.Span(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Span*
   name: Span
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Span_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Span
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Span_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Span
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Span
-  nameWithType: IHtmlTagService.Span
-- uid: ToSic.Razor.Blade.IHtmlTagService.Strong(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Span
+  nameWithType: IHtmlTagsService.Span
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Strong(System.Object[])
   name: Strong(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Strong_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Strong(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Strong_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Strong(System.Object[])
   name.vb: Strong(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Strong(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Strong(System.Object())
-  nameWithType: IHtmlTagService.Strong(Object[])
-  nameWithType.vb: IHtmlTagService.Strong(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Strong*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Strong(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Strong(System.Object())
+  nameWithType: IHtmlTagsService.Strong(Object[])
+  nameWithType.vb: IHtmlTagsService.Strong(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Strong*
   name: Strong
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Strong_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Strong
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Strong_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Strong
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Strong
-  nameWithType: IHtmlTagService.Strong
-- uid: ToSic.Razor.Blade.IHtmlTagService.Style(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Strong
+  nameWithType: IHtmlTagsService.Strong
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Style(System.Object[])
   name: Style(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Style_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Style(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Style_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Style(System.Object[])
   name.vb: Style(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Style(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Style(System.Object())
-  nameWithType: IHtmlTagService.Style(Object[])
-  nameWithType.vb: IHtmlTagService.Style(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Style*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Style(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Style(System.Object())
+  nameWithType: IHtmlTagsService.Style(Object[])
+  nameWithType.vb: IHtmlTagsService.Style(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Style*
   name: Style
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Style_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Style
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Style_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Style
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Style
-  nameWithType: IHtmlTagService.Style
-- uid: ToSic.Razor.Blade.IHtmlTagService.Sub(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Style
+  nameWithType: IHtmlTagsService.Style
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Sub(System.Object[])
   name: Sub(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Sub_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Sub(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Sub_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Sub(System.Object[])
   name.vb: Sub(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Sub(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Sub(System.Object())
-  nameWithType: IHtmlTagService.Sub(Object[])
-  nameWithType.vb: IHtmlTagService.Sub(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Sub*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Sub(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Sub(System.Object())
+  nameWithType: IHtmlTagsService.Sub(Object[])
+  nameWithType.vb: IHtmlTagsService.Sub(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Sub*
   name: Sub
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Sub_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Sub
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Sub_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Sub
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Sub
-  nameWithType: IHtmlTagService.Sub
-- uid: ToSic.Razor.Blade.IHtmlTagService.Summary(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Sub
+  nameWithType: IHtmlTagsService.Sub
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Summary(System.Object[])
   name: Summary(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Summary_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Summary(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Summary_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Summary(System.Object[])
   name.vb: Summary(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Summary(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Summary(System.Object())
-  nameWithType: IHtmlTagService.Summary(Object[])
-  nameWithType.vb: IHtmlTagService.Summary(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Summary*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Summary(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Summary(System.Object())
+  nameWithType: IHtmlTagsService.Summary(Object[])
+  nameWithType.vb: IHtmlTagsService.Summary(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Summary*
   name: Summary
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Summary_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Summary
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Summary_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Summary
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Summary
-  nameWithType: IHtmlTagService.Summary
-- uid: ToSic.Razor.Blade.IHtmlTagService.Sup(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Summary
+  nameWithType: IHtmlTagsService.Summary
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Sup(System.Object[])
   name: Sup(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Sup_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Sup(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Sup_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Sup(System.Object[])
   name.vb: Sup(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Sup(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Sup(System.Object())
-  nameWithType: IHtmlTagService.Sup(Object[])
-  nameWithType.vb: IHtmlTagService.Sup(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Sup*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Sup(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Sup(System.Object())
+  nameWithType: IHtmlTagsService.Sup(Object[])
+  nameWithType.vb: IHtmlTagsService.Sup(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Sup*
   name: Sup
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Sup_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Sup
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Sup_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Sup
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Sup
-  nameWithType: IHtmlTagService.Sup
-- uid: ToSic.Razor.Blade.IHtmlTagService.Svg(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Sup
+  nameWithType: IHtmlTagsService.Sup
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Svg(System.Object[])
   name: Svg(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Svg_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Svg(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Svg_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Svg(System.Object[])
   name.vb: Svg(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Svg(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Svg(System.Object())
-  nameWithType: IHtmlTagService.Svg(Object[])
-  nameWithType.vb: IHtmlTagService.Svg(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Svg*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Svg(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Svg(System.Object())
+  nameWithType: IHtmlTagsService.Svg(Object[])
+  nameWithType.vb: IHtmlTagsService.Svg(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Svg*
   name: Svg
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Svg_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Svg
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Svg_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Svg
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Svg
-  nameWithType: IHtmlTagService.Svg
-- uid: ToSic.Razor.Blade.IHtmlTagService.Table(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Svg
+  nameWithType: IHtmlTagsService.Svg
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Table(System.Object[])
   name: Table(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Table_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Table(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Table_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Table(System.Object[])
   name.vb: Table(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Table(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Table(System.Object())
-  nameWithType: IHtmlTagService.Table(Object[])
-  nameWithType.vb: IHtmlTagService.Table(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Table*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Table(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Table(System.Object())
+  nameWithType: IHtmlTagsService.Table(Object[])
+  nameWithType.vb: IHtmlTagsService.Table(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Table*
   name: Table
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Table_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Table
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Table_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Table
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Table
-  nameWithType: IHtmlTagService.Table
-- uid: ToSic.Razor.Blade.IHtmlTagService.TagList(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Table
+  nameWithType: IHtmlTagsService.Table
+- uid: ToSic.Razor.Blade.IHtmlTagsService.TagList(System.Object[])
   name: TagList(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_TagList_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.TagList(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_TagList_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.TagList(System.Object[])
   name.vb: TagList(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.TagList(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.TagList(System.Object())
-  nameWithType: IHtmlTagService.TagList(Object[])
-  nameWithType.vb: IHtmlTagService.TagList(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.TagList*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.TagList(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.TagList(System.Object())
+  nameWithType: IHtmlTagsService.TagList(Object[])
+  nameWithType.vb: IHtmlTagsService.TagList(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.TagList*
   name: TagList
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_TagList_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.TagList
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_TagList_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.TagList
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.TagList
-  nameWithType: IHtmlTagService.TagList
-- uid: ToSic.Razor.Blade.IHtmlTagService.Tbody(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.TagList
+  nameWithType: IHtmlTagsService.TagList
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Tbody(System.Object[])
   name: Tbody(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Tbody_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Tbody(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Tbody_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Tbody(System.Object[])
   name.vb: Tbody(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Tbody(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Tbody(System.Object())
-  nameWithType: IHtmlTagService.Tbody(Object[])
-  nameWithType.vb: IHtmlTagService.Tbody(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Tbody*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Tbody(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Tbody(System.Object())
+  nameWithType: IHtmlTagsService.Tbody(Object[])
+  nameWithType.vb: IHtmlTagsService.Tbody(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Tbody*
   name: Tbody
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Tbody_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Tbody
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Tbody_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Tbody
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Tbody
-  nameWithType: IHtmlTagService.Tbody
-- uid: ToSic.Razor.Blade.IHtmlTagService.Td(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Tbody
+  nameWithType: IHtmlTagsService.Tbody
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Td(System.Object[])
   name: Td(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Td_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Td(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Td_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Td(System.Object[])
   name.vb: Td(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Td(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Td(System.Object())
-  nameWithType: IHtmlTagService.Td(Object[])
-  nameWithType.vb: IHtmlTagService.Td(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Td*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Td(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Td(System.Object())
+  nameWithType: IHtmlTagsService.Td(Object[])
+  nameWithType.vb: IHtmlTagsService.Td(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Td*
   name: Td
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Td_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Td
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Td_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Td
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Td
-  nameWithType: IHtmlTagService.Td
-- uid: ToSic.Razor.Blade.IHtmlTagService.Template(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Td
+  nameWithType: IHtmlTagsService.Td
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Template(System.Object[])
   name: Template(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Template_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Template(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Template_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Template(System.Object[])
   name.vb: Template(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Template(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Template(System.Object())
-  nameWithType: IHtmlTagService.Template(Object[])
-  nameWithType.vb: IHtmlTagService.Template(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Template*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Template(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Template(System.Object())
+  nameWithType: IHtmlTagsService.Template(Object[])
+  nameWithType.vb: IHtmlTagsService.Template(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Template*
   name: Template
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Template_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Template
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Template_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Template
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Template
-  nameWithType: IHtmlTagService.Template
-- uid: ToSic.Razor.Blade.IHtmlTagService.Textarea(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Template
+  nameWithType: IHtmlTagsService.Template
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Textarea(System.Object[])
   name: Textarea(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Textarea_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Textarea(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Textarea_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Textarea(System.Object[])
   name.vb: Textarea(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Textarea(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Textarea(System.Object())
-  nameWithType: IHtmlTagService.Textarea(Object[])
-  nameWithType.vb: IHtmlTagService.Textarea(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Textarea*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Textarea(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Textarea(System.Object())
+  nameWithType: IHtmlTagsService.Textarea(Object[])
+  nameWithType.vb: IHtmlTagsService.Textarea(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Textarea*
   name: Textarea
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Textarea_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Textarea
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Textarea_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Textarea
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Textarea
-  nameWithType: IHtmlTagService.Textarea
-- uid: ToSic.Razor.Blade.IHtmlTagService.Tfoot(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Textarea
+  nameWithType: IHtmlTagsService.Textarea
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Tfoot(System.Object[])
   name: Tfoot(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Tfoot_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Tfoot(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Tfoot_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Tfoot(System.Object[])
   name.vb: Tfoot(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Tfoot(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Tfoot(System.Object())
-  nameWithType: IHtmlTagService.Tfoot(Object[])
-  nameWithType.vb: IHtmlTagService.Tfoot(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Tfoot*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Tfoot(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Tfoot(System.Object())
+  nameWithType: IHtmlTagsService.Tfoot(Object[])
+  nameWithType.vb: IHtmlTagsService.Tfoot(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Tfoot*
   name: Tfoot
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Tfoot_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Tfoot
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Tfoot_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Tfoot
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Tfoot
-  nameWithType: IHtmlTagService.Tfoot
-- uid: ToSic.Razor.Blade.IHtmlTagService.Th(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Tfoot
+  nameWithType: IHtmlTagsService.Tfoot
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Th(System.Object[])
   name: Th(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Th_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Th(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Th_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Th(System.Object[])
   name.vb: Th(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Th(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Th(System.Object())
-  nameWithType: IHtmlTagService.Th(Object[])
-  nameWithType.vb: IHtmlTagService.Th(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Th*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Th(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Th(System.Object())
+  nameWithType: IHtmlTagsService.Th(Object[])
+  nameWithType.vb: IHtmlTagsService.Th(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Th*
   name: Th
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Th_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Th
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Th_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Th
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Th
-  nameWithType: IHtmlTagService.Th
-- uid: ToSic.Razor.Blade.IHtmlTagService.Thead(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Th
+  nameWithType: IHtmlTagsService.Th
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Thead(System.Object[])
   name: Thead(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Thead_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Thead(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Thead_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Thead(System.Object[])
   name.vb: Thead(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Thead(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Thead(System.Object())
-  nameWithType: IHtmlTagService.Thead(Object[])
-  nameWithType.vb: IHtmlTagService.Thead(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Thead*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Thead(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Thead(System.Object())
+  nameWithType: IHtmlTagsService.Thead(Object[])
+  nameWithType.vb: IHtmlTagsService.Thead(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Thead*
   name: Thead
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Thead_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Thead
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Thead_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Thead
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Thead
-  nameWithType: IHtmlTagService.Thead
-- uid: ToSic.Razor.Blade.IHtmlTagService.Time(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Thead
+  nameWithType: IHtmlTagsService.Thead
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Time(System.Object[])
   name: Time(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Time_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Time(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Time_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Time(System.Object[])
   name.vb: Time(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Time(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Time(System.Object())
-  nameWithType: IHtmlTagService.Time(Object[])
-  nameWithType.vb: IHtmlTagService.Time(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Time*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Time(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Time(System.Object())
+  nameWithType: IHtmlTagsService.Time(Object[])
+  nameWithType.vb: IHtmlTagsService.Time(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Time*
   name: Time
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Time_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Time
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Time_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Time
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Time
-  nameWithType: IHtmlTagService.Time
-- uid: ToSic.Razor.Blade.IHtmlTagService.Tr(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Time
+  nameWithType: IHtmlTagsService.Time
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Tr(System.Object[])
   name: Tr(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Tr_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Tr(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Tr_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Tr(System.Object[])
   name.vb: Tr(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Tr(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Tr(System.Object())
-  nameWithType: IHtmlTagService.Tr(Object[])
-  nameWithType.vb: IHtmlTagService.Tr(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Tr*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Tr(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Tr(System.Object())
+  nameWithType: IHtmlTagsService.Tr(Object[])
+  nameWithType.vb: IHtmlTagsService.Tr(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Tr*
   name: Tr
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Tr_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Tr
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Tr_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Tr
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Tr
-  nameWithType: IHtmlTagService.Tr
-- uid: ToSic.Razor.Blade.IHtmlTagService.Track(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Tr
+  nameWithType: IHtmlTagsService.Tr
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Track(System.Object[])
   name: Track(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Track_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Track(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Track_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Track(System.Object[])
   name.vb: Track(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Track(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Track(System.Object())
-  nameWithType: IHtmlTagService.Track(Object[])
-  nameWithType.vb: IHtmlTagService.Track(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Track*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Track(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Track(System.Object())
+  nameWithType: IHtmlTagsService.Track(Object[])
+  nameWithType.vb: IHtmlTagsService.Track(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Track*
   name: Track
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Track_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Track
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Track_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Track
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Track
-  nameWithType: IHtmlTagService.Track
-- uid: ToSic.Razor.Blade.IHtmlTagService.U(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Track
+  nameWithType: IHtmlTagsService.Track
+- uid: ToSic.Razor.Blade.IHtmlTagsService.U(System.Object[])
   name: U(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_U_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.U(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_U_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.U(System.Object[])
   name.vb: U(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.U(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.U(System.Object())
-  nameWithType: IHtmlTagService.U(Object[])
-  nameWithType.vb: IHtmlTagService.U(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.U*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.U(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.U(System.Object())
+  nameWithType: IHtmlTagsService.U(Object[])
+  nameWithType.vb: IHtmlTagsService.U(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.U*
   name: U
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_U_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.U
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_U_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.U
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.U
-  nameWithType: IHtmlTagService.U
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ul(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.U
+  nameWithType: IHtmlTagsService.U
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ul(System.Object[])
   name: Ul(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ul_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Ul(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ul_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Ul(System.Object[])
   name.vb: Ul(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ul(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Ul(System.Object())
-  nameWithType: IHtmlTagService.Ul(Object[])
-  nameWithType.vb: IHtmlTagService.Ul(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Ul*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ul(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Ul(System.Object())
+  nameWithType: IHtmlTagsService.Ul(Object[])
+  nameWithType.vb: IHtmlTagsService.Ul(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Ul*
   name: Ul
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Ul_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Ul
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Ul_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Ul
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Ul
-  nameWithType: IHtmlTagService.Ul
-- uid: ToSic.Razor.Blade.IHtmlTagService.Var(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Ul
+  nameWithType: IHtmlTagsService.Ul
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Var(System.Object[])
   name: Var(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Var_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Var(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Var_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Var(System.Object[])
   name.vb: Var(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Var(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Var(System.Object())
-  nameWithType: IHtmlTagService.Var(Object[])
-  nameWithType.vb: IHtmlTagService.Var(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Var*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Var(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Var(System.Object())
+  nameWithType: IHtmlTagsService.Var(Object[])
+  nameWithType.vb: IHtmlTagsService.Var(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Var*
   name: Var
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Var_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Var
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Var_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Var
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Var
-  nameWithType: IHtmlTagService.Var
-- uid: ToSic.Razor.Blade.IHtmlTagService.Video(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Var
+  nameWithType: IHtmlTagsService.Var
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Video(System.Object[])
   name: Video(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Video_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Video(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Video_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Video(System.Object[])
   name.vb: Video(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Video(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Video(System.Object())
-  nameWithType: IHtmlTagService.Video(Object[])
-  nameWithType.vb: IHtmlTagService.Video(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Video*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Video(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Video(System.Object())
+  nameWithType: IHtmlTagsService.Video(Object[])
+  nameWithType.vb: IHtmlTagsService.Video(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Video*
   name: Video
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Video_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Video
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Video_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Video
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Video
-  nameWithType: IHtmlTagService.Video
-- uid: ToSic.Razor.Blade.IHtmlTagService.Wbr(System.Object[])
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Video
+  nameWithType: IHtmlTagsService.Video
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Wbr(System.Object[])
   name: Wbr(Object[])
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Wbr_System_Object___
-  commentId: M:ToSic.Razor.Blade.IHtmlTagService.Wbr(System.Object[])
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Wbr_System_Object___
+  commentId: M:ToSic.Razor.Blade.IHtmlTagsService.Wbr(System.Object[])
   name.vb: Wbr(Object())
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Wbr(System.Object[])
-  fullName.vb: ToSic.Razor.Blade.IHtmlTagService.Wbr(System.Object())
-  nameWithType: IHtmlTagService.Wbr(Object[])
-  nameWithType.vb: IHtmlTagService.Wbr(Object())
-- uid: ToSic.Razor.Blade.IHtmlTagService.Wbr*
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Wbr(System.Object[])
+  fullName.vb: ToSic.Razor.Blade.IHtmlTagsService.Wbr(System.Object())
+  nameWithType: IHtmlTagsService.Wbr(Object[])
+  nameWithType.vb: IHtmlTagsService.Wbr(Object())
+- uid: ToSic.Razor.Blade.IHtmlTagsService.Wbr*
   name: Wbr
-  href: api/ToSic.Razor.Blade.IHtmlTagService.html#ToSic_Razor_Blade_IHtmlTagService_Wbr_
-  commentId: Overload:ToSic.Razor.Blade.IHtmlTagService.Wbr
+  href: api/ToSic.Razor.Blade.IHtmlTagsService.html#ToSic_Razor_Blade_IHtmlTagsService_Wbr_
+  commentId: Overload:ToSic.Razor.Blade.IHtmlTagsService.Wbr
   isSpec: "True"
-  fullName: ToSic.Razor.Blade.IHtmlTagService.Wbr
-  nameWithType: IHtmlTagService.Wbr
+  fullName: ToSic.Razor.Blade.IHtmlTagsService.Wbr
+  nameWithType: IHtmlTagsService.Wbr
 - uid: ToSic.Razor.Blade.IScrub
   name: IScrub
   href: api/ToSic.Razor.Blade.IScrub.html
