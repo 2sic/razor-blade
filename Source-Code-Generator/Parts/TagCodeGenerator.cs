@@ -101,13 +101,13 @@ Standalone ? "" : $@"
 
         #endregion
 
-        #region HtmlTagService & Interface
+        #region HtmlTagsService & Interface
 
-        public string HtmlTagServiceCode => $@"
+        public string HtmlTagsServiceCode => $@"
     /// <inheritdoc />
     public {ClassName} {ClassName}(params object[] content) => new {ClassName}(content);";
 
-        public string HtmlTagServiceInterfaceCode => $@"{Comment(ContentParamName)}
+        public string HtmlTagsServiceInterfaceCode => $@"{Comment(ContentParamName)}
     /// <code>
     /// // This assumes that `tagSvc` was previously retrieved from dependency injection
     /// var {ClassName.ToLower()} = tagSvc.{ClassName}();{(

@@ -17,7 +17,7 @@ namespace ToSic.Razor.StartUp
         public static IServiceCollection AddRazorBlade(this IServiceCollection services)
         {
             services.TryAddTransient<IScrub, ScrubImplementation>();
-            services.TryAddTransient<IHtmlTagService, HtmlTagServiceImplementation>();
+            services.TryAddTransient<IHtmlTagsService, HtmlTagsServiceImplementation>();
             return services;
         }
 

@@ -102,7 +102,7 @@
                             <a href="ToSic.Razor.Blade.IHtmlTag.html" title="IHtmlTag" class="">IHtmlTag</a>
                           </li>
                           <li class="">
-                            <a href="ToSic.Razor.Blade.IHtmlTagService.html" title="IHtmlTagService" class="">IHtmlTagService</a>
+                            <a href="ToSic.Razor.Blade.IHtmlTagsService.html" title="IHtmlTagsService" class="">IHtmlTagsService</a>
                           </li>
                           <li class="">
                             <a href="ToSic.Razor.Blade.IScrub.html" title="IScrub" class="">IScrub</a>
@@ -552,7 +552,7 @@ The objects are smart - for example this will automatically uri-encode 😎</p>
       <h4><a class="xref" href="ToSic.Razor.Blade.IHtmlTag.html">IHtmlTag</a></h4>
       <section><p>Public interface for all Html5Tags</p>
 </section>
-      <h4><a class="xref" href="ToSic.Razor.Blade.IHtmlTagService.html">IHtmlTagService</a></h4>
+      <h4><a class="xref" href="ToSic.Razor.Blade.IHtmlTagsService.html">IHtmlTagsService</a></h4>
       <section><p>The service to generate HTML Tags.</p>
 <div class="TIP"><h5>Tip</h5><p>This is the new, recommended way of generating tags, as it&apos;s better and <strong>functional</strong></p>
 </div>
@@ -566,7 +566,7 @@ var tagOld = ToSic.Razor.Blade.Tag.Div();
 var tagOldWithId = tagOld.Id(...).Style(...).Class(...);
 // now tagOld and tagOldWithId are both the same objects with all changes applied
 
-// New API - assumes tagSvc is IHtmlTagService
+// New API - assumes tagSvc is IHtmlTagsService
 // these two objects will NOT be the same
 var tag = tagSvc.Div();
 var tagWithId = tag.Id(...).Style(...).Class(...);

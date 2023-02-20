@@ -8,7 +8,7 @@ using ToSic.Razor.Internals.Documentation;
 // ****
 // This is auto-generated code - don't modify
 // Re-run the generation program to recreate
-// Created 20.2.2023. 11:37
+// Created 20.2.2023. 13:35
 //
 // Each tag and attributes of it prepare code, and they return an object of the same type again
 // to allow fluid chaining of the commands
@@ -24,7 +24,7 @@ using ToSic.Razor.Internals.Documentation;
 // ReSharper disable once CheckNamespace
 namespace ToSic.Razor.Blade
 {
-    public partial interface IHtmlTagService
+    public partial interface IHtmlTagsService
     {
         
     /// <summary>

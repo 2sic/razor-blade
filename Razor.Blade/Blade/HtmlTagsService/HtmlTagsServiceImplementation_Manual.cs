@@ -3,7 +3,7 @@ using ToSic.Razor.Markup;
 
 namespace ToSic.Razor.Blade
 {
-    public partial class HtmlTagServiceImplementation
+    public partial class HtmlTagsServiceImplementation
     {
         /// <inheritdoc />
         public Comment Comment(string content = null) => new Comment(content);
