@@ -12,7 +12,7 @@ namespace ToSic.Razor.Markup
     /// Cross platform (.net core and framework) HTML string implementation
     /// </summary>
     [PrivateApi]
-    public class RawHtmlString: IHtmlString
+    public class RawHtmlString: IHybridHtmlString
     {
         internal RawHtmlString(string value) => _value = value;
 
