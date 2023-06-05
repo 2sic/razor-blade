@@ -4,6 +4,7 @@
     {
         internal static string SafeTruncate(string value, int length, bool treatEntitiesAsOneChar = true)
         {
+            if (value == null) return "";
             if (length < 1) return "";
 
             value = value.Trim();

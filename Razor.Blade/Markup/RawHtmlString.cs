@@ -12,15 +12,25 @@ namespace ToSic.Razor.Markup
     /// Cross platform (.net core and framework) HTML string implementation
     /// </summary>
     [PrivateApi]
-    public class RawHtmlString: IHtmlString
+    public class RawHtmlString: IRawHtmlString
     {
-        internal RawHtmlString(string value) => _value = value;
+        /// <summary>
+        /// Constructor to provide initial value.
+        /// </summary>
+        /// <param name="value"></param>
+        public RawHtmlString(string value) => _value = value;
 
+        /// <summary>
+        /// Constructor with empty initial value.
+        /// Mainly used when overriding this class, and probably never using _value.
+        /// </summary>
         protected RawHtmlString() => _value = "";
         private readonly string _value;
 
         /// <summary>
         /// Standard ToString overload - used when concatenating strings.
+        ///
+        /// This is also the method used for any other integration, so overwrite this if you need to change the behavior.
         /// </summary>
         /// <returns></returns>
         public override string ToString() => _value;

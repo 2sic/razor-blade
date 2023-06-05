@@ -11,6 +11,6 @@ namespace ToSic.Razor.Blade
         /// </summary>
         /// <param name="url"></param>
         /// <returns></returns>
-        public static RawHtmlString SafeUrl(string url) => new RawHtmlString(UriHelpers.UriEncode(url));
+        public static RawHtmlString SafeUrl(string url) => new RawHtmlString(UriHelpers.UriEncode(url ?? ""));
     }
 }
