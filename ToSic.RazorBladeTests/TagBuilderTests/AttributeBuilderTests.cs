@@ -6,11 +6,25 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
     [TestClass]
     public class AttributeBuilderTests
     {
+        /// <summary>
+        /// Test accessor to reduce use-count
+        /// </summary>
+        public Attribute NewAttribute(string name, object? value = default, AttributeOptions? options = default)
+            => new Attribute(name, value, options);
+
         [TestMethod]
         public void BasicAttributes()
         {
-            Assert.AreEqual("name='value'", new Attribute("name", "value").ToString());
-            Assert.AreEqual("something='other'", new Attribute("something", "other").ToString());
+            Assert.AreEqual("name='value'", NewAttribute("name", "value").ToString());
+            Assert.AreEqual("something='other'", NewAttribute("something", "other").ToString());
+        }
+
+        [TestMethod] public void BasicAttributesStandalone()
+        {
+            var o = AttributeOptions.StandaloneOptions;
+            Assert.AreEqual(" name='value' ", NewAttribute("name", "value", o).ToString());
+            Assert.AreEqual(" something='other' ", NewAttribute("something", "other", o).ToString());
+
         }
 
         [TestMethod]
@@ -18,9 +32,9 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         {
             var options = new AttributeOptions(quote: "\"");
             Assert.AreEqual("name=\"value\"", 
-                new Attribute("name", "value", options).ToString());
+                NewAttribute("name", "value", options).ToString());
             Assert.AreEqual("something=\"other\"",
-                new Attribute("something", "other", options).ToString());
+                NewAttribute("something", "other", options).ToString());
         }
 
         [TestMethod]
@@ -28,18 +42,18 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         {
             var options = new AttributeOptions(encodeQuotes: true);
             Assert.AreEqual("name='{\"name\":\"daniel\"}'", 
-                new Attribute("name", "{\"name\":\"daniel\"}").ToString());
+                NewAttribute("name", "{\"name\":\"daniel\"}").ToString());
             Assert.AreEqual("name='{&quot;name&quot;:&quot;daniel&quot;}'",
-                new Attribute("name", "{\"name\":\"daniel\"}", options).ToString());
+                NewAttribute("name", "{\"name\":\"daniel\"}", options).ToString());
 
             options = new AttributeOptions(quote: "\"");
             Assert.AreEqual("name=\"{&quot;name&quot;:&quot;daniel&quot;}\"",
-                new Attribute("name", "{\"name\":\"daniel\"}", options).ToString(),
+                NewAttribute("name", "{\"name\":\"daniel\"}", options).ToString(),
                 "with a different quote and encodeQuotes false");
 
             options = new AttributeOptions(encodeQuotes: true, quote: "\"");
             Assert.AreEqual("name=\"{&quot;name&quot;:&quot;daniel&quot;}\"",
-                new Attribute("name", "{\"name\":\"daniel\"}", options).ToString(),
+                NewAttribute("name", "{\"name\":\"daniel\"}", options).ToString(),
                 "with a different quote and encodeQuotes = true");
 
         }
@@ -49,17 +63,17 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         {
             var options = new AttributeOptions(quote: "\"");
             Assert.AreEqual("name=\"isn't it ironic\"",
-                new Attribute("name", "isn't it ironic", options).ToString(),
+                NewAttribute("name", "isn't it ironic", options).ToString(),
                 "apostrophe with a different quote and encodeQuotes = false");
 
             options = new AttributeOptions(encodeQuotes: true);
             Assert.AreEqual("name='isn&apos;t it ironic'",
-                new Attribute("name", "isn't it ironic", options).ToString(),
+                NewAttribute("name", "isn't it ironic", options).ToString(),
                 "apostrophe with a different quote and encodeQuotes = true");
 
             options = new AttributeOptions(encodeQuotes: true, quote: "\"");
             Assert.AreEqual("name=\"isn&apos;t it ironic\"",
-                new Attribute("name", "isn't it ironic", options).ToString(),
+                NewAttribute("name", "isn't it ironic", options).ToString(),
                 "apostrophe with a different quote and encodeQuotes = true");
 
         }
@@ -68,16 +82,16 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         public void BasicAttributesEmpty()
         {
             Assert.AreEqual("name=''", 
-                new Attribute("name", "").ToString());
+                NewAttribute("name", "").ToString());
             Assert.AreEqual("name", 
-                new Attribute("name", null).ToString());
+                NewAttribute("name", null).ToString());
             Assert.AreEqual("name=''", 
-                new Attribute("name", null,
+                NewAttribute("name", null,
                 new AttributeOptions(dropValueIfNull: false)).ToString());
 
             var options = new AttributeOptions(keepEmpty: false);
             Assert.AreEqual("", 
-                new Attribute("name", "", options).ToString());
+                NewAttribute("name", "", options).ToString());
         }
 
         [TestMethod]
@@ -85,11 +99,11 @@ namespace ToSic.RazorBladeTests.TagBuilderTests
         {
             //var options = new AttributeOptions { KeepEmpty = false };
             Assert.AreEqual("name='54'",
-                new Attribute("name", 54).ToString());
+                NewAttribute("name", 54).ToString());
             Assert.AreEqual("name='{\"Name\":\"Daniel\"}'",
-                new Attribute("name", new { Name = "Daniel" }).ToString());
+                NewAttribute("name", new { Name = "Daniel" }).ToString());
             Assert.AreEqual("name='Daniel'",
-                new Attribute("name", "Daniel" as object).ToString());
+                NewAttribute("name", "Daniel" as object).ToString());
         }
 
     }

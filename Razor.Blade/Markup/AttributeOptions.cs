@@ -33,6 +33,8 @@ namespace ToSic.Razor.Markup
         /// </summary>
         public const bool DefaultDropValueIfNull = true;
 
+        public const bool DefaultAddSpacePaddings = false;
+
         #endregion
 
         #region Constructor to enforce fluid API
@@ -68,10 +70,15 @@ namespace ToSic.Razor.Markup
         /// </summary>
         public bool DropValueIfNull { get; }
 
+        public bool AddPaddings { get; private set; }
+
         [PrivateApi]
         internal static AttributeOptions UseOrCreate(AttributeOptions original) => original ?? DefaultOptions;
 
         [PrivateApi]
         internal static AttributeOptions DefaultOptions = new AttributeOptions();
+
+        [PrivateApi]
+        internal static AttributeOptions StandaloneOptions = new AttributeOptions() { AddPaddings = true };
     }
 }

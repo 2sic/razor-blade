@@ -10,11 +10,11 @@ namespace ToSic.Razor.Blade
 
         /// <inheritdoc />
         public Attribute Attr(string name, string value, AttributeOptions options = null)
-            => new Attribute(name, value, options);
+            => new Attribute(name, value, options ?? AttributeOptions.StandaloneOptions);
 
         /// <inheritdoc />
         public Attribute Attr(string name, object value = null, AttributeOptions options = null)
-            => new Attribute(name, value, options);
+            => new Attribute(name, value, options ?? AttributeOptions.StandaloneOptions);
 
         /// <inheritdoc />
         public TagCustom Custom(string name, params object[] content)

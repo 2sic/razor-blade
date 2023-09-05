@@ -55,7 +55,7 @@
             var currentOptions = AttributeOptions.UseOrCreate(Options);
 
             if (Value == null && currentOptions.DropValueIfNull)
-                return Name;
+                return currentOptions.AddPaddings ? $" {Name} " : Name;
 
             var val = Internals.Html.Encode(ValueStringOrSerialized(Value)) ?? "";
 
@@ -65,9 +65,11 @@
                 val = val.Replace(Internals.Html.Encode(safeQuote), safeQuote);
             }
 
-            return currentOptions.KeepEmpty || !string.IsNullOrEmpty(val)
-                ? $"{Name}={currentOptions.Quote}{val}{currentOptions.Quote}"
-                : "";
+            if (!currentOptions.KeepEmpty && string.IsNullOrEmpty(val))
+                return "";
+
+            var result = $"{Name}={currentOptions.Quote}{val}{currentOptions.Quote}";
+            return currentOptions.AddPaddings ? $" {result} " : result;
         }
         /// <summary>
         /// An sequence already prepared, so no more building would be necessary

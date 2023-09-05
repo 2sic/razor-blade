@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "A:/razor-blade/DocFx Generator",
+  "source_base_path": "C:/Projects/razor-blades/DocFx Generator",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -141,6 +141,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -1777,11 +1780,11 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
