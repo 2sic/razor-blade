@@ -28,10 +28,17 @@ namespace ToSic.RazorBladeTests.TagTests
         }
 
         [TestMethod]
-        public void TagAttributeStandalone()
+        public void TagAttributeWithoutValue()
         {
             Is("<div data-fancybox>", TestDiv().Attr("data-fancybox").TagStart);
         }
+
+        [TestMethod]
+        public void TagAttributeOnly()
+        {
+            Is(" name='value' ", Tag.Attr("name", "value"));
+        }
+
 
         [TestMethod]
         public void TagAttributeMultiple()
