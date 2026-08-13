@@ -18,7 +18,7 @@
       "dest": "obj/api",
       "filter": "filterConfig.yml",
       "properties": {
-        "TargetFramework": "net472"
+        "TargetFramework": "net48"
       }
     }
   ],

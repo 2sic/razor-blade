@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net472;net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net48;net6.0;net7.0</TargetFrameworks>
     <RootNamespace>ToSic.Razor</RootNamespace>
-    <Version>04.04.01</Version>
+    <Version>04.05.00</Version>
     <AssemblyName>ToSic.Razor</AssemblyName>
     <PackageId>ToSic.Razor</PackageId>
     <Authors>ToSic.Razor</Authors>
@@ -30,17 +30,26 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net48' ">
     <PackageReference Include="Microsoft.Extensions.DependencyInjection">
-      <Version>2.1.1</Version>
+      <Version>8.0.0</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
-    <PackageReference Include="System.Text.Json" Version="7.0.2" >
+    <!-- These are NOT deployed (ExcludeAssets=runtime) - we reuse the copies the DNN host already has in bin.
+         Verified against clean installs of DNN 10.1.0 - 10.3.3:
+           System.Text.Json          8.0.0.5 on every version -> exact match.
+           System.Text.Encodings.Web 9.0.0.2 on 10.1.0-10.2.0, 8.0.0.0 on 10.2.1-10.3.3.
+         We pin the 8.0.0 floor so the API surface we compile against exists on every supported host;
+         DNN's catch-all bindingRedirect maps it to 9.0.0.2 on the older ones. -->
+    <PackageReference Include="System.Text.Json" Version="8.0.5" >
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" >
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net48' ">
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />

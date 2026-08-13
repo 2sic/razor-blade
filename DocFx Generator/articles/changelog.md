@@ -4,6 +4,16 @@
 
 ## Version 4
 
+### Version 4.5 (2026-08)
+
+* Changed minimum requirement on `Razor.Blade.Dnn` to be DNN 10.1.0 (previously DNN 9.6.1).
+  This is a **breaking change** for sites still on DNN 9.x - they must stay on RazorBlade 4.4.
+* `Razor.Blade.Dnn` and the .net Framework build of `Razor.Blade` now target .net Framework 4.8 (previously 4.7.2)
+* Shared dependencies on the .net Framework build are now pinned to the versions the DNN 10.x host ships, and none of them are deployed with the module - the host's copies in `bin` are reused. Verified against clean installs of DNN 10.1.0 through 10.3.3:
+  * `Microsoft.Extensions.DependencyInjection` 8.0.0 (was 2.1.1)
+  * `System.Text.Json` 8.0.5 (was 7.0.2)
+  * `System.Text.Encodings.Web` 8.0.0 (was an implicit 7.0.0 via `System.Text.Json`)
+
 ### Version 4.0 (2022-12)
 
 * Created a new interface [`IHtmlTag`](xref:ToSic.Razor.Blade.IHtmlTag) which is supported by all generated code, and ensures you have methods such as `Add(...)` or `Wrap(...)` when using any tag generically.  
